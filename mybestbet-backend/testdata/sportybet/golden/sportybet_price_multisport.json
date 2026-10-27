@@ -1,0 +1,2639 @@
+{
+  "source": "sportybet",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_ANYTIME_TD",
+      "player": {
+        "sourceId": "sr:player:1129725",
+        "name": "Alvin Kamara",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 3.7,
+            "form": "decimal",
+            "prob": 0.27027027027027023,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1235@variant=pre:playerprops:71488628:1129725#pre:playerprops:71488628:1129725:1"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_ANYTIME_TD",
+      "player": {
+        "sourceId": "sr:player:1134065",
+        "name": "Robert Tonyan",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 11,
+            "form": "decimal",
+            "prob": 0.09090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1235@variant=pre:playerprops:71488628:1134065#pre:playerprops:71488628:1134065:1"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_ANYTIME_TD",
+      "player": {
+        "sourceId": "sr:player:831375",
+        "name": "Aaron Rodgers",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 9.1,
+            "form": "decimal",
+            "prob": 0.10989010989010989,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1235@variant=pre:playerprops:71488628:831375#pre:playerprops:71488628:831375:1"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.55,
+            "form": "decimal",
+            "prob": 0.6451612903225806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "219"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "SPREAD",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.15,
+            "form": "decimal",
+            "prob": 0.46511627906976744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.68,
+            "form": "decimal",
+            "prob": 0.5952380952380952,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "223@hcp=2.5"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "SPREAD",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.81,
+            "form": "decimal",
+            "prob": 0.5524861878453039,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.97,
+            "form": "decimal",
+            "prob": 0.5076142131979695,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "223@hcp=3.5"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "SPREAD",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.72,
+            "form": "decimal",
+            "prob": 0.5813953488372093,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "223@hcp=4.5"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "TOTAL",
+      "line": 43.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.76,
+            "form": "decimal",
+            "prob": 0.5681818181818182,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "225@total=43.5"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "TOTAL",
+      "line": 44.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.86,
+            "form": "decimal",
+            "prob": 0.5376344086021505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.91,
+            "form": "decimal",
+            "prob": 0.5235602094240838,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "225@total=44.5"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "TOTAL",
+      "line": 45.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.95,
+            "form": "decimal",
+            "prob": 0.5128205128205129,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.83,
+            "form": "decimal",
+            "prob": 0.5464480874316939,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "225@total=45.5"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "ML",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.61,
+            "form": "decimal",
+            "prob": 0.6211180124223602,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "64"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "SPREAD",
+      "line": 2.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "66@hcp=2.5"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "TOTAL",
+      "line": 22.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "68@total=22.5"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_PASS_YDS",
+      "line": 227.5,
+      "player": {
+        "sourceId": "sr:player:1473050",
+        "name": "Tyler Shough",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "914@total=227.5|player=sr:player:1473050"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_PASS_YDS",
+      "line": 230.5,
+      "player": {
+        "sourceId": "sr:player:831375",
+        "name": "Aaron Rodgers",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.81,
+            "form": "decimal",
+            "prob": 0.5524861878453039,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.9,
+            "form": "decimal",
+            "prob": 0.5263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "914@total=230.5|player=sr:player:831375"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_PASS_TD",
+      "line": 1.5,
+      "player": {
+        "sourceId": "sr:player:1473050",
+        "name": "Tyler Shough",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.3,
+            "form": "decimal",
+            "prob": 0.4347826086956522,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.55,
+            "form": "decimal",
+            "prob": 0.6451612903225806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "916@total=1.5|player=sr:player:1473050"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_PASS_TD",
+      "line": 1.5,
+      "player": {
+        "sourceId": "sr:player:831375",
+        "name": "Aaron Rodgers",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.86,
+            "form": "decimal",
+            "prob": 0.5376344086021505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.84,
+            "form": "decimal",
+            "prob": 0.5434782608695652,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "916@total=1.5|player=sr:player:831375"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_RUSH_YDS",
+      "line": 10.5,
+      "player": {
+        "sourceId": "sr:player:2302155",
+        "name": "De'Carlo Donaldson",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "918@total=10.5|player=sr:player:2302155"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_RUSH_YDS",
+      "line": 14.5,
+      "player": {
+        "sourceId": "sr:player:1473050",
+        "name": "Tyler Shough",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "918@total=14.5|player=sr:player:1473050"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_RUSH_YDS",
+      "line": 16.5,
+      "player": {
+        "sourceId": "sr:player:1129725",
+        "name": "Alvin Kamara",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "918@total=16.5|player=sr:player:1129725"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_REC_YDS",
+      "line": 11.5,
+      "player": {
+        "sourceId": "sr:player:1225766",
+        "name": "Noah Fant",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "919@total=11.5|player=sr:player:1225766"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_REC_YDS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "sr:player:2071633",
+        "name": "Kendre Miller",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.84,
+            "form": "decimal",
+            "prob": 0.5434782608695652,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.86,
+            "form": "decimal",
+            "prob": 0.5376344086021505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "919@total=3.5|player=sr:player:2071633"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_REC_YDS",
+      "line": 7.5,
+      "player": {
+        "sourceId": "sr:player:1216648",
+        "name": "Rico Dowdle",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "919@total=7.5|player=sr:player:1216648"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_REC",
+      "line": 0.5,
+      "player": {
+        "sourceId": "sr:player:2071633",
+        "name": "Kendre Miller",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.57,
+            "form": "decimal",
+            "prob": 0.6369426751592356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.25,
+            "form": "decimal",
+            "prob": 0.4444444444444444,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "920@total=0.5|player=sr:player:2071633"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_REC",
+      "line": 1.5,
+      "player": {
+        "sourceId": "sr:player:1216648",
+        "name": "Rico Dowdle",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "920@total=1.5|player=sr:player:1216648"
+    },
+    {
+      "eventSourceId": "sr:match:71488628",
+      "code": "NF_REC",
+      "line": 1.5,
+      "player": {
+        "sourceId": "sr:player:1225766",
+        "name": "Noah Fant",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.81,
+            "form": "decimal",
+            "prob": 0.5524861878453039,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.9,
+            "form": "decimal",
+            "prob": 0.5263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "920@total=1.5|player=sr:player:1225766"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.34,
+            "form": "decimal",
+            "prob": 0.4273504273504274,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.63,
+            "form": "decimal",
+            "prob": 0.6134969325153374,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "219"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "SPREAD",
+      "line": -10.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 5.55,
+            "form": "decimal",
+            "prob": 0.1801801801801802,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.16,
+            "form": "decimal",
+            "prob": 0.8620689655172414,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "223@hcp=-10.5"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "SPREAD",
+      "line": -8.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 4.57,
+            "form": "decimal",
+            "prob": 0.2188183807439825,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.22,
+            "form": "decimal",
+            "prob": 0.819672131147541,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "223@hcp=-8.5"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "SPREAD",
+      "line": -9.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 5.02,
+            "form": "decimal",
+            "prob": 0.19920318725099603,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.19,
+            "form": "decimal",
+            "prob": 0.8403361344537815,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "223@hcp=-9.5"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "TOTAL",
+      "line": 218.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.24,
+            "form": "decimal",
+            "prob": 0.8064516129032259,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 4.13,
+            "form": "decimal",
+            "prob": 0.24213075060532688,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "225@total=218.5"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "TOTAL",
+      "line": 219.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.27,
+            "form": "decimal",
+            "prob": 0.7874015748031495,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.85,
+            "form": "decimal",
+            "prob": 0.2597402597402597,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "225@total=219.5"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "TOTAL",
+      "line": 220.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.3,
+            "form": "decimal",
+            "prob": 0.7692307692307692,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.59,
+            "form": "decimal",
+            "prob": 0.2785515320334262,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "225@total=220.5"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "TOTAL",
+      "line": 56.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.82,
+            "form": "decimal",
+            "prob": 0.5494505494505494,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.95,
+            "form": "decimal",
+            "prob": 0.5128205128205129,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "236@total=56.5|quarternr=3"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "TOTAL",
+      "line": 59.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.92,
+            "form": "decimal",
+            "prob": 0.5208333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.86,
+            "form": "decimal",
+            "prob": 0.5376344086021505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "236@total=59.5|quarternr=2"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "TOTAL",
+      "line": 60.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.92,
+            "form": "decimal",
+            "prob": 0.5208333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "236@total=60.5|quarternr=1"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "ML",
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.73,
+            "form": "decimal",
+            "prob": 0.5780346820809249,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "302@quarternr=1"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "ML",
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.78,
+            "form": "decimal",
+            "prob": 0.5617977528089888,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "302@quarternr=2"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "ML",
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.74,
+            "form": "decimal",
+            "prob": 0.5747126436781609,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "302@quarternr=3"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.57,
+            "form": "decimal",
+            "prob": 0.6369426751592356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "303@hcp=-1.5|quarternr=2"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.45,
+            "form": "decimal",
+            "prob": 0.4081632653061224,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.54,
+            "form": "decimal",
+            "prob": 0.6493506493506493,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "303@hcp=-1.5|quarternr=3"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.58,
+            "form": "decimal",
+            "prob": 0.6329113924050632,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "303@hcp=-1.5|quarternr=4"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "ML",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.68,
+            "form": "decimal",
+            "prob": 0.5952380952380952,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "64"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "SPREAD",
+      "line": -0.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.25,
+            "form": "decimal",
+            "prob": 0.4444444444444444,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.65,
+            "form": "decimal",
+            "prob": 0.6060606060606061,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "66@hcp=-0.5"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.45,
+            "form": "decimal",
+            "prob": 0.4081632653061224,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.56,
+            "form": "decimal",
+            "prob": 0.641025641025641,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "66@hcp=-1.5"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "SPREAD",
+      "line": 0.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.75,
+            "form": "decimal",
+            "prob": 0.5714285714285714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "66@hcp=0.5"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "TOTAL",
+      "line": 114.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.43,
+            "form": "decimal",
+            "prob": 0.6993006993006994,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.85,
+            "form": "decimal",
+            "prob": 0.3508771929824561,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "68@total=114.5"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "TOTAL",
+      "line": 115.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.5,
+            "form": "decimal",
+            "prob": 0.6666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.6,
+            "form": "decimal",
+            "prob": 0.3846153846153846,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "68@total=115.5"
+    },
+    {
+      "eventSourceId": "sr:match:73719372",
+      "code": "TOTAL",
+      "line": 116.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.57,
+            "form": "decimal",
+            "prob": 0.6369426751592356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "68@total=116.5"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.96,
+            "form": "decimal",
+            "prob": 0.25252525252525254,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 3.85,
+            "form": "decimal",
+            "prob": 0.2597402597402597,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.86,
+            "form": "decimal",
+            "prob": 0.5376344086021505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "DC",
+      "selections": [
+        {
+          "label": "1X",
+          "price": {
+            "raw": 1.86,
+            "form": "decimal",
+            "prob": 0.5376344086021505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "12",
+          "price": {
+            "raw": 1.26,
+            "form": "decimal",
+            "prob": 0.7936507936507936,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X2",
+          "price": {
+            "raw": 1.25,
+            "form": "decimal",
+            "prob": 0.8,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "DNB",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.95,
+            "form": "decimal",
+            "prob": 0.3389830508474576,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.41,
+            "form": "decimal",
+            "prob": 0.7092198581560284,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "11"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "CORN_OU",
+      "line": 9.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.76,
+            "form": "decimal",
+            "prob": 0.5681818181818182,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.96,
+            "form": "decimal",
+            "prob": 0.5102040816326531,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "166@total=9.5"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "AH",
+      "line": -0.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.75,
+            "form": "decimal",
+            "prob": 0.26666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.26,
+            "form": "decimal",
+            "prob": 0.7936507936507936,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "16@hcp=-0.5"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "AH",
+      "line": -1,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 6.9,
+            "form": "decimal",
+            "prob": 0.14492753623188406,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.09,
+            "form": "decimal",
+            "prob": 0.9174311926605504,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "16@hcp=-1"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "AH",
+      "line": 0,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.9,
+            "form": "decimal",
+            "prob": 0.3448275862068966,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.4,
+            "form": "decimal",
+            "prob": 0.7142857142857143,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "16@hcp=0"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "OU",
+      "line": 0.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.03,
+            "form": "decimal",
+            "prob": 0.970873786407767,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 12.5,
+            "form": "decimal",
+            "prob": 0.08,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "18@total=0.5"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "OU",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.19,
+            "form": "decimal",
+            "prob": 0.8403361344537815,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 4.8,
+            "form": "decimal",
+            "prob": 0.20833333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "18@total=1.5"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.6,
+            "form": "decimal",
+            "prob": 0.625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "18@total=2.5"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "QUALIFY",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.75,
+            "form": "decimal",
+            "prob": 0.36363636363636365,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.46,
+            "form": "decimal",
+            "prob": 0.684931506849315,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 1.58,
+            "form": "decimal",
+            "prob": 0.6329113924050632,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "29"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "CS",
+      "selections": [
+        {
+          "label": "0-0",
+          "price": {
+            "raw": 16,
+            "form": "decimal",
+            "prob": 0.0625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-0",
+          "price": {
+            "raw": 15.5,
+            "form": "decimal",
+            "prob": 0.06451612903225806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-0",
+          "price": {
+            "raw": 25,
+            "form": "decimal",
+            "prob": 0.04,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-0",
+          "price": {
+            "raw": 61,
+            "form": "decimal",
+            "prob": 0.01639344262295082,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-0",
+          "price": {
+            "raw": 195,
+            "form": "decimal",
+            "prob": 0.005128205128205128,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-1",
+          "price": {
+            "raw": 10,
+            "form": "decimal",
+            "prob": 0.1,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-1",
+          "price": {
+            "raw": 7.3,
+            "form": "decimal",
+            "prob": 0.136986301369863,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-1",
+          "price": {
+            "raw": 13,
+            "form": "decimal",
+            "prob": 0.07692307692307693,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-1",
+          "price": {
+            "raw": 32,
+            "form": "decimal",
+            "prob": 0.03125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-1",
+          "price": {
+            "raw": 100,
+            "form": "decimal",
+            "prob": 0.01,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-2",
+          "price": {
+            "raw": 10.5,
+            "form": "decimal",
+            "prob": 0.09523809523809523,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-2",
+          "price": {
+            "raw": 8.6,
+            "form": "decimal",
+            "prob": 0.11627906976744186,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-2",
+          "price": {
+            "raw": 12,
+            "form": "decimal",
+            "prob": 0.08333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-2",
+          "price": {
+            "raw": 33,
+            "form": "decimal",
+            "prob": 0.030303030303030304,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-2",
+          "price": {
+            "raw": 105,
+            "form": "decimal",
+            "prob": 0.009523809523809525,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-3",
+          "price": {
+            "raw": 16.5,
+            "form": "decimal",
+            "prob": 0.06060606060606061,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-3",
+          "price": {
+            "raw": 13.5,
+            "form": "decimal",
+            "prob": 0.07407407407407407,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-3",
+          "price": {
+            "raw": 21,
+            "form": "decimal",
+            "prob": 0.047619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-3",
+          "price": {
+            "raw": 45,
+            "form": "decimal",
+            "prob": 0.022222222222222223,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-3",
+          "price": {
+            "raw": 165,
+            "form": "decimal",
+            "prob": 0.006060606060606061,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-4",
+          "price": {
+            "raw": 34,
+            "form": "decimal",
+            "prob": 0.029411764705882353,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-4",
+          "price": {
+            "raw": 28,
+            "form": "decimal",
+            "prob": 0.03571428571428571,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-4",
+          "price": {
+            "raw": 44,
+            "form": "decimal",
+            "prob": 0.022727272727272728,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-4",
+          "price": {
+            "raw": 110,
+            "form": "decimal",
+            "prob": 0.00909090909090909,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-4",
+          "price": {
+            "raw": 250,
+            "form": "decimal",
+            "prob": 0.004,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "Other",
+          "price": {
+            "raw": 15.5,
+            "form": "decimal",
+            "prob": 0.06451612903225806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "45"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "HTFT",
+      "selections": [
+        {
+          "label": "1/1",
+          "price": {
+            "raw": 6.56,
+            "form": "decimal",
+            "prob": 0.1524390243902439,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1/X",
+          "price": {
+            "raw": 15.2,
+            "form": "decimal",
+            "prob": 0.06578947368421052,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1/2",
+          "price": {
+            "raw": 23.49,
+            "form": "decimal",
+            "prob": 0.04257130693912303,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/1",
+          "price": {
+            "raw": 9.46,
+            "form": "decimal",
+            "prob": 0.10570824524312895,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/X",
+          "price": {
+            "raw": 6.25,
+            "form": "decimal",
+            "prob": 0.16,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/2",
+          "price": {
+            "raw": 5.33,
+            "form": "decimal",
+            "prob": 0.18761726078799248,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/1",
+          "price": {
+            "raw": 38.11,
+            "form": "decimal",
+            "prob": 0.026239832065074783,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/X",
+          "price": {
+            "raw": 14.1,
+            "form": "decimal",
+            "prob": 0.07092198581560284,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/2",
+          "price": {
+            "raw": 2.71,
+            "form": "decimal",
+            "prob": 0.36900369003690037,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "47"
+    },
+    {
+      "eventSourceId": "sr:match:74374512",
+      "code": "1H_1X2",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 4.3,
+            "form": "decimal",
+            "prob": 0.23255813953488372,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "60"
+    },
+    {
+      "eventSourceId": "sr:match:75793260",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.02,
+            "form": "decimal",
+            "prob": 0.33112582781456956,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.32,
+            "form": "decimal",
+            "prob": 0.7575757575757576,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "186"
+    },
+    {
+      "eventSourceId": "sr:match:75953170",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.63,
+            "form": "decimal",
+            "prob": 0.6134969325153374,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "186"
+    },
+    {
+      "eventSourceId": "sr:match:75953170",
+      "code": "SET_HCP",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.75,
+            "form": "decimal",
+            "prob": 0.26666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.25,
+            "form": "decimal",
+            "prob": 0.8,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "188@hcp=-1.5"
+    },
+    {
+      "eventSourceId": "sr:match:75953170",
+      "code": "SET_HCP",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.47,
+            "form": "decimal",
+            "prob": 0.6802721088435374,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.55,
+            "form": "decimal",
+            "prob": 0.3921568627450981,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "188@hcp=1.5"
+    },
+    {
+      "eventSourceId": "sr:match:75953170",
+      "code": "TOTAL_GAMES",
+      "line": 19.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.28,
+            "form": "decimal",
+            "prob": 0.78125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.7,
+            "form": "decimal",
+            "prob": 0.27027027027027023,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "189@total=19.5"
+    },
+    {
+      "eventSourceId": "sr:match:75953170",
+      "code": "TOTAL_GAMES",
+      "line": 20.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.43,
+            "form": "decimal",
+            "prob": 0.6993006993006994,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.85,
+            "form": "decimal",
+            "prob": 0.3508771929824561,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "189@total=20.5"
+    },
+    {
+      "eventSourceId": "sr:match:75953170",
+      "code": "TOTAL_GAMES",
+      "line": 21.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.55,
+            "form": "decimal",
+            "prob": 0.6451612903225806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.45,
+            "form": "decimal",
+            "prob": 0.4081632653061224,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "189@total=21.5"
+    },
+    {
+      "eventSourceId": "sr:match:75953170",
+      "code": "ML",
+      "period": "S1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.15,
+            "form": "decimal",
+            "prob": 0.46511627906976744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.7,
+            "form": "decimal",
+            "prob": 0.5882352941176471,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "202@setnr=1"
+    },
+    {
+      "eventSourceId": "sr:match:75953170",
+      "code": "TOTAL_GAMES",
+      "line": 6.5,
+      "period": "S1",
+      "selections": [
+        {
+          "side": "under",
+          "price": {
+            "raw": 14,
+            "form": "decimal",
+            "prob": 0.07142857142857142,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "204@setnr=1|total=6.5"
+    },
+    {
+      "eventSourceId": "sr:match:75953170",
+      "code": "TOTAL_GAMES",
+      "line": 7.5,
+      "period": "S1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.03,
+            "form": "decimal",
+            "prob": 0.970873786407767,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 10,
+            "form": "decimal",
+            "prob": 0.1,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "204@setnr=1|total=7.5"
+    },
+    {
+      "eventSourceId": "sr:match:75953170",
+      "code": "TOTAL_GAMES",
+      "line": 8.5,
+      "period": "S1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.13,
+            "form": "decimal",
+            "prob": 0.8849557522123894,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 5.4,
+            "form": "decimal",
+            "prob": 0.18518518518518517,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "204@setnr=1|total=8.5"
+    },
+    {
+      "eventSourceId": "sr:match:75957208",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.68,
+            "form": "decimal",
+            "prob": 0.3731343283582089,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.4,
+            "form": "decimal",
+            "prob": 0.7142857142857143,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "186"
+    }
+  ]
+}

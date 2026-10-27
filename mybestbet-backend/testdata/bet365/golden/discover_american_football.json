@@ -1,0 +1,21 @@
+{
+  "source": "bet365",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "B12-171000001",
+      "leagueHint": "NFL",
+      "home": "BUF Bills",
+      "away": "KC Chiefs",
+      "kickoff": "2026-11-01T21:30:00Z"
+    },
+    {
+      "sourceId": "B12-171000002",
+      "leagueHint": "NCAAF",
+      "home": "Georgia",
+      "away": "Alabama",
+      "kickoff": "2026-10-31T19:30:00Z"
+    }
+  ],
+  "markets": null
+}

@@ -1,0 +1,56 @@
+/* the five stop spotlight tour after the gate */
+.ot { position: fixed; inset: 0; z-index: 200; opacity: 0; transition: opacity .25s; }
+.ot.in { opacity: 1; }
+.otSpot {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 0 2px var(--blue), 0 0 0 7px var(--blue-fill), 0 0 0 200vmax rgb(0 0 0 / .52);
+  transition: left .45s cubic-bezier(.2, .9, .3, 1), top .45s cubic-bezier(.2, .9, .3, 1), width .45s cubic-bezier(.2, .9, .3, 1), height .45s cubic-bezier(.2, .9, .3, 1), opacity .2s;
+  pointer-events: none;
+}
+.otCard {
+  position: fixed;
+  width: 340px;
+  background: var(--panel);
+  color: var(--fg);
+  border: 1px solid var(--line-2);
+  border-radius: 10px;
+  padding: 16px 18px 14px;
+  box-shadow: 0 20px 50px -16px rgb(0 0 0 / .5);
+  opacity: 0;
+  translate: 0 8px;
+  transition: opacity .25s, translate .3s cubic-bezier(.2, .9, .3, 1), left .45s cubic-bezier(.2, .9, .3, 1), top .45s cubic-bezier(.2, .9, .3, 1);
+}
+.otCard.tcIn { opacity: 1; translate: 0 0; }
+.tcTop { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.tcN { font-size: 13px; font-weight: 600; color: var(--blue); letter-spacing: .02em; }
+.tcN i { font-style: normal; color: var(--fg-3); font-weight: 400; }
+.tcBar { flex: 1; height: 2px; background: var(--line-2); border-radius: 1px; overflow: hidden; }
+.tcBar i { display: block; height: 100%; background: var(--blue); transition: width .4s ease; }
+.otCard h3 { font-size: 17px; font-weight: 600; letter-spacing: -.015em; line-height: 1.25; }
+.otCard p { font-size: 14px; line-height: 1.5; color: var(--fg-2); margin-top: 5px; }
+.tcBooks { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.tcBk { width: 34px; height: 34px; border-radius: 6px; border: 1px solid var(--line-2); display: flex; align-items: center; justify-content: center; transition: opacity .15s, border-color .15s, filter .15s; }
+.tcBk.on { border-color: var(--blue-line); }
+.tcBk:not(.on) { opacity: .35; filter: grayscale(1); }
+.tcPrefs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.tcPrefs :global(.seg) button { font-family: var(--mono); }
+.tcTip { display: block !important; align-items: center; gap: 6px; font-size: 13px !important; }
+.tcTip kbd { font-family: var(--mono); font-size: 12px; height: 22px; min-width: 22px; padding: 0 6px; border-radius: 4px; border: 1px solid var(--line-2); background: var(--well); display: inline-flex; align-items: center; justify-content: center; color: var(--fg); margin: 0 2px; vertical-align: 1px; }
+.tcFt { display: flex; justify-content: space-between; align-items: center; margin-top: 14px; }
+.tcSkip { font-size: 13.5px; color: var(--fg-3); height: 34px; }
+.tcSkip:hover { color: var(--fg); }
+.tcNext { height: 36px; padding: 0 18px; border-radius: 4px; background: var(--fg); color: var(--bg); font-size: 14px; font-weight: 600; }
+.tcNext:hover { opacity: .9; }
+.otCard.tcDock { left: 50% !important; top: auto !important; bottom: calc(var(--tab, 62px) + 20px + env(safe-area-inset-bottom)); width: min(440px, calc(100vw - 24px)); translate: -50% 8px; }
+.otCard.tcDock.tcIn { translate: -50% 0; }
+.otCard.tcDock.tcUp { bottom: auto; top: 16px !important; }
+@media (min-width: 761px) {
+  .otCard.tcDock { bottom: 24px; }
+}
+
+.obRm, .obRm * { animation: none !important; transition: none !important; }

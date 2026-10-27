@@ -1,0 +1,769 @@
+{
+  "cursor": null,
+  "data": [
+    {
+      "createdAt": "2026-10-12T04:10:47.551Z",
+      "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET: This event contains halftime result markets for home, draw, and away outcomes within the first 45 minutes of regular play plus stoppage time.",
+      "endsAt": "2026-10-25T16:00:00.000Z",
+      "id": 598135,
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "isVisible": true,
+      "isYieldBearing": true,
+      "marketVariant": "SPORTS_HALFTIME_RESULT",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-halftime-result",
+          "conditionId": "0xefdad056e2b184100ad65e084c3fdfbcaf025f108156f9053eb1a4309a3420f3",
+          "createdAt": "2026-10-12T04:10:47.551Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026 If Liverpool FC wins within the first 45 minutes of regular play plus stoppage time, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 45 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.\n\nThis market may resolve only when the listed period of play has concluded and the result can be definitively determined by the listed resolution source(s).",
+          "feeRateBps": 200,
+          "id": 3225350,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_HALFTIME_RESULT",
+          "marketVariant": "SPORTS_HALFTIME_RESULT",
+          "oracleQuestionId": "0x1fe1853bce91315028b276edf1cf32b3b530530a4c31b3141e46af8e82f5f16e",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.37,
+                "size": 1239.1100000000001
+              },
+              "bestBid": {
+                "price": 0.35,
+                "size": 1215.8562
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "110429964151209234174092139779448771380969499916529648569653164334038183159110",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.65,
+                "size": 1215.8562
+              },
+              "bestBid": {
+                "price": 0.63,
+                "size": 1239.1100000000001
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "103800257528001476457879214982632388631666809462225587096676686868018664362786",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x8947faf37fc0bf4312157ca83427543af99a7d0366343b7caab06d094fe84f3f"
+          ],
+          "question": "Liverpool FC leading at halftime?",
+          "questionIndex": 2,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": {
+            "abbreviation": "liv",
+            "alias": "Liverpool",
+            "id": 136,
+            "league": "epl",
+            "name": "Liverpool FC"
+          },
+          "title": "LIV",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "abbreviation": "liv",
+                "id": 136,
+                "name": "Liverpool FC",
+                "providerTeamId": "100017"
+              }
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-halftime-result",
+          "conditionId": "0x16ff480b70660b1364add17761f3d5a3444be8abbbdd94a875a3df492ae90e15",
+          "createdAt": "2026-10-12T04:10:47.551Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026 If the game ends in a draw within the first 45 minutes of regular play plus stoppage time, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\". This market refers only to the outcome within the first 45 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.\n\nThis market may resolve only when the listed period of play has concluded and the result can be definitively determined by the listed resolution source(s).",
+          "feeRateBps": 200,
+          "id": 3225353,
+          "imageUrl": "https://static.predict.fun/soccer-draw",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_HALFTIME_RESULT",
+          "marketVariant": "SPORTS_HALFTIME_RESULT",
+          "oracleQuestionId": "0xe37f69c21532e503c62e69ca85c78de0844d5d0e37ea560816d1b6d1b3e4a103",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.39,
+                "size": 1223.7530000000002
+              },
+              "bestBid": {
+                "price": 0.37,
+                "size": 1182.725
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "47375729581455530215255111562078078083732494083189368338442721953455143241139",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.63,
+                "size": 1182.725
+              },
+              "bestBid": {
+                "price": 0.61,
+                "size": 1223.7530000000002
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "90653974763433207446550397265086649601001382637925789891655707172566982219356",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x9a0a81796786ec0daa8ba1ca80245c2a4bf39e4feb4ac9f4843c0341a7e3126f"
+          ],
+          "question": "Liverpool FC vs. Brighton & Hove Albion FC: Draw at halftime?",
+          "questionIndex": 0,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Draw",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-halftime-result",
+          "conditionId": "0xfaf8a1f308573e3749ae290edda416817930d5e0d55a68f1d9d9e5fbafb1db60",
+          "createdAt": "2026-10-12T04:10:47.551Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026 If Brighton & Hove Albion FC wins within the first 45 minutes of regular play plus stoppage time, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 45 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.\n\nThis market may resolve only when the listed period of play has concluded and the result can be definitively determined by the listed resolution source(s).",
+          "feeRateBps": 200,
+          "id": 3225356,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_HALFTIME_RESULT",
+          "marketVariant": "SPORTS_HALFTIME_RESULT",
+          "oracleQuestionId": "0xad0646348e04cce0268255302beaa6ecaf85087e339c136b4ac02677122193ee",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.27,
+                "size": 1178.7
+              },
+              "bestBid": {
+                "price": 0.25,
+                "size": 5103.8148
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "51343735182421986009365648641968222596952463694535944655633146889786855244190",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.75,
+                "size": 5103.8148
+              },
+              "bestBid": {
+                "price": 0.73,
+                "size": 1178.7
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "104346126927456894109512493546888461557361989193425285286696676950700081922572",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xaf26469dfc87bf1e858ac8bac3ade90ac3288f1cb944e38d403268334609a435"
+          ],
+          "question": "Brighton & Hove Albion FC leading at halftime?",
+          "questionIndex": 1,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": {
+            "abbreviation": "bri",
+            "alias": "Brighton",
+            "id": 4261,
+            "league": "epl",
+            "name": "Brighton & Hove Albion FC"
+          },
+          "title": "BRI",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "abbreviation": "bri",
+                "id": 4261,
+                "name": "Brighton & Hove Albion FC",
+                "providerTeamId": "100015"
+              }
+            }
+          }
+        }
+      ],
+      "negRiskOnChainId": "0x89ebd100d50460f3a1fb4bf5e995f256c47cdb494222db1528475400e9cee900",
+      "parentSlug": "epl-liv-bri-2026-10-25",
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-18T14:00:41.498Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "epl-liv-bri-2026-10-25-halftime-result",
+      "startsAt": "2026-10-25T14:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "14",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "546",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "EPL",
+          "parentId": "14"
+        }
+      ],
+      "teams": null,
+      "title": "Liverpool FC vs. Brighton & Hove Albion FC - Halftime Result",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1175001",
+          "teams": [
+            {
+              "abbreviation": "liv",
+              "color": "#cf2029",
+              "id": 136,
+              "isHome": true,
+              "name": "Liverpool FC",
+              "providerTeamId": "100017",
+              "record": {
+                "draws": 3,
+                "losses": 1,
+                "wins": 3
+              }
+            },
+            {
+              "abbreviation": "bri",
+              "color": "#155a93",
+              "id": 4261,
+              "isHome": false,
+              "name": "Brighton & Hove Albion FC",
+              "providerTeamId": "100015",
+              "record": {
+                "draws": 1,
+                "losses": 1,
+                "wins": 5
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "createdAt": "2026-10-12T06:23:27.835Z",
+      "description": "In the upcoming La Liga game between FC Barcelona and Real Madrid CF, scheduled for October 25, 2026 at 4:00 PM ET: This event contains halftime result markets for home, draw, and away outcomes within the first 45 minutes of regular play plus stoppage time.",
+      "endsAt": "2026-10-25T22:00:00.000Z",
+      "id": 598624,
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "isVisible": true,
+      "isYieldBearing": true,
+      "marketVariant": "SPORTS_HALFTIME_RESULT",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25-halftime-result",
+          "conditionId": "0xd72b55de6134d3c7274827f6531b6034bc37c9d49540e7137fd59a5f139d8e60",
+          "createdAt": "2026-10-12T06:23:27.835Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026 If FC Barcelona wins within the first 45 minutes of regular play plus stoppage time, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 45 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.\n\nThis market may resolve only when the listed period of play has concluded and the result can be definitively determined by the listed resolution source(s).",
+          "feeRateBps": 200,
+          "id": 3229646,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_HALFTIME_RESULT",
+          "marketVariant": "SPORTS_HALFTIME_RESULT",
+          "oracleQuestionId": "0xd62d99ead30178aaa38ef8b63dae919e737044b6f00dd7ea3f27c5f5c3c4d7cd",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.48,
+                "size": 1210.33
+              },
+              "bestBid": {
+                "price": 0.47,
+                "size": 23.253
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "29804818522151699212666166611783012755943324468148496003046853706445760194751",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.53,
+                "size": 23.253
+              },
+              "bestBid": {
+                "price": 0.52,
+                "size": 1210.33
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "34464837486383668919237231333870537908557156712082691161421608101761237744855",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x4781a5e89c8ce41017344492b0655711e4e0fe17c1be1aa5e043effa7d10060b"
+          ],
+          "question": "FC Barcelona leading at halftime?",
+          "questionIndex": 0,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": {
+            "abbreviation": "bar",
+            "alias": "Barcelona",
+            "id": 755,
+            "league": "lal",
+            "name": "FC Barcelona"
+          },
+          "title": "BAR",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "abbreviation": "bar",
+                "id": 755,
+                "name": "FC Barcelona",
+                "providerTeamId": "101042"
+              }
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25-halftime-result",
+          "conditionId": "0xe2d477565ed95c75c30644f1258357b90e5669a48f9d520cc020d8ba4ce9e8a4",
+          "createdAt": "2026-10-12T06:23:27.835Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026 If the game ends in a draw within the first 45 minutes of regular play plus stoppage time, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\". This market refers only to the outcome within the first 45 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.\n\nThis market may resolve only when the listed period of play has concluded and the result can be definitively determined by the listed resolution source(s).",
+          "feeRateBps": 200,
+          "id": 3229648,
+          "imageUrl": "https://static.predict.fun/soccer-draw",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_HALFTIME_RESULT",
+          "marketVariant": "SPORTS_HALFTIME_RESULT",
+          "oracleQuestionId": "0x0eafb469b5e35330f537ebe380ad263b63660dd6e1bc44a992fa59950144c874",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.3,
+                "size": 1107.3265666666666
+              },
+              "bestBid": {
+                "price": 0.29,
+                "size": 872.549
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "14946126521001325785037879920042175875396163412999363478156455702078737285462",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.71,
+                "size": 872.549
+              },
+              "bestBid": {
+                "price": 0.7,
+                "size": 1107.3265666666666
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "53935385879598641400881118486475144985181468105336672740755477310528193822425",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x1ba05572f862a01842fd3718b83700cd847a3394f708105073c8721b104113de"
+          ],
+          "question": "FC Barcelona vs. Real Madrid CF: Draw at halftime?",
+          "questionIndex": 1,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Draw",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25-halftime-result",
+          "conditionId": "0x06b210ac925a61bcdf6f7bcf923c8a4d2ffba8c774bb982de3a1ea8f31bda738",
+          "createdAt": "2026-10-12T06:23:27.835Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026 If Real Madrid CF wins within the first 45 minutes of regular play plus stoppage time, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve \"No\". This market refers only to the outcome within the first 45 minutes of regular play plus stoppage time. The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.\n\nThis market may resolve only when the listed period of play has concluded and the result can be definitively determined by the listed resolution source(s).",
+          "feeRateBps": 200,
+          "id": 3229650,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_HALFTIME_RESULT",
+          "marketVariant": "SPORTS_HALFTIME_RESULT",
+          "oracleQuestionId": "0xa4d8356377126bce196882b75fb1c90480db768a3322143749a5213ad4d6be9b",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.24,
+                "size": 1073
+              },
+              "bestBid": {
+                "price": 0.23,
+                "size": 144.65
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "2344153842386296754231967288212331458480083308094744212009937216721048340898",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.77,
+                "size": 144.65
+              },
+              "bestBid": {
+                "price": 0.76,
+                "size": 1073
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "73696992947987129239315934644452032677513505424751320462217954579879653210962",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x0ba7acfa1ede42c7c23361c46c179e3002957b79e29bf34b898ae0dc36e534d7"
+          ],
+          "question": "Real Madrid CF leading at halftime?",
+          "questionIndex": 2,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": {
+            "abbreviation": "rea",
+            "alias": "Real Madrid",
+            "id": 38,
+            "league": "lal",
+            "name": "Real Madrid CF"
+          },
+          "title": "REA",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "abbreviation": "rea",
+                "id": 38,
+                "name": "Real Madrid CF",
+                "providerTeamId": "101034"
+              }
+            }
+          }
+        }
+      ],
+      "negRiskOnChainId": "0x091b119d4953d64200e70012a12641366cd8287093de72305ef74845f316ce00",
+      "parentSlug": "lal-bar-rea-2026-10-25",
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-18T20:00:41.500Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "lal-bar-rea-2026-10-25-halftime-result",
+      "startsAt": "2026-10-25T20:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "14",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "852",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "LaLiga",
+          "parentId": "14"
+        }
+      ],
+      "teams": null,
+      "title": "FC Barcelona vs. Real Madrid CF - Halftime Result",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1175553",
+          "teams": [
+            {
+              "abbreviation": "bar",
+              "color": "#144E8C",
+              "id": 755,
+              "isHome": true,
+              "name": "FC Barcelona",
+              "providerTeamId": "101042",
+              "record": {
+                "draws": 0,
+                "losses": 0,
+                "wins": 9
+              }
+            },
+            {
+              "abbreviation": "rea",
+              "color": "#c4951c",
+              "id": 38,
+              "isHome": false,
+              "name": "Real Madrid CF",
+              "providerTeamId": "101034",
+              "record": {
+                "draws": 0,
+                "losses": 2,
+                "wins": 7
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

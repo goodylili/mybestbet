@@ -1,0 +1,2921 @@
+{
+  "bizCode": 10000,
+  "message": "0#0",
+  "data": {
+    "eventId": "sr:match:72221332",
+    "gameId": "18638",
+    "productStatus": "0#0",
+    "estimateStartTime": 1792850400000,
+    "status": 0,
+    "matchStatus": "Not start",
+    "homeTeamId": "sr:competitor:42",
+    "homeTeamName": "Arsenal",
+    "awayTeamName": "Everton",
+    "awayTeamId": "sr:competitor:48",
+    "sport": {
+      "id": "sr:sport:1",
+      "name": "Football",
+      "category": {
+        "id": "sr:category:1",
+        "name": "England",
+        "tournament": {
+          "id": "sr:tournament:17",
+          "name": "Premier League"
+        }
+      }
+    },
+    "markets": [
+      {
+        "id": "1",
+        "product": 3,
+        "desc": "1X2",
+        "status": 0,
+        "group": "Main",
+        "title": "1,X,2",
+        "name": "1X2",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1",
+            "odds": "1.47",
+            "isActive": 1,
+            "desc": "Home",
+            "oddsBoostLfb": false
+          },
+          {
+            "id": "2",
+            "odds": "4.82",
+            "isActive": 1,
+            "desc": "Draw",
+            "oddsBoostLfb": true
+          },
+          {
+            "id": "3",
+            "odds": "7.51",
+            "isActive": 1,
+            "desc": "Away",
+            "oddsBoostLfb": true
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "18",
+        "specifier": "total=1",
+        "product": 3,
+        "desc": "Over/Under",
+        "status": 0,
+        "group": "Main",
+        "title": "Goals,Over,Under",
+        "name": "Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.05",
+            "isActive": 1,
+            "desc": "Over 1"
+          },
+          {
+            "id": "13",
+            "odds": "11.00",
+            "isActive": 1,
+            "desc": "Under 1"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "18",
+        "specifier": "total=2",
+        "product": 3,
+        "desc": "Over/Under",
+        "status": 0,
+        "group": "Main",
+        "title": "Goals,Over,Under",
+        "name": "Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.40",
+            "isActive": 1,
+            "desc": "Over 2"
+          },
+          {
+            "id": "13",
+            "odds": "3.10",
+            "isActive": 1,
+            "desc": "Under 2"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "18",
+        "specifier": "total=3",
+        "product": 3,
+        "desc": "Over/Under",
+        "status": 0,
+        "group": "Main",
+        "title": "Goals,Over,Under",
+        "name": "Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "2.40",
+            "isActive": 1,
+            "desc": "Over 3"
+          },
+          {
+            "id": "13",
+            "odds": "1.60",
+            "isActive": 1,
+            "desc": "Under 3"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "18",
+        "specifier": "total=4",
+        "product": 3,
+        "desc": "Over/Under",
+        "status": 0,
+        "group": "Main",
+        "title": "Goals,Over,Under",
+        "name": "Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "4.90",
+            "isActive": 1,
+            "desc": "Over 4"
+          },
+          {
+            "id": "13",
+            "odds": "1.20",
+            "isActive": 1,
+            "desc": "Under 4"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "18",
+        "specifier": "total=5",
+        "product": 3,
+        "desc": "Over/Under",
+        "status": 0,
+        "group": "Main",
+        "title": "Goals,Over,Under",
+        "name": "Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "10.00",
+            "isActive": 1,
+            "desc": "Over 5"
+          },
+          {
+            "id": "13",
+            "odds": "1.06",
+            "isActive": 1,
+            "desc": "Under 5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "18",
+        "specifier": "total=0.5",
+        "product": 3,
+        "desc": "Over/Under",
+        "status": 0,
+        "group": "Main",
+        "title": "Goals,Over,Under",
+        "name": "Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.04",
+            "isActive": 1,
+            "desc": "Over 0.5"
+          },
+          {
+            "id": "13",
+            "odds": "13.00",
+            "isActive": 1,
+            "desc": "Under 0.5"
+          }
+        ],
+        "farNearOdds": -1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "18",
+        "specifier": "total=1.5",
+        "product": 3,
+        "desc": "Over/Under",
+        "status": 0,
+        "group": "Main",
+        "title": "Goals,Over,Under",
+        "name": "Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.26",
+            "isActive": 1,
+            "desc": "Over 1.5"
+          },
+          {
+            "id": "13",
+            "odds": "4.00",
+            "isActive": 1,
+            "desc": "Under 1.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "18",
+        "specifier": "total=2.5",
+        "product": 3,
+        "desc": "Over/Under",
+        "status": 0,
+        "group": "Main",
+        "title": "Goals,Over,Under",
+        "name": "Over/Under",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.81",
+            "isActive": 1,
+            "desc": "Over 2.5"
+          },
+          {
+            "id": "13",
+            "odds": "2.05",
+            "isActive": 1,
+            "desc": "Under 2.5"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "18",
+        "specifier": "total=3.5",
+        "product": 3,
+        "desc": "Over/Under",
+        "status": 0,
+        "group": "Main",
+        "title": "Goals,Over,Under",
+        "name": "Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "3.00",
+            "isActive": 1,
+            "desc": "Over 3.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.41",
+            "isActive": 1,
+            "desc": "Under 3.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "18",
+        "specifier": "total=4.5",
+        "product": 3,
+        "desc": "Over/Under",
+        "status": 0,
+        "group": "Main",
+        "title": "Goals,Over,Under",
+        "name": "Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "5.70",
+            "isActive": 1,
+            "desc": "Over 4.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.16",
+            "isActive": 1,
+            "desc": "Under 4.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "18",
+        "specifier": "total=5.5",
+        "product": 3,
+        "desc": "Over/Under",
+        "status": 0,
+        "group": "Main",
+        "title": "Goals,Over,Under",
+        "name": "Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "11.00",
+            "isActive": 1,
+            "desc": "Over 5.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.06",
+            "isActive": 1,
+            "desc": "Under 5.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "10",
+        "product": 3,
+        "desc": "Double Chance",
+        "status": 0,
+        "group": "Main",
+        "title": "1X,12,X2",
+        "name": "Double Chance",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "9",
+            "odds": "1.12",
+            "isActive": 1,
+            "desc": "Home or Draw"
+          },
+          {
+            "id": "10",
+            "odds": "1.20",
+            "isActive": 1,
+            "desc": "Home or Away"
+          },
+          {
+            "id": "11",
+            "odds": "2.60",
+            "isActive": 1,
+            "desc": "Draw or Away"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "14",
+        "specifier": "hcp=0:1",
+        "product": 3,
+        "desc": "Handicap 0:1",
+        "status": 0,
+        "group": "Main",
+        "title": "Handicap,1,X,2",
+        "name": "Handicap",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "1711",
+            "odds": "2.25",
+            "isActive": 1,
+            "desc": "Home (0:1)"
+          },
+          {
+            "id": "1712",
+            "odds": "3.75",
+            "isActive": 1,
+            "desc": "Draw (0:1)"
+          },
+          {
+            "id": "1713",
+            "odds": "2.85",
+            "isActive": 1,
+            "desc": "Away (0:1)"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "14",
+        "specifier": "hcp=0:2",
+        "product": 3,
+        "desc": "Handicap 0:2",
+        "status": 0,
+        "group": "Main",
+        "title": "Handicap,1,X,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1711",
+            "odds": "4.30",
+            "isActive": 1,
+            "desc": "Home (0:2)"
+          },
+          {
+            "id": "1712",
+            "odds": "4.50",
+            "isActive": 1,
+            "desc": "Draw (0:2)"
+          },
+          {
+            "id": "1713",
+            "odds": "1.65",
+            "isActive": 1,
+            "desc": "Away (0:2)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "14",
+        "specifier": "hcp=0:3",
+        "product": 3,
+        "desc": "Handicap 0:3",
+        "status": 0,
+        "group": "Main",
+        "title": "Handicap,1,X,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1711",
+            "odds": "9.50",
+            "isActive": 1,
+            "desc": "Home (0:3)"
+          },
+          {
+            "id": "1712",
+            "odds": "7.00",
+            "isActive": 1,
+            "desc": "Draw (0:3)"
+          },
+          {
+            "id": "1713",
+            "odds": "1.23",
+            "isActive": 1,
+            "desc": "Away (0:3)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "14",
+        "specifier": "hcp=0:4",
+        "product": 3,
+        "desc": "Handicap 0:4",
+        "status": 0,
+        "group": "Main",
+        "title": "Handicap,1,X,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1711",
+            "odds": "22.00",
+            "isActive": 1,
+            "desc": "Home (0:4)"
+          },
+          {
+            "id": "1712",
+            "odds": "12.50",
+            "isActive": 1,
+            "desc": "Draw (0:4)"
+          },
+          {
+            "id": "1713",
+            "odds": "1.07",
+            "isActive": 1,
+            "desc": "Away (0:4)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "14",
+        "specifier": "hcp=0:5",
+        "product": 3,
+        "desc": "Handicap 0:5",
+        "status": 0,
+        "group": "Main",
+        "title": "Handicap,1,X,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1711",
+            "odds": "44.00",
+            "isActive": 1,
+            "desc": "Home (0:5)"
+          },
+          {
+            "id": "1712",
+            "odds": "19.50",
+            "isActive": 1,
+            "desc": "Draw (0:5)"
+          },
+          {
+            "id": "1713",
+            "odds": "1.01",
+            "isActive": 1,
+            "desc": "Away (0:5)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "14",
+        "specifier": "hcp=1:0",
+        "product": 3,
+        "desc": "Handicap 1:0",
+        "status": 0,
+        "group": "Main",
+        "title": "Handicap,1,X,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1711",
+            "odds": "1.11",
+            "isActive": 1,
+            "desc": "Home (1:0)"
+          },
+          {
+            "id": "1712",
+            "odds": "8.60",
+            "isActive": 1,
+            "desc": "Draw (1:0)"
+          },
+          {
+            "id": "1713",
+            "odds": "22.00",
+            "isActive": 1,
+            "desc": "Away (1:0)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "14",
+        "specifier": "hcp=2:0",
+        "product": 3,
+        "desc": "Handicap 2:0",
+        "status": 0,
+        "group": "Main",
+        "title": "Handicap,1,X,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1711",
+            "odds": "1.02",
+            "isActive": 1,
+            "desc": "Home (2:0)"
+          },
+          {
+            "id": "1712",
+            "odds": "16.50",
+            "isActive": 1,
+            "desc": "Draw (2:0)"
+          },
+          {
+            "id": "1713",
+            "odds": "61.00",
+            "isActive": 1,
+            "desc": "Away (2:0)"
+          }
+        ],
+        "farNearOdds": -1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "16",
+        "specifier": "hcp=-2.5",
+        "product": 3,
+        "desc": "Asian Handicap -2.5",
+        "status": 0,
+        "group": "Main",
+        "title": "1,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1714",
+            "odds": "4.20",
+            "isActive": 1,
+            "desc": "Home (-2.5)"
+          },
+          {
+            "id": "1715",
+            "odds": "1.24",
+            "isActive": 1,
+            "desc": "Away (+2.5)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "16",
+        "specifier": "hcp=-1.5",
+        "product": 3,
+        "desc": "Asian Handicap -1.5",
+        "status": 0,
+        "group": "Main",
+        "title": "1,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1714",
+            "odds": "2.25",
+            "isActive": 1,
+            "desc": "Home (-1.5)"
+          },
+          {
+            "id": "1715",
+            "odds": "1.65",
+            "isActive": 1,
+            "desc": "Away (+1.5)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "16",
+        "specifier": "hcp=-0.5",
+        "product": 3,
+        "desc": "Asian Handicap -0.5",
+        "status": 0,
+        "group": "Main",
+        "title": "1,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1714",
+            "odds": "1.44",
+            "isActive": 1,
+            "desc": "Home (-0.5)"
+          },
+          {
+            "id": "1715",
+            "odds": "2.80",
+            "isActive": 1,
+            "desc": "Away (+0.5)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "16",
+        "specifier": "hcp=-3",
+        "product": 3,
+        "desc": "Asian Handicap -3",
+        "status": 0,
+        "group": "Main",
+        "title": "1,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1714",
+            "odds": "7.60",
+            "isActive": 1,
+            "desc": "Home (-3.0)"
+          },
+          {
+            "id": "1715",
+            "odds": "1.09",
+            "isActive": 1,
+            "desc": "Away (+3.0)"
+          }
+        ],
+        "farNearOdds": -1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "16",
+        "specifier": "hcp=-2",
+        "product": 3,
+        "desc": "Asian Handicap -2",
+        "status": 0,
+        "group": "Main",
+        "title": "1,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1714",
+            "odds": "3.40",
+            "isActive": 1,
+            "desc": "Home (-2.0)"
+          },
+          {
+            "id": "1715",
+            "odds": "1.33",
+            "isActive": 1,
+            "desc": "Away (+2.0)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "16",
+        "specifier": "hcp=-1",
+        "product": 3,
+        "desc": "Asian Handicap -1",
+        "status": 0,
+        "group": "Main",
+        "title": "1,2",
+        "name": "Handicap",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "1714",
+            "odds": "1.71",
+            "isActive": 1,
+            "desc": "Home (-1.0)"
+          },
+          {
+            "id": "1715",
+            "odds": "2.15",
+            "isActive": 1,
+            "desc": "Away (+1.0)"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "16",
+        "specifier": "hcp=0",
+        "product": 3,
+        "desc": "Asian Handicap 0",
+        "status": 0,
+        "group": "Main",
+        "title": "1,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1714",
+            "odds": "1.16",
+            "isActive": 1,
+            "desc": "Home (0)"
+          },
+          {
+            "id": "1715",
+            "odds": "5.30",
+            "isActive": 1,
+            "desc": "Away (0)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "16",
+        "specifier": "hcp=0.5",
+        "product": 3,
+        "desc": "Asian Handicap 0.5",
+        "status": 0,
+        "group": "Main",
+        "title": "1,2",
+        "name": "Handicap",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1714",
+            "odds": "1.12",
+            "isActive": 1,
+            "desc": "Home (+0.5)"
+          },
+          {
+            "id": "1715",
+            "odds": "6.40",
+            "isActive": 1,
+            "desc": "Away (-0.5)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "29",
+        "product": 3,
+        "desc": "GG/NG",
+        "status": 0,
+        "group": "Main",
+        "title": "GG,NG",
+        "name": "GG/NG",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "74",
+            "odds": "2.10",
+            "isActive": 1,
+            "desc": "Yes"
+          },
+          {
+            "id": "76",
+            "odds": "1.76",
+            "isActive": 1,
+            "desc": "No"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "11",
+        "product": 3,
+        "desc": "Draw No Bet",
+        "status": 0,
+        "group": "Main",
+        "title": "1,2",
+        "name": "Draw No Bet",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "4",
+            "odds": "1.16",
+            "isActive": 1,
+            "desc": "Home"
+          },
+          {
+            "id": "5",
+            "odds": "5.30",
+            "isActive": 1,
+            "desc": "Away"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "45",
+        "product": 3,
+        "desc": "Correct Score",
+        "status": 0,
+        "group": "Main",
+        "title": "",
+        "name": "Correct Score",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "274",
+            "odds": "12.00",
+            "isActive": 1,
+            "desc": "0:0"
+          },
+          {
+            "id": "276",
+            "odds": "6.40",
+            "isActive": 1,
+            "desc": "1:0"
+          },
+          {
+            "id": "278",
+            "odds": "6.40",
+            "isActive": 1,
+            "desc": "2:0"
+          },
+          {
+            "id": "280",
+            "odds": "9.30",
+            "isActive": 1,
+            "desc": "3:0"
+          },
+          {
+            "id": "282",
+            "odds": "18.50",
+            "isActive": 1,
+            "desc": "4:0"
+          },
+          {
+            "id": "284",
+            "odds": "17.00",
+            "isActive": 1,
+            "desc": "0:1"
+          },
+          {
+            "id": "286",
+            "odds": "8.50",
+            "isActive": 1,
+            "desc": "1:1"
+          },
+          {
+            "id": "288",
+            "odds": "8.40",
+            "isActive": 1,
+            "desc": "2:1"
+          },
+          {
+            "id": "290",
+            "odds": "12.50",
+            "isActive": 1,
+            "desc": "3:1"
+          },
+          {
+            "id": "292",
+            "odds": "24.00",
+            "isActive": 1,
+            "desc": "4:1"
+          },
+          {
+            "id": "294",
+            "odds": "45.00",
+            "isActive": 1,
+            "desc": "0:2"
+          },
+          {
+            "id": "296",
+            "odds": "22.00",
+            "isActive": 1,
+            "desc": "1:2"
+          },
+          {
+            "id": "298",
+            "odds": "22.00",
+            "isActive": 1,
+            "desc": "2:2"
+          },
+          {
+            "id": "300",
+            "odds": "33.00",
+            "isActive": 1,
+            "desc": "3:2"
+          },
+          {
+            "id": "302",
+            "odds": "64.00",
+            "isActive": 1,
+            "desc": "4:2"
+          },
+          {
+            "id": "304",
+            "odds": "180.00",
+            "isActive": 1,
+            "desc": "0:3"
+          },
+          {
+            "id": "306",
+            "odds": "89.00",
+            "isActive": 1,
+            "desc": "1:3"
+          },
+          {
+            "id": "308",
+            "odds": "88.00",
+            "isActive": 1,
+            "desc": "2:3"
+          },
+          {
+            "id": "310",
+            "odds": "130.00",
+            "isActive": 1,
+            "desc": "3:3"
+          },
+          {
+            "id": "312",
+            "odds": "250.00",
+            "isActive": 1,
+            "desc": "4:3"
+          },
+          {
+            "id": "314",
+            "odds": "250.00",
+            "isActive": 1,
+            "desc": "0:4"
+          },
+          {
+            "id": "316",
+            "odds": "250.00",
+            "isActive": 1,
+            "desc": "1:4"
+          },
+          {
+            "id": "318",
+            "odds": "250.00",
+            "isActive": 1,
+            "desc": "2:4"
+          },
+          {
+            "id": "320",
+            "odds": "250.00",
+            "isActive": 1,
+            "desc": "3:4"
+          },
+          {
+            "id": "322",
+            "odds": "250.00",
+            "isActive": 1,
+            "desc": "4:4"
+          },
+          {
+            "id": "324",
+            "odds": "14.50",
+            "isActive": 1,
+            "desc": "Other"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "47",
+        "product": 3,
+        "desc": "Half Time/Full Time",
+        "status": 0,
+        "group": "Main",
+        "title": "",
+        "name": "Halftime/Fulltime",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "418",
+            "odds": "2.01",
+            "isActive": 1,
+            "desc": "Home/Home"
+          },
+          {
+            "id": "420",
+            "odds": "19.53",
+            "isActive": 1,
+            "desc": "Home/Draw"
+          },
+          {
+            "id": "422",
+            "odds": "50.00",
+            "isActive": 1,
+            "desc": "Home/Away"
+          },
+          {
+            "id": "424",
+            "odds": "4.24",
+            "isActive": 1,
+            "desc": "Draw/Home"
+          },
+          {
+            "id": "426",
+            "odds": "6.51",
+            "isActive": 1,
+            "desc": "Draw/Draw"
+          },
+          {
+            "id": "428",
+            "odds": "14.66",
+            "isActive": 1,
+            "desc": "Draw/Away"
+          },
+          {
+            "id": "430",
+            "odds": "25.93",
+            "isActive": 1,
+            "desc": "Away/Home"
+          },
+          {
+            "id": "432",
+            "odds": "22.47",
+            "isActive": 1,
+            "desc": "Away/Draw"
+          },
+          {
+            "id": "434",
+            "odds": "12.85",
+            "isActive": 1,
+            "desc": "Away/Away"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "26",
+        "product": 3,
+        "desc": "Odd/Even",
+        "status": 0,
+        "group": "Main",
+        "title": "Odd,Even",
+        "name": "Odd/Even",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "70",
+            "odds": "1.92",
+            "isActive": 1,
+            "desc": "Odd"
+          },
+          {
+            "id": "72",
+            "odds": "1.89",
+            "isActive": 1,
+            "desc": "Even"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "60",
+        "product": 3,
+        "desc": "1st Half - 1X2",
+        "status": 0,
+        "group": "Half",
+        "title": "",
+        "name": "1st Half - 1X2",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1",
+            "odds": "1.94",
+            "isActive": 1,
+            "desc": "Home"
+          },
+          {
+            "id": "2",
+            "odds": "2.50",
+            "isActive": 1,
+            "desc": "Draw"
+          },
+          {
+            "id": "3",
+            "odds": "7.10",
+            "isActive": 1,
+            "desc": "Away"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "38",
+        "specifier": "goalnr=1|type=prematch",
+        "product": 3,
+        "desc": "1st Goalscorer",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Xth Goalscorer",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "1716",
+            "odds": "0.00",
+            "isActive": 0,
+            "desc": "No Goal"
+          },
+          {
+            "id": "sr:player:1015179",
+            "odds": "20.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal)"
+          },
+          {
+            "id": "sr:player:1055173",
+            "odds": "15.00",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton)"
+          },
+          {
+            "id": "sr:player:1059325",
+            "odds": "18.50",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal)"
+          },
+          {
+            "id": "sr:player:1088470",
+            "odds": "8.50",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal)"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "39",
+        "specifier": "type=prematch",
+        "product": 3,
+        "desc": "Last Goalscorer",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Last Goalscorer",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "1716",
+            "odds": "0.00",
+            "isActive": 0,
+            "desc": "No Goal"
+          },
+          {
+            "id": "sr:player:1015179",
+            "odds": "20.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal)"
+          },
+          {
+            "id": "sr:player:1055173",
+            "odds": "15.00",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton)"
+          },
+          {
+            "id": "sr:player:1059325",
+            "odds": "18.50",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal)"
+          },
+          {
+            "id": "sr:player:1088470",
+            "odds": "8.50",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal)"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "40",
+        "specifier": "type=prematch",
+        "product": 3,
+        "desc": "Anytime Goalscorer",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Anytime Goalscorer",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "1716",
+            "odds": "0.00",
+            "isActive": 0,
+            "desc": "No Goal"
+          },
+          {
+            "id": "sr:player:1015179",
+            "odds": "11.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal)"
+          },
+          {
+            "id": "sr:player:1055173",
+            "odds": "7.00",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton)"
+          },
+          {
+            "id": "sr:player:1059325",
+            "odds": "9.20",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal)"
+          },
+          {
+            "id": "sr:player:1088470",
+            "odds": "3.80",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal)"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772710239,
+        "banned": false
+      },
+      {
+        "id": "770",
+        "specifier": "variant=pre:playerprops:72221332:1015179",
+        "product": 3,
+        "desc": "Player assists (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Assists",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1015179:1",
+            "odds": "8.30",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 1+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:2",
+            "odds": "47.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 2+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "2+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "770",
+        "specifier": "variant=pre:playerprops:72221332:1055173",
+        "product": 3,
+        "desc": "Player assists (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Assists",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1055173:1",
+            "odds": "8.30",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 1+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:2",
+            "odds": "47.00",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 2+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "2+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "770",
+        "specifier": "variant=pre:playerprops:72221332:1059325",
+        "product": 3,
+        "desc": "Player assists (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Assists",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1059325:1",
+            "odds": "8.30",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 1+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:2",
+            "odds": "47.00",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 2+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "2+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "770",
+        "specifier": "variant=pre:playerprops:72221332:1088470",
+        "product": 3,
+        "desc": "Player assists (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Assists",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1088470:1",
+            "odds": "3.75",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 1+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:2",
+            "odds": "18.50",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 2+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "2+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "775",
+        "specifier": "variant=pre:playerprops:72221332:1015179",
+        "product": 3,
+        "desc": "Player goals (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Goals",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1015179:1",
+            "odds": "10.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 1+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:2",
+            "odds": "115.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 2+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:3",
+            "odds": "250.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 3+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "3+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772599000,
+        "banned": false
+      },
+      {
+        "id": "775",
+        "specifier": "variant=pre:playerprops:72221332:1055173",
+        "product": 3,
+        "desc": "Player goals (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Goals",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1055173:1",
+            "odds": "6.90",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 1+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:2",
+            "odds": "84.00",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 2+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:3",
+            "odds": "250.00",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 3+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "3+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772599000,
+        "banned": false
+      },
+      {
+        "id": "775",
+        "specifier": "variant=pre:playerprops:72221332:1059325",
+        "product": 3,
+        "desc": "Player goals (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Goals",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1059325:1",
+            "odds": "8.25",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 1+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:2",
+            "odds": "115.00",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 2+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:3",
+            "odds": "250.00",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 3+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "3+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772599000,
+        "banned": false
+      },
+      {
+        "id": "775",
+        "specifier": "variant=pre:playerprops:72221332:1088470",
+        "product": 3,
+        "desc": "Player goals (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Goals",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1088470:1",
+            "odds": "3.90",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 1+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:2",
+            "odds": "28.00",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 2+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:3",
+            "odds": "165.00",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 3+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "3+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772599000,
+        "banned": false
+      },
+      {
+        "id": "776",
+        "specifier": "variant=pre:playerprops:72221332:1015179",
+        "product": 3,
+        "desc": "Player shots (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player shots",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1015179:1",
+            "odds": "1.76",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 1+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:2",
+            "odds": "4.10",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 2+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:3",
+            "odds": "15.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 3+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "3+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772746544,
+        "banned": false
+      },
+      {
+        "id": "776",
+        "specifier": "variant=pre:playerprops:72221332:1055173",
+        "product": 3,
+        "desc": "Player shots (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player shots",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1055173:1",
+            "odds": "1.25",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 1+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:2",
+            "odds": "2.15",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 2+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:3",
+            "odds": "3.75",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 3+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:4",
+            "odds": "8.40",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 4+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:5",
+            "odds": "24.00",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 5+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "5+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772746544,
+        "banned": false
+      },
+      {
+        "id": "776",
+        "specifier": "variant=pre:playerprops:72221332:1059325",
+        "product": 3,
+        "desc": "Player shots (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player shots",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1059325:1",
+            "odds": "1.37",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 1+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:2",
+            "odds": "3.60",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 2+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:3",
+            "odds": "9.80",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 3+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:4",
+            "odds": "44.00",
+            "isActive": 0,
+            "desc": "Timber, Jurrien (Arsenal) 4+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "4+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772746544,
+        "banned": false
+      },
+      {
+        "id": "776",
+        "specifier": "variant=pre:playerprops:72221332:1088470",
+        "product": 3,
+        "desc": "Player shots (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player shots",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1088470:2",
+            "odds": "1.14",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 2+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:3",
+            "odds": "1.55",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 3+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:4",
+            "odds": "2.45",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 4+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:5",
+            "odds": "3.80",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 5+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:6",
+            "odds": "7.40",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 6+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "6+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:7",
+            "odds": "16.50",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 7+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "7+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792772746544,
+        "banned": false
+      },
+      {
+        "id": "777",
+        "specifier": "variant=pre:playerprops:72221332:1015179",
+        "product": 3,
+        "desc": "Player shots on goal (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player shots on goal",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1015179:1",
+            "odds": "6.60",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 1+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:2",
+            "odds": "37.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 2+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:3",
+            "odds": "94.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 3+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:4",
+            "odds": "185.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 4+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:5",
+            "odds": "250.00",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 5+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "5+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "777",
+        "specifier": "variant=pre:playerprops:72221332:1055173",
+        "product": 3,
+        "desc": "Player shots on goal (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player shots on goal",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1055173:1",
+            "odds": "2.30",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 1+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:2",
+            "odds": "9.20",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 2+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:3",
+            "odds": "32.00",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 3+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:4",
+            "odds": "84.00",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 4+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:5",
+            "odds": "210.00",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 5+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "5+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "777",
+        "specifier": "variant=pre:playerprops:72221332:1059325",
+        "product": 3,
+        "desc": "Player shots on goal (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player shots on goal",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1059325:1",
+            "odds": "2.75",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 1+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:2",
+            "odds": "14.00",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 2+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:3",
+            "odds": "37.00",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 3+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:4",
+            "odds": "94.00",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 4+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:5",
+            "odds": "230.00",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 5+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "5+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "777",
+        "specifier": "variant=pre:playerprops:72221332:1088470",
+        "product": 3,
+        "desc": "Player shots on goal (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player shots on goal",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1088470:1",
+            "odds": "1.52",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 1+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:2",
+            "odds": "3.75",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 2+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:3",
+            "odds": "11.00",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 3+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:4",
+            "odds": "28.00",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 4+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:5",
+            "odds": "69.00",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 5+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "5+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "780",
+        "specifier": "variant=pre:playerprops:72221332:1015179",
+        "product": 3,
+        "desc": "Player tackles (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player tackles",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1015179:2",
+            "odds": "1.39",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 2+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:3",
+            "odds": "2.40",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 3+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:4",
+            "odds": "3.40",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 4+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:5",
+            "odds": "5.80",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 5+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:6",
+            "odds": "9.70",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 6+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "6+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "780",
+        "specifier": "variant=pre:playerprops:72221332:1055173",
+        "product": 3,
+        "desc": "Player tackles (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player tackles",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1055173:2",
+            "odds": "1.70",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 2+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:3",
+            "odds": "2.60",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 3+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:4",
+            "odds": "4.25",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 4+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:5",
+            "odds": "7.20",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 5+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:6",
+            "odds": "12.00",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 6+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "6+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "780",
+        "specifier": "variant=pre:playerprops:72221332:1059325",
+        "product": 3,
+        "desc": "Player tackles (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player tackles",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1059325:2",
+            "odds": "1.29",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 2+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:3",
+            "odds": "2.15",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 3+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:4",
+            "odds": "3.20",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 4+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:5",
+            "odds": "5.10",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 5+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:6",
+            "odds": "8.80",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 6+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "6+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:7",
+            "odds": "14.50",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 7+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "7+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "780",
+        "specifier": "variant=pre:playerprops:72221332:1088470",
+        "product": 3,
+        "desc": "Player tackles (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player tackles",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1088470:2",
+            "odds": "2.70",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 2+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:3",
+            "odds": "5.00",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 3+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:4",
+            "odds": "8.90",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 4+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:5",
+            "odds": "14.00",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 5+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "5+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "800291",
+        "specifier": "variant=pre:playerprops:72221332:1015179",
+        "product": 3,
+        "desc": "Player Fouls",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Fouls",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1015179:1:1",
+            "odds": "1.55",
+            "isActive": 1,
+            "desc": "Ben White (Arsenal) 1+",
+            "playerName": "Ben White (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:2:1",
+            "odds": "3.51",
+            "isActive": 1,
+            "desc": "Ben White (Arsenal) 2+",
+            "playerName": "Ben White (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:3:1",
+            "odds": "8.64",
+            "isActive": 1,
+            "desc": "Ben White (Arsenal) 3+",
+            "playerName": "Ben White (Arsenal)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1015179:4:1",
+            "odds": "17.94",
+            "isActive": 1,
+            "desc": "Ben White (Arsenal) 4+",
+            "playerName": "Ben White (Arsenal)",
+            "playerScore": "4+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1792771190000,
+        "banned": false
+      },
+      {
+        "id": "800291",
+        "specifier": "variant=pre:playerprops:72221332:1055173",
+        "product": 3,
+        "desc": "Player Fouls",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Fouls",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1055173:1:2",
+            "odds": "1.40",
+            "isActive": 1,
+            "desc": "Kiernan Dewsbury-Hall (Everton) 1+",
+            "playerName": "Kiernan Dewsbury-Hall (Everton)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:2:2",
+            "odds": "2.82",
+            "isActive": 1,
+            "desc": "Kiernan Dewsbury-Hall (Everton) 2+",
+            "playerName": "Kiernan Dewsbury-Hall (Everton)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:3:2",
+            "odds": "7.16",
+            "isActive": 1,
+            "desc": "Kiernan Dewsbury-Hall (Everton) 3+",
+            "playerName": "Kiernan Dewsbury-Hall (Everton)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:4:2",
+            "odds": "14.24",
+            "isActive": 1,
+            "desc": "Kiernan Dewsbury-Hall (Everton) 4+",
+            "playerName": "Kiernan Dewsbury-Hall (Everton)",
+            "playerScore": "4+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1792771190000,
+        "banned": false
+      },
+      {
+        "id": "800291",
+        "specifier": "variant=pre:playerprops:72221332:1059325",
+        "product": 3,
+        "desc": "Player Fouls",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Fouls",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1059325:1:1",
+            "odds": "1.30",
+            "isActive": 1,
+            "desc": "Jurrien Timber (Arsenal) 1+",
+            "playerName": "Jurrien Timber (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:2:1",
+            "odds": "2.32",
+            "isActive": 1,
+            "desc": "Jurrien Timber (Arsenal) 2+",
+            "playerName": "Jurrien Timber (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:3:1",
+            "odds": "5.20",
+            "isActive": 1,
+            "desc": "Jurrien Timber (Arsenal) 3+",
+            "playerName": "Jurrien Timber (Arsenal)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:4:1",
+            "odds": "10.91",
+            "isActive": 1,
+            "desc": "Jurrien Timber (Arsenal) 4+",
+            "playerName": "Jurrien Timber (Arsenal)",
+            "playerScore": "4+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1792771190000,
+        "banned": false
+      },
+      {
+        "id": "800291",
+        "specifier": "variant=pre:playerprops:72221332:1088470",
+        "product": 3,
+        "desc": "Player Fouls",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player Fouls",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1088470:1:1",
+            "odds": "1.57",
+            "isActive": 1,
+            "desc": "Eberechi Eze (Arsenal) 1+",
+            "playerName": "Eberechi Eze (Arsenal)",
+            "playerScore": "1+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:2:1",
+            "odds": "3.72",
+            "isActive": 1,
+            "desc": "Eberechi Eze (Arsenal) 2+",
+            "playerName": "Eberechi Eze (Arsenal)",
+            "playerScore": "2+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:3:1",
+            "odds": "10.35",
+            "isActive": 1,
+            "desc": "Eberechi Eze (Arsenal) 3+",
+            "playerName": "Eberechi Eze (Arsenal)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:4:1",
+            "odds": "19.40",
+            "isActive": 1,
+            "desc": "Eberechi Eze (Arsenal) 4+",
+            "playerName": "Eberechi Eze (Arsenal)",
+            "playerScore": "4+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1792771190000,
+        "banned": false
+      },
+      {
+        "id": "1191",
+        "specifier": "variant=pre:playerprops:72221332:1015179",
+        "product": 3,
+        "desc": "Player to be carded (incl. overtime)",
+        "status": 0,
+        "group": "Bookings",
+        "title": "",
+        "name": "Player to be carded",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1015179:1",
+            "odds": "4.20",
+            "isActive": 1,
+            "desc": "White, Ben (Arsenal) 1+",
+            "playerName": "White, Ben (Arsenal)",
+            "playerScore": "1+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "1191",
+        "specifier": "variant=pre:playerprops:72221332:1055173",
+        "product": 3,
+        "desc": "Player to be carded (incl. overtime)",
+        "status": 0,
+        "group": "Bookings",
+        "title": "",
+        "name": "Player to be carded",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1055173:1",
+            "odds": "3.70",
+            "isActive": 1,
+            "desc": "Dewsbury-Hall, Kiernan (Everton) 1+",
+            "playerName": "Dewsbury-Hall, Kiernan (Everton)",
+            "playerScore": "1+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "1191",
+        "specifier": "variant=pre:playerprops:72221332:1059325",
+        "product": 3,
+        "desc": "Player to be carded (incl. overtime)",
+        "status": 0,
+        "group": "Bookings",
+        "title": "",
+        "name": "Player to be carded",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1059325:1",
+            "odds": "3.90",
+            "isActive": 1,
+            "desc": "Timber, Jurrien (Arsenal) 1+",
+            "playerName": "Timber, Jurrien (Arsenal)",
+            "playerScore": "1+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "1191",
+        "specifier": "variant=pre:playerprops:72221332:1088470",
+        "product": 3,
+        "desc": "Player to be carded (incl. overtime)",
+        "status": 0,
+        "group": "Bookings",
+        "title": "",
+        "name": "Player to be carded",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1088470:1",
+            "odds": "13.50",
+            "isActive": 1,
+            "desc": "Eze, Eberechi (Arsenal) 1+",
+            "playerName": "Eze, Eberechi (Arsenal)",
+            "playerScore": "1+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792764689000,
+        "banned": false
+      },
+      {
+        "id": "166",
+        "specifier": "total=7.5",
+        "product": 3,
+        "desc": "Corners - Over/Under",
+        "status": 0,
+        "group": "Corners",
+        "title": ",Over,Under",
+        "name": "Corners - Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.29",
+            "isActive": 1,
+            "desc": "Over 7.5"
+          },
+          {
+            "id": "13",
+            "odds": "3.50",
+            "isActive": 1,
+            "desc": "Under 7.5"
+          }
+        ],
+        "farNearOdds": -1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792766238130,
+        "banned": false
+      },
+      {
+        "id": "166",
+        "specifier": "total=8.5",
+        "product": 3,
+        "desc": "Corners - Over/Under",
+        "status": 0,
+        "group": "Corners",
+        "title": ",Over,Under",
+        "name": "Corners - Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.50",
+            "isActive": 1,
+            "desc": "Over 8.5"
+          },
+          {
+            "id": "13",
+            "odds": "2.55",
+            "isActive": 1,
+            "desc": "Under 8.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792766238130,
+        "banned": false
+      },
+      {
+        "id": "166",
+        "specifier": "total=9.5",
+        "product": 3,
+        "desc": "Corners - Over/Under",
+        "status": 0,
+        "group": "Corners",
+        "title": ",Over,Under",
+        "name": "Corners - Over/Under",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.81",
+            "isActive": 1,
+            "desc": "Over 9.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.97",
+            "isActive": 1,
+            "desc": "Under 9.5"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792766238130,
+        "banned": false
+      },
+      {
+        "id": "166",
+        "specifier": "total=10.5",
+        "product": 3,
+        "desc": "Corners - Over/Under",
+        "status": 0,
+        "group": "Corners",
+        "title": ",Over,Under",
+        "name": "Corners - Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "2.25",
+            "isActive": 1,
+            "desc": "Over 10.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.61",
+            "isActive": 1,
+            "desc": "Under 10.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792766238130,
+        "banned": false
+      },
+      {
+        "id": "166",
+        "specifier": "total=11.5",
+        "product": 3,
+        "desc": "Corners - Over/Under",
+        "status": 0,
+        "group": "Corners",
+        "title": ",Over,Under",
+        "name": "Corners - Over/Under",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "2.95",
+            "isActive": 1,
+            "desc": "Over 11.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.39",
+            "isActive": 1,
+            "desc": "Under 11.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1792766238130,
+        "banned": false
+      },
+      {
+        "id": "800289",
+        "product": 3,
+        "desc": "To Score or Assist",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player To Score or Assist",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1015179:1",
+            "odds": "4.08",
+            "isActive": 1,
+            "desc": "Ben White (Arsenal)",
+            "playerName": "Ben White (Arsenal)",
+            "playerScore": "Ben White (Arsenal)"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:2",
+            "odds": "3.34",
+            "isActive": 1,
+            "desc": "Kiernan Dewsbury-Hall (Everton)",
+            "playerName": "Kiernan Dewsbury-Hall (Everton)",
+            "playerScore": "Kiernan Dewsbury-Hall (Everton)"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:1",
+            "odds": "3.96",
+            "isActive": 1,
+            "desc": "Jurrien Timber (Arsenal)",
+            "playerName": "Jurrien Timber (Arsenal)",
+            "playerScore": "Jurrien Timber (Arsenal)"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:1",
+            "odds": "2.15",
+            "isActive": 1,
+            "desc": "Eberechi Eze (Arsenal)",
+            "playerName": "Eberechi Eze (Arsenal)",
+            "playerScore": "Eberechi Eze (Arsenal)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1792772397000,
+        "banned": false
+      },
+      {
+        "id": "800296",
+        "product": 3,
+        "desc": "Player To Be Carded",
+        "status": 0,
+        "group": "Players",
+        "title": "",
+        "name": "Player To Be Carded",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:72221332:1015179:1",
+            "odds": "6.15",
+            "isActive": 1,
+            "desc": "Ben White (Arsenal)",
+            "playerName": "Ben White (Arsenal)",
+            "playerScore": "Ben White (Arsenal)"
+          },
+          {
+            "id": "pre:playerprops:72221332:1055173:2",
+            "odds": "4.38",
+            "isActive": 1,
+            "desc": "Kiernan Dewsbury-Hall (Everton)",
+            "playerName": "Kiernan Dewsbury-Hall (Everton)",
+            "playerScore": "Kiernan Dewsbury-Hall (Everton)"
+          },
+          {
+            "id": "pre:playerprops:72221332:1059325:1",
+            "odds": "5.02",
+            "isActive": 1,
+            "desc": "Jurrien Timber (Arsenal)",
+            "playerName": "Jurrien Timber (Arsenal)",
+            "playerScore": "Jurrien Timber (Arsenal)"
+          },
+          {
+            "id": "pre:playerprops:72221332:1088470:1",
+            "odds": "7.55",
+            "isActive": 1,
+            "desc": "Eberechi Eze (Arsenal)",
+            "playerName": "Eberechi Eze (Arsenal)",
+            "playerScore": "Eberechi Eze (Arsenal)"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1792772397000,
+        "banned": false
+      }
+    ],
+    "audioLiveChannel": true,
+    "bookingStatus": "Booked",
+    "topTeam": true,
+    "oddsBoost": true,
+    "fixtureVenue": {
+      "name": "Emirates Stadium"
+    },
+    "ai": false,
+    "bgEvent": false,
+    "matchTrackerNotAllowed": false,
+    "eventSource": {
+      "preMatchSource": {
+        "sourceType": "BET_RADAR",
+        "sourceId": "72221332"
+      },
+      "liveSource": {
+        "sourceType": "BET_RADAR",
+        "sourceId": "72221332"
+      }
+    },
+    "containsPcbb": false,
+    "banned": false
+  }
+}

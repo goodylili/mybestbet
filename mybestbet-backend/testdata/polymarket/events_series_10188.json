@@ -1,0 +1,1357 @@
+[
+ {
+  "id": "1162669",
+  "ticker": "epl-ips-not-2026-10-23",
+  "slug": "epl-ips-not-2026-10-23",
+  "title": "Ipswich Town FC vs. Nottingham Forest FC",
+  "startDate": "2026-10-10T04:00:18Z",
+  "endDate": "2026-10-23T19:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-23T19:00:00Z",
+  "eventDate": "2026-10-23",
+  "gameId": 90114145,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100019,
+    "name": "Ipswich Town FC",
+    "abbreviation": "ips",
+    "alias": "Ipswich",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100007,
+    "name": "Nottingham Forest FC",
+    "abbreviation": "not",
+    "alias": "Forest",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1162676",
+  "ticker": "epl-ips-not-2026-10-23-halftime-result",
+  "slug": "epl-ips-not-2026-10-23-halftime-result",
+  "title": "Ipswich Town FC vs. Nottingham Forest FC - Halftime Result",
+  "startDate": "2026-10-10T04:00:18Z",
+  "endDate": "2026-10-23T19:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-23T19:00:00Z",
+  "eventDate": "2026-10-23",
+  "gameId": 90114145,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100019,
+    "name": "Ipswich Town FC",
+    "abbreviation": "ips",
+    "alias": "Ipswich",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100007,
+    "name": "Nottingham Forest FC",
+    "abbreviation": "not",
+    "alias": "Forest",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1162679",
+  "ticker": "epl-ips-not-2026-10-23-second-half-result",
+  "slug": "epl-ips-not-2026-10-23-second-half-result",
+  "title": "Ipswich Town FC vs. Nottingham Forest FC - Second Half Result",
+  "startDate": "2026-10-10T04:00:20Z",
+  "endDate": "2026-10-23T19:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-23T19:00:00Z",
+  "eventDate": "2026-10-23",
+  "gameId": 90114145,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100019,
+    "name": "Ipswich Town FC",
+    "abbreviation": "ips",
+    "alias": "Ipswich",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100007,
+    "name": "Nottingham Forest FC",
+    "abbreviation": "not",
+    "alias": "Forest",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1162681",
+  "ticker": "epl-ips-not-2026-10-23-exact-score",
+  "slug": "epl-ips-not-2026-10-23-exact-score",
+  "title": "Ipswich Town FC vs. Nottingham Forest FC - Exact Score",
+  "startDate": "2026-10-10T04:00:44Z",
+  "endDate": "2026-10-23T19:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-23T19:00:00Z",
+  "eventDate": "2026-10-23",
+  "gameId": 90114145,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100019,
+    "name": "Ipswich Town FC",
+    "abbreviation": "ips",
+    "alias": "Ipswich",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100007,
+    "name": "Nottingham Forest FC",
+    "abbreviation": "not",
+    "alias": "Forest",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1162691",
+  "ticker": "epl-ips-not-2026-10-23-first-to-score",
+  "slug": "epl-ips-not-2026-10-23-first-to-score",
+  "title": "Ipswich Town FC vs. Nottingham Forest FC - First Team to Score",
+  "startDate": "2026-10-10T04:00:24Z",
+  "endDate": "2026-10-23T19:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-23T19:00:00Z",
+  "eventDate": "2026-10-23",
+  "gameId": 90114145,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100019,
+    "name": "Ipswich Town FC",
+    "abbreviation": "ips",
+    "alias": "Ipswich",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100007,
+    "name": "Nottingham Forest FC",
+    "abbreviation": "not",
+    "alias": "Forest",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1162845",
+  "ticker": "epl-ips-not-2026-10-23-total-corners",
+  "slug": "epl-ips-not-2026-10-23-total-corners",
+  "title": "Ipswich Town FC vs. Nottingham Forest FC - Total Corners",
+  "startDate": "2026-10-10T04:44:12Z",
+  "endDate": "2026-10-23T19:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-23T19:00:00Z",
+  "eventDate": "2026-10-23",
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100019,
+    "name": "Ipswich Town FC",
+    "abbreviation": "ips",
+    "alias": "Ipswich",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100007,
+    "name": "Nottingham Forest FC",
+    "abbreviation": "not",
+    "alias": "Forest",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": false,
+  "markets": []
+ },
+ {
+  "id": "1162934",
+  "ticker": "epl-ips-not-2026-10-23-more-markets",
+  "slug": "epl-ips-not-2026-10-23-more-markets",
+  "title": "Ipswich Town FC vs. Nottingham Forest FC - More Markets",
+  "startDate": "2026-10-10T05:00:35Z",
+  "endDate": "2026-10-23T19:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-23T19:00:00Z",
+  "eventDate": "2026-10-23",
+  "gameId": 90114145,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100019,
+    "name": "Ipswich Town FC",
+    "abbreviation": "ips",
+    "alias": "Ipswich",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100007,
+    "name": "Nottingham Forest FC",
+    "abbreviation": "not",
+    "alias": "Forest",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": false,
+  "markets": []
+ },
+ {
+  "id": "1168495",
+  "ticker": "epl-ast-mac-2026-10-24",
+  "slug": "epl-ast-mac-2026-10-24",
+  "title": "Aston Villa FC vs. Manchester City FC",
+  "startDate": "2026-10-11T04:00:14Z",
+  "endDate": "2026-10-24T11:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T11:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114139,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100009,
+    "name": "Aston Villa FC",
+    "abbreviation": "ast",
+    "alias": "Villa",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100004,
+    "name": "Manchester City FC",
+    "abbreviation": "mac",
+    "alias": "Man City",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168502",
+  "ticker": "epl-ast-mac-2026-10-24-halftime-result",
+  "slug": "epl-ast-mac-2026-10-24-halftime-result",
+  "title": "Aston Villa FC vs. Manchester City FC - Halftime Result",
+  "startDate": "2026-10-11T04:00:16Z",
+  "endDate": "2026-10-24T11:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T11:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114139,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100009,
+    "name": "Aston Villa FC",
+    "abbreviation": "ast",
+    "alias": "Villa",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100004,
+    "name": "Manchester City FC",
+    "abbreviation": "mac",
+    "alias": "Man City",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168505",
+  "ticker": "epl-ast-mac-2026-10-24-second-half-result",
+  "slug": "epl-ast-mac-2026-10-24-second-half-result",
+  "title": "Aston Villa FC vs. Manchester City FC - Second Half Result",
+  "startDate": "2026-10-11T04:00:18Z",
+  "endDate": "2026-10-24T11:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T11:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114139,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100009,
+    "name": "Aston Villa FC",
+    "abbreviation": "ast",
+    "alias": "Villa",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100004,
+    "name": "Manchester City FC",
+    "abbreviation": "mac",
+    "alias": "Man City",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168508",
+  "ticker": "epl-ast-mac-2026-10-24-exact-score",
+  "slug": "epl-ast-mac-2026-10-24-exact-score",
+  "title": "Aston Villa FC vs. Manchester City FC - Exact Score",
+  "startDate": "2026-10-11T04:00:50Z",
+  "endDate": "2026-10-24T11:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T11:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114139,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100009,
+    "name": "Aston Villa FC",
+    "abbreviation": "ast",
+    "alias": "Villa",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100004,
+    "name": "Manchester City FC",
+    "abbreviation": "mac",
+    "alias": "Man City",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168516",
+  "ticker": "epl-ast-mac-2026-10-24-first-to-score",
+  "slug": "epl-ast-mac-2026-10-24-first-to-score",
+  "title": "Aston Villa FC vs. Manchester City FC - First Team to Score",
+  "startDate": "2026-10-11T04:00:21Z",
+  "endDate": "2026-10-24T11:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T11:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114139,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100009,
+    "name": "Aston Villa FC",
+    "abbreviation": "ast",
+    "alias": "Villa",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100004,
+    "name": "Manchester City FC",
+    "abbreviation": "mac",
+    "alias": "Man City",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168519",
+  "ticker": "epl-ars-eve-2026-10-24",
+  "slug": "epl-ars-eve-2026-10-24",
+  "title": "Arsenal FC vs. Everton FC",
+  "startDate": "2026-10-11T04:00:22Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114142,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100005,
+    "name": "Arsenal FC",
+    "abbreviation": "ars",
+    "alias": "Arsenal",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100013,
+    "name": "Everton FC",
+    "abbreviation": "eve",
+    "alias": "Everton",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168526",
+  "ticker": "epl-ars-eve-2026-10-24-halftime-result",
+  "slug": "epl-ars-eve-2026-10-24-halftime-result",
+  "title": "Arsenal FC vs. Everton FC - Halftime Result",
+  "startDate": "2026-10-11T04:00:25Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114142,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100005,
+    "name": "Arsenal FC",
+    "abbreviation": "ars",
+    "alias": "Arsenal",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100013,
+    "name": "Everton FC",
+    "abbreviation": "eve",
+    "alias": "Everton",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168529",
+  "ticker": "epl-ars-eve-2026-10-24-second-half-result",
+  "slug": "epl-ars-eve-2026-10-24-second-half-result",
+  "title": "Arsenal FC vs. Everton FC - Second Half Result",
+  "startDate": "2026-10-11T04:00:25Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114142,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100005,
+    "name": "Arsenal FC",
+    "abbreviation": "ars",
+    "alias": "Arsenal",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100013,
+    "name": "Everton FC",
+    "abbreviation": "eve",
+    "alias": "Everton",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168531",
+  "ticker": "epl-ars-eve-2026-10-24-exact-score",
+  "slug": "epl-ars-eve-2026-10-24-exact-score",
+  "title": "Arsenal FC vs. Everton FC - Exact Score",
+  "startDate": "2026-10-11T04:00:52Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114142,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100005,
+    "name": "Arsenal FC",
+    "abbreviation": "ars",
+    "alias": "Arsenal",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100013,
+    "name": "Everton FC",
+    "abbreviation": "eve",
+    "alias": "Everton",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168541",
+  "ticker": "epl-ars-eve-2026-10-24-first-to-score",
+  "slug": "epl-ars-eve-2026-10-24-first-to-score",
+  "title": "Arsenal FC vs. Everton FC - First Team to Score",
+  "startDate": "2026-10-11T04:00:32Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114142,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100005,
+    "name": "Arsenal FC",
+    "abbreviation": "ars",
+    "alias": "Arsenal",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100013,
+    "name": "Everton FC",
+    "abbreviation": "eve",
+    "alias": "Everton",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168545",
+  "ticker": "epl-cov-ful-2026-10-24",
+  "slug": "epl-cov-ful-2026-10-24",
+  "title": "Coventry City FC vs. Fulham FC",
+  "startDate": "2026-10-11T04:00:32Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114146,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 3284766,
+    "name": "Coventry City FC",
+    "abbreviation": "cov",
+    "alias": null,
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100011,
+    "name": "Fulham FC",
+    "abbreviation": "ful",
+    "alias": "Fulham",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168550",
+  "ticker": "epl-cov-ful-2026-10-24-halftime-result",
+  "slug": "epl-cov-ful-2026-10-24-halftime-result",
+  "title": "Coventry City FC vs. Fulham FC - Halftime Result",
+  "startDate": "2026-10-11T04:00:29Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114146,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 3284766,
+    "name": "Coventry City FC",
+    "abbreviation": "cov",
+    "alias": null,
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100011,
+    "name": "Fulham FC",
+    "abbreviation": "ful",
+    "alias": "Fulham",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168552",
+  "ticker": "epl-cov-ful-2026-10-24-second-half-result",
+  "slug": "epl-cov-ful-2026-10-24-second-half-result",
+  "title": "Coventry City FC vs. Fulham FC - Second Half Result",
+  "startDate": "2026-10-11T04:00:29Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114146,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 3284766,
+    "name": "Coventry City FC",
+    "abbreviation": "cov",
+    "alias": null,
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100011,
+    "name": "Fulham FC",
+    "abbreviation": "ful",
+    "alias": "Fulham",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168553",
+  "ticker": "epl-cov-ful-2026-10-24-exact-score",
+  "slug": "epl-cov-ful-2026-10-24-exact-score",
+  "title": "Coventry City FC vs. Fulham FC - Exact Score",
+  "startDate": "2026-10-11T04:01:02Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114146,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 3284766,
+    "name": "Coventry City FC",
+    "abbreviation": "cov",
+    "alias": null,
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100011,
+    "name": "Fulham FC",
+    "abbreviation": "ful",
+    "alias": "Fulham",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168564",
+  "ticker": "epl-cov-ful-2026-10-24-first-to-score",
+  "slug": "epl-cov-ful-2026-10-24-first-to-score",
+  "title": "Coventry City FC vs. Fulham FC - First Team to Score",
+  "startDate": "2026-10-11T04:00:32Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114146,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 3284766,
+    "name": "Coventry City FC",
+    "abbreviation": "cov",
+    "alias": null,
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100011,
+    "name": "Fulham FC",
+    "abbreviation": "ful",
+    "alias": "Fulham",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168565",
+  "ticker": "epl-che-tot-2026-10-24",
+  "slug": "epl-che-tot-2026-10-24",
+  "title": "Chelsea FC vs. Tottenham Hotspur FC",
+  "startDate": "2026-10-11T04:00:35Z",
+  "endDate": "2026-10-24T16:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T16:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114143,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100014,
+    "name": "Chelsea FC",
+    "abbreviation": "che",
+    "alias": "Chelsea",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100018,
+    "name": "Tottenham Hotspur FC",
+    "abbreviation": "tot",
+    "alias": "Spurs",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168568",
+  "ticker": "epl-che-tot-2026-10-24-halftime-result",
+  "slug": "epl-che-tot-2026-10-24-halftime-result",
+  "title": "Chelsea FC vs. Tottenham Hotspur FC - Halftime Result",
+  "startDate": "2026-10-11T04:00:35Z",
+  "endDate": "2026-10-24T16:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T16:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114143,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100014,
+    "name": "Chelsea FC",
+    "abbreviation": "che",
+    "alias": "Chelsea",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100018,
+    "name": "Tottenham Hotspur FC",
+    "abbreviation": "tot",
+    "alias": "Spurs",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168570",
+  "ticker": "epl-che-tot-2026-10-24-second-half-result",
+  "slug": "epl-che-tot-2026-10-24-second-half-result",
+  "title": "Chelsea FC vs. Tottenham Hotspur FC - Second Half Result",
+  "startDate": "2026-10-11T04:00:35Z",
+  "endDate": "2026-10-24T16:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T16:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114143,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100014,
+    "name": "Chelsea FC",
+    "abbreviation": "che",
+    "alias": "Chelsea",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100018,
+    "name": "Tottenham Hotspur FC",
+    "abbreviation": "tot",
+    "alias": "Spurs",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168572",
+  "ticker": "epl-che-tot-2026-10-24-exact-score",
+  "slug": "epl-che-tot-2026-10-24-exact-score",
+  "title": "Chelsea FC vs. Tottenham Hotspur FC - Exact Score",
+  "startDate": "2026-10-11T04:01:02Z",
+  "endDate": "2026-10-24T16:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T16:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114143,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100014,
+    "name": "Chelsea FC",
+    "abbreviation": "che",
+    "alias": "Chelsea",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100018,
+    "name": "Tottenham Hotspur FC",
+    "abbreviation": "tot",
+    "alias": "Spurs",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168579",
+  "ticker": "epl-che-tot-2026-10-24-first-to-score",
+  "slug": "epl-che-tot-2026-10-24-first-to-score",
+  "title": "Chelsea FC vs. Tottenham Hotspur FC - First Team to Score",
+  "startDate": "2026-10-11T04:00:38Z",
+  "endDate": "2026-10-24T16:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T16:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114143,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100014,
+    "name": "Chelsea FC",
+    "abbreviation": "che",
+    "alias": "Chelsea",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100018,
+    "name": "Tottenham Hotspur FC",
+    "abbreviation": "tot",
+    "alias": "Spurs",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1168738",
+  "ticker": "epl-che-tot-2026-10-24-total-corners",
+  "slug": "epl-che-tot-2026-10-24-total-corners",
+  "title": "Chelsea FC vs. Tottenham Hotspur FC - Total Corners",
+  "startDate": "2026-10-11T04:34:10Z",
+  "endDate": "2026-10-24T16:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T16:30:00Z",
+  "eventDate": "2026-10-24",
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100014,
+    "name": "Chelsea FC",
+    "abbreviation": "che",
+    "alias": "Chelsea",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100018,
+    "name": "Tottenham Hotspur FC",
+    "abbreviation": "tot",
+    "alias": "Spurs",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": false,
+  "markets": []
+ },
+ {
+  "id": "1168739",
+  "ticker": "epl-cov-ful-2026-10-24-total-corners",
+  "slug": "epl-cov-ful-2026-10-24-total-corners",
+  "title": "Coventry City FC vs. Fulham FC - Total Corners",
+  "startDate": "2026-10-11T04:34:12Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 3284766,
+    "name": "Coventry City FC",
+    "abbreviation": "cov",
+    "alias": null,
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100011,
+    "name": "Fulham FC",
+    "abbreviation": "ful",
+    "alias": "Fulham",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": false,
+  "markets": []
+ },
+ {
+  "id": "1168740",
+  "ticker": "epl-ars-eve-2026-10-24-total-corners",
+  "slug": "epl-ars-eve-2026-10-24-total-corners",
+  "title": "Arsenal FC vs. Everton FC - Total Corners",
+  "startDate": "2026-10-11T04:34:16Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100005,
+    "name": "Arsenal FC",
+    "abbreviation": "ars",
+    "alias": "Arsenal",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100013,
+    "name": "Everton FC",
+    "abbreviation": "eve",
+    "alias": "Everton",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": false,
+  "markets": []
+ },
+ {
+  "id": "1168741",
+  "ticker": "epl-ast-mac-2026-10-24-total-corners",
+  "slug": "epl-ast-mac-2026-10-24-total-corners",
+  "title": "Aston Villa FC vs. Manchester City FC - Total Corners",
+  "startDate": "2026-10-11T04:34:16Z",
+  "endDate": "2026-10-24T11:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T11:30:00Z",
+  "eventDate": "2026-10-24",
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100009,
+    "name": "Aston Villa FC",
+    "abbreviation": "ast",
+    "alias": "Villa",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100004,
+    "name": "Manchester City FC",
+    "abbreviation": "mac",
+    "alias": "Man City",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": false,
+  "markets": []
+ },
+ {
+  "id": "1168858",
+  "ticker": "epl-che-tot-2026-10-24-more-markets",
+  "slug": "epl-che-tot-2026-10-24-more-markets",
+  "title": "Chelsea FC vs. Tottenham Hotspur FC - More Markets",
+  "startDate": "2026-10-11T05:00:34Z",
+  "endDate": "2026-10-24T16:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T16:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114143,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100014,
+    "name": "Chelsea FC",
+    "abbreviation": "che",
+    "alias": "Chelsea",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100018,
+    "name": "Tottenham Hotspur FC",
+    "abbreviation": "tot",
+    "alias": "Spurs",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": false,
+  "markets": []
+ },
+ {
+  "id": "1168864",
+  "ticker": "epl-cov-ful-2026-10-24-more-markets",
+  "slug": "epl-cov-ful-2026-10-24-more-markets",
+  "title": "Coventry City FC vs. Fulham FC - More Markets",
+  "startDate": "2026-10-11T05:00:44Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114146,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 3284766,
+    "name": "Coventry City FC",
+    "abbreviation": "cov",
+    "alias": null,
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100011,
+    "name": "Fulham FC",
+    "abbreviation": "ful",
+    "alias": "Fulham",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": false,
+  "markets": []
+ },
+ {
+  "id": "1168867",
+  "ticker": "epl-ars-eve-2026-10-24-more-markets",
+  "slug": "epl-ars-eve-2026-10-24-more-markets",
+  "title": "Arsenal FC vs. Everton FC - More Markets",
+  "startDate": "2026-10-11T05:00:54Z",
+  "endDate": "2026-10-24T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T14:00:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114142,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100005,
+    "name": "Arsenal FC",
+    "abbreviation": "ars",
+    "alias": "Arsenal",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100013,
+    "name": "Everton FC",
+    "abbreviation": "eve",
+    "alias": "Everton",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": false,
+  "markets": []
+ },
+ {
+  "id": "1168871",
+  "ticker": "epl-ast-mac-2026-10-24-more-markets",
+  "slug": "epl-ast-mac-2026-10-24-more-markets",
+  "title": "Aston Villa FC vs. Manchester City FC - More Markets",
+  "startDate": "2026-10-11T05:01:06Z",
+  "endDate": "2026-10-24T11:30:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-24T11:30:00Z",
+  "eventDate": "2026-10-24",
+  "gameId": 90114139,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100009,
+    "name": "Aston Villa FC",
+    "abbreviation": "ast",
+    "alias": "Villa",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100004,
+    "name": "Manchester City FC",
+    "abbreviation": "mac",
+    "alias": "Man City",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": false,
+  "markets": []
+ },
+ {
+  "id": "1174974",
+  "ticker": "epl-cry-new-2026-10-25",
+  "slug": "epl-cry-new-2026-10-25",
+  "title": "Crystal Palace FC vs. Newcastle United FC",
+  "startDate": "2026-10-12T04:00:16Z",
+  "endDate": "2026-10-25T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-25T14:00:00Z",
+  "eventDate": "2026-10-25",
+  "gameId": 90114147,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100006,
+    "name": "Crystal Palace FC",
+    "abbreviation": "cry",
+    "alias": "Palace",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100000,
+    "name": "Newcastle United FC",
+    "abbreviation": "new",
+    "alias": "Newcastle",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1174979",
+  "ticker": "epl-cry-new-2026-10-25-halftime-result",
+  "slug": "epl-cry-new-2026-10-25-halftime-result",
+  "title": "Crystal Palace FC vs. Newcastle United FC - Halftime Result",
+  "startDate": "2026-10-12T04:00:22Z",
+  "endDate": "2026-10-25T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-25T14:00:00Z",
+  "eventDate": "2026-10-25",
+  "gameId": 90114147,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100006,
+    "name": "Crystal Palace FC",
+    "abbreviation": "cry",
+    "alias": "Palace",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100000,
+    "name": "Newcastle United FC",
+    "abbreviation": "new",
+    "alias": "Newcastle",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1174981",
+  "ticker": "epl-cry-new-2026-10-25-second-half-result",
+  "slug": "epl-cry-new-2026-10-25-second-half-result",
+  "title": "Crystal Palace FC vs. Newcastle United FC - Second Half Result",
+  "startDate": "2026-10-12T04:00:22Z",
+  "endDate": "2026-10-25T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-25T14:00:00Z",
+  "eventDate": "2026-10-25",
+  "gameId": 90114147,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100006,
+    "name": "Crystal Palace FC",
+    "abbreviation": "cry",
+    "alias": "Palace",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100000,
+    "name": "Newcastle United FC",
+    "abbreviation": "new",
+    "alias": "Newcastle",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1174984",
+  "ticker": "epl-cry-new-2026-10-25-exact-score",
+  "slug": "epl-cry-new-2026-10-25-exact-score",
+  "title": "Crystal Palace FC vs. Newcastle United FC - Exact Score",
+  "startDate": "2026-10-12T04:00:53Z",
+  "endDate": "2026-10-25T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-25T14:00:00Z",
+  "eventDate": "2026-10-25",
+  "gameId": 90114147,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100006,
+    "name": "Crystal Palace FC",
+    "abbreviation": "cry",
+    "alias": "Palace",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100000,
+    "name": "Newcastle United FC",
+    "abbreviation": "new",
+    "alias": "Newcastle",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ },
+ {
+  "id": "1174995",
+  "ticker": "epl-cry-new-2026-10-25-first-to-score",
+  "slug": "epl-cry-new-2026-10-25-first-to-score",
+  "title": "Crystal Palace FC vs. Newcastle United FC - First Team to Score",
+  "startDate": "2026-10-12T04:00:27Z",
+  "endDate": "2026-10-25T14:00:00Z",
+  "active": true,
+  "closed": false,
+  "startTime": "2026-10-25T14:00:00Z",
+  "eventDate": "2026-10-25",
+  "gameId": 90114147,
+  "seriesSlug": "premier-league-2025",
+  "teams": [
+   {
+    "id": 100006,
+    "name": "Crystal Palace FC",
+    "abbreviation": "cry",
+    "alias": "Palace",
+    "league": "epl",
+    "ordering": "home"
+   },
+   {
+    "id": 100000,
+    "name": "Newcastle United FC",
+    "abbreviation": "new",
+    "alias": "Newcastle",
+    "league": "epl",
+    "ordering": "away"
+   }
+  ],
+  "negRisk": true,
+  "markets": []
+ }
+]

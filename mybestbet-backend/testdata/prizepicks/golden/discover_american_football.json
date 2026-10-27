@@ -1,0 +1,14 @@
+{
+  "source": "prizepicks",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "NFL-6701",
+      "leagueHint": "NFL",
+      "home": "Buffalo Bills",
+      "away": "Kansas City Chiefs",
+      "kickoff": "2026-11-01T21:25:00Z"
+    }
+  ],
+  "markets": null
+}

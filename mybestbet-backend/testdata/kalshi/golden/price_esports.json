@@ -1,0 +1,186 @@
+{
+  "source": "kalshi",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "KXCS2GAME-26OCT240300MGLZAUR",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 30,
+            "form": "cents",
+            "prob": 0.3,
+            "bid": 29,
+            "ask": 30,
+            "liquidity": 2603.505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 72,
+            "form": "cents",
+            "prob": 0.72,
+            "bid": 71,
+            "ask": 72,
+            "liquidity": 18368.7912,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXCS2GAME-26OCT240300MGLZAUR"
+    },
+    {
+      "eventSourceId": "KXCS2GAME-26OCT240300MGLZAUR",
+      "code": "ML",
+      "period": "M1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 38,
+            "form": "cents",
+            "prob": 0.38,
+            "bid": 34,
+            "ask": 38,
+            "liquidity": 180.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 64,
+            "form": "cents",
+            "prob": 0.64,
+            "bid": 60,
+            "ask": 64,
+            "liquidity": 689.92,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXCS2MAP-26OCT240300MGLZAUR-1"
+    },
+    {
+      "eventSourceId": "KXCS2GAME-26OCT240300MGLZAUR",
+      "code": "MAP_HCP",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 48,
+            "form": "cents",
+            "prob": 0.48,
+            "bid": 43,
+            "ask": 48,
+            "liquidity": 180,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 57,
+            "form": "cents",
+            "prob": 0.57,
+            "bid": 52,
+            "ask": 57,
+            "liquidity": 18.810000000000002,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXCS2SPREAD-26OCT240300MGLZAUR-AUR2"
+    },
+    {
+      "eventSourceId": "KXCS2GAME-26OCT240300MGLZAUR",
+      "code": "MAP_HCP",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 16,
+            "form": "cents",
+            "prob": 0.16,
+            "bid": 11,
+            "ask": 16,
+            "liquidity": 64.64,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 89,
+            "form": "cents",
+            "prob": 0.89,
+            "bid": 84,
+            "ask": 89,
+            "liquidity": 333.75,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXCS2SPREAD-26OCT240300MGLZAUR-MGLZ2"
+    },
+    {
+      "eventSourceId": "KXCS2GAME-26OCT240300MGLZAUR",
+      "code": "TOTAL_MAPS",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 45,
+            "form": "cents",
+            "prob": 0.45,
+            "bid": 40,
+            "ask": 45,
+            "liquidity": 65.25,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 60,
+            "form": "cents",
+            "prob": 0.6,
+            "bid": 55,
+            "ask": 60,
+            "liquidity": 300.59999999999997,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXCS2TOTALMAPS-26OCT240300MGLZAUR-3"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "source": "prizepicks",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "CS2-6901",
+      "leagueHint": "CS2",
+      "home": "Team Vitality",
+      "away": "Natus Vincere",
+      "kickoff": "2026-10-30T15:00:00Z"
+    }
+  ],
+  "markets": null
+}

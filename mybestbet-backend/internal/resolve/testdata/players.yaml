@@ -1,0 +1,208 @@
+fixtures:
+  - home: [Cristiano Ronaldo, Sadio Mané, Marcelo Brozović, Aymeric Laporte, Otávio, Abdullah Al-Amri, Sultan Al-Ghannam, Nawaf Al-Aqidi, Ayman Yahya, Abdulrahman Ghareeb]
+    away: [Salem Al-Dawsari, Rúben Neves, Kalidou Koulibaly, João Cancelo, Malcom, Sergej Milinković-Savić, Yassine Bounou, Mohamed Kanno, Ali Al-Bulayhi, Nasser Al-Dawsari, Saud Abdulhamid]
+    variants:
+      C. Ronaldo: Cristiano Ronaldo
+      Ronaldo, Cristiano: Cristiano Ronaldo
+      Ronaldo: Cristiano Ronaldo
+      Cristiano Ronaldo dos Santos Aveiro: Cristiano Ronaldo
+      Sadio Mane: Sadio Mané
+      S. Mané: Sadio Mané
+      Mane S.: Sadio Mané
+      M. Brozovic: Marcelo Brozović
+      Brozovic Marcelo: Marcelo Brozović
+      Laporte: Aymeric Laporte
+      Otavio: Otávio
+      A. Al-Amri: Abdullah Al-Amri
+      Al Ghannam Sultan: Sultan Al-Ghannam
+      Nawaf Al Aqidi: Nawaf Al-Aqidi
+      Ayman Yahia: Ayman Yahya
+      Salem Al Dawsari: Salem Al-Dawsari
+      S. Al-Dawsari: Salem Al-Dawsari
+      Al-Dawsari Salem: Salem Al-Dawsari
+      N. Al Dawsari: Nasser Al-Dawsari
+      Al-Dawsari: ""
+      Ruben Neves: Rúben Neves
+      R. Neves: Rúben Neves
+      Neves Ruben: Rúben Neves
+      K. Koulibaly: Kalidou Koulibaly
+      Joao Cancelo: João Cancelo
+      Cancelo: João Cancelo
+      Malcom Filipe Silva de Oliveira: Malcom
+      S. Milinkovic-Savic: Sergej Milinković-Savić
+      Milinkovic-Savic: Sergej Milinković-Savić
+      Bounou Yassine: Yassine Bounou
+      Mohammed Kanno: Mohamed Kanno
+      A. Al Bulayhi: Ali Al-Bulayhi
+      Saud Abdul Hamid: Saud Abdulhamid
+      Joao Felix: ""
+      Marcelo Brozovic Jr: Marcelo Brozović
+      Vitinha: ""
+      Abdulrahman Al-Obaid: ""
+  - home: [Ángel Di María, Nicolás Otamendi, Vangelis Pavlidis, Orkun Kökçü, Fredrik Aursnes, António Silva, Tomás Araújo, Anatoliy Trubin, Álvaro Carreras, Kerem Aktürkoğlu]
+    away: [Diogo Costa, Samu Aghehowa, Alan Varela, Pepê, Rodrigo Mora, Francisco Moura, Jan Bednarek, Nehuén Pérez, Gabri Veiga, William Gomes]
+    variants:
+      Angel Di Maria: Ángel Di María
+      A. Di Maria: Ángel Di María
+      Di Maria: Ángel Di María
+      N. Otamendi: Nicolás Otamendi
+      Otamendi, Nicolas: Nicolás Otamendi
+      Pavlidis: Vangelis Pavlidis
+      Evangelos Pavlidis: Vangelis Pavlidis
+      Kokcu: Orkun Kökçü
+      Aursnes F.: Fredrik Aursnes
+      Antonio Silva: António Silva
+      A. Silva: António Silva
+      Tomas Araujo: Tomás Araújo
+      Trubin: Anatoliy Trubin
+      Anatolii Trubin: Anatoliy Trubin
+      A. Carreras: Álvaro Carreras
+      Akturkoglu: Kerem Aktürkoğlu
+      Diogo Costa: Diogo Costa
+      D. Costa: Diogo Costa
+      Samu: Samu Aghehowa
+      Samu Omorodion: Samu Aghehowa
+      Alan Varela: Alan Varela
+      Pepe: Pepê
+      R. Mora: Rodrigo Mora
+      Mora Rodrigo: Rodrigo Mora
+      F. Moura: Francisco Moura
+      Bednarek: Jan Bednarek
+      Nehuen Perez: Nehuén Pérez
+      Gabri Veiga: Gabri Veiga
+      Gabriel Veiga: Gabri Veiga
+      W. Gomes: William Gomes
+      Joao Mario: ""
+      Bruno Fernandes: ""
+      Costa: Diogo Costa
+      Moura Francisco: Francisco Moura
+  - home: [Souleymane Faye, Rubén García, Abdulrahman Al Obaid, Enzo Boyomo, Henrique Araújo, Nilson Angulo, Marcelino Núñez, Willian Pacho, Felix Uduokhai, Xavi Sintes, Dani Martinez, Jair Collahuazo]
+    away: [João Guilherme, Giorgi Tsitaishvili, Iker Muñoz, Mohamed Al Dossari, Marcos Llorente, Fer López]
+    variants:
+      Toure, Souleymane: ""
+      Garcia, Raul: ""
+      Nabza, Abdulrahman: ""
+      Flavien Boyomo: ""
+      Henrique Poniewas: ""
+      Faye, Souleymane: Souleymane Faye
+      Garcia, Ruben: Rubén García
+      Al-Obaid, Abdulrahman Obaid: Abdulrahman Al Obaid
+      Nilson David Angulo Ramirez: Nilson Angulo
+      Marcelino Ignacio Nunez Espinoza: Marcelino Núñez
+      William Joel Pacho Tenorio: Willian Pacho
+      Ohis Felix Uduokhai: Felix Uduokhai
+      Xavier Sintes Egea: Xavi Sintes
+      Daniel Martinez Moreno: Dani Martinez
+      Collahuazo Vaca, Jair Antonio: Jair Collahuazo
+      Joao Guilherme de Sousa Crispim: João Guilherme
+      Munoz, Iker Ortin: Iker Muñoz
+      Fernando Lopez Gonzalez: Fer López
+      Al Dossari, Muhammed: Mohamed Al Dossari
+  - league: NBA
+    sport: basketball
+    home: [LeBron James, Luka Dončić, Austin Reaves, Deandre Ayton, Rui Hachimura, Marcus Smart, Jarred Vanderbilt, Gabe Vincent, Jaxson Hayes, Bronny James]
+    away: [Stephen Curry, Jimmy Butler III, Draymond Green, Jonathan Kuminga, Brandin Podziemski, Moses Moody, Buddy Hield, Al Horford, Gary Payton II, Trayce Jackson-Davis]
+    variants:
+      LeBron James: LeBron James
+      L. James: LeBron James
+      James, LeBron: LeBron James
+      James: ""
+      Luka Doncic: Luka Dončić
+      L. Doncic: Luka Dončić
+      Doncic, Luka: Luka Dončić
+      Austin Reaves: Austin Reaves
+      A. Reaves: Austin Reaves
+      Rui Hachimura: Rui Hachimura
+      Hachimura R.: Rui Hachimura
+      Marcus Smart: Marcus Smart
+      Bronny James Jr.: Bronny James
+      B. James: Bronny James
+      Steph Curry: Stephen Curry
+      Stephen Curry: Stephen Curry
+      Jimmy Butler: Jimmy Butler III
+      J. Butler: Jimmy Butler III
+      Draymond Green: Draymond Green
+      D. Green: Draymond Green
+      Green: Draymond Green
+      Jonathan Kuminga: Jonathan Kuminga
+      Brandin Podziemski: Brandin Podziemski
+      B. Podziemski: Brandin Podziemski
+      Gary Payton: Gary Payton II
+      G. Payton II: Gary Payton II
+      Trayce Jackson-Davis: Trayce Jackson-Davis
+      T. Jackson-Davis: Trayce Jackson-Davis
+      Buddy Hield: Buddy Hield
+      Moses Moody: Moses Moody
+      Kevin Durant: ""
+      Anthony Davis: ""
+  - league: NFL
+    sport: american-football
+    home: [Patrick Mahomes, Travis Kelce, Isiah Pacheco, Rashee Rice, Xavier Worthy, Hollywood Brown, Kareem Hunt, Noah Gray, JuJu Smith-Schuster, Harrison Butker]
+    away: [Josh Allen, James Cook, Khalil Shakir, Dalton Kincaid, Keon Coleman, Dawson Knox, Ty Johnson, Curtis Samuel, Ray Davis, Joshua Palmer]
+    variants:
+      Patrick Mahomes II: Patrick Mahomes
+      P. Mahomes: Patrick Mahomes
+      Mahomes: Patrick Mahomes
+      Travis Kelce: Travis Kelce
+      T. Kelce: Travis Kelce
+      Isiah Pacheco: Isiah Pacheco
+      I. Pacheco: Isiah Pacheco
+      Rashee Rice: Rashee Rice
+      R. Rice: Rashee Rice
+      Xavier Worthy: Xavier Worthy
+      Josh Allen: Josh Allen
+      J. Allen: Josh Allen
+      Allen: Josh Allen
+      James Cook III: James Cook
+      J. Cook: James Cook
+      Khalil Shakir: Khalil Shakir
+      Dalton Kincaid: Dalton Kincaid
+      Keon Coleman: Keon Coleman
+      Dawson Knox: Dawson Knox
+      JuJu Smith-Schuster: JuJu Smith-Schuster
+      Juju Smith Schuster: JuJu Smith-Schuster
+      Kareem Hunt: Kareem Hunt
+      K. Hunt: Kareem Hunt
+      Ray Davis: Ray Davis
+      Josh Palmer: Joshua Palmer
+      Joshua Palmer: Joshua Palmer
+      Davis: Ray Davis
+      Derrick Henry: ""
+      Josh Jacobs: ""
+  - league: ATP_AO
+    sport: tennis
+    home: [Jannik Sinner]
+    away: [Carlos Alcaraz]
+    variants:
+      Sinner J.: Jannik Sinner
+      J. Sinner: Jannik Sinner
+      Sinner: Jannik Sinner
+      Alcaraz C.: Carlos Alcaraz
+      Carlos Alcaraz Garfia: Carlos Alcaraz
+      Alcaraz, Carlos: Carlos Alcaraz
+      Djokovic N.: ""
+  - league: CS2
+    sport: esports
+    home: [apEX, ZywOo, ropz, flameZ, mezii]
+    away: [donk, sh1ro, zont1x, zweih, tN1R]
+    variants:
+      ZywOo: ZywOo
+      zywoo: ZywOo
+      Mathieu 'ZywOo' Herbaut: ZywOo
+      apEX: apEX
+      APEX: apEX
+      Dan "apEX" Madesclaire: apEX
+      ropz: ropz
+      Robin 'ropz' Kool: ropz
+      FlameZ: flameZ
+      mezii: mezii
+      donk: donk
+      Danil “donk” Kryshkovets: donk
+      Sh1ro: sh1ro
+      zont1x: zont1x
+      zweih: zweih
+      tN1R: tN1R
+      s1mple: ""
+      Danil Kryshkovets: ""
+      Zyw0o: ""
+      donk1: ""

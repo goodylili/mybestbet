@@ -1,0 +1,212 @@
+{
+ "data": {
+  "event": {
+   "id": "75100001",
+   "name": "Charlotte Hornets - Miami Heat",
+   "shortName": "Charlotte Hornets - Miami Heat",
+   "sportId": "BASK",
+   "leagueId": "441",
+   "leagueName": "NBA",
+   "regionName": "USA",
+   "startTime": 1792879200000,
+   "url": "/odds/charlotte-hornets-miami-heat/75100001/",
+   "participants": [
+    {
+     "name": "Charlotte Hornets"
+    },
+    {
+     "name": "Miami Heat"
+    }
+   ],
+   "markets": [
+    {
+     "id": "910000003",
+     "name": "Winner (incl. overtime)",
+     "type": "MR12",
+     "selections": [
+      {
+       "id": "910000001",
+       "name": "1",
+       "fullName": "1",
+       "price": 2.25
+      },
+      {
+       "id": "910000002",
+       "name": "2",
+       "fullName": "2",
+       "price": 1.66
+      }
+     ]
+    },
+    {
+     "id": "910000007",
+     "name": "Match Result",
+     "type": "MRES",
+     "selections": [
+      {
+       "id": "910000004",
+       "name": "1",
+       "fullName": "1",
+       "price": 2.35
+      },
+      {
+       "id": "910000005",
+       "name": "X",
+       "fullName": "X",
+       "price": 17.0
+      },
+      {
+       "id": "910000006",
+       "name": "2",
+       "fullName": "2",
+       "price": 1.67
+      }
+     ]
+    },
+    {
+     "id": "910000012",
+     "name": "Handicap (incl. overtime)",
+     "type": "HCOT",
+     "selections": [
+      {
+       "id": "910000008",
+       "name": "1 (+1.5)",
+       "fullName": "1 (+1.5)",
+       "price": 2.05,
+       "handicap": 1.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000009",
+       "name": "2 (-1.5)",
+       "fullName": "2 (-1.5)",
+       "price": 1.81,
+       "handicap": -1.5,
+       "columnIndex": 1
+      },
+      {
+       "id": "910000010",
+       "name": "1 (+2.5)",
+       "fullName": "1 (+2.5)",
+       "price": 1.93,
+       "handicap": 2.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000011",
+       "name": "2 (-2.5)",
+       "fullName": "2 (-2.5)",
+       "price": 1.92,
+       "handicap": -2.5,
+       "columnIndex": 1
+      }
+     ]
+    },
+    {
+     "id": "910000017",
+     "name": "Total Points (incl. overtime)",
+     "type": "OUOT",
+     "selections": [
+      {
+       "id": "910000013",
+       "name": "Over 230.5",
+       "fullName": "Over 230.5",
+       "price": 1.79,
+       "handicap": 230.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000014",
+       "name": "Under 230.5",
+       "fullName": "Under 230.5",
+       "price": 2.03,
+       "handicap": 230.5,
+       "columnIndex": 1
+      },
+      {
+       "id": "910000015",
+       "name": "Over 231.5",
+       "fullName": "Over 231.5",
+       "price": 1.87,
+       "handicap": 231.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000016",
+       "name": "Under 231.5",
+       "fullName": "Under 231.5",
+       "price": 1.95,
+       "handicap": 231.5,
+       "columnIndex": 1
+      }
+     ]
+    },
+    {
+     "id": "910000020",
+     "name": "1st Half Winner",
+     "type": "H1ML",
+     "selections": [
+      {
+       "id": "910000018",
+       "name": "1",
+       "fullName": "1",
+       "price": 2.18
+      },
+      {
+       "id": "910000019",
+       "name": "2",
+       "fullName": "2",
+       "price": 1.69
+      }
+     ]
+    },
+    {
+     "id": "910000023",
+     "name": "1st Half Handicap",
+     "type": "H1HC",
+     "selections": [
+      {
+       "id": "910000021",
+       "name": "1 (+0.5)",
+       "fullName": "1 (+0.5)",
+       "price": 2.08,
+       "handicap": 0.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000022",
+       "name": "2 (-0.5)",
+       "fullName": "2 (-0.5)",
+       "price": 1.74,
+       "handicap": -0.5,
+       "columnIndex": 1
+      }
+     ]
+    },
+    {
+     "id": "910000026",
+     "name": "1st Half Total Points",
+     "type": "H1OU",
+     "selections": [
+      {
+       "id": "910000024",
+       "name": "Over 118.5",
+       "fullName": "Over 118.5",
+       "price": 1.74,
+       "handicap": 118.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000025",
+       "name": "Under 118.5",
+       "fullName": "Under 118.5",
+       "price": 2.06,
+       "handicap": 118.5,
+       "columnIndex": 1
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

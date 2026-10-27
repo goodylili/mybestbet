@@ -1,0 +1,60 @@
+.crumbs { display: flex; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg-3); }
+.crumbs a { color: var(--fg-2); display: flex; align-items: center; gap: 6px; }
+.crumbs a:hover { color: var(--fg); }
+
+.hd { display: flex; align-items: baseline; gap: 12px; }
+.spi { display: inline-flex; color: var(--fg-2); align-self: center; }
+.hd .spi, .hd .spi svg { color: var(--blue); }
+.plH { align-items: center; gap: 14px; }
+.plH h1 { line-height: 1.15; }
+.plH p { margin-top: 2px; font-size: 14px; }
+
+.astats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border: 1px solid var(--line-2); border-radius: var(--r); background: var(--panel); }
+.astats div { padding: 14px 16px; display: flex; flex-direction: column; gap: 3px; border-left: 1px solid var(--line); }
+.astats div:first-child { border-left: 0; }
+.astats span { font-size: 12.5px; color: var(--fg-3); }
+.astats b { font-size: 22px; font-weight: 500; letter-spacing: -.02em; }
+
+.pgTop { display: block; height: 0; scroll-margin-top: 84px; }
+
+.gl { padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+.gl h2, .pl2 h2 { font-size: 15px; font-weight: 500; }
+.gl > nav, .pl2 :global(.card) > nav { padding-left: 0; padding-right: 0; }
+.note { font-size: 13px; }
+
+.glT { display: flex; flex-direction: column; }
+.glR { display: grid; grid-template-columns: 62px minmax(0, 1fr) 54px repeat(var(--n, 8), 40px); gap: 8px; align-items: center; min-height: 38px; border-top: 1px solid var(--line); font-size: 13.5px; }
+.glR > span { text-align: right; }
+.glR > span:nth-child(1), .glR > span:nth-child(2) { text-align: left; }
+.glHd { border-top: 0; font-size: 12px; color: var(--fg-3); min-height: 30px; }
+.glO { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--fg-2); }
+.glR .lo { color: var(--amber); }
+.glR i { font-style: normal; font-size: 10.5px; color: var(--fg-3); margin-left: 3px; }
+.glR .hl { color: var(--fg); font-weight: 500; }
+.glHd .hl { color: var(--blue); }
+.glR.hit .hl { color: var(--blue); font-weight: 600; }
+
+.pl2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+.pl2 :global(.card) { padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+.rd { display: flex; align-items: flex-end; gap: 6px; height: 110px; border-bottom: 1px solid var(--line-2); padding-bottom: 4px; }
+.rdC { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 4px; height: 100%; }
+.rdC i { width: 100%; max-width: 26px; background: rgb(var(--ink) / .22); border-radius: 2px 2px 0 0; }
+.rdC b { font-size: 10.5px; font-weight: 400; color: var(--fg-3); }
+
+.kv { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; }
+.kv span:first-child { color: var(--fg-2); }
+.kv .pos { color: var(--blue); }
+
+@media (max-width: 760px) {
+  .hd { padding-top: 4px; align-items: center; }
+  .hd .spi { display: none; }
+  .astats { grid-template-columns: repeat(2, minmax(0, 1fr)); border-radius: 16px; }
+  .astats div:nth-child(3) { border-left: 0; }
+  .astats div:nth-child(n+3) { border-top: 1px solid var(--line); }
+  .astats div { padding: 12px 14px; }
+  .astats b { font-size: 19px; }
+  .glR .cFouls, .glR .cTackles, .glR .cYellow, .glR .cShots, .glR .cAssists, .glR .cGoals, .glR .cShotsOnTarget { display: none; }
+  .glR > .hl ~ .cRating, .glR > .cRating { display: block; }
+  .glR { grid-template-columns: 52px minmax(0, 1fr) 44px 40px 40px; }
+  .gen .glR { grid-template-columns: 48px minmax(0, 1fr) 36px repeat(var(--n), minmax(30px, 38px)); gap: 6px; font-size: 12.5px; }
+}

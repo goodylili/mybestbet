@@ -1,0 +1,198 @@
+{
+ "cursor": "",
+ "events": [
+  {
+   "category": "Sports",
+   "collateral_return_type": "MECNET",
+   "event_ticker": "KXCOPADELREYGAME-26OCT27CALEUR",
+   "exchange_index": 0,
+   "last_updated_ts": "2026-10-23T00:31:58.616391Z",
+   "markets": [
+    {
+     "close_time": "2026-10-29T18:00:00Z",
+     "custom_strike": {
+      "soccer_team": "c454e330-a2c8-4123-975b-740ec8e1aee9"
+     },
+     "event_ticker": "KXCOPADELREYGAME-26OCT27CALEUR",
+     "expected_expiration_time": "2026-10-27T21:00:00Z",
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.9500",
+     "no_bid_dollars": "0.1900",
+     "no_sub_title": "Reg Time: Calamocha",
+     "occurrence_datetime": "2026-10-27T21:00:00Z",
+     "open_interest_fp": "0.00",
+     "rules_primary": "If Calamocha wins the Calamocha vs Europa professional Copa del Rey soccer game originally scheduled for Oct 27, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCOPADELREYGAME-26OCT27CALEUR-CAL",
+     "title": "Reg Time: Calamocha wins",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.8100",
+     "yes_ask_size_fp": "100.00",
+     "yes_bid_dollars": "0.0500",
+     "yes_bid_size_fp": "163.00",
+     "yes_sub_title": "Reg Time: Calamocha"
+    },
+    {
+     "close_time": "2026-10-29T18:00:00Z",
+     "custom_strike": {
+      "soccer_team": "6fd1a4ef-6821-4bc0-ae1b-997672280f2f"
+     },
+     "event_ticker": "KXCOPADELREYGAME-26OCT27CALEUR",
+     "expected_expiration_time": "2026-10-27T21:00:00Z",
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.9500",
+     "no_bid_dollars": "0.1900",
+     "no_sub_title": "Reg Time: Europa",
+     "occurrence_datetime": "2026-10-27T21:00:00Z",
+     "open_interest_fp": "0.00",
+     "rules_primary": "If Europa wins the Calamocha vs Europa professional Copa del Rey soccer game originally scheduled for Oct 27, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCOPADELREYGAME-26OCT27CALEUR-EUR",
+     "title": "Reg Time: Europa wins",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.8100",
+     "yes_ask_size_fp": "100.00",
+     "yes_bid_dollars": "0.0500",
+     "yes_bid_size_fp": "163.00",
+     "yes_sub_title": "Reg Time: Europa"
+    },
+    {
+     "close_time": "2026-10-29T18:00:00Z",
+     "custom_strike": {
+      "soccer_team": "111193d4-9b1f-4bd8-ab7c-9de252737f05"
+     },
+     "event_ticker": "KXCOPADELREYGAME-26OCT27CALEUR",
+     "expected_expiration_time": "2026-10-27T21:00:00Z",
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.9500",
+     "no_bid_dollars": "0.5500",
+     "no_sub_title": "Reg Time: Tie",
+     "occurrence_datetime": "2026-10-27T21:00:00Z",
+     "open_interest_fp": "0.00",
+     "rules_primary": "If Tie is the result of the Calamocha vs Europa professional Copa del Rey soccer game originally scheduled for Oct 27, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCOPADELREYGAME-26OCT27CALEUR-TIE",
+     "title": "Reg Time: Tie is the result",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.4500",
+     "yes_ask_size_fp": "500.00",
+     "yes_bid_dollars": "0.0500",
+     "yes_bid_size_fp": "263.00",
+     "yes_sub_title": "Reg Time: Tie"
+    }
+   ],
+   "mutually_exclusive": true,
+   "product_metadata": {
+    "competition": "Copa del Rey",
+    "competition_scope": "Regulation Time Moneyline"
+   },
+   "series_ticker": "KXCOPADELREYGAME",
+   "strike_period": "",
+   "sub_title": "CAL vs EUR (Oct 27)",
+   "title": "Calamocha vs Europa: Regulation Time Moneyline"
+  },
+  {
+   "category": "Sports",
+   "collateral_return_type": "MECNET",
+   "event_ticker": "KXCOPADELREYGAME-26OCT27SRCESP",
+   "exchange_index": 0,
+   "last_updated_ts": "2026-10-23T00:31:58.882496Z",
+   "markets": [
+    {
+     "close_time": "2026-10-29T18:00:00Z",
+     "custom_strike": {
+      "soccer_team": "c4d0f15a-d186-45d0-b945-f229c2fec965"
+     },
+     "event_ticker": "KXCOPADELREYGAME-26OCT27SRCESP",
+     "expected_expiration_time": "2026-10-27T21:00:00Z",
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.9500",
+     "no_bid_dollars": "0.6700",
+     "no_sub_title": "Reg Time: Sestao",
+     "occurrence_datetime": "2026-10-27T21:00:00Z",
+     "open_interest_fp": "0.00",
+     "rules_primary": "If Sestao wins the Sestao vs Espanyol professional Copa del Rey soccer game originally scheduled for Oct 27, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCOPADELREYGAME-26OCT27SRCESP-SRC",
+     "title": "Reg Time: Sestao wins",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.3300",
+     "yes_ask_size_fp": "5.00",
+     "yes_bid_dollars": "0.0500",
+     "yes_bid_size_fp": "163.00",
+     "yes_sub_title": "Reg Time: Sestao"
+    },
+    {
+     "close_time": "2026-10-29T18:00:00Z",
+     "custom_strike": {
+      "soccer_team": "a3b795c3-bc80-427e-93a1-03f2883600a8"
+     },
+     "event_ticker": "KXCOPADELREYGAME-26OCT27SRCESP",
+     "expected_expiration_time": "2026-10-27T21:00:00Z",
+     "last_price_dollars": "0.7300",
+     "market_type": "binary",
+     "no_ask_dollars": "0.3800",
+     "no_bid_dollars": "0.1000",
+     "no_sub_title": "Reg Time: Espanyol",
+     "occurrence_datetime": "2026-10-27T21:00:00Z",
+     "open_interest_fp": "506.87",
+     "rules_primary": "If Espanyol wins the Sestao vs Espanyol professional Copa del Rey soccer game originally scheduled for Oct 27, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCOPADELREYGAME-26OCT27SRCESP-ESP",
+     "title": "Reg Time: Espanyol wins",
+     "volume_fp": "507.87",
+     "yes_ask_dollars": "0.9000",
+     "yes_ask_size_fp": "45.00",
+     "yes_bid_dollars": "0.6200",
+     "yes_bid_size_fp": "43.00",
+     "yes_sub_title": "Reg Time: Espanyol"
+    },
+    {
+     "close_time": "2026-10-29T18:00:00Z",
+     "custom_strike": {
+      "soccer_team": "111193d4-9b1f-4bd8-ab7c-9de252737f05"
+     },
+     "event_ticker": "KXCOPADELREYGAME-26OCT27SRCESP",
+     "expected_expiration_time": "2026-10-27T21:00:00Z",
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.9500",
+     "no_bid_dollars": "0.6700",
+     "no_sub_title": "Reg Time: Tie",
+     "occurrence_datetime": "2026-10-27T21:00:00Z",
+     "open_interest_fp": "0.00",
+     "rules_primary": "If Tie is the result of the Sestao vs Espanyol professional Copa del Rey soccer game originally scheduled for Oct 27, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCOPADELREYGAME-26OCT27SRCESP-TIE",
+     "title": "Reg Time: Tie is the result",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.3300",
+     "yes_ask_size_fp": "5.00",
+     "yes_bid_dollars": "0.0500",
+     "yes_bid_size_fp": "263.00",
+     "yes_sub_title": "Reg Time: Tie"
+    }
+   ],
+   "mutually_exclusive": true,
+   "product_metadata": {
+    "competition": "Copa del Rey",
+    "competition_scope": "Regulation Time Moneyline"
+   },
+   "series_ticker": "KXCOPADELREYGAME",
+   "strike_period": "",
+   "sub_title": "SRC vs ESP (Oct 27)",
+   "title": "Sestao vs Espanyol: Regulation Time Moneyline"
+  }
+ ],
+ "milestones": []
+}

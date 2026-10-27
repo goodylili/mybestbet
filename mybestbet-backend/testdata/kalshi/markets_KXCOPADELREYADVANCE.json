@@ -1,0 +1,75 @@
+{
+ "cursor": "",
+ "events": [
+  {
+   "category": "Sports",
+   "collateral_return_type": "MECNET",
+   "event_ticker": "KXCOPADELREYADVANCE-26OCT27CALEUR",
+   "exchange_index": 0,
+   "last_updated_ts": "2026-10-23T00:31:58.242647Z",
+   "markets": [
+    {
+     "close_time": "2026-10-29T18:00:00Z",
+     "custom_strike": {
+      "soccer_team": "c454e330-a2c8-4123-975b-740ec8e1aee9"
+     },
+     "event_ticker": "KXCOPADELREYADVANCE-26OCT27CALEUR",
+     "expected_expiration_time": "2026-10-27T21:00:00Z",
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.9700",
+     "no_bid_dollars": "0.1900",
+     "no_sub_title": "Calamocha advances",
+     "occurrence_datetime": "2026-10-27T21:00:00Z",
+     "open_interest_fp": "0.00",
+     "rules_primary": "If Calamocha advance past Europa in the Calamocha vs Europa soccer tie in the 1St Round of the Copa del Rey, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCOPADELREYADVANCE-26OCT27CALEUR-CAL",
+     "title": "Calamocha To Advance",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.8100",
+     "yes_ask_size_fp": "100.00",
+     "yes_bid_dollars": "0.0300",
+     "yes_bid_size_fp": "22.00",
+     "yes_sub_title": "Calamocha advances"
+    },
+    {
+     "close_time": "2026-10-29T18:00:00Z",
+     "custom_strike": {
+      "soccer_team": "6fd1a4ef-6821-4bc0-ae1b-997672280f2f"
+     },
+     "event_ticker": "KXCOPADELREYADVANCE-26OCT27CALEUR",
+     "expected_expiration_time": "2026-10-27T21:00:00Z",
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.9800",
+     "no_bid_dollars": "0.1900",
+     "no_sub_title": "Europa advances",
+     "occurrence_datetime": "2026-10-27T21:00:00Z",
+     "open_interest_fp": "0.00",
+     "rules_primary": "If Europa advance past Calamocha in the Calamocha vs Europa soccer tie in the 1St Round of the Copa del Rey, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCOPADELREYADVANCE-26OCT27CALEUR-EUR",
+     "title": "Europa To Advance",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.8100",
+     "yes_ask_size_fp": "100.00",
+     "yes_bid_dollars": "0.0200",
+     "yes_bid_size_fp": "250.00",
+     "yes_sub_title": "Europa advances"
+    }
+   ],
+   "mutually_exclusive": true,
+   "product_metadata": {
+    "competition": "Copa del Rey",
+    "competition_scope": "Game"
+   },
+   "series_ticker": "KXCOPADELREYADVANCE",
+   "strike_period": "",
+   "sub_title": "CAL vs EUR (Oct 27)",
+   "title": "Calamocha vs Europa"
+  }
+ ]
+}

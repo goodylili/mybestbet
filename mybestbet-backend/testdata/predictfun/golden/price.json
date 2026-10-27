@@ -1,0 +1,1080 @@
+{
+  "source": "predictfun",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "CORN_OU",
+      "line": 8.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.7,
+            "form": "share",
+            "prob": 0.7,
+            "bid": 0.69,
+            "ask": 0.7,
+            "liquidity": 380.6593,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.31,
+            "form": "share",
+            "prob": 0.31,
+            "bid": 0.3,
+            "ask": 0.31,
+            "liquidity": 22.4626,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3226721"
+    },
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "CORN_OU",
+      "line": 9.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.58,
+            "form": "share",
+            "prob": 0.58,
+            "bid": 0.56,
+            "ask": 0.58,
+            "liquidity": 581.29485,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.44,
+            "form": "share",
+            "prob": 0.44,
+            "bid": 0.42,
+            "ask": 0.44,
+            "liquidity": 843.84663,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3226724"
+    },
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "CORN_OU",
+      "line": 10.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.47,
+            "form": "share",
+            "prob": 0.47,
+            "bid": 0.45,
+            "ask": 0.47,
+            "liquidity": 702.65,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.55,
+            "form": "share",
+            "prob": 0.55,
+            "bid": 0.53,
+            "ask": 0.55,
+            "liquidity": 675.31365,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3226727"
+    },
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "AH",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.25,
+            "form": "share",
+            "prob": 0.25,
+            "bid": 0.24,
+            "ask": 0.25,
+            "liquidity": 3846.165,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.76,
+            "form": "share",
+            "prob": 0.76,
+            "bid": 0.75,
+            "ask": 0.76,
+            "liquidity": 231.3308,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228710"
+    },
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "AH",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.14,
+            "form": "share",
+            "prob": 0.14,
+            "bid": 0.13,
+            "ask": 0.14,
+            "liquidity": 27.9048,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.87,
+            "form": "share",
+            "prob": 0.87,
+            "bid": 0.86,
+            "ask": 0.87,
+            "liquidity": 100.3806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228711"
+    },
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "OU",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.84,
+            "form": "share",
+            "prob": 0.84,
+            "bid": 0.82,
+            "ask": 0.84,
+            "liquidity": 209.3364,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.18,
+            "form": "share",
+            "prob": 0.18,
+            "bid": 0.16,
+            "ask": 0.18,
+            "liquidity": 1155.6756,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228728"
+    },
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.62,
+            "form": "share",
+            "prob": 0.62,
+            "bid": 0.61,
+            "ask": 0.62,
+            "liquidity": 773.7382,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.39,
+            "form": "share",
+            "prob": 0.39,
+            "bid": 0.38,
+            "ask": 0.39,
+            "liquidity": 638.0848500000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228730"
+    },
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "OU",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.4,
+            "form": "share",
+            "prob": 0.4,
+            "bid": 0.39,
+            "ask": 0.4,
+            "liquidity": 47.164,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.61,
+            "form": "share",
+            "prob": 0.61,
+            "bid": 0.6,
+            "ask": 0.61,
+            "liquidity": 3298.401152894915,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228732"
+    },
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 0.66,
+            "form": "share",
+            "prob": 0.66,
+            "bid": 0.65,
+            "ask": 0.66,
+            "liquidity": 30435.85962,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 0.35,
+            "form": "share",
+            "prob": 0.35,
+            "bid": 0.34,
+            "ask": 0.35,
+            "liquidity": 8.712931499999998,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228743"
+    },
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.46,
+            "form": "share",
+            "prob": 0.46,
+            "bid": 0.45,
+            "ask": 0.46,
+            "liquidity": 19430.84246,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 0.25,
+            "form": "share",
+            "prob": 0.25,
+            "bid": 0.24,
+            "ask": 0.25,
+            "liquidity": 453.415,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.31,
+            "form": "share",
+            "prob": 0.31,
+            "bid": 0.3,
+            "ask": 0.31,
+            "liquidity": 3474.1256,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "epl-liv-bri-2026-10-25"
+    },
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "CS",
+      "selections": [
+        {
+          "label": "0-0",
+          "price": {
+            "raw": 0.05,
+            "form": "share",
+            "prob": 0.05,
+            "bid": 0.037,
+            "ask": 0.05,
+            "liquidity": 7.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-1",
+          "price": {
+            "raw": 0.06,
+            "form": "share",
+            "prob": 0.06,
+            "bid": 0.05,
+            "ask": 0.06,
+            "liquidity": 18,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-0",
+          "price": {
+            "raw": 0.076,
+            "form": "share",
+            "prob": 0.076,
+            "bid": 0.065,
+            "ask": 0.076,
+            "liquidity": 76,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-1",
+          "price": {
+            "raw": 0.12,
+            "form": "share",
+            "prob": 0.12,
+            "bid": 0.105,
+            "ask": 0.12,
+            "liquidity": 18,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-1",
+          "price": {
+            "raw": 0.098,
+            "form": "share",
+            "prob": 0.098,
+            "bid": 0.091,
+            "ask": 0.098,
+            "liquidity": 96,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "Other",
+          "price": {
+            "raw": 0.199,
+            "form": "share",
+            "prob": 0.199,
+            "ask": 0.199,
+            "liquidity": 24.180490000000002,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "epl-liv-bri-2026-10-25-exact-score"
+    },
+    {
+      "eventSourceId": "epl-liv-bri-2026-10-25",
+      "code": "1H_1X2",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.37,
+            "form": "share",
+            "prob": 0.37,
+            "bid": 0.35,
+            "ask": 0.37,
+            "liquidity": 458.4707,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 0.39,
+            "form": "share",
+            "prob": 0.39,
+            "bid": 0.37,
+            "ask": 0.39,
+            "liquidity": 477.2636700000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.27,
+            "form": "share",
+            "prob": 0.27,
+            "bid": 0.25,
+            "ask": 0.27,
+            "liquidity": 318.249,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "epl-liv-bri-2026-10-25-halftime-result"
+    },
+    {
+      "eventSourceId": "fl1-psg-lyo-2026-10-25",
+      "code": "AH",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.48,
+            "form": "share",
+            "prob": 0.48,
+            "bid": 0.46,
+            "ask": 0.48,
+            "liquidity": 48,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.54,
+            "form": "share",
+            "prob": 0.54,
+            "bid": 0.52,
+            "ask": 0.54,
+            "liquidity": 54,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228132"
+    },
+    {
+      "eventSourceId": "fl1-psg-lyo-2026-10-25",
+      "code": "AH",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.07,
+            "form": "share",
+            "prob": 0.07,
+            "bid": 0.04,
+            "ask": 0.07,
+            "liquidity": 143.8206,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.96,
+            "form": "share",
+            "prob": 0.96,
+            "bid": 0.93,
+            "ask": 0.96,
+            "liquidity": 192,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228135"
+    },
+    {
+      "eventSourceId": "fl1-psg-lyo-2026-10-25",
+      "code": "OU",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.89,
+            "form": "share",
+            "prob": 0.89,
+            "bid": 0.87,
+            "ask": 0.89,
+            "liquidity": 178,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.13,
+            "form": "share",
+            "prob": 0.13,
+            "bid": 0.11,
+            "ask": 0.13,
+            "liquidity": 131.4066,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228176"
+    },
+    {
+      "eventSourceId": "fl1-psg-lyo-2026-10-25",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.72,
+            "form": "share",
+            "prob": 0.72,
+            "bid": 0.7,
+            "ask": 0.72,
+            "liquidity": 954.7919999999999,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.3,
+            "form": "share",
+            "prob": 0.3,
+            "bid": 0.28,
+            "ask": 0.3,
+            "liquidity": 47.376599999999996,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228180"
+    },
+    {
+      "eventSourceId": "fl1-psg-lyo-2026-10-25",
+      "code": "OU",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.48,
+            "ask": 0.5,
+            "liquidity": 165,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.52,
+            "form": "share",
+            "prob": 0.52,
+            "bid": 0.5,
+            "ask": 0.52,
+            "liquidity": 147.30664,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228185"
+    },
+    {
+      "eventSourceId": "fl1-psg-lyo-2026-10-25",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 0.61,
+            "form": "share",
+            "prob": 0.61,
+            "bid": 0.6,
+            "ask": 0.61,
+            "liquidity": 61,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 0.4,
+            "form": "share",
+            "prob": 0.4,
+            "bid": 0.39,
+            "ask": 0.4,
+            "liquidity": 30.5248,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3228207"
+    },
+    {
+      "eventSourceId": "fl1-psg-lyo-2026-10-25",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.7,
+            "form": "share",
+            "prob": 0.7,
+            "bid": 0.69,
+            "ask": 0.7,
+            "liquidity": 409.324,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 0.18,
+            "form": "share",
+            "prob": 0.18,
+            "bid": 0.16,
+            "ask": 0.18,
+            "liquidity": 240.471,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.14,
+            "form": "share",
+            "prob": 0.14,
+            "bid": 0.13,
+            "ask": 0.14,
+            "liquidity": 31.353,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "fl1-psg-lyo-2026-10-25"
+    },
+    {
+      "eventSourceId": "lal-bar-rea-2026-10-25",
+      "code": "AH",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.39,
+            "form": "share",
+            "prob": 0.39,
+            "bid": 0.38,
+            "ask": 0.39,
+            "liquidity": 429,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.62,
+            "form": "share",
+            "prob": 0.62,
+            "bid": 0.61,
+            "ask": 0.62,
+            "liquidity": 6401.07995,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3231466"
+    },
+    {
+      "eventSourceId": "lal-bar-rea-2026-10-25",
+      "code": "AH",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.14,
+            "form": "share",
+            "prob": 0.14,
+            "bid": 0.12,
+            "ask": 0.14,
+            "liquidity": 35,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.88,
+            "form": "share",
+            "prob": 0.88,
+            "bid": 0.86,
+            "ask": 0.88,
+            "liquidity": 399.2824,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3231468"
+    },
+    {
+      "eventSourceId": "lal-bar-rea-2026-10-25",
+      "code": "OU",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.94,
+            "form": "share",
+            "prob": 0.94,
+            "bid": 0.93,
+            "ask": 0.94,
+            "liquidity": 213.00359999999998,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.07,
+            "form": "share",
+            "prob": 0.07,
+            "bid": 0.06,
+            "ask": 0.07,
+            "liquidity": 17.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3231478"
+    },
+    {
+      "eventSourceId": "lal-bar-rea-2026-10-25",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.83,
+            "form": "share",
+            "prob": 0.83,
+            "bid": 0.81,
+            "ask": 0.83,
+            "liquidity": 74.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.19,
+            "form": "share",
+            "prob": 0.19,
+            "bid": 0.17,
+            "ask": 0.19,
+            "liquidity": 1165.94469,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3231479"
+    },
+    {
+      "eventSourceId": "lal-bar-rea-2026-10-25",
+      "code": "OU",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.66,
+            "form": "share",
+            "prob": 0.66,
+            "bid": 0.65,
+            "ask": 0.66,
+            "liquidity": 4135.467600000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.35,
+            "form": "share",
+            "prob": 0.35,
+            "bid": 0.34,
+            "ask": 0.35,
+            "liquidity": 0.4395025,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3231480"
+    },
+    {
+      "eventSourceId": "lal-bar-rea-2026-10-25",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 0.77,
+            "form": "share",
+            "prob": 0.77,
+            "bid": 0.76,
+            "ask": 0.77,
+            "liquidity": 103.0922,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 0.24,
+            "form": "share",
+            "prob": 0.24,
+            "bid": 0.23,
+            "ask": 0.24,
+            "liquidity": 783.27582,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3231486"
+    },
+    {
+      "eventSourceId": "lal-bar-rea-2026-10-25",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.6,
+            "form": "share",
+            "prob": 0.6,
+            "bid": 0.59,
+            "ask": 0.6,
+            "liquidity": 60380.98646,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 0.16,
+            "form": "share",
+            "prob": 0.16,
+            "bid": 0.15,
+            "ask": 0.16,
+            "liquidity": 4371.0624,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.27,
+            "form": "share",
+            "prob": 0.27,
+            "bid": 0.26,
+            "ask": 0.27,
+            "liquidity": 6876.872461000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "lal-bar-rea-2026-10-25"
+    },
+    {
+      "eventSourceId": "lal-bar-rea-2026-10-25",
+      "code": "1H_1X2",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.48,
+            "form": "share",
+            "prob": 0.48,
+            "bid": 0.47,
+            "ask": 0.48,
+            "liquidity": 580.9584,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 0.3,
+            "form": "share",
+            "prob": 0.3,
+            "bid": 0.29,
+            "ask": 0.3,
+            "liquidity": 332.19797,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.24,
+            "form": "share",
+            "prob": 0.24,
+            "bid": 0.23,
+            "ask": 0.24,
+            "liquidity": 257.52,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "lal-bar-rea-2026-10-25-halftime-result"
+    }
+  ]
+}

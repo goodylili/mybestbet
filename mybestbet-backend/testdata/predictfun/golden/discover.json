@@ -1,0 +1,42 @@
+{
+  "source": "predictfun",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "epl-liv-bri-2026-10-25",
+      "leagueHint": "EPL",
+      "home": "Liverpool FC",
+      "away": "Brighton \u0026 Hove Albion FC",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "epl-mun-bou-2026-10-25",
+      "leagueHint": "EPL",
+      "home": "Manchester United FC",
+      "away": "AFC Bournemouth",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "fl1-asm-lil-2026-10-25",
+      "leagueHint": "LIGUE1",
+      "home": "AS Monaco FC",
+      "away": "Lille OSC",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "fl1-psg-lyo-2026-10-25",
+      "leagueHint": "LIGUE1",
+      "home": "Paris Saint-Germain FC",
+      "away": "Olympique Lyonnais",
+      "kickoff": "2026-10-25T19:45:00Z"
+    },
+    {
+      "sourceId": "fl1-sbr-ogc-2026-10-23",
+      "leagueHint": "LIGUE1",
+      "home": "Stade Brestois 29",
+      "away": "OGC Nice",
+      "kickoff": "2026-10-23T18:45:00Z"
+    }
+  ],
+  "markets": null
+}

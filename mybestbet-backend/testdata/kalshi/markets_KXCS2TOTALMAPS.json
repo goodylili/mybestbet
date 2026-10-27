@@ -1,0 +1,47 @@
+{
+ "cursor": "",
+ "events": [
+  {
+   "category": "Sports",
+   "collateral_return_type": "",
+   "event_ticker": "KXCS2TOTALMAPS-26OCT240300MGLZAUR",
+   "exchange_index": 0,
+   "last_updated_ts": "2026-10-22T00:11:37.530358Z",
+   "markets": [
+    {
+     "close_time": "2026-10-26T07:00:00Z",
+     "event_ticker": "KXCS2TOTALMAPS-26OCT240300MGLZAUR",
+     "expected_expiration_time": "2026-10-24T11:00:00Z",
+     "floor_strike": 2.5,
+     "last_price_dollars": "0.4500",
+     "market_type": "binary",
+     "no_ask_dollars": "0.6000",
+     "no_bid_dollars": "0.5500",
+     "no_sub_title": "Over 2.5 maps",
+     "occurrence_datetime": "2026-10-24T11:00:00Z",
+     "open_interest_fp": "842.77",
+     "rules_primary": "If over 2.5 maps are played in the PGL Masters Bucharest 2026: TheMongolz vs. Aurora Gaming CS2 match originally scheduled for Oct 24, 2026 at 3:00 AM EDT, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "greater",
+     "ticker": "KXCS2TOTALMAPS-26OCT240300MGLZAUR-3",
+     "title": "Will over 2.5 maps be played?",
+     "volume_fp": "842.77",
+     "yes_ask_dollars": "0.4500",
+     "yes_ask_size_fp": "145.00",
+     "yes_bid_dollars": "0.4000",
+     "yes_bid_size_fp": "501.00",
+     "yes_sub_title": "Over 2.5 maps"
+    }
+   ],
+   "mutually_exclusive": false,
+   "product_metadata": {
+    "competition": "CS2",
+    "competition_scope": "Total Maps"
+   },
+   "series_ticker": "KXCS2TOTALMAPS",
+   "strike_period": "",
+   "sub_title": "MGLZ vs. AUR (Oct 24)",
+   "title": "TheMongolz vs. Aurora Gaming: Total Maps"
+  }
+ ]
+}

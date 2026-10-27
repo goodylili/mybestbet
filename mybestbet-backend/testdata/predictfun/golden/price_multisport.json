@@ -1,0 +1,2221 @@
+{
+  "source": "predictfun",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "atp-struff-grieksp-2026-10-25",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.47,
+            "form": "share",
+            "prob": 0.47,
+            "bid": 0.46,
+            "ask": 0.47,
+            "liquidity": 861.181,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.54,
+            "form": "share",
+            "prob": 0.54,
+            "bid": 0.53,
+            "ask": 0.54,
+            "liquidity": 76.00500000000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3785842"
+    },
+    {
+      "eventSourceId": "cs2-vit-mglz-2026-10-25",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.82,
+            "form": "share",
+            "prob": 0.82,
+            "bid": 0.81,
+            "ask": 0.82,
+            "liquidity": 667.40046,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.19,
+            "form": "share",
+            "prob": 0.19,
+            "bid": 0.18,
+            "ask": 0.19,
+            "liquidity": 127.3,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3775636"
+    },
+    {
+      "eventSourceId": "cs2-vit-mglz-2026-10-25",
+      "code": "ML",
+      "period": "M1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.73,
+            "form": "share",
+            "prob": 0.73,
+            "bid": 0.72,
+            "ask": 0.73,
+            "liquidity": 413.837,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.28,
+            "form": "share",
+            "prob": 0.28,
+            "bid": 0.27,
+            "ask": 0.28,
+            "liquidity": 1677.2000000000005,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3775637"
+    },
+    {
+      "eventSourceId": "cs2-vit-mglz-2026-10-25",
+      "code": "TOTAL_MAPS",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.37,
+            "form": "share",
+            "prob": 0.37,
+            "bid": 0.36,
+            "ask": 0.37,
+            "liquidity": 49.495639999999995,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.64,
+            "form": "share",
+            "prob": 0.64,
+            "bid": 0.63,
+            "ask": 0.64,
+            "liquidity": 142.72,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3775639"
+    },
+    {
+      "eventSourceId": "cs2-vit-mglz-2026-10-25",
+      "code": "MAP_HCP",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.55,
+            "form": "share",
+            "prob": 0.55,
+            "bid": 0.54,
+            "ask": 0.55,
+            "liquidity": 230.69444444444446,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.46,
+            "form": "share",
+            "prob": 0.46,
+            "bid": 0.45,
+            "ask": 0.46,
+            "liquidity": 172.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3777056"
+    },
+    {
+      "eventSourceId": "dota2-ts8-pari-2026-10-26",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.62,
+            "form": "share",
+            "prob": 0.62,
+            "bid": 0.26,
+            "ask": 0.62,
+            "liquidity": 213.9,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.74,
+            "form": "share",
+            "prob": 0.74,
+            "bid": 0.38,
+            "ask": 0.74,
+            "liquidity": 44.4,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3787785"
+    },
+    {
+      "eventSourceId": "dota2-ts8-pari-2026-10-26",
+      "code": "ML",
+      "period": "M1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.97,
+            "form": "share",
+            "prob": 0.97,
+            "bid": 0.02,
+            "ask": 0.97,
+            "liquidity": 1541.136,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.98,
+            "form": "share",
+            "prob": 0.98,
+            "bid": 0.03,
+            "ask": 0.98,
+            "liquidity": 1470,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3787786"
+    },
+    {
+      "eventSourceId": "dota2-ts8-pari-2026-10-26",
+      "code": "TOTAL_MAPS",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.97,
+            "form": "share",
+            "prob": 0.97,
+            "bid": 0.03,
+            "ask": 0.97,
+            "liquidity": 52.3703,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.97,
+            "form": "share",
+            "prob": 0.97,
+            "bid": 0.03,
+            "ask": 0.97,
+            "liquidity": 1115.8880000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3787809"
+    },
+    {
+      "eventSourceId": "dota2-ts8-pari-2026-10-26",
+      "code": "MAP_HCP",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.98,
+            "form": "share",
+            "prob": 0.98,
+            "bid": 0.02,
+            "ask": 0.98,
+            "liquidity": 1470,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.98,
+            "form": "share",
+            "prob": 0.98,
+            "bid": 0.02,
+            "ask": 0.98,
+            "liquidity": 1470,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3787811"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "AH",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.56,
+            "form": "share",
+            "prob": 0.56,
+            "bid": 0.53,
+            "ask": 0.56,
+            "liquidity": 579.0400000000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.47,
+            "form": "share",
+            "prob": 0.47,
+            "bid": 0.44,
+            "ask": 0.47,
+            "liquidity": 112.8,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "789348"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "AH",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.7,
+            "form": "share",
+            "prob": 0.7,
+            "bid": 0.68,
+            "ask": 0.7,
+            "liquidity": 749,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.32,
+            "form": "share",
+            "prob": 0.32,
+            "bid": 0.3,
+            "ask": 0.32,
+            "liquidity": 467.2,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "789349"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.24,
+            "form": "share",
+            "prob": 0.24,
+            "bid": 0.21,
+            "ask": 0.24,
+            "liquidity": 176.16,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.79,
+            "form": "share",
+            "prob": 0.79,
+            "bid": 0.76,
+            "ask": 0.79,
+            "liquidity": 1125.75,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "789360"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "OU",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.55,
+            "form": "share",
+            "prob": 0.55,
+            "bid": 0.52,
+            "ask": 0.55,
+            "liquidity": 556.6,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.48,
+            "form": "share",
+            "prob": 0.48,
+            "bid": 0.45,
+            "ask": 0.48,
+            "liquidity": 327.36,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "789361"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 0.63,
+            "form": "share",
+            "prob": 0.63,
+            "bid": 0.6,
+            "ask": 0.63,
+            "liquidity": 510.3,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 0.4,
+            "form": "share",
+            "prob": 0.4,
+            "bid": 0.37,
+            "ask": 0.4,
+            "liquidity": 58.400000000000006,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "789367"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Spain",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "",
+            "prob": 0,
+            "observedAt": "0001-01-01T00:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0,
+            "form": "",
+            "prob": 0,
+            "observedAt": "0001-01-01T00:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "789368"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "QUALIFY",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.76,
+            "form": "share",
+            "prob": 0.76,
+            "bid": 0.74,
+            "ask": 0.76,
+            "liquidity": 337.44,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.26,
+            "form": "share",
+            "prob": 0.26,
+            "bid": 0.24,
+            "ask": 0.26,
+            "liquidity": 351.26,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "789374"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "P_SAVES",
+      "line": 1.5,
+      "player": {
+        "sourceId": "David Raya",
+        "name": "David Raya",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.71,
+            "form": "share",
+            "prob": 0.71,
+            "bid": 0.69,
+            "ask": 0.71,
+            "liquidity": 408.96,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.31,
+            "form": "share",
+            "prob": 0.31,
+            "bid": 0.29,
+            "ask": 0.31,
+            "liquidity": 150.04,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "790478"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "P_SAVES",
+      "line": 2.5,
+      "player": {
+        "sourceId": "David Raya",
+        "name": "David Raya",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.75,
+            "form": "share",
+            "prob": 0.75,
+            "bid": 0.74,
+            "ask": 0.75,
+            "liquidity": 120,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.26,
+            "form": "share",
+            "prob": 0.26,
+            "bid": 0.25,
+            "ask": 0.26,
+            "liquidity": 231.14000000000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "790479"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "P_GOALS",
+      "line": 0.5,
+      "player": {
+        "sourceId": "Alex Baena",
+        "name": "Alex Baena",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.1,
+            "form": "share",
+            "prob": 0.1,
+            "bid": 0.08,
+            "ask": 0.1,
+            "liquidity": 57.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.92,
+            "form": "share",
+            "prob": 0.92,
+            "bid": 0.9,
+            "ask": 0.92,
+            "liquidity": 726.8000000000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "790486"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "P_GOALS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "Alex Baena",
+        "name": "Alex Baena",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.15,
+            "form": "share",
+            "prob": 0.15,
+            "bid": 0.14,
+            "ask": 0.15,
+            "liquidity": 144,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.86,
+            "form": "share",
+            "prob": 0.86,
+            "bid": 0.85,
+            "ask": 0.86,
+            "liquidity": 339.7,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "790487"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "Alex Baena",
+        "name": "Alex Baena",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.45,
+            "form": "share",
+            "prob": 0.45,
+            "bid": 0.43,
+            "ask": 0.45,
+            "liquidity": 175.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.57,
+            "form": "share",
+            "prob": 0.57,
+            "bid": 0.55,
+            "ask": 0.57,
+            "liquidity": 283.28999999999996,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "790533"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "P_AST",
+      "line": 1.5,
+      "player": {
+        "sourceId": "Alex Baena",
+        "name": "Alex Baena",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.7,
+            "form": "share",
+            "prob": 0.7,
+            "bid": 0.69,
+            "ask": 0.7,
+            "liquidity": 668.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.31,
+            "form": "share",
+            "prob": 0.31,
+            "bid": 0.3,
+            "ask": 0.31,
+            "liquidity": 275.59,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "790534"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "P_GA",
+      "player": {
+        "sourceId": "Alex Baena",
+        "name": "Alex Baena",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 0.15,
+            "form": "share",
+            "prob": 0.15,
+            "bid": 0.12,
+            "ask": 0.15,
+            "liquidity": 24,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 0.88,
+            "form": "share",
+            "prob": 0.88,
+            "bid": 0.85,
+            "ask": 0.88,
+            "liquidity": 743.6,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "790563"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "P_SHOTS",
+      "line": 0.5,
+      "player": {
+        "sourceId": "Alex Baena",
+        "name": "Alex Baena",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.48,
+            "form": "share",
+            "prob": 0.48,
+            "bid": 0.45,
+            "ask": 0.48,
+            "liquidity": 399.84,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.55,
+            "form": "share",
+            "prob": 0.55,
+            "bid": 0.52,
+            "ask": 0.55,
+            "liquidity": 474.1,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "790623"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "Alex Baena",
+        "name": "Alex Baena",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.29,
+            "form": "share",
+            "prob": 0.29,
+            "bid": 0.26,
+            "ask": 0.29,
+            "liquidity": 56.26,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.74,
+            "form": "share",
+            "prob": 0.74,
+            "bid": 0.71,
+            "ask": 0.74,
+            "liquidity": 437.34,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "790624"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "Alex Baena",
+        "name": "Alex Baena",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.35,
+            "form": "share",
+            "prob": 0.35,
+            "bid": 0.33,
+            "ask": 0.35,
+            "liquidity": 56,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.67,
+            "form": "share",
+            "prob": 0.67,
+            "bid": 0.65,
+            "ask": 0.67,
+            "liquidity": 553.4200000000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "790690"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "Alex Baena",
+        "name": "Alex Baena",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.55,
+            "form": "share",
+            "prob": 0.55,
+            "bid": 0.54,
+            "ask": 0.55,
+            "liquidity": 231.00000000000003,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.46,
+            "form": "share",
+            "prob": 0.46,
+            "bid": 0.45,
+            "ask": 0.46,
+            "liquidity": 318.78000000000003,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "790691"
+    },
+    {
+      "eventSourceId": "fifwc-esp-arg-2026-07-19",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.29,
+            "form": "share",
+            "prob": 0.29,
+            "bid": 0.27,
+            "ask": 0.29,
+            "liquidity": 279.27,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 0.78,
+            "form": "share",
+            "prob": 0.78,
+            "bid": 0.77,
+            "ask": 0.78,
+            "liquidity": 968.76,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.67,
+            "form": "share",
+            "prob": 0.67,
+            "bid": 0.65,
+            "ask": 0.67,
+            "liquidity": 533.32,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "fifwc-esp-arg-2026-07-19"
+    },
+    {
+      "eventSourceId": "lol-gen-ly-2026-10-25",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.9,
+            "form": "share",
+            "prob": 0.9,
+            "bid": 0.89,
+            "ask": 0.9,
+            "liquidity": 101550.45982999999,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.11,
+            "form": "share",
+            "prob": 0.11,
+            "bid": 0.1,
+            "ask": 0.11,
+            "liquidity": 5383.9724,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3790019"
+    },
+    {
+      "eventSourceId": "lol-gen-ly-2026-10-25",
+      "code": "ML",
+      "period": "M1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.83,
+            "form": "share",
+            "prob": 0.83,
+            "bid": 0.82,
+            "ask": 0.83,
+            "liquidity": 1699.4707999999998,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.18,
+            "form": "share",
+            "prob": 0.18,
+            "bid": 0.17,
+            "ask": 0.18,
+            "liquidity": 2490.16302,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3790020"
+    },
+    {
+      "eventSourceId": "lol-gen-ly-2026-10-25",
+      "code": "TOTAL_MAPS",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.29,
+            "form": "share",
+            "prob": 0.29,
+            "bid": 0.28,
+            "ask": 0.29,
+            "liquidity": 310.43919999999997,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.72,
+            "form": "share",
+            "prob": 0.72,
+            "bid": 0.71,
+            "ask": 0.72,
+            "liquidity": 1490.1015999999997,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3790047"
+    },
+    {
+      "eventSourceId": "lol-gen-ly-2026-10-25",
+      "code": "MAP_HCP",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.69,
+            "form": "share",
+            "prob": 0.69,
+            "bid": 0.68,
+            "ask": 0.69,
+            "liquidity": 1575.4505981,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.32,
+            "form": "share",
+            "prob": 0.32,
+            "bid": 0.31,
+            "ask": 0.32,
+            "liquidity": 808.058976,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3790217"
+    },
+    {
+      "eventSourceId": "nba-orl-nyk-2026-10-25",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.28,
+            "form": "share",
+            "prob": 0.28,
+            "bid": 0.27,
+            "ask": 0.28,
+            "liquidity": 73818.5448,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.73,
+            "form": "share",
+            "prob": 0.73,
+            "bid": 0.72,
+            "ask": 0.73,
+            "liquidity": 15018.034999999998,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3541141"
+    },
+    {
+      "eventSourceId": "nba-orl-nyk-2026-10-25",
+      "code": "SPREAD",
+      "line": -7.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.49,
+            "ask": 0.5,
+            "liquidity": 35,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.51,
+            "form": "share",
+            "prob": 0.51,
+            "bid": 0.5,
+            "ask": 0.51,
+            "liquidity": 392.19,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3774472"
+    },
+    {
+      "eventSourceId": "nba-orl-nyk-2026-10-25",
+      "code": "SPREAD",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.25,
+            "form": "share",
+            "prob": 0.25,
+            "bid": 0.21,
+            "ask": 0.25,
+            "liquidity": 139.61475000000002,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.79,
+            "form": "share",
+            "prob": 0.79,
+            "bid": 0.75,
+            "ask": 0.79,
+            "liquidity": 6.636000000000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3774477"
+    },
+    {
+      "eventSourceId": "nba-orl-nyk-2026-10-25",
+      "code": "SPREAD",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.71,
+            "form": "share",
+            "prob": 0.71,
+            "bid": 0.67,
+            "ask": 0.71,
+            "liquidity": 3.3085999999999998,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.33,
+            "form": "share",
+            "prob": 0.33,
+            "bid": 0.29,
+            "ask": 0.33,
+            "liquidity": 27.52827,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3774547"
+    },
+    {
+      "eventSourceId": "nba-orl-nyk-2026-10-25",
+      "code": "SPREAD",
+      "line": -2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.68,
+            "form": "share",
+            "prob": 0.68,
+            "bid": 0.65,
+            "ask": 0.68,
+            "liquidity": 3.2300000000000004,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.35,
+            "form": "share",
+            "prob": 0.35,
+            "bid": 0.32,
+            "ask": 0.35,
+            "liquidity": 27.79,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3774571"
+    },
+    {
+      "eventSourceId": "nba-orl-nyk-2026-10-25",
+      "code": "TOTAL",
+      "line": 226.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.44,
+            "form": "share",
+            "prob": 0.44,
+            "bid": 0.42,
+            "ask": 0.44,
+            "liquidity": 65.99956,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.58,
+            "form": "share",
+            "prob": 0.58,
+            "bid": 0.56,
+            "ask": 0.58,
+            "liquidity": 115.99999999999999,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3774610"
+    },
+    {
+      "eventSourceId": "nba-orl-nyk-2026-10-25",
+      "code": "TOTAL",
+      "line": 224.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.48,
+            "form": "share",
+            "prob": 0.48,
+            "bid": 0.47,
+            "ask": 0.48,
+            "liquidity": 168,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.53,
+            "form": "share",
+            "prob": 0.53,
+            "bid": 0.52,
+            "ask": 0.53,
+            "liquidity": 109.18,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3774664"
+    },
+    {
+      "eventSourceId": "nba-orl-nyk-2026-10-25",
+      "code": "TOTAL",
+      "line": 228.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.4,
+            "form": "share",
+            "prob": 0.4,
+            "bid": 0.37,
+            "ask": 0.4,
+            "liquidity": 138.32000000000002,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.63,
+            "form": "share",
+            "prob": 0.63,
+            "bid": 0.6,
+            "ask": 0.63,
+            "liquidity": 234.99,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3774668"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.43,
+            "form": "share",
+            "prob": 0.43,
+            "bid": 0.42,
+            "ask": 0.43,
+            "liquidity": 35022.984000000004,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.58,
+            "form": "share",
+            "prob": 0.58,
+            "bid": 0.57,
+            "ask": 0.58,
+            "liquidity": 0.42339999999999994,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2280889"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "SPREAD",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.41,
+            "form": "share",
+            "prob": 0.41,
+            "bid": 0.39,
+            "ask": 0.41,
+            "liquidity": 49.199999999999996,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.61,
+            "form": "share",
+            "prob": 0.61,
+            "bid": 0.59,
+            "ask": 0.61,
+            "liquidity": 73.2,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2314977"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "SPREAD",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.39,
+            "form": "share",
+            "prob": 0.39,
+            "bid": 0.34,
+            "ask": 0.39,
+            "liquidity": 85.8,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.66,
+            "form": "share",
+            "prob": 0.66,
+            "bid": 0.61,
+            "ask": 0.66,
+            "liquidity": 13813.371,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2314980"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "SPREAD",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.32,
+            "form": "share",
+            "prob": 0.32,
+            "bid": 0.31,
+            "ask": 0.32,
+            "liquidity": 38.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.69,
+            "form": "share",
+            "prob": 0.69,
+            "bid": 0.68,
+            "ask": 0.69,
+            "liquidity": 11280.81,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2314981"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "SPREAD",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.56,
+            "form": "share",
+            "prob": 0.56,
+            "bid": 0.55,
+            "ask": 0.56,
+            "liquidity": 67.2,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.45,
+            "form": "share",
+            "prob": 0.45,
+            "bid": 0.44,
+            "ask": 0.45,
+            "liquidity": 54,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2315039"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "SPREAD",
+      "line": -2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.54,
+            "form": "share",
+            "prob": 0.54,
+            "bid": 0.53,
+            "ask": 0.54,
+            "liquidity": 64.80000000000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.47,
+            "form": "share",
+            "prob": 0.47,
+            "bid": 0.46,
+            "ask": 0.47,
+            "liquidity": 56.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2315043"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "SPREAD",
+      "line": -3.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.45,
+            "form": "share",
+            "prob": 0.45,
+            "bid": 0.44,
+            "ask": 0.45,
+            "liquidity": 54,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.56,
+            "form": "share",
+            "prob": 0.56,
+            "bid": 0.55,
+            "ask": 0.56,
+            "liquidity": 11.200000000000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2315048"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "TOTAL",
+      "line": 42.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.51,
+            "form": "share",
+            "prob": 0.51,
+            "bid": 0.5,
+            "ask": 0.51,
+            "liquidity": 158.1,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.49,
+            "ask": 0.5,
+            "liquidity": 5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2315688"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "TOTAL",
+      "line": 44.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.45,
+            "form": "share",
+            "prob": 0.45,
+            "bid": 0.43,
+            "ask": 0.45,
+            "liquidity": 139.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.57,
+            "form": "share",
+            "prob": 0.57,
+            "bid": 0.55,
+            "ask": 0.57,
+            "liquidity": 497.03999999999996,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2315693"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "TOTAL",
+      "line": 46.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.41,
+            "form": "share",
+            "prob": 0.41,
+            "bid": 0.37,
+            "ask": 0.41,
+            "liquidity": 109.16659999999999,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.63,
+            "form": "share",
+            "prob": 0.63,
+            "bid": 0.59,
+            "ask": 0.63,
+            "liquidity": 6.3,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2315697"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "NF_ANYTIME_TD",
+      "player": {
+        "sourceId": "AJ Barner",
+        "name": "AJ Barner",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "ask": 0.99,
+            "liquidity": 3229.0829999999996,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "bid": 0.01,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3627338"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "NF_ANYTIME_TD",
+      "player": {
+        "sourceId": "Cooper Kupp",
+        "name": "Cooper Kupp",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 0.49,
+            "form": "share",
+            "prob": 0.49,
+            "ask": 0.49,
+            "liquidity": 288.2327,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "bid": 0.51,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3627340"
+    },
+    {
+      "eventSourceId": "nfl-kc-sea-2026-10-26",
+      "code": "NF_ANYTIME_TD",
+      "player": {
+        "sourceId": "Emanuel Wilson",
+        "name": "Emanuel Wilson",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 0.44,
+            "form": "share",
+            "prob": 0.44,
+            "bid": 0.38,
+            "ask": 0.44,
+            "liquidity": 1483.5523999999998,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 0.62,
+            "form": "share",
+            "prob": 0.62,
+            "bid": 0.56,
+            "ask": 0.62,
+            "liquidity": 124,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3627342"
+    },
+    {
+      "eventSourceId": "val-bbl1-ff3-2026-10-25",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.39,
+            "form": "share",
+            "prob": 0.39,
+            "bid": 0.33,
+            "ask": 0.39,
+            "liquidity": 73.5228,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.67,
+            "form": "share",
+            "prob": 0.67,
+            "bid": 0.61,
+            "ask": 0.67,
+            "liquidity": 329.305,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3769406"
+    },
+    {
+      "eventSourceId": "val-bbl1-ff3-2026-10-25",
+      "code": "ML",
+      "period": "M1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "bid": 0.12,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.88,
+            "form": "share",
+            "prob": 0.88,
+            "ask": 0.88,
+            "liquidity": 752.708,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3769407"
+    },
+    {
+      "eventSourceId": "val-bbl1-ff3-2026-10-25",
+      "code": "TOTAL_MAPS",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3769421"
+    },
+    {
+      "eventSourceId": "val-bbl1-ff3-2026-10-25",
+      "code": "TOTAL_MAPS",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3769422"
+    },
+    {
+      "eventSourceId": "val-bbl1-ff3-2026-10-25",
+      "code": "MAP_HCP",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3769423"
+    },
+    {
+      "eventSourceId": "val-bbl1-ff3-2026-10-25",
+      "code": "MAP_HCP",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "bid": 0.15,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.85,
+            "form": "share",
+            "prob": 0.85,
+            "ask": 0.85,
+            "liquidity": 611.2604999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3769424"
+    },
+    {
+      "eventSourceId": "wta-rybakin-fernand-2026-10-25",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.77,
+            "form": "share",
+            "prob": 0.77,
+            "bid": 0.76,
+            "ask": 0.77,
+            "liquidity": 21315.217,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.24,
+            "form": "share",
+            "prob": 0.24,
+            "bid": 0.23,
+            "ask": 0.24,
+            "liquidity": 80.65599999999999,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3761668"
+    }
+  ]
+}

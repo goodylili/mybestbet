@@ -1,0 +1,94 @@
+{
+  "source": "kalshi",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "KXCOPADELREYGAME-26OCT27CALEUR",
+      "code": "QUALIFY",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 81,
+            "form": "cents",
+            "prob": 0.81,
+            "bid": 3,
+            "ask": 81,
+            "liquidity": 81,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 81,
+            "form": "cents",
+            "prob": 0.81,
+            "bid": 2,
+            "ask": 81,
+            "liquidity": 81,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXCOPADELREYADVANCE-26OCT27CALEUR"
+    },
+    {
+      "eventSourceId": "KXCOPADELREYGAME-26OCT27CALEUR",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 81,
+            "form": "cents",
+            "prob": 0.81,
+            "bid": 5,
+            "ask": 81,
+            "liquidity": 81,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 81,
+            "form": "cents",
+            "prob": 0.81,
+            "bid": 5,
+            "ask": 81,
+            "liquidity": 81,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 45,
+            "form": "cents",
+            "prob": 0.45,
+            "bid": 5,
+            "ask": 45,
+            "liquidity": 225,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXCOPADELREYGAME-26OCT27CALEUR"
+    }
+  ]
+}

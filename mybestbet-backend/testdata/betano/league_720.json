@@ -1,0 +1,52 @@
+{
+ "data": {
+  "blocks": [
+   {
+    "id": "league",
+    "name": "World Championship",
+    "events": [
+     {
+      "id": "75400003",
+      "name": "T1 - Dplus",
+      "shortName": "T1 - Dplus",
+      "sportId": "ESPO",
+      "leagueId": "720",
+      "leagueName": "World Championship",
+      "regionName": "League of Legends",
+      "startTime": 1792839600000,
+      "url": "/odds/t1-dplus/75400003/",
+      "participants": [
+       {
+        "name": "T1"
+       },
+       {
+        "name": "Dplus"
+       }
+      ],
+      "markets": [
+       {
+        "id": "910000074",
+        "name": "Match Winner",
+        "type": "MR12",
+        "selections": [
+         {
+          "id": "910000072",
+          "name": "1",
+          "fullName": "1",
+          "price": 1.45
+         },
+         {
+          "id": "910000073",
+          "name": "2",
+          "fullName": "2",
+          "price": 2.7
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

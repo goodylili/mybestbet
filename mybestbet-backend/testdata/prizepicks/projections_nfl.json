@@ -1,0 +1,432 @@
+{
+ "data": [
+  {
+   "type": "projection",
+   "id": "8100012",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 262.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Pass Yards",
+    "stat_type": "Pass Yards",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6701"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "9"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "501"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100013",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 224.5,
+    "odds_type": "goblin",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Pass Yards",
+    "stat_type": "Pass Yards",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6701"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "9"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "501"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100014",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 71.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Rush Yards",
+    "stat_type": "Rush Yards",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6701"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "9"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "502"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100015",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 58.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Receiving Yards",
+    "stat_type": "Receiving Yards",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6701"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "9"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "503"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100016",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 5.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Receptions",
+    "stat_type": "Receptions",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6701"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "9"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "503"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100017",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 1.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Pass TDs",
+    "stat_type": "Pass TDs",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6701"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "9"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "501"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100018",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 0.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Rush+Rec TDs",
+    "stat_type": "Rush+Rec TDs",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6701"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "9"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "502"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "new_player",
+   "id": "501",
+   "attributes": {
+    "combo": false,
+    "display_name": "Patrick Mahomes",
+    "image_url": null,
+    "league": "NFL",
+    "league_id": 9,
+    "market": "Kansas City Chiefs",
+    "name": "Patrick Mahomes",
+    "position": "",
+    "team": "KAN",
+    "team_name": "Kansas City Chiefs"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "9"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "502",
+   "attributes": {
+    "combo": false,
+    "display_name": "James Cook",
+    "image_url": null,
+    "league": "NFL",
+    "league_id": 9,
+    "market": "Buffalo Bills",
+    "name": "James Cook",
+    "position": "",
+    "team": "BUF",
+    "team_name": "Buffalo Bills"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "9"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "503",
+   "attributes": {
+    "combo": false,
+    "display_name": "Travis Kelce",
+    "image_url": null,
+    "league": "NFL",
+    "league_id": 9,
+    "market": "Kansas City Chiefs",
+    "name": "Travis Kelce",
+    "position": "",
+    "team": "KAN",
+    "team_name": "Kansas City Chiefs"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "9"
+     }
+    }
+   }
+  },
+  {
+   "type": "game",
+   "id": "6701",
+   "attributes": {
+    "created_at": "2026-10-20T10:00:00-04:00",
+    "end_time": null,
+    "external_game_id": "sr:match:6701",
+    "is_live": false,
+    "metadata": {
+     "game_info": {
+      "competition": "NFL",
+      "teams": {
+       "home": {
+        "abbreviation": "BUF",
+        "name": "Buffalo Bills"
+       },
+       "away": {
+        "abbreviation": "KAN",
+        "name": "Kansas City Chiefs"
+       }
+      }
+     },
+     "status": "scheduled"
+    },
+    "start_time": "2026-11-01T16:25:00-05:00",
+    "status": "scheduled"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "9"
+     }
+    }
+   }
+  },
+  {
+   "type": "league",
+   "id": "9",
+   "attributes": {
+    "name": "NFL",
+    "active": true
+   }
+  }
+ ],
+ "links": {},
+ "meta": {}
+}

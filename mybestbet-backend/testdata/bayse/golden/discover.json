@@ -1,0 +1,77 @@
+{
+  "source": "bayse",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "bm-game-20261023-ips-nfo",
+      "leagueHint": "EPL",
+      "home": "Ipswich Town FC",
+      "away": "Nottingham Forest FC",
+      "kickoff": "2026-10-23T19:00:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261024-ars-eve",
+      "leagueHint": "EPL",
+      "home": "Arsenal FC",
+      "away": "Everton FC",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261024-avl-mci",
+      "leagueHint": "EPL",
+      "home": "Aston Villa FC",
+      "away": "Manchester City FC",
+      "kickoff": "2026-10-24T11:30:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261024-che-tot",
+      "leagueHint": "EPL",
+      "home": "Chelsea FC",
+      "away": "Tottenham Hotspur FC",
+      "kickoff": "2026-10-24T16:30:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261024-cov-ful",
+      "leagueHint": "EPL",
+      "home": "Coventry City FC",
+      "away": "Fulham FC",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261025-cry-new",
+      "leagueHint": "EPL",
+      "home": "Crystal Palace FC",
+      "away": "Newcastle United FC",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261025-hul-bre",
+      "leagueHint": "EPL",
+      "home": "Hull City AFC",
+      "away": "Brentford FC",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261025-liv-bha",
+      "leagueHint": "EPL",
+      "home": "Liverpool FC",
+      "away": "Brighton \u0026 Hove Albion FC",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261025-mun-bou",
+      "leagueHint": "EPL",
+      "home": "Manchester United FC",
+      "away": "AFC Bournemouth",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261025-sun-lee",
+      "leagueHint": "EPL",
+      "home": "Sunderland AFC",
+      "away": "Leeds United FC",
+      "kickoff": "2026-10-25T16:30:00Z"
+    }
+  ],
+  "markets": null
+}

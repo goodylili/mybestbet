@@ -1,0 +1,151 @@
+{
+  "source": "onexbet",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "720869371",
+      "leagueHint": "NFL",
+      "sourceLeagueId": "68315",
+      "home": "New Orleans Saints",
+      "away": "Pittsburgh Steelers",
+      "kickoff": "2026-10-25T13:30:00Z"
+    },
+    {
+      "sourceId": "757861292",
+      "leagueHint": "DFBPOKAL",
+      "sourceLeagueId": "119235",
+      "home": "Sonnenhof",
+      "away": "Augsburg",
+      "kickoff": "2026-10-27T17:00:00Z"
+    },
+    {
+      "sourceId": "757862477",
+      "leagueHint": "DFBPOKAL",
+      "sourceLeagueId": "119235",
+      "home": "Rot-Weiss Essen",
+      "away": "RasenBallsport Leipzig",
+      "kickoff": "2026-10-27T17:00:00Z"
+    },
+    {
+      "sourceId": "757862480",
+      "leagueHint": "DFBPOKAL",
+      "sourceLeagueId": "119235",
+      "home": "Hamburger",
+      "away": "Eintracht Frankfurt",
+      "kickoff": "2026-10-27T17:00:00Z"
+    },
+    {
+      "sourceId": "761345053",
+      "leagueHint": "NFL",
+      "sourceLeagueId": "68315",
+      "home": "Baltimore Ravens",
+      "away": "Cincinnati Bengals",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "761345055",
+      "leagueHint": "NFL",
+      "sourceLeagueId": "68315",
+      "home": "Atlanta Falcons",
+      "away": "San Francisco 49ers",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "761364244",
+      "leagueHint": "NFL",
+      "sourceLeagueId": "68315",
+      "home": "Carolina Panthers",
+      "away": "Tampa Bay Buccaneers",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "763692666",
+      "leagueHint": "CS2",
+      "sourceLeagueId": "2918839",
+      "home": "Aurora Gaming",
+      "away": "TheMongolz",
+      "kickoff": "2026-10-24T07:00:00Z"
+    },
+    {
+      "sourceId": "763697857",
+      "leagueHint": "CS2",
+      "sourceLeagueId": "2918839",
+      "home": "MOUZ",
+      "away": "Team Liquid",
+      "kickoff": "2026-10-24T10:00:00Z"
+    },
+    {
+      "sourceId": "763697860",
+      "leagueHint": "CS2",
+      "sourceLeagueId": "2918839",
+      "home": "FUT Esports",
+      "away": "Tyloo",
+      "kickoff": "2026-10-24T07:00:00Z"
+    },
+    {
+      "sourceId": "764209850",
+      "leagueHint": "ATP_MIAMI",
+      "sourceLeagueId": "3109522",
+      "home": "Nikoloz Basilashvili",
+      "away": "Stefanos Tsitsipas",
+      "kickoff": "2026-10-24T10:00:00Z"
+    },
+    {
+      "sourceId": "764326424",
+      "leagueHint": "ATP_MIAMI",
+      "sourceLeagueId": "3109522",
+      "home": "Daniil Medvedev",
+      "away": "Alexander Bublik",
+      "kickoff": "2026-10-24T13:00:00Z"
+    },
+    {
+      "sourceId": "764380624",
+      "leagueHint": "DOTA2",
+      "sourceLeagueId": "3036012",
+      "home": "Team Synapse",
+      "away": "Zero Tenacity",
+      "kickoff": "2026-10-24T12:00:00Z"
+    },
+    {
+      "sourceId": "764431452",
+      "leagueHint": "NBA",
+      "sourceLeagueId": "13589",
+      "home": "Cleveland Cavaliers",
+      "away": "Brooklyn Nets",
+      "kickoff": "2026-10-24T23:30:00Z"
+    },
+    {
+      "sourceId": "764432399",
+      "leagueHint": "NBA",
+      "sourceLeagueId": "13589",
+      "home": "Chicago Bulls",
+      "away": "Washington Wizards",
+      "kickoff": "2026-10-25T00:00:00Z"
+    },
+    {
+      "sourceId": "764434731",
+      "leagueHint": "DOTA2",
+      "sourceLeagueId": "3036012",
+      "home": "Team Lynx",
+      "away": "Nemiga Gaming",
+      "kickoff": "2026-10-24T09:00:00Z"
+    },
+    {
+      "sourceId": "764441888",
+      "leagueHint": "NBA",
+      "sourceLeagueId": "13589",
+      "home": "Philadelphia 76ers",
+      "away": "Milwaukee Bucks",
+      "kickoff": "2026-10-24T23:30:00Z"
+    },
+    {
+      "sourceId": "764452026",
+      "leagueHint": "NBA",
+      "sourceLeagueId": "13589",
+      "home": "Charlotte Hornets",
+      "away": "Miami Heat",
+      "kickoff": "2026-10-24T22:00:00Z"
+    }
+  ],
+  "markets": null
+}

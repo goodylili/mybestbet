@@ -1,0 +1,23 @@
+{
+ "id": 132232,
+ "slug": "the-mongolz-vs-mouz-cs2-26-10-2026",
+ "status": "current",
+ "tier": "s",
+ "start_date": "2026-10-26T08:00:00.000+00:00",
+ "team1_score": 0,
+ "team2_score": 0,
+ "team1": {
+  "id": 736,
+  "slug": "the-mongolz",
+  "name": "The MongolZ",
+  "image_url": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp"
+ },
+ "team2": {
+  "id": 765,
+  "slug": "mouz-cs2",
+  "name": "MOUZ",
+  "image_url": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png"
+ },
+ "bo_type": 3,
+ "discipline_id": 1
+}

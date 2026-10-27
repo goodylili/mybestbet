@@ -1,0 +1,1536 @@
+{
+ "id": "38781890",
+ "name": "Chelsea FC - Manchester United",
+ "widgets": [
+  {
+   "id": "14040146",
+   "type": "GENIUSSPORTS"
+  },
+  {
+   "id": "72221358",
+   "type": "SPORTRADAR",
+   "retention": "PREMATCH"
+  },
+  {
+   "id": "72221358",
+   "type": "SPORTRADAR",
+   "retention": "INPLAY"
+  }
+ ],
+ "participants": [
+  {
+   "id": "655587",
+   "name": "Chelsea FC",
+   "position": 1
+  },
+  {
+   "id": "656833",
+   "name": "Manchester United",
+   "position": 2
+  }
+ ],
+ "startTime": "2026-10-31T12:30:00Z",
+ "markets": [
+  {
+   "marketType": {
+    "id": "3743",
+    "name": "1X2 - FT",
+    "displayName": "1X2 | Full Time",
+    "explainer": "Pick 1 (home team), X (draw), or 2 (away team). Result is based on regular playing time only - Overtime does not count.",
+    "priority": 1,
+    "tabs": [
+     "all",
+     "popular"
+    ],
+    "handicapType": ""
+   },
+   "row": [
+    {
+     "id": "412012830",
+     "prices": [
+      {
+       "id": "1573825980",
+       "name": "1",
+       "typeId": "3744",
+       "odds": 1.83,
+       "suspended": false,
+       "displayName": "1",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.530517,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573825981",
+       "name": "X",
+       "typeId": "3745",
+       "odds": 3.99,
+       "suspended": false,
+       "displayName": "X",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.238878,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573825982",
+       "name": "2",
+       "typeId": "3746",
+       "odds": 4.13,
+       "suspended": false,
+       "displayName": "2",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.230598,
+        "refund": 0.0
+       }
+      }
+     ]
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "4958",
+    "name": "Total Score Over/Under - 1H",
+    "displayName": "Over/Under | First Half",
+    "explainer": "Pick how many goals will be scored during the stated period. Over is more than that amount, Under is less.",
+    "priority": 80,
+    "tabs": [
+     "all",
+     "goals",
+     "halves",
+     "popular"
+    ],
+    "handicapType": "NORMAL"
+   },
+   "row": [
+    {
+     "id": "411988991",
+     "handicap": 2,
+     "prices": [
+      {
+       "id": "1573838316",
+       "name": "Over",
+       "typeId": "4959",
+       "odds": 1.29,
+       "suspended": false,
+       "handicap": "0.5",
+       "displayName": "Over {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.752146,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838317",
+       "name": "Under",
+       "typeId": "4960",
+       "odds": 3.65,
+       "suspended": false,
+       "handicap": "0.5",
+       "displayName": "Under {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.247854,
+        "refund": 0.0
+       }
+      }
+     ],
+     "specifier": {
+      "total": "0.5"
+     }
+    },
+    {
+     "id": "411989049",
+     "handicap": 6,
+     "prices": [
+      {
+       "id": "1573838573",
+       "name": "Over",
+       "typeId": "4959",
+       "odds": 2.28,
+       "suspended": false,
+       "handicap": "1.5",
+       "displayName": "Over {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.412691,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838574",
+       "name": "Under",
+       "typeId": "4960",
+       "odds": 1.63,
+       "suspended": false,
+       "handicap": "1.5",
+       "displayName": "Under {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.587309,
+        "refund": 0.0
+       }
+      }
+     ],
+     "specifier": {
+      "total": "1.5"
+     }
+    },
+    {
+     "id": "411989056",
+     "handicap": 10,
+     "prices": [
+      {
+       "id": "1573838588",
+       "name": "Over",
+       "typeId": "4959",
+       "odds": 5.07,
+       "suspended": false,
+       "handicap": "2.5",
+       "displayName": "Over {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.170851,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838589",
+       "name": "Under",
+       "typeId": "4960",
+       "odds": 1.17,
+       "suspended": false,
+       "handicap": "2.5",
+       "displayName": "Under {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.829149,
+        "refund": 0.0
+       }
+      }
+     ],
+     "specifier": {
+      "total": "2.5"
+     }
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "4976",
+    "name": "Total Score Over/Under - 2H",
+    "displayName": "Over/Under | Second Half",
+    "explainer": "Pick how many goals will be scored during the stated period. Over is more than that amount, Under is less.",
+    "priority": 81,
+    "tabs": [
+     "all",
+     "goals",
+     "halves"
+    ],
+    "handicapType": "NORMAL"
+   },
+   "row": [
+    {
+     "id": "411988945",
+     "handicap": 2,
+     "prices": [
+      {
+       "id": "1573838108",
+       "name": "Over",
+       "typeId": "4977",
+       "odds": 1.18,
+       "suspended": false,
+       "handicap": "0.5",
+       "displayName": "Over {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.826908,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838109",
+       "name": "Under",
+       "typeId": "4978",
+       "odds": 5.01,
+       "suspended": false,
+       "handicap": "0.5",
+       "displayName": "Under {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.173092,
+        "refund": 0.0
+       }
+      }
+     ],
+     "specifier": {
+      "total": "0.5"
+     }
+    },
+    {
+     "id": "411989010",
+     "handicap": 6,
+     "prices": [
+      {
+       "id": "1573838370",
+       "name": "Over",
+       "typeId": "4977",
+       "odds": 1.82,
+       "suspended": false,
+       "handicap": "1.5",
+       "displayName": "Over {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.525323,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838371",
+       "name": "Under",
+       "typeId": "4978",
+       "odds": 2.0,
+       "suspended": false,
+       "handicap": "1.5",
+       "displayName": "Under {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.474677,
+        "refund": 0.0
+       }
+      }
+     ],
+     "specifier": {
+      "total": "1.5"
+     }
+    },
+    {
+     "id": "411988989",
+     "handicap": 10,
+     "prices": [
+      {
+       "id": "1573838309",
+       "name": "Over",
+       "typeId": "4977",
+       "odds": 3.54,
+       "suspended": false,
+       "handicap": "2.5",
+       "displayName": "Over {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.25661147305530896,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838310",
+       "name": "Under",
+       "typeId": "4978",
+       "odds": 1.3,
+       "suspended": false,
+       "handicap": "2.5",
+       "displayName": "Under {formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.74338876827958,
+        "refund": 0.0
+       }
+      }
+     ],
+     "specifier": {
+      "total": "2.5"
+     }
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "3747",
+    "name": "Asian Handicap - 1H",
+    "displayName": "2-Way Handicap | First Half",
+    "explainer": "The handicap you pick is added to or taken off that team's score before the bet is settled. Pick 1 (home team) or 2 (away team) to be ahead on the adjusted score. Only the first half score counts.",
+    "priority": 106,
+    "tabs": [
+     "all",
+     "halves"
+    ],
+    "handicapType": "ASIAN"
+   },
+   "row": [
+    {
+     "id": "412033053",
+     "handicap": -6,
+     "prices": [
+      {
+       "id": "1573914806",
+       "name": "1",
+       "typeId": "3748",
+       "odds": 5.23,
+       "suspended": false,
+       "handicap": "-1.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.14673186085987366,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "-1.5"
+       }
+      },
+      {
+       "id": "1573914807",
+       "name": "2",
+       "typeId": "3749",
+       "odds": 1.13,
+       "suspended": false,
+       "handicap": "+1.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.8532681467859399,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "+1.5"
+       }
+      }
+     ],
+     "specifier": {
+      "hcp": "-1.5"
+     }
+    },
+    {
+     "id": "411988940",
+     "handicap": -2,
+     "prices": [
+      {
+       "id": "1573838094",
+       "name": "1",
+       "typeId": "3748",
+       "odds": 2.21,
+       "suspended": false,
+       "handicap": "-0.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.411436,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "-0.5"
+       }
+      },
+      {
+       "id": "1573838095",
+       "name": "2",
+       "typeId": "3749",
+       "odds": 1.59,
+       "suspended": false,
+       "handicap": "+0.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.588564,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "+0.5"
+       }
+      }
+     ],
+     "specifier": {
+      "hcp": "-0.5"
+     }
+    },
+    {
+     "id": "411988983",
+     "handicap": 2,
+     "prices": [
+      {
+       "id": "1573838277",
+       "name": "1",
+       "typeId": "3748",
+       "odds": 1.21,
+       "suspended": false,
+       "handicap": "+0.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.787781,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "+0.5"
+       }
+      },
+      {
+       "id": "1573838278",
+       "name": "2",
+       "typeId": "3749",
+       "odds": 3.92,
+       "suspended": false,
+       "handicap": "-0.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.212219,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "-0.5"
+       }
+      }
+     ],
+     "specifier": {
+      "hcp": "0.5"
+     }
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [
+    "1",
+    "2"
+   ],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "3756",
+    "name": "Asian Handicap - 2H",
+    "displayName": "2-Way Handicap | Second Half",
+    "explainer": "The handicap you pick is added to or taken off that team's score before the bet is settled. Pick 1 (home team) or 2 (away team) to be ahead on the adjusted score. Only the second half score counts.",
+    "priority": 107,
+    "tabs": [
+     "all",
+     "halves"
+    ],
+    "handicapType": "ASIAN"
+   },
+   "row": [
+    {
+     "id": "412032988",
+     "handicap": -6,
+     "prices": [
+      {
+       "id": "1573914657",
+       "name": "1",
+       "typeId": "3757",
+       "odds": 4.4,
+       "suspended": false,
+       "handicap": "-1.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.1840804335350535,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "-1.5"
+       }
+      },
+      {
+       "id": "1573914658",
+       "name": "2",
+       "typeId": "3758",
+       "odds": 1.17,
+       "suspended": false,
+       "handicap": "+1.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.8159284274555403,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "+1.5"
+       }
+      }
+     ],
+     "specifier": {
+      "hcp": "-1.5"
+     }
+    },
+    {
+     "id": "411988980",
+     "handicap": -2,
+     "prices": [
+      {
+       "id": "1573838266",
+       "name": "1",
+       "typeId": "3757",
+       "odds": 2.08,
+       "suspended": false,
+       "handicap": "-0.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.439917,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "-0.5"
+       }
+      },
+      {
+       "id": "1573838267",
+       "name": "2",
+       "typeId": "3758",
+       "odds": 1.67,
+       "suspended": false,
+       "handicap": "+0.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.560083,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "+0.5"
+       }
+      }
+     ],
+     "specifier": {
+      "hcp": "-0.5"
+     }
+    },
+    {
+     "id": "411988944",
+     "handicap": 2,
+     "prices": [
+      {
+       "id": "1573838106",
+       "name": "1",
+       "typeId": "3757",
+       "odds": 1.25,
+       "suspended": false,
+       "handicap": "+0.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.763058,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "+0.5"
+       }
+      },
+      {
+       "id": "1573838107",
+       "name": "2",
+       "typeId": "3758",
+       "odds": 3.58,
+       "suspended": false,
+       "handicap": "-0.5",
+       "displayName": "{formattedHandicap}",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.236942,
+        "refund": 0.0
+       },
+       "specifier": {
+        "hcp": "-0.5"
+       }
+      }
+     ],
+     "specifier": {
+      "hcp": "0.5"
+     }
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [
+    "1",
+    "2"
+   ],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "4697",
+    "name": "Draw No Bet - 1H",
+    "displayName": "Draw No Bet | First Half",
+    "explainer": "Pick 1 (home team) or 2 (away team) to win the first half. If the half ends level, you get your stake back. Only the first half score counts.",
+    "priority": 112,
+    "tabs": [
+     "all",
+     "halves"
+    ],
+    "handicapType": ""
+   },
+   "row": [
+    {
+     "id": "411988988",
+     "prices": [
+      {
+       "id": "1573838307",
+       "name": "1",
+       "typeId": "4698",
+       "odds": 1.41,
+       "suspended": false,
+       "displayName": "1",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.411436,
+        "refund": 0.376345
+       }
+      },
+      {
+       "id": "1573838308",
+       "name": "2",
+       "typeId": "4699",
+       "odds": 2.55,
+       "suspended": false,
+       "displayName": "2",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.212219,
+        "refund": 0.376345
+       }
+      }
+     ]
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "4700",
+    "name": "Draw No Bet - 2H",
+    "displayName": "Draw No Bet | Second Half",
+    "explainer": "Pick 1 (home team) or 2 (away team) to win the second half. If the half ends level, you get your stake back. Only the second half score counts.",
+    "priority": 113,
+    "tabs": [
+     "all",
+     "halves"
+    ],
+    "handicapType": ""
+   },
+   "row": [
+    {
+     "id": "411988949",
+     "prices": [
+      {
+       "id": "1573838129",
+       "name": "1",
+       "typeId": "4701",
+       "odds": 1.43,
+       "suspended": false,
+       "displayName": "1",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.439917,
+        "refund": 0.323141
+       }
+      },
+      {
+       "id": "1573838130",
+       "name": "2",
+       "typeId": "4702",
+       "odds": 2.49,
+       "suspended": false,
+       "displayName": "2",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.236942,
+        "refund": 0.323141
+       }
+      }
+     ]
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "3819",
+    "name": "Correct Score - 1H",
+    "displayName": "Correct Score | First Half",
+    "explainer": "Pick the exact scoreline at half time, always shown home-away. 'Other' covers every scoreline that isn't listed.",
+    "priority": 121,
+    "tabs": [
+     "all",
+     "goals",
+     "halves"
+    ],
+    "handicapType": ""
+   },
+   "row": [
+    {
+     "id": "",
+     "prices": [
+      {
+       "id": "1573838110",
+       "name": "Other",
+       "typeId": "1126333",
+       "odds": 9.83,
+       "suspended": false,
+       "displayName": "Other",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.075915,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838114",
+       "name": "0-0",
+       "typeId": "3820",
+       "odds": 3.1,
+       "suspended": false,
+       "displayName": "0-0",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.247854,
+        "refund": 0.0
+       }
+      }
+     ]
+    },
+    {
+     "id": "",
+     "prices": [
+      {
+       "id": "1573838117",
+       "name": "0-1",
+       "typeId": "3821",
+       "odds": 5.82,
+       "suspended": false,
+       "displayName": "0-1",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.129372,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838118",
+       "name": "0-2",
+       "typeId": "3822",
+       "odds": 21.07,
+       "suspended": false,
+       "displayName": "0-2",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.0351276,
+        "refund": 0.0
+       }
+      }
+     ]
+    },
+    {
+     "id": "",
+     "prices": [
+      {
+       "id": "1573838111",
+       "name": "1-0",
+       "typeId": "3831",
+       "odds": 3.63,
+       "suspended": false,
+       "displayName": "1-0",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.210082,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838115",
+       "name": "1-1",
+       "typeId": "3832",
+       "odds": 6.58,
+       "suspended": false,
+       "displayName": "1-1",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.114084,
+        "refund": 0.0
+       }
+      }
+     ]
+    },
+    {
+     "id": "",
+     "prices": [
+      {
+       "id": "1573838119",
+       "name": "1-2",
+       "typeId": "3833",
+       "odds": 23.88,
+       "suspended": false,
+       "displayName": "1-2",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.0309765,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838112",
+       "name": "2-0",
+       "typeId": "3842",
+       "odds": 8.08,
+       "suspended": false,
+       "displayName": "2-0",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.0926283,
+        "refund": 0.0
+       }
+      }
+     ]
+    },
+    {
+     "id": "",
+     "prices": [
+      {
+       "id": "1573838113",
+       "name": "2-1",
+       "typeId": "3843",
+       "odds": 14.76,
+       "suspended": false,
+       "displayName": "2-1",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.0503015,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838116",
+       "name": "2-2",
+       "typeId": "3844",
+       "odds": 54.0,
+       "suspended": false,
+       "displayName": "2-2",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.013658,
+        "refund": 0.0
+       }
+      }
+     ]
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "4063",
+    "name": "Correct Score - 2H",
+    "displayName": "Correct Score | Second Half",
+    "explainer": "Pick the exact scoreline of the second half only, always shown home-away. 'Other' covers every scoreline that isn't listed. The score resets to 0-0 at half time.",
+    "priority": 122,
+    "tabs": [
+     "all",
+     "goals",
+     "halves"
+    ],
+    "handicapType": ""
+   },
+   "row": [
+    {
+     "id": "",
+     "prices": [
+      {
+       "id": "1573838152",
+       "name": "Other",
+       "typeId": "1126334",
+       "odds": 6.08,
+       "suspended": false,
+       "displayName": "Other",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.124361,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838146",
+       "name": "0-0",
+       "typeId": "4064",
+       "odds": 4.4,
+       "suspended": false,
+       "displayName": "0-0",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.173092,
+        "refund": 0.0
+       }
+      }
+     ]
+    },
+    {
+     "id": "",
+     "prices": [
+      {
+       "id": "1573838149",
+       "name": "0-1",
+       "typeId": "4065",
+       "odds": 6.29,
+       "suspended": false,
+       "displayName": "0-1",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.12012,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838150",
+       "name": "0-2",
+       "typeId": "4066",
+       "odds": 17.37,
+       "suspended": false,
+       "displayName": "0-2",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.0429168,
+        "refund": 0.0
+       }
+      }
+     ]
+    },
+    {
+     "id": "",
+     "prices": [
+      {
+       "id": "1573838143",
+       "name": "1-0",
+       "typeId": "4075",
+       "odds": 4.21,
+       "suspended": false,
+       "displayName": "1-0",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.181465,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838147",
+       "name": "1-1",
+       "typeId": "4076",
+       "odds": 6.02,
+       "suspended": false,
+       "displayName": "1-1",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.12572,
+        "refund": 0.0
+       }
+      }
+     ]
+    },
+    {
+     "id": "",
+     "prices": [
+      {
+       "id": "1573838151",
+       "name": "1-2",
+       "typeId": "4077",
+       "odds": 17.17,
+       "suspended": false,
+       "displayName": "1-2",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.0434298,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838144",
+       "name": "2-0",
+       "typeId": "4086",
+       "odds": 7.51,
+       "suspended": false,
+       "displayName": "2-0",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.100181,
+        "refund": 0.0
+       }
+      }
+     ]
+    },
+    {
+     "id": "",
+     "prices": [
+      {
+       "id": "1573838145",
+       "name": "2-1",
+       "typeId": "4087",
+       "odds": 11.3,
+       "suspended": false,
+       "displayName": "2-1",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.0662155,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838148",
+       "name": "2-2",
+       "typeId": "4088",
+       "odds": 33.01,
+       "suspended": false,
+       "displayName": "2-2",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.022498,
+        "refund": 0.0
+       }
+      }
+     ]
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "4673",
+    "name": "Double Chance - 1H",
+    "displayName": "Double Chance | First Half",
+    "explainer": "One bet covering two results in the first half: 1X (home ahead or level), X2 (level or away ahead) or 12 (either team ahead). Only first-half goals count.",
+    "priority": 300,
+    "tabs": [
+     "all",
+     "halves"
+    ],
+    "handicapType": ""
+   },
+   "row": [
+    {
+     "id": "411988975",
+     "prices": [
+      {
+       "id": "1573838245",
+       "name": "1X",
+       "typeId": "4674",
+       "odds": 1.23,
+       "suspended": false,
+       "displayName": "1X",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.7876667706147583,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838247",
+       "name": "X2",
+       "typeId": "4675",
+       "odds": 1.6,
+       "suspended": false,
+       "displayName": "X2",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.5887394776967858,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838246",
+       "name": "12",
+       "typeId": "4676",
+       "odds": 1.51,
+       "suspended": false,
+       "displayName": "12",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.6235938788547635,
+        "refund": 0.0
+       }
+      }
+     ]
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "4681",
+    "name": "Double Chance - 2H",
+    "displayName": "Double Chance | Second Half",
+    "explainer": "One bet covering two results in the second half: 1X (home ahead or level), X2 (level or away ahead) or 12 (either team ahead). Only second-half goals count.",
+    "priority": 310,
+    "tabs": [
+     "all",
+     "halves"
+    ],
+    "handicapType": ""
+   },
+   "row": [
+    {
+     "id": "411988979",
+     "prices": [
+      {
+       "id": "1573838263",
+       "name": "1X",
+       "typeId": "4682",
+       "odds": 1.27,
+       "suspended": false,
+       "displayName": "1X",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.7629605209471185,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838265",
+       "name": "X2",
+       "typeId": "4683",
+       "odds": 1.67,
+       "suspended": false,
+       "displayName": "X2",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.5600664380500956,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838264",
+       "name": "12",
+       "typeId": "4684",
+       "odds": 1.41,
+       "suspended": false,
+       "displayName": "12",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.6769731626637094,
+        "refund": 0.0
+       }
+      }
+     ]
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "3789",
+    "name": "Both Teams To Score - 1H",
+    "displayName": "Both Teams To Score | First Half",
+    "explainer": "Will both teams score at least one goal in the first half? Pick Yes or No.",
+    "priority": 320,
+    "tabs": [
+     "all",
+     "goals",
+     "halves"
+    ],
+    "handicapType": ""
+   },
+   "row": [
+    {
+     "id": "411989031",
+     "prices": [
+      {
+       "id": "1573838448",
+       "name": "Yes",
+       "typeId": "3790",
+       "odds": 3.5,
+       "suspended": false,
+       "displayName": "Yes",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.243167,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838449",
+       "name": "No",
+       "typeId": "3791",
+       "odds": 1.26,
+       "suspended": false,
+       "displayName": "No",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.756833,
+        "refund": 0.0
+       }
+      }
+     ]
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  },
+  {
+   "marketType": {
+    "id": "3792",
+    "name": "Both Teams To Score - 2H",
+    "displayName": "Both Teams To Score | Second Half",
+    "explainer": "Will both teams score at least one goal in the second half? Pick Yes or No. First-half goals don't count.",
+    "priority": 330,
+    "tabs": [
+     "all",
+     "goals",
+     "halves"
+    ],
+    "handicapType": ""
+   },
+   "row": [
+    {
+     "id": "411989052",
+     "prices": [
+      {
+       "id": "1573838580",
+       "name": "Yes",
+       "typeId": "3793",
+       "odds": 2.76,
+       "suspended": false,
+       "displayName": "Yes",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.320966328311271,
+        "refund": 0.0
+       }
+      },
+      {
+       "id": "1573838581",
+       "name": "No",
+       "typeId": "3794",
+       "odds": 1.39,
+       "suspended": false,
+       "displayName": "No",
+       "additionalInfo": {
+        "hot": false
+       },
+       "probability": {
+        "win": 0.6790336857854774,
+        "refund": 0.0
+       }
+      }
+     ]
+    }
+   ],
+   "displayNameRows": [],
+   "displayNameColumns": [],
+   "additionalInfo": {
+    "cashoutable": true,
+    "boosted": false
+   }
+  }
+ ],
+ "comboCards": [],
+ "totalMarketCount": "124",
+ "category": {
+  "id": "2",
+  "name": "Football"
+ },
+ "region": {
+  "id": "288",
+  "name": "England"
+ },
+ "competition": {
+  "id": "11965",
+  "name": "Premier League"
+ },
+ "additionalInfo": {
+  "live": false,
+  "inplayBooked": true,
+  "neutralVenue": false,
+  "inplayBookedActual": false
+ },
+ "version": "174",
+ "marketCounters": {
+  "totalMarketGroupCount": "81",
+  "marketGroupCountByTab": {
+   "halves": "34",
+   "all": "81",
+   "specials": "19",
+   "players": "1",
+   "combos": "6",
+   "popular": "19",
+   "goals": "42"
+  }
+ },
+ "combos": []
+}

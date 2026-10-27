@@ -1,0 +1,63 @@
+{
+ "data": {
+  "topLeagues": [
+   {
+    "id": "1",
+    "name": "Premier League",
+    "regionName": "England",
+    "url": "/sport/football/england/premier-league/1/"
+   },
+   {
+    "id": "5",
+    "name": "LaLiga",
+    "regionName": "Spain",
+    "url": "/sport/football/spain/laliga/5/"
+   }
+  ],
+  "regionGroups": [
+   {
+    "name": "Popular",
+    "regions": [
+     {
+      "id": "england",
+      "name": "England",
+      "leagues": [
+       {
+        "id": "1",
+        "name": "Premier League",
+        "url": "/sport/football/england/premier-league/1/"
+       },
+       {
+        "id": "2",
+        "name": "Championship",
+        "url": "/sport/football/england/championship/2/"
+       }
+      ]
+     },
+     {
+      "id": "spain",
+      "name": "Spain",
+      "leagues": [
+       {
+        "id": "5",
+        "name": "LaLiga",
+        "url": "/sport/football/spain/laliga/5/"
+       }
+      ]
+     },
+     {
+      "id": "nigeria",
+      "name": "Nigeria",
+      "leagues": [
+       {
+        "id": "10233",
+        "name": "NPFL",
+        "url": "/sport/football/nigeria/npfl/10233/"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

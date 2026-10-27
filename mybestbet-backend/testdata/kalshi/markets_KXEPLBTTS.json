@@ -1,0 +1,146 @@
+{
+ "cursor": "",
+ "events": [
+  {
+   "category": "Sports",
+   "collateral_return_type": "",
+   "event_ticker": "KXEPLBTTS-26OCT24ARSEVE",
+   "exchange_index": 0,
+   "last_updated_ts": "0001-01-01T00:00:00Z",
+   "markets": [
+    {
+     "ticker": "KXEPLBTTS-26OCT24ARSEVE-BTTS",
+     "event_ticker": "KXEPLBTTS-26OCT24ARSEVE",
+     "market_type": "binary",
+     "title": "Both Teams To Score",
+     "yes_sub_title": "Both Teams To Score",
+     "no_sub_title": "Both Teams To Score",
+     "status": "active",
+     "yes_bid_dollars": "0.4600",
+     "yes_ask_dollars": "0.4700",
+     "no_bid_dollars": "0.5300",
+     "no_ask_dollars": "0.5400",
+     "yes_bid_size_fp": "24.00",
+     "yes_ask_size_fp": "15708.00",
+     "last_price_dollars": "0.4700",
+     "close_time": "2026-10-26T14:00:00Z",
+     "occurrence_datetime": "2026-10-24T18:00:00Z",
+     "rules_primary": "If Arsenal and Everton both score a goal in the Arsenal vs Everton EPL match originally scheduled for Oct 24, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    }
+   ],
+   "mutually_exclusive": false,
+   "product_metadata": {
+    "competition": "EPL",
+    "competition_scope": "BTTS"
+   },
+   "series_ticker": "KXEPLBTTS",
+   "settlement_sources": [
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com"
+    },
+    {
+     "name": "ESPN",
+     "url": "https://espn.com"
+    }
+   ],
+   "strike_period": "",
+   "sub_title": "ARS vs EVE (Oct 24)",
+   "title": "Arsenal vs Everton: BTTS"
+  },
+  {
+   "category": "Sports",
+   "collateral_return_type": "",
+   "event_ticker": "KXEPLBTTS-26OCT24CFCTOT",
+   "exchange_index": 0,
+   "last_updated_ts": "0001-01-01T00:00:00Z",
+   "markets": [
+    {
+     "ticker": "KXEPLBTTS-26OCT24CFCTOT-BTTS",
+     "event_ticker": "KXEPLBTTS-26OCT24CFCTOT",
+     "market_type": "binary",
+     "title": "Both Teams To Score",
+     "yes_sub_title": "Both Teams To Score",
+     "no_sub_title": "Both Teams To Score",
+     "status": "active",
+     "yes_bid_dollars": "0.6300",
+     "yes_ask_dollars": "0.6400",
+     "no_bid_dollars": "0.3600",
+     "no_ask_dollars": "0.3700",
+     "yes_bid_size_fp": "566.00",
+     "yes_ask_size_fp": "14256.13",
+     "last_price_dollars": "0.6400",
+     "close_time": "2026-10-26T16:30:00Z",
+     "occurrence_datetime": "2026-10-24T20:30:00Z",
+     "rules_primary": "If Chelsea and Tottenham both score a goal in the Chelsea vs Tottenham EPL match originally scheduled for Oct 24, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    }
+   ],
+   "mutually_exclusive": false,
+   "product_metadata": {
+    "competition": "EPL",
+    "competition_scope": "BTTS"
+   },
+   "series_ticker": "KXEPLBTTS",
+   "settlement_sources": [
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com"
+    },
+    {
+     "name": "ESPN",
+     "url": "https://espn.com"
+    }
+   ],
+   "strike_period": "",
+   "sub_title": "CFC vs TOT (Oct 24)",
+   "title": "Chelsea vs Tottenham: BTTS"
+  },
+  {
+   "category": "Sports",
+   "collateral_return_type": "",
+   "event_ticker": "KXEPLBTTS-26OCT25LFCBRI",
+   "exchange_index": 0,
+   "last_updated_ts": "0001-01-01T00:00:00Z",
+   "markets": [
+    {
+     "ticker": "KXEPLBTTS-26OCT25LFCBRI-BTTS",
+     "event_ticker": "KXEPLBTTS-26OCT25LFCBRI",
+     "market_type": "binary",
+     "title": "Both Teams To Score",
+     "yes_sub_title": "Both Teams To Score",
+     "no_sub_title": "Both Teams To Score",
+     "status": "active",
+     "yes_bid_dollars": "0.6400",
+     "yes_ask_dollars": "0.6600",
+     "no_bid_dollars": "0.3400",
+     "no_ask_dollars": "0.3600",
+     "yes_bid_size_fp": "613.00",
+     "yes_ask_size_fp": "20686.62",
+     "last_price_dollars": "0.6600",
+     "close_time": "2026-10-27T14:00:00Z",
+     "occurrence_datetime": "2026-10-25T18:00:00Z",
+     "rules_primary": "If Liverpool and Brighton both score a goal in the Liverpool vs Brighton EPL match originally scheduled for Oct 25, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    }
+   ],
+   "mutually_exclusive": false,
+   "product_metadata": {
+    "competition": "EPL",
+    "competition_scope": "BTTS"
+   },
+   "series_ticker": "KXEPLBTTS",
+   "settlement_sources": [
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com"
+    },
+    {
+     "name": "ESPN",
+     "url": "https://espn.com"
+    }
+   ],
+   "strike_period": "",
+   "sub_title": "LFC vs BRI (Oct 25)",
+   "title": "Liverpool vs Brighton: BTTS"
+  }
+ ]
+}

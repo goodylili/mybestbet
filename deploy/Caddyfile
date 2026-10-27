@@ -1,0 +1,22 @@
+{$DOMAIN:localhost} {
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+	handle_path /api/* {
+		@internal path /metrics /metrics/* /debug/*
+		respond @internal 404
+		@compressible not path /v1/stream
+		encode @compressible zstd gzip
+		reverse_proxy api:8080 {
+			flush_interval -1
+		}
+	}
+	handle {
+		encode zstd gzip
+		reverse_proxy web:3000
+	}
+}

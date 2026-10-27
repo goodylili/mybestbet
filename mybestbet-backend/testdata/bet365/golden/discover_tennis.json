@@ -1,0 +1,28 @@
+{
+  "source": "bet365",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "B13-181000001",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Jannik Sinner",
+      "away": "Carlos Alcaraz",
+      "kickoff": "2026-10-29T18:00:00Z"
+    },
+    {
+      "sourceId": "B13-181000002",
+      "leagueHint": "WTA_MIAMI",
+      "home": "Iga Swiatek",
+      "away": "Coco Gauff",
+      "kickoff": "2026-10-29T16:00:00Z"
+    },
+    {
+      "sourceId": "B13-181000003",
+      "leagueHint": "ATP_CH_ZADAR",
+      "home": "Mili Poljicak",
+      "away": "Duje Ajdukovic",
+      "kickoff": "2026-10-29T10:00:00Z"
+    }
+  ],
+  "markets": null
+}

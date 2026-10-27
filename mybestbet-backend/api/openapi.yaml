@@ -1,0 +1,1328 @@
+openapi: 3.1.0
+info:
+  title: mybestbet API
+  version: 1.0.0
+  description: "Odds board, props research, signals and source health for signed-in users, plus an admin review queue. All JSON is camelCase and mirrors pkg/canon json tags. Every route needs a user access token (the HttpOnly access cookie, or `Authorization: Bearer <access JWT>` which wins when both are present) unless it declares `security: []`. Unauthenticated calls get 401 `unauthorized` with `WWW-Authenticate: Bearer`. Every non-GET request carrying auth cookies, and every /v1/auth POST, must send an `Origin` in the allowed web origins (or `Sec-Fetch-Site: same-origin` without Origin), else 403 `forbidden`. Tokens are never returned in JSON bodies. JSON responses of 1 KiB or more are compressed with `br` or `gzip` per `Accept-Encoding` (`Vary: Accept-Encoding`); the stream and logos are not. The read routes /v1/sports, /v1/leagues, /v1/events, /v1/events/calendar, /v1/events/{id}, /v1/signals, /v1/sources, /v1/meta and /v1/me/settings send a weak `ETag` and answer `If-None-Match` with 304; their `Cache-Control` is `private, max-age=N, stale-while-revalidate=5N` (N = 30 s for sports, leagues and calendar, 60 s for meta, 3 s for sources, 2 s for events and signals, 1 s for one event) and `private, no-cache` for settings."
+servers:
+  - url: http://localhost:8080
+security:
+  - accessCookie: []
+  - accessBearer: []
+paths:
+  /v1/sports:
+    get:
+      operationId: listSports
+      summary: Every sport with configured leagues, its upcoming fixture counts and the market and prop codes it supports
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Sports in canonical order
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/SportList"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/meta:
+    get:
+      operationId: getMeta
+      summary: Build version, the Telegram bot link and which sign-in methods are enabled
+      security: []
+      responses:
+        "200":
+          description: Metadata
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Meta"}
+  /v1/search:
+    get:
+      operationId: search
+      summary: Teams, players, leagues and upcoming events matching a name
+      description: "The query is normalized like stored names (accents folded, club tokens such as FC dropped, synonyms applied) and matched by prefix, substring or trigram word similarity. Events are scheduled or live fixtures from 2 h ago onward whose home or away team matches. Results are ranked best match first across kinds."
+      parameters:
+        - {name: q, in: query, required: true, schema: {type: string, minLength: 2, maxLength: 64}}
+        - {name: limit, in: query, schema: {type: integer, minimum: 1, maximum: 50, default: 20}}
+        - {$ref: "#/components/parameters/SportFilter"}
+        - {name: prefer, in: query, description: "Rank results of this sport first without dropping the others", schema: {$ref: "#/components/schemas/Sport"}}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Matches
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/SearchList"}
+        "400": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/leagues:
+    get:
+      operationId: listLeagues
+      summary: The configured leagues with upcoming fixture counts
+      parameters:
+        - {$ref: "#/components/parameters/SportFilter"}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Leagues
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/LeagueList"}
+        "400": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/events:
+    get:
+      operationId: listEvents
+      summary: Fixtures with kickoff, source coverage, best price per outcome of one market (main market by default) and signal badges
+      description: "`best` is read from the Redis board for every listed event in one pipeline. Without `market` it is the main market (1X2 for football, ML otherwise). `best.market`, `best.line` and `best.period` echo the market used. Once an event has kicked off, prices observed before kickoff are left out, so a started event shows only in-play prices (usually none, since books are polled until kickoff)."
+      parameters:
+        - {$ref: "#/components/parameters/SportFilter"}
+        - {name: league, in: query, schema: {type: string}, description: Canonical league code}
+        - {name: from, in: query, schema: {type: string, format: date-time}, description: Kickoff lower bound, default now minus 2h}
+        - {name: to, in: query, schema: {type: string, format: date-time}, description: Kickoff upper bound, default from plus 7 days}
+        - {name: market, in: query, schema: {type: string}, description: "Match market code for `best` with home/draw/away, home/away, over/under or yes/no selections (e.g. OU, AH, BTTS, SPREAD, TOTAL). Labeled markets and player props are rejected"}
+        - {name: line, in: query, schema: {type: number}, description: "Required for handicap and over/under markets (home handicap or total), rejected otherwise"}
+        - {name: period, in: query, schema: {$ref: "#/components/schemas/Period"}, description: Period of the market, full game when omitted}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Fixtures ordered by kickoff
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/EventList"}
+        "400": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/events/calendar:
+    get:
+      operationId: eventCalendar
+      summary: Number of fixtures per kickoff day
+      description: Days without fixtures are omitted. Days are calendar dates in `tz`.
+      parameters:
+        - {$ref: "#/components/parameters/SportFilter"}
+        - {name: league, in: query, schema: {type: string}, description: Canonical league code}
+        - {name: from, in: query, schema: {type: string, format: date-time}, description: Kickoff lower bound, default start of today in tz}
+        - {name: to, in: query, schema: {type: string, format: date-time}, description: "Kickoff upper bound, default from plus 31 days, at most 92 days after from"}
+        - {name: tz, in: query, schema: {type: string, default: UTC}, description: IANA time zone the days are counted in, e.g. Africa/Lagos}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Fixture counts by day, ascending
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/EventCalendar"}
+        "400": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/events/{id}:
+    get:
+      operationId: getEvent
+      summary: One fixture with every match market and every source price, served from the Redis board. Markets are tabs in canonical order, each split into periods
+      description: Once the event has kicked off, prices observed before kickoff are left out of the board and of the props board.
+      parameters:
+        - {$ref: "#/components/parameters/EventID"}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Event board
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/EventDetail"}
+        "400": {$ref: "#/components/responses/Error"}
+        "404": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/events/{id}/props:
+    get:
+      operationId: getEventProps
+      summary: Player props, one row per player, stat and line, with hit rates and research panel data
+      parameters:
+        - {$ref: "#/components/parameters/EventID"}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Props board
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/PropBoard"}
+        "400": {$ref: "#/components/responses/Error"}
+        "404": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/markets/{key}/history:
+    get:
+      operationId: getMarketHistory
+      summary: Every recorded price change for one market key
+      parameters:
+        - {name: key, in: path, required: true, schema: {type: string}, description: "URL-escaped market key eventId|code|line|playerId|period, with an optional sixth part |teamId on team markets (T_GOALS, T_SHOTS, T_PASSES, T_CARDS)"}
+        - {name: source, in: query, schema: {type: string}}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: History oldest first
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/MarketHistory"}
+        "400": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/signals:
+    get:
+      operationId: listSignals
+      summary: Open signals, newest first
+      parameters:
+        - {$ref: "#/components/parameters/SportFilter"}
+        - {name: type, in: query, schema: {$ref: "#/components/schemas/SignalType"}}
+        - {name: min, in: query, schema: {type: number}, description: Minimum margin (arb) or EV as a fraction, 0.01 = 1%}
+        - {name: limit, in: query, schema: {type: integer, minimum: 1, maximum: 500, default: 200}}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Open signals
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/SignalList"}
+        "400": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/players/{id}/stats:
+    get:
+      operationId: getPlayerStats
+      summary: Recent match stats for one player
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string, format: uuid}}
+        - {name: last, in: query, schema: {type: integer, minimum: 1, maximum: 100, default: 20}}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Match stats newest first
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/PlayerStats"}
+        "400": {$ref: "#/components/responses/Error"}
+        "404": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/teams/{id}:
+    get:
+      operationId: getTeam
+      summary: One team with every league it plays in
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string, format: uuid}}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Team
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/TeamDetail"}
+        "400": {$ref: "#/components/responses/Error"}
+        "404": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/sources:
+    get:
+      operationId: listSources
+      summary: Health for every registered source
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Source health
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/SourceHealthList"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/logos/{kind}/{id}:
+    get:
+      operationId: getLogo
+      summary: Self-hosted team, league or source logo
+      description: "Image bytes with the stored Content-Type, `ETag` set to the image sha256 and `X-Content-Type-Options: nosniff`. `Cache-Control` is `public, max-age=86400, immutable` when `v` matches the stored version, `public, no-cache` otherwise. SVG responses also carry `Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'`."
+      parameters:
+        - {name: kind, in: path, required: true, schema: {type: string, enum: [team, league, source]}}
+        - {name: id, in: path, required: true, schema: {type: string, minLength: 1, maxLength: 128}, description: Team uuid, league code or source name}
+        - {name: v, in: query, schema: {type: string}, description: Version from a DTO logoUrl}
+        - {name: If-None-Match, in: header, schema: {type: string}}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Logo image
+          headers:
+            ETag: {schema: {type: string}}
+            Cache-Control: {schema: {type: string}}
+          content:
+            image/png: {schema: {type: string, format: binary}}
+            image/jpeg: {schema: {type: string, format: binary}}
+            image/webp: {schema: {type: string, format: binary}}
+            image/gif: {schema: {type: string, format: binary}}
+            image/svg+xml: {schema: {type: string, format: binary}}
+        "304": {description: Not modified}
+        "400": {$ref: "#/components/responses/Error"}
+        "404": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/stream:
+    get:
+      operationId: stream
+      summary: Server-sent events of board, signal, best-price and score changes
+      description: "Default mode: every `data:` line is a JSON BoardUpdate, sent with `event: update` and coalesced per 250 ms; without `event` only signal updates are streamed. With `event` the first frame is `event: snapshot` carrying the EventDetail of that event (as GET /v1/events/{id}), and the `update` frames that follow are deltas on top of it. With `scope=board` every `data:` line is a JSON EventBest sent with `event: best`, coalesced per 250 ms, for every event of the `sport`/`league` scope whose main-market best prices (1X2 for football, ML otherwise) or live score changed; `best` and `score` are each present only when they changed. Comment lines (`: ping`) are sent every 15 s as a heartbeat in both modes."
+      parameters:
+        - {name: event, in: query, schema: {type: string, format: uuid}, description: "Board and signal updates of one event. Not allowed with scope=board"}
+        - {name: scope, in: query, schema: {type: string, enum: [board]}, description: "board streams EventBest updates of every event in scope"}
+        - {$ref: "#/components/parameters/SportFilter"}
+        - {name: league, in: query, schema: {type: string}, description: "Canonical league code (scope=board only)"}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Event stream
+          content:
+            text/event-stream:
+              schema:
+                oneOf:
+                  - {$ref: "#/components/schemas/BoardUpdate"}
+                  - {$ref: "#/components/schemas/EventBest"}
+        "400": {$ref: "#/components/responses/Error"}
+  /v1/admin/review:
+    get:
+      operationId: listReview
+      summary: Matching review queue
+      security: [{adminBearer: []}]
+      parameters:
+        - {name: status, in: query, schema: {$ref: "#/components/schemas/ReviewStatus"}}
+        - {name: limit, in: query, schema: {type: integer, minimum: 1, maximum: 500, default: 100}}
+      responses:
+        "200":
+          description: Review items
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/ReviewList"}
+        "401": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+    post:
+      operationId: decideReview
+      summary: Link, create or ignore a review item. Repeating the same decision returns the same item.
+      security: [{adminBearer: []}]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/ReviewDecision"}
+      responses:
+        "200":
+          description: Decided item
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/ReviewItem"}
+        "400": {$ref: "#/components/responses/Error"}
+        "401": {$ref: "#/components/responses/Error"}
+        "404": {$ref: "#/components/responses/Error"}
+        "409": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/bookings:
+    post:
+      operationId: createBooking
+      summary: "Create bookmaker booking codes for a bet slip. `split` (default) books each sportsbook leg at the book it was picked from, one code per book. `single` maps every leg to `book`'s equivalent selection (same event, market key, side and label) and returns one code. Prediction and pick'em legs, and any leg a book could not take, come back in `manual` with the market's deep link. Idempotent: each book call is cached in Redis by sha256(book + normalised legs) until the code expires (30 min unless the book states otherwise), and concurrent duplicates share one book call, so a retry returns the same code (`cached: true`). At most 30 legs. Rate limited to 20 per user per minute."
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/BookingRequest"}
+      responses:
+        "200":
+          description: One result per book (each with its own status, so one failing book never hides the others), the manual legs and the price comparison
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/BookingResponse"}
+        "400": {$ref: "#/components/responses/Error"}
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "403": {$ref: "#/components/responses/Error"}
+        "429": {$ref: "#/components/responses/RateLimited"}
+        "500": {$ref: "#/components/responses/Error"}
+        "503": {$ref: "#/components/responses/Error"}
+  /v1/bookings/compare:
+    post:
+      operationId: compareBookings
+      summary: "Coverage and potential return of a slip at every sportsbook, at the picked prices and at the best split, from cached prices only (no bookmaker calls). `mode` and `book` are ignored. Rate limited to 120 per user per minute."
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/BookingRequest"}
+      responses:
+        "200":
+          description: Comparison
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/BookingComparison"}
+        "400": {$ref: "#/components/responses/Error"}
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "403": {$ref: "#/components/responses/Error"}
+        "429": {$ref: "#/components/responses/RateLimited"}
+        "500": {$ref: "#/components/responses/Error"}
+        "503": {$ref: "#/components/responses/Error"}
+  /v1/me:
+    get:
+      operationId: getMe
+      summary: The signed-in user
+      responses:
+        "200":
+          description: User
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/UserResponse"}
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/me/settings:
+    get:
+      operationId: getSettings
+      summary: The signed-in user's settings object
+      responses:
+        "200":
+          description: Settings
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Settings"}
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "500": {$ref: "#/components/responses/Error"}
+    put:
+      operationId: putSettings
+      summary: Replace the settings object (full replace, idempotent, at most 16 KiB)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/Settings"}
+      responses:
+        "200":
+          description: Stored settings
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Settings"}
+        "400": {$ref: "#/components/responses/Error"}
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "403": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/auth/signup:
+    post:
+      operationId: signup
+      summary: Start an email and password sign-up by mailing a 6 digit code
+      description: "Password: 10 to 128 characters and not a common password. Sets the HttpOnly `__Host-mbb_signup` cookie (SameSite=Strict, 10 min) that binds the code to this browser. Repeating the call within the 60 s cooldown sends nothing and returns the remaining `resendIn`. After the cooldown, the same browser gets a fresh code that keeps the password chosen first; a live code requested by another browser is never replaced or resent, only an expired one is. 503 `busy` with `Retry-After: 1` when password hashing is saturated."
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/SignupRequest"}
+      responses:
+        "202": {$ref: "#/components/responses/CodeSent"}
+        "400": {$ref: "#/components/responses/Error"}
+        "403": {$ref: "#/components/responses/Error"}
+        "429": {$ref: "#/components/responses/RateLimited"}
+        "503": {$ref: "#/components/responses/Busy"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/auth/verify:
+    post:
+      operationId: verifySignup
+      summary: Confirm the sign-up code, create the user and sign in
+      description: "Applies the password bound to the code. The code only verifies in the browser that requested it (the HttpOnly `__Host-mbb_signup` cookie set by signup; `mbb_signup` without Secure in local http dev). Every failure (wrong, expired, dead, missing or another browser's code) is 400 `invalid_code`. Five wrong attempts kill a code; ten failures per email in 24 h (across reissued codes) return 429 until the window ends."
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/VerifyRequest"}
+      responses:
+        "200": {$ref: "#/components/responses/Session"}
+        "400": {$ref: "#/components/responses/Error"}
+        "403": {$ref: "#/components/responses/Error"}
+        "429": {$ref: "#/components/responses/RateLimited"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/auth/otp/resend:
+    post:
+      operationId: resendCode
+      summary: Mail a fresh code for a pending sign-up or password reset
+      description: Keeps the password and name bound to the live sign-up code and only reissues it for the browser holding the sign-up cookie. 429 within the 60 s cooldown.
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/ResendRequest"}
+      responses:
+        "202": {$ref: "#/components/responses/CodeSent"}
+        "400": {$ref: "#/components/responses/Error"}
+        "403": {$ref: "#/components/responses/Error"}
+        "429": {$ref: "#/components/responses/RateLimited"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/auth/login:
+    post:
+      operationId: login
+      summary: Sign in with email and password
+      description: "401 `invalid_credentials` for an unknown email, a wrong password or a Google-only account. Five failures for one email from one IP (IPv6 by /64) lock that pair for 15 minutes, and 50 failures for one email in an hour lock it everywhere (429 `rate_limited`). 503 `busy` with `Retry-After: 1` when password hashing is saturated."
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/LoginRequest"}
+      responses:
+        "200": {$ref: "#/components/responses/Session"}
+        "401": {$ref: "#/components/responses/Error"}
+        "403": {$ref: "#/components/responses/Error"}
+        "429": {$ref: "#/components/responses/RateLimited"}
+        "503": {$ref: "#/components/responses/Busy"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/auth/password/forgot:
+    post:
+      operationId: forgotPassword
+      summary: Mail a password reset code when the email has an account
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/EmailRequest"}
+      responses:
+        "202": {$ref: "#/components/responses/CodeSent"}
+        "400": {$ref: "#/components/responses/Error"}
+        "403": {$ref: "#/components/responses/Error"}
+        "429": {$ref: "#/components/responses/RateLimited"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/auth/password/reset:
+    post:
+      operationId: resetPassword
+      summary: Set a new password with a reset code, revoke every other session and sign in
+      description: "Every code failure is 400 `invalid_code`; ten failures per email in 24 h return 429."
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/ResetRequest"}
+      responses:
+        "200": {$ref: "#/components/responses/Session"}
+        "400": {$ref: "#/components/responses/Error"}
+        "403": {$ref: "#/components/responses/Error"}
+        "429": {$ref: "#/components/responses/RateLimited"}
+        "503": {$ref: "#/components/responses/Busy"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/auth/refresh:
+    post:
+      operationId: refreshSession
+      summary: Rotate the refresh cookie and issue a new access cookie
+      description: "Presenting an already rotated refresh token revokes the whole session family, except within 10 s of the rotation when the same successor is returned (concurrent tabs). 401 clears both cookies."
+      security: []
+      responses:
+        "200": {$ref: "#/components/responses/Session"}
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "403": {$ref: "#/components/responses/Error"}
+        "429": {$ref: "#/components/responses/RateLimited"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/auth/logout:
+    post:
+      operationId: logout
+      summary: Clear the cookies and revoke this session, or every session with all=true
+      description: Idempotent; succeeds without a valid session.
+      security: []
+      requestBody:
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/LogoutRequest"}
+      responses:
+        "204": {description: Signed out}
+        "403": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
+  /v1/auth/google/start:
+    get:
+      operationId: googleStart
+      summary: Redirect to Google sign-in (state, PKCE S256 and nonce kept server side for 10 minutes)
+      description: "Sets the HttpOnly `__Host-mbb_oauth` cookie (SameSite=Lax, 10 min) holding base64url(sha256(state)); the callback only accepts a state that matches it. 20 starts per minute per IP."
+      security: []
+      parameters:
+        - {name: next, in: query, schema: {type: string}, description: "Same-site path to land on after sign-in; anything else becomes /sports/football"}
+      responses:
+        "302": {description: "Redirect to Google, or to {webOrigin}/login?error=google when Google sign-in is not configured"}
+        "429": {$ref: "#/components/responses/RateLimited"}
+  /v1/auth/google/callback:
+    get:
+      operationId: googleCallback
+      summary: Google redirect target. Signs in, links or creates the user and redirects to {webOrigin}{next}
+      description: Requires the state to match the oauth cookie set by start, then clears that cookie.
+      security: []
+      parameters:
+        - {name: code, in: query, schema: {type: string}}
+        - {name: state, in: query, schema: {type: string}}
+      responses:
+        "302": {description: "Redirect to {webOrigin}{next} with the session cookies set, or to {webOrigin}/login?error=google on any failure"}
+components:
+  securitySchemes:
+    accessCookie: {type: apiKey, in: cookie, name: __Host-mbb_at, description: "EdDSA access JWT (15 min). Named `mbb_at` when auth.secureCookies is false (local http dev)"}
+    accessBearer: {type: http, scheme: bearer, bearerFormat: JWT, description: EdDSA access JWT}
+    adminBearer: {type: http, scheme: bearer, description: Static admin token}
+  parameters:
+    EventID: {name: id, in: path, required: true, schema: {type: string, format: uuid}}
+    SportFilter: {name: sport, in: query, schema: {$ref: "#/components/schemas/Sport"}, description: Only leagues of this sport}
+  responses:
+    Error:
+      description: Error
+      content:
+        application/json:
+          schema: {$ref: "#/components/schemas/Error"}
+    Unauthorized:
+      description: "Missing, invalid, expired or revoked access token (`unauthorized`), with `WWW-Authenticate: Bearer`"
+      content:
+        application/json:
+          schema: {$ref: "#/components/schemas/Error"}
+    RateLimited:
+      description: "Too many requests (`rate_limited`). `Retry-After` and `resendIn` give the seconds to wait"
+      headers:
+        Retry-After: {schema: {type: integer}}
+      content:
+        application/json:
+          schema: {$ref: "#/components/schemas/RateLimited"}
+    Session:
+      description: "Signed in. Sets the HttpOnly access cookie (`__Host-mbb_at`, SameSite=Lax, 15 min) and refresh cookie (`__Host-mbb_rt`, SameSite=Strict, until the 30 day session family expires); `mbb_at`/`mbb_rt` without Secure when auth.secureCookies is false"
+      headers:
+        Set-Cookie: {schema: {type: string}}
+      content:
+        application/json:
+          schema: {$ref: "#/components/schemas/UserResponse"}
+    Busy:
+      description: "Password hashing is saturated (`busy`); retry after `Retry-After` seconds"
+      headers:
+        Retry-After: {schema: {type: integer}}
+      content:
+        application/json:
+          schema: {$ref: "#/components/schemas/Error"}
+    CodeSent:
+      description: "Accepted. The body is identical whether or not the email has an account; a code is mailed only when one applies"
+      content:
+        application/json:
+          schema: {$ref: "#/components/schemas/CodeSent"}
+  schemas:
+    Error:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          properties:
+            code: {type: string}
+            message: {type: string}
+    Sport:
+      type: string
+      enum: [football, basketball, tennis, american-football, esports]
+    MarketKind:
+      type: string
+      enum: [match, player, team]
+    MarketShape:
+      type: string
+      enum: [three_way, two_way, handicap, over_under, yes_no, labeled, buckets]
+    League:
+      type: object
+      required: [code, name, country, sport, group, order, fixtureCount]
+      properties:
+        code: {type: string}
+        name: {type: string}
+        country: {type: string}
+        sport: {$ref: "#/components/schemas/Sport"}
+        group: {type: string, enum: [international, domestic, more], description: "Sidebar section: cross-border club competitions and national-team tournaments, top-flight leagues and major cups of big countries, or the rest"}
+        order: {type: integer, description: Sidebar position within the sport (lower first)}
+        fixtureCount: {type: integer}
+        logoUrl: {type: string, description: "Self-hosted logo path `/v1/logos/{kind}/{id}?v={version}`; present only once the image is stored"}
+    SportSummary:
+      type: object
+      required: [sport, fixtureCount, leagues, matchMarkets, playerProps, markets]
+      properties:
+        sport: {$ref: "#/components/schemas/Sport"}
+        fixtureCount: {type: integer}
+        leagues: {type: array, items: {$ref: "#/components/schemas/League"}}
+        matchMarkets: {type: array, items: {type: string}, description: Match market codes this sport supports, canonical order}
+        playerProps: {type: array, items: {type: string}, description: Player prop codes this sport supports, canonical order}
+        markets: {type: array, items: {$ref: "#/components/schemas/MarketInfo"}, description: "Every match, cup and player-prop market of this sport in canonical order, from pkg/canon/markets.go"}
+    MarketInfo:
+      type: object
+      required: [code, label, kind, shape, periods, regulationOnly]
+      properties:
+        code: {type: string}
+        label: {type: string, description: Display name}
+        kind: {$ref: "#/components/schemas/MarketKind"}
+        shape: {$ref: "#/components/schemas/MarketShape"}
+        periods: {type: array, items: {type: string}, description: "Periods this market is offered for in this sport, in display order; \"\" is the full game (1H, 2H, Q1-Q4, S1 first set, M1 map one, M1-2 maps one and two)"}
+        statField: {type: string, description: "Key of PlayerMatchStat.stats this prop settles on (goals, shotsOnTarget, points, rebounds, aces, doubleFaults, kills, ...); absent for match markets and props combining several stats"}
+        regulationOnly: {type: boolean, description: "True when the market settles on regulation time only (90 minutes plus stoppage time in football); false when overtime, extra time or penalties count"}
+    SportList:
+      type: object
+      required: [items]
+      properties:
+        items: {type: array, items: {$ref: "#/components/schemas/SportSummary"}}
+    LeagueList:
+      type: object
+      required: [items]
+      properties:
+        items: {type: array, items: {$ref: "#/components/schemas/League"}}
+    Team:
+      type: object
+      required: [id, name]
+      properties:
+        id: {type: string}
+        name: {type: string}
+        logoUrl: {type: string, description: "Self-hosted logo path `/v1/logos/{kind}/{id}?v={version}`; present only once the image is stored"}
+    TeamDetail:
+      allOf:
+        - {$ref: "#/components/schemas/Team"}
+        - type: object
+          required: [sport, leagueCodes]
+          properties:
+            sport: {$ref: "#/components/schemas/Sport"}
+            leagueCodes: {type: array, items: {type: string}, description: "Every league code the team plays in, sorted"}
+    EventInfo:
+      type: object
+      required: [id, sport, leagueCode, home, away, kickoff, status]
+      properties:
+        id: {type: string}
+        sport: {$ref: "#/components/schemas/Sport"}
+        leagueCode: {type: string}
+        home: {$ref: "#/components/schemas/Team"}
+        away: {$ref: "#/components/schemas/Team"}
+        kickoff: {type: string, format: date-time}
+        status: {type: string, enum: [scheduled, live, finished, postponed, cancelled]}
+        score: {$ref: "#/components/schemas/EventScore"}
+        links:
+          type: object
+          description: "Source name -> that source's page for this match (event page for books, market page for prediction markets), built from the source's own event id. Applies to every price of that source on this event when the price carries no deepLink of its own."
+          additionalProperties: {type: string, format: uri}
+    BestPrice:
+      type: object
+      required: [source, price]
+      properties:
+        source: {type: string}
+        price: {$ref: "#/components/schemas/Price"}
+        deepLink: {type: string}
+    BestOutcomes:
+      type: object
+      required: [market]
+      properties:
+        market: {type: string, description: "Market used: the requested code, or the main market (1X2 for football, ML for every other sport)"}
+        line: {type: number, description: Line used, present for handicap and over/under markets}
+        period: {$ref: "#/components/schemas/Period"}
+        home: {$ref: "#/components/schemas/BestPrice"}
+        draw: {$ref: "#/components/schemas/BestPrice"}
+        away: {$ref: "#/components/schemas/BestPrice"}
+        over: {$ref: "#/components/schemas/BestPrice"}
+        under: {$ref: "#/components/schemas/BestPrice"}
+        "yes": {$ref: "#/components/schemas/BestPrice"}
+        "no": {$ref: "#/components/schemas/BestPrice"}
+    Period:
+      type: string
+      enum: [1H, 2H, Q1, Q2, Q3, Q4, S1, M1, M1-2]
+      description: Market period; absent means the full game
+    EventBest:
+      type: object
+      required: [eventId]
+      description: "Board stream message (scope=board, also published on the Redis channel board.live). Carries `best` (main market) and/or `score`; each is omitted when unchanged"
+      properties:
+        eventId: {type: string, format: uuid}
+        best: {$ref: "#/components/schemas/BestOutcomes"}
+        score: {$ref: "#/components/schemas/EventScore"}
+    EventScore:
+      type: object
+      required: [home, away]
+      description: "Live or final score, polled every 30 s by the stats process (FotMob football, ESPN basketball and NFL, Flashscore tennis, bo3.gg CS2/Valorant/LoL) for events kicking off between 4 h ago and 15 min ahead. Tennis home/away are sets won, esports home/away are maps won."
+      properties:
+        home: {type: integer}
+        away: {type: integer}
+        period: {type: string, description: "Current period: football 1H, HT, 2H, ET (or the source's label such as PEN); basketball and NFL Q1-Q4, OT (college basketball 1H, 2H); tennis S1-S5; esports M1, M2, ...; FT once the event is over"}
+        minute: {type: integer, description: Football match minute without stoppage time}
+        clock: {type: string, description: "Football minute with stoppage (45+2), basketball/NFL game clock (5:21), tennis current game points (30-15)"}
+        detail: {type: string, description: "Tennis set games (6-4 3-2), basketball/NFL status text (Q3 5:21, Halftime, Final/OT), football final result type (FT, AET, Pen)"}
+    CalendarDay:
+      type: object
+      required: [date, count]
+      properties:
+        date: {type: string, format: date, description: "Calendar day in the requested time zone, YYYY-MM-DD"}
+        count: {type: integer}
+    EventCalendar:
+      type: object
+      required: [days]
+      properties:
+        days: {type: array, items: {$ref: "#/components/schemas/CalendarDay"}}
+    Badges:
+      type: object
+      required: [arbs, evs]
+      properties:
+        arbs: {type: integer}
+        evs: {type: integer}
+        maxMargin: {type: number}
+        maxEv: {type: number}
+    EventSummary:
+      allOf:
+        - {$ref: "#/components/schemas/EventInfo"}
+        - type: object
+          required: [sources, propCount, best, badges]
+          properties:
+            sources: {type: array, items: {type: string}, description: Sources pricing any market of this event}
+            propCount: {type: integer, description: Open player-prop markets (distinct market keys with at least one unsuspended price)}
+            best: {$ref: "#/components/schemas/BestOutcomes"}
+            badges: {$ref: "#/components/schemas/Badges"}
+    EventList:
+      type: object
+      required: [items]
+      properties:
+        items: {type: array, items: {$ref: "#/components/schemas/EventSummary"}}
+    PriceForm:
+      type: string
+      enum: [decimal, share, cents, naira, line_only]
+    Side:
+      type: string
+      enum: [home, draw, away, over, under, "yes", "no"]
+    Price:
+      type: object
+      required: [raw, form, prob, observedAt]
+      properties:
+        raw: {type: number}
+        form: {$ref: "#/components/schemas/PriceForm"}
+        prob: {type: number}
+        bid: {type: number}
+        ask: {type: number}
+        liquidity: {type: number}
+        suspended: {type: boolean}
+        observedAt: {type: string, format: date-time}
+    MarketKey:
+      type: object
+      description: "Structured form of the key string eventId|code|line|playerId|period[|teamId]; the sixth part is present only when teamId is set"
+      required: [eventId, code]
+      properties:
+        eventId: {type: string}
+        code: {type: string}
+        line: {type: number}
+        playerId: {type: string}
+        period: {type: string}
+        teamId: {type: string, description: "Team a team market (T_GOALS, T_SHOTS, T_PASSES, T_CARDS) is about; omitted on every other market"}
+    BoardCell:
+      type: object
+      required: [marketKey, source, price]
+      properties:
+        marketKey: {type: string}
+        source: {type: string, description: Source name, or "consensus" for the consensus fair price}
+        side: {$ref: "#/components/schemas/Side"}
+        label: {type: string}
+        price: {$ref: "#/components/schemas/Price"}
+        fair: {type: number, description: Fair probability}
+        derived: {type: boolean}
+        deepLink: {type: string}
+    SelectionRow:
+      type: object
+      required: [side, label, cells]
+      properties:
+        side: {type: string}
+        label: {type: string}
+        cells:
+          type: object
+          additionalProperties: {$ref: "#/components/schemas/BoardCell"}
+          description: Keyed by source name
+        consensus: {$ref: "#/components/schemas/BoardCell"}
+        bestSource: {type: string, description: Source with the lowest implied probability among non-derived priced cells}
+    MarketBoard:
+      type: object
+      required: [key, keyString, selections]
+      properties:
+        key: {$ref: "#/components/schemas/MarketKey"}
+        keyString: {type: string}
+        selections: {type: array, items: {$ref: "#/components/schemas/SelectionRow"}}
+    MarketPeriod:
+      type: object
+      required: [period, boards]
+      properties:
+        period: {type: string, description: "Empty for the full game, else 1H 2H Q1-Q4 S1 M1"}
+        boards: {type: array, items: {$ref: "#/components/schemas/MarketBoard"}, description: Lines ascending}
+    MarketTab:
+      type: object
+      required: [code, kind, shape, periods]
+      properties:
+        code: {type: string}
+        kind: {$ref: "#/components/schemas/MarketKind"}
+        shape: {$ref: "#/components/schemas/MarketShape"}
+        periods: {type: array, items: {$ref: "#/components/schemas/MarketPeriod"}, description: Full game first, then halves, quarters, first set, first map}
+    EventDetail:
+      type: object
+      required: [event, sources, markets]
+      properties:
+        event: {$ref: "#/components/schemas/EventInfo"}
+        sources: {type: array, items: {type: string}}
+        markets: {type: array, items: {$ref: "#/components/schemas/MarketTab"}, description: Match and team markets in canonical order}
+    HitRate:
+      type: object
+      description: "Zero fields are omitted; the rate is hits/matches, 0 without matches. window is absent on the home, away and vsOpponent splits"
+      properties:
+        window: {type: integer}
+        matches: {type: integer}
+        hits: {type: integer}
+    PlayerMatchStat:
+      type: object
+      required: [eventId, isHome, playedAt, minutes, started, goals, assists, shots, shotsOnTarget, fouls, tackles, yellow, red, stats]
+      properties:
+        eventId: {type: string}
+        teamId: {type: string}
+        opponentTeamId: {type: string}
+        opponentTeamName: {type: string}
+        opponentLogoUrl: {type: string, description: "Self-hosted logo path `/v1/logos/{kind}/{id}?v={version}`; present only once the image is stored"}
+        isHome: {type: boolean}
+        playedAt: {type: string, format: date-time}
+        minutes: {type: integer}
+        started: {type: boolean}
+        goals: {type: integer}
+        assists: {type: integer}
+        shots: {type: integer}
+        shotsOnTarget: {type: integer}
+        fouls: {type: integer}
+        tackles: {type: integer}
+        yellow: {type: integer}
+        red: {type: integer}
+        rating: {type: number}
+        stats:
+          type: object
+          additionalProperties: {type: number}
+          description: "Every stat recorded for the match keyed by `MarketInfo.statField` (football columns mirrored in, e.g. `goals`, `shotsOnTarget`; `points`, `rebounds`, `aces`, `doubleFaults`, ...). Each statField value equals the value hit rates are computed from, so `kills` is kills per map with the series map count in `maps`."
+    MinutesPoint:
+      type: object
+      required: [eventId, playedAt, minutes, started]
+      properties:
+        eventId: {type: string}
+        playedAt: {type: string, format: date-time}
+        minutes: {type: integer}
+        started: {type: boolean}
+    RatingBucket:
+      type: object
+      required: [from, to, count]
+      properties:
+        from: {type: number}
+        to: {type: number}
+        count: {type: integer}
+    RatingDistribution:
+      type: object
+      required: [ratings, mean, min, max, buckets]
+      properties:
+        ratings: {type: array, items: {type: number}}
+        mean: {type: number}
+        min: {type: number}
+        max: {type: number}
+        buckets: {type: array, items: {$ref: "#/components/schemas/RatingBucket"}}
+    LineupStatus:
+      type: string
+      enum: ["", starter, bench, out]
+    PropResearch:
+      type: object
+      required: [windows, home, away, vsOpponent]
+      properties:
+        windows: {type: array, items: {$ref: "#/components/schemas/HitRate"}, description: "Hit rates over the last 5, 10 and 20 matches; the headline hit rate is the 10-match window"}
+        home: {$ref: "#/components/schemas/HitRate"}
+        away: {$ref: "#/components/schemas/HitRate"}
+        vsOpponent: {$ref: "#/components/schemas/HitRate"}
+        vsOpponentMatches: {type: array, items: {$ref: "#/components/schemas/PlayerMatchStat"}, description: Omitted when the player has not met this opponent}
+    PropPlayer:
+      type: object
+      required: [id, name]
+      properties:
+        id: {type: string}
+        name: {type: string}
+        teamId: {type: string}
+        position: {type: string, enum: [GK, DF, MF, FW, G, F, C, QB, RB, WR, TE, OL, DEF, K, P, LS], description: "Normalized position: GK/DF/MF/FW football, G/F/C basketball, QB/RB/WR/TE/OL/DEF/K/P/LS american football; absent when no source lists one (tennis, esports)"}
+        teamName: {type: string}
+        teamLogoUrl: {type: string, description: "Self-hosted logo path `/v1/logos/{kind}/{id}?v={version}`; present only once the image is stored"}
+    PropPlayerInfo:
+      allOf:
+        - {$ref: "#/components/schemas/PropPlayer"}
+        - type: object
+          required: [minutesTrend, lineupStatus, benchWarning]
+          properties:
+            minutesTrend: {type: array, items: {$ref: "#/components/schemas/MinutesPoint"}}
+            lineupStatus: {$ref: "#/components/schemas/LineupStatus"}
+            benchWarning: {type: boolean}
+            ratings: {$ref: "#/components/schemas/RatingDistribution", description: Present when the player has a rating prop}
+    PropCell:
+      type: object
+      required: [raw]
+      description: "A BoardCell trimmed for the props board: the market key, source, side and label come from the enclosing row, selection and cells key, and observedAt is left out"
+      properties:
+        raw: {type: number}
+        form: {$ref: "#/components/schemas/PriceForm", description: Omitted for decimal}
+        prob: {type: number, description: "Omitted when it equals the implied probability of raw in form (1/raw decimal, raw share, raw/100 cents and naira, 0 line_only)"}
+        bid: {type: number}
+        ask: {type: number}
+        liquidity: {type: number}
+        suspended: {type: boolean}
+        fair: {type: number, description: Fair probability}
+        derived: {type: boolean}
+        deepLink: {type: string}
+    PropSelection:
+      type: object
+      required: [side, label, cells]
+      properties:
+        side: {type: string}
+        label: {type: string}
+        bestSource: {type: string, description: Source with the lowest implied probability among non-derived priced cells}
+        consensus: {$ref: "#/components/schemas/PropCell"}
+        cells:
+          type: object
+          additionalProperties: {$ref: "#/components/schemas/PropCell"}
+          description: Keyed by source name
+    PropRow:
+      type: object
+      required: [keyString, selections]
+      properties:
+        keyString: {type: string, description: "MarketKey string eventId|code|line|playerId|period[|teamId]; code, line and the player (an id in PropBoard.players) are read from it"}
+        selections: {type: array, items: {$ref: "#/components/schemas/PropSelection"}}
+        research: {$ref: "#/components/schemas/PropResearch", description: Absent when hit rates are not computed for the prop's stat}
+    PropBoard:
+      type: object
+      required: [event, sources, players, rows]
+      properties:
+        event: {$ref: "#/components/schemas/EventInfo"}
+        sources: {type: array, items: {type: string}}
+        players: {type: array, items: {$ref: "#/components/schemas/PropPlayerInfo"}, description: Each player on the board once, with the research shared by all of their props}
+        rows: {type: array, items: {$ref: "#/components/schemas/PropRow"}}
+    HistoryPoint:
+      type: object
+      required: [source, side, label, raw, form, prob, suspended, observedAt]
+      properties:
+        source: {type: string}
+        side: {type: string}
+        label: {type: string}
+        raw: {type: number}
+        form: {$ref: "#/components/schemas/PriceForm"}
+        prob: {type: number}
+        suspended: {type: boolean}
+        observedAt: {type: string, format: date-time}
+    MarketHistory:
+      type: object
+      required: [marketKey, points]
+      properties:
+        marketKey: {type: string}
+        points: {type: array, items: {$ref: "#/components/schemas/HistoryPoint"}}
+    SignalType:
+      type: string
+      enum: [arb, ev, line, move]
+    Leg:
+      type: object
+      required: [source, price, observedAt]
+      properties:
+        source: {type: string}
+        marketKey: {type: string, description: "Key string of the market this leg is priced on: the signal's market, except line-gap book legs, which carry that book's main-line market"}
+        line: {type: number, description: Line of that market; absent on unlined markets}
+        side: {$ref: "#/components/schemas/Side"}
+        label: {type: string}
+        price: {$ref: "#/components/schemas/Price"}
+        stake: {type: number}
+        deepLink: {type: string}
+        observedAt: {type: string, format: date-time}
+    Signal:
+      type: object
+      required: [id, dedupeKey, type, status, eventId, leagueCode, market, legs, oldestLegAge, detectedAt]
+      properties:
+        id: {type: string}
+        dedupeKey: {type: string}
+        type: {$ref: "#/components/schemas/SignalType"}
+        status: {type: string, enum: [open, closed]}
+        eventId: {type: string}
+        leagueCode: {type: string}
+        market: {$ref: "#/components/schemas/MarketKey"}
+        legs: {type: array, items: {$ref: "#/components/schemas/Leg"}, description: "Move: leg 0 is the earlier price, leg 1 the current one. Line: the PrizePicks leg, then each book's main-line over leg"}
+        margin: {type: number, description: "Arb: guaranteed return as a fraction of stake (push-aware on lined two-way markets). Move: relative move in implied probability |p_now - p_then| / p_then. Line: absolute gap between the PrizePicks line and the consensus book line"}
+        fromPrice: {$ref: "#/components/schemas/Price", description: Move only, the earlier price}
+        toPrice: {$ref: "#/components/schemas/Price", description: Move only, the current price}
+        change: {type: number, description: "Move only, signed implied-probability delta p_now - p_then (positive means shortening)"}
+        ev: {type: number}
+        fairProb: {type: number}
+        oldestLegAge: {type: integer, description: Nanoseconds}
+        detectedAt: {type: string, format: date-time}
+        closedAt: {type: string, format: date-time}
+    SignalView:
+      allOf:
+        - {$ref: "#/components/schemas/Signal"}
+        - type: object
+          required: [event]
+          properties:
+            event: {$ref: "#/components/schemas/EventInfo"}
+            player: {$ref: "#/components/schemas/PropPlayer"}
+    SignalList:
+      type: object
+      required: [items]
+      properties:
+        items: {type: array, items: {$ref: "#/components/schemas/SignalView"}}
+    PlayerStats:
+      type: object
+      required: [player, items]
+      properties:
+        player: {$ref: "#/components/schemas/PropPlayer"}
+        items: {type: array, items: {$ref: "#/components/schemas/PlayerMatchStat"}}
+    SourceHealth:
+      type: object
+      required: [name, enabled, degraded, consecutiveFailures, requests, errors, errorRate, lastFetchMs, freshnessMs, lastError, type, feed, feedGroup, countries, blockedCountries, coverage]
+      properties:
+        name: {type: string}
+        enabled: {type: boolean}
+        degraded: {type: boolean}
+        lastSuccess: {type: string, format: date-time}
+        lastError: {type: string, enum: ["", "Blocked from this region", "Rate limited", "Timed out", "No odds returned", "Connection failed", "Upstream error"], description: "Display label of the latest fetch error, empty when the last fetch succeeded. Raw upstream error text (URLs, payload details) is never returned; it stays in the ingest logs"}
+        consecutiveFailures: {type: integer}
+        requests: {type: integer}
+        errors: {type: integer}
+        errorRate: {type: number}
+        lastFetchMs: {type: integer}
+        freshnessMs: {type: integer}
+        logoUrl: {type: string, description: "Self-hosted logo path `/v1/logos/{kind}/{id}?v={version}`; present only once the image is stored"}
+        type: {type: string, enum: [sportsbook, prediction, pickem]}
+        feed: {type: string, enum: [stream, poll], description: "stream when the adapter holds a push subscription, poll otherwise"}
+        feedGroup: {type: string, description: Sources sharing one upstream feed share this key (the source name when it has its own feed)}
+        note: {type: string, description: Short operator note about the source}
+        countries: {type: array, items: {type: string, pattern: "^[A-Z]{2}$"}, description: "ISO 3166-1 alpha-2 countries where the source is available; empty means no allow-list"}
+        blockedCountries: {type: array, items: {type: string, pattern: "^[A-Z]{2}$"}, description: "ISO 3166-1 alpha-2 countries where the source is not available"}
+        coverage: {$ref: "#/components/schemas/SourceCoverage"}
+    SourceCoverage:
+      type: object
+      required: [leagues, markets]
+      description: League and market codes this source currently prices for scheduled or live events, refreshed at most every 60 s
+      properties:
+        leagues: {type: array, items: {type: string}}
+        markets: {type: array, items: {type: string}}
+    SourceHealthList:
+      type: object
+      required: [items]
+      properties:
+        items: {type: array, items: {$ref: "#/components/schemas/SourceHealth"}}
+    BoardUpdate:
+      type: object
+      required: [eventId, sentAt]
+      properties:
+        eventId: {type: string}
+        cells: {type: array, items: {$ref: "#/components/schemas/BoardCell"}}
+        signals: {type: array, items: {$ref: "#/components/schemas/Signal"}}
+        score: {$ref: "#/components/schemas/EventScore"}
+        sentAt: {type: string, format: date-time}
+    Meta:
+      type: object
+      required: [version, auth, country]
+      properties:
+        version: {type: string, description: Build revision (VCS revision when built from a checkout, else the module version)}
+        country: {type: string, description: "ISO 3166-1 alpha-2 country of the caller from trusted proxy headers (CF-IPCountry, X-Vercel-IP-Country, CloudFront-Viewer-Country) or the GEOIP_DB mmdb; empty when unknown"}
+        telegramBotUrl: {type: string, format: uri, description: "https://t.me/<telegram.botUsername>; omitted when no bot is configured"}
+        auth:
+          type: object
+          required: [google]
+          properties:
+            google: {type: boolean, description: Continue with Google is configured}
+    SearchItem:
+      type: object
+      required: [kind, id, name, sport]
+      properties:
+        kind: {type: string, enum: [team, player, league, event]}
+        id: {type: string, description: Uuid for team, player and event; league code for league}
+        name: {type: string, description: "Event names are `Home vs Away`"}
+        sport: {$ref: "#/components/schemas/Sport"}
+        leagueCode: {type: string}
+        logoUrl: {type: string, description: "League logo for leagues, team logo for teams and players (the player's team), home team logo for events"}
+        awayLogoUrl: {type: string, description: Away team logo for events}
+        kickoff: {type: string, format: date-time, description: Events only}
+    SearchList:
+      type: object
+      required: [items]
+      properties:
+        items: {type: array, items: {$ref: "#/components/schemas/SearchItem"}}
+    ReviewStatus:
+      type: string
+      enum: [pending, linked, created, ignored]
+    ReviewCandidate:
+      type: object
+      required: [id, name, score]
+      properties:
+        id: {type: string}
+        name: {type: string}
+        score: {type: number}
+    ReviewItem:
+      type: object
+      required: [id, kind, source, sourceKey, payload, candidates, status, createdAt]
+      properties:
+        id: {type: string}
+        kind: {type: string, enum: [team, event, player]}
+        source: {type: string}
+        sourceKey: {type: string}
+        payload: {type: object}
+        candidates: {type: array, items: {$ref: "#/components/schemas/ReviewCandidate"}}
+        status: {$ref: "#/components/schemas/ReviewStatus"}
+        createdAt: {type: string, format: date-time}
+    ReviewList:
+      type: object
+      required: [items]
+      properties:
+        items: {type: array, items: {$ref: "#/components/schemas/ReviewItem"}}
+    ReviewDecision:
+      type: object
+      required: [reviewId, action]
+      properties:
+        reviewId: {type: string, format: uuid}
+        action: {type: string, enum: [link, create, ignore]}
+        targetId: {type: string, description: Required for link}
+    RateLimited:
+      type: object
+      required: [error, resendIn]
+      properties:
+        error: {$ref: "#/components/schemas/Error/properties/error"}
+        resendIn: {type: integer, description: Seconds until a retry is allowed}
+    AuthProvider:
+      type: string
+      enum: [password, google]
+    User:
+      type: object
+      required: [id, email, emailVerified, hasPassword, providers, createdAt]
+      properties:
+        id: {type: string, format: uuid}
+        email: {type: string, format: email}
+        name: {type: string}
+        avatarUrl: {type: string, format: uri}
+        emailVerified: {type: boolean}
+        hasPassword: {type: boolean}
+        providers: {type: array, items: {$ref: "#/components/schemas/AuthProvider"}}
+        createdAt: {type: string, format: date-time}
+    UserResponse:
+      type: object
+      required: [user]
+      properties:
+        user: {$ref: "#/components/schemas/User"}
+    Settings:
+      type: object
+      required: [settings]
+      properties:
+        settings: {type: object, description: Free-form client preferences (at most 16 KiB)}
+    CodeSent:
+      type: object
+      required: [status, resendIn]
+      properties:
+        status: {type: string, enum: [code_sent]}
+        resendIn: {type: integer, description: Seconds until another code can be requested}
+    EmailRequest:
+      type: object
+      required: [email]
+      properties:
+        email: {type: string, format: email}
+    SignupRequest:
+      type: object
+      required: [email, password]
+      properties:
+        email: {type: string, format: email}
+        password: {type: string, minLength: 10, maxLength: 128}
+        name: {type: string, maxLength: 100}
+    VerifyRequest:
+      type: object
+      required: [email, code]
+      properties:
+        email: {type: string, format: email}
+        code: {type: string, pattern: "^[0-9]{6}$"}
+    ResendRequest:
+      type: object
+      required: [email, purpose]
+      properties:
+        email: {type: string, format: email}
+        purpose: {type: string, enum: [signup, reset]}
+    LoginRequest:
+      type: object
+      required: [email, password]
+      properties:
+        email: {type: string, format: email}
+        password: {type: string}
+    ResetRequest:
+      type: object
+      required: [email, code, password]
+      properties:
+        email: {type: string, format: email}
+        code: {type: string, pattern: "^[0-9]{6}$"}
+        password: {type: string, minLength: 10, maxLength: 128}
+    LogoutRequest:
+      type: object
+      properties:
+        all: {type: boolean, description: Revoke every session of the user}
+    BookingLeg:
+      type: object
+      required: [eventId, marketKey, source, side, label]
+      properties:
+        eventId: {type: string, format: uuid}
+        marketKey: {type: string, description: "Canonical market key (`MarketBoard.keyString`); must belong to eventId"}
+        source: {type: string, description: Source the leg was picked at}
+        side: {type: string, enum: ["", home, draw, away, over, under, "yes", "no"]}
+        label: {type: string, maxLength: 64}
+    BookingRequest:
+      type: object
+      required: [legs]
+      properties:
+        legs: {type: array, minItems: 1, maxItems: 30, items: {$ref: "#/components/schemas/BookingLeg"}}
+        mode: {type: string, enum: [split, single], default: split}
+        book: {type: string, description: "Book to place the whole slip on; required when mode is single and must be bookable"}
+        stake: {type: number, minimum: 0, maximum: 1000000000, description: "Stake for the potential returns; 0 or absent means 1"}
+    BookingStatus:
+      type: string
+      enum: [ok, partial, failed, blocked, unsupported]
+      description: "ok: every leg booked; partial: a code with some legs missing; failed: no code; blocked: the book refuses requests from our region; unsupported: the book has no booking codes"
+    BookedLeg:
+      type: object
+      required: [index, ok]
+      properties:
+        index: {type: integer, description: Index into the request legs}
+        price: {type: number, description: Decimal odds at the book (live when the book returned them, else cached)}
+        ok: {type: boolean}
+        reason: {type: string}
+    BookResult:
+      type: object
+      required: [book, status, legs, cached]
+      properties:
+        book: {type: string}
+        status: {$ref: "#/components/schemas/BookingStatus"}
+        code: {type: string}
+        webUrl: {type: string, format: uri, description: Opens the book's betslip with the code loaded}
+        appUrl: {type: string, description: App deep link when the book has one}
+        expiresAt: {type: string, format: date-time}
+        odds: {type: number, description: Product of the booked legs' prices}
+        return: {type: number, description: odds times stake}
+        legs: {type: array, items: {$ref: "#/components/schemas/BookedLeg"}}
+        message: {type: string, description: User-facing reason when status is not ok}
+        cached: {type: boolean, description: The code came from the idempotency cache instead of a new book call}
+    ManualLeg:
+      type: object
+      required: [index, source, reason]
+      properties:
+        index: {type: integer}
+        source: {type: string}
+        deepLink: {type: string}
+        price: {type: number}
+        reason: {type: string}
+    QuoteLeg:
+      type: object
+      required: [index, source, price]
+      properties:
+        index: {type: integer}
+        source: {type: string}
+        price: {type: number}
+    SplitQuote:
+      type: object
+      required: [odds, return, covered, legs]
+      properties:
+        odds: {type: number}
+        return: {type: number}
+        covered: {type: integer}
+        legs: {type: array, items: {$ref: "#/components/schemas/QuoteLeg"}}
+    BookQuote:
+      type: object
+      required: [book, bookable, covered, total, odds, return, legs, missing]
+      properties:
+        book: {type: string}
+        bookable: {type: boolean, description: The book can create booking codes}
+        covered: {type: integer}
+        total: {type: integer}
+        odds: {type: number, description: Product of the covered legs' prices at this book}
+        return: {type: number}
+        legs: {type: array, items: {$ref: "#/components/schemas/QuoteLeg"}}
+        missing: {type: array, items: {type: integer}, description: Indexes of legs this book does not price}
+    BookingComparison:
+      type: object
+      required: [stake, totalLegs, picked, bestSplit, books]
+      properties:
+        stake: {type: number}
+        totalLegs: {type: integer}
+        picked: {$ref: "#/components/schemas/SplitQuote"}
+        bestSplit: {$ref: "#/components/schemas/SplitQuote"}
+        books: {type: array, items: {$ref: "#/components/schemas/BookQuote"}, description: "Every enabled sportsbook, most legs covered first, then highest return"}
+    BookingResponse:
+      type: object
+      required: [mode, bookings, manual, comparison]
+      properties:
+        mode: {type: string, enum: [split, single]}
+        book: {type: string}
+        bookings: {type: array, items: {$ref: "#/components/schemas/BookResult"}}
+        manual: {type: array, items: {$ref: "#/components/schemas/ManualLeg"}}
+        comparison: {$ref: "#/components/schemas/BookingComparison"}

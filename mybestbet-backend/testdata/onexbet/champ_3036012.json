@@ -1,0 +1,244 @@
+{
+ "Id": 0,
+ "Success": true,
+ "Error": "",
+ "ErrorCode": 0,
+ "Guid": "",
+ "Value": {
+  "G": [
+   {
+    "B": 17484,
+    "SG": [
+     {
+      "I": 764434732,
+      "N": 288895,
+      "CI": 383014314,
+      "T": 5,
+      "EC": 46,
+      "TG": "",
+      "P": 1,
+      "PN": "1st map",
+      "DI": "",
+      "SI": 40,
+      "MG": 764434731
+     },
+     {
+      "I": 764434733,
+      "N": 288964,
+      "CI": 383014316,
+      "T": 5,
+      "EC": 46,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd map",
+      "DI": "",
+      "SI": 40,
+      "MG": 764434731
+     }
+    ],
+    "I": 764434731,
+    "N": 288875,
+    "CI": 383014312,
+    "T": 5,
+    "TG": "",
+    "PN": "",
+    "TN": "map",
+    "SSI": 1,
+    "S": 1792832400,
+    "CHIMG": "sub_e_sport_dota_2.png",
+    "O1": "Team Lynx",
+    "O2": "Nemiga Gaming",
+    "O1I": 9358459,
+    "O2I": 729583,
+    "O1IS": [
+     9358459
+    ],
+    "O2IS": [
+     729583
+    ],
+    "O1C": 2,
+    "O2C": 225,
+    "O1IMG": [
+     "31a82bf0f66af00ea2093d9c04b90a58.png"
+    ],
+    "O2IMG": [
+     "b7a02a6dd23d07c4c0266c1876753bc1.png"
+    ],
+    "O1R": "Team Lynx",
+    "O2R": "Nemiga Gaming",
+    "O1E": "Team Lynx",
+    "O2E": "Nemiga Gaming",
+    "MIS": [
+     {
+      "K": 1,
+      "V": "Round Robin"
+     }
+    ],
+    "MIO": {
+     "TSt": "Round Robin"
+    },
+    "SI": 40,
+    "SE": "Esports",
+    "LE": "Dota 2. EPL Masters",
+    "LI": 3036012,
+    "COI": 225,
+    "MS": [
+     0
+    ],
+    "KI": 3,
+    "TNS": "maps",
+    "SUBA": true
+   },
+   {
+    "B": 28284,
+    "SG": [
+     {
+      "I": 764380628,
+      "N": 283400,
+      "CI": 382984940,
+      "T": 5,
+      "EC": 22,
+      "TG": "",
+      "P": 1,
+      "PN": "1st map",
+      "DI": "",
+      "SI": 40,
+      "MG": 764380624
+     },
+     {
+      "I": 764380629,
+      "N": 283406,
+      "CI": 382984944,
+      "T": 5,
+      "EC": 22,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd map",
+      "DI": "",
+      "SI": 40,
+      "MG": 764380624
+     },
+     {
+      "I": 764380625,
+      "N": 283407,
+      "CI": 382984946,
+      "T": 5,
+      "EC": 22,
+      "TG": "",
+      "P": 3,
+      "PN": "3rd map",
+      "DI": "",
+      "SI": 40,
+      "MG": 764380624
+     },
+     {
+      "I": 764380631,
+      "N": 283414,
+      "CI": 382984948,
+      "T": 5,
+      "EC": 8,
+      "TG": "Special bets",
+      "P": 1,
+      "PN": "1st map",
+      "DI": "",
+      "SI": 40,
+      "MG": 764380624,
+      "TI": 45
+     },
+     {
+      "I": 764380627,
+      "N": 283437,
+      "CI": 382984950,
+      "T": 5,
+      "EC": 8,
+      "TG": "Special bets",
+      "P": 2,
+      "PN": "2nd map",
+      "DI": "",
+      "SI": 40,
+      "MG": 764380624,
+      "TI": 45
+     },
+     {
+      "I": 764380630,
+      "N": 283438,
+      "CI": 382984952,
+      "T": 5,
+      "EC": 8,
+      "TG": "Special bets",
+      "P": 3,
+      "PN": "3rd map",
+      "DI": "",
+      "SI": 40,
+      "MG": 764380624,
+      "TI": 45
+     }
+    ],
+    "I": 764380624,
+    "N": 283399,
+    "CI": 382984938,
+    "T": 5,
+    "TG": "",
+    "PN": "",
+    "TN": "map",
+    "SSI": 1,
+    "S": 1792843200,
+    "CHIMG": "sub_e_sport_dota_2.png",
+    "O1": "Team Synapse",
+    "O2": "Zero Tenacity",
+    "O1I": 10848116,
+    "O2I": 9699147,
+    "O1IS": [
+     10848116
+    ],
+    "O2IS": [
+     9699147
+    ],
+    "O1C": 225,
+    "O2C": 225,
+    "O1IMG": [
+     "9630a003724b1c7b8bf1cd1b7ec767de.png"
+    ],
+    "O2IMG": [
+     "0454604bc1d810d6ec64cd41aee64a97.png"
+    ],
+    "O1R": "Team Synapse",
+    "O2R": "Zero Tenacity",
+    "O1E": "Team Synapse",
+    "O2E": "Zero Tenacity",
+    "MIS": [
+     {
+      "K": 1,
+      "V": "Round Robin"
+     }
+    ],
+    "MIO": {
+     "TSt": "Round Robin"
+    },
+    "SI": 40,
+    "SE": "Esports",
+    "LE": "Dota 2. EPL Masters",
+    "LI": 3036012,
+    "COI": 225,
+    "MS": [
+     0
+    ],
+    "KI": 3,
+    "TNS": "maps",
+    "SUBA": true
+   }
+  ],
+  "SI": 40,
+  "SSI": 1,
+  "SN": "Esports",
+  "SR": "КиберСпорт",
+  "SSN": "Dota 2",
+  "L": "Dota 2. EPL Masters",
+  "LI": 3036012,
+  "CI": 225,
+  "T": 5,
+  "GC": 4,
+  "CHIMG": "sub_e_sport_dota_2.png",
+  "COIMG": "a09c04e45bfb1f2440d5185d9c5753ec.png"
+ }
+}

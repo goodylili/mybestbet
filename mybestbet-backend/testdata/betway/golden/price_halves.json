@@ -1,0 +1,396 @@
+{
+  "source": "betway",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "74374504",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 10,
+            "form": "decimal",
+            "prob": 0.1,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 6.6,
+            "form": "decimal",
+            "prob": 0.15151515151515152,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.16,
+            "form": "decimal",
+            "prob": 0.8620689655172414,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "743745041"
+    },
+    {
+      "eventSourceId": "74374504",
+      "code": "QUALIFY",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 5.8,
+            "form": "decimal",
+            "prob": 0.1724137931034483,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.06,
+            "form": "decimal",
+            "prob": 0.9433962264150942,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "743745042"
+    },
+    {
+      "eventSourceId": "74374504",
+      "code": "DC",
+      "period": "1H",
+      "selections": [
+        {
+          "label": "1X",
+          "price": {
+            "raw": 2.24,
+            "form": "decimal",
+            "prob": 0.4464285714285714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "12",
+          "price": {
+            "raw": 1.27,
+            "form": "decimal",
+            "prob": 0.7874015748031495,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X2",
+          "price": {
+            "raw": 1.08,
+            "form": "decimal",
+            "prob": 0.9259259259259258,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7437450463"
+    },
+    {
+      "eventSourceId": "74374504",
+      "code": "DNB",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 4.9,
+            "form": "decimal",
+            "prob": 0.2040816326530612,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.09,
+            "form": "decimal",
+            "prob": 0.9174311926605504,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7437450464"
+    },
+    {
+      "eventSourceId": "74374504",
+      "code": "AH",
+      "line": 0.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.32,
+            "form": "decimal",
+            "prob": 0.4310344827586207,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.45,
+            "form": "decimal",
+            "prob": 0.6896551724137931,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7437450466hcp=0.5~"
+    },
+    {
+      "eventSourceId": "74374504",
+      "code": "AH",
+      "line": 1.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.35,
+            "form": "decimal",
+            "prob": 0.7407407407407407,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.6,
+            "form": "decimal",
+            "prob": 0.3846153846153846,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7437450466hcp=1.5~"
+    },
+    {
+      "eventSourceId": "74374504",
+      "code": "BTTS",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 3.5,
+            "form": "decimal",
+            "prob": 0.2857142857142857,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 1.2,
+            "form": "decimal",
+            "prob": 0.8333333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7437450475"
+    },
+    {
+      "eventSourceId": "74374504",
+      "code": "DC",
+      "period": "2H",
+      "selections": [
+        {
+          "label": "1X",
+          "price": {
+            "raw": 2.3,
+            "form": "decimal",
+            "prob": 0.4347826086956522,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "12",
+          "price": {
+            "raw": 1.2,
+            "form": "decimal",
+            "prob": 0.8333333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X2",
+          "price": {
+            "raw": 1.07,
+            "form": "decimal",
+            "prob": 0.9345794392523364,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7437450485"
+    },
+    {
+      "eventSourceId": "74374504",
+      "code": "DNB",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 5,
+            "form": "decimal",
+            "prob": 0.2,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.09,
+            "form": "decimal",
+            "prob": 0.9174311926605504,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7437450486"
+    },
+    {
+      "eventSourceId": "74374504",
+      "code": "AH",
+      "line": 0.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.38,
+            "form": "decimal",
+            "prob": 0.7246376811594204,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7437450488hcp=0.5~"
+    },
+    {
+      "eventSourceId": "74374504",
+      "code": "AH",
+      "line": 1.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.48,
+            "form": "decimal",
+            "prob": 0.6756756756756757,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.25,
+            "form": "decimal",
+            "prob": 0.4444444444444444,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7437450488hcp=1.5~"
+    },
+    {
+      "eventSourceId": "74374504",
+      "code": "BTTS",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 2.9,
+            "form": "decimal",
+            "prob": 0.3448275862068966,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 1.29,
+            "form": "decimal",
+            "prob": 0.7751937984496123,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7437450495"
+    }
+  ]
+}

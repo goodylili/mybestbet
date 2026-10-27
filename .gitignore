@@ -1,0 +1,8 @@
+mybestbet-backend/bin/
+.env
+mybestbet-frontend/node_modules/
+mybestbet-frontend/.next/
+*.test
+coverage.out
+deploy/.env
+.idea/

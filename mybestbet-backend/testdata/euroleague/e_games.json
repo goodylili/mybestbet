@@ -1,0 +1,308 @@
+{
+ "data": [
+  {
+   "id": "72c017b7-6a6e-481c-94fd-a9b2d6e81bf6",
+   "identifier": "E2026_69",
+   "gameCode": 69,
+   "group": {
+    "id": "c3243224-039c-4e93-9e16-12a7f4b2d383",
+    "order": 1,
+    "name": "Group Regular Season",
+    "rawName": "Regular Season"
+   },
+   "phaseType": {
+    "code": "RS",
+    "alias": "REGULAR SEASON",
+    "name": "Regular Season",
+    "isGroupPhase": true
+   },
+   "round": 7,
+   "roundAlias": "Round 7",
+   "roundName": "Round 7",
+   "played": true,
+   "date": "2026-10-23T20:45:00",
+   "confirmedDate": true,
+   "confirmedHour": true,
+   "localTimeZone": 2,
+   "localDate": "2026-10-23T20:45:00",
+   "utcDate": "2026-10-23T18:45:00Z",
+   "local": {
+    "club": {
+     "code": "PRS",
+     "name": "Paris Basketball",
+     "abbreviatedName": "Paris",
+     "editorialName": "Paris",
+     "tvCode": "PBB",
+     "isVirtual": false,
+     "images": {
+      "crest": "https://media-cdn.incrowdsports.com/a033e5b3-0de7-48a3-98d9-d9a4b9df1f39.png"
+     }
+    },
+    "score": 93,
+    "standingsScore": 93,
+    "partials": {
+     "partials1": 26,
+     "partials2": 28,
+     "partials3": 16,
+     "partials4": 23,
+     "extraPeriods": {}
+    }
+   },
+   "road": {
+    "club": {
+     "code": "PAM",
+     "name": "Valencia Basket",
+     "abbreviatedName": "Valencia",
+     "editorialName": "Valencia",
+     "tvCode": "VBC",
+     "isVirtual": false,
+     "images": {
+      "crest": "https://media-cdn.cortextech.io/1dU3kpCqReRp93/1BSdBWIjChWbHL/bc3e00b2-fea4-40be-a7ec-1e633129bde3.png"
+     }
+    },
+    "score": 104,
+    "standingsScore": 104,
+    "partials": {
+     "partials1": 32,
+     "partials2": 25,
+     "partials3": 26,
+     "partials4": 21,
+     "extraPeriods": {}
+    }
+   },
+   "audienceConfirmed": true,
+   "operationsCode": null,
+   "isNeutralVenue": false,
+   "gameStatus": "Confirmed",
+   "winner": null
+  },
+  {
+   "id": "bc8b6ee7-4311-40f4-ad61-7aef151229a3",
+   "identifier": "E2026_72",
+   "gameCode": 72,
+   "group": {
+    "id": "c3243224-039c-4e93-9e16-12a7f4b2d383",
+    "order": 1,
+    "name": "Group Regular Season",
+    "rawName": "Regular Season"
+   },
+   "phaseType": {
+    "code": "RS",
+    "alias": "REGULAR SEASON",
+    "name": "Regular Season",
+    "isGroupPhase": true
+   },
+   "round": 8,
+   "roundAlias": "Round 8",
+   "roundName": "Round 8",
+   "played": false,
+   "date": "2026-10-27T17:00:00",
+   "confirmedDate": true,
+   "confirmedHour": true,
+   "localTimeZone": 4,
+   "localDate": "2026-10-27T20:00:00",
+   "utcDate": "2026-10-27T16:00:00Z",
+   "local": {
+    "club": {
+     "code": "DUB",
+     "name": "Dubai Basketball",
+     "abbreviatedName": "Dubai",
+     "editorialName": "Dubai",
+     "tvCode": "DUB",
+     "isVirtual": false,
+     "images": {
+      "crest": "https://media-cdn.incrowdsports.com/1efae090-16e2-4963-ae47-4b94f249c244.png"
+     }
+    },
+    "score": 0,
+    "standingsScore": 0,
+    "partials": {
+     "partials1": 0,
+     "partials2": 0,
+     "partials3": 0,
+     "partials4": 0,
+     "extraPeriods": {}
+    }
+   },
+   "road": {
+    "club": {
+     "code": "PRS",
+     "name": "Paris Basketball",
+     "abbreviatedName": "Paris",
+     "editorialName": "Paris",
+     "tvCode": "PBB",
+     "isVirtual": false,
+     "images": {
+      "crest": "https://media-cdn.incrowdsports.com/a033e5b3-0de7-48a3-98d9-d9a4b9df1f39.png"
+     }
+    },
+    "score": 0,
+    "standingsScore": 0,
+    "partials": {
+     "partials1": 0,
+     "partials2": 0,
+     "partials3": 0,
+     "partials4": 0,
+     "extraPeriods": {}
+    }
+   },
+   "audienceConfirmed": false,
+   "operationsCode": null,
+   "isNeutralVenue": false,
+   "gameStatus": "Confirmed",
+   "winner": null
+  },
+  {
+   "id": "a48eebf4-9654-40c0-9fff-0d98e0684d84",
+   "identifier": "E2026_74",
+   "gameCode": 74,
+   "group": {
+    "id": "c3243224-039c-4e93-9e16-12a7f4b2d383",
+    "order": 1,
+    "name": "Group Regular Season",
+    "rawName": "Regular Season"
+   },
+   "phaseType": {
+    "code": "RS",
+    "alias": "REGULAR SEASON",
+    "name": "Regular Season",
+    "isGroupPhase": true
+   },
+   "round": 8,
+   "roundAlias": "Round 8",
+   "roundName": "Round 8",
+   "played": false,
+   "date": "2026-10-27T20:00:00",
+   "confirmedDate": true,
+   "confirmedHour": true,
+   "localTimeZone": 1,
+   "localDate": "2026-10-27T20:00:00",
+   "utcDate": "2026-10-27T19:00:00Z",
+   "local": {
+    "club": {
+     "code": "MUN",
+     "name": "FC Bayern Munich",
+     "abbreviatedName": "Bayern Munich",
+     "editorialName": "Bayern",
+     "tvCode": "BAY",
+     "isVirtual": false,
+     "images": {
+      "crest": "https://media-cdn.incrowdsports.com/817b0e58-d595-4b09-ab0b-1e7cc26249ff.png"
+     }
+    },
+    "score": 0,
+    "standingsScore": 0,
+    "partials": {
+     "partials1": 0,
+     "partials2": 0,
+     "partials3": 0,
+     "partials4": 0,
+     "extraPeriods": {}
+    }
+   },
+   "road": {
+    "club": {
+     "code": "BAR",
+     "name": "FC Barcelona",
+     "abbreviatedName": "FC Barcelona",
+     "editorialName": "Barca",
+     "tvCode": "BAR",
+     "isVirtual": false,
+     "images": {
+      "crest": "https://media-cdn.incrowdsports.com/35dfa503-e417-481f-963a-bdf6f013763e.png"
+     }
+    },
+    "score": 0,
+    "standingsScore": 0,
+    "partials": {
+     "partials1": 0,
+     "partials2": 0,
+     "partials3": 0,
+     "partials4": 0,
+     "extraPeriods": {}
+    }
+   },
+   "audienceConfirmed": false,
+   "operationsCode": null,
+   "isNeutralVenue": false,
+   "gameStatus": "Confirmed",
+   "winner": null
+  },
+  {
+   "id": "b9b2f8d0-c423-4d90-b95b-61c1680f0199",
+   "identifier": "E2026_71",
+   "gameCode": 71,
+   "group": {
+    "id": "c3243224-039c-4e93-9e16-12a7f4b2d383",
+    "order": 1,
+    "name": "Group Regular Season",
+    "rawName": "Regular Season"
+   },
+   "phaseType": {
+    "code": "RS",
+    "alias": "REGULAR SEASON",
+    "name": "Regular Season",
+    "isGroupPhase": true
+   },
+   "round": 8,
+   "roundAlias": "Round 8",
+   "roundName": "Round 8",
+   "played": false,
+   "date": "2026-10-27T20:00:00",
+   "confirmedDate": true,
+   "confirmedHour": true,
+   "localTimeZone": 1,
+   "localDate": "2026-10-27T20:00:00",
+   "utcDate": "2026-10-27T19:00:00Z",
+   "local": {
+    "club": {
+     "code": "RED",
+     "name": "Crvena Zvezda Meridianbet Belgrade",
+     "abbreviatedName": "Crvena Zvezda",
+     "editorialName": "Crvena",
+     "tvCode": "CZV",
+     "isVirtual": false,
+     "images": {
+      "crest": "https://media-cdn.incrowdsports.com/d2eef4a8-62df-4fdd-9076-276004268515.png"
+     }
+    },
+    "score": 0,
+    "standingsScore": 0,
+    "partials": {
+     "partials1": 0,
+     "partials2": 0,
+     "partials3": 0,
+     "partials4": 0,
+     "extraPeriods": {}
+    }
+   },
+   "road": {
+    "club": {
+     "code": "TEL",
+     "name": "Maccabi Rapyd Tel Aviv",
+     "abbreviatedName": "Maccabi",
+     "editorialName": "Maccabi",
+     "tvCode": "MTA",
+     "isVirtual": false,
+     "images": {
+      "crest": "https://media-cdn.cortextech.io/1b533342-78f5-4932-b714-a7d80b5826b5.png"
+     }
+    },
+    "score": 0,
+    "standingsScore": 0,
+    "partials": {
+     "partials1": 0,
+     "partials2": 0,
+     "partials3": 0,
+     "partials4": 0,
+     "extraPeriods": {}
+    }
+   },
+   "audienceConfirmed": false,
+   "operationsCode": null,
+   "isNeutralVenue": false,
+   "gameStatus": "Confirmed",
+   "winner": null
+  }
+ ]
+}

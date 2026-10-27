@@ -1,0 +1,49 @@
+{
+ "Id": 0,
+ "Success": true,
+ "Error": "",
+ "ErrorCode": 0,
+ "Guid": "",
+ "Value": [
+  {
+   "SI": 40,
+   "SSI": 46,
+   "SN": "Esports",
+   "SR": "КиберСпорт",
+   "SSN": "CS 2",
+   "L": "CS 2. PGL Masters Bucharest",
+   "LI": 2918839,
+   "CI": 225,
+   "T": 30,
+   "GC": 8,
+   "CHIMG": "407e3f43a3627577256dd6545f65adcc.png"
+  },
+  {
+   "SI": 40,
+   "SSI": 46,
+   "SN": "Esports",
+   "SR": "КиберСпорт",
+   "SSN": "CS 2",
+   "L": "CS 2. PGL Masters Bucharest. Winner",
+   "LR": "CS 2. PGL Masters Bucharest. Победитель",
+   "LI": 2918466,
+   "CI": 225,
+   "T": 5,
+   "GC": 12,
+   "CHIMG": "407e3f43a3627577256dd6545f65adcc.png"
+  },
+  {
+   "SI": 40,
+   "SSI": 1,
+   "SN": "Esports",
+   "SR": "КиберСпорт",
+   "SSN": "Dota 2",
+   "L": "Dota 2. EPL Masters",
+   "LI": 3036012,
+   "CI": 225,
+   "T": 5,
+   "GC": 4,
+   "CHIMG": "sub_e_sport_dota_2.png"
+  }
+ ]
+}

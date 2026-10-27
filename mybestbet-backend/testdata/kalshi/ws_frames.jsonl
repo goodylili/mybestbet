@@ -1,0 +1,5 @@
+{"type":"subscribed","id":1,"msg":{"channel":"ticker","sid":1}}
+{"type":"ticker","sid":1,"sending_ts_ms":1792773000100,"msg":{"market_id":"5f1d2c3a-0000-4000-8000-000000000001","market_ticker":"KXEPLGAME-26OCT24ARSEVE-ARS","price_dollars":"0.6800","yes_bid_dollars":"0.6700","yes_ask_dollars":"0.6900","volume_fp":"151200.00","open_interest_fp":"98000.00","yes_bid_size_fp":"1200.00","yes_ask_size_fp":"800.00","last_trade_size_fp":"25.00","ts_ms":1792773000000}}
+{"type":"ticker","sid":1,"sending_ts_ms":1792773000200,"msg":{"market_id":"5f1d2c3a-0000-4000-8000-000000000002","market_ticker":"KXEPLTOTAL-26OCT24ARSEVE-3","price_dollars":"0.5300","yes_bid_dollars":"0.5200","yes_ask_dollars":"0.5400","yes_bid_size_fp":"3000.00","yes_ask_size_fp":"450.00","ts_ms":1792773000150}}
+{"type":"ticker","sid":1,"msg":{"market_ticker":"KXEPLGAME-26OCT31CFCMUN-CFC","yes_bid_dollars":"0.5000","yes_ask_dollars":"0.5100","ts_ms":1792773000300}}
+{"type":"error","id":2,"msg":{"code":6,"msg":"Already subscribed"}}

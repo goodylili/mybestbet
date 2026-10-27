@@ -1,0 +1,668 @@
+{
+ "data": [
+  {
+   "type": "projection",
+   "id": "8100001",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 27.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Points",
+    "stat_type": "Points",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6601"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "401"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100002",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 25.5,
+    "odds_type": "goblin",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Points",
+    "stat_type": "Points",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6601"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "401"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100003",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 30.5,
+    "odds_type": "demon",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Points",
+    "stat_type": "Points",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6601"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "401"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100004",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 11.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Rebounds",
+    "stat_type": "Rebounds",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6601"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "402"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100005",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 7.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Assists",
+    "stat_type": "Assists",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6601"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "401"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100006",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 3.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "3-PT Made",
+    "stat_type": "3-PT Made",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6601"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "403"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100007",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 39.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Pts+Rebs+Asts",
+    "stat_type": "Pts+Rebs+Asts",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6601"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "401"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100008",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 48.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Fantasy Score",
+    "stat_type": "Fantasy Score",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6601"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "402"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100009",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 1.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Blocked Shots",
+    "stat_type": "Blocked Shots",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6601"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "402"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100010",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 26.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Points",
+    "stat_type": "Points",
+    "status": "in_progress",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6601"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "403"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100011",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 31.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Points",
+    "stat_type": "Points",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6602"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "404"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "new_player",
+   "id": "401",
+   "attributes": {
+    "combo": false,
+    "display_name": "LeBron James",
+    "image_url": null,
+    "league": "NBA",
+    "league_id": 7,
+    "market": "Los Angeles Lakers",
+    "name": "LeBron James",
+    "position": "",
+    "team": "LOS",
+    "team_name": "Los Angeles Lakers"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "402",
+   "attributes": {
+    "combo": false,
+    "display_name": "Anthony Davis",
+    "image_url": null,
+    "league": "NBA",
+    "league_id": 7,
+    "market": "Los Angeles Lakers",
+    "name": "Anthony Davis",
+    "position": "",
+    "team": "LOS",
+    "team_name": "Los Angeles Lakers"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "403",
+   "attributes": {
+    "combo": false,
+    "display_name": "Jayson Tatum",
+    "image_url": null,
+    "league": "NBA",
+    "league_id": 7,
+    "market": "Boston Celtics",
+    "name": "Jayson Tatum",
+    "position": "",
+    "team": "BOS",
+    "team_name": "Boston Celtics"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "404",
+   "attributes": {
+    "combo": false,
+    "display_name": "Nikola Jokic",
+    "image_url": null,
+    "league": "NBA",
+    "league_id": 7,
+    "market": "Denver Nuggets",
+    "name": "Nikola Jokic",
+    "position": "",
+    "team": "DEN",
+    "team_name": "Denver Nuggets"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    }
+   }
+  },
+  {
+   "type": "game",
+   "id": "6601",
+   "attributes": {
+    "created_at": "2026-10-20T10:00:00-04:00",
+    "end_time": null,
+    "external_game_id": "sr:match:6601",
+    "is_live": false,
+    "metadata": {
+     "game_info": {
+      "competition": "NBA",
+      "teams": {
+       "home": {
+        "abbreviation": "BOS",
+        "name": "Boston Celtics"
+       },
+       "away": {
+        "abbreviation": "LOS",
+        "name": "Los Angeles Lakers"
+       }
+      }
+     },
+     "status": "scheduled"
+    },
+    "start_time": "2026-10-27T19:30:00-04:00",
+    "status": "scheduled"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    }
+   }
+  },
+  {
+   "type": "game",
+   "id": "6602",
+   "attributes": {
+    "created_at": "2026-10-20T10:00:00-04:00",
+    "end_time": null,
+    "external_game_id": "sr:match:6602",
+    "is_live": false,
+    "metadata": {
+     "game_info": {
+      "competition": "NBA",
+      "teams": {
+       "home": {
+        "abbreviation": "DEN",
+        "name": "Denver Nuggets"
+       },
+       "away": {
+        "abbreviation": "PHO",
+        "name": "Phoenix Suns"
+       }
+      }
+     },
+     "status": "scheduled"
+    },
+    "start_time": "2026-10-27T21:00:00-04:00",
+    "status": "scheduled"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "7"
+     }
+    }
+   }
+  },
+  {
+   "type": "league",
+   "id": "7",
+   "attributes": {
+    "name": "NBA",
+    "active": true
+   }
+  }
+ ],
+ "links": {},
+ "meta": {}
+}

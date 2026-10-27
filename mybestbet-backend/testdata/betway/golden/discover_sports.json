@@ -1,0 +1,154 @@
+{
+  "source": "betway",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "71488628",
+      "leagueHint": "NFL",
+      "home": "New Orleans Saints",
+      "away": "Pittsburgh Steelers",
+      "kickoff": "2026-10-25T13:30:00Z"
+    },
+    {
+      "sourceId": "71515928",
+      "leagueHint": "NFL",
+      "home": "Atlanta Falcons",
+      "away": "San Francisco 49ers",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "71515930",
+      "leagueHint": "NFL",
+      "home": "Baltimore Ravens",
+      "away": "Cincinnati Bengals",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "71515932",
+      "leagueHint": "NFL",
+      "home": "Carolina Panthers",
+      "away": "Tampa Bay Buccaneers",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "71515934",
+      "leagueHint": "NFL",
+      "home": "Houston Texans",
+      "away": "New York Giants",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "73719372",
+      "leagueHint": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Miami Heat",
+      "kickoff": "2026-10-24T22:00:00Z"
+    },
+    {
+      "sourceId": "73719374",
+      "leagueHint": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Brooklyn Nets",
+      "kickoff": "2026-10-24T23:30:00Z"
+    },
+    {
+      "sourceId": "73719376",
+      "leagueHint": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "Milwaukee Bucks",
+      "kickoff": "2026-10-24T23:30:00Z"
+    },
+    {
+      "sourceId": "73719380",
+      "leagueHint": "NBA",
+      "home": "Chicago Bulls",
+      "away": "Washington Wizards",
+      "kickoff": "2026-10-25T00:00:00Z"
+    },
+    {
+      "sourceId": "73719382",
+      "leagueHint": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "San Antonio Spurs",
+      "kickoff": "2026-10-25T00:00:00Z"
+    },
+    {
+      "sourceId": "75881892",
+      "leagueHint": "CS2",
+      "home": "9Ine Academy",
+      "away": "Bread Eaters eSports",
+      "kickoff": "2026-10-24T08:00:00Z"
+    },
+    {
+      "sourceId": "75953170",
+      "leagueHint": "ATP_CH_ZADAR",
+      "home": "Giron, Marcos",
+      "away": "Hanfmann, Yannick",
+      "kickoff": "2026-10-24T09:00:00Z"
+    },
+    {
+      "sourceId": "75953172",
+      "leagueHint": "ATP_CH_ZADAR",
+      "home": "Kecmanovic, Miomir",
+      "away": "Hijikata, Rinky",
+      "kickoff": "2026-10-24T09:00:00Z"
+    },
+    {
+      "sourceId": "75953174",
+      "leagueHint": "ATP_CH_ZADAR",
+      "home": "Faria, Jaime",
+      "away": "Brunold, Mika",
+      "kickoff": "2026-10-24T10:10:00Z"
+    },
+    {
+      "sourceId": "75953178",
+      "leagueHint": "ATP_CH_ZADAR",
+      "home": "Cerundolo, Juan Manuel",
+      "away": "Svajda, Zachary",
+      "kickoff": "2026-10-24T10:10:00Z"
+    },
+    {
+      "sourceId": "75953182",
+      "leagueHint": "ATP_CH_ZADAR",
+      "home": "Baez, Sebastian",
+      "away": "Mpetshi Perricard, Giovanni",
+      "kickoff": "2026-10-24T11:20:00Z"
+    },
+    {
+      "sourceId": "75957208",
+      "leagueHint": "LOL",
+      "home": "Anyones Legend",
+      "away": "TOP Esports",
+      "kickoff": "2026-10-24T17:00:00Z"
+    },
+    {
+      "sourceId": "75957210",
+      "leagueHint": "LOL",
+      "home": "Karmine Corp",
+      "away": "Lyon Gaming",
+      "kickoff": "2026-10-24T20:00:00Z"
+    },
+    {
+      "sourceId": "75957284",
+      "leagueHint": "LOL",
+      "home": "Ctbc Flying Oyster",
+      "away": "Movistar Koi",
+      "kickoff": "2026-10-24T18:00:00Z"
+    },
+    {
+      "sourceId": "75957286",
+      "leagueHint": "LOL",
+      "home": "G2 Esports",
+      "away": "Los",
+      "kickoff": "2026-10-24T19:00:00Z"
+    },
+    {
+      "sourceId": "75957288",
+      "leagueHint": "LOL",
+      "home": "Invictus Gaming",
+      "away": "Team Secret Whales",
+      "kickoff": "2026-10-24T21:00:00Z"
+    }
+  ],
+  "markets": null
+}

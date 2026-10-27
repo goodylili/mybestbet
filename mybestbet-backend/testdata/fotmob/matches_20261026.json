@@ -1,0 +1,191 @@
+{
+ "date": "20261026",
+ "leagues": [
+  {
+   "ccode": "ESP",
+   "id": 87,
+   "primaryId": 87,
+   "name": "LaLiga",
+   "matches": [
+    {
+     "id": 5868109,
+     "leagueId": 87,
+     "time": "26.10.2026 21:00",
+     "home": {
+      "id": 8302,
+      "score": 0,
+      "name": "Sevilla",
+      "longName": "Sevilla"
+     },
+     "away": {
+      "id": 8371,
+      "score": 0,
+      "name": "Osasuna",
+      "longName": "Osasuna"
+     },
+     "eliminatedTeamId": null,
+     "statusId": 1,
+     "tournamentStage": "10",
+     "status": {
+      "utcTime": "2026-10-26T20:00:00.000Z",
+      "halfs": {
+       "firstHalfStarted": "26.10.2026 21:00:00"
+      },
+      "periodLength": 45,
+      "started": false,
+      "cancelled": false,
+      "finished": false
+     },
+     "timeTS": 1793044800000
+    }
+   ]
+  },
+  {
+   "ccode": "USA",
+   "id": 913550,
+   "primaryId": 130,
+   "name": "Major League Soccer",
+   "matches": [
+    {
+     "id": 5071455,
+     "leagueId": 913550,
+     "time": "26.10.2026 02:00",
+     "home": {
+      "id": 867280,
+      "score": 2,
+      "name": "Los Angeles FC",
+      "shortName": "LAFC",
+      "longName": "Los Angeles FC"
+     },
+     "away": {
+      "id": 6637,
+      "score": 2,
+      "name": "LA Galaxy",
+      "shortName": "LA Galaxy",
+      "longName": "LA Galaxy"
+     },
+     "eliminatedTeamId": null,
+     "statusId": 6,
+     "tournamentStage": "31",
+     "status": {
+      "utcTime": "2026-10-26T01:00:00.000Z",
+      "halfs": {
+       "firstHalfStarted": "26.10.2026 02:13:08",
+       "secondHalfStarted": "26.10.2026 03:19:24"
+      },
+      "periodLength": 45,
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+       "short": "FT",
+       "shortKey": "fulltime_short",
+       "long": "Full-Time",
+       "longKey": "finished"
+      }
+     },
+     "timeTS": 1792976400000
+    }
+   ]
+  },
+  {
+   "ccode": "INT",
+   "id": 943983,
+   "primaryId": 525,
+   "name": "AFC Champions League Elite West",
+   "matches": [
+    {
+     "id": 6050083,
+     "leagueId": 943983,
+     "time": "26.10.2026 19:15",
+     "home": {
+      "id": 101918,
+      "score": 0,
+      "name": "Al Nassr FC",
+      "longName": "Al Nassr FC"
+     },
+     "away": {
+      "id": 102111,
+      "score": 0,
+      "name": "Al-Wasl",
+      "longName": "Al-Wasl"
+     },
+     "eliminatedTeamId": null,
+     "statusId": 5,
+     "tournamentStage": "3",
+     "status": {
+      "utcTime": "2026-10-26T18:15:00.000Z",
+      "halfs": {
+       "firstHalfStarted": "26.10.2026 19:15:00"
+      },
+      "periodLength": 45,
+      "cancelled": true,
+      "started": false,
+      "finished": false,
+      "reason": {
+       "short": "PP",
+       "shortKey": "postponed_short",
+       "long": "Postponed",
+       "longKey": "postponed"
+      }
+     },
+     "timeTS": 1793038500000
+    }
+   ]
+  },
+  {
+   "ccode": "ARG",
+   "id": 1000001729,
+   "primaryId": 112,
+   "name": "Liga Profesional",
+   "matches": [
+    {
+     "id": 1000019591,
+     "leagueId": 1000001729,
+     "time": "26.10.2026 01:30",
+     "home": {
+      "id": 213596,
+      "score": 0,
+      "name": "Central Córdoba de Santiago",
+      "redCards": 1,
+      "longName": "Central Córdoba de Santiago"
+     },
+     "away": {
+      "id": 10079,
+      "score": 5,
+      "name": "Vélez Sarsfield",
+      "redCards": 1,
+      "longName": "Vélez Sarsfield"
+     },
+     "eliminatedTeamId": null,
+     "statusId": 6,
+     "tournamentStage": "Clausura - Round 14",
+     "status": {
+      "utcTime": "2026-10-26T00:30:00.000Z",
+      "numberOfHomeRedCards": 1,
+      "numberOfAwayRedCards": 1,
+      "halfs": {
+       "firstHalfStarted": "26.10.2026 01:29:31",
+       "secondHalfStarted": "26.10.2026 02:33:49"
+      },
+      "periodLength": 45,
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 5",
+      "reason": {
+       "short": "FT",
+       "shortKey": "fulltime_short",
+       "long": "Full-Time",
+       "longKey": "finished"
+      }
+     },
+     "timeTS": 1792974600000
+    }
+   ]
+  }
+ ]
+}

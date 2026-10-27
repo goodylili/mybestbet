@@ -1,0 +1,39 @@
+{
+ "data": {
+  "topLeagues": [],
+  "regionGroups": [
+   {
+    "name": "All",
+    "regions": [
+     {
+      "id": "atp",
+      "name": "ATP",
+      "leagues": [
+       {
+        "id": "610",
+        "name": "Miami",
+        "url": "/sport/tennis/atp/miami/610/"
+       },
+       {
+        "id": "611",
+        "name": "Basel",
+        "url": "/sport/tennis/atp/basel/611/"
+       }
+      ]
+     },
+     {
+      "id": "wta",
+      "name": "WTA",
+      "leagues": [
+       {
+        "id": "620",
+        "name": "Miami",
+        "url": "/sport/tennis/wta/miami/620/"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

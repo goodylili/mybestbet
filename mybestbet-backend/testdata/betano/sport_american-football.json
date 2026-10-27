@@ -1,0 +1,28 @@
+{
+ "data": {
+  "topLeagues": [],
+  "regionGroups": [
+   {
+    "name": "All",
+    "regions": [
+     {
+      "id": "usa",
+      "name": "USA",
+      "leagues": [
+       {
+        "id": "520",
+        "name": "NFL",
+        "url": "/sport/american-football/usa/nfl/520/"
+       },
+       {
+        "id": "521",
+        "name": "NCAA",
+        "url": "/sport/american-football/usa/ncaa/521/"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

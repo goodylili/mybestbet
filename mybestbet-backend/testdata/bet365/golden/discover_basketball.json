@@ -1,0 +1,28 @@
+{
+  "source": "bet365",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "B18-161000001",
+      "leagueHint": "NBA",
+      "home": "BOS Celtics",
+      "away": "LA Lakers",
+      "kickoff": "2026-10-27T23:30:00Z"
+    },
+    {
+      "sourceId": "B18-161000002",
+      "leagueHint": "EUROLEAGUE",
+      "home": "Real Madrid",
+      "away": "Olympiacos",
+      "kickoff": "2026-10-28T19:30:00Z"
+    },
+    {
+      "sourceId": "B18-161000003",
+      "leagueHint": "WNBA",
+      "home": "LV Aces",
+      "away": "PHX Mercury",
+      "kickoff": "2026-10-28T02:00:00Z"
+    }
+  ],
+  "markets": null
+}

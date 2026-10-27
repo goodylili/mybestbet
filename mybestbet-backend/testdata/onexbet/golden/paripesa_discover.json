@@ -1,0 +1,343 @@
+{
+  "source": "paripesa",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "760398119",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Manchester United",
+      "away": "Bournemouth",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "760398122",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Coventry City",
+      "away": "Fulham",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "760398125",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Ipswich Town",
+      "away": "Nottingham Forest",
+      "kickoff": "2026-10-23T19:00:00Z"
+    },
+    {
+      "sourceId": "760398128",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Chelsea",
+      "away": "Tottenham Hotspur",
+      "kickoff": "2026-10-24T16:30:00Z"
+    },
+    {
+      "sourceId": "760404426",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Crystal Palace",
+      "away": "Newcastle United",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "760404429",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Arsenal",
+      "away": "Everton",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "760404432",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Aston Villa",
+      "away": "Manchester City",
+      "kickoff": "2026-10-24T11:30:00Z"
+    },
+    {
+      "sourceId": "760406113",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Hull City",
+      "away": "Brentford",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "760406116",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Sunderland",
+      "away": "Leeds United",
+      "kickoff": "2026-10-25T16:30:00Z"
+    },
+    {
+      "sourceId": "760779282",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Como",
+      "away": "Sassuolo Calcio",
+      "kickoff": "2026-10-24T13:00:00Z"
+    },
+    {
+      "sourceId": "760779285",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Atalanta",
+      "away": "Frosinone Calcio",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "760779288",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Napoli",
+      "away": "Roma",
+      "kickoff": "2026-10-24T16:00:00Z"
+    },
+    {
+      "sourceId": "760779291",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Lazio",
+      "away": "Parma",
+      "kickoff": "2026-10-24T18:45:00Z"
+    },
+    {
+      "sourceId": "760779294",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Genoa",
+      "away": "Unione Venezia",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "760779297",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Cagliari Calcio",
+      "away": "Bologna 1909",
+      "kickoff": "2026-10-24T13:00:00Z"
+    },
+    {
+      "sourceId": "760779300",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Internazionale Milano",
+      "away": "Fiorentina",
+      "kickoff": "2026-10-25T11:30:00Z"
+    },
+    {
+      "sourceId": "760779303",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Torino",
+      "away": "Monza 1912",
+      "kickoff": "2026-10-23T18:45:00Z"
+    },
+    {
+      "sourceId": "760780340",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Lecce",
+      "away": "Juventus",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "760780343",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Udinese Calcio",
+      "away": "Milan",
+      "kickoff": "2026-10-25T19:45:00Z"
+    },
+    {
+      "sourceId": "760915912",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Liverpool",
+      "away": "Brighton \u0026 Hove Albion",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "762543755",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Bournemouth",
+      "away": "Leeds United",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "762544547",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Coventry City",
+      "away": "Sunderland",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "762544550",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Hull City",
+      "away": "Ipswich Town",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "762544553",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Brentford",
+      "away": "Nottingham Forest",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "762548030",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Chelsea",
+      "away": "Manchester United",
+      "kickoff": "2026-10-31T12:30:00Z"
+    },
+    {
+      "sourceId": "762553417",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Tottenham Hotspur",
+      "away": "Crystal Palace",
+      "kickoff": "2026-10-31T17:30:00Z"
+    },
+    {
+      "sourceId": "762553420",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Manchester City",
+      "away": "Brighton \u0026 Hove Albion",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "762554100",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "kickoff": "2026-11-01T16:30:00Z"
+    },
+    {
+      "sourceId": "762558452",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Newcastle United",
+      "away": "Everton",
+      "kickoff": "2026-11-02T20:00:00Z"
+    },
+    {
+      "sourceId": "762920721",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Roma",
+      "away": "Cagliari Calcio",
+      "kickoff": "2026-10-27T19:45:00Z"
+    },
+    {
+      "sourceId": "762921156",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Milan",
+      "away": "Bologna 1909",
+      "kickoff": "2026-10-28T17:30:00Z"
+    },
+    {
+      "sourceId": "762921159",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Torino",
+      "away": "Como",
+      "kickoff": "2026-10-27T19:45:00Z"
+    },
+    {
+      "sourceId": "762921162",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Monza 1912",
+      "away": "Napoli",
+      "kickoff": "2026-10-28T19:45:00Z"
+    },
+    {
+      "sourceId": "762921165",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Genoa",
+      "away": "Juventus",
+      "kickoff": "2026-10-28T19:45:00Z"
+    },
+    {
+      "sourceId": "762921168",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "kickoff": "2026-10-29T19:45:00Z"
+    },
+    {
+      "sourceId": "762921171",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Sassuolo Calcio",
+      "away": "Lazio",
+      "kickoff": "2026-10-27T17:30:00Z"
+    },
+    {
+      "sourceId": "762921174",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Frosinone Calcio",
+      "away": "Lecce",
+      "kickoff": "2026-10-29T17:30:00Z"
+    },
+    {
+      "sourceId": "762921177",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Unione Venezia",
+      "away": "Internazionale Milano",
+      "kickoff": "2026-10-28T17:30:00Z"
+    },
+    {
+      "sourceId": "762921180",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Parma",
+      "away": "Udinese Calcio",
+      "kickoff": "2026-10-28T17:30:00Z"
+    },
+    {
+      "sourceId": "763117300",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Aston Villa",
+      "away": "Fulham",
+      "kickoff": "2026-10-31T20:00:00Z"
+    },
+    {
+      "sourceId": "763969379",
+      "leagueHint": "EPL",
+      "sourceLeagueId": "88637",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "kickoff": "2026-11-22T16:30:00Z"
+    },
+    {
+      "sourceId": "764228704",
+      "leagueHint": "SERIEA",
+      "sourceLeagueId": "110163",
+      "home": "Udinese Calcio",
+      "away": "Roma",
+      "kickoff": "2026-10-31T17:00:00Z"
+    }
+  ],
+  "markets": null
+}

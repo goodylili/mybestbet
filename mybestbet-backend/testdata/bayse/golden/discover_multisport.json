@@ -1,0 +1,63 @@
+{
+  "source": "bayse",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "bm-game-20261027-boc-m05",
+      "leagueHint": "DFBPOKAL",
+      "home": "VfL Bochum 1848",
+      "away": "1. FSV Mainz 05",
+      "kickoff": "2026-10-27T17:00:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261027-bvb-svw",
+      "leagueHint": "DFBPOKAL",
+      "home": "BV Borussia 09 Dortmund",
+      "away": "SV Werder Bremen",
+      "kickoff": "2026-10-27T19:45:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261027-gro-fca",
+      "leagueHint": "DFBPOKAL",
+      "home": "SG Sonnenhof Grossaspach",
+      "away": "FC Augsburg",
+      "kickoff": "2026-10-27T17:00:00Z"
+    },
+    {
+      "sourceId": "bm-game-20261027-hsv-sge",
+      "leagueHint": "DFBPOKAL",
+      "home": "Hamburger SV",
+      "away": "Eintracht Frankfurt",
+      "kickoff": "2026-10-27T17:00:00Z"
+    },
+    {
+      "sourceId": "brooklyn-vs-boston-october-28-2026",
+      "leagueHint": "NBA",
+      "home": "Boston",
+      "away": "Brooklyn",
+      "kickoff": "2026-10-27T23:30:00Z"
+    },
+    {
+      "sourceId": "houston-vs-san-antonio-october-24-2026",
+      "leagueHint": "NBA",
+      "home": "San Antonio",
+      "away": "Houston",
+      "kickoff": "2026-10-24T01:30:00Z"
+    },
+    {
+      "sourceId": "new-orleans-vs-utah-october-24-2026",
+      "leagueHint": "NBA",
+      "home": "Utah",
+      "away": "New Orleans",
+      "kickoff": "2026-10-24T01:30:00Z"
+    },
+    {
+      "sourceId": "portland-vs-sacramento-october-24-2026",
+      "leagueHint": "NBA",
+      "home": "Sacramento",
+      "away": "Portland",
+      "kickoff": "2026-10-24T02:00:00Z"
+    }
+  ],
+  "markets": null
+}

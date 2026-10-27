@@ -1,0 +1,102 @@
+[
+ {
+  "id": "1195426",
+  "slug": "cs2-mgc-big5-2026-10-27",
+  "title": "Counter-Strike: magic vs BIG (BO3) - Stake Ranked Episode 5 Playoffs",
+  "startTime": "2026-10-27T11:00:00Z",
+  "endDate": "2026-10-27T17:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "counter-strike",
+  "eventMetadata": {
+   "league": "Stake Ranked"
+  },
+  "teams": [
+   {
+    "name": "magic",
+    "abbreviation": "mgc",
+    "ordering": "home"
+   },
+   {
+    "name": "BIG",
+    "abbreviation": "big5",
+    "ordering": "away"
+   }
+  ]
+ },
+ {
+  "id": "1150908",
+  "slug": "cs2-aimers-bg1-2026-10-08",
+  "title": "Counter-Strike: aimers vs Banger Gang (BO1) - ESEA Advanced Europe Regular Season",
+  "startTime": "2026-10-27T17:00:00Z",
+  "endDate": "2026-10-27T23:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "counter-strike",
+  "eventMetadata": {
+   "league": "ESEA"
+  },
+  "teams": [
+   {
+    "name": "aimers",
+    "abbreviation": "aimers",
+    "ordering": "home"
+   },
+   {
+    "name": "Banger Gang",
+    "abbreviation": "bg1",
+    "ordering": "away"
+   }
+  ]
+ },
+ {
+  "id": "1195427",
+  "slug": "cs2-ice-nem-2026-10-27",
+  "title": "Counter-Strike: Inner Circle Esports vs Team Nemesis (BO3) - Stake Ranked Episode 5 Playoffs",
+  "startTime": "2026-10-27T13:30:00Z",
+  "endDate": "2026-10-27T19:30:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "counter-strike",
+  "eventMetadata": {
+   "league": "Stake Ranked"
+  },
+  "teams": [
+   {
+    "name": "Inner Circle Esports",
+    "abbreviation": "ice",
+    "ordering": "home"
+   },
+   {
+    "name": "Team Nemesis",
+    "abbreviation": "nem",
+    "ordering": "away"
+   }
+  ]
+ },
+ {
+  "id": "1195428",
+  "slug": "cs2-ast10-fnc-2026-10-27",
+  "title": "Counter-Strike: Astralis vs fnatic (BO3) - Stake Ranked Episode 5 Playoffs",
+  "startTime": "2026-10-27T16:00:00Z",
+  "endDate": "2026-10-27T22:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "counter-strike",
+  "eventMetadata": {
+   "league": "Stake Ranked"
+  },
+  "teams": [
+   {
+    "name": "Astralis",
+    "abbreviation": "ast10",
+    "ordering": "home"
+   },
+   {
+    "name": "fnatic",
+    "abbreviation": "fnc",
+    "ordering": "away"
+   }
+  ]
+ }
+]

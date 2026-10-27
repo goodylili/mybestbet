@@ -1,0 +1,685 @@
+{
+ "Id": 0,
+ "Success": true,
+ "Error": "",
+ "ErrorCode": 0,
+ "Guid": "",
+ "Value": {
+  "G": [
+   {
+    "B": 64288,
+    "SG": [
+     {
+      "I": 764452027,
+      "N": 235629,
+      "CI": 383070510,
+      "T": 300,
+      "EC": 41,
+      "TG": "",
+      "P": 1,
+      "PN": "1st quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764452026
+     },
+     {
+      "I": 764452028,
+      "N": 235630,
+      "CI": 383070514,
+      "T": 300,
+      "EC": 39,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764452026
+     },
+     {
+      "I": 764452029,
+      "N": 235631,
+      "CI": 383070518,
+      "T": 300,
+      "EC": 39,
+      "TG": "",
+      "P": 3,
+      "PN": "3rd quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764452026
+     },
+     {
+      "I": 764452032,
+      "N": 235632,
+      "CI": 383070520,
+      "T": 300,
+      "EC": 39,
+      "TG": "",
+      "P": 4,
+      "PN": "4th quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764452026
+     },
+     {
+      "I": 764452030,
+      "N": 235633,
+      "CI": 383070502,
+      "T": 300,
+      "EC": 24,
+      "TG": "",
+      "P": 11,
+      "PN": "1 Half",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764452026
+     },
+     {
+      "I": 764452031,
+      "N": 235634,
+      "CI": 383072248,
+      "T": 300,
+      "EC": 6,
+      "TG": "",
+      "P": 12,
+      "PN": "2 Half",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764452026
+     }
+    ],
+    "HL": true,
+    "I": 764452026,
+    "N": 235628,
+    "CI": 383048672,
+    "T": 300,
+    "TG": "",
+    "V": "Including Overtime",
+    "VE": "Including Overtime",
+    "PN": "",
+    "TN": "Quarter",
+    "SS": 2,
+    "HSRT": true,
+    "SST": 2,
+    "HSI": true,
+    "STI": "6a7b1ad97762417de82c56d9",
+    "S": 1792879200,
+    "O1": "Charlotte Hornets",
+    "O2": "Miami Heat",
+    "O1I": 76247,
+    "O2I": 6874,
+    "O1IS": [
+     76247
+    ],
+    "O2IS": [
+     6874
+    ],
+    "O1C": 153,
+    "O2C": 153,
+    "O2CT": "Miami",
+    "O1IMG": [
+     "86f728c641e21d93b70c19ef3a7329be.png"
+    ],
+    "O2IMG": [
+     "bab6e873720e8ff8728f46cd70b87c6c.png"
+    ],
+    "O1R": "Шарлотт Хорнетс",
+    "O2R": "Майами Хит",
+    "O1E": "Charlotte Hornets",
+    "O2E": "Miami Heat",
+    "MIS": [
+     {
+      "K": 2,
+      "V": "Spectrum Center (Charlotte)"
+     }
+    ],
+    "MIO": {
+     "Loc": "Spectrum Center (Charlotte)"
+    },
+    "SI": 3,
+    "SE": "Basketball",
+    "LE": "NBA",
+    "LI": 13589,
+    "COI": 153,
+    "MS": [
+     0
+    ],
+    "HLU": true,
+    "SGI": "6acad1047762417de8801827",
+    "KI": 3,
+    "IV": 12,
+    "HHTHS": true,
+    "TNS": "Quarters",
+    "GLI": 120,
+    "SUBA": true
+   },
+   {
+    "B": 69688,
+    "SG": [
+     {
+      "I": 764431453,
+      "N": 191889,
+      "CI": 383046334,
+      "T": 300,
+      "EC": 41,
+      "TG": "",
+      "P": 1,
+      "PN": "1st quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764431452
+     },
+     {
+      "I": 764431454,
+      "N": 191890,
+      "CI": 383046332,
+      "T": 300,
+      "EC": 41,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764431452
+     },
+     {
+      "I": 764431455,
+      "N": 191891,
+      "CI": 383046338,
+      "T": 300,
+      "EC": 41,
+      "TG": "",
+      "P": 3,
+      "PN": "3rd quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764431452
+     },
+     {
+      "I": 764431458,
+      "N": 191892,
+      "CI": 383046336,
+      "T": 300,
+      "EC": 41,
+      "TG": "",
+      "P": 4,
+      "PN": "4th quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764431452
+     },
+     {
+      "I": 764431456,
+      "N": 191893,
+      "CI": 383046342,
+      "T": 300,
+      "EC": 24,
+      "TG": "",
+      "P": 11,
+      "PN": "1 Half",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764431452
+     },
+     {
+      "I": 764431457,
+      "N": 191894,
+      "CI": 383046560,
+      "T": 300,
+      "EC": 6,
+      "TG": "",
+      "P": 12,
+      "PN": "2 Half",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764431452
+     },
+     {
+      "I": 764454397,
+      "N": 189994,
+      "CI": 383074982,
+      "T": 300,
+      "EC": 268,
+      "TG": "Players' stats",
+      "V": "Including Overtime",
+      "PN": "",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764431452,
+      "IV": 12,
+      "TI": 52,
+      "HBBP": true
+     }
+    ],
+    "HL": true,
+    "I": 764431452,
+    "N": 191888,
+    "CI": 383044490,
+    "T": 300,
+    "TG": "",
+    "V": "Including Overtime",
+    "VE": "Including Overtime",
+    "PN": "",
+    "TN": "Quarter",
+    "SS": 2,
+    "HSRT": true,
+    "SST": 2,
+    "HSI": true,
+    "STI": "6a7b1ad97762417de82c56d9",
+    "S": 1792884600,
+    "O1": "Cleveland Cavaliers",
+    "O2": "Brooklyn Nets",
+    "O1I": 6864,
+    "O2I": 6852,
+    "O1IS": [
+     6864
+    ],
+    "O2IS": [
+     6852
+    ],
+    "O1C": 153,
+    "O1CT": "Cleveland",
+    "O2C": 153,
+    "O2CT": "New York",
+    "O1IMG": [
+     "8f2b5baf4bea09d9efe39f7e98044f3e.png"
+    ],
+    "O2IMG": [
+     "d8b1c3d1c77986fdb663bbf4a718497f.png"
+    ],
+    "O1R": "Кливленд Кавальерс",
+    "O2R": "Бруклин Нетс",
+    "O1E": "Cleveland Cavaliers",
+    "O2E": "Brooklyn Nets",
+    "MIS": [
+     {
+      "K": 2,
+      "V": "Rocket Arena (Cleveland)"
+     }
+    ],
+    "MIO": {
+     "Loc": "Rocket Arena (Cleveland)"
+    },
+    "SI": 3,
+    "SE": "Basketball",
+    "LE": "NBA",
+    "LI": 13589,
+    "COI": 153,
+    "MS": [
+     0
+    ],
+    "HLU": true,
+    "SGI": "6ad3ec417762417de88d14f2",
+    "KI": 3,
+    "IV": 12,
+    "HHTHS": true,
+    "TNS": "Quarters",
+    "GLI": 120,
+    "SUBA": true
+   },
+   {
+    "B": 69688,
+    "SG": [
+     {
+      "I": 764441889,
+      "N": 227764,
+      "CI": 383058980,
+      "T": 300,
+      "EC": 41,
+      "TG": "",
+      "P": 1,
+      "PN": "1st quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764441888
+     },
+     {
+      "I": 764441890,
+      "N": 227765,
+      "CI": 383058982,
+      "T": 300,
+      "EC": 41,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764441888
+     },
+     {
+      "I": 764441891,
+      "N": 227766,
+      "CI": 383058984,
+      "T": 300,
+      "EC": 41,
+      "TG": "",
+      "P": 3,
+      "PN": "3rd quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764441888
+     },
+     {
+      "I": 764441894,
+      "N": 227767,
+      "CI": 383058986,
+      "T": 300,
+      "EC": 41,
+      "TG": "",
+      "P": 4,
+      "PN": "4th quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764441888
+     },
+     {
+      "I": 764441892,
+      "N": 227768,
+      "CI": 383058988,
+      "T": 300,
+      "EC": 24,
+      "TG": "",
+      "P": 11,
+      "PN": "1 Half",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764441888
+     },
+     {
+      "I": 764441893,
+      "N": 227769,
+      "CI": 383058990,
+      "T": 300,
+      "EC": 6,
+      "TG": "",
+      "P": 12,
+      "PN": "2 Half",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764441888
+     },
+     {
+      "I": 764454399,
+      "N": 184241,
+      "CI": 383049146,
+      "T": 300,
+      "EC": 265,
+      "TG": "Players' stats",
+      "V": "Including Overtime",
+      "PN": "",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764441888,
+      "IV": 12,
+      "TI": 52,
+      "HBBP": true
+     },
+     {
+      "I": 764454400,
+      "N": 190009,
+      "CI": 383074984,
+      "T": 300,
+      "EC": 69,
+      "TG": "Players' stats",
+      "P": 1,
+      "PN": "1st quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764441888,
+      "TI": 52,
+      "HBBP": true
+     }
+    ],
+    "HL": true,
+    "I": 764441888,
+    "N": 227763,
+    "CI": 383048666,
+    "T": 300,
+    "TG": "",
+    "V": "Including Overtime",
+    "VE": "Including Overtime",
+    "PN": "",
+    "TN": "Quarter",
+    "SS": 2,
+    "HSRT": true,
+    "SST": 2,
+    "HSI": true,
+    "STI": "6a7b1ad97762417de82c56d9",
+    "S": 1792884600,
+    "O1": "Philadelphia 76ers",
+    "O2": "Milwaukee Bucks",
+    "O1I": 6856,
+    "O2I": 6866,
+    "O1IS": [
+     6856
+    ],
+    "O2IS": [
+     6866
+    ],
+    "O1C": 153,
+    "O1CT": "Philadelphia",
+    "O2C": 153,
+    "O2CT": "Milwaukee",
+    "O1IMG": [
+     "711e255e5c45f6b2acba0c9de1c6398a.png"
+    ],
+    "O2IMG": [
+     "6866.png"
+    ],
+    "O1R": "Филадельфия Севенти Сиксерс",
+    "O2R": "Милуоки Бакс",
+    "O1E": "Philadelphia 76ers",
+    "O2E": "Milwaukee Bucks",
+    "MIS": [
+     {
+      "K": 2,
+      "V": "Xfinity Mobile Arena (Philadelphia)"
+     }
+    ],
+    "MIO": {
+     "Loc": "Xfinity Mobile Arena (Philadelphia)"
+    },
+    "SI": 3,
+    "SE": "Basketball",
+    "LE": "NBA",
+    "LI": 13589,
+    "COI": 153,
+    "MS": [
+     0
+    ],
+    "HLU": true,
+    "SGI": "6ad3ec417762417de88d14f3",
+    "KI": 3,
+    "IV": 12,
+    "HHTHS": true,
+    "TNS": "Quarters",
+    "GLI": 120,
+    "SUBA": true
+   },
+   {
+    "B": 71488,
+    "SG": [
+     {
+      "I": 764432400,
+      "N": 197094,
+      "CI": 383046936,
+      "T": 300,
+      "EC": 36,
+      "TG": "",
+      "P": 1,
+      "PN": "1st quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764432399
+     },
+     {
+      "I": 764432401,
+      "N": 197095,
+      "CI": 383046938,
+      "T": 300,
+      "EC": 36,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764432399
+     },
+     {
+      "I": 764432402,
+      "N": 197096,
+      "CI": 383046932,
+      "T": 300,
+      "EC": 39,
+      "TG": "",
+      "P": 3,
+      "PN": "3rd quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764432399
+     },
+     {
+      "I": 764432405,
+      "N": 197097,
+      "CI": 383046930,
+      "T": 300,
+      "EC": 39,
+      "TG": "",
+      "P": 4,
+      "PN": "4th quarter",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764432399
+     },
+     {
+      "I": 764432403,
+      "N": 197098,
+      "CI": 383046934,
+      "T": 300,
+      "EC": 22,
+      "TG": "",
+      "P": 11,
+      "PN": "1 Half",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764432399
+     },
+     {
+      "I": 764432404,
+      "N": 197099,
+      "CI": 383047786,
+      "T": 300,
+      "EC": 6,
+      "TG": "",
+      "P": 12,
+      "PN": "2 Half",
+      "DI": "",
+      "SS": 2,
+      "SI": 3,
+      "MG": 764432399
+     }
+    ],
+    "HL": true,
+    "I": 764432399,
+    "N": 197093,
+    "CI": 383046558,
+    "T": 300,
+    "TG": "",
+    "V": "Including Overtime",
+    "VE": "Including Overtime",
+    "PN": "",
+    "TN": "Quarter",
+    "SS": 2,
+    "HSRT": true,
+    "SST": 2,
+    "HSI": true,
+    "STI": "6a7b1ad97762417de82c56d9",
+    "S": 1792886400,
+    "O1": "Chicago Bulls",
+    "O2": "Washington Wizards",
+    "O1I": 6868,
+    "O2I": 6872,
+    "O1IS": [
+     6868
+    ],
+    "O2IS": [
+     6872
+    ],
+    "O1C": 153,
+    "O1CT": "Chicago",
+    "O2C": 153,
+    "O2CT": "Washington",
+    "O1IMG": [
+     "ba25e50b8944dd3cf1140c9dd35f6f9b.png"
+    ],
+    "O2IMG": [
+     "6872.png"
+    ],
+    "O1R": "Чикаго Буллз",
+    "O2R": "Вашингтон Уизардс",
+    "O1E": "Chicago Bulls",
+    "O2E": "Washington Wizards",
+    "MIS": [
+     {
+      "K": 2,
+      "V": "United Center (Chicago)"
+     }
+    ],
+    "MIO": {
+     "Loc": "United Center (Chicago)"
+    },
+    "SI": 3,
+    "SE": "Basketball",
+    "LE": "NBA",
+    "LI": 13589,
+    "COI": 153,
+    "MS": [
+     0
+    ],
+    "HLU": true,
+    "SGI": "6acac9247762417de8800e8e",
+    "KI": 3,
+    "IV": 12,
+    "HHTHS": true,
+    "TNS": "Quarters",
+    "GLI": 120,
+    "SUBA": true
+   }
+  ],
+  "SI": 3,
+  "SN": "Basketball",
+  "SR": "Баскетбол",
+  "L": "NBA",
+  "LI": 13589,
+  "CI": 153,
+  "T": 300,
+  "GC": 14,
+  "COIMG": "b4666a19858078a7abf42937339c447a.png"
+ }
+}

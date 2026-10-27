@@ -1,0 +1,1323 @@
+{
+ "bizCode": 10000,
+ "message": "0#0",
+ "data": {
+  "eventId": "sr:match:74374512",
+  "gameId": "27669",
+  "productStatus": "0#0",
+  "estimateStartTime": 1793120400000,
+  "status": 0,
+  "matchStatus": "Not start",
+  "homeTeamId": "sr:competitor:2542",
+  "awayTeamId": "sr:competitor:2556",
+  "homeTeamName": "Bochum",
+  "awayTeamName": "Mainz",
+  "sport": {
+   "id": "sr:sport:1",
+   "name": "Football",
+   "category": {
+    "id": "sr:category:30",
+    "name": "Germany",
+    "tournament": {
+     "id": "sr:tournament:217",
+     "name": "DFB Pokal"
+    }
+   }
+  },
+  "markets": [
+   {
+    "id": "1",
+    "product": 3,
+    "desc": "1X2",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Which team will win the match. Overtime not included.",
+    "title": "1,X,2",
+    "name": "1X2",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "1",
+      "odds": "4.06",
+      "probability": "0.2377020000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home",
+      "factor": 1,
+      "originalOdds": "4.06",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "2",
+      "odds": "3.94",
+      "probability": "0.2449010000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Draw",
+      "factor": 1,
+      "originalOdds": "3.94",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "3",
+      "odds": "1.89",
+      "probability": "0.5173980000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Away",
+      "factor": 1,
+      "originalOdds": "1.89",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "marketExtendVOS": [
+     {
+      "name": "2UP",
+      "rootMarketId": "1",
+      "nodeMarketId": "60100",
+      "support": true
+     },
+     {
+      "name": "1x2 - DrawSave",
+      "rootMarketId": "1",
+      "nodeMarketId": "60101",
+      "support": true
+     }
+    ],
+    "marketFamily": {
+     "rootMarketId": "1",
+     "members": [
+      {
+       "marketId": "1",
+       "marketDesc": "1X2",
+       "marketGuide": "Which team will win the match. Overtime not included.",
+       "support": true,
+       "outcomeIds": [
+        "1",
+        "2",
+        "3"
+       ]
+      },
+      {
+       "marketId": "60200",
+       "marketDesc": "1X2 - 1UP",
+       "marketGuide": "1UP pays your 1X2 bets immediately if your team takes a one-goal lead. Once settled, the final result no longer matters!\n\nIf the 1UP condition is not met, your selection is treated as a normal 1X2 bet.",
+       "support": true,
+       "outcomeIds": [
+        "1",
+        "3"
+       ]
+      },
+      {
+       "marketId": "60100",
+       "marketDesc": "1X2 - 2UP",
+       "marketGuide": "2UP pays your 1X2 bets immediately if your team takes a two-goal lead. Once settled, the final result no longer matters!\n\nIf the 2UP condition is not met, your selection is treated as a normal 1X2 bet.\n",
+       "support": true,
+       "outcomeIds": [
+        "1",
+        "3"
+       ]
+      },
+      {
+       "marketId": "60101",
+       "marketDesc": "1x2 - DrawSave",
+       "marketGuide": "DrawSave pays your Single and Multiple X bets earlier if the score is level at the 90th minute.\n\nOnce settled, the final result no longer matters! If the DrawSave condition is not met, but the match ends in a Draw, you still win!",
+       "support": true,
+       "outcomeIds": [
+        "2"
+       ]
+      },
+      {
+       "marketId": "60210",
+       "marketDesc": "1X2 - Never Down",
+       "marketGuide": "Your selection wins only if your team wins the match without ever falling behind at any point. Your selection loses if your team falls behind in the score at any time during the match, if the match ends in a draw (including 0-0) or your team loses; or if the match is abandoned after your team has already fallen behind.",
+       "support": true,
+       "outcomeIds": [
+        "1",
+        "3"
+       ]
+      }
+     ]
+    },
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "2",
+    "product": 3,
+    "desc": "To Qualify",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict which team will qualify to the next round. (For Finals – Team to Win the Trophy)",
+    "title": "",
+    "name": "To Qualify",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "4",
+      "odds": "2.75",
+      "probability": "0.3404731419",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home",
+      "factor": 1,
+      "originalOdds": "2.75",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "5",
+      "odds": "1.47",
+      "probability": "0.6595268646",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Away",
+      "factor": 1,
+      "originalOdds": "1.47",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "122",
+    "product": 3,
+    "desc": "Will there be a penalty shootout",
+    "status": 0,
+    "group": "Combo",
+    "groupId": "171124164932MGI11390628",
+    "marketGuide": "Predict if there will be a penalty shootout in the match.",
+    "title": "",
+    "name": "Will There Be A P. S.",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "74",
+      "odds": "7.25",
+      "probability": "0.1105853428",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Yes",
+      "factor": 1,
+      "originalOdds": "7.25",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "76",
+      "odds": "1.10",
+      "probability": "0.8894150839",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "No",
+      "factor": 1,
+      "originalOdds": "1.10",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "18",
+    "specifier": "total=0.5",
+    "product": 3,
+    "desc": "Over/Under",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. Whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+    "title": "Goals,Over,Under",
+    "name": "Over/Under",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.03",
+      "probability": "0.9505161987",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Over 0.5",
+      "factor": 1,
+      "originalOdds": "1.03",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "13",
+      "odds": "13.50",
+      "probability": "0.0494842928",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Under 0.5",
+      "factor": 1,
+      "originalOdds": "13.50",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": -1,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "marketExtendVOS": [
+     {
+      "name": "Over/Under - EarlyGoals",
+      "support": false
+     }
+    ],
+    "marketFamily": {
+     "rootMarketId": "18",
+     "members": [
+      {
+       "marketId": "18",
+       "marketDesc": "Over/Under",
+       "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. Whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+       "specifier": "total=0.5",
+       "support": true,
+       "outcomeIds": [
+        "12",
+        "13"
+       ]
+      },
+      {
+       "marketId": "61180",
+       "marketGuide": "With GoalRush, your settlement odds depend on when your selection wins:\n- Won in the 1st half: the higher odds apply\n- Won in the 2nd half: the lower odds apply\n- Lost: no payout applies",
+       "specifier": "rangesnr=2|total=0.5",
+       "support": false,
+       "outcomeIds": [
+        "12"
+       ]
+      }
+     ]
+    },
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "18",
+    "specifier": "total=1",
+    "product": 3,
+    "desc": "Over/Under",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. Whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+    "title": "Goals,Over,Under",
+    "name": "Over/Under",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.03",
+      "probability": "0.9427950000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Over 1",
+      "factor": 1,
+      "originalOdds": "1.03",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "13",
+      "odds": "12.00",
+      "probability": "0.0572048000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Under 1",
+      "factor": 1,
+      "originalOdds": "12.00",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "marketExtendVOS": [
+     {
+      "name": "Over/Under - EarlyGoals",
+      "support": false
+     }
+    ],
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "18",
+    "specifier": "total=1.5",
+    "product": 3,
+    "desc": "Over/Under",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. Whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+    "title": "Goals,Over,Under",
+    "name": "Over/Under",
+    "favourite": 1,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.18",
+      "probability": "0.8201090564",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Over 1.5",
+      "factor": 1,
+      "originalOdds": "1.18",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "13",
+      "odds": "5.00",
+      "probability": "0.1798909437",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Under 1.5",
+      "factor": 1,
+      "originalOdds": "5.00",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "marketExtendVOS": [
+     {
+      "name": "Over/Under - EarlyGoals",
+      "rootMarketId": "18",
+      "rootSpecifier": "total=1.5",
+      "nodeMarketId": "60180",
+      "nodeSpecifier": "minsnr=10|total=1.5",
+      "support": true
+     }
+    ],
+    "marketFamily": {
+     "rootMarketId": "18",
+     "members": [
+      {
+       "marketId": "18",
+       "marketDesc": "Over/Under",
+       "marketGuide": "Predict whether the total number of goals scored in regular time is over/under a given line. Half line (0.5; 1.5; 2.5 etc.) can be settled as won or lost. Whole line (1; 2; 3 etc.) can be settled as won, lost or void. For further information please refer to the “How to Play” section.",
+       "specifier": "total=1.5",
+       "support": true,
+       "outcomeIds": [
+        "12",
+        "13"
+       ]
+      },
+      {
+       "marketId": "60180",
+       "marketDesc": "Over/Under - EarlyGoals",
+       "marketGuide": "EarlyGoals pays your Over bets immediately if a certain number of goals is scored by a certain minute:\nOver 1.5 - 1 goal by 10 min\nOver 2.5 - 2 goals by 30 min\nOver 3.5 - 3 goals by 50 min\n\nOnce settled, the final result no longer matters! If the EarlyGoals condition is not met, your selection is treated as a normal Over/Under bet.",
+       "specifier": "minsnr=10|total=1.5",
+       "support": true,
+       "outcomeIds": [
+        "12"
+       ]
+      }
+     ]
+    },
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "10",
+    "product": 3,
+    "desc": "Double Chance",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict the match result combining two of the three possible outcomes (1X, X2 or 12). Overtime not included.",
+    "title": "1X,12,X2",
+    "name": "Double Chance",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "9",
+      "odds": "1.89",
+      "probability": "0.4841846922",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home or Draw",
+      "factor": 1,
+      "originalOdds": "1.89",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "10",
+      "odds": "1.27",
+      "probability": "0.7528203211",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home or Away",
+      "factor": 1,
+      "originalOdds": "1.27",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "11",
+      "odds": "1.26",
+      "probability": "0.7629964297",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Draw or Away",
+      "factor": 1,
+      "originalOdds": "1.26",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "marketExtendVOS": [
+     {
+      "name": "DC - 1UP",
+      "rootMarketId": "10",
+      "nodeMarketId": "60110",
+      "support": true
+     }
+    ],
+    "marketFamily": {
+     "rootMarketId": "10",
+     "members": [
+      {
+       "marketId": "10",
+       "marketDesc": "Double Chance",
+       "marketGuide": "Predict the match result combining two of the three possible outcomes (1X, X2 or 12). Overtime not included.",
+       "support": true,
+       "outcomeIds": [
+        "9",
+        "10",
+        "11"
+       ]
+      },
+      {
+       "marketId": "60110",
+       "marketDesc": "DC - 1UP",
+       "marketGuide": "1UP pays your Double Chance bets immediately if your team leads in the score at any moment during the match. Valid for: \nHome or Draw - if Home team leads\nDraw or Away - if Away team lead\n\nOnce settled, the final result no longer matters! If the 1UP condition is not met, your selection is treated as a normal Double Chance bet.",
+       "support": true,
+       "outcomeIds": [
+        "9",
+        "11"
+       ]
+      }
+     ]
+    },
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "29",
+    "product": 3,
+    "desc": "GG/NG",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict whether both teams will score in the match at regular time. *Yes (GG both teams score) *No (NG any team not to score ).",
+    "title": "GG,NG",
+    "name": "GG/NG",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "74",
+      "odds": "1.58",
+      "probability": "0.6094520000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Yes",
+      "factor": 1,
+      "originalOdds": "1.58",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "76",
+      "odds": "2.40",
+      "probability": "0.3905480000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "No",
+      "factor": 1,
+      "originalOdds": "2.40",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "166",
+    "specifier": "total=9.5",
+    "product": 3,
+    "desc": "Corners - Over/Under",
+    "status": 0,
+    "group": "Corners",
+    "groupId": "171121181907MGI11283762",
+    "marketGuide": "Predict whether the total number of corners at regular time is over/under a given line.",
+    "title": ",Over,Under",
+    "name": "Corners - Over/Under",
+    "favourite": 1,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.76",
+      "probability": "0.5293470000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Over 9.5",
+      "factor": 1,
+      "originalOdds": "1.76",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "13",
+      "odds": "1.96",
+      "probability": "0.4706530000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Under 9.5",
+      "factor": 1,
+      "originalOdds": "1.96",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 1,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "60",
+    "product": 3,
+    "desc": "1st Half - 1X2",
+    "status": 0,
+    "group": "Half",
+    "groupId": "171121154448MGI11275318",
+    "marketGuide": "Which team will win the 1st Half.",
+    "title": "",
+    "name": "1st Half - 1X2",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "1",
+      "odds": "4.30",
+      "probability": "0.2169040000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home",
+      "factor": 1,
+      "originalOdds": "4.30",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "2",
+      "odds": "2.50",
+      "probability": "0.3803420000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Draw",
+      "factor": 1,
+      "originalOdds": "2.50",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "3",
+      "odds": "2.35",
+      "probability": "0.4027540000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Away",
+      "factor": 1,
+      "originalOdds": "2.35",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "16",
+    "specifier": "hcp=-0.5",
+    "product": 3,
+    "desc": "Asian Handicap -0.5",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. Quarter ball (0.25; 0.75; 1.25 etc.) advantage can be settled as won,lost or half won/half lost while the other half of the stake is returned. Half ball (0.5; 1.5; 2.5 etc.) advantage can be settled as won or lost. Whole ball (1; 2; 3 etc.) advantage can be settled as won, lost or void. For further information please refer to the How to Play\" section.\"",
+    "title": "1,2",
+    "name": "Handicap",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "1714",
+      "odds": "3.75",
+      "probability": "0.2370350000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home (-0.5)",
+      "factor": 1,
+      "originalOdds": "3.75",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "1715",
+      "odds": "1.26",
+      "probability": "0.7629650000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Away (+0.5)",
+      "factor": 1,
+      "originalOdds": "1.26",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "16",
+    "specifier": "hcp=-1",
+    "product": 3,
+    "desc": "Asian Handicap -1",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. Quarter ball (0.25; 0.75; 1.25 etc.) advantage can be settled as won,lost or half won/half lost while the other half of the stake is returned. Half ball (0.5; 1.5; 2.5 etc.) advantage can be settled as won or lost. Whole ball (1; 2; 3 etc.) advantage can be settled as won, lost or void. For further information please refer to the How to Play\" section.\"",
+    "title": "1,2",
+    "name": "Handicap",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "1714",
+      "odds": "6.90",
+      "probability": "0.1121427684",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home (-1.0)",
+      "factor": 1,
+      "originalOdds": "6.90",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "1715",
+      "odds": "1.09",
+      "probability": "0.8878575901",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Away (+1.0)",
+      "factor": 1,
+      "originalOdds": "1.09",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": -1,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "16",
+    "specifier": "hcp=0",
+    "product": 3,
+    "desc": "Asian Handicap 0",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict the winner in regular time taking in consideration the handicap in brackets. Quarter ball (0.25; 0.75; 1.25 etc.) advantage can be settled as won,lost or half won/half lost while the other half of the stake is returned. Half ball (0.5; 1.5; 2.5 etc.) advantage can be settled as won or lost. Whole ball (1; 2; 3 etc.) advantage can be settled as won, lost or void. For further information please refer to the How to Play\" section.\"",
+    "title": "1,2",
+    "name": "Handicap",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "1714",
+      "odds": "2.90",
+      "probability": "0.3149307758",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home (0)",
+      "factor": 1,
+      "originalOdds": "2.90",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "1715",
+      "odds": "1.40",
+      "probability": "0.6850692421",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Away (0)",
+      "factor": 1,
+      "originalOdds": "1.40",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "45",
+    "product": 3,
+    "desc": "Correct Score",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict the correct score at the end of regular time.",
+    "title": "",
+    "name": "Correct Score",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "274",
+      "odds": "16.00",
+      "probability": "0.0497508000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "0:0",
+      "factor": 1,
+      "originalOdds": "16.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "276",
+      "odds": "15.50",
+      "probability": "0.0510706000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "1:0",
+      "factor": 1,
+      "originalOdds": "15.50",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "278",
+      "odds": "25.00",
+      "probability": "0.0315672000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "2:0",
+      "factor": 1,
+      "originalOdds": "25.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "280",
+      "odds": "61.00",
+      "probability": "0.0130080000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "3:0",
+      "factor": 1,
+      "originalOdds": "61.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "282",
+      "odds": "195.00",
+      "probability": "0.0040201900",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "4:0",
+      "factor": 1,
+      "originalOdds": "195.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "284",
+      "odds": "10.00",
+      "probability": "0.0792330000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "0:1",
+      "factor": 1,
+      "originalOdds": "10.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "286",
+      "odds": "7.30",
+      "probability": "0.1111960000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "1:1",
+      "factor": 1,
+      "originalOdds": "7.30",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "288",
+      "odds": "13.00",
+      "probability": "0.0605434000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "2:1",
+      "factor": 1,
+      "originalOdds": "13.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "290",
+      "odds": "32.00",
+      "probability": "0.0249483000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "3:1",
+      "factor": 1,
+      "originalOdds": "32.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "292",
+      "odds": "100.00",
+      "probability": "0.0077104000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "4:1",
+      "factor": 1,
+      "originalOdds": "100.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "294",
+      "odds": "10.50",
+      "probability": "0.0759813000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "0:2",
+      "factor": 1,
+      "originalOdds": "10.50",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "296",
+      "odds": "8.60",
+      "probability": "0.0939295000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "1:2",
+      "factor": 1,
+      "originalOdds": "8.60",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "298",
+      "odds": "12.00",
+      "probability": "0.0659104000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "2:2",
+      "factor": 1,
+      "originalOdds": "12.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "300",
+      "odds": "33.00",
+      "probability": "0.0239244000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "3:2",
+      "factor": 1,
+      "originalOdds": "33.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "302",
+      "odds": "105.00",
+      "probability": "0.0073939700",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "4:2",
+      "factor": 1,
+      "originalOdds": "105.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "304",
+      "odds": "16.50",
+      "probability": "0.0485753000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "0:3",
+      "factor": 1,
+      "originalOdds": "16.50",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "306",
+      "odds": "13.50",
+      "probability": "0.0600498000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "1:3",
+      "factor": 1,
+      "originalOdds": "13.50",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "308",
+      "odds": "21.00",
+      "probability": "0.0371174000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "2:3",
+      "factor": 1,
+      "originalOdds": "21.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "310",
+      "odds": "45.00",
+      "probability": "0.0173635000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "3:3",
+      "factor": 1,
+      "originalOdds": "45.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "312",
+      "odds": "165.00",
+      "probability": "0.0047270100",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "4:3",
+      "factor": 1,
+      "originalOdds": "165.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "314",
+      "odds": "34.00",
+      "probability": "0.0232909000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "0:4",
+      "factor": 1,
+      "originalOdds": "34.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "316",
+      "odds": "28.00",
+      "probability": "0.0287927000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "1:4",
+      "factor": 1,
+      "originalOdds": "28.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "318",
+      "odds": "44.00",
+      "probability": "0.0177970000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "2:4",
+      "factor": 1,
+      "originalOdds": "44.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "320",
+      "odds": "110.00",
+      "probability": "0.0073336800",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "3:4",
+      "factor": 1,
+      "originalOdds": "110.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "322",
+      "odds": "250.00",
+      "probability": "0.0025730200",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "4:4",
+      "factor": 1,
+      "originalOdds": "250.00",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "324",
+      "odds": "15.50",
+      "probability": "0.0521923000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Other",
+      "factor": 1,
+      "originalOdds": "15.50",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "11",
+    "product": 3,
+    "desc": "Draw No Bet",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict the winner of the match. If the teams draw, the selection will be voided.",
+    "title": "1,2",
+    "name": "Draw No Bet",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "4",
+      "odds": "2.95",
+      "probability": "0.3148110000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home",
+      "factor": 1,
+      "originalOdds": "2.95",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "5",
+      "odds": "1.41",
+      "probability": "0.6851890000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Away",
+      "factor": 1,
+      "originalOdds": "1.41",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   },
+   {
+    "id": "47",
+    "product": 3,
+    "desc": "Half Time/Full Time",
+    "status": 0,
+    "group": "Main",
+    "groupId": "171121135724MGI11262166",
+    "marketGuide": "Predict the result at the end of the 1st Half and the final result at regular time.",
+    "title": "",
+    "name": "Halftime/Fulltime",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "418",
+      "odds": "6.56",
+      "probability": "0.1277060000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home/Home",
+      "factor": 1,
+      "originalOdds": "6.56",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "420",
+      "odds": "15.20",
+      "probability": "0.0542452000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home/Draw",
+      "factor": 1,
+      "originalOdds": "15.20",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "422",
+      "odds": "23.49",
+      "probability": "0.0349528000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Home/Away",
+      "factor": 1,
+      "originalOdds": "23.49",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "424",
+      "odds": "9.46",
+      "probability": "0.0878495000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Draw/Home",
+      "factor": 1,
+      "originalOdds": "9.46",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "426",
+      "odds": "6.25",
+      "probability": "0.1342410000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Draw/Draw",
+      "factor": 1,
+      "originalOdds": "6.25",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "428",
+      "odds": "5.33",
+      "probability": "0.1582510000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Draw/Away",
+      "factor": 1,
+      "originalOdds": "5.33",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "430",
+      "odds": "38.11",
+      "probability": "0.0214798000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Away/Home",
+      "factor": 1,
+      "originalOdds": "38.11",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "432",
+      "odds": "14.10",
+      "probability": "0.0585678000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Away/Draw",
+      "factor": 1,
+      "originalOdds": "14.10",
+      "outcomeBoosted": 0
+     },
+     {
+      "id": "434",
+      "odds": "2.71",
+      "probability": "0.3227060000",
+      "voidProbability": "0",
+      "isActive": 1,
+      "desc": "Away/Away",
+      "factor": 1,
+      "originalOdds": "2.71",
+      "outcomeBoosted": 0
+     }
+    ],
+    "farNearOdds": 0,
+    "sportId": "sr:sport:1",
+    "scoreFactor": 0.0,
+    "baseSimilarity": 0.0,
+    "sourceType": "BET_RADAR",
+    "cashoutStatus": 1,
+    "banned": false,
+    "featuredMatch": false,
+    "topTeam": false
+   }
+  ],
+  "bookingStatus": "Booked",
+  "topTeam": false,
+  "homeTeamIcon": "https://s.football.com/common/main/res/cd348324f27b158232070add185510ed.png",
+  "awayTeamIcon": "https://s.football.com/common/main/res/fc73c670338bedcea51a418a621d97c7.png",
+  "hasGiftGrab": false,
+  "bgEvent": false,
+  "ai": false,
+  "matchTrackerNotAllowed": false,
+  "matchIconUrl": "https://s.football.com/common/main/res/5453997ee60609c23721dcf97b7909d1.png",
+  "hasBoostOutcomes": false,
+  "hasPreCannedBB": false,
+  "hasEventBookingCodes": true,
+  "hasCompetitorLevelBookingCodes": false,
+  "hasSmartPick": false,
+  "bettingRecommendations": [],
+  "banned": false
+ }
+}

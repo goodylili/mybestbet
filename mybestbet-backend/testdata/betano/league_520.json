@@ -1,0 +1,52 @@
+{
+ "data": {
+  "blocks": [
+   {
+    "id": "league",
+    "name": "NFL",
+    "events": [
+     {
+      "id": "75200001",
+      "name": "Atlanta Falcons - San Francisco 49ers",
+      "shortName": "Atlanta Falcons - San Francisco 49ers",
+      "sportId": "AMFO",
+      "leagueId": "520",
+      "leagueName": "NFL",
+      "regionName": "USA",
+      "startTime": 1792947600000,
+      "url": "/odds/atlanta-falcons-san-francisco-49ers/75200001/",
+      "participants": [
+       {
+        "name": "Atlanta Falcons"
+       },
+       {
+        "name": "San Francisco 49ers"
+       }
+      ],
+      "markets": [
+       {
+        "id": "910000032",
+        "name": "Winner (incl. overtime)",
+        "type": "MR12",
+        "selections": [
+         {
+          "id": "910000030",
+          "name": "1",
+          "fullName": "1",
+          "price": 2.33
+         },
+         {
+          "id": "910000031",
+          "name": "2",
+          "fullName": "2",
+          "price": 1.61
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

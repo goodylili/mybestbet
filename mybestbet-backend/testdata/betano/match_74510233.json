@@ -1,0 +1,583 @@
+{
+ "data": {
+  "event": {
+   "id": "74510233",
+   "name": "Ipswich Town - Nottingham Forest",
+   "shortName": "Ipswich Town - Nottingham Forest",
+   "sportId": "FOOT",
+   "leagueId": "1",
+   "leagueName": "Premier League",
+   "regionName": "England",
+   "betRadarId": 72221344,
+   "startTime": 1792782000000,
+   "url": "/odds/ipswich-town-nottingham-forest/74510233/",
+   "totalMarketsAvailable": 412,
+   "willGoLive": true,
+   "participants": [
+    {
+     "name": "Ipswich Town"
+    },
+    {
+     "name": "Nottingham Forest"
+    }
+   ],
+   "markets": [
+    {
+     "id": "500000006",
+     "name": "Match Result",
+     "type": "MRES",
+     "selections": [
+      {
+       "id": "900000016",
+       "name": "1",
+       "fullName": "1",
+       "price": 3.05
+      },
+      {
+       "id": "900000017",
+       "name": "X",
+       "fullName": "X",
+       "price": 3.4
+      },
+      {
+       "id": "900000018",
+       "name": "2",
+       "fullName": "2",
+       "price": 2.25
+      }
+     ]
+    },
+    {
+     "id": "500000007",
+     "name": "Double Chance",
+     "type": "DBLC",
+     "selections": [
+      {
+       "id": "900000019",
+       "name": "1X",
+       "fullName": "1X",
+       "price": 1.58
+      },
+      {
+       "id": "900000020",
+       "name": "12",
+       "fullName": "12",
+       "price": 1.29
+      },
+      {
+       "id": "900000021",
+       "name": "X2",
+       "fullName": "X2",
+       "price": 1.36
+      }
+     ]
+    },
+    {
+     "id": "500000008",
+     "name": "Total Goals Over/Under",
+     "type": "HCTG",
+     "selections": [
+      {
+       "id": "900000022",
+       "name": "Over 1.5",
+       "fullName": "Over 1.5",
+       "price": 1.22,
+       "handicap": 1.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000023",
+       "name": "Under 1.5",
+       "fullName": "Under 1.5",
+       "price": 4.1,
+       "handicap": 1.5,
+       "columnIndex": 1
+      },
+      {
+       "id": "900000024",
+       "name": "Over 2.5",
+       "fullName": "Over 2.5",
+       "price": 1.75,
+       "handicap": 2.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000025",
+       "name": "Under 2.5",
+       "fullName": "Under 2.5",
+       "price": 2.05,
+       "handicap": 2.5,
+       "columnIndex": 1
+      },
+      {
+       "id": "900000026",
+       "name": "Over 3.5",
+       "fullName": "Over 3.5",
+       "price": 2.85,
+       "handicap": 3.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000027",
+       "name": "Under 3.5",
+       "fullName": "Under 3.5",
+       "price": 1.42,
+       "handicap": 3.5,
+       "columnIndex": 1
+      }
+     ],
+     "handicap": 1.5
+    },
+    {
+     "id": "500000009",
+     "name": "Both Teams To Score",
+     "type": "BTSC",
+     "selections": [
+      {
+       "id": "900000028",
+       "name": "Yes",
+       "fullName": "Yes",
+       "price": 1.57
+      },
+      {
+       "id": "900000029",
+       "name": "No",
+       "fullName": "No",
+       "price": 2.3
+      }
+     ]
+    },
+    {
+     "id": "500000010",
+     "name": "Draw No Bet",
+     "type": "DNOB",
+     "selections": [
+      {
+       "id": "900000030",
+       "name": "1",
+       "fullName": "1",
+       "price": 2.15
+      },
+      {
+       "id": "900000031",
+       "name": "2",
+       "fullName": "2",
+       "price": 1.62
+      }
+     ]
+    },
+    {
+     "id": "500000011",
+     "name": "Asian Handicap",
+     "type": "AHRF",
+     "selections": [
+      {
+       "id": "900000032",
+       "name": "Home -0.5",
+       "fullName": "Home -0.5",
+       "price": 3.05,
+       "handicap": -0.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000033",
+       "name": "Away +0.5",
+       "fullName": "Away +0.5",
+       "price": 1.38,
+       "handicap": 0.5,
+       "columnIndex": 1
+      },
+      {
+       "id": "900000034",
+       "name": "Home +0.5",
+       "fullName": "Home +0.5",
+       "price": 1.62,
+       "handicap": 0.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000035",
+       "name": "Away -0.5",
+       "fullName": "Away -0.5",
+       "price": 2.25,
+       "handicap": -0.5,
+       "columnIndex": 1
+      },
+      {
+       "id": "900000036",
+       "name": "Home -0.25",
+       "fullName": "Home -0.25",
+       "price": 2.45,
+       "handicap": -0.25,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000037",
+       "name": "Away +0.25",
+       "fullName": "Away +0.25",
+       "price": 1.55,
+       "handicap": 0.25,
+       "columnIndex": 1
+      }
+     ],
+     "handicap": -0.5
+    },
+    {
+     "id": "500000012",
+     "name": "Correct Score",
+     "type": "CSFT",
+     "selections": [
+      {
+       "id": "900000038",
+       "name": "0-0",
+       "fullName": "0-0",
+       "price": 12.0
+      },
+      {
+       "id": "900000039",
+       "name": "1-0",
+       "fullName": "1-0",
+       "price": 11.0
+      },
+      {
+       "id": "900000040",
+       "name": "0-1",
+       "fullName": "0-1",
+       "price": 9.25
+      },
+      {
+       "id": "900000041",
+       "name": "1-1",
+       "fullName": "1-1",
+       "price": 6.5
+      },
+      {
+       "id": "900000042",
+       "name": "2-1",
+       "fullName": "2-1",
+       "price": 10.5
+      },
+      {
+       "id": "900000043",
+       "name": "1-2",
+       "fullName": "1-2",
+       "price": 8.75
+      },
+      {
+       "id": "900000044",
+       "name": "Any Other Score",
+       "fullName": "Any Other Score",
+       "price": 13.0
+      }
+     ]
+    },
+    {
+     "id": "500000013",
+     "name": "Half Time/Full Time",
+     "type": "HTFT",
+     "selections": [
+      {
+       "id": "900000045",
+       "name": "1/1",
+       "fullName": "1/1",
+       "price": 5.0
+      },
+      {
+       "id": "900000046",
+       "name": "1/X",
+       "fullName": "1/X",
+       "price": 14.5
+      },
+      {
+       "id": "900000047",
+       "name": "1/2",
+       "fullName": "1/2",
+       "price": 27.0
+      },
+      {
+       "id": "900000048",
+       "name": "X/1",
+       "fullName": "X/1",
+       "price": 7.6
+      },
+      {
+       "id": "900000049",
+       "name": "X/X",
+       "fullName": "X/X",
+       "price": 5.4
+      },
+      {
+       "id": "900000050",
+       "name": "X/2",
+       "fullName": "X/2",
+       "price": 6.0
+      },
+      {
+       "id": "900000051",
+       "name": "2/1",
+       "fullName": "2/1",
+       "price": 30.0
+      },
+      {
+       "id": "900000052",
+       "name": "2/X",
+       "fullName": "2/X",
+       "price": 15.0
+      },
+      {
+       "id": "900000053",
+       "name": "2/2",
+       "fullName": "2/2",
+       "price": 3.7
+      }
+     ]
+    },
+    {
+     "id": "500000014",
+     "name": "1st Half Result",
+     "type": "H1RS",
+     "selections": [
+      {
+       "id": "900000054",
+       "name": "1",
+       "fullName": "1",
+       "price": 3.5
+      },
+      {
+       "id": "900000055",
+       "name": "X",
+       "fullName": "X",
+       "price": 2.25
+      },
+      {
+       "id": "900000056",
+       "name": "2",
+       "fullName": "2",
+       "price": 2.75
+      }
+     ]
+    },
+    {
+     "id": "500000015",
+     "name": "Total Corners Over/Under",
+     "type": "CNOU",
+     "selections": [
+      {
+       "id": "900000057",
+       "name": "Over 8.5",
+       "fullName": "Over 8.5",
+       "price": 1.45,
+       "handicap": 8.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000058",
+       "name": "Under 8.5",
+       "fullName": "Under 8.5",
+       "price": 2.4,
+       "handicap": 8.5,
+       "columnIndex": 1
+      },
+      {
+       "id": "900000059",
+       "name": "Over 9.5",
+       "fullName": "Over 9.5",
+       "price": 1.8,
+       "handicap": 9.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000060",
+       "name": "Under 9.5",
+       "fullName": "Under 9.5",
+       "price": 1.85,
+       "handicap": 9.5,
+       "columnIndex": 1
+      },
+      {
+       "id": "900000061",
+       "name": "Over 10.5",
+       "fullName": "Over 10.5",
+       "price": 2.45,
+       "handicap": 10.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000062",
+       "name": "Under 10.5",
+       "fullName": "Under 10.5",
+       "price": 1.45,
+       "handicap": 10.5,
+       "columnIndex": 1
+      }
+     ],
+     "handicap": 8.5
+    },
+    {
+     "id": "500000016",
+     "name": "Goalscorer",
+     "type": "PSCR",
+     "selections": [],
+     "tableLayout": {
+      "columns": [
+       {
+        "name": "First"
+       },
+       {
+        "name": "Anytime"
+       },
+       {
+        "name": "Last"
+       }
+      ],
+      "rows": [
+       {
+        "title": "Liam Delap",
+        "groupSelections": [
+         {
+          "selections": [
+           {
+            "id": "900000063",
+            "name": "First",
+            "fullName": "First",
+            "price": 6.8
+           }
+          ]
+         },
+         {
+          "selections": [
+           {
+            "id": "900000064",
+            "name": "Anytime",
+            "fullName": "Anytime",
+            "price": 2.95
+           }
+          ]
+         },
+         {
+          "selections": [
+           {
+            "id": "900000065",
+            "name": "Last",
+            "fullName": "Last",
+            "price": 6.8
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "title": "Morgan Gibbs-White",
+        "groupSelections": [
+         {
+          "selections": [
+           {
+            "id": "900000066",
+            "name": "First",
+            "fullName": "First",
+            "price": 6.7
+           }
+          ]
+         },
+         {
+          "selections": [
+           {
+            "id": "900000067",
+            "name": "Anytime",
+            "fullName": "Anytime",
+            "price": 2.9
+           }
+          ]
+         },
+         {
+          "selections": [
+           {
+            "id": "900000068",
+            "name": "Last",
+            "fullName": "Last",
+            "price": 6.7
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "title": "Zian Flemming",
+        "groupSelections": [
+         {
+          "selections": [
+           {
+            "id": "900000069",
+            "name": "First",
+            "fullName": "First",
+            "price": 7.1
+           }
+          ]
+         },
+         {
+          "selections": [
+           {
+            "id": "900000070",
+            "name": "Anytime",
+            "fullName": "Anytime",
+            "price": 3.05
+           }
+          ]
+         },
+         {
+          "selections": [
+           {
+            "id": "900000071",
+            "name": "Last",
+            "fullName": "Last",
+            "price": 7.1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "500000017",
+     "name": "Player To Be Booked",
+     "type": "PTRC",
+     "selections": [
+      {
+       "id": "900000072",
+       "name": "Sasa Lukic",
+       "fullName": "Sasa Lukic",
+       "price": 3.1
+      },
+      {
+       "id": "900000073",
+       "name": "Anis Mehmeti",
+       "fullName": "Anis Mehmeti",
+       "price": 4.2
+      }
+     ]
+    },
+    {
+     "id": "500000018",
+     "name": "Odd/Even Goals",
+     "type": "OEGL",
+     "selections": [
+      {
+       "id": "900000074",
+       "name": "Odd",
+       "fullName": "Odd",
+       "price": 1.95
+      },
+      {
+       "id": "900000075",
+       "name": "Even",
+       "fullName": "Even",
+       "price": 1.85
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

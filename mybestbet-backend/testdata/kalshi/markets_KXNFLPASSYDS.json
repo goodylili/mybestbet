@@ -1,0 +1,139 @@
+{
+ "cursor": "",
+ "events": [
+  {
+   "category": "Sports",
+   "collateral_return_type": "",
+   "event_ticker": "KXNFLPASSYDS-26OCT25PITNO",
+   "exchange_index": 0,
+   "last_updated_ts": "2026-10-20T14:11:10.123718Z",
+   "markets": [
+    {
+     "close_time": "2026-10-27T13:30:00Z",
+     "custom_strike": {
+      "football_player": "2699489c-13e2-4b99-a7e4-f4c7c22cc647",
+      "football_team": "f7c2cd06-61bf-469e-984f-3ef56cb8f3d7"
+     },
+     "event_ticker": "KXNFLPASSYDS-26OCT25PITNO",
+     "expected_expiration_time": "2026-10-25T16:30:00Z",
+     "floor_strike": 149.5,
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.1300",
+     "no_bid_dollars": "0.1100",
+     "no_sub_title": "Tyler Shough: 150+",
+     "occurrence_datetime": "2026-10-25T16:30:00Z",
+     "open_interest_fp": "0.00",
+     "primary_participant_key": "football_player",
+     "rules_primary": "If Tyler Shough records 150+ passing yards in the Pittsburgh vs New Orleans Pro Football game originally scheduled for Oct 25, 2026, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "greater",
+     "ticker": "KXNFLPASSYDS-26OCT25PITNO-NOTSHOUGH6-150",
+     "title": "Tyler Shough: 150+ passing yards",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.8900",
+     "yes_ask_size_fp": "427.00",
+     "yes_bid_dollars": "0.8700",
+     "yes_bid_size_fp": "50.00",
+     "yes_sub_title": "Tyler Shough: 150+"
+    },
+    {
+     "close_time": "2026-10-27T13:30:00Z",
+     "custom_strike": {
+      "football_player": "2699489c-13e2-4b99-a7e4-f4c7c22cc647",
+      "football_team": "f7c2cd06-61bf-469e-984f-3ef56cb8f3d7"
+     },
+     "event_ticker": "KXNFLPASSYDS-26OCT25PITNO",
+     "expected_expiration_time": "2026-10-25T16:30:00Z",
+     "floor_strike": 174.5,
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.2100",
+     "no_bid_dollars": "0.1900",
+     "no_sub_title": "Tyler Shough: 175+",
+     "occurrence_datetime": "2026-10-25T16:30:00Z",
+     "open_interest_fp": "0.00",
+     "primary_participant_key": "football_player",
+     "rules_primary": "If Tyler Shough records 175+ passing yards in the Pittsburgh vs New Orleans Pro Football game originally scheduled for Oct 25, 2026, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "greater",
+     "ticker": "KXNFLPASSYDS-26OCT25PITNO-NOTSHOUGH6-175",
+     "title": "Tyler Shough: 175+ passing yards",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.8100",
+     "yes_ask_size_fp": "627.00",
+     "yes_bid_dollars": "0.7900",
+     "yes_bid_size_fp": "100.00",
+     "yes_sub_title": "Tyler Shough: 175+"
+    },
+    {
+     "close_time": "2026-10-27T13:30:00Z",
+     "custom_strike": {
+      "football_player": "2699489c-13e2-4b99-a7e4-f4c7c22cc647",
+      "football_team": "f7c2cd06-61bf-469e-984f-3ef56cb8f3d7"
+     },
+     "event_ticker": "KXNFLPASSYDS-26OCT25PITNO",
+     "expected_expiration_time": "2026-10-25T16:30:00Z",
+     "floor_strike": 199.5,
+     "last_price_dollars": "0.7000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.3300",
+     "no_bid_dollars": "0.3200",
+     "no_sub_title": "Tyler Shough: 200+",
+     "occurrence_datetime": "2026-10-25T16:30:00Z",
+     "open_interest_fp": "15.08",
+     "primary_participant_key": "football_player",
+     "rules_primary": "If Tyler Shough records 200+ passing yards in the Pittsburgh vs New Orleans Pro Football game originally scheduled for Oct 25, 2026, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "greater",
+     "ticker": "KXNFLPASSYDS-26OCT25PITNO-NOTSHOUGH6-200",
+     "title": "Tyler Shough: 200+ passing yards",
+     "volume_fp": "15.08",
+     "yes_ask_dollars": "0.6800",
+     "yes_ask_size_fp": "50.00",
+     "yes_bid_dollars": "0.6700",
+     "yes_bid_size_fp": "75.00",
+     "yes_sub_title": "Tyler Shough: 200+"
+    },
+    {
+     "close_time": "2026-10-27T13:30:00Z",
+     "custom_strike": {
+      "football_player": "2699489c-13e2-4b99-a7e4-f4c7c22cc647",
+      "football_team": "f7c2cd06-61bf-469e-984f-3ef56cb8f3d7"
+     },
+     "event_ticker": "KXNFLPASSYDS-26OCT25PITNO",
+     "expected_expiration_time": "2026-10-25T16:30:00Z",
+     "floor_strike": 224.5,
+     "last_price_dollars": "0.5400",
+     "market_type": "binary",
+     "no_ask_dollars": "0.4600",
+     "no_bid_dollars": "0.4500",
+     "no_sub_title": "Tyler Shough: 225+",
+     "occurrence_datetime": "2026-10-25T16:30:00Z",
+     "open_interest_fp": "1303.63",
+     "primary_participant_key": "football_player",
+     "rules_primary": "If Tyler Shough records 225+ passing yards in the Pittsburgh vs New Orleans Pro Football game originally scheduled for Oct 25, 2026, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "greater",
+     "ticker": "KXNFLPASSYDS-26OCT25PITNO-NOTSHOUGH6-225",
+     "title": "Tyler Shough: 225+ passing yards",
+     "volume_fp": "1365.69",
+     "yes_ask_dollars": "0.5500",
+     "yes_ask_size_fp": "4929.77",
+     "yes_bid_dollars": "0.5400",
+     "yes_bid_size_fp": "211.00",
+     "yes_sub_title": "Tyler Shough: 225+"
+    }
+   ],
+   "mutually_exclusive": false,
+   "product_metadata": {
+    "competition": "Pro Football",
+    "competition_scope": "Passing Yards"
+   },
+   "series_ticker": "KXNFLPASSYDS",
+   "strike_period": "",
+   "sub_title": "PIT vs NO (Oct 25)",
+   "title": "Pittsburgh vs New Orleans: Passing Yards"
+  }
+ ]
+}

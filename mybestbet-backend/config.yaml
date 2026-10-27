@@ -1,0 +1,163 @@
+env: ${APP_ENV}
+browserdUrl: http://localhost:9222
+discovery: 10m
+engineShards: 16
+flushEvery: 500ms
+flushRows: 5000
+
+auth:
+  accessTtl: 15m
+  refreshTtl: 720h
+  otpTtl: 10m
+  otpCooldown: 60s
+  otpMaxAttempts: 5
+  secureCookies: ${AUTH_SECURE_COOKIES}
+  trustProxy: true
+  webOrigin: "${WEB_ORIGIN}"
+  allowedOrigins: ["${WEB_ORIGIN}"]
+  emailFrom: "${AUTH_EMAIL_FROM}"
+  googleRedirectUrl: "${AUTH_GOOGLE_REDIRECT_URL}"
+
+resolve:
+  kickoffTolerance: 15m
+  sportKickoffTolerance: {tennis: 12h}
+  collegeLeagues: [NCAAF, NCAAB]
+  dedup: {every: 5m, purgeGrace: 10m, purgeBatch: 50}
+
+leagues:
+  - {code: WC, name: "FIFA World Cup", country: "International", sport: football, group: international, order: 9}
+  - {code: FRIENDLY, name: "International Friendlies", country: "International", sport: football, group: international, order: 14}
+  - {code: UCL, name: "UEFA Champions League", country: "Europe", sport: football, group: international, order: 6}
+  - {code: UEL, name: "UEFA Europa League", country: "Europe", sport: football, group: international, order: 7}
+  - {code: UECL, name: "UEFA Europa Conference League", country: "Europe", sport: football, group: international, order: 8}
+  - {code: UWCL, name: "UEFA Champions League Women", country: "Europe", sport: football, group: international, order: 13}
+  - {code: EPL, name: "Premier League", country: "England", sport: football, group: domestic, order: 1}
+  - {code: CHAMP, name: "Championship", country: "England", sport: football, group: more, order: 28}
+  - {code: FACUP, name: "FA Cup", country: "England", sport: football, group: domestic, order: 17}
+  - {code: EFLCUP, name: "EFL Cup", country: "England", sport: football, group: domestic, order: 22}
+  - {code: LALIGA, name: "La Liga", country: "Spain", sport: football, group: domestic, order: 2}
+  - {code: COPADELREY, name: "Copa del Rey", country: "Spain", sport: football, group: domestic, order: 18}
+  - {code: SERIEA, name: "Serie A", country: "Italy", sport: football, group: domestic, order: 3}
+  - {code: COPPAITALIA, name: "Coppa Italia", country: "Italy", sport: football, group: domestic, order: 19}
+  - {code: BUNDES, name: "Bundesliga", country: "Germany", sport: football, group: domestic, order: 4}
+  - {code: DFBPOKAL, name: "DFB Pokal", country: "Germany", sport: football, group: domestic, order: 20}
+  - {code: LIGUE1, name: "Ligue 1", country: "France", sport: football, group: domestic, order: 5}
+  - {code: CDF, name: "Coupe de France", country: "France", sport: football, group: domestic, order: 21}
+  - {code: ERED, name: "Eredivisie", country: "Netherlands", sport: football, group: domestic, order: 15}
+  - {code: PRIMEIRA, name: "Liga Portugal", country: "Portugal", sport: football, group: domestic, order: 16}
+  - {code: SUPERLIG, name: "Super Lig", country: "Turkiye", sport: football, group: more, order: 29}
+  - {code: SPFL, name: "Premiership", country: "Scotland", sport: football, group: more, order: 31}
+  - {code: JPL, name: "Pro League", country: "Belgium", sport: football, group: more, order: 32}
+  - {code: MLS, name: "Major League Soccer", country: "USA", sport: football, group: domestic, order: 24}
+  - {code: LIGAMX, name: "Liga MX", country: "Mexico", sport: football, group: domestic, order: 27}
+  - {code: BRA1, name: "Serie A", country: "Brazil", sport: football, group: domestic, order: 25}
+  - {code: BRA2, name: "Serie B", country: "Brazil", sport: football, group: more, order: 39}
+  - {code: ARG1, name: "Liga Profesional", country: "Argentina", sport: football, group: domestic, order: 26}
+  - {code: SPL, name: "Saudi Pro League", country: "Saudi Arabia", sport: football, group: more, order: 30}
+  - {code: SSL, name: "Super League", country: "Switzerland", sport: football, group: more, order: 33}
+  - {code: GSL, name: "Super League", country: "Greece", sport: football, group: more, order: 34}
+  - {code: UPL, name: "Premier League", country: "Ukraine", sport: football, group: more, order: 37}
+  - {code: RPL, name: "Premier League", country: "Russia", sport: football, group: more, order: 38}
+  - {code: ELITESERIEN, name: "Eliteserien", country: "Norway", sport: football, group: more, order: 36}
+  - {code: DSL, name: "Superliga", country: "Denmark", sport: football, group: more, order: 35}
+  - {code: J1, name: "J1 League", country: "Japan", sport: football, group: more, order: 40}
+  - {code: J2, name: "J2 League", country: "Japan", sport: football, group: more, order: 41}
+  - {code: KLEAGUE, name: "K League 1", country: "South Korea", sport: football, group: more, order: 42}
+  - {code: CSL, name: "Super League", country: "China", sport: football, group: more, order: 43}
+  - {code: ISL, name: "Indian Super League", country: "India", sport: football, group: more, order: 44}
+  - {code: ALEAGUE, name: "A-League", country: "Australia", sport: football, group: more, order: 45}
+  - {code: LEAGUESCUP, name: "Leagues Cup", country: "North America", sport: football, group: international, order: 12}
+  - {code: LIBERTADORES, name: "Copa Libertadores", country: "South America", sport: football, group: international, order: 10}
+  - {code: SUDAMERICANA, name: "Copa Sudamericana", country: "South America", sport: football, group: international, order: 11}
+  - {code: SUPERCOPA, name: "Supercopa de Espana", country: "Spain", sport: football, group: domestic, order: 23}
+  - {code: NBA, name: "NBA", country: "USA", sport: basketball, group: domestic, order: 1}
+  - {code: NCAAB, name: "NCAA Men", country: "USA", sport: basketball, group: domestic, order: 4}
+  - {code: WNBA, name: "WNBA", country: "USA", sport: basketball, group: domestic, order: 5}
+  - {code: EUROLEAGUE, name: "EuroLeague", country: "Europe", sport: basketball, group: international, order: 2}
+  - {code: EUROCUP, name: "EuroCup", country: "Europe", sport: basketball, group: international, order: 6}
+  - {code: ACB, name: "Liga ACB", country: "Spain", sport: basketball, group: domestic, order: 3}
+  - {code: NBL, name: "NBL", country: "Australia", sport: basketball, group: more, order: 7}
+  - {code: ATP_MIAMI, name: "ATP Miami", country: "USA", sport: tennis, group: international, order: 9}
+  - {code: ATP_RG, name: "ATP French Open", country: "France", sport: tennis, group: international, order: 2}
+  - {code: ATP_WIM, name: "ATP Wimbledon", country: "England", sport: tennis, group: international, order: 3}
+  - {code: ATP_AO, name: "ATP Australian Open", country: "Australia", sport: tennis, group: international, order: 1}
+  - {code: ATP_USO, name: "ATP US Open", country: "USA", sport: tennis, group: international, order: 4}
+  - {code: ATP_CH_ZADAR, name: "ATP Challenger Zadar", country: "Croatia", sport: tennis, group: more, order: 11}
+  - {code: ATP_CH_MURCIA, name: "ATP Challenger Murcia", country: "Spain", sport: tennis, group: more, order: 12}
+  - {code: ATP_CH_MORELOS, name: "ATP Challenger Morelos", country: "Mexico", sport: tennis, group: more, order: 13}
+  - {code: ATP_CH_ASUNCION, name: "ATP Challenger Asuncion", country: "Paraguay", sport: tennis, group: more, order: 14}
+  - {code: WTA_MIAMI, name: "WTA Miami", country: "USA", sport: tennis, group: international, order: 10}
+  - {code: WTA_RG, name: "WTA French Open", country: "France", sport: tennis, group: international, order: 6}
+  - {code: WTA_WIM, name: "WTA Wimbledon", country: "England", sport: tennis, group: international, order: 7}
+  - {code: WTA_AO, name: "WTA Australian Open", country: "Australia", sport: tennis, group: international, order: 5}
+  - {code: WTA_USO, name: "WTA US Open", country: "USA", sport: tennis, group: international, order: 8}
+  - {code: NFL, name: "NFL", country: "USA", sport: american-football, group: domestic, order: 1}
+  - {code: NCAAF, name: "NCAA Football", country: "USA", sport: american-football, group: domestic, order: 2}
+  - {code: CS2, name: "CS2", country: "International", sport: esports, group: international, order: 1}
+  - {code: DOTA2, name: "Dota 2", country: "International", sport: esports, group: international, order: 3}
+  - {code: VALORANT, name: "Valorant", country: "International", sport: esports, group: international, order: 4}
+  - {code: LOL, name: "League of Legends", country: "International", sport: esports, group: international, order: 2}
+
+tiers:
+  - {name: hot, within: 2h, interval: 5s, jitter: 0.2}
+  - {name: near, within: 6h, interval: 10s, jitter: 0.1}
+  - {name: warm, within: 24h, interval: 30s, jitter: 0.1}
+  - {name: cold, within: 168h, interval: 3m, jitter: 0.1}
+  - {name: far, within: 2160h, interval: 15m, jitter: 0.1}
+
+pricing:
+  defaultDevig: power
+  devigMethod: {BTTS: multiplicative, DNB: multiplicative}
+  minFairSources: 3
+  arbMinMargin: 0.005
+  evMin: 0.03
+  maxLegSkew: 15s
+  minTouchLiquidity: 50
+  deepBookLiquidity: 1000
+  deepBookWeight: 3
+  maxOverround: 0.15
+  evProbRange: {min: 0.10, max: 0.90}
+  minMoveHold: 10s
+  quoteMaxAge:
+    live: 90s
+    preMatch: [{within: 2h, maxAge: 3m}, {within: 24h, maxAge: 20m}, {within: 2160h, maxAge: 1h}]
+    minByType: {prediction: 6m}
+
+telegram:
+  maxAlertsPerHour: 30
+  realertGrowth: 0.5
+  moveWindow: 15m
+  botUsername: ""
+
+playerMerge:
+  interval: 6h
+
+sources:
+  fake: {enabled: false, maxRps: 10}
+  polymarket: {enabled: true, type: prediction, blockedCountries: [US, UM, GB, FR, DE, IT, BE, PL, SK, AU, NZ, SG, TW, TH, BR, BY, RU, VE, NI, IR, SY, CU, KP, IQ, LB, LY, YE, MM, BI, CF, CD, ET, SO, SS, SD, ZW, IE, JP, NL, KR, MT], note: "Order book; the price shown is the ask probability", logoUrl: "https://polymarket.com/icons/apple-touch-icon.png", baseUrl: https://gamma-api.polymarket.com, maxRps: 10, weight: 1, feePerShare: 0, extra: {clobUrl: "https://clob.polymarket.com", wsUrl: "wss://ws-subscriptions-clob.polymarket.com/ws/market"}}
+  kalshi: {enabled: true, type: prediction, countries: [US], note: "US order book; the venue fee per share is included in arb math", logoUrl: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/14/a9/0214a93a-da9c-5f66-7a8e-ea9466ad5836/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/256x256bb.png", baseUrl: https://api.elections.kalshi.com/trade-api/v2, maxRps: 8, geo: US, weight: 1, feePerShare: 0.0175, extra: {wsUrl: "wss://api.elections.kalshi.com/trade-api/ws/v2"}}
+  predictfun: {enabled: true, type: prediction, blockedCountries: [US, GB, FR, SG, PL, TH, TW, AU, BE, IR, SY, CU, KP], note: "Order book; the price shown is the ask probability", logoUrl: "https://predict.fun/images/app-icons/apple-touch-icon-152.png", baseUrl: https://api.predict.fun, maxRps: 4, weight: 1, extra: {wsUrl: "wss://ws.predict.fun/ws"}}
+  bayse: {enabled: true, type: prediction, countries: [NG], note: "Naira order book; the price shown is the ask probability", logoUrl: "https://bayse.markets/images/icons/icon-180x180.png", baseUrl: https://relay.bayse.markets, maxRps: 8, weight: 1, extra: {wsUrl: "wss://socket.bayse.markets/ws/v1/markets"}}
+  sportybet: {enabled: true, type: sportsbook, countries: [NG, GH, KE, TZ, UG, ZM], logoUrl: "https://s.sporty.net/global/main/logo/144x144.png", feed: sporty, baseUrl: https://www.sportybet.com/api/ng, maxRps: 8, geo: NG, headers: {User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", Accept: "application/json, text/plain, */*", Accept-Language: "en-NG,en;q=0.9", Referer: "https://www.sportybet.com/ng/sport/football", clientid: web, platform: web, operid: "2"}}
+  footballcom: {enabled: true, type: sportsbook, countries: [NG, GH], logoUrl: "https://s.football.com/global/main/logo/144x144.png", feed: sporty, baseUrl: https://www.football.com/api/ng, maxRps: 8, geo: NG, headers: {User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", Accept: "application/json, text/plain, */*", Accept-Language: "en-NG,en;q=0.9", Referer: "https://www.football.com/ng/", clientid: web, platform: web}}
+  onexbet: {enabled: true, type: sportsbook, blockedCountries: [US, GB, FR, ES, IT, NL, AU, CW, AW, SK, SI, UA, RU, IR, KP, SY, CU], note: "Often geo-blocked outside Nigeria", logoUrl: "https://v3.traincdn.com/genfiles/event-logos/favicon/c3c711e38b5cfb7088f8c71c8f29411e_100.png", feed: onexbet, baseUrl: https://1xbet.ng, maxRps: 8, geo: NG, headers: {User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", Accept: "application/json, text/plain, */*", Accept-Language: "en-NG,en;q=0.9", Referer: "https://1xbet.ng/en/line/football"}, extra: {partner: "159", country: "132", bookingBaseUrl: "https://1xlite-12822.pro"}}
+  22bet: {enabled: true, type: sportsbook, blockedCountries: [GB, US, FR, NL, ES, DE, AU, IL, LV, LT, EE, CY, MT, BE, BY, RU, UA, AE, IR, KP, SY, CU], logoUrl: "https://22bet.ng/genfiles/cms/pg/151/images/69c5fba8763e25104c4b57be540b9ec9.png", feed: onexbet, baseUrl: https://22bet.ng, maxRps: 8, geo: NG, headers: {User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", Accept: "application/json, text/plain, */*", Accept-Language: "en-NG,en;q=0.9", Referer: "https://22bet.ng/en/line/football"}, extra: {partner: "151", country: "132"}}
+  paripesa: {enabled: true, type: sportsbook, blockedCountries: [US, GB, FR, ES, IT, NL, AU, IR, KP, SY, CU], logoUrl: "https://paripesa.ng/genfiles/event-logos/favicon/e81ec343b4404778105df58f2b51b762_100.png", feed: onexbet, baseUrl: https://paripesa.ng, maxRps: 8, geo: NG, headers: {User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", Accept: "application/json, text/plain, */*", Accept-Language: "en-NG,en;q=0.9", Referer: "https://paripesa.ng/en/line/football"}, extra: {partner: "188", country: "132"}}
+  betwinner: {enabled: true, type: sportsbook, blockedCountries: [US, CA, AU, GB, FR, ES, IT, NL, DE, KR, IR, KP, SY, CU], logoUrl: "https://betwinner.ng/genfiles/event-logos/favicon/83adb09e69326b5792f788ce1c14d8d0_100.png", feed: onexbet, baseUrl: https://betwinner.ng, maxRps: 8, geo: NG, headers: {User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", Accept: "application/json, text/plain, */*", Accept-Language: "en-NG,en;q=0.9", Referer: "https://betwinner.ng/en/line/football"}, extra: {partner: "152", country: "132"}}
+  bet9ja: {enabled: true, type: sportsbook, countries: [NG], note: "Often geo-blocked outside Nigeria", logoUrl: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/58/80/3158802b-7f56-32c9-35e2-4e6bc6c2d893/AppIcon-bet9ja-0-0-1x_U007emarketing-0-8-0-85-220.png/256x256bb.png", baseUrl: https://sports.bet9ja.com/desktop/feapi, maxRps: 8, geo: NG, headers: {User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", Accept: "application/json, text/plain, */*", Accept-Language: "en-NG,en;q=0.9", Referer: "https://sports.bet9ja.com/"}}
+  betking: {enabled: true, type: sportsbook, countries: [NG, KE, GH, ET], logoUrl: "https://www.betking.com/images/favicons/apple-touch-icon-180x180.png", baseUrl: https://sportsapicdn-desktop.betking.com, maxRps: 8, geo: NG, headers: {User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", Accept: application/json, Origin: "https://www.betking.com", Referer: "https://www.betking.com/"}}
+  betpawa: {enabled: true, type: sportsbook, countries: [BJ, CM, CG, CD, GH, KE, LS, LR, MW, ML, MZ, NG, RW, SL, SS, TZ, UG, ZM], logoUrl: "https://www.betpawa.ng/icon-512x512.png", baseUrl: https://www.betpawa.ng/api/sportsbook/v4, maxRps: 8, geo: NG, headers: {x-pawa-brand: betpawa-nigeria, x-pawa-language: en, Accept: application/json, User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", Referer: "https://www.betpawa.ng/"}}
+  betano: {enabled: true, type: sportsbook, countries: [GR, CY, PT, RO, BG, CZ, DE, GB, DK, BE, CA, NG, AR, PE, CO, BR, CL, EC, MX], note: "Often geo-blocked outside Nigeria", logoUrl: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/a9/6d/0aa96d09-d873-bb54-a577-f5ee7e04e550/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/256x256bb.png", baseUrl: https://www.betano.ng, maxRps: 8, geo: NG, weight: 2, headers: {User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", Accept: "application/json, text/plain, */*", X-Requested-With: XMLHttpRequest, Referer: "https://www.betano.ng/sport/football/"}}
+  betway: {enabled: true, type: sportsbook, noBooking: true, countries: [ZA, NG, GH, ZM, TZ, MW, MZ, BW, KE, UG, GB, ES, IT, DE, BE, CA], logoUrl: "https://cms1.betwayafrica.com/medialibraries/content.gmgamingsystems.com/Synapse/v2/apple-touch-icon.png", baseUrl: https://feeds-roa2.betwayafrica.com/br/_apis/sport/v1, maxRps: 8, geo: NG, weight: 2, headers: {User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", Accept: application/json, Origin: "https://www.betway.com.ng", Referer: "https://www.betway.com.ng/"}}
+  bet365: {enabled: true, type: sportsbook, blockedCountries: [US, FR, BE, NL, PT, PL, RO, TR, HU, CH, CZ, RU, CN, HK, MO, TW, SG, MY, KH, LA, MM, KP, IR, IQ, SY, YE, IL, AE, SA, QA, KW, IN, ZA, VE, GF], note: "Read through a browser session from a GB IP; often unavailable", logoUrl: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/e8/eb/62e8ebf3-68ba-d285-7ad3-54ed03e05b76/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/256x256bb.png", baseUrl: https://www.bet365.com, maxRps: 1, geo: GB, weight: 3}
+  prizepicks: {enabled: true, type: pickem, countries: [US], note: "Lines only, no prices; used for line-gap signals", logoUrl: "https://cdn.prod.website-files.com/69711cf3574fa0d11b9f6317/69a5e2c37ed1f2c905361fb8_68c3063d663c635f8f605d89_webclip.png", baseUrl: https://partner-api.prizepicks.com, maxRps: 1, geo: US, extra: {soccerLeagueId: "82", tennisLeagueId: "5", nbaLeagueId: "7", wnbaLeagueId: "3", cbbLeagueId: "20", nflLeagueId: "9", cfbLeagueId: "15", cs2LeagueId: "265", dota2LeagueId: "174", valLeagueId: "159", lolLeagueId: "121", sessionUrl: "https://app.prizepicks.com/", sessionTtl: 20m}}
+  sofascore: {enabled: false, baseUrl: https://www.sofascore.com/api/v1, maxRps: 2, headers: {Accept: application/json, Referer: "https://www.sofascore.com/", User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"}}
+  fotmob: {enabled: true, baseUrl: https://www.fotmob.com/api/data, maxRps: 2, headers: {Accept: application/json, Referer: "https://www.fotmob.com/", User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"}}
+  fbref: {enabled: false, baseUrl: https://fbref.com/en, maxRps: 0.15, headers: {Accept: text/html, User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"}}
+  espn: {enabled: true, baseUrl: https://site.api.espn.com/apis/site/v2/sports, maxRps: 5, headers: {Accept: application/json, User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"}}
+  euroleague: {enabled: true, baseUrl: https://api-live.euroleague.net, maxRps: 2, headers: {Accept: application/json, User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"}, extra: {liveBaseUrl: "https://live.euroleague.net"}}
+  liquipedia: {enabled: true, baseUrl: https://liquipedia.net, maxRps: 0.033, headers: {Accept: application/json, User-Agent: "mybestbet-stats/1.0 (odds research tool)"}}
+  opendota: {enabled: true, baseUrl: https://api.opendota.com/api, maxRps: 1, headers: {Accept: application/json}}
+  bo3: {enabled: true, baseUrl: https://api.bo3.gg/api/v1, maxRps: 2, headers: {Accept: application/json, User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"}, extra: {tiers: "s,a"}}
+  acb: {enabled: true, baseUrl: https://api2.acb.com, maxRps: 2, headers: {Accept: application/json, User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"}, extra: {keyPageUrl: "https://acb.com/es/liga"}}
+  flashscore: {enabled: true, baseUrl: https://www.flashscore.com, maxRps: 2, headers: {x-fsign: SW9D1eZo, Referer: "https://www.flashscore.com/", User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"}}

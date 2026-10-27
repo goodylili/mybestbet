@@ -1,0 +1,314 @@
+{
+ "events": [
+  {
+   "id": "6b460491-b93b-4c92-8e3b-d7e4f705fe92",
+   "slug": "epl-cov-new-2026-10-12-player-props-b843c2a6",
+   "title": "Coventry City FC vs. Newcastle United FC: Yoane Wissa: 1+ assists",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-12T18:59:59.999Z",
+   "resolutionDate": "2026-10-12T19:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "ee21feb4-1a01-429b-bfc3-aa5a3f26547e",
+   "sportGameSlug": "bm-game-20261012-cov-new",
+   "sportMarketType": "PLAYER_ASSISTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "ab517e46-f58d-4488-acf7-24186adb11c2",
+     "title": "Yoane Wissa: 1+ assists",
+     "status": "open",
+     "outcome1Id": "603934ef-41ab-44ab-82f0-4aa58bf39826",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.31,
+     "outcome2Id": "6b66a665-25cf-4b4f-80c5-f4eeef4df3d0",
+     "outcome2Label": "No",
+     "outcome2Price": 0.74,
+     "feePercentage": 4,
+     "minimumOrderAmount": 500,
+     "rules": "In the upcoming Premier League game between Coventry City FC and Newcastle United FC, scheduled for October 12, 2026 at 7:00 PM UTC: This market will resolve to **Yes** if Yoane Wissa records more than 0.5 assists within the first 90 minute"
+    }
+   ]
+  },
+  {
+   "id": "2958425b-4fbe-4c50-8b66-dc4ba3f31fd6",
+   "slug": "epl-cov-new-2026-10-12-player-props-d671aaaf",
+   "title": "Coventry City FC vs. Newcastle United FC: Yoane Wissa: 2+ goals",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-12T18:59:59.999Z",
+   "resolutionDate": "2026-10-12T19:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "ee21feb4-1a01-429b-bfc3-aa5a3f26547e",
+   "sportGameSlug": "bm-game-20261012-cov-new",
+   "sportMarketType": "PLAYER_GOALS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "86cb37e7-f537-47e5-8a7d-3d9608911a2f",
+     "title": "Yoane Wissa: 2+ goals",
+     "status": "open",
+     "outcome1Id": "811baf4f-70be-47f2-af82-8bc16e5884a8",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.12,
+     "outcome2Id": "3414c0ef-da75-4a3b-b6c3-18dae025b096",
+     "outcome2Label": "No",
+     "outcome2Price": 0.92,
+     "feePercentage": 4,
+     "minimumOrderAmount": 500,
+     "rules": "In the upcoming Premier League game between Coventry City FC and Newcastle United FC, scheduled for October 12, 2026 at 7:00 PM UTC: This market will resolve to **Yes** if Yoane Wissa records more than 1.5 goals within the first 90 minutes "
+    }
+   ]
+  },
+  {
+   "id": "f43e0b86-e4b9-4bee-a29d-177e29674073",
+   "slug": "epl-cov-new-2026-10-12-player-props-06533ef4",
+   "title": "Coventry City FC vs. Newcastle United FC: Joe Willock: 1+ assists",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-12T18:59:59.999Z",
+   "resolutionDate": "2026-10-12T19:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "ee21feb4-1a01-429b-bfc3-aa5a3f26547e",
+   "sportGameSlug": "bm-game-20261012-cov-new",
+   "sportMarketType": "PLAYER_ASSISTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "40a46368-4d64-4912-b2dc-755b9a6e1fa4",
+     "title": "Joe Willock: 1+ assists",
+     "status": "open",
+     "outcome1Id": "97777de0-1557-4af8-ab7a-5fcc739ab5ac",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.27,
+     "outcome2Id": "8cb192cf-24f8-498e-b0c4-8c4abec8ce57",
+     "outcome2Label": "No",
+     "outcome2Price": 0.78,
+     "feePercentage": 4,
+     "minimumOrderAmount": 500,
+     "rules": "In the upcoming Premier League game between Coventry City FC and Newcastle United FC, scheduled for October 12, 2026 at 7:00 PM UTC: This market will resolve to **Yes** if Joe Willock records more than 0.5 assists within the first 90 minute"
+    }
+   ]
+  },
+  {
+   "id": "bf663a85-d560-4685-88d1-b2ac04bdd2a0",
+   "slug": "epl-cov-new-2026-10-12-player-props-34c0b11f",
+   "title": "Coventry City FC vs. Newcastle United FC: Joe Willock: 3+ shots",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-12T18:59:59.999Z",
+   "resolutionDate": "2026-10-12T19:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "ee21feb4-1a01-429b-bfc3-aa5a3f26547e",
+   "sportGameSlug": "bm-game-20261012-cov-new",
+   "sportMarketType": "PLAYER_SHOTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "ecdda440-c489-43ee-846e-0d587a581605",
+     "title": "Joe Willock: 3+ shots",
+     "status": "open",
+     "outcome1Id": "5ff4a649-4312-4ca7-9618-8639a1e10a32",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.36,
+     "outcome2Id": "a890950e-3fdf-4bda-9a76-d94ed6de9edc",
+     "outcome2Label": "No",
+     "outcome2Price": 0.69,
+     "feePercentage": 4,
+     "minimumOrderAmount": 500,
+     "rules": "In the upcoming Premier League game between Coventry City FC and Newcastle United FC, scheduled for October 12, 2026 at 7:00 PM UTC: This market will resolve to **Yes** if Joe Willock records more than 2.5 shots within the first 90 minutes "
+    }
+   ]
+  },
+  {
+   "id": "a13d760a-e0b0-4154-9198-54945f4178dc",
+   "slug": "epl-cov-new-2026-10-12-player-props-96d4e46d",
+   "title": "Coventry City FC vs. Newcastle United FC: Bobby Thomas: 2+ shots",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-12T18:59:59.999Z",
+   "resolutionDate": "2026-10-12T19:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "ee21feb4-1a01-429b-bfc3-aa5a3f26547e",
+   "sportGameSlug": "bm-game-20261012-cov-new",
+   "sportMarketType": "PLAYER_SHOTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "d3b8f9ab-83ef-4869-b0c2-44e1c5e2af79",
+     "title": "Bobby Thomas: 2+ shots",
+     "status": "open",
+     "outcome1Id": "1ded7a9b-1484-4cae-8843-4f0497d323fc",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.44,
+     "outcome2Id": "407edb15-16e5-4de0-8192-7c50b15bf460",
+     "outcome2Label": "No",
+     "outcome2Price": 0.61,
+     "feePercentage": 4,
+     "minimumOrderAmount": 500,
+     "rules": "In the upcoming Premier League game between Coventry City FC and Newcastle United FC, scheduled for October 12, 2026 at 7:00 PM UTC: This market will resolve to **Yes** if Bobby Thomas records more than 1.5 shots within the first 90 minutes"
+    }
+   ]
+  },
+  {
+   "id": "9b3fd505-7559-4987-b90c-093817005770",
+   "slug": "epl-cov-new-2026-10-12-player-props-71dc0244",
+   "title": "Coventry City FC vs. Newcastle United FC: Lewis Hall: 1+ assists",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-12T18:59:59.999Z",
+   "resolutionDate": "2026-10-12T19:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "ee21feb4-1a01-429b-bfc3-aa5a3f26547e",
+   "sportGameSlug": "bm-game-20261012-cov-new",
+   "sportMarketType": "PLAYER_ASSISTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "0038a783-a8eb-4a8a-a287-be9304436ba5",
+     "title": "Lewis Hall: 1+ assists",
+     "status": "open",
+     "outcome1Id": "ff70f7f7-a0dc-41bc-9526-7984bee26d58",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.22,
+     "outcome2Id": "213ce674-a20d-41d4-9143-f3df7308efd0",
+     "outcome2Label": "No",
+     "outcome2Price": 0.83,
+     "feePercentage": 4,
+     "minimumOrderAmount": 500,
+     "rules": "In the upcoming Premier League game between Coventry City FC and Newcastle United FC, scheduled for October 12, 2026 at 7:00 PM UTC: This market will resolve to **Yes** if Lewis Hall records more than 0.5 assists within the first 90 minutes"
+    }
+   ]
+  },
+  {
+   "id": "6faa82d4-bc11-40af-ae86-17408608c044",
+   "slug": "epl-cov-new-2026-10-12-player-props-3a5653ca",
+   "title": "Coventry City FC vs. Newcastle United FC: Yoane Wissa: 4+ shots",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-12T18:59:59.999Z",
+   "resolutionDate": "2026-10-12T19:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "ee21feb4-1a01-429b-bfc3-aa5a3f26547e",
+   "sportGameSlug": "bm-game-20261012-cov-new",
+   "sportMarketType": "PLAYER_SHOTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "42edc9b0-c56f-4142-ac3b-cd561fa84c13",
+     "title": "Yoane Wissa: 4+ shots",
+     "status": "open",
+     "outcome1Id": "db1cf05c-fdae-42ba-8f9b-8f35fa1466e6",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.18,
+     "outcome2Id": "d632343a-a1ac-4a35-83d0-44ac13f238ec",
+     "outcome2Label": "No",
+     "outcome2Price": 0.87,
+     "feePercentage": 4,
+     "minimumOrderAmount": 500,
+     "rules": "In the upcoming Premier League game between Coventry City FC and Newcastle United FC, scheduled for October 12, 2026 at 7:00 PM UTC: This market will resolve to **Yes** if Yoane Wissa records more than 3.5 shots within the first 90 minutes "
+    }
+   ]
+  },
+  {
+   "id": "78f74138-80c5-4490-95a0-e6f9092296ff",
+   "slug": "epl-cov-new-2026-10-12-player-props-726f35bc",
+   "title": "Coventry City FC vs. Newcastle United FC: Jay Dasilva: 1+ shots",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-12T18:59:59.999Z",
+   "resolutionDate": "2026-10-12T19:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "ee21feb4-1a01-429b-bfc3-aa5a3f26547e",
+   "sportGameSlug": "bm-game-20261012-cov-new",
+   "sportMarketType": "PLAYER_SHOTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "9f7388d3-110d-4c60-bbc4-0698dacf7060",
+     "title": "Jay Dasilva: 1+ shots",
+     "status": "open",
+     "outcome1Id": "62a41575-995e-475d-b1c1-d9b220a70378",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.41,
+     "outcome2Id": "a02f1e2c-dadd-45fa-ba5a-594e4be5844d",
+     "outcome2Label": "No",
+     "outcome2Price": 0.64,
+     "feePercentage": 4,
+     "minimumOrderAmount": 500,
+     "rules": "In the upcoming Premier League game between Coventry City FC and Newcastle United FC, scheduled for October 12, 2026 at 7:00 PM UTC: This market will resolve to **Yes** if Jay Dasilva records more than 0.5 shots within the first 90 minutes "
+    }
+   ]
+  }
+ ],
+ "pagination": {
+  "lastPage": 1,
+  "page": 1,
+  "size": 20,
+  "totalCount": 8
+ }
+}

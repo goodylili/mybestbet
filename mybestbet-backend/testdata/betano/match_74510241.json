@@ -1,0 +1,230 @@
+{
+ "data": {
+  "event": {
+   "id": "74510241",
+   "name": "Aston Villa - Manchester City",
+   "shortName": "Aston Villa - Manchester City",
+   "sportId": "FOOT",
+   "leagueId": "1",
+   "leagueName": "Premier League",
+   "regionName": "England",
+   "betRadarId": 72221334,
+   "startTime": 1792841400000,
+   "url": "/odds/aston-villa-manchester-city/74510241/",
+   "totalMarketsAvailable": 412,
+   "willGoLive": true,
+   "participants": [
+    {
+     "name": "Aston Villa"
+    },
+    {
+     "name": "Manchester City"
+    }
+   ],
+   "markets": [
+    {
+     "id": "500000019",
+     "name": "Match Result",
+     "type": "MRES",
+     "selections": [
+      {
+       "id": "900000076",
+       "name": "1",
+       "fullName": "1",
+       "price": 4.1
+      },
+      {
+       "id": "900000077",
+       "name": "X",
+       "fullName": "X",
+       "price": 3.9
+      },
+      {
+       "id": "900000078",
+       "name": "2",
+       "fullName": "2",
+       "price": 1.8
+      }
+     ]
+    },
+    {
+     "id": "500000020",
+     "name": "Double Chance",
+     "type": "DBLC",
+     "selections": [
+      {
+       "id": "900000079",
+       "name": "1X",
+       "fullName": "1X",
+       "price": 1.98
+      },
+      {
+       "id": "900000080",
+       "name": "12",
+       "fullName": "12",
+       "price": 1.27
+      },
+      {
+       "id": "900000081",
+       "name": "X2",
+       "fullName": "X2",
+       "price": 1.22
+      }
+     ]
+    },
+    {
+     "id": "500000021",
+     "name": "Total Goals Over/Under",
+     "type": "HCTG",
+     "selections": [
+      {
+       "id": "900000082",
+       "name": "Over 2.5",
+       "fullName": "Over 2.5",
+       "price": 1.62,
+       "handicap": 2.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000083",
+       "name": "Under 2.5",
+       "fullName": "Under 2.5",
+       "price": 2.3,
+       "handicap": 2.5,
+       "columnIndex": 1
+      }
+     ],
+     "handicap": 2.5
+    },
+    {
+     "id": "500000022",
+     "name": "Both Teams To Score",
+     "type": "BTSC",
+     "selections": [
+      {
+       "id": "900000084",
+       "name": "Yes",
+       "fullName": "Yes",
+       "price": 1.55
+      },
+      {
+       "id": "900000085",
+       "name": "No",
+       "fullName": "No",
+       "price": 2.35
+      }
+     ]
+    },
+    {
+     "id": "500000023",
+     "name": "Asian Handicap",
+     "type": "AHRF",
+     "selections": [
+      {
+       "id": "900000086",
+       "name": "Home +0.5",
+       "fullName": "Home +0.5",
+       "price": 2.1,
+       "handicap": 0.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000087",
+       "name": "Away -0.5",
+       "fullName": "Away -0.5",
+       "price": 1.75,
+       "handicap": -0.5,
+       "columnIndex": 1
+      }
+     ],
+     "handicap": 0.5
+    },
+    {
+     "id": "500000024",
+     "name": "Half Time/Full Time",
+     "type": "HTFT",
+     "selections": [
+      {
+       "id": "900000088",
+       "name": "1/1",
+       "fullName": "1/1",
+       "price": 7.5
+      },
+      {
+       "id": "900000089",
+       "name": "1/X",
+       "fullName": "1/X",
+       "price": 15.0
+      },
+      {
+       "id": "900000090",
+       "name": "1/2",
+       "fullName": "1/2",
+       "price": 21.0
+      },
+      {
+       "id": "900000091",
+       "name": "X/1",
+       "fullName": "X/1",
+       "price": 9.0
+      },
+      {
+       "id": "900000092",
+       "name": "X/X",
+       "fullName": "X/X",
+       "price": 6.4
+      },
+      {
+       "id": "900000093",
+       "name": "X/2",
+       "fullName": "X/2",
+       "price": 4.4
+      },
+      {
+       "id": "900000094",
+       "name": "2/1",
+       "fullName": "2/1",
+       "price": 34.0
+      },
+      {
+       "id": "900000095",
+       "name": "2/X",
+       "fullName": "2/X",
+       "price": 15.0
+      },
+      {
+       "id": "900000096",
+       "name": "2/2",
+       "fullName": "2/2",
+       "price": 2.75
+      }
+     ]
+    },
+    {
+     "id": "500000025",
+     "name": "Total Corners Over/Under",
+     "type": "CNOU",
+     "selections": [
+      {
+       "id": "900000097",
+       "name": "Over 10.5",
+       "fullName": "Over 10.5",
+       "price": 1.95,
+       "handicap": 10.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "900000098",
+       "name": "Under 10.5",
+       "fullName": "Under 10.5",
+       "price": 1.8,
+       "handicap": 10.5,
+       "columnIndex": 1
+      }
+     ],
+     "handicap": 10.5
+    }
+   ]
+  }
+ }
+}

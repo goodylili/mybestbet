@@ -1,0 +1,1566 @@
+{
+  "source": "bayse",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "OU",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "04c55666-1dc8-4197-8e91-0f0930ec07e8"
+    },
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 74.38,
+            "form": "naira",
+            "prob": 0.7437999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-october-27-2026"
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 19.03,
+            "form": "naira",
+            "prob": 0.19030000000000002,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-october-27-2026"
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 13.79,
+            "form": "naira",
+            "prob": 0.1379,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "109ac5bb-7957-4e9e-add1-41f2225ec8d1"
+    },
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "OU",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 98.14,
+            "form": "naira",
+            "prob": 0.9814,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "naira",
+            "prob": 0.99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10c86e3e-4d77-4356-a0fb-b53d8aa9b1b9"
+    },
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "OU",
+      "line": 0.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 99,
+            "form": "naira",
+            "prob": 0.99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "naira",
+            "prob": 0.99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "19954e00-93d2-4583-b6f5-3d6a10d9d683"
+    },
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1d50cc6e-85c7-4c21-ac96-9230aa362ba1"
+    },
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "AH",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-spread-october-27-2026"
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-spread-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "26640acf-3067-491b-8bca-29ab6aeff6ee"
+    },
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "AH",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-spread-october-27-2026"
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-spread-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "5111b01f-c5f4-4f7d-a39c-0f80fa4d89d6"
+    },
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "AH",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 13.14,
+            "form": "naira",
+            "prob": 0.13140000000000002,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-spread-october-27-2026"
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 86.86,
+            "form": "naira",
+            "prob": 0.8686,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-spread-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "65aac175-3cfb-4e7f-936a-96911afac196"
+    },
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "AH",
+      "line": -2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-spread-october-27-2026"
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-spread-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "6a7ffc10-6fc6-4ce4-a9d3-ed560863d1be"
+    },
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 61.68,
+            "form": "naira",
+            "prob": 0.6168,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-btts-october-27-2026"
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 51.75,
+            "form": "naira",
+            "prob": 0.5175,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-btts-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7b9666da-7d6f-455a-b79a-e7de738913fe"
+    },
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "OU",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "87cf2b98-3176-4eeb-8b22-01b356831a6a"
+    },
+    {
+      "eventSourceId": "bm-game-20261027-bvb-svw",
+      "code": "OU",
+      "line": 5.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/dortmund-vs-bremen-total-goals-october-27-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "e19e83b4-7d3e-4f92-ade8-e20056a2ef9f"
+    },
+    {
+      "eventSourceId": "houston-vs-san-antonio-october-24-2026",
+      "code": "BK_AST",
+      "line": 1.5,
+      "player": {
+        "sourceId": "Julian Champagnie",
+        "name": "Julian Champagnie",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 30.42,
+            "form": "naira",
+            "prob": 0.3042,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-assists-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 69.58,
+            "form": "naira",
+            "prob": 0.6958,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-assists-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "019379bc-d10a-4e22-925e-54440f7ef932"
+    },
+    {
+      "eventSourceId": "houston-vs-san-antonio-october-24-2026",
+      "code": "BK_AST",
+      "line": 7.5,
+      "player": {
+        "sourceId": "De'Aaron Fox",
+        "name": "De'Aaron Fox",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 54.74,
+            "form": "naira",
+            "prob": 0.5474,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-assists-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 95.33,
+            "form": "naira",
+            "prob": 0.9533,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-assists-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "19b7cbaf-7957-4a33-8ec9-95b748dd0984"
+    },
+    {
+      "eventSourceId": "houston-vs-san-antonio-october-24-2026",
+      "code": "BK_AST",
+      "line": 7.5,
+      "player": {
+        "sourceId": "Fred VanVleet",
+        "name": "Fred VanVleet",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 39.65,
+            "form": "naira",
+            "prob": 0.39649999999999996,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-assists-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 98.14,
+            "form": "naira",
+            "prob": 0.9814,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-assists-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "2e568ac1-27bc-4436-86b1-71e5661990c3"
+    },
+    {
+      "eventSourceId": "houston-vs-san-antonio-october-24-2026",
+      "code": "BK_AST",
+      "line": 7.5,
+      "player": {
+        "sourceId": "Stephon Castle",
+        "name": "Stephon Castle",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 43.71,
+            "form": "naira",
+            "prob": 0.4371,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-assists-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "naira",
+            "prob": 0.99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-assists-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "4e1114f4-b1bc-442e-8bde-996b5cd837a9"
+    },
+    {
+      "eventSourceId": "houston-vs-san-antonio-october-24-2026",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 63.65,
+            "form": "naira",
+            "prob": 0.6365,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-october-24-2026"
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 41.68,
+            "form": "naira",
+            "prob": 0.4168,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "90badca5-901d-4e9b-8b02-16261dc41050"
+    },
+    {
+      "eventSourceId": "houston-vs-san-antonio-october-24-2026",
+      "code": "BK_AST",
+      "line": 5.5,
+      "player": {
+        "sourceId": "Fred VanVleet",
+        "name": "Fred VanVleet",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 67.57,
+            "form": "naira",
+            "prob": 0.6757,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-assists-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 46.73,
+            "form": "naira",
+            "prob": 0.4673,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/houston-vs-san-antonio-assists-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "d44b9fc4-b73e-495d-a5cd-8e457ab00c37"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_AST",
+      "line": 5.5,
+      "player": {
+        "sourceId": "Dejounte Murray",
+        "name": "Dejounte Murray",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 86.43,
+            "form": "naira",
+            "prob": 0.8643000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-assists-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 13.57,
+            "form": "naira",
+            "prob": 0.13570000000000002,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-assists-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "03ff605a-6cf3-4802-8071-a17773d795bd"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_AST",
+      "line": 1.5,
+      "player": {
+        "sourceId": "Jeremiah Fears",
+        "name": "Jeremiah Fears",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 84.94,
+            "form": "naira",
+            "prob": 0.8493999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-assists-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 85.89,
+            "form": "naira",
+            "prob": 0.8589,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-assists-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "0bddad97-8fd9-40e1-9743-55a9eb013c94"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_AST",
+      "line": 5.5,
+      "player": {
+        "sourceId": "Lauri Markkanen",
+        "name": "Lauri Markkanen",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 30.44,
+            "form": "naira",
+            "prob": 0.3044,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-assists-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "naira",
+            "prob": 0.99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-assists-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "1cf73d6b-866c-4759-b734-9f4d2dacead4"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_AST",
+      "line": 11.5,
+      "player": {
+        "sourceId": "Keyonte George",
+        "name": "Keyonte George",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 40.67,
+            "form": "naira",
+            "prob": 0.4067,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-assists-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 62.67,
+            "form": "naira",
+            "prob": 0.6267,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-assists-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "1e0bc124-904a-4bb2-b2e3-a27164f68f5d"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_3PM",
+      "line": 4.5,
+      "player": {
+        "sourceId": "Dejounte Murray",
+        "name": "Dejounte Murray",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 34.55,
+            "form": "naira",
+            "prob": 0.3455,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-threes-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 68.55,
+            "form": "naira",
+            "prob": 0.6855,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-threes-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "37750d66-82a9-4f50-984f-381c0c4f0d8a"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_3PM",
+      "line": 1.5,
+      "player": {
+        "sourceId": "Bennedict Mathurin",
+        "name": "Bennedict Mathurin",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 31.47,
+            "form": "naira",
+            "prob": 0.3147,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-threes-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "naira",
+            "prob": 0.99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-threes-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "4721dcb7-f713-4383-9256-bea5c2b559f7"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_REB",
+      "line": 7.5,
+      "player": {
+        "sourceId": "Zion Williamson",
+        "name": "Zion Williamson",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 34.55,
+            "form": "naira",
+            "prob": 0.3455,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-rebounds-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 89.69,
+            "form": "naira",
+            "prob": 0.8969,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-rebounds-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "5b1f0c7e-0000-4000-8000-000000000100"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_REB",
+      "line": 5.5,
+      "player": {
+        "sourceId": "Lauri Markkanen",
+        "name": "Lauri Markkanen",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 34.55,
+            "form": "naira",
+            "prob": 0.3455,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-rebounds-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 83.99,
+            "form": "naira",
+            "prob": 0.8399,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-rebounds-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "5b1f0c7e-0000-4000-8000-000000000101"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_PTS",
+      "line": 9.5,
+      "player": {
+        "sourceId": "Ace Bailey",
+        "name": "Ace Bailey",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 34.55,
+            "form": "naira",
+            "prob": 0.3455,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-points-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 83.99,
+            "form": "naira",
+            "prob": 0.8399,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-points-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "6f78f9db-9137-496e-91f0-49698ab33093"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_PTS",
+      "line": 24.5,
+      "player": {
+        "sourceId": "Jaren Jackson Jr.",
+        "name": "Jaren Jackson Jr.",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 34.55,
+            "form": "naira",
+            "prob": 0.3455,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-points-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 89.69,
+            "form": "naira",
+            "prob": 0.8969,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-points-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "72f627b4-ea24-48ee-a748-1849a71f27f3"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_3PM",
+      "line": 3.5,
+      "player": {
+        "sourceId": "Bennedict Mathurin",
+        "name": "Bennedict Mathurin",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 31.47,
+            "form": "naira",
+            "prob": 0.3147,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-threes-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 71.47,
+            "form": "naira",
+            "prob": 0.7147,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-threes-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "80512b12-feec-4f7a-a383-718c2237a815"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 73.41,
+            "form": "naira",
+            "prob": 0.7341,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-october-24-2026"
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 30.44,
+            "form": "naira",
+            "prob": 0.3044,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "85af22a6-5bc0-4b0e-8196-f5ae76e90975"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_PTS",
+      "line": 24.5,
+      "player": {
+        "sourceId": "Saddiq Bey",
+        "name": "Saddiq Bey",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50.75,
+            "form": "naira",
+            "prob": 0.5075,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-points-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 92.52,
+            "form": "naira",
+            "prob": 0.9251999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-points-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "a010f625-0eb9-4568-988a-a3553b60d1f5"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_PTS",
+      "line": 34.5,
+      "player": {
+        "sourceId": "Lauri Markkanen",
+        "name": "Lauri Markkanen",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 37.61,
+            "form": "naira",
+            "prob": 0.3761,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-points-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 65.61,
+            "form": "naira",
+            "prob": 0.6561,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-points-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "c68c8c15-ff78-40f1-a406-8001747693de"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_3PM",
+      "line": 2.5,
+      "player": {
+        "sourceId": "Bennedict Mathurin",
+        "name": "Bennedict Mathurin",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 31.47,
+            "form": "naira",
+            "prob": 0.3147,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-threes-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "naira",
+            "prob": 0.99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-threes-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "d27cc337-5f83-49b1-9607-4f55f5db9dd0"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_PTS",
+      "line": 9.5,
+      "player": {
+        "sourceId": "Jeremiah Fears",
+        "name": "Jeremiah Fears",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 52.75,
+            "form": "naira",
+            "prob": 0.5275,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-points-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 84.94,
+            "form": "naira",
+            "prob": 0.8493999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-points-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "dd03bfe2-3a0c-4efa-aae7-bf50c48bd568"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_AST",
+      "line": 3.5,
+      "player": {
+        "sourceId": "Jaren Jackson Jr.",
+        "name": "Jaren Jackson Jr.",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 83.03,
+            "form": "naira",
+            "prob": 0.8303,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-assists-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 95.33,
+            "form": "naira",
+            "prob": 0.9533,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-assists-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "f5088da3-409c-45bd-8728-128fc1002748"
+    },
+    {
+      "eventSourceId": "new-orleans-vs-utah-october-24-2026",
+      "code": "BK_3PM",
+      "line": 1.5,
+      "player": {
+        "sourceId": "Ace Bailey",
+        "name": "Ace Bailey",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 33.12,
+            "form": "naira",
+            "prob": 0.3312,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-threes-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 66.88,
+            "form": "naira",
+            "prob": 0.6688,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/new-orleans-vs-utah-threes-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "fa5fd7fb-811f-499a-8fb9-4b08619ee224"
+    },
+    {
+      "eventSourceId": "portland-vs-sacramento-october-24-2026",
+      "code": "BK_PTS",
+      "line": 19.5,
+      "player": {
+        "sourceId": "Scoot Henderson",
+        "name": "Scoot Henderson",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 33.52,
+            "form": "naira",
+            "prob": 0.33520000000000005,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-points-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 98.14,
+            "form": "naira",
+            "prob": 0.9814,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-points-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "71be7b6e-ba16-4ab4-b73a-18bdab884283"
+    },
+    {
+      "eventSourceId": "portland-vs-sacramento-october-24-2026",
+      "code": "BK_PTS",
+      "line": 14.5,
+      "player": {
+        "sourceId": "Keegan Murray",
+        "name": "Keegan Murray",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 40.67,
+            "form": "naira",
+            "prob": 0.4067,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-points-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 64.63,
+            "form": "naira",
+            "prob": 0.6463,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-points-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "9d8e2d95-b7c7-4079-991e-01cd95b70dc4"
+    },
+    {
+      "eventSourceId": "portland-vs-sacramento-october-24-2026",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 96.27,
+            "form": "naira",
+            "prob": 0.9627,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-october-24-2026"
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 4.27,
+            "form": "naira",
+            "prob": 0.042699999999999995,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "c3dd78c6-1f12-45ad-bc58-e9557855b5c1"
+    },
+    {
+      "eventSourceId": "portland-vs-sacramento-october-24-2026",
+      "code": "BK_PTS",
+      "line": 29.5,
+      "player": {
+        "sourceId": "Darius Acuff Jr.",
+        "name": "Darius Acuff Jr.",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 30.44,
+            "form": "naira",
+            "prob": 0.3044,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-points-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 89.69,
+            "form": "naira",
+            "prob": 0.8969,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-points-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "cafb4c40-ff8b-4060-aee4-8a4f663203b1"
+    },
+    {
+      "eventSourceId": "portland-vs-sacramento-october-24-2026",
+      "code": "BK_PTS",
+      "line": 14.5,
+      "player": {
+        "sourceId": "Ja Morant",
+        "name": "Ja Morant",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 39.65,
+            "form": "naira",
+            "prob": 0.39649999999999996,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-points-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 68.55,
+            "form": "naira",
+            "prob": 0.6855,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-points-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "f380205c-9ae7-4e7f-a0df-d7e60a745392"
+    },
+    {
+      "eventSourceId": "portland-vs-sacramento-october-24-2026",
+      "code": "BK_PTS",
+      "line": 24.5,
+      "player": {
+        "sourceId": "Deni Avdija",
+        "name": "Deni Avdija",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 41.68,
+            "form": "naira",
+            "prob": 0.4168,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-points-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 85.89,
+            "form": "naira",
+            "prob": 0.8589,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/portland-vs-sacramento-points-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": true
+      },
+      "sourceMarketId": "fa4ba9d0-0297-4741-8232-c666b2fac10b"
+    }
+  ]
+}

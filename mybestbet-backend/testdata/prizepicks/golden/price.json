@@ -1,0 +1,412 @@
+{
+  "source": "prizepicks",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "5501",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "301",
+        "name": "Bukayo Saka",
+        "team": "Arsenal"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 2.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100001"
+    },
+    {
+      "eventSourceId": "5501",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "301",
+        "name": "Bukayo Saka",
+        "team": "Arsenal"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "goblin",
+          "price": {
+            "raw": 1.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100002"
+    },
+    {
+      "eventSourceId": "5501",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "301",
+        "name": "Bukayo Saka",
+        "team": "Arsenal"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "demon",
+          "price": {
+            "raw": 3.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100003"
+    },
+    {
+      "eventSourceId": "5501",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "301",
+        "name": "Bukayo Saka",
+        "team": "Arsenal"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 0.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100004"
+    },
+    {
+      "eventSourceId": "5501",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "302",
+        "name": "Cole Palmer",
+        "team": "Chelsea"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 1.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100005"
+    },
+    {
+      "eventSourceId": "5501",
+      "code": "P_TACKLES",
+      "line": 2.5,
+      "player": {
+        "sourceId": "303",
+        "name": "Declan Rice",
+        "team": "Arsenal"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 2.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100007"
+    },
+    {
+      "eventSourceId": "5501",
+      "code": "P_FOULS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "304",
+        "name": "Moises Caicedo",
+        "team": "Chelsea"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 1.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100008"
+    },
+    {
+      "eventSourceId": "5501",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "305",
+        "name": "Martin Odegaard",
+        "team": "Arsenal"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "goblin",
+          "price": {
+            "raw": 0.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100009"
+    },
+    {
+      "eventSourceId": "5501",
+      "code": "P_PASSES",
+      "line": 45.5,
+      "player": {
+        "sourceId": "301",
+        "name": "Bukayo Saka",
+        "team": "Arsenal"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 45.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100017"
+    },
+    {
+      "eventSourceId": "5502",
+      "code": "P_GOALS",
+      "line": 0.5,
+      "player": {
+        "sourceId": "306",
+        "name": "Vinicius Junior",
+        "team": "Real Madrid"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 0.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100010"
+    },
+    {
+      "eventSourceId": "5502",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "306",
+        "name": "Vinicius Junior",
+        "team": "Real Madrid"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 3.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100011"
+    },
+    {
+      "eventSourceId": "5502",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "307",
+        "name": "Robert Lewandowski",
+        "team": "Barcelona"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 2.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100012"
+    },
+    {
+      "eventSourceId": "5502",
+      "code": "P_SAVES",
+      "line": 2.5,
+      "player": {
+        "sourceId": "308",
+        "name": "Thibaut Courtois",
+        "team": "Real Madrid"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 2.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100013"
+    },
+    {
+      "eventSourceId": "5503",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "309",
+        "name": "Lionel Messi",
+        "team": "Inter Miami"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 3.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100014"
+    },
+    {
+      "eventSourceId": "5503",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "309",
+        "name": "Lionel Messi",
+        "team": "Inter Miami"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "demon",
+          "price": {
+            "raw": 1.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7100015"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+ "Id": 0,
+ "Success": true,
+ "Error": "",
+ "ErrorCode": 0,
+ "Guid": "",
+ "Value": [
+  {
+   "SI": 3,
+   "SN": "Basketball",
+   "SR": "Баскетбол",
+   "L": "NBA",
+   "LI": 13589,
+   "CI": 153,
+   "T": 300,
+   "GC": 14
+  },
+  {
+   "SI": 3,
+   "SN": "Basketball",
+   "SR": "Баскетбол",
+   "L": "WNBA",
+   "LI": 197289,
+   "CI": 153,
+   "T": 300,
+   "GC": 1
+  },
+  {
+   "SI": 3,
+   "SN": "Basketball",
+   "SR": "Баскетбол",
+   "L": "Euroleague",
+   "LR": "Евролига",
+   "LI": 139460,
+   "CI": 223,
+   "T": 150,
+   "GC": 18,
+   "CHIMG": "a77b9d632ad5933f8f0d32727e773a47.png"
+  },
+  {
+   "SI": 3,
+   "SN": "Basketball",
+   "SR": "Баскетбол",
+   "L": "EuroCup",
+   "LR": "Кубок Европы",
+   "LI": 140411,
+   "CI": 223,
+   "GC": 9,
+   "CHIMG": "879bc87a7f7bd4cec4a80276b9d58157.png"
+  },
+  {
+   "SI": 3,
+   "SN": "Basketball",
+   "SR": "Баскетбол",
+   "L": "Spain. Liga ACB",
+   "LR": "Чемпионат Испании",
+   "LI": 110509,
+   "CI": 78,
+   "T": 75,
+   "GC": 11
+  },
+  {
+   "SI": 3,
+   "SN": "Basketball",
+   "SR": "Баскетбол",
+   "L": "Australia. NBL",
+   "LR": "Чемпионат Австралии. NBL",
+   "LI": 220263,
+   "CI": 4,
+   "T": 50,
+   "GC": 5
+  }
+ ]
+}

@@ -1,0 +1,232 @@
+/* Tailwind without its preflight reset: the base rules below are the reset. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "tw-animate-css";
+
+@custom-variant dark (&:is([data-theme="dark"] *));
+
+/*
+  Design tokens. Dark is the default; the light palette applies under
+  html[data-theme="light"], which the inline script in app/layout.tsx sets
+  from the saved choice or the system preference before first paint.
+*/
+:root {
+  color-scheme: dark;
+  --ink: 242 242 242;
+  --glass: 13 13 13;
+  --bg: #0d0d0d;
+  --panel: #141414;
+  --raise: #1a1a1a;
+  --well: #0f0f0f;
+  --hover: rgb(var(--ink) / .05);
+  --line: rgb(var(--ink) / .07);
+  --line-2: rgb(var(--ink) / .11);
+  --line-3: rgb(var(--ink) / .2);
+  --fg: #f5f5f6;
+  --fg-2: #d4d4d8;
+  --fg-3: #a8a8ae;
+  --blue: #5b84ff;
+  --blue-fill: rgb(66 110 255 / .16);
+  --blue-line: rgb(91 132 255 / .55);
+  --pri: #3361ff;
+  --pri-h: #4a73ff;
+  --on-pri: #fff;
+  --glow: none;
+  --green: #5b84ff;
+  --green-fill: rgb(66 110 255 / .16);
+  --red: #ff6b78;
+  --amber: #ffb547;
+  --scrim: rgb(0 0 0 / .6);
+  --shadow: 0 18px 50px -12px rgb(0 0 0 / .7);
+  --font: var(--font-mona), "Mona Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: var(--font-outfit), "Outfit", system-ui, sans-serif;
+  --mono-ls: 0;
+  --r: 6px;
+  --r-sm: 4px;
+  --top: 60px;
+  --tab: 62px;
+  --sl: env(safe-area-inset-left, 0px);
+  --sr: env(safe-area-inset-right, 0px);
+  --sb: env(safe-area-inset-bottom, 0px);
+  --st: env(safe-area-inset-top, 0px);
+
+  /* shadcn/ui aliases, so components/ui reads the same palette */
+  --background: var(--bg);
+  --foreground: var(--fg);
+  --card: var(--panel);
+  --card-foreground: var(--fg);
+  --primary: var(--pri);
+  --primary-foreground: var(--on-pri);
+  --muted: var(--well);
+  --muted-foreground: var(--fg-3);
+  --border: var(--line-2);
+  --ring: var(--blue);
+  --radius: 0.375rem;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --ink: 15 15 15;
+  --glass: 242 242 242;
+  --bg: #f2f2f2;
+  --panel: #ffffff;
+  --raise: #ffffff;
+  --well: #f5f5f5;
+  --line-3: rgb(var(--ink) / .22);
+  --fg: #0c0c0d;
+  --fg-2: #33333a;
+  --fg-3: #5e5e66;
+  --blue: #2b55ff;
+  --blue-fill: rgb(43 85 255 / .08);
+  --blue-line: rgb(43 85 255 / .45);
+  --pri: #2b55ff;
+  --pri-h: #1f47ee;
+  --green: #2b55ff;
+  --green-fill: rgb(43 85 255 / .08);
+  --red: #d92d45;
+  --amber: #965900;
+  --scrim: rgb(15 15 15 / .3);
+  --shadow: 0 18px 50px -16px rgb(0 0 0 / .22);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --font-sans: var(--font);
+  --font-mono: var(--mono);
+  --radius-sm: var(--r-sm);
+  --radius-md: var(--r);
+}
+
+/* base */
+*, *::before, *::after { box-sizing: border-box; }
+html { background: var(--bg); -webkit-text-size-adjust: 100%; }
+html.thx, html.thx * { transition: background-color .3s ease, color .3s ease, border-color .3s ease !important; }
+body {
+  margin: 0;
+  background: transparent;
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: var(--st); z-index: 40; background: var(--bg); }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; padding: 0; text-align: inherit; }
+a { color: inherit; text-decoration: none; }
+select { font: inherit; color: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-radius: 8px; }
+h1, h2, h3, p { margin: 0; }
+h1, h2, h3 { font-family: var(--font); font-weight: 500; }
+h1 { font-size: 32px; letter-spacing: -.035em; line-height: 1.05; }
+h2 { font-size: 16px; letter-spacing: -.02em; }
+@media (hover: none) {
+  button { -webkit-user-select: none; user-select: none; }
+}
+
+/*
+  Shared primitives. These small classes are used by most screens, so they
+  live here rather than being repeated in every component stylesheet.
+*/
+.mono, input[type="number"] { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.muted { color: var(--fg-2); }
+.faint { color: var(--fg-3); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.card { border: 1px solid var(--line-2); border-radius: var(--r); background: var(--panel); }
+.empty { padding: 48px 20px; border: 1px dashed var(--line-3); border-radius: var(--r); text-align: center; display: flex; flex-direction: column; gap: 6px; align-items: center; font-size: 14px; }
+.empty.ld { border-style: solid; border-color: var(--line); }
+.spin { width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--line-3); border-top-color: var(--blue); animation: mbspin .8s linear infinite; }
+@keyframes mbspin { to { transform: rotate(360deg); } }
+
+.kbd { font-family: var(--mono); font-size: 11px; padding: 2px 6px; border: 1px solid var(--line-2); border-radius: 3px; background: transparent; color: var(--fg-2); }
+.dot { width: 7px; height: 7px; border-radius: 99px; background: var(--blue); box-shadow: 0 0 0 3px var(--blue-fill); flex: none; }
+.dot.amber { background: var(--amber); }
+.ib { width: 38px; height: 38px; border-radius: var(--r-sm); border: 1px solid var(--line-2); display: inline-flex; align-items: center; justify-content: center; color: var(--fg-2); flex: none; }
+.ib:hover { color: var(--fg); border-color: var(--line-3); }
+
+.btn { height: 40px; padding: 0 16px; border-radius: var(--r-sm); border: 1px solid var(--line-3); font-size: 14px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; white-space: nowrap; letter-spacing: -.01em; }
+.btn:hover { background: var(--hover); }
+.btn.primary { background: var(--pri); color: var(--on-pri); border-color: var(--pri); font-weight: 500; }
+.btn.primary:hover { background: var(--pri-h); }
+.btn.sm { height: 32px; padding: 0 11px; font-size: 13px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; overflow: visible; margin: 0 -2px; padding: 0 2px; }
+.chip { flex: none; height: 32px; padding: 0 12px; border-radius: var(--r-sm); border: 1px solid var(--line-2); color: var(--fg-2); font-size: 13.5px; display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; letter-spacing: -.01em; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+.chip:hover { color: var(--fg); border-color: var(--line-3); }
+.chip[aria-pressed="true"] { background: var(--pri); color: var(--on-pri); border-color: var(--pri); font-weight: 500; }
+.chip[aria-pressed="true"] img.lt { filter: none; }
+.chip.sm { height: 30px; padding: 0 11px; font-size: 13px; }
+.chip .n { font-family: var(--mono); font-size: 12px; opacity: .65; }
+
+.seg { display: inline-flex; padding: 3px; border: 1px solid var(--line-2); border-radius: var(--r-sm); gap: 2px; background: var(--panel); }
+.seg button { height: 28px; padding: 0 10px; border-radius: 3px; font-size: 13px; color: var(--fg-2); white-space: nowrap; letter-spacing: -.01em; }
+.seg button:hover { color: var(--fg); }
+.seg button[aria-pressed="true"], .seg button[aria-selected="true"] { background: var(--blue-fill); color: var(--blue); }
+
+.badge { font-family: var(--mono); font-size: 12px; white-space: nowrap; line-height: 1.45; }
+.badge.arb { color: var(--green); }
+.badge.ev { color: var(--blue); }
+.badge.warn { color: var(--amber); }
+.badge.soft { color: var(--fg-3); }
+
+/* logos: team crests, book logos, league marks and flags */
+img.cr { object-fit: contain; flex: none; display: block; }
+img.sl { flex: none; display: block; border-radius: 3px; }
+img.sl.si { border-radius: 0; }
+.tap-area { position: absolute; inset: 0; border-radius: inherit; }
+a.bklink { position: relative; z-index: 1; display: inline-flex; align-items: center; flex: none; gap: inherit; min-width: 0; border-radius: 4px; color: inherit; }
+a.bklink.named { flex: 0 1 auto; overflow: hidden; text-decoration: none; }
+a.bklink.named:hover > :not(img) { text-decoration: underline; text-underline-offset: 2px; }
+a.bklink:hover { box-shadow: 0 0 0 1.5px var(--blue-line); }
+.flag { display: block; flex: none; border-radius: 2px; object-fit: cover; box-shadow: 0 0 0 1px rgb(var(--ink) / .1); }
+.abbr { display: inline-flex; align-items: center; justify-content: center; border-radius: 6px; background: rgb(var(--ink) / .08); font-family: var(--mono); font-size: 9px; font-weight: 600; letter-spacing: .02em; flex: none; }
+:root[data-theme="light"] img.lt { filter: invert(1) hue-rotate(180deg); }
+:root[data-theme="light"] img.cr { filter: drop-shadow(0 0 .6px rgb(0 0 0 / .3)); }
+:root[data-theme="light"] img.cr.lt { filter: invert(1) hue-rotate(180deg); }
+
+.edu { font-size: 11.5px; line-height: 1.45; color: var(--fg-3); padding: 18px 12px 4px; margin: 8px 0 0; border-top: 1px solid var(--line); }
+
+/* display settings toggled from the settings sheet */
+body.no-cd .cd { display: none; }
+
+/* underlined tab row, sticky under the top bar (market tabs, signal tabs) */
+.mtabs { display: flex; flex-wrap: wrap; gap: 2px; overflow: visible; position: sticky; top: calc(var(--top) + var(--st)); z-index: 6; background: rgb(var(--glass) / .92); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line-2); margin: 0 -4px; padding: 0 4px; }
+.mtabs button { flex: none; position: relative; height: 44px; padding: 0 12px; font-size: 14px; color: var(--fg-3); white-space: nowrap; border-radius: 0; letter-spacing: -.01em; }
+.mtabs button:hover { color: var(--fg); }
+.mtabs button[aria-selected="true"] { color: var(--blue); font-weight: 500; }
+.mtabs button[aria-selected="true"]::after { content: ""; position: absolute; left: 12px; right: 12px; bottom: -1px; height: 2px; background: var(--blue); }
+.mtabs button[aria-selected="true"] .faint { color: var(--blue); }
+.mtabs button .n { font-family: var(--mono); font-size: 11px; color: var(--fg-3); margin-left: 6px; font-weight: 400; }
+
+/* rows that fold overflowing chips or tabs into a "+N" button (see components/mybestbet/shared/fit-row.tsx) */
+.fit:not(.open) > .fx-h { display: none !important; }
+.fx-b { display: inline-flex; align-items: center; gap: 4px; flex: none; font-family: var(--mono); color: var(--blue) !important; border-color: var(--blue-line) !important; background: var(--blue-fill) !important; }
+.fx-b::before { content: attr(data-n); }
+.mtabs .fx-b { background: none !important; border: 0; height: auto; padding: 0 10px; font-size: 14px; }
+.fx-b svg { width: 13px; height: 13px; transition: transform .2s; }
+.open > .fx-b svg { transform: rotate(180deg); }
+.mtabs.open { row-gap: 0; }
+
+@media (max-width: 760px) {
+  body { font-size: 14.5px; }
+  .chip { height: 36px; border-radius: 12px; padding: 0 14px; }
+  .chip.sm { height: 34px; border-radius: 11px; }
+  .seg { border-radius: 12px; }
+  .seg button { border-radius: 9px; height: 32px; }
+  .mtabs button { height: 46px; font-size: 15px; }
+  .card { border-radius: 16px; }
+  input[type="number"], input[type="search"], input[type="text"], textarea { font-size: 16px !important; }
+}

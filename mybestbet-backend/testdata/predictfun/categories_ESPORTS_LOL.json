@@ -1,0 +1,1258 @@
+{
+  "success": true,
+  "cursor": null,
+  "data": [
+    {
+      "createdAt": "2026-10-25T01:37:06.528Z",
+      "description": "This market refers to the LoL Round 3 match between Gen.G and LYON in the Worlds Group Stage, initially scheduled for October 25, 2026 at 3:00 PM ET.\n\nThis market will resolve to \"Gen.G\" if Gen.G win the match against LYON.\n\nThis market will resolve to \"LYON\" if LYON win the match against Gen.G.\n\nIf the match is canceled (not played at all) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf the match begins but is not completed, and one team wins due to the opponent's forfeiture, disqualification, or walkover, this market will resolve to the team who wins. \n\nIf the match ends in a forfeit, disqualification, or walkover (team withdraws before the start and the other wins automatically), this market will resolve to 50-50. \n\nThe resolution source for this market will be official information from https://gol.gg/esports/home. However, if https://gol.gg/esports/home has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n\nIn cases where a team’s listed name includes minor discrepancies from the resolution source, this market will resolve based on the underlying real-world match rather than exact name matching. Recognizable abbreviations, alternate or erroneous spellings, sponsor tags, affiliate or academy designations, regional identifiers, and minor formatting differences will be treated as referring to the same team, provided the intended team can be clearly and uniquely identified within the relevant competition. If a listed team name has no reasonable connection to any participating team, or if it matches or could reasonably refer to another team in the same competition such that the intended team cannot be unambiguously determined, this market will resolve 50-50.",
+      "endsAt": "2026-10-26T01:00:00.000Z",
+      "id": 664887,
+      "imageUrl": "https://static.predict.fun/lol",
+      "isNegRisk": false,
+      "isVisible": true,
+      "isYieldBearing": false,
+      "marketVariant": "ESPORTS_LOL",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lol-gen-ly-2026-10-25",
+          "conditionId": "0xcebebe7966d5e741bb1af32dd9fd233d06b1a9fd971f15d2c96ccdcf3d4c5632",
+          "createdAt": "2026-10-25T01:37:06.528Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the LoL Round 3 match between Gen.G and LYON in the Worlds Group Stage, initially scheduled for October 25, 2026 at 3:00 PM ET.\n\nThis market will resolve to \"Gen.G\" if Gen.G win the match against LYON.\n\nThis market will resolve to \"LYON\" if LYON win the match against Gen.G.\n\nIf the match is canceled (not played at all) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf the match begins but is not completed, and one team wins due to the opponent's forfeiture, disqualification, or walkover, this market will resolve to the team who wins. \n\nIf the match ends in a forfeit, disqualification, or walkover (team withdraws before the start and the other wins automatically), this market will resolve to 50-50. \n\nThe resolution source for this market will be official information from https://gol.gg/esports/home. However, if https://gol.gg/esports/home has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n\nIn cases where a team’s listed name includes minor discrepancies from the resolution source, this market will resolve based on the underlying real-world match rather than exact name matching. Recognizable abbreviations, alternate or erroneous spellings, sponsor tags, affiliate or academy designations, regional identifiers, and minor formatting differences will be treated as referring to the same team, provided the intended team can be clearly and uniquely identified within the relevant competition. If a listed team name has no reasonable connection to any participating team, or if it matches or could reasonably refer to another team in the same competition such that the intended team cannot be unambiguously determined, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3790019,
+          "imageUrl": "https://static.predict.fun/lol",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "ESPORTS_LOL",
+          "oracleQuestionId": "0x4291ec73bee273e2c43a18a6bdf8b3f3afaa53bc6272e82717398e656099706e",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.9,
+                "size": 112833.84425555555
+              },
+              "bestBid": {
+                "price": 0.89,
+                "size": 48945.203636363636
+              },
+              "indexSet": 1,
+              "name": "GEN",
+              "onChainId": "54443223704329327245938049680156006198807940446709979813125775016159483469702",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "GRID",
+                "team": {
+                  "abbreviation": "GEN",
+                  "id": 15036,
+                  "name": "Gen.G Esports",
+                  "providerTeamId": "47558"
+                },
+                "type": "ESPORTS_LOL"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "GRID",
+                  "team": {
+                    "abbreviation": "GEN",
+                    "id": 15036,
+                    "name": "Gen.G Esports",
+                    "providerTeamId": "47558"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.11,
+                "size": 48945.203636363636
+              },
+              "bestBid": {
+                "price": 0.1,
+                "size": 112833.84425555555
+              },
+              "indexSet": 2,
+              "name": "LYON",
+              "onChainId": "83205858630080442641024781464305041082382301018853451150887264124892893925451",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "GRID",
+                "team": {
+                  "abbreviation": "LYON",
+                  "id": 15037,
+                  "name": "LYON",
+                  "providerTeamId": "54198"
+                },
+                "type": "ESPORTS_LOL"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "GRID",
+                  "team": {
+                    "abbreviation": "LYON",
+                    "id": 15037,
+                    "name": "LYON",
+                    "providerTeamId": "54198"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x88533cb35e3b9e14e16dfd4f3d37afb1d600a7a2a07c6b9d6a3c9d9901cc8294"
+          ],
+          "question": "LoL: Gen.G vs LYON (BO3) - Worlds Group Stage",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-26T01:00:00.000Z",
+              "hourlyRate": 100,
+              "startsAt": "2026-10-25T01:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T01:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T01:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T04:00:00.000Z",
+                "hourlyRate": 2000,
+                "startsAt": "2026-10-26T01:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Match Winner",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "GRID",
+            "providerEventId": "3014639",
+            "teams": [
+              {
+                "abbreviation": "GEN",
+                "id": 15036,
+                "name": "Gen.G Esports",
+                "providerTeamId": "47558"
+              },
+              {
+                "abbreviation": "LYON",
+                "id": 15037,
+                "name": "LYON",
+                "providerTeamId": "54198"
+              }
+            ],
+            "type": "ESPORTS_LOL"
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lol-gen-ly-2026-10-25",
+          "conditionId": "0x5e3966db18393bd87140fe94883a0daf16acbf600168e1564474960b63098d47",
+          "createdAt": "2026-10-25T01:37:06.528Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the LoL Round 3 match between Gen.G and LYON in the Worlds Group Stage, initially scheduled for October 25, 2026 at 3:00 PM ET.\n\nThis market will resolve to \"Gen.G\" if Gen.G win Game 1 against LYON.\n\nThis market will resolve to \"LYON\" if LYON win Game 1 against Gen.G.\n\nIf the match begins but is not completed, and Game 1 is concluded with a winner determined, this market will resolve based on the completed Game 1. \n\nIf Game 1 is not completed for any reason, this market will resolve 50-50. \n\nIf the match is canceled (not played at all), this market will resolve 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe resolution source for this market will be official information from https://gol.gg/esports/home. However, if https://gol.gg/esports/home has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3790020,
+          "imageUrl": "https://static.predict.fun/lol",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_CHILD_MONEYLINE",
+          "marketVariant": "ESPORTS_LOL",
+          "oracleQuestionId": "0x6bb50f6a5f9d5ce5de1b13baa6f3924496587928ea5701bd5917b7091728e69b",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.83,
+                "size": 2047.5551807228915
+              },
+              "bestBid": {
+                "price": 0.82,
+                "size": 13834.239
+              },
+              "indexSet": 1,
+              "name": "GEN",
+              "onChainId": "57259248599305059112550451522254425960244593534817902786354232049467981368168",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "GRID",
+                "team": {
+                  "abbreviation": "GEN",
+                  "id": 15036,
+                  "name": "Gen.G Esports",
+                  "providerTeamId": "47558"
+                },
+                "type": "ESPORTS_LOL"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "GRID",
+                  "team": {
+                    "abbreviation": "GEN",
+                    "id": 15036,
+                    "name": "Gen.G Esports",
+                    "providerTeamId": "47558"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.18,
+                "size": 13834.239
+              },
+              "bestBid": {
+                "price": 0.17,
+                "size": 2047.5551807228915
+              },
+              "indexSet": 2,
+              "name": "LYON",
+              "onChainId": "39400703081121332879963635239770215204544459317477545735490916432893794324174",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "GRID",
+                "team": {
+                  "abbreviation": "LYON",
+                  "id": 15037,
+                  "name": "LYON",
+                  "providerTeamId": "54198"
+                },
+                "type": "ESPORTS_LOL"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "GRID",
+                  "team": {
+                    "abbreviation": "LYON",
+                    "id": 15037,
+                    "name": "LYON",
+                    "providerTeamId": "54198"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xee382461657355b417a3ba3f75e6de8f898a2a633157641e18d70262fc12b6f8"
+          ],
+          "question": "LoL: Gen.G vs LYON - Game 1 Winner",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-26T01:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-25T01:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T01:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T01:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T02:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-26T01:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Game 1 Winner",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "GRID",
+            "providerEventId": "3014639",
+            "teams": [
+              {
+                "abbreviation": "GEN",
+                "id": 15036,
+                "name": "Gen.G Esports",
+                "providerTeamId": "47558"
+              },
+              {
+                "abbreviation": "LYON",
+                "id": 15037,
+                "name": "LYON",
+                "providerTeamId": "54198"
+              }
+            ],
+            "type": "ESPORTS_LOL"
+          },
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 1
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lol-gen-ly-2026-10-25",
+          "conditionId": "0xf8c07faf04c2f162dd94266be7e05dba791a048e14c7bd405257ba2fce8d39fd",
+          "createdAt": "2026-10-25T02:34:08.480Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Round 3 match between Gen.G and LYON in the Worlds Group Stage, initially scheduled for October 25, 2026 at 3:00 PM ET:\n\nThis market is about the total kills in Game 1.\n\nThis market will resolve to \"Over\" if the total kills in Game 1 is 25 or more. Otherwise, it will resolve to \"Under\".\n\nIf the match is canceled (not played at all), this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf Game 1 is never played due to forfeit, disqualification, or walkover, this market will resolve to 50-50.\n\nIf Game 1 begins but is not completed, this market will resolve to 50-50.\n\nIf Game 1 is remade, resolution will be based on the total kills in the remade game only.\n\nThe resolution source for this market will be official information from https://gol.gg/esports/home. However, if https://gol.gg/esports/home has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n",
+          "feeRateBps": 200,
+          "id": 3791459,
+          "imageUrl": "https://static.predict.fun/lol",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_KILL_OVER_UNDER_GAME",
+          "marketVariant": "ESPORTS_LOL",
+          "oracleQuestionId": "0xe70bf498ee258f660b6ac3f804b696e16d0aa2e3d8716adca0e10157d5df3765",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.6,
+                "size": 250
+              },
+              "bestBid": {
+                "price": 0.59,
+                "size": 250
+              },
+              "indexSet": 1,
+              "name": "Over 24.5",
+              "onChainId": "4653120567854560996485028488891159607535957647180723160049494504970700941254",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.41,
+                "size": 250
+              },
+              "bestBid": {
+                "price": 0.4,
+                "size": 250
+              },
+              "indexSet": 2,
+              "name": "Under 24.5",
+              "onChainId": "107427933417056552684643081006652159315102980453786495887768387713453397009368",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xebea96f76705289a48e9ac116222ed30d0fbce400bc9143ebf86b572760460c0"
+          ],
+          "question": "Total Kills Over/Under 24.5 in Game 1?",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T22:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T22:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T22:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T22:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Total Kills Over/Under 24.5 in Game 1?",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "GRID",
+            "providerEventId": "3014639",
+            "teams": [
+              {
+                "abbreviation": "GEN",
+                "id": 15036,
+                "name": "Gen.G Esports",
+                "providerTeamId": "47558"
+              },
+              {
+                "abbreviation": "LYON",
+                "id": 15037,
+                "name": "LYON",
+                "providerTeamId": "54198"
+              }
+            ],
+            "type": "ESPORTS_LOL"
+          },
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 1,
+              "line": 24.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lol-gen-ly-2026-10-25",
+          "conditionId": "0x331ff5d8e77e96b4b8164c0481dfe9abd3c4985d380ea0c7b9a5c8f51c875b28",
+          "createdAt": "2026-10-25T02:34:08.480Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Round 3 match between Gen.G and LYON in the Worlds Group Stage, initially scheduled for October 25, 2026 at 3:00 PM ET:\n\nThis market is about the total kills in Game 1.\n\nThis market will resolve to \"Over\" if the total kills in Game 1 is 28 or more. Otherwise, it will resolve to \"Under\".\n\nIf the match is canceled (not played at all), this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf Game 1 is never played due to forfeit, disqualification, or walkover, this market will resolve to 50-50.\n\nIf Game 1 begins but is not completed, this market will resolve to 50-50.\n\nIf Game 1 is remade, resolution will be based on the total kills in the remade game only.\n\nThe resolution source for this market will be official information from https://gol.gg/esports/home. However, if https://gol.gg/esports/home has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n",
+          "feeRateBps": 200,
+          "id": 3791461,
+          "imageUrl": "https://static.predict.fun/lol",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_KILL_OVER_UNDER_GAME",
+          "marketVariant": "ESPORTS_LOL",
+          "oracleQuestionId": "0xdcde5e92d4b69ea89fa41727d95117b4f714c0b2df8d41dc67d6242d7109d2f5",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.45,
+                "size": 250
+              },
+              "bestBid": {
+                "price": 0.44,
+                "size": 250
+              },
+              "indexSet": 1,
+              "name": "Over 27.5",
+              "onChainId": "93787595429695031519189578576680340133268092780043743489057826783984463148527",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.56,
+                "size": 250
+              },
+              "bestBid": {
+                "price": 0.55,
+                "size": 250
+              },
+              "indexSet": 2,
+              "name": "Under 27.5",
+              "onChainId": "36300763521608877778341497084640594569702713720484344836486353140345885911504",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xf2940e759986b4ee0ac0c4079598ad934de86fe1977a4b593f4ee442c4b91aa2"
+          ],
+          "question": "Total Kills Over/Under 27.5 in Game 1?",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T22:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T22:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T22:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T22:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Total Kills Over/Under 27.5 in Game 1?",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "GRID",
+            "providerEventId": "3014639",
+            "teams": [
+              {
+                "abbreviation": "GEN",
+                "id": 15036,
+                "name": "Gen.G Esports",
+                "providerTeamId": "47558"
+              },
+              {
+                "abbreviation": "LYON",
+                "id": 15037,
+                "name": "LYON",
+                "providerTeamId": "54198"
+              }
+            ],
+            "type": "ESPORTS_LOL"
+          },
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 1,
+              "line": 27.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lol-gen-ly-2026-10-25",
+          "conditionId": "0x5c39ce9544433316c90362919e903ef5199255f00e2c8d317320ffc347789b3a",
+          "createdAt": "2026-10-25T01:37:06.528Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the LoL Round 3 match between Gen.G and LYON in the Worlds Group Stage, initially scheduled for October 25, 2026 at 3:00 PM ET.\n\nThis market will resolve to \"Gen.G\" if Gen.G win Game 2 against LYON.\n\nThis market will resolve to \"LYON\" if LYON win Game 2 against Gen.G.\n\nIf the match begins but is not completed, and Game 2 is concluded with a winner determined, this market will resolve based on the completed Game 2. \n\nIf Game 2 is not completed for any reason, this market will resolve 50-50. \n\nIf the match is canceled (not played at all), this market will resolve 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe resolution source for this market will be official information from https://gol.gg/esports/home. However, if https://gol.gg/esports/home has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3790030,
+          "imageUrl": "https://static.predict.fun/lol",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_CHILD_MONEYLINE",
+          "marketVariant": "ESPORTS_LOL",
+          "oracleQuestionId": "0x907185d3e8d4c013e34c29d2a6aaa4112e0e2d4012c15c7e5c207db892814815",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.82,
+                "size": 672.8048780487804
+              },
+              "bestBid": {
+                "price": 0.81,
+                "size": 1138.26
+              },
+              "indexSet": 1,
+              "name": "GEN",
+              "onChainId": "94119222888875077350096518449456958828872326458578362781615026762110926077649",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "GRID",
+                "team": {
+                  "abbreviation": "GEN",
+                  "id": 15036,
+                  "name": "Gen.G Esports",
+                  "providerTeamId": "47558"
+                },
+                "type": "ESPORTS_LOL"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "GRID",
+                  "team": {
+                    "abbreviation": "GEN",
+                    "id": 15036,
+                    "name": "Gen.G Esports",
+                    "providerTeamId": "47558"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.19,
+                "size": 1138.26
+              },
+              "bestBid": {
+                "price": 0.18,
+                "size": 672.8048780487804
+              },
+              "indexSet": 2,
+              "name": "LYON",
+              "onChainId": "38314888837884767110675817311439336932512343934919187522948446317526400968171",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "GRID",
+                "team": {
+                  "abbreviation": "LYON",
+                  "id": 15037,
+                  "name": "LYON",
+                  "providerTeamId": "54198"
+                },
+                "type": "ESPORTS_LOL"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "GRID",
+                  "team": {
+                    "abbreviation": "LYON",
+                    "id": 15037,
+                    "name": "LYON",
+                    "providerTeamId": "54198"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x4b82c0dd6196c7325a465b74b30c50c5df0acebf44a0ea756155e5053fa14bcf"
+          ],
+          "question": "LoL: Gen.G vs LYON - Game 2 Winner",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-26T02:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-25T01:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T02:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T01:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T03:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-26T02:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Game 2 Winner",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "GRID",
+            "providerEventId": "3014639",
+            "teams": [
+              {
+                "abbreviation": "GEN",
+                "id": 15036,
+                "name": "Gen.G Esports",
+                "providerTeamId": "47558"
+              },
+              {
+                "abbreviation": "LYON",
+                "id": 15037,
+                "name": "LYON",
+                "providerTeamId": "54198"
+              }
+            ],
+            "type": "ESPORTS_LOL"
+          },
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 2
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lol-gen-ly-2026-10-25",
+          "conditionId": "0x99cd0d5daa4f75d4c54d3fa851f4c64036751fc9d741becafa322d47a95e683a",
+          "createdAt": "2026-10-25T02:34:08.480Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Round 3 match between Gen.G and LYON in the Worlds Group Stage, initially scheduled for October 25, 2026 at 3:00 PM ET:\n\nThis market is about the total kills in Game 2.\n\nThis market will resolve to \"Over\" if the total kills in Game 2 is 28 or more. Otherwise, it will resolve to \"Under\".\n\nIf the match is canceled (not played at all), this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf Game 2 is never played due to forfeit, disqualification, or walkover, this market will resolve to 50-50.\n\nIf Game 2 begins but is not completed, this market will resolve to 50-50.\n\nIf Game 2 is remade, resolution will be based on the total kills in the remade game only.\n\nThe resolution source for this market will be official information from https://gol.gg/esports/home. However, if https://gol.gg/esports/home has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n",
+          "feeRateBps": 200,
+          "id": 3791462,
+          "imageUrl": "https://static.predict.fun/lol",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_KILL_OVER_UNDER_GAME",
+          "marketVariant": "ESPORTS_LOL",
+          "oracleQuestionId": "0x33ea2c5dd76c8c08ceb9767b877324a229f7b69836a443db34185f21324fb57b",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.45,
+                "size": 250
+              },
+              "bestBid": {
+                "price": 0.44,
+                "size": 250
+              },
+              "indexSet": 1,
+              "name": "Over 27.5",
+              "onChainId": "1296178916162371204326781561560966034219082634336639917854885141156256988755",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.56,
+                "size": 250
+              },
+              "bestBid": {
+                "price": 0.55,
+                "size": 250
+              },
+              "indexSet": 2,
+              "name": "Under 27.5",
+              "onChainId": "17108975925415034628505487939222460100838312005777537975564075324333621932303",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xe4d7eee052fe6f2407ae3425bda50c3d1ae6d56638f95547f7712ed8123a66c4"
+          ],
+          "question": "Total Kills Over/Under 27.5 in Game 2?",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T23:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T22:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T22:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T00:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T23:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Total Kills Over/Under 27.5 in Game 2?",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "GRID",
+            "providerEventId": "3014639",
+            "teams": [
+              {
+                "abbreviation": "GEN",
+                "id": 15036,
+                "name": "Gen.G Esports",
+                "providerTeamId": "47558"
+              },
+              {
+                "abbreviation": "LYON",
+                "id": 15037,
+                "name": "LYON",
+                "providerTeamId": "54198"
+              }
+            ],
+            "type": "ESPORTS_LOL"
+          },
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 2,
+              "line": 27.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lol-gen-ly-2026-10-25",
+          "conditionId": "0xae05248609bf4b9f356a6bdae95a3937e4b821ba0ef5d2e9c62b49ae8fd94fe8",
+          "createdAt": "2026-10-25T02:34:08.480Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Round 3 match between Gen.G and LYON in the Worlds Group Stage, initially scheduled for October 25, 2026 at 3:00 PM ET:\n\nThis market is about the total kills in Game 2.\n\nThis market will resolve to \"Over\" if the total kills in Game 2 is 25 or more. Otherwise, it will resolve to \"Under\".\n\nIf the match is canceled (not played at all), this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf Game 2 is never played due to forfeit, disqualification, or walkover, this market will resolve to 50-50.\n\nIf Game 2 begins but is not completed, this market will resolve to 50-50.\n\nIf Game 2 is remade, resolution will be based on the total kills in the remade game only.\n\nThe resolution source for this market will be official information from https://gol.gg/esports/home. However, if https://gol.gg/esports/home has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n",
+          "feeRateBps": 200,
+          "id": 3791464,
+          "imageUrl": "https://static.predict.fun/lol",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_KILL_OVER_UNDER_GAME",
+          "marketVariant": "ESPORTS_LOL",
+          "oracleQuestionId": "0xd6a66972474123e6fa6b4baa53a4174c5004f6c8173ebe0ca8f38662f1da3821",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.6,
+                "size": 250
+              },
+              "bestBid": {
+                "price": 0.59,
+                "size": 250
+              },
+              "indexSet": 1,
+              "name": "Over 24.5",
+              "onChainId": "115031399683798054937532580581892490771485328441815994892585686846236495524815",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.41,
+                "size": 250
+              },
+              "bestBid": {
+                "price": 0.4,
+                "size": 250
+              },
+              "indexSet": 2,
+              "name": "Under 24.5",
+              "onChainId": "74339664713407085643565270259502662284652236378465445633856277697217997704739",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xb4e5fccb21fc5c650b177d58389a27d25e154406739a95ca2489069626d5346b"
+          ],
+          "question": "Total Kills Over/Under 24.5 in Game 2?",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T23:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T22:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T22:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T00:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T23:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Total Kills Over/Under 24.5 in Game 2?",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "GRID",
+            "providerEventId": "3014639",
+            "teams": [
+              {
+                "abbreviation": "GEN",
+                "id": 15036,
+                "name": "Gen.G Esports",
+                "providerTeamId": "47558"
+              },
+              {
+                "abbreviation": "LYON",
+                "id": 15037,
+                "name": "LYON",
+                "providerTeamId": "54198"
+              }
+            ],
+            "type": "ESPORTS_LOL"
+          },
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 2,
+              "line": 24.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lol-gen-ly-2026-10-25",
+          "conditionId": "0x1c65db24f9d9292a99a1620d5ee1761f08cc727b4fbe0d7979ae19eeb256e018",
+          "createdAt": "2026-10-25T01:37:06.528Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the LoL Round 3 match between Gen.G and LYON in the Worlds Group Stage, initially scheduled for October 25, 2026 at 3:00 PM ET.\n\nThis market will resolve to \"Over\" if Gen.G and LYON play 3 or more games in this series.\n\nIf fewer than 3 games are played, this market will resolve to \"Under\".\n\nGames won by forfeit, disqualification, walkover, or default are counted towards the total, provided that the match is completed.\n\nIf the match is canceled (not played at all for any reason) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe match is considered to have begun once live play begins in its first map or game. Warmup rounds and knife rounds do not count as the start of the match. A round forced live because a team did not ready up or resume play within the allotted time does not count as the start of the match if that team forfeits before the next round begins.\n\nIf the match begins and one team wins due to the opponent's match forfeiture, disqualification, or walkover, the match will count as completed.\n\nIn that case, any remaining games required to decide the match, including a game in progress or not yet started, will be counted as won by the winning team.\n\nIf the match ends due to the clinching game being forfeited this will count as a completed match.\n\nThe resolution source for this market will be official information from https://gol.gg/esports/home. However, if https://gol.gg/esports/home has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3790047,
+          "imageUrl": "https://static.predict.fun/lol",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "ESPORTS_LOL",
+          "oracleQuestionId": "0x0a5486bf7e39cb422f6d7bd09744d07759a0e2b5f76a53a67ca0cb4606b90d01",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.29,
+                "size": 1070.48
+              },
+              "bestBid": {
+                "price": 0.28,
+                "size": 2069.5855555555554
+              },
+              "indexSet": 1,
+              "name": "Over 2.5",
+              "onChainId": "31397386800118435008808762921610942657678388740183411050030679804938691526655",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.72,
+                "size": 2069.5855555555554
+              },
+              "bestBid": {
+                "price": 0.71,
+                "size": 1070.48
+              },
+              "indexSet": 2,
+              "name": "Under 2.5",
+              "onChainId": "3817912082761419406005213669841955356415150058959437953838165921192159632029",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x05b27f1c434ca61477edf0c57ae8e088737b6d845d3a3ed14b1ca4f17e9c360c"
+          ],
+          "question": "Games Total: O/U 2.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-26T01:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-25T01:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T01:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T01:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T04:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-26T01:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 2.5 Games",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "GRID",
+            "providerEventId": "3014639",
+            "teams": [
+              {
+                "abbreviation": "GEN",
+                "id": 15036,
+                "name": "Gen.G Esports",
+                "providerTeamId": "47558"
+              },
+              {
+                "abbreviation": "LYON",
+                "id": 15037,
+                "name": "LYON",
+                "providerTeamId": "54198"
+              }
+            ],
+            "type": "ESPORTS_LOL"
+          },
+          "variantDetails": {
+            "sports": {
+              "line": 2.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lol-gen-ly-2026-10-25",
+          "conditionId": "0x2838355571381a2d5082635e98fdf8256725e7470f304f541e31a35e9f412dfa",
+          "createdAt": "2026-10-25T01:58:05.714Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the LoL Round 3 match between Gen.G and LYON in the Worlds Group Stage, initially scheduled for October 25, 2026 at 3:00 PM ET.\n\nThis market will resolve to \"Gen.G\" if Gen.G wins 2 or more games than LYON in this match.\n\nOtherwise, this market will resolve to \"LYON\". \n\nGames won by forfeit, disqualification, walkover, or default are counted towards the handicap, provided that the match is completed.\n\nIf the match is canceled (not played at all for any reason) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe match is considered to have begun once live play begins in its first map or game. Warmup rounds and knife rounds do not count as the start of the match. A round forced live because a team did not ready up or resume play within the allotted time does not count as the start of the match if that team forfeits before the next round begins.\n\nIf the match begins and one team wins due to the opponent's match forfeiture, disqualification, or walkover, the match will count as completed.\n\nIn that case, any remaining games required to decide the match, including a game in progress or not yet started, will be counted as won by the winning team.\n\nIf the match ends due to the clinching game being forfeited this will count as a completed match.\n\nThe resolution source for this market will be official information from https://gol.gg/esports/home. However, if https://gol.gg/esports/home has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3790217,
+          "imageUrl": "https://static.predict.fun/lol",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MAP_HANDICAP",
+          "marketVariant": "ESPORTS_LOL",
+          "oracleQuestionId": "0x2dd7ec19a7284efdca9870b47c9901ffbad8d732bbe3a39a5b1b2b648f101602",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.69,
+                "size": 2283.2617363768118
+              },
+              "bestBid": {
+                "price": 0.68,
+                "size": 2525.1843
+              },
+              "indexSet": 1,
+              "name": "GEN",
+              "onChainId": "65103662339486973186982675724293805770285103458217242846144874048002463956862",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "GRID",
+                "team": {
+                  "abbreviation": "GEN",
+                  "id": 15036,
+                  "name": "Gen.G Esports",
+                  "providerTeamId": "47558"
+                },
+                "type": "ESPORTS_LOL"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "GRID",
+                  "team": {
+                    "abbreviation": "GEN",
+                    "id": 15036,
+                    "name": "Gen.G Esports",
+                    "providerTeamId": "47558"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.32,
+                "size": 2525.1843
+              },
+              "bestBid": {
+                "price": 0.31,
+                "size": 2283.2617363768118
+              },
+              "indexSet": 2,
+              "name": "LYON",
+              "onChainId": "26310562354303332401062378768508507172316820421785521543365664659606935233791",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "GRID",
+                "team": {
+                  "abbreviation": "LYON",
+                  "id": 15037,
+                  "name": "LYON",
+                  "providerTeamId": "54198"
+                },
+                "type": "ESPORTS_LOL"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "GRID",
+                  "team": {
+                    "abbreviation": "LYON",
+                    "id": 15037,
+                    "name": "LYON",
+                    "providerTeamId": "54198"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xde61156b8f4a34503e771ab66a68615d15175f844efed5cf829c14dc60a305be"
+          ],
+          "question": "Game Handicap: GEN (-1.5) vs LYON (+1.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-26T01:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-25T01:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T01:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T01:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T04:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-26T01:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Game Handicap: GEN (-1.5) vs LYON (+1.5)",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "GRID",
+            "providerEventId": "3014639",
+            "teams": [
+              {
+                "abbreviation": "GEN",
+                "id": 15036,
+                "name": "Gen.G Esports",
+                "providerTeamId": "47558"
+              },
+              {
+                "abbreviation": "LYON",
+                "id": 15037,
+                "name": "LYON",
+                "providerTeamId": "54198"
+              }
+            ],
+            "type": "ESPORTS_LOL"
+          },
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          }
+        }
+      ],
+      "negRiskOnChainId": null,
+      "parentSlug": null,
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-25T01:38:03.323Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "lol-gen-ly-2026-10-25",
+      "startsAt": "2026-10-25T22:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "83",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Esports",
+          "parentId": null
+        },
+        {
+          "id": "84",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "LoL",
+          "parentId": "83"
+        },
+        {
+          "id": "2991",
+          "level": 3,
+          "makerRebateBps": 0,
+          "name": "Worlds",
+          "parentId": "84"
+        }
+      ],
+      "teams": null,
+      "title": "LoL: Gen.G vs LYON (BO3) - Worlds Group Stage",
+      "tradingSession": null,
+      "variantData": {
+        "provider": "GRID",
+        "providerEventId": "3014639",
+        "teams": [
+          {
+            "abbreviation": "GEN",
+            "id": 15036,
+            "name": "Gen.G Esports",
+            "providerTeamId": "47558"
+          },
+          {
+            "abbreviation": "LYON",
+            "id": 15037,
+            "name": "LYON",
+            "providerTeamId": "54198"
+          }
+        ],
+        "type": "ESPORTS_LOL"
+      },
+      "variantDetails": {
+        "sports": {
+          "provider": "GRID",
+          "providerEventId": "3014639",
+          "scoreboard": {
+            "bestOf": 3,
+            "games": [],
+            "score": [],
+            "source": "GRID"
+          },
+          "teams": [
+            {
+              "abbreviation": "GEN",
+              "id": 15036,
+              "name": "Gen.G Esports",
+              "providerTeamId": "47558"
+            },
+            {
+              "abbreviation": "LYON",
+              "id": 15037,
+              "name": "LYON",
+              "providerTeamId": "54198"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

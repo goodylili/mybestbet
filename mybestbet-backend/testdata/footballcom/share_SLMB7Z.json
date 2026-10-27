@@ -1,0 +1,9 @@
+{
+  "bizCode": 10000,
+  "message": "Success",
+  "data": {
+    "shareCode": "SLMB7Z",
+    "shareURL": "http://www.football.com/ng/?shareCode=SLMB7Z",
+    "isExpertCode": false
+  }
+}

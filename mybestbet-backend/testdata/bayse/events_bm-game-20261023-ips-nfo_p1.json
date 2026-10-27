@@ -1,0 +1,1050 @@
+{
+ "events": [
+  {
+   "id": "6741f17d-0c13-4515-a254-e6cb24e14036",
+   "slug": "how-many-passes-will-ipswich-get-vs-forest",
+   "title": "How Many Passes Will Ipswich Get vs Forest?",
+   "category": "SPORTS",
+   "type": "COMBINED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "",
+   "resolutionDate": "2026-10-23T22:59:00Z",
+   "resolutionSource": "https://www.sofascore.com/",
+   "hashtags": [
+    "EPL"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 54872.65,
+   "totalOrders": 14,
+   "markets": [
+    {
+     "id": "bf00ac0b-5c51-472c-b978-912432f55c3d",
+     "title": "436 - 555",
+     "status": "open",
+     "outcome1Id": "fb1ae6ac-acb6-40c7-b411-c3d0db34485d",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.5534,
+     "outcome2Id": "c8642738-866c-44ec-bdb2-24d08939849b",
+     "outcome2Label": "No",
+     "outcome2Price": 0.4466,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Ipswich records between 436 and 555 total passes (inclusive) during the match."
+    },
+    {
+     "id": "7d8e611b-d3a2-430c-aac7-3b7046f97375",
+     "title": "Less than 436",
+     "status": "open",
+     "outcome1Id": "1e95c1d7-83a2-4811-b05e-f48e6991e6d1",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.2796,
+     "outcome2Id": "f3ced8eb-c1f5-4682-9802-e91cb24d02cf",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7204,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Ipswich records fewer than 436 total passes during the match.\r\n\r\n"
+    },
+    {
+     "id": "66aae770-4975-48cc-b514-dbc0e867c61d",
+     "title": " 556 or more",
+     "status": "open",
+     "outcome1Id": "1e478d45-b48f-4752-9188-d573f465fef5",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.167,
+     "outcome2Id": "5a3cf98e-137e-4cfc-949f-ba740d47594d",
+     "outcome2Label": "No",
+     "outcome2Price": 0.833,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Ipswich records 556 or more total passes during the match.\r\n\r\n"
+    }
+   ]
+  },
+  {
+   "id": "daf4fd61-2a43-4291-8898-843ff37ca717",
+   "slug": "ipswich-vs-forest-total-shots",
+   "title": "Ipswich vs Forest: Total Shots?",
+   "category": "SPORTS",
+   "type": "COMBINED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "",
+   "resolutionDate": "2026-10-23T22:59:00Z",
+   "resolutionSource": "https://www.sofascore.com/",
+   "hashtags": [
+    "EPL"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 54872.65,
+   "totalOrders": 12,
+   "markets": [
+    {
+     "id": "c5606ab9-87e9-44ab-bef2-525a199ec185",
+     "title": "25 - 31",
+     "status": "open",
+     "outcome1Id": "eda3e59d-e30c-4be4-ae8f-a8b01cb4a7ab",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4121,
+     "outcome2Id": "3a271702-1900-4eb1-9095-994d273030ff",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5879,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if the total shots recorded in the match are between 25 and 31 (inclusive)."
+    },
+    {
+     "id": "d2ad66a0-f3b2-447a-a5c7-efce0cca0398",
+     "title": "Less than 25",
+     "status": "open",
+     "outcome1Id": "caa52a05-bdc6-4764-b6f7-56e5cecf0a69",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.2975,
+     "outcome2Id": "777680ca-903d-43a0-b3b4-6264fdff2d16",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7025,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if the total shots recorded in the match are fewer than 25.\r\n\r\n"
+    },
+    {
+     "id": "ab3f9ba4-a3ba-4dbc-862e-cf18cea2fe10",
+     "title": "32 or more",
+     "status": "open",
+     "outcome1Id": "9dda7657-fe4f-4c35-a9f4-dcb09603f7ce",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.2903,
+     "outcome2Id": "8b1dafa9-f618-41a3-b8d5-62302d3dc62c",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7097,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if the total shots recorded in the match are 32 or more."
+    }
+   ]
+  },
+  {
+   "id": "6d14c79a-e418-4c9f-ab2e-066c3c5b422b",
+   "slug": "delap-7-4-sofascore-rating-vs-ipswich",
+   "title": "Delap 6.9+ Sofascore Rating vs Ipswich?",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "",
+   "resolutionDate": "2026-10-23T22:59:00Z",
+   "resolutionSource": "https://www.sofascore.com/",
+   "hashtags": [
+    "Sofascore Ratings"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 15,
+   "markets": [
+    {
+     "id": "8f771fd1-362a-41dd-a82e-13de850d73a4",
+     "title": "Delap 6.9+ Sofascore Rating vs Ipswich?",
+     "status": "open",
+     "outcome1Id": "8d57754f-8cb2-4cc7-b9f9-5e93ebfd1c7a",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.51,
+     "outcome2Id": "9c70d224-e737-44d7-b4f1-c27c8997395d",
+     "outcome2Label": "No",
+     "outcome2Price": 0.49,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Delap's official Sofascore rating is 6.9 or higher at full-time.\r\n\r\nIt will resolve as **No** if his rating is lower than 6.9\r\n\r\nAs long as he receives a Sofascore rating, it will count, even if he is "
+    }
+   ]
+  },
+  {
+   "id": "a3b1b85a-c030-4d9c-8b52-e406587b44ec",
+   "slug": "gibbs-white-7-4-sofascore-rating-vs-ipswich",
+   "title": "Gibbs-White 7.1+ Sofascore Rating vs Ipswich?",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "",
+   "resolutionDate": "2026-10-23T22:59:00Z",
+   "resolutionSource": "https://www.sofascore.com/",
+   "hashtags": [
+    "Sofascore Ratings"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 9,
+   "markets": [
+    {
+     "id": "a75d8dee-10f9-47e4-b253-0b6c80862672",
+     "title": "Gibbs-White 7.1+ Sofascore Rating vs Ipswich?",
+     "status": "open",
+     "outcome1Id": "91e89807-43aa-4ce3-a507-9d1986ce00a1",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.5048,
+     "outcome2Id": "d6bf579f-96ba-45c5-8401-a426981b8377",
+     "outcome2Label": "No",
+     "outcome2Price": 0.4952,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Gibbs-White's official Sofascore rating is 7.1 or higher at full-time.\r\n\r\nIt will resolve as **No** if his rating is lower than 7.1\r\n\r\nAs long as he receives a Sofascore rating, it will count, even if "
+    }
+   ]
+  },
+  {
+   "id": "11c71310-a1ea-4859-92fc-9890ccff165b",
+   "slug": "epl-ips-not-2026-10-23-more-markets-0e5b36a6",
+   "title": "Nottingham Forest FC: Total Goals",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T18:59:59.999Z",
+   "resolutionDate": "2026-10-23T19:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "TOTAL_GOALS_AWAY",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1893106.59,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "34ea987b-90f6-4b41-83b8-efae6181016f",
+     "title": "O/U 1.5",
+     "status": "open",
+     "outcome1Id": "367ba62d-b511-44d0-b06c-8c3f370dc56c",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.47,
+     "outcome2Id": "7bf2af82-03e9-4370-9e80-cf5660a47ea4",
+     "outcome2Label": "No",
+     "outcome2Price": 0.53,
+     "propLine": 1.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Nottingham Forest FC score 2 or more goals within the first 90 minute"
+    },
+    {
+     "id": "41aecb6f-f425-4caf-9c44-f9710a81dfc8",
+     "title": "O/U 0.5",
+     "status": "open",
+     "outcome1Id": "53843237-27a4-44d7-99cb-11a0b3c88546",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.8,
+     "outcome2Id": "ecf058c8-ebf7-432f-95db-f32f2a93f628",
+     "outcome2Label": "No",
+     "outcome2Price": 0.2,
+     "propLine": 0.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Nottingham Forest FC score 1 or more goals within the first 90 minute"
+    },
+    {
+     "id": "80b3cfa2-4111-48f5-a54c-9968322ae541",
+     "title": "O/U 2.5",
+     "status": "open",
+     "outcome1Id": "bdb104b5-b163-419b-ab81-2d3497207aac",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.205,
+     "outcome2Id": "e44a8058-7652-4748-93dd-6832b2573ac1",
+     "outcome2Label": "No",
+     "outcome2Price": 0.795,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Nottingham Forest FC score 3 or more goals within the first 90 minute"
+    },
+    {
+     "id": "02f151bd-57ad-4d9e-8c71-86f7ca5dc50f",
+     "title": "O/U 3.5",
+     "status": "open",
+     "outcome1Id": "38cf2a2f-bd54-439c-99f5-6c76cda4be81",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.075,
+     "outcome2Id": "842765e2-7c62-407e-8e5f-9d0afa1aa7e4",
+     "outcome2Label": "No",
+     "outcome2Price": 0.925,
+     "propLine": 3.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Nottingham Forest FC score 4 or more goals within the first 90 minute"
+    },
+    {
+     "id": "97b60f40-c69d-41de-a47b-f8d53c9b4d4f",
+     "title": "O/U 5.5",
+     "status": "open",
+     "outcome1Id": "1db3e508-4602-4b3f-964c-8012b15f0b51",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.0115,
+     "outcome2Id": "27b76827-5090-4a29-ade1-047353161d16",
+     "outcome2Label": "No",
+     "outcome2Price": 0.9885,
+     "propLine": 5.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Nottingham Forest FC score 6 or more goals within the first 90 minute"
+    },
+    {
+     "id": "a00c98d6-ca39-486d-9645-c56dba5db5d1",
+     "title": "O/U 4.5",
+     "status": "open",
+     "outcome1Id": "ead263c8-bfb0-4cc6-9080-2977561cfd5c",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.017,
+     "outcome2Id": "3194406a-0004-4b17-b876-39d859afc151",
+     "outcome2Label": "No",
+     "outcome2Price": 0.983,
+     "propLine": 4.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Nottingham Forest FC score 5 or more goals within the first 90 minute"
+    }
+   ]
+  },
+  {
+   "id": "bc24c36c-3c48-4a2b-926d-3ab7cb9495ff",
+   "slug": "epl-ips-not-2026-10-23-more-markets-ee96a0f2",
+   "title": "Ipswich Town FC: Total Goals",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T18:59:59.999Z",
+   "resolutionDate": "2026-10-23T19:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "TOTAL_GOALS_HOME",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 2050865.47,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "125cb7b6-ee30-4462-a6fd-d36b382db8a5",
+     "title": "O/U 1.5",
+     "status": "open",
+     "outcome1Id": "0bd25f1c-8565-4cdc-8732-9b88c8951ff5",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.38,
+     "outcome2Id": "81cf411d-7fd2-4c23-a168-3d7da36be87a",
+     "outcome2Label": "No",
+     "outcome2Price": 0.62,
+     "propLine": 1.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Ipswich Town FC score 2 or more goals within the first 90 minutes of "
+    },
+    {
+     "id": "210bb1c7-952e-4f90-8dbf-573949b63fb6",
+     "title": "O/U 0.5",
+     "status": "open",
+     "outcome1Id": "c6241671-c79e-4b35-8b85-55d0fd526b7b",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.74,
+     "outcome2Id": "988567b4-3782-4d9f-bb58-eb56147b6a17",
+     "outcome2Label": "No",
+     "outcome2Price": 0.26,
+     "propLine": 0.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Ipswich Town FC score 1 or more goals within the first 90 minutes of "
+    },
+    {
+     "id": "d28beb5a-7aaf-41b6-a60c-374de54daed8",
+     "title": "O/U 2.5",
+     "status": "open",
+     "outcome1Id": "4587f7b8-6401-4472-94db-b966f5bd6e90",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.14,
+     "outcome2Id": "44947902-454f-4fa0-a65e-b99bace770ba",
+     "outcome2Label": "No",
+     "outcome2Price": 0.86,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Ipswich Town FC score 3 or more goals within the first 90 minutes of "
+    },
+    {
+     "id": "d434758d-a9d3-43b0-ae85-88cc5d4b81e7",
+     "title": "O/U 3.5",
+     "status": "open",
+     "outcome1Id": "77067d5b-4125-4b59-abca-d4340f9e4cc2",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.042,
+     "outcome2Id": "25aa2c89-2290-49a9-84e7-89b3e08b04a2",
+     "outcome2Label": "No",
+     "outcome2Price": 0.958,
+     "propLine": 3.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Ipswich Town FC score 4 or more goals within the first 90 minutes of "
+    },
+    {
+     "id": "f7e7eed5-a4b1-4bef-9d04-4c6e9a338e2f",
+     "title": "O/U 5.5",
+     "status": "open",
+     "outcome1Id": "2c6f5e0b-7227-4918-b946-b9e8e5dad050",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.009,
+     "outcome2Id": "2e61e9b2-2c52-4889-9888-28725acc4234",
+     "outcome2Label": "No",
+     "outcome2Price": 0.991,
+     "propLine": 5.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Ipswich Town FC score 6 or more goals within the first 90 minutes of "
+    },
+    {
+     "id": "9cf9396a-0b64-4494-9b0c-74846d8977e9",
+     "title": "O/U 4.5",
+     "status": "open",
+     "outcome1Id": "327f2e19-08ac-4ca3-9d00-13f4d4572fcb",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.009,
+     "outcome2Id": "0251d976-5d7f-4d8c-8403-fb926bbfed18",
+     "outcome2Label": "No",
+     "outcome2Price": 0.991,
+     "propLine": 4.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Ipswich Town FC and Nottingham Forest FC, scheduled for October 23, 2026 at 7:00 PM UTC: This market will resolve to \"Over\" if Ipswich Town FC score 5 or more goals within the first 90 minutes of "
+    }
+   ]
+  },
+  {
+   "id": "8ceea1aa-1492-43ac-8f22-b08caaed3569",
+   "slug": "neco-williams-5-5-crosses-vs-ips-20261023",
+   "title": "Neco Williams: 5.5 Crosses vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Crosses"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_CROSSES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "af771317-416b-4e05-8f2f-3987ff757415",
+     "title": "O/U 5.5",
+     "status": "open",
+     "outcome1Id": "fccc1e15-6de5-41aa-85b8-cac48cd188a1",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "a2e580c1-dcb1-4b97-a458-7828cdb3fa22",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 5.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Neco Williams records more than 5.5 crosses during the match against Ipswich Town FC. It will resolve as **Under** if Neco Williams records fewer than 5.5 crosses during the match against Ipswich Town"
+    }
+   ]
+  },
+  {
+   "id": "e15c4ab4-481c-4572-8d65-d6a0c2c30205",
+   "slug": "liam-delap-2-5-dribbles-vs-ips-20261023",
+   "title": "Liam Delap: 2.5 Dribbles vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Dribble attempts"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_DRIBBLE_ATTEMPTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 3,
+   "markets": [
+    {
+     "id": "6a607ec4-6b84-4330-bcca-b3e60d0cf031",
+     "title": "O/U 2.5",
+     "status": "open",
+     "outcome1Id": "9bc1f57e-fb69-4cec-8516-9f0b947c837e",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "45835146-1cbb-4b32-b3f1-2ffdec3c2fdb",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Liam Delap records more than 2.5 dribble attempts during the match against Ipswich Town FC. It will resolve as **Under** if Liam Delap records fewer than 2.5 dribble attempts during the match against "
+    }
+   ]
+  },
+  {
+   "id": "272f6e85-4786-4b88-99d1-5429370ecf28",
+   "slug": "leif-davis-3-crosses-vs-nfo-20261023",
+   "title": "Leif Davis: 3 Crosses vs Nottingham Forest FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Crosses"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_CROSSES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "ae118b56-1268-4144-b217-2c48a9d01657",
+     "title": "O/U 3",
+     "status": "open",
+     "outcome1Id": "138f5d53-b8f1-4f53-bbb3-a9fc5d44af48",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "f3b02a1b-2d70-47c2-a327-10d97a84c4fc",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 3,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Leif Davis records more than 3 crosses during the match against Nottingham Forest FC. It will resolve as **Under** if Leif Davis records fewer than 3 crosses during the match against Nottingham Forest"
+    }
+   ]
+  },
+  {
+   "id": "0903b2ff-673b-4659-91bf-6efd184f0ca2",
+   "slug": "morgan-gibbs-white-2-5-key-passes-vs-ips-20261023",
+   "title": "Morgan Gibbs-White: 2.5 Key Passes vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Key passes"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_KEY_PASSES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "22497d7e-319f-45ba-a756-1f27f1cfc9ee",
+     "title": "O/U 2.5",
+     "status": "open",
+     "outcome1Id": "e0bce92a-b4b1-4cbe-ae9d-dd20db4552ee",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "b2133d98-6746-4cad-9a44-fdafdaad1594",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Morgan Gibbs-White records more than 2.5 key passes during the match against Ipswich Town FC. It will resolve as **Under** if Morgan Gibbs-White records fewer than 2.5 key passes during the match agai"
+    }
+   ]
+  },
+  {
+   "id": "5a0762ba-4483-4ece-9f81-8cf97f45d0d2",
+   "slug": "xaver-schlager-3-5-tackles-vs-ips-20261023",
+   "title": "Xaver Schlager: 3.5 Tackles vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Tackles"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_TACKLES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 20577.25,
+   "totalOrders": 2,
+   "markets": [
+    {
+     "id": "4dc703c2-5e61-495e-9fd3-30f405ba6102",
+     "title": "O/U 3.5",
+     "status": "open",
+     "outcome1Id": "5f6702a4-fe0f-45a3-8cb4-d5264976d263",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5,
+     "outcome2Id": "e439c6ec-70d9-4e4f-adfd-b875c77beb6e",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5,
+     "propLine": 3.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Xaver Schlager records more than 3.5 tackles during the match against Ipswich Town FC. It will resolve as **Under** if Xaver Schlager records fewer than 3.5 tackles during the match against Ipswich To"
+    }
+   ]
+  },
+  {
+   "id": "26db18c8-525c-43ff-81cb-b0b5cfb8d1ae",
+   "slug": "julio-enciso-4-dribbles-vs-nfo-20261023",
+   "title": "Julio Enciso: 4 Dribbles vs Nottingham Forest FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Dribble attempts"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_DRIBBLE_ATTEMPTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "53d328df-2b59-4390-8295-a0101ff8bad8",
+     "title": "O/U 4",
+     "status": "open",
+     "outcome1Id": "195a0e43-d478-4a94-9857-49c7ef3b9812",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "4238279b-054b-4f5e-b1e2-5b02ef094676",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 4,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Julio Enciso records more than 4 dribble attempts during the match against Nottingham Forest FC. It will resolve as **Under** if Julio Enciso records fewer than 4 dribble attempts during the match aga"
+    }
+   ]
+  },
+  {
+   "id": "c3a597b0-8f10-4ffd-90e0-b01d0c063eae",
+   "slug": "christian-walton-34-5-passes-vs-nfo-20261023",
+   "title": "Christian Walton: 34.5 Passes vs Nottingham Forest FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Passing attempts"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_PASSING_ATTEMPTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "98a08fc2-2f51-4495-bcd4-505ac56f8b98",
+     "title": "O/U 34.5",
+     "status": "open",
+     "outcome1Id": "4aea2f88-cb0e-4ea8-93c1-8dede67ced3a",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "b4a529d0-09c7-4c20-915a-4a1cdfc61344",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 34.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Christian Walton records more than 34.5 passing attempts during the match against Nottingham Forest FC. It will resolve as **Under** if Christian Walton records fewer than 34.5 passing attempts during"
+    }
+   ]
+  },
+  {
+   "id": "10466d78-b698-4346-9050-f6657e286b4b",
+   "slug": "julio-enciso-22-5-passes-vs-nfo-20261023",
+   "title": "Julio Enciso: 22.5 Passes vs Nottingham Forest FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Passing attempts"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_PASSING_ATTEMPTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 2,
+   "markets": [
+    {
+     "id": "6fa8acbb-54de-47f9-8f46-a67f909a9385",
+     "title": "O/U 22.5",
+     "status": "open",
+     "outcome1Id": "bb7cefb0-3bc2-4297-8d8f-d16e0b3fbaec",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "f498cb88-0d34-4968-a132-a6a7e65f0e9c",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 22.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Julio Enciso records more than 22.5 passing attempts during the match against Nottingham Forest FC. It will resolve as **Under** if Julio Enciso records fewer than 22.5 passing attempts during the mat"
+    }
+   ]
+  },
+  {
+   "id": "e6462d8b-a211-41da-a5bc-306f43670498",
+   "slug": "murillo-santiago-costa-dos-santos-54-5-passes-vs-ips-20261023",
+   "title": "Murillo Santiago Costa dos Santos: 54.5 Passes vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Passing attempts"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_PASSING_ATTEMPTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 20577.25,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "f457135c-cf52-4289-a0c2-65659a37b72d",
+     "title": "O/U 54.5",
+     "status": "open",
+     "outcome1Id": "bb96e374-b200-4690-924f-7ad4ac97ef43",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5,
+     "outcome2Id": "047d8ddb-57cf-4a25-ab9d-cdbbe502b660",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5,
+     "propLine": 54.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Murillo Santiago Costa dos Santos records more than 54.5 passing attempts during the match against Ipswich Town FC. It will resolve as **Under** if Murillo Santiago Costa dos Santos records fewer than"
+    }
+   ]
+  },
+  {
+   "id": "57ecf301-49da-416a-9d4b-560559302d89",
+   "slug": "morgan-gibbs-white-38-5-passes-vs-ips-20261023",
+   "title": "Morgan Gibbs-White: 38.5 Passes vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Passing attempts"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_PASSING_ATTEMPTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 3,
+   "markets": [
+    {
+     "id": "4cf4a623-7c12-4e50-8111-ed75e92790be",
+     "title": "O/U 38.5",
+     "status": "open",
+     "outcome1Id": "00c7d55c-731a-47f4-a9ff-fa061a63a3fb",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "e802c3c8-fa77-4650-a267-31984f0a4127",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 38.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Morgan Gibbs-White records more than 38.5 passing attempts during the match against Ipswich Town FC. It will resolve as **Under** if Morgan Gibbs-White records fewer than 38.5 passing attempts during "
+    }
+   ]
+  },
+  {
+   "id": "5020f8f1-c697-4a18-b31a-94fe1dfbf264",
+   "slug": "matz-sels-26-5-passes-vs-ips-20261023",
+   "title": "Matz Sels: 26.5 Passes vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Passing attempts"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_PASSING_ATTEMPTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 20577.25,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "c20af5a2-ce68-48ec-98f2-4a22e77126cc",
+     "title": "O/U 26.5",
+     "status": "open",
+     "outcome1Id": "b508a31c-53fc-4783-8ede-5cf801af7eb3",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5,
+     "outcome2Id": "9068c03c-1e9c-4cb7-8067-60cefffdd823",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5,
+     "propLine": 26.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Matz Sels records more than 26.5 passing attempts during the match against Ipswich Town FC. It will resolve as **Under** if Matz Sels records fewer than 26.5 passing attempts during the match against "
+    }
+   ]
+  },
+  {
+   "id": "ca67c47a-58b9-4588-96cf-748803b8d12b",
+   "slug": "issa-diop-60-5-passes-vs-nfo-20261023",
+   "title": "Issa Diop: 60.5 Passes vs Nottingham Forest FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Passing attempts"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_PASSING_ATTEMPTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 2,
+   "markets": [
+    {
+     "id": "edd81228-3acb-45e8-a21b-d816fa581d65",
+     "title": "O/U 60.5",
+     "status": "open",
+     "outcome1Id": "0e3cfe6a-2521-4284-9db6-1a52eb7ddd5f",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "25343177-2ece-46fe-8388-4bf122971eb4",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 60.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Issa Diop records more than 60.5 passing attempts during the match against Nottingham Forest FC. It will resolve as **Under** if Issa Diop records fewer than 60.5 passing attempts during the match aga"
+    }
+   ]
+  },
+  {
+   "id": "ac060a03-39d7-4509-91db-09ed1916632d",
+   "slug": "jair-paula-da-cunha-filho-5-5-clearances-vs-ips-20261023",
+   "title": "Jair Paula da Cunha Filho: 5.5 Clearances vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Clearances"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_CLEARANCES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "e8df5e38-1e3a-40c2-8f86-de781868025d",
+     "title": "O/U 5.5",
+     "status": "open",
+     "outcome1Id": "93138651-bd1d-4958-bf7e-ab4c1310d1d3",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "130e6a41-18b2-432c-9282-678e10324197",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 5.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Jair Paula da Cunha Filho records more than 5.5 clearances during the match against Ipswich Town FC. It will resolve as **Under** if Jair Paula da Cunha Filho records fewer than 5.5 clearances during "
+    }
+   ]
+  },
+  {
+   "id": "8783c033-b409-4257-ab12-f3be1ffd25e1",
+   "slug": "liam-delap-3-shots-vs-ips-20261023",
+   "title": "Liam Delap: 3 Shots vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Shots"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_SHOTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "7e9520a4-2156-41a4-a55d-bbc314fa5681",
+     "title": "O/U 3",
+     "status": "open",
+     "outcome1Id": "a4ad515c-c3be-4512-a3f5-f7a826604289",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "7aa322e5-a591-4b9e-89f9-96837fb4d9e4",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 3,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Liam Delap records more than 3 shots during the match against Ipswich Town FC. It will resolve as **Under** if Liam Delap records fewer than 3 shots during the match against Ipswich Town FC. If Liam D"
+    }
+   ]
+  }
+ ],
+ "pagination": {
+  "lastPage": 2,
+  "page": 1,
+  "size": 20,
+  "totalCount": 26
+ }
+}

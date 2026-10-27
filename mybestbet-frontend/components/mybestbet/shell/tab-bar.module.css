@@ -1,0 +1,92 @@
+/* nav.tabbar: floating pill bar on phones (hidden from 761px), and the slip bar above it */
+.tabbar { display: none; }
+.slipbar {
+  display: none;
+  background: var(--pri);
+  color: var(--on-pri);
+  box-shadow: 0 12px 30px -10px rgb(0 0 0 / .5);
+}
+.tabbar :is(a, button) { letter-spacing: -.01em; }
+
+@media (hover: none) {
+  .tabbar :is(a, button) { -webkit-user-select: none; user-select: none; }
+  .tabbar :is(a, button):active, .slipbar:active { transform: scale(.96); }
+  .tabbar :is(a, button), .slipbar { transition: transform .12s ease, background .15s, color .15s; }
+}
+
+@media (max-width: 760px) {
+  .slipbar {
+    position: fixed;
+    z-index: 34;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: auto;
+    min-width: 220px;
+    bottom: calc(64px + 18px + var(--sb));
+    height: 42px;
+    border-radius: 99px;
+    background: var(--pri);
+    color: var(--on-pri);
+    align-items: center;
+    gap: 10px;
+    padding: 0 8px 0 8px;
+    font-size: 13.5px;
+    font-weight: 500;
+    box-shadow: 0 10px 28px rgb(43 85 255 / .35);
+  }
+  :global(body.has-picks) .slipbar { display: flex; }
+  :global(body.slip-open) .slipbar { display: none; }
+  .slipbar .c { font-family: var(--mono); font-weight: 500; display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; border-radius: 99px; background: rgb(255 255 255 / .2); }
+  .slipbar .r { margin-left: auto; font-family: var(--mono); font-weight: 500; padding-right: 10px; }
+}
+
+@media (max-width: 760px) and (hover: none) {
+  .slipbar:active { transform: translateX(-50%) scale(.97); }
+}
+
+@media (max-width: 1099px) {
+  .tabbar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: fixed;
+    z-index: 35;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    bottom: calc(10px + var(--sb));
+    width: min(520px, calc(100% - 24px - var(--sl) - var(--sr)));
+    height: 64px;
+    padding: 6px;
+    gap: 2px;
+    border-radius: 24px;
+    border: 1px solid var(--line-2);
+    background: rgb(var(--glass) / .8);
+    backdrop-filter: saturate(180%) blur(22px);
+    -webkit-backdrop-filter: saturate(180%) blur(22px);
+    box-shadow: 0 14px 34px rgb(0 0 0 / .4), 0 1px 0 rgb(var(--ink) / .06) inset;
+  }
+  :global(:root[data-theme="light"]) .tabbar { box-shadow: 0 12px 30px rgb(20 30 60 / .14); }
+  .tabbar :is(a, button) { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font-size: 10.5px; font-weight: 500; color: var(--fg-3); position: relative; border-radius: 18px; }
+  .tabbar :is(a, button) svg { width: 21px; height: 21px; }
+  .tabbar :is(a, button)[aria-current="page"] { background: var(--blue-fill); color: var(--blue); }
+  .tabbar .cnt {
+    position: absolute;
+    top: 5px;
+    left: calc(50% + 9px);
+    min-width: 17px;
+    height: 17px;
+    padding: 0 5px;
+    border-radius: 99px;
+    background: var(--pri);
+    color: var(--on-pri) !important;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    line-height: 17px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1099px) {
+  .tabbar { display: none !important; }
+}

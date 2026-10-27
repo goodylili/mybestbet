@@ -1,0 +1,664 @@
+{
+  "success": true,
+  "cursor": null,
+  "data": [
+    {
+      "createdAt": "2026-10-25T00:31:07.087Z",
+      "description": "This market refers to the Dota 2 match between Team Spirit and PARIVISION in the PARI Universe Group B, initially scheduled for October 26, 2026 at 10:00 AM ET.\n\nThis market will resolve to \"Team Spirit\" if Team Spirit win the match against PARIVISION.\n\nThis market will resolve to \"PARIVISION\" if PARIVISION win the match against Team Spirit.\n\nIf the match is canceled (not played at all) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 9, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 26, 2026 at 10:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf the match begins but is not completed, and one team wins due to the opponent's forfeiture, disqualification, or walkover, this market will resolve to the team who wins. \n\nIf the match ends in a forfeit, disqualification, or walkover (team withdraws before the start and the other wins automatically), this market will resolve to 50-50. \n\nThe resolution source for this market will be official information from https://www.dotabuff.com. However, if https://www.dotabuff.com has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n\nIn cases where a team’s listed name includes minor discrepancies from the resolution source, this market will resolve based on the underlying real-world match rather than exact name matching. Recognizable abbreviations, alternate or erroneous spellings, sponsor tags, affiliate or academy designations, regional identifiers, and minor formatting differences will be treated as referring to the same team, provided the intended team can be clearly and uniquely identified within the relevant competition. If a listed team name has no reasonable connection to any participating team, or if it matches or could reasonably refer to another team in the same competition such that the intended team cannot be unambiguously determined, this market will resolve 50-50.",
+      "endsAt": "2026-10-26T17:00:00.000Z",
+      "id": 664735,
+      "imageUrl": "https://static.predict.fun/dota2",
+      "isNegRisk": false,
+      "isVisible": true,
+      "isYieldBearing": false,
+      "marketVariant": "ESPORTS_DOTA2",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "dota2-ts8-pari-2026-10-26",
+          "conditionId": "0xa70c9d7689cf19f47d02dd59d0cc876ccadca99f2320244b9debc5ea1a75efb3",
+          "createdAt": "2026-10-25T00:31:07.087Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Dota 2 match between Team Spirit and PARIVISION in the PARI Universe Group B, initially scheduled for October 26, 2026 at 10:00 AM ET.\n\nThis market will resolve to \"Team Spirit\" if Team Spirit win the match against PARIVISION.\n\nThis market will resolve to \"PARIVISION\" if PARIVISION win the match against Team Spirit.\n\nIf the match is canceled (not played at all) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 9, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 26, 2026 at 10:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf the match begins but is not completed, and one team wins due to the opponent's forfeiture, disqualification, or walkover, this market will resolve to the team who wins. \n\nIf the match ends in a forfeit, disqualification, or walkover (team withdraws before the start and the other wins automatically), this market will resolve to 50-50. \n\nThe resolution source for this market will be official information from https://www.dotabuff.com. However, if https://www.dotabuff.com has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n\nIn cases where a team’s listed name includes minor discrepancies from the resolution source, this market will resolve based on the underlying real-world match rather than exact name matching. Recognizable abbreviations, alternate or erroneous spellings, sponsor tags, affiliate or academy designations, regional identifiers, and minor formatting differences will be treated as referring to the same team, provided the intended team can be clearly and uniquely identified within the relevant competition. If a listed team name has no reasonable connection to any participating team, or if it matches or could reasonably refer to another team in the same competition such that the intended team cannot be unambiguously determined, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3787785,
+          "imageUrl": "https://static.predict.fun/dota2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "ESPORTS_DOTA2",
+          "oracleQuestionId": "0x3554a12531f78918012ebc4ae62f0ed0987fd9a9a92dc887d8508890ce8a8a80",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.62,
+                "size": 345
+              },
+              "bestBid": {
+                "price": 0.26,
+                "size": 60
+              },
+              "indexSet": 1,
+              "name": "TS8",
+              "onChainId": "105743343998988104135983991077557463712204000596746988111767247708283692529308",
+              "status": null,
+              "team": {
+                "abbreviation": "ts8",
+                "alias": null,
+                "id": 648,
+                "league": "dota2",
+                "name": "Team Spirit"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "ts8",
+                    "id": 648,
+                    "name": "Team Spirit",
+                    "providerTeamId": "131946"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.74,
+                "size": 60
+              },
+              "bestBid": {
+                "price": 0.38,
+                "size": 345
+              },
+              "indexSet": 2,
+              "name": "PVN",
+              "onChainId": "74582366732195988491765526701470473594282927452223243334944111190795672043075",
+              "status": null,
+              "team": {
+                "abbreviation": "pari",
+                "alias": null,
+                "id": 199,
+                "league": "dota2",
+                "name": "PARIVISION"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "pari",
+                    "id": 199,
+                    "name": "PARIVISION",
+                    "providerTeamId": "128195"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x9d7165ef16f04ae0f2629beb0461a3089dc615a42bf621ac4f296c95d2f5565b"
+          ],
+          "question": "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Group B",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": null,
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T14:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T17:00:00.000Z",
+                "hourlyRate": 1000,
+                "startsAt": "2026-10-26T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Match Winner",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "dota2-ts8-pari-2026-10-26",
+          "conditionId": "0x989aaf4942b61b8be0694b040354d49ae1cb80f03a6324425e499a221833f5d1",
+          "createdAt": "2026-10-25T00:31:07.087Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Dota 2 match between Team Spirit and PARIVISION in the PARI Universe Group B, initially scheduled for October 26, 2026 at 10:00 AM ET.\n\nThis market will resolve to \"Team Spirit\" if Team Spirit win Game 1 against PARIVISION.\n\nThis market will resolve to \"PARIVISION\" if PARIVISION win Game 1 against Team Spirit.\n\nIf the match begins but is not completed, and Game 1 is concluded with a winner determined, this market will resolve based on the completed Game 1. \n\nIf Game 1 is not completed for any reason, this market will resolve 50-50. \n\nIf the match is canceled (not played at all), this market will resolve 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 9, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 26, 2026 at 10:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe resolution source for this market will be official information from https://www.dotabuff.com. However, if https://www.dotabuff.com has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3787786,
+          "imageUrl": "https://static.predict.fun/dota2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_CHILD_MONEYLINE",
+          "marketVariant": "ESPORTS_DOTA2",
+          "oracleQuestionId": "0x41e478ec58f46a2722a3e64fa644ee43168a5c9949a5c7cec0b657bbefe0a636",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.97,
+                "size": 1588.8
+              },
+              "bestBid": {
+                "price": 0.02,
+                "size": 1500
+              },
+              "indexSet": 1,
+              "name": "TS8",
+              "onChainId": "97360504819445694529216483145017197528922961497461777199622934667132100104691",
+              "status": null,
+              "team": {
+                "abbreviation": "ts8",
+                "alias": null,
+                "id": 648,
+                "league": "dota2",
+                "name": "Team Spirit"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "ts8",
+                    "id": 648,
+                    "name": "Team Spirit",
+                    "providerTeamId": "131946"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.98,
+                "size": 1500
+              },
+              "bestBid": {
+                "price": 0.03,
+                "size": 1588.8
+              },
+              "indexSet": 2,
+              "name": "PVN",
+              "onChainId": "20628236381678915137393664531658684055521990214633472180631409764185435797171",
+              "status": null,
+              "team": {
+                "abbreviation": "pari",
+                "alias": null,
+                "id": 199,
+                "league": "dota2",
+                "name": "PARIVISION"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "pari",
+                    "id": 199,
+                    "name": "PARIVISION",
+                    "providerTeamId": "128195"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xa5c2dd3607c204d55628ee7592060bf54a067406f4e0d48ba17fcf91f3ccb33d"
+          ],
+          "question": "Dota 2: Team Spirit vs PARIVISION - Game 1 Winner",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": null,
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T14:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T15:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-26T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Game 1 Winner",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 1
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "dota2-ts8-pari-2026-10-26",
+          "conditionId": "0x16ae82102a46afb19d7a44072287945120b15830c8ebf81128d3a82000aa900b",
+          "createdAt": "2026-10-25T00:31:07.087Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Dota 2 match between Team Spirit and PARIVISION in the PARI Universe Group B, initially scheduled for October 26, 2026 at 10:00 AM ET.\n\nThis market will resolve to \"Team Spirit\" if Team Spirit win Game 2 against PARIVISION.\n\nThis market will resolve to \"PARIVISION\" if PARIVISION win Game 2 against Team Spirit.\n\nIf the match begins but is not completed, and Game 2 is concluded with a winner determined, this market will resolve based on the completed Game 2. \n\nIf Game 2 is not completed for any reason, this market will resolve 50-50. \n\nIf the match is canceled (not played at all), this market will resolve 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 9, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 26, 2026 at 10:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe resolution source for this market will be official information from https://www.dotabuff.com. However, if https://www.dotabuff.com has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3787792,
+          "imageUrl": "https://static.predict.fun/dota2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_CHILD_MONEYLINE",
+          "marketVariant": "ESPORTS_DOTA2",
+          "oracleQuestionId": "0xa612c2ba48af506b0650aee0a37b756fe4a5bc7570aad14306986f1ed1710004",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.98,
+                "size": 1500
+              },
+              "bestBid": {
+                "price": 0.03,
+                "size": 1557.2
+              },
+              "indexSet": 1,
+              "name": "TS8",
+              "onChainId": "93802173198081899587135815602478186537244030663482363098906764047480011241533",
+              "status": null,
+              "team": {
+                "abbreviation": "ts8",
+                "alias": null,
+                "id": 648,
+                "league": "dota2",
+                "name": "Team Spirit"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "ts8",
+                    "id": 648,
+                    "name": "Team Spirit",
+                    "providerTeamId": "131946"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.97,
+                "size": 1557.2
+              },
+              "bestBid": {
+                "price": 0.02,
+                "size": 1500
+              },
+              "indexSet": 2,
+              "name": "PVN",
+              "onChainId": "33036184559565864071576017602667280084998701230752828413210033213475291278133",
+              "status": null,
+              "team": {
+                "abbreviation": "pari",
+                "alias": null,
+                "id": 199,
+                "league": "dota2",
+                "name": "PARIVISION"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "pari",
+                    "id": 199,
+                    "name": "PARIVISION",
+                    "providerTeamId": "128195"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x8ff5c6ac1e3155144e9d81dd6fc4e89e12147e7ada62db7ab1ba66259b9a2935"
+          ],
+          "question": "Dota 2: Team Spirit vs PARIVISION - Game 2 Winner",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": null,
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T15:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T16:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-26T15:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Game 2 Winner",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 2
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "dota2-ts8-pari-2026-10-26",
+          "conditionId": "0xcd0ed2f9e2a65a542d8b5fd915acfd8c32e3bc6b47be9860b3b5ff83d0f8fdd4",
+          "createdAt": "2026-10-25T00:31:07.087Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Dota 2 match between Team Spirit and PARIVISION in the PARI Universe Group B, initially scheduled for October 26, 2026 at 10:00 AM ET.\n\nThis market will resolve to \"Over\" if Team Spirit and PARIVISION play 3 or more games in this series.\n\nIf fewer than 3 games are played, this market will resolve to \"Under\".\n\nGames won by forfeit, disqualification, walkover, or default are counted towards the total, provided that the match is completed.\n\nIf the match is canceled (not played at all for any reason) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 9, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 26, 2026 at 10:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe match is considered to have begun once live play begins in its first map or game. Warmup rounds and knife rounds do not count as the start of the match. A round forced live because a team did not ready up or resume play within the allotted time does not count as the start of the match if that team forfeits before the next round begins.\n\nIf the match begins and one team wins due to the opponent's match forfeiture, disqualification, or walkover, the match will count as completed.\n\nIn that case, any remaining games required to decide the match, including a game in progress or not yet started, will be counted as won by the winning team.\n\nIf the match ends due to the clinching game being forfeited this will count as a completed match.\n\nThe resolution source for this market will be official information from https://www.dotabuff.com. However, if https://www.dotabuff.com has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3787809,
+          "imageUrl": "https://static.predict.fun/dota2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "ESPORTS_DOTA2",
+          "oracleQuestionId": "0x58d02fa65c10f2467901a5e1fa9bc60ca67f72bb5925fd0d6af35da819279293",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.97,
+                "size": 53.99
+              },
+              "bestBid": {
+                "price": 0.03,
+                "size": 1150.4
+              },
+              "indexSet": 1,
+              "name": "Over 2.5",
+              "onChainId": "98748647902666269910908174054064177400636041479885125616797071941986505462042",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.97,
+                "size": 1150.4
+              },
+              "bestBid": {
+                "price": 0.03,
+                "size": 53.99
+              },
+              "indexSet": 2,
+              "name": "Under 2.5",
+              "onChainId": "15409964150777041995993066696272492375887191361943855282257783375395940321443",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x76b44ea0c5b37a520676478a1d11d4c3c0585769e1c013498c6c1ab96b306320"
+          ],
+          "question": "Games Total: O/U 2.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": null,
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T14:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T17:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-26T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 2.5 Games",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 2.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "dota2-ts8-pari-2026-10-26",
+          "conditionId": "0xf0588d8efd3c8bcab47da7dfd095153af44f23504cb0fba95194fa1afc678570",
+          "createdAt": "2026-10-25T00:31:07.087Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Dota 2 match between Team Spirit and PARIVISION in the PARI Universe Group B, initially scheduled for October 26, 2026 at 10:00 AM ET.\n\nThis market will resolve to \"PARIVISION\" if PARIVISION wins 2 or more games than Team Spirit in this match.\n\nOtherwise, this market will resolve to \"Team Spirit\". \n\nGames won by forfeit, disqualification, walkover, or default are counted towards the handicap, provided that the match is completed.\n\nIf the match is canceled (not played at all for any reason) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 9, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 26, 2026 at 10:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe match is considered to have begun once live play begins in its first map or game. Warmup rounds and knife rounds do not count as the start of the match. A round forced live because a team did not ready up or resume play within the allotted time does not count as the start of the match if that team forfeits before the next round begins.\n\nIf the match begins and one team wins due to the opponent's match forfeiture, disqualification, or walkover, the match will count as completed.\n\nIn that case, any remaining games required to decide the match, including a game in progress or not yet started, will be counted as won by the winning team.\n\nIf the match ends due to the clinching game being forfeited this will count as a completed match.\n\nThe resolution source for this market will be official information from https://www.dotabuff.com. However, if https://www.dotabuff.com has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3787811,
+          "imageUrl": "https://static.predict.fun/dota2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MAP_HANDICAP",
+          "marketVariant": "ESPORTS_DOTA2",
+          "oracleQuestionId": "0x0a7baaf93f70da69ac8c5fe7a0046c8e8c73ad5495ce5c5527eca0cfc041e6f4",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.98,
+                "size": 1500
+              },
+              "bestBid": {
+                "price": 0.02,
+                "size": 1500
+              },
+              "indexSet": 1,
+              "name": "PVN",
+              "onChainId": "57934299175740568976813209046671059642844567913434289510766806904855341054685",
+              "status": null,
+              "team": {
+                "abbreviation": "pari",
+                "alias": null,
+                "id": 199,
+                "league": "dota2",
+                "name": "PARIVISION"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "pari",
+                    "id": 199,
+                    "name": "PARIVISION",
+                    "providerTeamId": "128195"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.98,
+                "size": 1500
+              },
+              "bestBid": {
+                "price": 0.02,
+                "size": 1500
+              },
+              "indexSet": 2,
+              "name": "TS8",
+              "onChainId": "4294243780399129829938585193570944722189255421857866531470768192233944969594",
+              "status": null,
+              "team": {
+                "abbreviation": "ts8",
+                "alias": null,
+                "id": 648,
+                "league": "dota2",
+                "name": "Team Spirit"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "ts8",
+                    "id": 648,
+                    "name": "Team Spirit",
+                    "providerTeamId": "131946"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x9d2c2cb0cb97f7638c266964dc5a11aef050ba9bc4c0a5578b9beb54439c9adb"
+          ],
+          "question": "Game Handicap: PARI (-1.5) vs Team Spirit (+1.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": null,
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T14:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T17:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-26T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Game Handicap: PARI (-1.5) vs Team Spirit (+1.5)",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          }
+        }
+      ],
+      "negRiskOnChainId": null,
+      "parentSlug": null,
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-25T00:32:03.326Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "dota2-ts8-pari-2026-10-26",
+      "startsAt": "2026-10-26T14:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "83",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Esports",
+          "parentId": null
+        },
+        {
+          "id": "96",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Dota 2",
+          "parentId": "83"
+        },
+        {
+          "id": "2792",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "PARI Universe",
+          "parentId": "96"
+        }
+      ],
+      "teams": null,
+      "title": "Dota 2: Team Spirit vs PARIVISION (BO3) - PARI Universe Group B",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1249444",
+          "teams": [
+            {
+              "abbreviation": "ts8",
+              "color": "#4E4E4E",
+              "id": 648,
+              "isHome": true,
+              "name": "Team Spirit",
+              "providerTeamId": "131946",
+              "record": {
+                "losses": 0,
+                "wins": 0
+              }
+            },
+            {
+              "abbreviation": "pari",
+              "color": "#18aa91",
+              "id": 199,
+              "isHome": false,
+              "name": "PARIVISION",
+              "providerTeamId": "128195",
+              "record": {
+                "losses": 0,
+                "wins": 0
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

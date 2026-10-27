@@ -1,0 +1,2134 @@
+{
+  "source": "kalshi",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_3PM",
+      "line": 0.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 51.200000000000045,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA3PT-26OCT23HOUSAS-SASVWEMBANYAMA1-1"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_3PM",
+      "line": 1.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 3.5500000000000034,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA3PT-26OCT23HOUSAS-SASVWEMBANYAMA1-2"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_3PM",
+      "line": 2.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 24,
+            "form": "cents",
+            "prob": 0.24,
+            "bid": 19,
+            "ask": 24,
+            "liquidity": 6,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 81,
+            "form": "cents",
+            "prob": 0.81,
+            "bid": 76,
+            "ask": 81,
+            "liquidity": 8.100000000000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA3PT-26OCT23HOUSAS-SASVWEMBANYAMA1-3"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_3PM",
+      "line": 3.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5,
+            "form": "cents",
+            "prob": 0.05,
+            "bid": 1,
+            "ask": 5,
+            "liquidity": 1.25,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 95,
+            "ask": 99,
+            "liquidity": 439.56,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA3PT-26OCT23HOUSAS-SASVWEMBANYAMA1-4"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_3PM",
+      "line": 4.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 18,
+            "form": "cents",
+            "prob": 0.18,
+            "ask": 18,
+            "liquidity": 2.16,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 82,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA3PT-26OCT23HOUSAS-SASVWEMBANYAMA1-5"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_AST",
+      "line": 3.5,
+      "player": {
+        "sourceId": "3737a938-d72f-41bc-8098-e50c9334a4b5",
+        "name": "Stephon Castle",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 10.85560000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAAST-26OCT23HOUSAS-SASSCASTLE5-4"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_AST",
+      "line": 1.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 9.960000000000008,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAAST-26OCT23HOUSAS-SASVWEMBANYAMA1-2"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_AST",
+      "line": 3.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 9,
+            "form": "cents",
+            "prob": 0.09,
+            "bid": 1,
+            "ask": 9,
+            "liquidity": 0.09,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 91,
+            "ask": 99,
+            "liquidity": 412.53299999999996,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAAST-26OCT23HOUSAS-SASVWEMBANYAMA1-4"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_AST",
+      "line": 5.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 9,
+            "form": "cents",
+            "prob": 0.09,
+            "bid": 1,
+            "ask": 9,
+            "liquidity": 0.54,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 91,
+            "ask": 99,
+            "liquidity": 218.79,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAAST-26OCT23HOUSAS-SASVWEMBANYAMA1-6"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_AST",
+      "line": 7.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 8,
+            "form": "cents",
+            "prob": 0.08,
+            "ask": 8,
+            "liquidity": 0.8,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 92,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAAST-26OCT23HOUSAS-SASVWEMBANYAMA1-8"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 51,
+            "form": "cents",
+            "prob": 0.51,
+            "bid": 48,
+            "ask": 51,
+            "liquidity": 12.75,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 53,
+            "form": "cents",
+            "prob": 0.53,
+            "bid": 51,
+            "ask": 53,
+            "liquidity": 3.0634,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAGAME-26OCT23HOUSAS"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_PRA",
+      "line": 24.5,
+      "player": {
+        "sourceId": "3737a938-d72f-41bc-8098-e50c9334a4b5",
+        "name": "Stephon Castle",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 3.0000000000000027,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAPRA-26OCT23HOUSAS-SASSCASTLE5-25"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_PRA",
+      "line": 29.5,
+      "player": {
+        "sourceId": "3737a938-d72f-41bc-8098-e50c9334a4b5",
+        "name": "Stephon Castle",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 80,
+            "form": "cents",
+            "prob": 0.8,
+            "bid": 12,
+            "ask": 80,
+            "liquidity": 0.8,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 88,
+            "form": "cents",
+            "prob": 0.88,
+            "bid": 20,
+            "ask": 88,
+            "liquidity": 0.88,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAPRA-26OCT23HOUSAS-SASSCASTLE5-30"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_PRA",
+      "line": 34.5,
+      "player": {
+        "sourceId": "3737a938-d72f-41bc-8098-e50c9334a4b5",
+        "name": "Stephon Castle",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 88,
+            "form": "cents",
+            "prob": 0.88,
+            "bid": 7,
+            "ask": 88,
+            "liquidity": 0.88,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 93,
+            "form": "cents",
+            "prob": 0.93,
+            "bid": 12,
+            "ask": 93,
+            "liquidity": 2.79,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAPRA-26OCT23HOUSAS-SASSCASTLE5-35"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_PRA",
+      "line": 34.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 2.6700000000000026,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAPRA-26OCT23HOUSAS-SASVWEMBANYAMA1-35"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_PRA",
+      "line": 39.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 92,
+            "form": "cents",
+            "prob": 0.92,
+            "bid": 29,
+            "ask": 92,
+            "liquidity": 5.5200000000000005,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 71,
+            "form": "cents",
+            "prob": 0.71,
+            "bid": 8,
+            "ask": 71,
+            "liquidity": 2.13,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAPRA-26OCT23HOUSAS-SASVWEMBANYAMA1-40"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_PRA",
+      "line": 44.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 92,
+            "form": "cents",
+            "prob": 0.92,
+            "bid": 10,
+            "ask": 92,
+            "liquidity": 5.5200000000000005,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 90,
+            "form": "cents",
+            "prob": 0.9,
+            "bid": 8,
+            "ask": 90,
+            "liquidity": 5.4,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAPRA-26OCT23HOUSAS-SASVWEMBANYAMA1-45"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_PTS",
+      "line": 19.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 24.935600000000022,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAPTS-26OCT23HOUSAS-SASVWEMBANYAMA1-20"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_PTS",
+      "line": 24.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 80,
+            "form": "cents",
+            "prob": 0.8,
+            "bid": 76,
+            "ask": 80,
+            "liquidity": 39.2,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 24,
+            "form": "cents",
+            "prob": 0.24,
+            "bid": 20,
+            "ask": 24,
+            "liquidity": 10.799999999999999,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAPTS-26OCT23HOUSAS-SASVWEMBANYAMA1-25"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_PTS",
+      "line": 29.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 18,
+            "form": "cents",
+            "prob": 0.18,
+            "bid": 10,
+            "ask": 18,
+            "liquidity": 1.7999999999999998,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 90,
+            "form": "cents",
+            "prob": 0.9,
+            "bid": 82,
+            "ask": 90,
+            "liquidity": 37.800000000000004,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAPTS-26OCT23HOUSAS-SASVWEMBANYAMA1-30"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_PTS",
+      "line": 34.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5,
+            "form": "cents",
+            "prob": 0.05,
+            "bid": 2,
+            "ask": 5,
+            "liquidity": 1.25,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 98,
+            "form": "cents",
+            "prob": 0.98,
+            "bid": 95,
+            "ask": 98,
+            "liquidity": 104.86,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAPTS-26OCT23HOUSAS-SASVWEMBANYAMA1-35"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_PTS",
+      "line": 39.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 18,
+            "form": "cents",
+            "prob": 0.18,
+            "ask": 18,
+            "liquidity": 4.32,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 82,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAPTS-26OCT23HOUSAS-SASVWEMBANYAMA1-40"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_REB",
+      "line": 9.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 12.889500000000012,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAREB-26OCT23HOUSAS-SASVWEMBANYAMA1-10"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_REB",
+      "line": 11.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 1.6335000000000013,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAREB-26OCT23HOUSAS-SASVWEMBANYAMA1-12"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_REB",
+      "line": 13.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 39,
+            "form": "cents",
+            "prob": 0.39,
+            "bid": 38,
+            "ask": 39,
+            "liquidity": 1.17,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 62,
+            "form": "cents",
+            "prob": 0.62,
+            "bid": 61,
+            "ask": 62,
+            "liquidity": 7.4399999999999995,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAREB-26OCT23HOUSAS-SASVWEMBANYAMA1-14"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "BK_REB",
+      "line": 15.5,
+      "player": {
+        "sourceId": "b269496a-6cdf-466d-aa1a-c648b20591ae",
+        "name": "Victor Wembanyama",
+        "team": "San Antonio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 11,
+            "form": "cents",
+            "prob": 0.11,
+            "bid": 1,
+            "ask": 11,
+            "liquidity": 2.75,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 89,
+            "ask": 99,
+            "liquidity": 454.40999999999997,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAREB-26OCT23HOUSAS-SASVWEMBANYAMA1-16"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "SPREAD",
+      "line": -27.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBASPREAD-26OCT23HOUSAS-SAS28"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "SPREAD",
+      "line": -29.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBASPREAD-26OCT23HOUSAS-SAS30"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "SPREAD",
+      "line": -31.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2,
+            "form": "cents",
+            "prob": 0.02,
+            "ask": 2,
+            "liquidity": 51,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 98,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBASPREAD-26OCT23HOUSAS-SAS32"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "SPREAD",
+      "line": -33.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2,
+            "form": "cents",
+            "prob": 0.02,
+            "ask": 2,
+            "liquidity": 1,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 98,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBASPREAD-26OCT23HOUSAS-SAS34"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "TOTAL",
+      "line": 197.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 275.83250000000027,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBATOTAL-26OCT23HOUSAS-198"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "TOTAL",
+      "line": 199.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 235.26000000000022,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBATOTAL-26OCT23HOUSAS-200"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "TOTAL",
+      "line": 201.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 230.70000000000022,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBATOTAL-26OCT23HOUSAS-202"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "code": "TOTAL",
+      "line": 203.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "cents",
+            "prob": 0,
+            "bid": 99,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1,
+            "form": "cents",
+            "prob": 0.01,
+            "ask": 1,
+            "liquidity": 277.85000000000025,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBATOTAL-26OCT23HOUSAS-204"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "SPREAD",
+      "line": -12.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 27,
+            "form": "cents",
+            "prob": 0.27,
+            "bid": 1,
+            "ask": 27,
+            "liquidity": 6.75,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 73,
+            "ask": 99,
+            "liquidity": 401.94,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1HSPREAD-26OCT24MIACHA-CHA13"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "SPREAD",
+      "line": -14.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 24,
+            "form": "cents",
+            "prob": 0.24,
+            "bid": 1,
+            "ask": 24,
+            "liquidity": 6,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 76,
+            "ask": 99,
+            "liquidity": 401.94,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1HSPREAD-26OCT24MIACHA-CHA15"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "SPREAD",
+      "line": -16.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 23,
+            "form": "cents",
+            "prob": 0.23,
+            "bid": 2,
+            "ask": 23,
+            "liquidity": 2.7600000000000002,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 98,
+            "form": "cents",
+            "prob": 0.98,
+            "bid": 77,
+            "ask": 98,
+            "liquidity": 147,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1HSPREAD-26OCT24MIACHA-CHA17"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "TOTAL",
+      "line": 101.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 15,
+            "ask": 99,
+            "liquidity": 487.08,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 85,
+            "form": "cents",
+            "prob": 0.85,
+            "bid": 1,
+            "ask": 85,
+            "liquidity": 102,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1HTOTAL-26OCT24MIACHA-102"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "TOTAL",
+      "line": 103.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 98,
+            "form": "cents",
+            "prob": 0.98,
+            "bid": 10,
+            "ask": 98,
+            "liquidity": 98,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 90,
+            "form": "cents",
+            "prob": 0.9,
+            "bid": 2,
+            "ask": 90,
+            "liquidity": 67.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1HTOTAL-26OCT24MIACHA-104"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "TOTAL",
+      "line": 105.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 98,
+            "form": "cents",
+            "prob": 0.98,
+            "bid": 1,
+            "ask": 98,
+            "liquidity": 245,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 2,
+            "ask": 99,
+            "liquidity": 748.4399999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1HTOTAL-26OCT24MIACHA-106"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "SPREAD",
+      "line": -10.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 27,
+            "form": "cents",
+            "prob": 0.27,
+            "bid": 1,
+            "ask": 27,
+            "liquidity": 6.75,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 73,
+            "ask": 99,
+            "liquidity": 415.8,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1QSPREAD-26OCT24MIACHA-CHA11"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "SPREAD",
+      "line": -6.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 37,
+            "form": "cents",
+            "prob": 0.37,
+            "bid": 1,
+            "ask": 37,
+            "liquidity": 9.25,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 63,
+            "ask": 99,
+            "liquidity": 415.8,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1QSPREAD-26OCT24MIACHA-CHA7"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "SPREAD",
+      "line": -8.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 32,
+            "form": "cents",
+            "prob": 0.32,
+            "bid": 1,
+            "ask": 32,
+            "liquidity": 8,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 68,
+            "ask": 99,
+            "liquidity": 415.8,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1QSPREAD-26OCT24MIACHA-CHA9"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "TOTAL",
+      "line": 48.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 1,
+            "ask": 99,
+            "liquidity": 437.58,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 1,
+            "ask": 99,
+            "liquidity": 401.94,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1QTOTAL-26OCT24MIACHA-49"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "TOTAL",
+      "line": 50.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 1,
+            "ask": 99,
+            "liquidity": 437.58,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 1,
+            "ask": 99,
+            "liquidity": 401.94,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1QTOTAL-26OCT24MIACHA-51"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "TOTAL",
+      "line": 52.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 1,
+            "ask": 99,
+            "liquidity": 437.58,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 1,
+            "ask": 99,
+            "liquidity": 401.94,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBA1QTOTAL-26OCT24MIACHA-53"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 61,
+            "form": "cents",
+            "prob": 0.61,
+            "bid": 59,
+            "ask": 61,
+            "liquidity": 144770.5985,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 41,
+            "form": "cents",
+            "prob": 0.41,
+            "bid": 39,
+            "ask": 41,
+            "liquidity": 30549.546899999998,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBAGAME-26OCT24MIACHA"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "SPREAD",
+      "line": -18.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 7,
+            "form": "cents",
+            "prob": 0.07,
+            "bid": 4,
+            "ask": 7,
+            "liquidity": 10.780000000000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 96,
+            "form": "cents",
+            "prob": 0.96,
+            "bid": 93,
+            "ask": 96,
+            "liquidity": 96,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBASPREAD-26OCT24MIACHA-CHA19"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "SPREAD",
+      "line": -20.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 7,
+            "form": "cents",
+            "prob": 0.07,
+            "bid": 3,
+            "ask": 7,
+            "liquidity": 0.8400000000000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 97,
+            "form": "cents",
+            "prob": 0.97,
+            "bid": 93,
+            "ask": 97,
+            "liquidity": 20.37,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBASPREAD-26OCT24MIACHA-CHA21"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "SPREAD",
+      "line": -22.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 5,
+            "form": "cents",
+            "prob": 0.05,
+            "bid": 2,
+            "ask": 5,
+            "liquidity": 0.05,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 98,
+            "form": "cents",
+            "prob": 0.98,
+            "bid": 95,
+            "ask": 98,
+            "liquidity": 20.58,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBASPREAD-26OCT24MIACHA-CHA23"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "SPREAD",
+      "line": -24.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3,
+            "form": "cents",
+            "prob": 0.03,
+            "bid": 1,
+            "ask": 3,
+            "liquidity": 12.57,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 99,
+            "form": "cents",
+            "prob": 0.99,
+            "bid": 97,
+            "ask": 99,
+            "liquidity": 810.81,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBASPREAD-26OCT24MIACHA-CHA25"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "TOTAL",
+      "line": 204.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 96,
+            "form": "cents",
+            "prob": 0.96,
+            "bid": 93,
+            "ask": 96,
+            "liquidity": 288,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 7,
+            "form": "cents",
+            "prob": 0.07,
+            "bid": 4,
+            "ask": 7,
+            "liquidity": 1.8731999999999989,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBATOTAL-26OCT24MIACHA-205"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "TOTAL",
+      "line": 206.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 94,
+            "form": "cents",
+            "prob": 0.94,
+            "bid": 92,
+            "ask": 94,
+            "liquidity": 282,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 8,
+            "form": "cents",
+            "prob": 0.08,
+            "bid": 6,
+            "ask": 8,
+            "liquidity": 1.0399999999999996,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBATOTAL-26OCT24MIACHA-207"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "TOTAL",
+      "line": 208.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 94,
+            "form": "cents",
+            "prob": 0.94,
+            "bid": 90,
+            "ask": 94,
+            "liquidity": 326.885,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 10,
+            "form": "cents",
+            "prob": 0.1,
+            "bid": 6,
+            "ask": 10,
+            "liquidity": 3.675999999999999,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBATOTAL-26OCT24MIACHA-209"
+    },
+    {
+      "eventSourceId": "KXNBAGAME-26OCT24MIACHA",
+      "code": "TOTAL",
+      "line": 210.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 92,
+            "form": "cents",
+            "prob": 0.92,
+            "bid": 88,
+            "ask": 92,
+            "liquidity": 26.450000000000003,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 12,
+            "form": "cents",
+            "prob": 0.12,
+            "bid": 8,
+            "ask": 12,
+            "liquidity": 3.9288000000000003,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "KXNBATOTAL-26OCT24MIACHA-211"
+    }
+  ]
+}

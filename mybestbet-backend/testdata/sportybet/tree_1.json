@@ -1,0 +1,879 @@
+{
+ "bizCode": 10000,
+ "message": "0#0",
+ "data": {
+  "sportList": [
+   {
+    "id": "sr:sport:1",
+    "name": "Football",
+    "eventSize": 2326,
+    "categories": [
+     {
+      "id": "sr:category:13",
+      "name": "Brazil",
+      "eventSize": 53,
+      "tournaments": [
+       {
+        "id": "sr:tournament:325",
+        "name": "Brasileiro Serie A",
+        "eventSize": 19,
+        "categoryName": "Brazil",
+        "categoryId": "sr:category:13"
+       },
+       {
+        "id": "sr:tournament:15281",
+        "name": "U20 Paulista",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:390",
+        "name": "Brasileiro Serie B",
+        "eventSize": 8
+       },
+       {
+        "id": "sr:tournament:373",
+        "name": "Copa do Brasil",
+        "eventSize": 3
+       },
+       {
+        "id": "sr:tournament:1281",
+        "name": "Brasileiro Serie C",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:35791",
+        "name": "Gaucho, Serie A2",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:48062",
+        "name": "Candango, Serie B",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:40677",
+        "name": "Carioca, Serie B1",
+        "eventSize": 6
+       },
+       {
+        "id": "sr:tournament:40653",
+        "name": "Copa Santa Catarina",
+        "eventSize": 3
+       },
+       {
+        "id": "sr:tournament:41085",
+        "name": "Gaucho, Serie B",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:40297",
+        "name": "Gaucho, Women",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:40651",
+        "name": "Goiano, Women",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:48064",
+        "name": "Mineiro, Segunda Divisao",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:39459",
+        "name": "U20 Carioca, Serie A",
+        "eventSize": 3
+       }
+      ]
+     },
+     {
+      "id": "sr:category:1",
+      "name": "England",
+      "eventSize": 88,
+      "tournaments": [
+       {
+        "id": "sr:tournament:17",
+        "name": "Premier League",
+        "eventSize": 20,
+        "categoryName": "England",
+        "categoryId": "sr:category:1"
+       },
+       {
+        "id": "sr:tournament:21",
+        "name": "EFL Cup",
+        "eventSize": 9
+       },
+       {
+        "id": "sr:tournament:18",
+        "name": "Championship",
+        "eventSize": 12,
+        "categoryName": "England",
+        "categoryId": "sr:category:1"
+       },
+       {
+        "id": "sr:tournament:19",
+        "name": "FA Cup 26/27",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:24",
+        "name": "League One",
+        "eventSize": 17
+       },
+       {
+        "id": "sr:tournament:25",
+        "name": "League Two",
+        "eventSize": 14
+       },
+       {
+        "id": "sr:tournament:173",
+        "name": "National League",
+        "eventSize": 14
+       },
+       {
+        "id": "sr:tournament:334",
+        "name": "EFL Trophy 26/27",
+        "eventSize": 1
+       }
+      ]
+     },
+     {
+      "id": "sr:category:11111113795032",
+      "name": "England",
+      "eventSize": 6,
+      "tournaments": [
+       {
+        "id": "sr:tournament:1111111244",
+        "name": "England Isthmian League North Division",
+        "eventSize": 6
+       }
+      ]
+     },
+     {
+      "id": "sr:category:393",
+      "name": "International Clubs",
+      "eventSize": 83,
+      "tournaments": [
+       {
+        "id": "sr:tournament:7",
+        "name": "UEFA Champions League",
+        "eventSize": 19,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:44289",
+        "name": "FIFA Intercontinental Cup 2026",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:679",
+        "name": "UEFA Europa League",
+        "eventSize": 19,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:1054",
+        "name": "CAF Champions League",
+        "eventSize": 7,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:34480",
+        "name": "UEFA Conference League",
+        "eventSize": 18,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:463",
+        "name": "AFC Champions League Elite",
+        "eventSize": 2,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:1115",
+        "name": "CAF Confederations Cup",
+        "eventSize": 7,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:384",
+        "name": "CONMEBOL Libertadores",
+        "eventSize": 2,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:20178",
+        "name": "CONMEBOL Libertadores, Women",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:696",
+        "name": "UEFA Champions League Women 26/27",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:480",
+        "name": "CONMEBOL Sudamericana",
+        "eventSize": 2,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:42983",
+        "name": "AFC Challenge League",
+        "eventSize": 3
+       }
+      ]
+     },
+     {
+      "id": "sr:category:32",
+      "name": "Spain",
+      "eventSize": 117,
+      "tournaments": [
+       {
+        "id": "sr:tournament:544",
+        "name": "Segunda Federacion",
+        "eventSize": 45
+       },
+       {
+        "id": "sr:tournament:1127",
+        "name": "Primera Division Women",
+        "eventSize": 7
+       },
+       {
+        "id": "sr:tournament:8",
+        "name": "LaLiga",
+        "eventSize": 20,
+        "categoryName": "Spain",
+        "categoryId": "sr:category:32"
+       },
+       {
+        "id": "sr:tournament:34834",
+        "name": "Primera Federacion",
+        "eventSize": 18
+       },
+       {
+        "id": "sr:tournament:329",
+        "name": "Copa del Rey 26/27",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:54",
+        "name": "LaLiga 2",
+        "eventSize": 10
+       },
+       {
+        "id": "sr:tournament:48343",
+        "name": "U19 Division de Honor Juvenil",
+        "eventSize": 16
+       }
+      ]
+     },
+     {
+      "id": "sr:category:26",
+      "name": "USA",
+      "eventSize": 42,
+      "tournaments": [
+       {
+        "id": "sr:tournament:242",
+        "name": "MLS",
+        "eventSize": 16,
+        "categoryName": "USA",
+        "categoryId": "sr:category:26"
+       },
+       {
+        "id": "sr:tournament:1690",
+        "name": "National Womens Soccer League",
+        "eventSize": 5
+       },
+       {
+        "id": "sr:tournament:28163",
+        "name": "USL Championship",
+        "eventSize": 12
+       },
+       {
+        "id": "sr:tournament:28165",
+        "name": "USL League One",
+        "eventSize": 8
+       },
+       {
+        "id": "sr:tournament:43439",
+        "name": "USL Super League, Women",
+        "eventSize": 1
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "popularEvents": [
+   {
+    "id": "sr:sport:1",
+    "name": "Football",
+    "eventSize": 863,
+    "categories": [
+     {
+      "id": "sr:category:top",
+      "name": "Top Leagues",
+      "eventSize": 292,
+      "tournaments": [
+       {
+        "id": "sr:tournament:17",
+        "name": "Premier League",
+        "eventSize": 20,
+        "categoryName": "England",
+        "categoryId": "sr:category:1"
+       },
+       {
+        "id": "sr:tournament:7",
+        "name": "UEFA Champions League",
+        "eventSize": 19,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:23",
+        "name": "Serie A",
+        "eventSize": 20,
+        "categoryName": "Italy",
+        "categoryId": "sr:category:31"
+       },
+       {
+        "id": "sr:tournament:196",
+        "name": "J1 League",
+        "eventSize": 11,
+        "categoryName": "Japan",
+        "categoryId": "sr:category:52"
+       },
+       {
+        "id": "sr:tournament:52",
+        "name": "Super Lig",
+        "eventSize": 9,
+        "categoryName": "Turkiye",
+        "categoryId": "sr:category:46"
+       },
+       {
+        "id": "sr:tournament:325",
+        "name": "Brasileiro Serie A",
+        "eventSize": 19,
+        "categoryName": "Brazil",
+        "categoryId": "sr:category:13"
+       },
+       {
+        "id": "sr:tournament:649",
+        "name": "Chinese Super League",
+        "eventSize": 8,
+        "categoryName": "China",
+        "categoryId": "sr:category:99"
+       },
+       {
+        "id": "sr:tournament:18",
+        "name": "Championship",
+        "eventSize": 12,
+        "categoryName": "England",
+        "categoryId": "sr:category:1"
+       },
+       {
+        "id": "sr:tournament:34",
+        "name": "Ligue 1",
+        "eventSize": 18,
+        "categoryName": "France",
+        "categoryId": "sr:category:7"
+       },
+       {
+        "id": "sr:tournament:679",
+        "name": "UEFA Europa League",
+        "eventSize": 19,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:1054",
+        "name": "CAF Champions League",
+        "eventSize": 7,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:37",
+        "name": "Eredivisie",
+        "eventSize": 18,
+        "categoryName": "Netherlands",
+        "categoryId": "sr:category:35"
+       },
+       {
+        "id": "sr:tournament:238",
+        "name": "Liga Portugal",
+        "eventSize": 8,
+        "categoryName": "Portugal",
+        "categoryId": "sr:category:44"
+       },
+       {
+        "id": "sr:tournament:410",
+        "name": "K-League 1",
+        "eventSize": 6,
+        "categoryName": "Republic of Korea",
+        "categoryId": "sr:category:291"
+       },
+       {
+        "id": "sr:tournament:8",
+        "name": "LaLiga",
+        "eventSize": 20,
+        "categoryName": "Spain",
+        "categoryId": "sr:category:32"
+       },
+       {
+        "id": "sr:tournament:242",
+        "name": "MLS",
+        "eventSize": 16,
+        "categoryName": "USA",
+        "categoryId": "sr:category:26"
+       },
+       {
+        "id": "sr:tournament:35",
+        "name": "Bundesliga",
+        "eventSize": 18,
+        "categoryName": "Germany",
+        "categoryId": "sr:category:30"
+       },
+       {
+        "id": "sr:tournament:34480",
+        "name": "UEFA Conference League",
+        "eventSize": 18,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:463",
+        "name": "AFC Champions League Elite",
+        "eventSize": 2,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:1115",
+        "name": "CAF Confederations Cup",
+        "eventSize": 7,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:384",
+        "name": "CONMEBOL Libertadores",
+        "eventSize": 2,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:27464",
+        "name": "Liga MX",
+        "eventSize": 7,
+        "categoryName": "Mexico",
+        "categoryId": "sr:category:12"
+       },
+       {
+        "id": "sr:tournament:955",
+        "name": "Saudi Pro League",
+        "eventSize": 6,
+        "categoryName": "Saudi Arabia",
+        "categoryId": "sr:category:310"
+       },
+       {
+        "id": "sr:tournament:480",
+        "name": "CONMEBOL Sudamericana",
+        "eventSize": 2,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       }
+      ]
+     },
+     {
+      "id": "sr:category:4",
+      "name": "International",
+      "eventSize": 28,
+      "tournaments": [
+       {
+        "id": "sr:tournament:1",
+        "name": "UEFA Euro 2028",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:16",
+        "name": "World Cup 2030",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:23755",
+        "name": "UEFA Nations League",
+        "eventSize": 22
+       },
+       {
+        "id": "sr:tournament:851",
+        "name": "Int. Friendly Games",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:290",
+        "name": "FIFA World Cup, Women 2027",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:26916",
+        "name": "Ballon dor 2026",
+        "eventSize": 1
+       }
+      ]
+     },
+     {
+      "id": "sr:category:393",
+      "name": "International Clubs",
+      "eventSize": 83,
+      "tournaments": [
+       {
+        "id": "sr:tournament:7",
+        "name": "UEFA Champions League",
+        "eventSize": 19,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:44289",
+        "name": "FIFA Intercontinental Cup 2026",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:679",
+        "name": "UEFA Europa League",
+        "eventSize": 19,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:1054",
+        "name": "CAF Champions League",
+        "eventSize": 7,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:34480",
+        "name": "UEFA Conference League",
+        "eventSize": 18,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:463",
+        "name": "AFC Champions League Elite",
+        "eventSize": 2,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:1115",
+        "name": "CAF Confederations Cup",
+        "eventSize": 7,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:384",
+        "name": "CONMEBOL Libertadores",
+        "eventSize": 2,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:20178",
+        "name": "CONMEBOL Libertadores, Women",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:696",
+        "name": "UEFA Champions League Women 26/27",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:480",
+        "name": "CONMEBOL Sudamericana",
+        "eventSize": 2,
+        "categoryName": "International Clubs",
+        "categoryId": "sr:category:393"
+       },
+       {
+        "id": "sr:tournament:42983",
+        "name": "AFC Challenge League",
+        "eventSize": 3
+       }
+      ]
+     },
+     {
+      "id": "sr:category:1",
+      "name": "England",
+      "eventSize": 88,
+      "tournaments": [
+       {
+        "id": "sr:tournament:17",
+        "name": "Premier League",
+        "eventSize": 20,
+        "categoryName": "England",
+        "categoryId": "sr:category:1"
+       },
+       {
+        "id": "sr:tournament:21",
+        "name": "EFL Cup",
+        "eventSize": 9
+       },
+       {
+        "id": "sr:tournament:18",
+        "name": "Championship",
+        "eventSize": 12,
+        "categoryName": "England",
+        "categoryId": "sr:category:1"
+       },
+       {
+        "id": "sr:tournament:19",
+        "name": "FA Cup 26/27",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:24",
+        "name": "League One",
+        "eventSize": 17
+       },
+       {
+        "id": "sr:tournament:25",
+        "name": "League Two",
+        "eventSize": 14
+       },
+       {
+        "id": "sr:tournament:173",
+        "name": "National League",
+        "eventSize": 14
+       },
+       {
+        "id": "sr:tournament:334",
+        "name": "EFL Trophy 26/27",
+        "eventSize": 1
+       }
+      ]
+     },
+     {
+      "id": "sr:category:32",
+      "name": "Spain",
+      "eventSize": 117,
+      "tournaments": [
+       {
+        "id": "sr:tournament:544",
+        "name": "Segunda Federacion",
+        "eventSize": 45
+       },
+       {
+        "id": "sr:tournament:1127",
+        "name": "Primera Division Women",
+        "eventSize": 7
+       },
+       {
+        "id": "sr:tournament:8",
+        "name": "LaLiga",
+        "eventSize": 20,
+        "categoryName": "Spain",
+        "categoryId": "sr:category:32"
+       },
+       {
+        "id": "sr:tournament:34834",
+        "name": "Primera Federacion",
+        "eventSize": 18
+       },
+       {
+        "id": "sr:tournament:329",
+        "name": "Copa del Rey 26/27",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:54",
+        "name": "LaLiga 2",
+        "eventSize": 10
+       },
+       {
+        "id": "sr:tournament:48343",
+        "name": "U19 Division de Honor Juvenil",
+        "eventSize": 16
+       }
+      ]
+     },
+     {
+      "id": "sr:category:30",
+      "name": "Germany",
+      "eventSize": 53,
+      "tournaments": [
+       {
+        "id": "sr:tournament:35",
+        "name": "Bundesliga",
+        "eventSize": 18,
+        "categoryName": "Germany",
+        "categoryId": "sr:category:30"
+       },
+       {
+        "id": "sr:tournament:217",
+        "name": "DFB Pokal",
+        "eventSize": 17
+       },
+       {
+        "id": "sr:tournament:44",
+        "name": "2. Bundesliga",
+        "eventSize": 9
+       },
+       {
+        "id": "sr:tournament:491",
+        "name": "3. Liga",
+        "eventSize": 9
+       }
+      ]
+     },
+     {
+      "id": "sr:category:31",
+      "name": "Italy",
+      "eventSize": 163,
+      "tournaments": [
+       {
+        "id": "sr:tournament:328",
+        "name": "Coppa Italia 26/27",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:23",
+        "name": "Serie A",
+        "eventSize": 20,
+        "categoryName": "Italy",
+        "categoryId": "sr:category:31"
+       },
+       {
+        "id": "sr:tournament:20808",
+        "name": "Serie A, Women",
+        "eventSize": 7
+       },
+       {
+        "id": "sr:tournament:26556",
+        "name": "Serie C, Group B",
+        "eventSize": 7
+       },
+       {
+        "id": "sr:tournament:26558",
+        "name": "Serie C, Group C",
+        "eventSize": 8
+       },
+       {
+        "id": "sr:tournament:53",
+        "name": "Serie B",
+        "eventSize": 19
+       },
+       {
+        "id": "sr:tournament:26554",
+        "name": "Serie C, Group A",
+        "eventSize": 11
+       },
+       {
+        "id": "sr:tournament:1374",
+        "name": "Serie D, Group A",
+        "eventSize": 9
+       },
+       {
+        "id": "sr:tournament:1376",
+        "name": "Serie D, Group B",
+        "eventSize": 9
+       },
+       {
+        "id": "sr:tournament:1378",
+        "name": "Serie D, Group C",
+        "eventSize": 9
+       },
+       {
+        "id": "sr:tournament:1380",
+        "name": "Serie D, Group D",
+        "eventSize": 9
+       },
+       {
+        "id": "sr:tournament:1382",
+        "name": "Serie D, Group E",
+        "eventSize": 8
+       },
+       {
+        "id": "sr:tournament:1384",
+        "name": "Serie D, Group F",
+        "eventSize": 9
+       },
+       {
+        "id": "sr:tournament:1386",
+        "name": "Serie D, Group G",
+        "eventSize": 9
+       },
+       {
+        "id": "sr:tournament:1388",
+        "name": "Serie D, Group H",
+        "eventSize": 9
+       },
+       {
+        "id": "sr:tournament:1390",
+        "name": "Serie D, Group I",
+        "eventSize": 6
+       },
+       {
+        "id": "sr:tournament:19202",
+        "name": "Primavera 2",
+        "eventSize": 11
+       },
+       {
+        "id": "sr:tournament:48215",
+        "name": "Serie B, Women",
+        "eventSize": 2
+       }
+      ]
+     },
+     {
+      "id": "sr:category:7",
+      "name": "France",
+      "eventSize": 39,
+      "tournaments": [
+       {
+        "id": "sr:tournament:1139",
+        "name": "Premiere Ligue, Women",
+        "eventSize": 5
+       },
+       {
+        "id": "sr:tournament:335",
+        "name": "Coupe de France 26/27",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:34",
+        "name": "Ligue 1",
+        "eventSize": 18,
+        "categoryName": "France",
+        "categoryId": "sr:category:7"
+       },
+       {
+        "id": "sr:tournament:182",
+        "name": "Ligue 2",
+        "eventSize": 5
+       },
+       {
+        "id": "sr:tournament:183",
+        "name": "Ligue 3",
+        "eventSize": 10
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

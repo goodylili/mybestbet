@@ -1,0 +1,83 @@
+{
+ "squad": {
+  "squad": [
+   {
+    "title": "coach",
+    "members": [
+     {
+      "id": 24393,
+      "name": "Gary O'Neil"
+     }
+    ]
+   },
+   {
+    "title": "keepers",
+    "members": [
+     {
+      "id": 643228,
+      "name": "Alex Palmer"
+     },
+     {
+      "id": 111027,
+      "name": "David Button"
+     },
+     {
+      "id": 512013,
+      "name": "Christian Walton"
+     }
+    ]
+   },
+   {
+    "title": "defenders",
+    "members": [
+     {
+      "id": 609733,
+      "name": "Darnell Furlong"
+     },
+     {
+      "id": 980381,
+      "name": "Leif Davis"
+     },
+     {
+      "id": 760398,
+      "name": "C\u00e9dric Kipr\u00e9"
+     }
+    ]
+   },
+   {
+    "title": "midfielders",
+    "members": [
+     {
+      "id": 797594,
+      "name": "Azor Matusiwa"
+     },
+     {
+      "id": 1073742,
+      "name": "Julio Enciso"
+     },
+     {
+      "id": 793255,
+      "name": "Florentino"
+     }
+    ]
+   },
+   {
+    "title": "attackers",
+    "members": [
+     {
+      "id": 1265626,
+      "name": "Abdul Fatawu"
+     },
+     {
+      "id": 1307961,
+      "name": "Sindre Walle Egeli"
+     },
+     {
+      "id": 873559,
+      "name": "Zian Flemming"
+     }
+    ]
+   }
+  ]
+ }
+}

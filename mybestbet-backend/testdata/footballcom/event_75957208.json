@@ -1,0 +1,16 @@
+{
+ "bizCode": 10000,
+ "message": "0#0",
+ "data": {
+  "markets": [],
+  "hasGiftGrab": false,
+  "bgEvent": false,
+  "ai": false,
+  "matchTrackerNotAllowed": false,
+  "hasBoostOutcomes": false,
+  "hasPreCannedBB": false,
+  "hasEventBookingCodes": false,
+  "hasCompetitorLevelBookingCodes": false,
+  "banned": false
+ }
+}

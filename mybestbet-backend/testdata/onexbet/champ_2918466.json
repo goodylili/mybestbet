@@ -1,0 +1,100 @@
+{
+ "Id": 0,
+ "Success": true,
+ "Error": "",
+ "ErrorCode": 0,
+ "Guid": "",
+ "Value": {
+  "G": [
+   {
+    "B": 10284,
+    "I": 762086840,
+    "N": 173649,
+    "CI": 380422676,
+    "T": 5,
+    "TG": "",
+    "PN": "",
+    "TN": "map",
+    "SSI": 46,
+    "S": 1792825200,
+    "CHIMG": "407e3f43a3627577256dd6545f65adcc.png",
+    "O1": "Winner",
+    "O2": "",
+    "O1I": 180091,
+    "O1IS": [
+     180091
+    ],
+    "O1C": 225,
+    "O1IMG": [
+     "defaultlogo.png"
+    ],
+    "O2IMG": [],
+    "O1R": "Победитель",
+    "O2R": "",
+    "O1E": "Winner",
+    "O2E": "",
+    "SI": 40,
+    "SE": "Esports",
+    "LE": "CS 2. PGL Masters Bucharest. Winner",
+    "LI": 2918466,
+    "COI": 225,
+    "MS": [
+     0
+    ],
+    "KI": 3,
+    "TNS": "maps"
+   },
+   {
+    "B": 10284,
+    "I": 763186578,
+    "N": 246438,
+    "CI": 381581160,
+    "T": 5,
+    "TG": "",
+    "PN": "",
+    "TN": "map",
+    "SSI": 46,
+    "S": 1792825200,
+    "CHIMG": "407e3f43a3627577256dd6545f65adcc.png",
+    "O1": "Highest ADR. Players",
+    "O2": "",
+    "O1I": 2760733,
+    "O1IS": [
+     2760733
+    ],
+    "O1C": 225,
+    "O1IMG": [
+     "defaultlogo.png"
+    ],
+    "O2IMG": [],
+    "O1R": "Highest ADR. Players",
+    "O2R": "",
+    "O1E": "Highest ADR. Players",
+    "O2E": "",
+    "SI": 40,
+    "SE": "Esports",
+    "LE": "CS 2. PGL Masters Bucharest. Winner",
+    "LI": 2918466,
+    "COI": 225,
+    "MS": [
+     0
+    ],
+    "KI": 3,
+    "TNS": "maps"
+   }
+  ],
+  "SI": 40,
+  "SSI": 46,
+  "SN": "Esports",
+  "SR": "КиберСпорт",
+  "SSN": "CS 2",
+  "L": "CS 2. PGL Masters Bucharest. Winner",
+  "LR": "CS 2. PGL Masters Bucharest. Победитель",
+  "LI": 2918466,
+  "CI": 225,
+  "T": 5,
+  "GC": 12,
+  "CHIMG": "407e3f43a3627577256dd6545f65adcc.png",
+  "COIMG": "a09c04e45bfb1f2440d5185d9c5753ec.png"
+ }
+}

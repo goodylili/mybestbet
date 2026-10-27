@@ -1,0 +1,1411 @@
+{
+  "success": true,
+  "cursor": null,
+  "data": [
+    {
+      "createdAt": "2026-10-19T01:07:43.076Z",
+      "description": "In the upcoming NBA game, scheduled for October 25 at 7:00PM ET:\nIf the Magic win, the market will resolve to \"Magic\".\nIf the Knicks win, the market will resolve to \"Knicks\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve 50-50.\nThe result will be determined based on the final score including any overtime periods.",
+      "endsAt": "2026-10-26T02:00:00.000Z",
+      "id": 636469,
+      "imageUrl": "https://static.predict.fun/basketball",
+      "isNegRisk": false,
+      "isVisible": true,
+      "isYieldBearing": true,
+      "marketVariant": "SPORTS_NBA",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "nba-orl-nyk-2026-10-25",
+          "conditionId": "0x0542bdc714469a46ca17cb1b85ab78cf6a082e5fe95063b904f53247e9502b86",
+          "createdAt": "2026-10-19T01:07:43.076Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming NBA game, scheduled for October 25 at 7:00PM ET:\nIf the Magic win, the market will resolve to \"Magic\".\nIf the Knicks win, the market will resolve to \"Knicks\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve 50-50.\nThe result will be determined based on the final score including any overtime periods.",
+          "feeRateBps": 200,
+          "id": 3541141,
+          "imageUrl": "https://static.predict.fun/basketball",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "SPORTS_NBA",
+          "oracleQuestionId": "0x172075f99fd929aa388753c885e3ba791b6dc6a45e014565999fd8ef85754b3a",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.28,
+                "size": 263637.66
+              },
+              "bestBid": {
+                "price": 0.27,
+                "size": 20572.650684931505
+              },
+              "indexSet": 1,
+              "name": "ORL",
+              "onChainId": "33983232334444832109109345797060196096004988252831680590456276301595018696408",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "abbreviation": "ORL",
+                  "id": 5,
+                  "name": "Magic",
+                  "providerTeamId": "5"
+                },
+                "type": "SPORTS_NBA"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "abbreviation": "ORL",
+                    "id": 5,
+                    "name": "Magic",
+                    "providerTeamId": "5"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.73,
+                "size": 20572.650684931505
+              },
+              "bestBid": {
+                "price": 0.72,
+                "size": 263637.66
+              },
+              "indexSet": 2,
+              "name": "NYK",
+              "onChainId": "7831397208323050309979912613627060490897300093418686080646160921425160058756",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "abbreviation": "NY",
+                  "id": 6,
+                  "name": "Knicks",
+                  "providerTeamId": "6"
+                },
+                "type": "SPORTS_NBA"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "abbreviation": "NY",
+                    "id": 6,
+                    "name": "Knicks",
+                    "providerTeamId": "6"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x9d55797ec1884be19515b4b61d2a8cd4a9d32ba1ceabddf6edff088c22135d51"
+          ],
+          "question": "Magic vs. Knicks",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T23:00:00.000Z",
+              "hourlyRate": 200,
+              "startsAt": "2026-10-24T23:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 200,
+                "startsAt": "2026-10-24T23:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T02:00:00.000Z",
+                "hourlyRate": 1000,
+                "startsAt": "2026-10-25T23:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Magic vs. Knicks",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "PREDICT_SPORTS",
+            "providerEventId": "23991",
+            "teams": [
+              {
+                "abbreviation": "ORL",
+                "id": 5,
+                "name": "Magic",
+                "providerTeamId": "5"
+              },
+              {
+                "abbreviation": "NY",
+                "id": 6,
+                "name": "Knicks",
+                "providerTeamId": "6"
+              }
+            ],
+            "type": "SPORTS_NBA"
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "nba-orl-nyk-2026-10-25",
+          "conditionId": "0x88f0878a732ddbb7cccac61b502264f0b869a52f70de22e7bc9594ef720cd807",
+          "createdAt": "2026-10-24T19:27:06.286Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming NBA game, scheduled for October 25 at 7:00 PM ET:\n\nThis market will resolve to \"Knicks\" if the Knicks win the game by 8 or more points.\n\nOtherwise, this market will resolve to \"Magic\". If the game ends in a tie, this market will resolve to \"Magic\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3774472,
+          "imageUrl": "https://static.predict.fun/basketball",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_SPREADS",
+          "marketVariant": "SPORTS_NBA",
+          "oracleQuestionId": "0x9cdbcf08ad0067442e5b21141f325361fbe036317e3146b8df75429df7e75359",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.5,
+                "size": 70
+              },
+              "bestBid": {
+                "price": 0.49,
+                "size": 769
+              },
+              "indexSet": 1,
+              "name": "NYK",
+              "onChainId": "113203792826696954366633632743128589262502583730766776469518334690916337622237",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "abbreviation": "NY",
+                  "id": 6,
+                  "name": "Knicks",
+                  "providerTeamId": "6"
+                },
+                "type": "SPORTS_NBA"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "abbreviation": "NY",
+                    "id": 6,
+                    "name": "Knicks",
+                    "providerTeamId": "6"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.51,
+                "size": 769
+              },
+              "bestBid": {
+                "price": 0.5,
+                "size": 70
+              },
+              "indexSet": 2,
+              "name": "ORL",
+              "onChainId": "20296571334231628335385061733182454493622813505125410684622494285310866567484",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "abbreviation": "ORL",
+                  "id": 5,
+                  "name": "Magic",
+                  "providerTeamId": "5"
+                },
+                "type": "SPORTS_NBA"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "abbreviation": "ORL",
+                    "id": 5,
+                    "name": "Magic",
+                    "providerTeamId": "5"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xb439376288e472d6d0bdba337448553b75315b540d0c01977b678edd15a6ca99"
+          ],
+          "question": "Spread: Knicks (-7.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T23:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T23:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T23:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T02:00:00.000Z",
+                "hourlyRate": 200,
+                "startsAt": "2026-10-25T23:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Spread -7.5",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "PREDICT_SPORTS",
+            "providerEventId": "23991",
+            "teams": [
+              {
+                "abbreviation": "ORL",
+                "id": 5,
+                "name": "Magic",
+                "providerTeamId": "5"
+              },
+              {
+                "abbreviation": "NY",
+                "id": 6,
+                "name": "Knicks",
+                "providerTeamId": "6"
+              }
+            ],
+            "type": "SPORTS_NBA"
+          },
+          "variantDetails": {
+            "sports": {
+              "line": -7.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "nba-orl-nyk-2026-10-25",
+          "conditionId": "0xa714ac096a78df0a32a59663d1cafb47b89a34e7380f262aa40eab588b0a27cc",
+          "createdAt": "2026-10-24T19:27:06.286Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming NBA game, scheduled for October 25 at 7:00 PM ET:\n\nThis market will resolve to \"Magic\" if the Magic win the game by 3 or more points.\n\nOtherwise, this market will resolve to \"Knicks\". If the game ends in a tie, this market will resolve to \"Knicks\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3774477,
+          "imageUrl": "https://static.predict.fun/basketball",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_SPREADS",
+          "marketVariant": "SPORTS_NBA",
+          "oracleQuestionId": "0xd646a9e843a40667771aaa8dce5df79968737887dfed571438d39bf4a265e4d6",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.25,
+                "size": 558.4590000000001
+              },
+              "bestBid": {
+                "price": 0.21,
+                "size": 8.4
+              },
+              "indexSet": 1,
+              "name": "ORL",
+              "onChainId": "92822107645040225034673397893674415484653190914343216429562082138137553686825",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "abbreviation": "ORL",
+                  "id": 5,
+                  "name": "Magic",
+                  "providerTeamId": "5"
+                },
+                "type": "SPORTS_NBA"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "abbreviation": "ORL",
+                    "id": 5,
+                    "name": "Magic",
+                    "providerTeamId": "5"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.79,
+                "size": 8.4
+              },
+              "bestBid": {
+                "price": 0.75,
+                "size": 558.4590000000001
+              },
+              "indexSet": 2,
+              "name": "NYK",
+              "onChainId": "95347953527068682070322205165672085341553749872730819355115805227070394573130",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "abbreviation": "NY",
+                  "id": 6,
+                  "name": "Knicks",
+                  "providerTeamId": "6"
+                },
+                "type": "SPORTS_NBA"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "abbreviation": "NY",
+                    "id": 6,
+                    "name": "Knicks",
+                    "providerTeamId": "6"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x14f3d79428740b0201ebaeccf5b70c4b97200cddaa1884995f333decc322d7fe"
+          ],
+          "question": "Spread: Magic (-2.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T23:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T23:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T23:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T02:00:00.000Z",
+                "hourlyRate": 200,
+                "startsAt": "2026-10-25T23:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Spread -2.5",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "PREDICT_SPORTS",
+            "providerEventId": "23991",
+            "teams": [
+              {
+                "abbreviation": "ORL",
+                "id": 5,
+                "name": "Magic",
+                "providerTeamId": "5"
+              },
+              {
+                "abbreviation": "NY",
+                "id": 6,
+                "name": "Knicks",
+                "providerTeamId": "6"
+              }
+            ],
+            "type": "SPORTS_NBA"
+          },
+          "variantDetails": {
+            "sports": {
+              "line": -2.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "nba-orl-nyk-2026-10-25",
+          "conditionId": "0x6cabcab209d25b2926a283d96b522cbb4edb7a7e03a6fc7f013fa008189da567",
+          "createdAt": "2026-10-24T19:27:06.286Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming NBA game, scheduled for October 25 at 7:00 PM ET:\n\nThis market will resolve to \"Knicks\" if the Knicks win the game by 2 or more points.\n\nOtherwise, this market will resolve to \"Magic\". If the game ends in a tie, this market will resolve to \"Magic\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3774547,
+          "imageUrl": "https://static.predict.fun/basketball",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_SPREADS",
+          "marketVariant": "SPORTS_NBA",
+          "oracleQuestionId": "0xa2b34dbb29f591234096506649e281bed18f53ee4e3d8dbba777b418d9a92e2d",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.71,
+                "size": 4.66
+              },
+              "bestBid": {
+                "price": 0.67,
+                "size": 83.419
+              },
+              "indexSet": 1,
+              "name": "NYK",
+              "onChainId": "111845017195744404566349919573837006630811301611941725862878736445884550708063",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "abbreviation": "NY",
+                  "id": 6,
+                  "name": "Knicks",
+                  "providerTeamId": "6"
+                },
+                "type": "SPORTS_NBA"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "abbreviation": "NY",
+                    "id": 6,
+                    "name": "Knicks",
+                    "providerTeamId": "6"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.33,
+                "size": 83.419
+              },
+              "bestBid": {
+                "price": 0.29,
+                "size": 4.66
+              },
+              "indexSet": 2,
+              "name": "ORL",
+              "onChainId": "64125190372161449308236102551858571101069755502261211368232483896308387218271",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "abbreviation": "ORL",
+                  "id": 5,
+                  "name": "Magic",
+                  "providerTeamId": "5"
+                },
+                "type": "SPORTS_NBA"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "abbreviation": "ORL",
+                    "id": 5,
+                    "name": "Magic",
+                    "providerTeamId": "5"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x1925a5888d0ab73ef8fcec227b44420fa415bd115715d2d552edd1c6d92a8edb"
+          ],
+          "question": "Spread: Knicks (-1.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T23:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T23:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T23:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T02:00:00.000Z",
+                "hourlyRate": 200,
+                "startsAt": "2026-10-25T23:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Spread -1.5",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "PREDICT_SPORTS",
+            "providerEventId": "23991",
+            "teams": [
+              {
+                "abbreviation": "ORL",
+                "id": 5,
+                "name": "Magic",
+                "providerTeamId": "5"
+              },
+              {
+                "abbreviation": "NY",
+                "id": 6,
+                "name": "Knicks",
+                "providerTeamId": "6"
+              }
+            ],
+            "type": "SPORTS_NBA"
+          },
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "nba-orl-nyk-2026-10-25",
+          "conditionId": "0xfa6c82e527fa8b3c605f37788124fdbd368f36b683876c60b536bde75bd8be48",
+          "createdAt": "2026-10-24T19:27:06.286Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming NBA game, scheduled for October 25 at 7:00 PM ET:\n\nThis market will resolve to \"Knicks\" if the Knicks win the game by 3 or more points.\n\nOtherwise, this market will resolve to \"Magic\". If the game ends in a tie, this market will resolve to \"Magic\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3774571,
+          "imageUrl": "https://static.predict.fun/basketball",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_SPREADS",
+          "marketVariant": "SPORTS_NBA",
+          "oracleQuestionId": "0x932e3e1239cd87eb540eddf2e88502b12c6ced64c69474b355b4ecbe9b64da17",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.68,
+                "size": 4.75
+              },
+              "bestBid": {
+                "price": 0.65,
+                "size": 79.4
+              },
+              "indexSet": 1,
+              "name": "NYK",
+              "onChainId": "107610699882012460664576549629752230682051003514333428603646755596600520441469",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "abbreviation": "NY",
+                  "id": 6,
+                  "name": "Knicks",
+                  "providerTeamId": "6"
+                },
+                "type": "SPORTS_NBA"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "abbreviation": "NY",
+                    "id": 6,
+                    "name": "Knicks",
+                    "providerTeamId": "6"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.35,
+                "size": 79.4
+              },
+              "bestBid": {
+                "price": 0.32,
+                "size": 4.75
+              },
+              "indexSet": 2,
+              "name": "ORL",
+              "onChainId": "21291257953830696856183121180769813757374045829878114694148907570764394733737",
+              "status": null,
+              "team": null,
+              "variantData": {
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "abbreviation": "ORL",
+                  "id": 5,
+                  "name": "Magic",
+                  "providerTeamId": "5"
+                },
+                "type": "SPORTS_NBA"
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "abbreviation": "ORL",
+                    "id": 5,
+                    "name": "Magic",
+                    "providerTeamId": "5"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x0a47295b698132d900a449f987b90db0ba7214cd846bac558af6a3f497a90efb"
+          ],
+          "question": "Spread: Knicks (-2.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T23:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T23:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T23:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T02:00:00.000Z",
+                "hourlyRate": 200,
+                "startsAt": "2026-10-25T23:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Spread -2.5",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "PREDICT_SPORTS",
+            "providerEventId": "23991",
+            "teams": [
+              {
+                "abbreviation": "ORL",
+                "id": 5,
+                "name": "Magic",
+                "providerTeamId": "5"
+              },
+              {
+                "abbreviation": "NY",
+                "id": 6,
+                "name": "Knicks",
+                "providerTeamId": "6"
+              }
+            ],
+            "type": "SPORTS_NBA"
+          },
+          "variantDetails": {
+            "sports": {
+              "line": -2.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "nba-orl-nyk-2026-10-25",
+          "conditionId": "0x5f0f2a482369e41a4c75010e10f4a0d82f4ce76e4a558dc4f0b454e7641f2dd1",
+          "createdAt": "2026-10-24T19:27:06.286Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming NBA game, scheduled for October 25 at 7:00 PM ET:\n\nThis market will resolve to \"Over\" if the Magic and Knicks combine to score 227 or more points in this game.\n\nIf the combined total is less than 227, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3774610,
+          "imageUrl": "https://static.predict.fun/basketball",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_NBA",
+          "oracleQuestionId": "0xecfe06fc3af9f15d82aa863555701d877a1b2c003053d5a6c1378af8e1f0569c",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.44,
+                "size": 149.999
+              },
+              "bestBid": {
+                "price": 0.42,
+                "size": 200
+              },
+              "indexSet": 1,
+              "name": "Over 226.5",
+              "onChainId": "78746334925283289723766824161472581041530632546887998303115949156612446993998",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.58,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.56,
+                "size": 149.999
+              },
+              "indexSet": 2,
+              "name": "Under 226.5",
+              "onChainId": "59537582697805898059348063336017240397353646214169059490522977167315701189911",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xd8e49568c57ec2b939db106e2e376c0b1fba0b2a24572d70f89ccbc865bf0b17"
+          ],
+          "question": "Magic vs. Knicks: O/U 226.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T23:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T23:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T23:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T02:00:00.000Z",
+                "hourlyRate": 200,
+                "startsAt": "2026-10-25T23:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 226.5",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "PREDICT_SPORTS",
+            "providerEventId": "23991",
+            "teams": [
+              {
+                "abbreviation": "ORL",
+                "id": 5,
+                "name": "Magic",
+                "providerTeamId": "5"
+              },
+              {
+                "abbreviation": "NY",
+                "id": 6,
+                "name": "Knicks",
+                "providerTeamId": "6"
+              }
+            ],
+            "type": "SPORTS_NBA"
+          },
+          "variantDetails": {
+            "sports": {
+              "line": 226.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "nba-orl-nyk-2026-10-25",
+          "conditionId": "0x5dd6800f3d8f3816a440f84e90198c05866ee98d21849f401929f6d5efc37ca6",
+          "createdAt": "2026-10-24T19:27:06.286Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming NBA game, scheduled for October 25 at 7:00 PM ET:\n\nThis market will resolve to \"Over\" if the Magic and Knicks combine to score 225 or more points in this game.\n\nIf the combined total is less than 225, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3774664,
+          "imageUrl": "https://static.predict.fun/basketball",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_NBA",
+          "oracleQuestionId": "0x82d002cae33c68f2250abcfe965eafa55a8370d8e4d32529ab5c8fa9c12c6dd6",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.48,
+                "size": 350
+              },
+              "bestBid": {
+                "price": 0.47,
+                "size": 206
+              },
+              "indexSet": 1,
+              "name": "Over 224.5",
+              "onChainId": "17881928120593642155982561703764045985513978224086627673661551897877917022028",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.53,
+                "size": 206
+              },
+              "bestBid": {
+                "price": 0.52,
+                "size": 350
+              },
+              "indexSet": 2,
+              "name": "Under 224.5",
+              "onChainId": "82641369953451765939265498753308674773011841054827451425881403823124528411947",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x1be5d62ad10b21f8924067e792449aae09be7f28a87423b5fabb349c4e66cb00"
+          ],
+          "question": "Magic vs. Knicks: O/U 224.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T23:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T23:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T23:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T02:00:00.000Z",
+                "hourlyRate": 200,
+                "startsAt": "2026-10-25T23:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 224.5",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "PREDICT_SPORTS",
+            "providerEventId": "23991",
+            "teams": [
+              {
+                "abbreviation": "ORL",
+                "id": 5,
+                "name": "Magic",
+                "providerTeamId": "5"
+              },
+              {
+                "abbreviation": "NY",
+                "id": 6,
+                "name": "Knicks",
+                "providerTeamId": "6"
+              }
+            ],
+            "type": "SPORTS_NBA"
+          },
+          "variantDetails": {
+            "sports": {
+              "line": 224.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "nba-orl-nyk-2026-10-25",
+          "conditionId": "0x0d38dbe4d9af35a9979c195b4f504ddeac0b67a8fa924c758780b64b8f429c22",
+          "createdAt": "2026-10-24T19:27:06.286Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming NBA game, scheduled for October 25 at 7:00 PM ET:\n\nThis market will resolve to \"Over\" if the Magic and Knicks combine to score 229 or more points in this game.\n\nIf the combined total is less than 229, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3774668,
+          "imageUrl": "https://static.predict.fun/basketball",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_NBA",
+          "oracleQuestionId": "0x77dddb73947716ba17917ddf4781ca4d7238a0c54d7686999b43feb4ba0b771d",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.4,
+                "size": 345.8
+              },
+              "bestBid": {
+                "price": 0.37,
+                "size": 373
+              },
+              "indexSet": 1,
+              "name": "Over 228.5",
+              "onChainId": "4791082792141673321851135704739991737526258923268360014731160675486869281302",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.63,
+                "size": 373
+              },
+              "bestBid": {
+                "price": 0.6,
+                "size": 345.8
+              },
+              "indexSet": 2,
+              "name": "Under 228.5",
+              "onChainId": "37911279382892012820513814351035887568056942899190012453645981666769401321066",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xb6176f4888b117b188c9af5609129fbeb6aaaaf97791040f65285154e4135eef"
+          ],
+          "question": "Magic vs. Knicks: O/U 228.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T23:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T23:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T23:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T23:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T02:00:00.000Z",
+                "hourlyRate": 200,
+                "startsAt": "2026-10-25T23:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 228.5",
+          "tradingStatus": "OPEN",
+          "variantData": {
+            "provider": "PREDICT_SPORTS",
+            "providerEventId": "23991",
+            "teams": [
+              {
+                "abbreviation": "ORL",
+                "id": 5,
+                "name": "Magic",
+                "providerTeamId": "5"
+              },
+              {
+                "abbreviation": "NY",
+                "id": 6,
+                "name": "Knicks",
+                "providerTeamId": "6"
+              }
+            ],
+            "type": "SPORTS_NBA"
+          },
+          "variantDetails": {
+            "sports": {
+              "line": 228.5
+            }
+          }
+        }
+      ],
+      "negRiskOnChainId": null,
+      "parentSlug": null,
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-19T01:08:41.361Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "nba-orl-nyk-2026-10-25",
+      "startsAt": "2026-10-25T23:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "78",
+          "level": 3,
+          "makerRebateBps": 0,
+          "name": "NBA",
+          "parentId": "114"
+        },
+        {
+          "id": "114",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Basketball",
+          "parentId": "4"
+        }
+      ],
+      "teams": null,
+      "title": "Magic vs. Knicks",
+      "tradingSession": null,
+      "variantData": {
+        "provider": "PREDICT_SPORTS",
+        "providerEventId": "23991",
+        "teams": [
+          {
+            "abbreviation": "ORL",
+            "id": 5,
+            "name": "Magic",
+            "providerTeamId": "5"
+          },
+          {
+            "abbreviation": "NY",
+            "id": 6,
+            "name": "Knicks",
+            "providerTeamId": "6"
+          }
+        ],
+        "type": "SPORTS_NBA"
+      },
+      "variantDetails": {
+        "sports": {
+          "provider": "PREDICT_SPORTS",
+          "providerEventId": "23991",
+          "teams": [
+            {
+              "abbreviation": "ORL",
+              "id": 5,
+              "isHome": false,
+              "name": "Magic",
+              "providerTeamId": "5"
+            },
+            {
+              "abbreviation": "NY",
+              "id": 6,
+              "isHome": true,
+              "name": "Knicks",
+              "providerTeamId": "6"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 659711,
+      "slug": "nba-orl-tor-2026-10-30",
+      "title": "Magic vs. Raptors",
+      "shortTitle": null,
+      "description": "In the upcoming NBA game, scheduled for October 30 at 7:30PM ET:\nIf the Magic win, the market will resolve to \"Magic\".\nIf the Raptors win, the market will resolve to \"Raptors\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve 50-50.\nThe result will be determined based on the final score including any overtime periods.",
+      "imageUrl": "https://static.predict.fun/basketball",
+      "isNegRisk": false,
+      "protocol": "LEGACY",
+      "isYieldBearing": true,
+      "negRiskOnChainId": null,
+      "marketVariant": "SPORTS_NBA",
+      "variantData": {
+        "type": "SPORTS_NBA",
+        "provider": "PREDICT_SPORTS",
+        "providerEventId": "23898",
+        "teams": [
+          {
+            "id": 5,
+            "name": "Magic",
+            "abbreviation": "ORL",
+            "providerTeamId": "5"
+          },
+          {
+            "id": 10,
+            "name": "Raptors",
+            "abbreviation": "TOR",
+            "providerTeamId": "10"
+          }
+        ]
+      },
+      "variantDetails": {
+        "sports": {
+          "provider": "PREDICT_SPORTS",
+          "providerEventId": "23898",
+          "teams": [
+            {
+              "id": 5,
+              "name": "Magic",
+              "abbreviation": "ORL",
+              "providerTeamId": "5",
+              "isHome": false
+            },
+            {
+              "id": 10,
+              "name": "Raptors",
+              "abbreviation": "TOR",
+              "providerTeamId": "10",
+              "isHome": true
+            }
+          ]
+        }
+      },
+      "createdAt": "2026-10-24T00:56:06.903Z",
+      "publishedAt": "2026-10-24T00:57:03.509Z",
+      "markets": [
+        {
+          "id": 3724884,
+          "imageUrl": "https://static.predict.fun/basketball",
+          "title": "Magic vs. Raptors",
+          "question": "Magic vs. Raptors",
+          "description": "In the upcoming NBA game, scheduled for October 30 at 7:30PM ET:\nIf the Magic win, the market will resolve to \"Magic\".\nIf the Raptors win, the market will resolve to \"Raptors\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve 50-50.\nThe result will be determined based on the final score including any overtime periods.",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isVisible": true,
+          "isNegRisk": false,
+          "isYieldBearing": true,
+          "feeRateBps": 200,
+          "makerFeeBps": 0,
+          "resolution": null,
+          "oracleQuestionId": "0x1ae42c70256ce2d648015d57e06184d0bbaa03f627d155131beb5665a9bd5014",
+          "conditionId": "0x53ff7a97a8b343eb708e618ff46b46f4333780a2772470f58b8043f9adff8465",
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "outcomes": [
+            {
+              "name": "ORL",
+              "indexSet": 1,
+              "onChainId": "15779031421574814796932331923508540888657159728506754213445870818380393232466",
+              "status": null,
+              "bestBid": {
+                "price": 0.09,
+                "size": 64.771
+              },
+              "bestAsk": {
+                "price": 0.64,
+                "size": 100
+              },
+              "team": null,
+              "variantData": {
+                "type": "SPORTS_NBA",
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "id": 5,
+                  "name": "Magic",
+                  "abbreviation": "ORL",
+                  "providerTeamId": "5"
+                }
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "id": 5,
+                    "name": "Magic",
+                    "abbreviation": "ORL",
+                    "providerTeamId": "5"
+                  }
+                }
+              }
+            },
+            {
+              "name": "TOR",
+              "indexSet": 2,
+              "onChainId": "19409150580535408870058562776232141592720074687965354560387033924456031011284",
+              "status": null,
+              "bestBid": {
+                "price": 0.36,
+                "size": 100
+              },
+              "bestAsk": {
+                "price": 0.91,
+                "size": 64.771
+              },
+              "team": null,
+              "variantData": {
+                "type": "SPORTS_NBA",
+                "provider": "PREDICT_SPORTS",
+                "team": {
+                  "id": 10,
+                  "name": "Raptors",
+                  "abbreviation": "TOR",
+                  "providerTeamId": "10"
+                }
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "PREDICT_SPORTS",
+                  "team": {
+                    "id": 10,
+                    "name": "Raptors",
+                    "abbreviation": "TOR",
+                    "providerTeamId": "10"
+                  }
+                }
+              }
+            }
+          ],
+          "questionIndex": null,
+          "spreadThreshold": 0.06,
+          "shareThreshold": 100,
+          "isBoosted": false,
+          "boostStartsAt": null,
+          "boostEndsAt": null,
+          "polymarketConditionIds": [
+            "0x63667bdf361ede9f79ab4c747202c4ff6b6c128f5f47d1998a493d670dcaedac"
+          ],
+          "kalshiMarketTicker": null,
+          "categorySlug": "nba-orl-tor-2026-10-30",
+          "createdAt": "2026-10-24T00:56:06.903Z",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_NBA",
+          "variantData": {
+            "type": "SPORTS_NBA",
+            "provider": "PREDICT_SPORTS",
+            "providerEventId": "23898",
+            "teams": [
+              {
+                "id": 5,
+                "name": "Magic",
+                "abbreviation": "ORL",
+                "providerTeamId": "5"
+              },
+              {
+                "id": 10,
+                "name": "Raptors",
+                "abbreviation": "TOR",
+                "providerTeamId": "10"
+              }
+            ]
+          },
+          "team": null,
+          "marketType": "SPORTS_MONEYLINE",
+          "rewards": {
+            "current": null,
+            "schedule": [
+              {
+                "hourlyRate": 200,
+                "startsAt": "2026-10-29T23:30:00.000Z",
+                "endsAt": "2026-10-30T23:30:00.000Z"
+              },
+              {
+                "hourlyRate": 1000,
+                "startsAt": "2026-10-30T23:30:00.000Z",
+                "endsAt": "2026-10-31T02:30:00.000Z"
+              }
+            ]
+          }
+        }
+      ],
+      "startsAt": "2026-10-30T23:30:00.000Z",
+      "endsAt": "2026-10-31T02:30:00.000Z",
+      "tradingSession": null,
+      "status": "OPEN",
+      "isVisible": true,
+      "resolutionProvider": "THREE_PO",
+      "tags": [
+        {
+          "id": "4",
+          "name": "Sports",
+          "level": 1,
+          "parentId": null,
+          "makerRebateBps": 0
+        },
+        {
+          "id": "78",
+          "name": "NBA",
+          "level": 3,
+          "parentId": "114",
+          "makerRebateBps": 0
+        },
+        {
+          "id": "114",
+          "name": "Basketball",
+          "level": 2,
+          "parentId": "4",
+          "makerRebateBps": 0
+        }
+      ],
+      "teams": null,
+      "parentSlug": null,
+      "stats": null
+    }
+  ]
+}

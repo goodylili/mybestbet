@@ -1,0 +1,479 @@
+{
+ "Id": 0,
+ "Success": true,
+ "Error": "",
+ "ErrorCode": 0,
+ "Guid": "",
+ "Value": {
+  "G": [
+   {
+    "B": 10285,
+    "SG": [
+     {
+      "I": 763692668,
+      "N": 238485,
+      "CI": 380405542,
+      "T": 30,
+      "EC": 235,
+      "TG": "",
+      "P": 1,
+      "PN": "1st map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763692666
+     },
+     {
+      "I": 763692667,
+      "N": 238498,
+      "CI": 380405546,
+      "T": 30,
+      "EC": 233,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763692666
+     },
+     {
+      "I": 762132198,
+      "N": 238508,
+      "CI": 380405548,
+      "T": 30,
+      "EC": 208,
+      "TG": "",
+      "P": 3,
+      "PN": "3rd map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763692666
+     },
+     {
+      "I": 763771021,
+      "N": 206692,
+      "CI": 382314558,
+      "T": 30,
+      "EC": 228,
+      "TG": "Players' stats",
+      "P": 1,
+      "PN": "1st map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763692666,
+      "TI": 52
+     },
+     {
+      "I": 763771022,
+      "N": 206745,
+      "CI": 382314566,
+      "T": 30,
+      "EC": 228,
+      "TG": "Players' stats",
+      "P": 2,
+      "PN": "2nd map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763692666,
+      "TI": 52
+     }
+    ],
+    "HL": true,
+    "I": 763692666,
+    "N": 238469,
+    "CI": 380405534,
+    "T": 30,
+    "TG": "",
+    "PN": "",
+    "TN": "map",
+    "SS": 2,
+    "SST": 2,
+    "HSI": true,
+    "SSI": 46,
+    "STI": "6ad1f3247762417de8898073",
+    "S": 1792825200,
+    "CHIMG": "407e3f43a3627577256dd6545f65adcc.png",
+    "O1": "Aurora Gaming",
+    "O2": "TheMongolz",
+    "O1I": 6773923,
+    "O2I": 296857,
+    "O1IS": [
+     6773923
+    ],
+    "O2IS": [
+     296857
+    ],
+    "O1C": 225,
+    "O2C": 124,
+    "O1IMG": [
+     "6f815b4d56b6ed24d7ecdf87bec7cea3.png"
+    ],
+    "O2IMG": [
+     "0aee0ff47605b6efda74f2ae2170d45a.png"
+    ],
+    "O1R": "Aurora Gaming",
+    "O2R": "TheMongolz",
+    "O1E": "Aurora Gaming",
+    "O2E": "TheMongolz",
+    "MIS": [
+     {
+      "K": 1,
+      "V": "Swiss Stage. 1st Round"
+     },
+     {
+      "K": 2,
+      "V": "PGL Esports (Bucharest)"
+     }
+    ],
+    "MIO": {
+     "TSt": "Swiss Stage. 1st Round",
+     "Loc": "PGL Esports (Bucharest)"
+    },
+    "SI": 40,
+    "SE": "Esports",
+    "LE": "CS 2. PGL Masters Bucharest",
+    "LI": 2918839,
+    "COI": 225,
+    "MS": [
+     0
+    ],
+    "HLU": true,
+    "SGI": "6ad1f3247762417de8898064",
+    "KI": 3,
+    "HHTHS": true,
+    "TNS": "maps",
+    "SUBA": true
+   },
+   {
+    "B": 10285,
+    "SG": [
+     {
+      "I": 763697862,
+      "N": 237666,
+      "CI": 380405412,
+      "T": 30,
+      "EC": 237,
+      "TG": "",
+      "P": 1,
+      "PN": "1st map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697860
+     },
+     {
+      "I": 763697861,
+      "N": 237665,
+      "CI": 380405402,
+      "T": 30,
+      "EC": 235,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697860
+     },
+     {
+      "I": 762142915,
+      "N": 237704,
+      "CI": 380405424,
+      "T": 30,
+      "EC": 202,
+      "TG": "",
+      "P": 3,
+      "PN": "3rd map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697860
+     },
+     {
+      "I": 764164391,
+      "N": 206631,
+      "CI": 382314550,
+      "T": 30,
+      "EC": 226,
+      "TG": "Players' stats",
+      "P": 1,
+      "PN": "1st map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697860,
+      "TI": 52
+     },
+     {
+      "I": 764164390,
+      "N": 206637,
+      "CI": 382314552,
+      "T": 30,
+      "EC": 228,
+      "TG": "Players' stats",
+      "P": 2,
+      "PN": "2nd map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697860,
+      "TI": 52
+     },
+     {
+      "I": 764164392,
+      "N": 266753,
+      "CI": 382763682,
+      "T": 30,
+      "EC": 130,
+      "TG": "Players' stats",
+      "P": 3,
+      "PN": "3rd map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697860,
+      "TI": 52
+     }
+    ],
+    "HL": true,
+    "I": 763697860,
+    "N": 237662,
+    "CI": 380405400,
+    "T": 30,
+    "TG": "",
+    "PN": "",
+    "TN": "map",
+    "SS": 2,
+    "SST": 2,
+    "HSI": true,
+    "SSI": 46,
+    "STI": "6ad1f3247762417de8898073",
+    "S": 1792825200,
+    "CHIMG": "407e3f43a3627577256dd6545f65adcc.png",
+    "O1": "FUT Esports",
+    "O2": "Tyloo",
+    "O1I": 6647883,
+    "O2I": 330467,
+    "O1IS": [
+     6647883
+    ],
+    "O2IS": [
+     330467
+    ],
+    "O1C": 225,
+    "O2C": 225,
+    "O1IMG": [
+     "442f8066e178d7804a34a9df22ea2100.png"
+    ],
+    "O2IMG": [
+     "550058fc20481ad7db8192c81a96d024.png"
+    ],
+    "O1R": "FUT Esports",
+    "O2R": "Tyloo",
+    "O1E": "FUT Esports",
+    "O2E": "Tyloo",
+    "MIS": [
+     {
+      "K": 1,
+      "V": "Swiss Stage. 1st Round"
+     },
+     {
+      "K": 2,
+      "V": "PGL Esports (Bucharest)"
+     }
+    ],
+    "MIO": {
+     "TSt": "Swiss Stage. 1st Round",
+     "Loc": "PGL Esports (Bucharest)"
+    },
+    "SI": 40,
+    "SE": "Esports",
+    "LE": "CS 2. PGL Masters Bucharest",
+    "LI": 2918839,
+    "COI": 225,
+    "MS": [
+     0
+    ],
+    "HLU": true,
+    "SGI": "6ad1f3247762417de889806e",
+    "KI": 3,
+    "HHTHS": true,
+    "TNS": "maps",
+    "SUBA": true
+   },
+   {
+    "B": 21085,
+    "SG": [
+     {
+      "I": 763697858,
+      "N": 238667,
+      "CI": 380405592,
+      "T": 30,
+      "EC": 233,
+      "TG": "",
+      "P": 1,
+      "PN": "1st map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697857
+     },
+     {
+      "I": 763697859,
+      "N": 238686,
+      "CI": 380405594,
+      "T": 30,
+      "EC": 229,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697857
+     },
+     {
+      "I": 762142902,
+      "N": 238691,
+      "CI": 380405600,
+      "T": 30,
+      "EC": 204,
+      "TG": "",
+      "P": 3,
+      "PN": "3rd map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697857
+     },
+     {
+      "I": 763773586,
+      "N": 206600,
+      "CI": 382314548,
+      "T": 30,
+      "EC": 228,
+      "TG": "Players' stats",
+      "P": 1,
+      "PN": "1st map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697857,
+      "TI": 52
+     },
+     {
+      "I": 763773587,
+      "N": 206793,
+      "CI": 382314578,
+      "T": 30,
+      "EC": 224,
+      "TG": "Players' stats",
+      "P": 2,
+      "PN": "2nd map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697857,
+      "TI": 52
+     },
+     {
+      "I": 764126162,
+      "N": 217663,
+      "CI": 382710760,
+      "T": 30,
+      "EC": 132,
+      "TG": "Players' stats",
+      "P": 3,
+      "PN": "3rd map",
+      "DI": "",
+      "SS": 2,
+      "SI": 40,
+      "MG": 763697857,
+      "TI": 52
+     }
+    ],
+    "HL": true,
+    "I": 763697857,
+    "N": 238654,
+    "CI": 380405590,
+    "T": 30,
+    "TG": "",
+    "PN": "",
+    "TN": "map",
+    "SS": 2,
+    "SST": 2,
+    "HSI": true,
+    "SSI": 46,
+    "STI": "6ad1f3247762417de8898073",
+    "S": 1792836000,
+    "CHIMG": "407e3f43a3627577256dd6545f65adcc.png",
+    "O1": "MOUZ",
+    "O2": "Team Liquid",
+    "O1I": 145477,
+    "O2I": 152723,
+    "O1IS": [
+     145477
+    ],
+    "O2IS": [
+     152723
+    ],
+    "O1C": 225,
+    "O2C": 225,
+    "O1IMG": [
+     "d46a40b53c1871e82dca55c965c7acd2.png"
+    ],
+    "O2IMG": [
+     "208dd4c8f91cbab040d03e63adb18905.png"
+    ],
+    "O1R": "MOUZ",
+    "O2R": "Team Liquid",
+    "O1E": "MOUZ",
+    "O2E": "Team Liquid",
+    "MIS": [
+     {
+      "K": 1,
+      "V": "Swiss Stage. 1st Round"
+     },
+     {
+      "K": 2,
+      "V": "PGL Esports (Bucharest)"
+     }
+    ],
+    "MIO": {
+     "TSt": "Swiss Stage. 1st Round",
+     "Loc": "PGL Esports (Bucharest)"
+    },
+    "SI": 40,
+    "SE": "Esports",
+    "LE": "CS 2. PGL Masters Bucharest",
+    "LI": 2918839,
+    "COI": 225,
+    "MS": [
+     0
+    ],
+    "HLU": true,
+    "SGI": "6ad1f3247762417de8898066",
+    "KI": 3,
+    "HHTHS": true,
+    "TNS": "maps",
+    "SUBA": true
+   }
+  ],
+  "SI": 40,
+  "SSI": 46,
+  "SN": "Esports",
+  "SR": "КиберСпорт",
+  "SSN": "CS 2",
+  "L": "CS 2. PGL Masters Bucharest",
+  "LI": 2918839,
+  "CI": 225,
+  "T": 30,
+  "GC": 8,
+  "CHIMG": "407e3f43a3627577256dd6545f65adcc.png",
+  "COIMG": "a09c04e45bfb1f2440d5185d9c5753ec.png"
+ }
+}

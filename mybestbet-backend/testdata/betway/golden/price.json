@@ -1,0 +1,7619 @@
+{
+  "source": "betway",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "72221332",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.39,
+            "form": "decimal",
+            "prob": 0.7194244604316548,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 4.5,
+            "form": "decimal",
+            "prob": 0.2222222222222222,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 7,
+            "form": "decimal",
+            "prob": 0.14285714285714285,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "DC",
+      "selections": [
+        {
+          "label": "1X",
+          "price": {
+            "raw": 1.09,
+            "form": "decimal",
+            "prob": 0.9174311926605504,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "12",
+          "price": {
+            "raw": 1.16,
+            "form": "decimal",
+            "prob": 0.8620689655172414,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X2",
+          "price": {
+            "raw": 2.39,
+            "form": "decimal",
+            "prob": 0.41841004184100417,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133210"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "DNB",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.12,
+            "form": "decimal",
+            "prob": 0.8928571428571428,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 4.8,
+            "form": "decimal",
+            "prob": 0.20833333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133211"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "110846",
+        "name": "Keane, Michael",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.7,
+            "form": "decimal",
+            "prob": 0.37037037037037035,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=2~#110846"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "135256",
+        "name": "Norgaard, Christian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.88,
+            "form": "decimal",
+            "prob": 0.5319148936170213,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=2~#135256"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "145188",
+        "name": "Tarkowski, James",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.7,
+            "form": "decimal",
+            "prob": 0.27027027027027023,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=2~#145188"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "189061",
+        "name": "Grealish, Jack",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.39,
+            "form": "decimal",
+            "prob": 0.7194244604316548,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=2~#189061"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "352768",
+        "name": "Maitland-Niles, Ainsley",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.1,
+            "form": "decimal",
+            "prob": 0.3225806451612903,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=2~#352768"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "110846",
+        "name": "Keane, Michael",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 10,
+            "form": "decimal",
+            "prob": 0.1,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=3~#110846"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "135256",
+        "name": "Norgaard, Christian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 6.4,
+            "form": "decimal",
+            "prob": 0.15625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=3~#135256"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "145188",
+        "name": "Tarkowski, James",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 14,
+            "form": "decimal",
+            "prob": 0.07142857142857142,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=3~#145188"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "189061",
+        "name": "Grealish, Jack",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3,
+            "form": "decimal",
+            "prob": 0.3333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=3~#189061"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "352768",
+        "name": "Maitland-Niles, Ainsley",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 11,
+            "form": "decimal",
+            "prob": 0.09090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=3~#352768"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "110846",
+        "name": "Keane, Michael",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 30,
+            "form": "decimal",
+            "prob": 0.03333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=4~#110846"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "135256",
+        "name": "Norgaard, Christian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 16,
+            "form": "decimal",
+            "prob": 0.0625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=4~#135256"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "189061",
+        "name": "Grealish, Jack",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 8.4,
+            "form": "decimal",
+            "prob": 0.11904761904761904,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=4~#189061"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "352768",
+        "name": "Maitland-Niles, Ainsley",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 40,
+            "form": "decimal",
+            "prob": 0.025,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=4~#352768"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "547410",
+        "name": "Odegaard, Martin",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.05,
+            "form": "decimal",
+            "prob": 0.3278688524590164,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=4~#547410"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "1088470",
+        "name": "Eze, Eberechi",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.35,
+            "form": "decimal",
+            "prob": 0.29850746268656714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=5~#1088470"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "547410",
+        "name": "Odegaard, Martin",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 6.8,
+            "form": "decimal",
+            "prob": 0.14705882352941177,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=5~#547410"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "592010",
+        "name": "Merino, Mikel",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 6,
+            "form": "decimal",
+            "prob": 0.16666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=5~#592010"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "869030",
+        "name": "Gyokeres, Viktor",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.2,
+            "form": "decimal",
+            "prob": 0.3125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=5~#869030"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "937210",
+        "name": "Havertz, Kai",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.9,
+            "form": "decimal",
+            "prob": 0.3448275862068966,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=5~#937210"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 5.5,
+      "player": {
+        "sourceId": "1088470",
+        "name": "Eze, Eberechi",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 7,
+            "form": "decimal",
+            "prob": 0.14285714285714285,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=6~#1088470"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 5.5,
+      "player": {
+        "sourceId": "1300742",
+        "name": "Madueke, Noni",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 8,
+            "form": "decimal",
+            "prob": 0.125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=6~#1300742"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 5.5,
+      "player": {
+        "sourceId": "869030",
+        "name": "Gyokeres, Viktor",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 6.6,
+            "form": "decimal",
+            "prob": 0.15151515151515152,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=6~#869030"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SHOTS",
+      "line": 5.5,
+      "player": {
+        "sourceId": "937210",
+        "name": "Havertz, Kai",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.6,
+            "form": "decimal",
+            "prob": 0.17857142857142858,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321412count=6~#937210"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "110846",
+        "name": "Keane, Michael",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.9,
+            "form": "decimal",
+            "prob": 0.25641025641025644,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=1~#110846"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "135256",
+        "name": "Norgaard, Christian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.49,
+            "form": "decimal",
+            "prob": 0.4016064257028112,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=1~#135256"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "145188",
+        "name": "Tarkowski, James",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.1,
+            "form": "decimal",
+            "prob": 0.24390243902439027,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=1~#145188"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "189061",
+        "name": "Grealish, Jack",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.95,
+            "form": "decimal",
+            "prob": 0.5128205128205129,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=1~#189061"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "352768",
+        "name": "Maitland-Niles, Ainsley",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.9,
+            "form": "decimal",
+            "prob": 0.25641025641025644,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=1~#352768"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "110846",
+        "name": "Keane, Michael",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 19,
+            "form": "decimal",
+            "prob": 0.05263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=2~#110846"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "135256",
+        "name": "Norgaard, Christian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 13,
+            "form": "decimal",
+            "prob": 0.07692307692307693,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=2~#135256"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "145188",
+        "name": "Tarkowski, James",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 19,
+            "form": "decimal",
+            "prob": 0.05263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=2~#145188"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "189061",
+        "name": "Grealish, Jack",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 8.4,
+            "form": "decimal",
+            "prob": 0.11904761904761904,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=2~#189061"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "352768",
+        "name": "Maitland-Niles, Ainsley",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 17,
+            "form": "decimal",
+            "prob": 0.058823529411764705,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=2~#352768"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "135256",
+        "name": "Norgaard, Christian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 35,
+            "form": "decimal",
+            "prob": 0.02857142857142857,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=3~#135256"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "189061",
+        "name": "Grealish, Jack",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 21,
+            "form": "decimal",
+            "prob": 0.047619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=3~#189061"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "547410",
+        "name": "Odegaard, Martin",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 13,
+            "form": "decimal",
+            "prob": 0.07692307692307693,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=3~#547410"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "592010",
+        "name": "Merino, Mikel",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 13,
+            "form": "decimal",
+            "prob": 0.07692307692307693,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=3~#592010"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "869030",
+        "name": "Gyokeres, Viktor",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.8,
+            "form": "decimal",
+            "prob": 0.1724137931034483,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=3~#869030"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "189061",
+        "name": "Grealish, Jack",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 80,
+            "form": "decimal",
+            "prob": 0.0125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=4~#189061"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "547410",
+        "name": "Odegaard, Martin",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 27,
+            "form": "decimal",
+            "prob": 0.037037037037037035,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=4~#547410"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "592010",
+        "name": "Merino, Mikel",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 26,
+            "form": "decimal",
+            "prob": 0.038461538461538464,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=4~#592010"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "869030",
+        "name": "Gyokeres, Viktor",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 16,
+            "form": "decimal",
+            "prob": 0.0625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=4~#869030"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "937210",
+        "name": "Havertz, Kai",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 16,
+            "form": "decimal",
+            "prob": 0.0625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321413count=4~#937210"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "110846",
+        "name": "Keane, Michael",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 45,
+            "form": "decimal",
+            "prob": 0.022222222222222223,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321415count=1~#110846"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "135256",
+        "name": "Norgaard, Christian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 15,
+            "form": "decimal",
+            "prob": 0.06666666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321415count=1~#135256"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "145188",
+        "name": "Tarkowski, James",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 40,
+            "form": "decimal",
+            "prob": 0.025,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321415count=1~#145188"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "189061",
+        "name": "Grealish, Jack",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 6.8,
+            "form": "decimal",
+            "prob": 0.14705882352941177,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321415count=1~#189061"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "352768",
+        "name": "Maitland-Niles, Ainsley",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 13,
+            "form": "decimal",
+            "prob": 0.07692307692307693,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213321415count=1~#352768"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "CORN_OU",
+      "line": 10.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.55,
+            "form": "decimal",
+            "prob": 0.6451612903225806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "72221332166total=10.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "CORN_OU",
+      "line": 8.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.43,
+            "form": "decimal",
+            "prob": 0.6993006993006994,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.38,
+            "form": "decimal",
+            "prob": 0.42016806722689076,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "72221332166total=8.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "CORN_OU",
+      "line": 9.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.71,
+            "form": "decimal",
+            "prob": 0.5847953216374269,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "72221332166total=9.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "AH",
+      "line": -0.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.37,
+            "form": "decimal",
+            "prob": 0.7299270072992701,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.7,
+            "form": "decimal",
+            "prob": 0.37037037037037035,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133216hcp=-0.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "AH",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.06,
+            "form": "decimal",
+            "prob": 0.4854368932038835,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.62,
+            "form": "decimal",
+            "prob": 0.6172839506172839,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133216hcp=-1.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "AH",
+      "line": -2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.6,
+            "form": "decimal",
+            "prob": 0.2777777777777778,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.22,
+            "form": "decimal",
+            "prob": 0.819672131147541,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133216hcp=-2.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "AH",
+      "line": 0.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.09,
+            "form": "decimal",
+            "prob": 0.9174311926605504,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 5.6,
+            "form": "decimal",
+            "prob": 0.17857142857142858,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133216hcp=0.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "OU",
+      "line": 0.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.03,
+            "form": "decimal",
+            "prob": 0.970873786407767,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 8.2,
+            "form": "decimal",
+            "prob": 0.12195121951219513,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133218total=0.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "OU",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.24,
+            "form": "decimal",
+            "prob": 0.8064516129032259,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.55,
+            "form": "decimal",
+            "prob": 0.28169014084507044,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133218total=1.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.75,
+            "form": "decimal",
+            "prob": 0.5714285714285714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.93,
+            "form": "decimal",
+            "prob": 0.5181347150259068,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133218total=2.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "OU",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.85,
+            "form": "decimal",
+            "prob": 0.3508771929824561,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.35,
+            "form": "decimal",
+            "prob": 0.7407407407407407,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133218total=3.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "OU",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5,
+            "form": "decimal",
+            "prob": 0.2,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.12,
+            "form": "decimal",
+            "prob": 0.8928571428571428,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133218total=4.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Arsenal",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.09,
+            "form": "decimal",
+            "prob": 0.9174311926605504,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 5,
+            "form": "decimal",
+            "prob": 0.2,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133219total=0.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Arsenal",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.5,
+            "form": "decimal",
+            "prob": 0.6666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.21,
+            "form": "decimal",
+            "prob": 0.45248868778280543,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133219total=1.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Arsenal",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.39,
+            "form": "decimal",
+            "prob": 0.7194244604316548,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133219total=2.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "T_GOALS",
+      "line": 3.5,
+      "team": "Arsenal",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.5,
+            "form": "decimal",
+            "prob": 0.2222222222222222,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.11,
+            "form": "decimal",
+            "prob": 0.9009009009009008,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133219total=3.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "T_GOALS",
+      "line": 4.5,
+      "team": "Arsenal",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 7,
+            "form": "decimal",
+            "prob": 0.14285714285714285,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.02,
+            "form": "decimal",
+            "prob": 0.9803921568627451,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133219total=4.5~"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 2.02,
+            "form": "decimal",
+            "prob": 0.49504950495049505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 1.68,
+            "form": "decimal",
+            "prob": 0.5952380952380952,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133229"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "1088470",
+        "name": "Eze, Eberechi",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 7.6,
+            "form": "decimal",
+            "prob": 0.13157894736842105,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133238goalnr=1~type=prematch~#1088470"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "2862771",
+        "name": "Dowman, Max",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 7.4,
+            "form": "decimal",
+            "prob": 0.13513513513513511,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133238goalnr=1~type=prematch~#2862771"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "592010",
+        "name": "Merino, Mikel",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 7.8,
+            "form": "decimal",
+            "prob": 0.12820512820512822,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133238goalnr=1~type=prematch~#592010"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "869030",
+        "name": "Gyokeres, Viktor",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 4.8,
+            "form": "decimal",
+            "prob": 0.20833333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133238goalnr=1~type=prematch~#869030"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "937210",
+        "name": "Havertz, Kai",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 5,
+            "form": "decimal",
+            "prob": 0.2,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133238goalnr=1~type=prematch~#937210"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "1479630",
+        "name": "Saka, Bukayo",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 5.8,
+            "form": "decimal",
+            "prob": 0.1724137931034483,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133239type=prematch~#1479630"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "2862771",
+        "name": "Dowman, Max",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 7.4,
+            "form": "decimal",
+            "prob": 0.13513513513513511,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133239type=prematch~#2862771"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "869030",
+        "name": "Gyokeres, Viktor",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 4.8,
+            "form": "decimal",
+            "prob": 0.20833333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133239type=prematch~#869030"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "937210",
+        "name": "Havertz, Kai",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 5,
+            "form": "decimal",
+            "prob": 0.2,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133239type=prematch~#937210"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "1088470",
+        "name": "Eze, Eberechi",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 3.6,
+            "form": "decimal",
+            "prob": 0.2777777777777778,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133240type=prematch~#1088470"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "2862771",
+        "name": "Dowman, Max",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 3.55,
+            "form": "decimal",
+            "prob": 0.28169014084507044,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133240type=prematch~#2862771"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "592010",
+        "name": "Merino, Mikel",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 3.7,
+            "form": "decimal",
+            "prob": 0.27027027027027023,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133240type=prematch~#592010"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "869030",
+        "name": "Gyokeres, Viktor",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 2.33,
+            "form": "decimal",
+            "prob": 0.4291845493562232,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133240type=prematch~#869030"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "937210",
+        "name": "Havertz, Kai",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133240type=prematch~#937210"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "CS",
+      "selections": [
+        {
+          "label": "0-0",
+          "price": {
+            "raw": 11,
+            "form": "decimal",
+            "prob": 0.09090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-0",
+          "price": {
+            "raw": 5.8,
+            "form": "decimal",
+            "prob": 0.1724137931034483,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-0",
+          "price": {
+            "raw": 5.6,
+            "form": "decimal",
+            "prob": 0.17857142857142858,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-0",
+          "price": {
+            "raw": 8,
+            "form": "decimal",
+            "prob": 0.125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-0",
+          "price": {
+            "raw": 15,
+            "form": "decimal",
+            "prob": 0.06666666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-1",
+          "price": {
+            "raw": 16,
+            "form": "decimal",
+            "prob": 0.0625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-1",
+          "price": {
+            "raw": 8,
+            "form": "decimal",
+            "prob": 0.125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-1",
+          "price": {
+            "raw": 7.6,
+            "form": "decimal",
+            "prob": 0.13157894736842105,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-1",
+          "price": {
+            "raw": 11,
+            "form": "decimal",
+            "prob": 0.09090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-1",
+          "price": {
+            "raw": 21,
+            "form": "decimal",
+            "prob": 0.047619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-2",
+          "price": {
+            "raw": 40,
+            "form": "decimal",
+            "prob": 0.025,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-2",
+          "price": {
+            "raw": 21,
+            "form": "decimal",
+            "prob": 0.047619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-2",
+          "price": {
+            "raw": 21,
+            "form": "decimal",
+            "prob": 0.047619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-2",
+          "price": {
+            "raw": 29,
+            "form": "decimal",
+            "prob": 0.034482758620689655,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-2",
+          "price": {
+            "raw": 60,
+            "form": "decimal",
+            "prob": 0.016666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-3",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-3",
+          "price": {
+            "raw": 80,
+            "form": "decimal",
+            "prob": 0.0125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-3",
+          "price": {
+            "raw": 80,
+            "form": "decimal",
+            "prob": 0.0125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-3",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-3",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "Other",
+          "price": {
+            "raw": 12,
+            "form": "decimal",
+            "prob": 0.08333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133245"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "HTFT",
+      "selections": [
+        {
+          "label": "1/1",
+          "price": {
+            "raw": 1.94,
+            "form": "decimal",
+            "prob": 0.5154639175257733,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1/X",
+          "price": {
+            "raw": 20,
+            "form": "decimal",
+            "prob": 0.05,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1/2",
+          "price": {
+            "raw": 80,
+            "form": "decimal",
+            "prob": 0.0125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/1",
+          "price": {
+            "raw": 4.1,
+            "form": "decimal",
+            "prob": 0.24390243902439027,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/X",
+          "price": {
+            "raw": 6.6,
+            "form": "decimal",
+            "prob": 0.15151515151515152,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/2",
+          "price": {
+            "raw": 15,
+            "form": "decimal",
+            "prob": 0.06666666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/1",
+          "price": {
+            "raw": 25,
+            "form": "decimal",
+            "prob": 0.04,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/X",
+          "price": {
+            "raw": 23,
+            "form": "decimal",
+            "prob": 0.043478260869565216,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/2",
+          "price": {
+            "raw": 13,
+            "form": "decimal",
+            "prob": 0.07692307692307693,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133247"
+    },
+    {
+      "eventSourceId": "72221332",
+      "code": "1H_1X2",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.82,
+            "form": "decimal",
+            "prob": 0.5494505494505494,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 2.37,
+            "form": "decimal",
+            "prob": 0.42194092827004215,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 6.8,
+            "form": "decimal",
+            "prob": 0.14705882352941177,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222133260"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3,
+            "form": "decimal",
+            "prob": 0.3333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 3.35,
+            "form": "decimal",
+            "prob": 0.29850746268656714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.23,
+            "form": "decimal",
+            "prob": 0.4484304932735426,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "DC",
+      "selections": [
+        {
+          "label": "1X",
+          "price": {
+            "raw": 1.52,
+            "form": "decimal",
+            "prob": 0.6578947368421053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "12",
+          "price": {
+            "raw": 1.27,
+            "form": "decimal",
+            "prob": 0.7874015748031495,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X2",
+          "price": {
+            "raw": 1.32,
+            "form": "decimal",
+            "prob": 0.7575757575757576,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134410"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "DNB",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.11,
+            "form": "decimal",
+            "prob": 0.47393364928909953,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.6,
+            "form": "decimal",
+            "prob": 0.625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134411"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "190867",
+        "name": "Akpom, Chuba",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.09,
+            "form": "decimal",
+            "prob": 0.9174311926605504,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=2~#190867"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "280823",
+        "name": "Lukic, Sasa",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.69,
+            "form": "decimal",
+            "prob": 0.591715976331361,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=2~#280823"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "284421",
+        "name": "Aina, Ola",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.98,
+            "form": "decimal",
+            "prob": 0.5050505050505051,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=2~#284421"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "355504",
+        "name": "Schlager, Xaver",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.41,
+            "form": "decimal",
+            "prob": 0.7092198581560284,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=2~#355504"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "190867",
+        "name": "Akpom, Chuba",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.47,
+            "form": "decimal",
+            "prob": 0.6802721088435374,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=3~#190867"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "280823",
+        "name": "Lukic, Sasa",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.8,
+            "form": "decimal",
+            "prob": 0.1724137931034483,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=3~#280823"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "284421",
+        "name": "Aina, Ola",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 8.2,
+            "form": "decimal",
+            "prob": 0.12195121951219513,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=3~#284421"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "355504",
+        "name": "Schlager, Xaver",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.65,
+            "form": "decimal",
+            "prob": 0.273972602739726,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=3~#355504"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "190867",
+        "name": "Akpom, Chuba",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.7,
+            "form": "decimal",
+            "prob": 0.37037037037037035,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=4~#190867"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "280823",
+        "name": "Lukic, Sasa",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 19,
+            "form": "decimal",
+            "prob": 0.05263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=4~#280823"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "284421",
+        "name": "Aina, Ola",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 22,
+            "form": "decimal",
+            "prob": 0.045454545454545456,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=4~#284421"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "355504",
+        "name": "Schlager, Xaver",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 12,
+            "form": "decimal",
+            "prob": 0.08333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=4~#355504"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "1089760",
+        "name": "Gibbs-White, Morgan",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.2,
+            "form": "decimal",
+            "prob": 0.1923076923076923,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=5~#1089760"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "190867",
+        "name": "Akpom, Chuba",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.8,
+            "form": "decimal",
+            "prob": 0.1724137931034483,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=5~#190867"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "945378",
+        "name": "Flemming, Zian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.4,
+            "form": "decimal",
+            "prob": 0.29411764705882354,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=5~#945378"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 5.5,
+      "player": {
+        "sourceId": "1720568",
+        "name": "Enciso, Julio",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 6.2,
+            "form": "decimal",
+            "prob": 0.16129032258064516,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=6~#1720568"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 5.5,
+      "player": {
+        "sourceId": "1886706",
+        "name": "Delap, Liam",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.6,
+            "form": "decimal",
+            "prob": 0.17857142857142858,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=6~#1886706"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SHOTS",
+      "line": 5.5,
+      "player": {
+        "sourceId": "945378",
+        "name": "Flemming, Zian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 7,
+            "form": "decimal",
+            "prob": 0.14285714285714285,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441412count=6~#945378"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "190867",
+        "name": "Akpom, Chuba",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.31,
+            "form": "decimal",
+            "prob": 0.7633587786259541,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=1~#190867"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "280823",
+        "name": "Lukic, Sasa",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.6,
+            "form": "decimal",
+            "prob": 0.3846153846153846,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=1~#280823"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "284421",
+        "name": "Aina, Ola",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.55,
+            "form": "decimal",
+            "prob": 0.28169014084507044,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=1~#284421"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "355504",
+        "name": "Schlager, Xaver",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.48,
+            "form": "decimal",
+            "prob": 0.40322580645161293,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=1~#355504"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "190867",
+        "name": "Akpom, Chuba",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.1,
+            "form": "decimal",
+            "prob": 0.3225806451612903,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=2~#190867"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "280823",
+        "name": "Lukic, Sasa",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 14,
+            "form": "decimal",
+            "prob": 0.07142857142857142,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=2~#280823"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "284421",
+        "name": "Aina, Ola",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 18,
+            "form": "decimal",
+            "prob": 0.05555555555555555,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=2~#284421"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "355504",
+        "name": "Schlager, Xaver",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 14,
+            "form": "decimal",
+            "prob": 0.07142857142857142,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=2~#355504"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "190867",
+        "name": "Akpom, Chuba",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 9.8,
+            "form": "decimal",
+            "prob": 0.1020408163265306,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=3~#190867"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "280823",
+        "name": "Lukic, Sasa",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50,
+            "form": "decimal",
+            "prob": 0.02,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=3~#280823"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "355504",
+        "name": "Schlager, Xaver",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 35,
+            "form": "decimal",
+            "prob": 0.02857142857142857,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=3~#355504"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "790671",
+        "name": "Furlong, Darnell",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 70,
+            "form": "decimal",
+            "prob": 0.014285714285714285,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=3~#790671"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "1089760",
+        "name": "Gibbs-White, Morgan",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 22,
+            "form": "decimal",
+            "prob": 0.045454545454545456,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=4~#1089760"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "190867",
+        "name": "Akpom, Chuba",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 24,
+            "form": "decimal",
+            "prob": 0.041666666666666664,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=4~#190867"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "945378",
+        "name": "Flemming, Zian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 16,
+            "form": "decimal",
+            "prob": 0.0625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=4~#945378"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "963903",
+        "name": "Maeda, Daizen",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 30,
+            "form": "decimal",
+            "prob": 0.03333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441413count=4~#963903"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "190867",
+        "name": "Akpom, Chuba",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 9,
+            "form": "decimal",
+            "prob": 0.1111111111111111,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441415count=1~#190867"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "280823",
+        "name": "Lukic, Sasa",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 10,
+            "form": "decimal",
+            "prob": 0.1,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441415count=1~#280823"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "284421",
+        "name": "Aina, Ola",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 11,
+            "form": "decimal",
+            "prob": 0.09090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441415count=1~#284421"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "355504",
+        "name": "Schlager, Xaver",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 8.2,
+            "form": "decimal",
+            "prob": 0.12195121951219513,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "722213441415count=1~#355504"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "CORN_OU",
+      "line": 10.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.08,
+            "form": "decimal",
+            "prob": 0.4807692307692307,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.56,
+            "form": "decimal",
+            "prob": 0.641025641025641,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "72221344166total=10.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "CORN_OU",
+      "line": 8.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.42,
+            "form": "decimal",
+            "prob": 0.7042253521126761,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "72221344166total=8.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "CORN_OU",
+      "line": 9.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.69,
+            "form": "decimal",
+            "prob": 0.591715976331361,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.89,
+            "form": "decimal",
+            "prob": 0.5291005291005292,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "72221344166total=9.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "AH",
+      "line": -0.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.8,
+            "form": "decimal",
+            "prob": 0.35714285714285715,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.35,
+            "form": "decimal",
+            "prob": 0.7407407407407407,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134416hcp=-0.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "AH",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 5.2,
+            "form": "decimal",
+            "prob": 0.1923076923076923,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.11,
+            "form": "decimal",
+            "prob": 0.9009009009009008,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134416hcp=-1.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "AH",
+      "line": 0.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.59,
+            "form": "decimal",
+            "prob": 0.6289308176100629,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.13,
+            "form": "decimal",
+            "prob": 0.4694835680751174,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134416hcp=0.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "AH",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.21,
+            "form": "decimal",
+            "prob": 0.8264462809917356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 3.7,
+            "form": "decimal",
+            "prob": 0.27027027027027023,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134416hcp=1.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "OU",
+      "line": 0.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.03,
+            "form": "decimal",
+            "prob": 0.970873786407767,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 8.6,
+            "form": "decimal",
+            "prob": 0.11627906976744186,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134418total=0.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "OU",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.19,
+            "form": "decimal",
+            "prob": 0.8403361344537815,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 4,
+            "form": "decimal",
+            "prob": 0.25,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134418total=1.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.63,
+            "form": "decimal",
+            "prob": 0.6134969325153374,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134418total=2.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "OU",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.49,
+            "form": "decimal",
+            "prob": 0.4016064257028112,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.45,
+            "form": "decimal",
+            "prob": 0.6896551724137931,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134418total=3.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "OU",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.3,
+            "form": "decimal",
+            "prob": 0.23255813953488372,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.17,
+            "form": "decimal",
+            "prob": 0.8547008547008548,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134418total=4.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Ipswich Town",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.25,
+            "form": "decimal",
+            "prob": 0.8,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.15,
+            "form": "decimal",
+            "prob": 0.31746031746031744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134419total=0.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Ipswich Town",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.18,
+            "form": "decimal",
+            "prob": 0.4587155963302752,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.51,
+            "form": "decimal",
+            "prob": 0.6622516556291391,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134419total=1.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Ipswich Town",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.4,
+            "form": "decimal",
+            "prob": 0.22727272727272727,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.12,
+            "form": "decimal",
+            "prob": 0.8928571428571428,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134419total=2.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "T_GOALS",
+      "line": 3.5,
+      "team": "Ipswich Town",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 7.4,
+            "form": "decimal",
+            "prob": 0.13513513513513511,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.02,
+            "form": "decimal",
+            "prob": 0.9803921568627451,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134419total=3.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "T_GOALS",
+      "line": 4.5,
+      "team": "Ipswich Town",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 8.2,
+            "form": "decimal",
+            "prob": 0.12195121951219513,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.001,
+            "form": "decimal",
+            "prob": 0.9990009990009991,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134419total=4.5~"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 1.53,
+            "form": "decimal",
+            "prob": 0.6535947712418301,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 2.29,
+            "form": "decimal",
+            "prob": 0.4366812227074236,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134429"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "1089760",
+        "name": "Gibbs-White, Morgan",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 6.2,
+            "form": "decimal",
+            "prob": 0.16129032258064516,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134438goalnr=1~type=prematch~#1089760"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "1600884",
+        "name": "Kalimuendo, Arnaud",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 6.6,
+            "form": "decimal",
+            "prob": 0.15151515151515152,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134438goalnr=1~type=prematch~#1600884"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "1886706",
+        "name": "Delap, Liam",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 6.4,
+            "form": "decimal",
+            "prob": 0.15625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134438goalnr=1~type=prematch~#1886706"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "2184518",
+        "name": "Emersonn",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 6.8,
+            "form": "decimal",
+            "prob": 0.14705882352941177,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134438goalnr=1~type=prematch~#2184518"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "945378",
+        "name": "Flemming, Zian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 6.6,
+            "form": "decimal",
+            "prob": 0.15151515151515152,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134438goalnr=1~type=prematch~#945378"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "1089760",
+        "name": "Gibbs-White, Morgan",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 6.2,
+            "form": "decimal",
+            "prob": 0.16129032258064516,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134439type=prematch~#1089760"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "1744189",
+        "name": "Igor Jesus",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 6.4,
+            "form": "decimal",
+            "prob": 0.15625,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134439type=prematch~#1744189"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "1886706",
+        "name": "Delap, Liam",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 6.4,
+            "form": "decimal",
+            "prob": 0.15625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134439type=prematch~#1886706"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "50480",
+        "name": "Wood, Chris",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 5.6,
+            "form": "decimal",
+            "prob": 0.17857142857142858,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134439type=prematch~#50480"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "1089760",
+        "name": "Gibbs-White, Morgan",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 2.9,
+            "form": "decimal",
+            "prob": 0.3448275862068966,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134440type=prematch~#1089760"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "1600884",
+        "name": "Kalimuendo, Arnaud",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 3.05,
+            "form": "decimal",
+            "prob": 0.3278688524590164,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134440type=prematch~#1600884"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "1886706",
+        "name": "Delap, Liam",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 2.9,
+            "form": "decimal",
+            "prob": 0.3448275862068966,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134440type=prematch~#1886706"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "2184518",
+        "name": "Emersonn",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 3.1,
+            "form": "decimal",
+            "prob": 0.3225806451612903,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134440type=prematch~#2184518"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "945378",
+        "name": "Flemming, Zian",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 3,
+            "form": "decimal",
+            "prob": 0.3333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134440type=prematch~#945378"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "CS",
+      "selections": [
+        {
+          "label": "0-0",
+          "price": {
+            "raw": 12,
+            "form": "decimal",
+            "prob": 0.08333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-0",
+          "price": {
+            "raw": 11,
+            "form": "decimal",
+            "prob": 0.09090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-0",
+          "price": {
+            "raw": 16,
+            "form": "decimal",
+            "prob": 0.0625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-0",
+          "price": {
+            "raw": 35,
+            "form": "decimal",
+            "prob": 0.02857142857142857,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-0",
+          "price": {
+            "raw": 100,
+            "form": "decimal",
+            "prob": 0.01,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-1",
+          "price": {
+            "raw": 9.4,
+            "form": "decimal",
+            "prob": 0.10638297872340426,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-1",
+          "price": {
+            "raw": 6,
+            "form": "decimal",
+            "prob": 0.16666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-1",
+          "price": {
+            "raw": 9.8,
+            "form": "decimal",
+            "prob": 0.1020408163265306,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-1",
+          "price": {
+            "raw": 21,
+            "form": "decimal",
+            "prob": 0.047619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-1",
+          "price": {
+            "raw": 60,
+            "form": "decimal",
+            "prob": 0.016666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-2",
+          "price": {
+            "raw": 11,
+            "form": "decimal",
+            "prob": 0.09090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-2",
+          "price": {
+            "raw": 8.4,
+            "form": "decimal",
+            "prob": 0.11904761904761904,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-2",
+          "price": {
+            "raw": 10,
+            "form": "decimal",
+            "prob": 0.1,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-2",
+          "price": {
+            "raw": 26,
+            "form": "decimal",
+            "prob": 0.038461538461538464,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-2",
+          "price": {
+            "raw": 70,
+            "form": "decimal",
+            "prob": 0.014285714285714285,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-3",
+          "price": {
+            "raw": 20,
+            "form": "decimal",
+            "prob": 0.05,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-3",
+          "price": {
+            "raw": 15,
+            "form": "decimal",
+            "prob": 0.06666666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-3",
+          "price": {
+            "raw": 22,
+            "form": "decimal",
+            "prob": 0.045454545454545456,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-3",
+          "price": {
+            "raw": 40,
+            "form": "decimal",
+            "prob": 0.025,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-3",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-4",
+          "price": {
+            "raw": 50,
+            "form": "decimal",
+            "prob": 0.02,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-4",
+          "price": {
+            "raw": 35,
+            "form": "decimal",
+            "prob": 0.02857142857142857,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-4",
+          "price": {
+            "raw": 50,
+            "form": "decimal",
+            "prob": 0.02,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "Other",
+          "price": {
+            "raw": 19,
+            "form": "decimal",
+            "prob": 0.05263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134445"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "HTFT",
+      "selections": [
+        {
+          "label": "1/1",
+          "price": {
+            "raw": 4.9,
+            "form": "decimal",
+            "prob": 0.2040816326530612,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1/X",
+          "price": {
+            "raw": 14,
+            "form": "decimal",
+            "prob": 0.07142857142857142,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1/2",
+          "price": {
+            "raw": 26,
+            "form": "decimal",
+            "prob": 0.038461538461538464,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/1",
+          "price": {
+            "raw": 7.4,
+            "form": "decimal",
+            "prob": 0.13513513513513511,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/X",
+          "price": {
+            "raw": 5.6,
+            "form": "decimal",
+            "prob": 0.17857142857142858,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/2",
+          "price": {
+            "raw": 6,
+            "form": "decimal",
+            "prob": 0.16666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/1",
+          "price": {
+            "raw": 30,
+            "form": "decimal",
+            "prob": 0.03333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/X",
+          "price": {
+            "raw": 13,
+            "form": "decimal",
+            "prob": 0.07692307692307693,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/2",
+          "price": {
+            "raw": 3.4,
+            "form": "decimal",
+            "prob": 0.29411764705882354,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134447"
+    },
+    {
+      "eventSourceId": "72221344",
+      "code": "1H_1X2",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.35,
+            "form": "decimal",
+            "prob": 0.29850746268656714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 2.26,
+            "form": "decimal",
+            "prob": 0.4424778761061947,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.65,
+            "form": "decimal",
+            "prob": 0.37735849056603776,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7222134460"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.54,
+            "form": "decimal",
+            "prob": 0.6493506493506493,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 3.85,
+            "form": "decimal",
+            "prob": 0.2597402597402597,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 5.8,
+            "form": "decimal",
+            "prob": 0.1724137931034483,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "DC",
+      "selections": [
+        {
+          "label": "1X",
+          "price": {
+            "raw": 1.12,
+            "form": "decimal",
+            "prob": 0.8928571428571428,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "12",
+          "price": {
+            "raw": 1.21,
+            "form": "decimal",
+            "prob": 0.8264462809917356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X2",
+          "price": {
+            "raw": 2.08,
+            "form": "decimal",
+            "prob": 0.4807692307692307,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864610"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "DNB",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.18,
+            "form": "decimal",
+            "prob": 0.8474576271186441,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 3.95,
+            "form": "decimal",
+            "prob": 0.2531645569620253,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864611"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "138383",
+        "name": "Suarez, Denis",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.56,
+            "form": "decimal",
+            "prob": 0.641025641025641,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=2~#138383"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.04,
+            "form": "decimal",
+            "prob": 0.9615384615384615,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=2~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "235648",
+        "name": "Otto, Jonny",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.55,
+            "form": "decimal",
+            "prob": 0.3921568627450981,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=2~#235648"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "344797",
+        "name": "Galilea, Einar",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4,
+            "form": "decimal",
+            "prob": 0.25,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=2~#344797"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "355064",
+        "name": "Alena, Carles",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.17,
+            "form": "decimal",
+            "prob": 0.8547008547008548,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=2~#355064"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "138383",
+        "name": "Suarez, Denis",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.4,
+            "form": "decimal",
+            "prob": 0.22727272727272727,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=3~#138383"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.21,
+            "form": "decimal",
+            "prob": 0.8264462809917356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=3~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "235648",
+        "name": "Otto, Jonny",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 11,
+            "form": "decimal",
+            "prob": 0.09090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=3~#235648"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "344797",
+        "name": "Galilea, Einar",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 17,
+            "form": "decimal",
+            "prob": 0.058823529411764705,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=3~#344797"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "355064",
+        "name": "Alena, Carles",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.83,
+            "form": "decimal",
+            "prob": 0.5464480874316939,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=3~#355064"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "138383",
+        "name": "Suarez, Denis",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 13,
+            "form": "decimal",
+            "prob": 0.07692307692307693,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=4~#138383"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.62,
+            "form": "decimal",
+            "prob": 0.6172839506172839,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=4~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "235648",
+        "name": "Otto, Jonny",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 27,
+            "form": "decimal",
+            "prob": 0.037037037037037035,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=4~#235648"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "355064",
+        "name": "Alena, Carles",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.8,
+            "form": "decimal",
+            "prob": 0.2631578947368421,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=4~#355064"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "547244",
+        "name": "Martinez, Toni",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.5,
+            "form": "decimal",
+            "prob": 0.6666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=4~#547244"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.49,
+            "form": "decimal",
+            "prob": 0.4016064257028112,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=5~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "355064",
+        "name": "Alena, Carles",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 9,
+            "form": "decimal",
+            "prob": 0.1111111111111111,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=5~#355064"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "547244",
+        "name": "Martinez, Toni",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.21,
+            "form": "decimal",
+            "prob": 0.45248868778280543,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=5~#547244"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 4.5,
+      "player": {
+        "sourceId": "584066",
+        "name": "Boye, Lucas",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.88,
+            "form": "decimal",
+            "prob": 0.5319148936170213,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=5~#584066"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 5.5,
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.5,
+            "form": "decimal",
+            "prob": 0.2222222222222222,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=6~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 5.5,
+      "player": {
+        "sourceId": "547244",
+        "name": "Martinez, Toni",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.85,
+            "form": "decimal",
+            "prob": 0.2597402597402597,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=6~#547244"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SHOTS",
+      "line": 5.5,
+      "player": {
+        "sourceId": "584066",
+        "name": "Boye, Lucas",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3,
+            "form": "decimal",
+            "prob": 0.3333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461412count=6~#584066"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "138383",
+        "name": "Suarez, Denis",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.84,
+            "form": "decimal",
+            "prob": 0.5434782608695652,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=1~#138383"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.15,
+            "form": "decimal",
+            "prob": 0.8695652173913044,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=1~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "235648",
+        "name": "Otto, Jonny",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.75,
+            "form": "decimal",
+            "prob": 0.26666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=1~#235648"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "344797",
+        "name": "Galilea, Einar",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.9,
+            "form": "decimal",
+            "prob": 0.2040816326530612,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=1~#344797"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 0.5,
+      "player": {
+        "sourceId": "355064",
+        "name": "Alena, Carles",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.67,
+            "form": "decimal",
+            "prob": 0.5988023952095809,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=1~#355064"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "138383",
+        "name": "Suarez, Denis",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 7.6,
+            "form": "decimal",
+            "prob": 0.13157894736842105,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=2~#138383"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=2~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "235648",
+        "name": "Otto, Jonny",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 17,
+            "form": "decimal",
+            "prob": 0.058823529411764705,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=2~#235648"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "344797",
+        "name": "Galilea, Einar",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 21,
+            "form": "decimal",
+            "prob": 0.047619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=2~#344797"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 1.5,
+      "player": {
+        "sourceId": "355064",
+        "name": "Alena, Carles",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 6,
+            "form": "decimal",
+            "prob": 0.16666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=2~#355064"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "138383",
+        "name": "Suarez, Denis",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 21,
+            "form": "decimal",
+            "prob": 0.047619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=3~#138383"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.95,
+            "form": "decimal",
+            "prob": 0.2531645569620253,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=3~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "355064",
+        "name": "Alena, Carles",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 18,
+            "form": "decimal",
+            "prob": 0.05555555555555555,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=3~#355064"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "547244",
+        "name": "Martinez, Toni",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.6,
+            "form": "decimal",
+            "prob": 0.2173913043478261,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=3~#547244"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 2.5,
+      "player": {
+        "sourceId": "584066",
+        "name": "Boye, Lucas",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.85,
+            "form": "decimal",
+            "prob": 0.2597402597402597,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=3~#584066"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "138383",
+        "name": "Suarez, Denis",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 70,
+            "form": "decimal",
+            "prob": 0.014285714285714285,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=4~#138383"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 10,
+            "form": "decimal",
+            "prob": 0.1,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=4~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "355064",
+        "name": "Alena, Carles",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50,
+            "form": "decimal",
+            "prob": 0.02,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=4~#355064"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "547244",
+        "name": "Martinez, Toni",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 12,
+            "form": "decimal",
+            "prob": 0.08333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=4~#547244"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_SOT",
+      "line": 3.5,
+      "player": {
+        "sourceId": "584066",
+        "name": "Boye, Lucas",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 10,
+            "form": "decimal",
+            "prob": 0.1,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461413count=4~#584066"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "138383",
+        "name": "Suarez, Denis",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.7,
+            "form": "decimal",
+            "prob": 0.2127659574468085,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461415count=1~#138383"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 6.4,
+            "form": "decimal",
+            "prob": 0.15625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461415count=1~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "235648",
+        "name": "Otto, Jonny",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 11,
+            "form": "decimal",
+            "prob": 0.09090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461415count=1~#235648"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "344797",
+        "name": "Galilea, Einar",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 35,
+            "form": "decimal",
+            "prob": 0.02857142857142857,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461415count=1~#344797"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "355064",
+        "name": "Alena, Carles",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.3,
+            "form": "decimal",
+            "prob": 0.23255813953488372,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "724786461415count=1~#355064"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "CORN_OU",
+      "line": 10.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.15,
+            "form": "decimal",
+            "prob": 0.46511627906976744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.53,
+            "form": "decimal",
+            "prob": 0.6535947712418301,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "72478646166total=10.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "CORN_OU",
+      "line": 8.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.45,
+            "form": "decimal",
+            "prob": 0.6896551724137931,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.33,
+            "form": "decimal",
+            "prob": 0.4291845493562232,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "72478646166total=8.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "CORN_OU",
+      "line": 9.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.74,
+            "form": "decimal",
+            "prob": 0.5747126436781609,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.84,
+            "form": "decimal",
+            "prob": 0.5434782608695652,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "72478646166total=9.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "AH",
+      "line": -0.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.51,
+            "form": "decimal",
+            "prob": 0.6622516556291391,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.29,
+            "form": "decimal",
+            "prob": 0.4366812227074236,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864616hcp=-0.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "AH",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.41,
+            "form": "decimal",
+            "prob": 0.41493775933609955,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.46,
+            "form": "decimal",
+            "prob": 0.684931506849315,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864616hcp=-1.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "AH",
+      "line": -2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 4.4,
+            "form": "decimal",
+            "prob": 0.22727272727272727,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.15,
+            "form": "decimal",
+            "prob": 0.8695652173913044,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864616hcp=-2.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "AH",
+      "line": 0.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.12,
+            "form": "decimal",
+            "prob": 0.8928571428571428,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 4.8,
+            "form": "decimal",
+            "prob": 0.20833333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864616hcp=0.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "OU",
+      "line": 0.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.04,
+            "form": "decimal",
+            "prob": 0.9615384615384615,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 7.6,
+            "form": "decimal",
+            "prob": 0.13157894736842105,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864618total=0.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "OU",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.28,
+            "form": "decimal",
+            "prob": 0.78125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.25,
+            "form": "decimal",
+            "prob": 0.3076923076923077,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864618total=1.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.86,
+            "form": "decimal",
+            "prob": 0.5376344086021505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.81,
+            "form": "decimal",
+            "prob": 0.5524861878453039,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864618total=2.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "OU",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.1,
+            "form": "decimal",
+            "prob": 0.3225806451612903,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.3,
+            "form": "decimal",
+            "prob": 0.7692307692307692,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864618total=3.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "OU",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.6,
+            "form": "decimal",
+            "prob": 0.17857142857142858,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.1,
+            "form": "decimal",
+            "prob": 0.9090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864618total=4.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Deportivo Alaves",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.12,
+            "form": "decimal",
+            "prob": 0.8928571428571428,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 4.4,
+            "form": "decimal",
+            "prob": 0.22727272727272727,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864619total=0.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Deportivo Alaves",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.64,
+            "form": "decimal",
+            "prob": 0.6097560975609756,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.95,
+            "form": "decimal",
+            "prob": 0.5128205128205129,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864619total=1.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Deportivo Alaves",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.9,
+            "form": "decimal",
+            "prob": 0.3448275862068966,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.29,
+            "form": "decimal",
+            "prob": 0.7751937984496123,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864619total=2.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "T_GOALS",
+      "line": 3.5,
+      "team": "Deportivo Alaves",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.2,
+            "form": "decimal",
+            "prob": 0.1923076923076923,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.07,
+            "form": "decimal",
+            "prob": 0.9345794392523364,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864619total=3.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "T_GOALS",
+      "line": 4.5,
+      "team": "Deportivo Alaves",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 7.6,
+            "form": "decimal",
+            "prob": 0.13157894736842105,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.01,
+            "form": "decimal",
+            "prob": 0.9900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864619total=4.5~"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 1.95,
+            "form": "decimal",
+            "prob": 0.5128205128205129,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 1.73,
+            "form": "decimal",
+            "prob": 0.5780346820809249,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864629"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 5.4,
+            "form": "decimal",
+            "prob": 0.18518518518518517,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864638goalnr=1~type=prematch~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "2757635",
+        "name": "Manas, Aitor",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 5.4,
+            "form": "decimal",
+            "prob": 0.18518518518518517,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864638goalnr=1~type=prematch~#2757635"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "2842937",
+        "name": "Chupete",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 7.6,
+            "form": "decimal",
+            "prob": 0.13157894736842105,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864638goalnr=1~type=prematch~#2842937"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "547244",
+        "name": "Martinez, Toni",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 4.8,
+            "form": "decimal",
+            "prob": 0.20833333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864638goalnr=1~type=prematch~#547244"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_FIRST",
+      "player": {
+        "sourceId": "584066",
+        "name": "Boye, Lucas",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 4.2,
+            "form": "decimal",
+            "prob": 0.23809523809523808,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864638goalnr=1~type=prematch~#584066"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 5.4,
+            "form": "decimal",
+            "prob": 0.18518518518518517,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864639type=prematch~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "2757635",
+        "name": "Manas, Aitor",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 5.4,
+            "form": "decimal",
+            "prob": 0.18518518518518517,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864639type=prematch~#2757635"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "547244",
+        "name": "Martinez, Toni",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 4.8,
+            "form": "decimal",
+            "prob": 0.20833333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864639type=prematch~#547244"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_LAST",
+      "player": {
+        "sourceId": "584066",
+        "name": "Boye, Lucas",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 4.2,
+            "form": "decimal",
+            "prob": 0.23809523809523808,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864639type=prematch~#584066"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "175753",
+        "name": "Diaz, Mariano",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 2.7,
+            "form": "decimal",
+            "prob": 0.37037037037037035,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864640type=prematch~#175753"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "2757635",
+        "name": "Manas, Aitor",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 2.7,
+            "form": "decimal",
+            "prob": 0.37037037037037035,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864640type=prematch~#2757635"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "2842937",
+        "name": "Chupete",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 3.8,
+            "form": "decimal",
+            "prob": 0.2631578947368421,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864640type=prematch~#2842937"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "547244",
+        "name": "Martinez, Toni",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 2.44,
+            "form": "decimal",
+            "prob": 0.4098360655737705,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864640type=prematch~#547244"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "584066",
+        "name": "Boye, Lucas",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 2.17,
+            "form": "decimal",
+            "prob": 0.4608294930875576,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864640type=prematch~#584066"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "CS",
+      "selections": [
+        {
+          "label": "0-0",
+          "price": {
+            "raw": 9.4,
+            "form": "decimal",
+            "prob": 0.10638297872340426,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-0",
+          "price": {
+            "raw": 5.8,
+            "form": "decimal",
+            "prob": 0.1724137931034483,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-0",
+          "price": {
+            "raw": 6.2,
+            "form": "decimal",
+            "prob": 0.16129032258064516,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-0",
+          "price": {
+            "raw": 9.6,
+            "form": "decimal",
+            "prob": 0.10416666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-0",
+          "price": {
+            "raw": 20,
+            "form": "decimal",
+            "prob": 0.05,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-1",
+          "price": {
+            "raw": 13,
+            "form": "decimal",
+            "prob": 0.07692307692307693,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-1",
+          "price": {
+            "raw": 6.6,
+            "form": "decimal",
+            "prob": 0.15151515151515152,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-1",
+          "price": {
+            "raw": 7.6,
+            "form": "decimal",
+            "prob": 0.13157894736842105,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-1",
+          "price": {
+            "raw": 12,
+            "form": "decimal",
+            "prob": 0.08333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-1",
+          "price": {
+            "raw": 25,
+            "form": "decimal",
+            "prob": 0.04,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-2",
+          "price": {
+            "raw": 30,
+            "form": "decimal",
+            "prob": 0.03333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-2",
+          "price": {
+            "raw": 17,
+            "form": "decimal",
+            "prob": 0.058823529411764705,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-2",
+          "price": {
+            "raw": 17,
+            "form": "decimal",
+            "prob": 0.058823529411764705,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-2",
+          "price": {
+            "raw": 29,
+            "form": "decimal",
+            "prob": 0.034482758620689655,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-2",
+          "price": {
+            "raw": 60,
+            "form": "decimal",
+            "prob": 0.016666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-3",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-3",
+          "price": {
+            "raw": 60,
+            "form": "decimal",
+            "prob": 0.016666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-3",
+          "price": {
+            "raw": 70,
+            "form": "decimal",
+            "prob": 0.014285714285714285,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-3",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-3",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "0-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "3-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "4-4",
+          "price": {
+            "raw": 101,
+            "form": "decimal",
+            "prob": 0.009900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "Other",
+          "price": {
+            "raw": 17,
+            "form": "decimal",
+            "prob": 0.058823529411764705,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864645"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "HTFT",
+      "selections": [
+        {
+          "label": "1/1",
+          "price": {
+            "raw": 2.21,
+            "form": "decimal",
+            "prob": 0.45248868778280543,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1/X",
+          "price": {
+            "raw": 17,
+            "form": "decimal",
+            "prob": 0.058823529411764705,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "1/2",
+          "price": {
+            "raw": 70,
+            "form": "decimal",
+            "prob": 0.014285714285714285,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/1",
+          "price": {
+            "raw": 4.4,
+            "form": "decimal",
+            "prob": 0.22727272727272727,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/X",
+          "price": {
+            "raw": 5.6,
+            "form": "decimal",
+            "prob": 0.17857142857142858,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X/2",
+          "price": {
+            "raw": 12,
+            "form": "decimal",
+            "prob": 0.08333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/1",
+          "price": {
+            "raw": 26,
+            "form": "decimal",
+            "prob": 0.038461538461538464,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/X",
+          "price": {
+            "raw": 19,
+            "form": "decimal",
+            "prob": 0.05263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "2/2",
+          "price": {
+            "raw": 11,
+            "form": "decimal",
+            "prob": 0.09090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864647"
+    },
+    {
+      "eventSourceId": "72478646",
+      "code": "1H_1X2",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2,
+            "form": "decimal",
+            "prob": 0.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 2.24,
+            "form": "decimal",
+            "prob": 0.4464285714285714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 5.8,
+            "form": "decimal",
+            "prob": 0.1724137931034483,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7247864660"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "source": "betking",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "1005539315",
+      "leagueHint": "LALIGA",
+      "home": "Deportivo Alaves",
+      "away": "Malaga",
+      "kickoff": "2026-10-23T19:00:00Z"
+    },
+    {
+      "sourceId": "1005543030",
+      "leagueHint": "SERIEA",
+      "home": "Torino",
+      "away": "AC Monza",
+      "kickoff": "2026-10-23T18:45:00Z"
+    },
+    {
+      "sourceId": "1005545863",
+      "leagueHint": "LALIGA",
+      "home": "Rayo Vallecano",
+      "away": "Elche",
+      "kickoff": "2026-10-24T12:00:00Z"
+    },
+    {
+      "sourceId": "1005547470",
+      "leagueHint": "LALIGA",
+      "home": "Racing Santander",
+      "away": "Espanyol",
+      "kickoff": "2026-10-24T14:15:00Z"
+    },
+    {
+      "sourceId": "1005554442",
+      "leagueHint": "SERIEA",
+      "home": "Cagliari",
+      "away": "Bologna",
+      "kickoff": "2026-10-24T13:00:00Z"
+    },
+    {
+      "sourceId": "1005710306",
+      "leagueHint": "EPL",
+      "home": "Ipswich",
+      "away": "Nottingham",
+      "kickoff": "2026-10-23T19:00:00Z"
+    },
+    {
+      "sourceId": "1005710393",
+      "leagueHint": "EPL",
+      "home": "Arsenal",
+      "away": "Everton",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "1005710395",
+      "leagueHint": "EPL",
+      "home": "Aston Villa",
+      "away": "Man City",
+      "kickoff": "2026-10-24T11:30:00Z"
+    },
+    {
+      "sourceId": "1005710396",
+      "leagueHint": "EPL",
+      "home": "Coventry",
+      "away": "Fulham",
+      "kickoff": "2026-10-24T14:00:00Z"
+    }
+  ],
+  "markets": null
+}

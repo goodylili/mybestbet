@@ -1,0 +1,110 @@
+[
+ {
+  "id": "1234687",
+  "slug": "atp-forti-batalla-2026-10-23",
+  "title": "Florence: Francesco Forti vs Oriol Roca Batalla",
+  "startTime": "2026-10-24T09:00:00Z",
+  "endDate": "2026-10-30T08:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "atp",
+  "eventMetadata": {
+   "league": "Florence"
+  },
+  "teams": [
+   {
+    "name": "Francesco Forti",
+    "abbreviation": "forti",
+    "alias": "F. Forti",
+    "ordering": "home"
+   },
+   {
+    "name": "Oriol Roca Batalla",
+    "abbreviation": "batalla",
+    "alias": "O. Batalla",
+    "ordering": "away"
+   }
+  ]
+ },
+ {
+  "id": "1240130",
+  "slug": "atp-wong-zhou-2026-10-23",
+  "title": "Guangzhou 2: Coleman Wong vs Yi Zhou",
+  "startTime": "2026-10-24T03:05:00Z",
+  "endDate": "2026-10-31T03:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "atp",
+  "eventMetadata": {
+   "league": "Guangzhou 2"
+  },
+  "teams": [
+   {
+    "name": "Coleman Wong",
+    "abbreviation": "wong",
+    "alias": "C. Wong",
+    "ordering": "home"
+   },
+   {
+    "name": "Yi Zhou",
+    "abbreviation": "zhou",
+    "alias": "Y. Zhou",
+    "ordering": "away"
+   }
+  ]
+ },
+ {
+  "id": "1240131",
+  "slug": "atp-schoolk-cui-2026-10-24",
+  "title": "Guangzhou 2: Tristan Schoolkate vs Jie Cui",
+  "startTime": "2026-10-24T04:30:00Z",
+  "endDate": "2026-10-31T04:30:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "atp",
+  "eventMetadata": {
+   "league": "Guangzhou 2"
+  },
+  "teams": [
+   {
+    "name": "Tristan Schoolkate",
+    "abbreviation": "schoolk",
+    "alias": "T. Schoolkate",
+    "ordering": "home"
+   },
+   {
+    "name": "Jie Cui",
+    "abbreviation": "cui",
+    "alias": "J. Cui",
+    "ordering": "away"
+   }
+  ]
+ },
+ {
+  "id": "1240132",
+  "slug": "atp-basilas-tsitsip-2026-10-24",
+  "title": "Almaty Open: Nikoloz Basilashvili vs Stefanos Tsitsipas",
+  "startTime": "2026-10-24T10:00:00Z",
+  "endDate": "2026-10-31T10:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "atp",
+  "eventMetadata": {
+   "league": "Almaty Open"
+  },
+  "teams": [
+   {
+    "name": "Nikoloz Basilashvili",
+    "abbreviation": "basilas",
+    "alias": "N. Basilashvili",
+    "ordering": "home"
+   },
+   {
+    "name": "Stefanos Tsitsipas",
+    "abbreviation": "tsitsip",
+    "alias": "S. Tsitsipas",
+    "ordering": "away"
+   }
+  ]
+ }
+]

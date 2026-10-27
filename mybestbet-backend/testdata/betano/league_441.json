@@ -1,0 +1,92 @@
+{
+ "data": {
+  "blocks": [
+   {
+    "id": "league",
+    "name": "NBA",
+    "events": [
+     {
+      "id": "75100001",
+      "name": "Charlotte Hornets - Miami Heat",
+      "shortName": "Charlotte Hornets - Miami Heat",
+      "sportId": "BASK",
+      "leagueId": "441",
+      "leagueName": "NBA",
+      "regionName": "USA",
+      "startTime": 1792879200000,
+      "url": "/odds/charlotte-hornets-miami-heat/75100001/",
+      "participants": [
+       {
+        "name": "Charlotte Hornets"
+       },
+       {
+        "name": "Miami Heat"
+       }
+      ],
+      "markets": [
+       {
+        "id": "910000003",
+        "name": "Winner (incl. overtime)",
+        "type": "MR12",
+        "selections": [
+         {
+          "id": "910000001",
+          "name": "1",
+          "fullName": "1",
+          "price": 2.25
+         },
+         {
+          "id": "910000002",
+          "name": "2",
+          "fullName": "2",
+          "price": 1.66
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "75100002",
+      "name": "Cleveland Cavaliers - Brooklyn Nets",
+      "shortName": "Cleveland Cavaliers - Brooklyn Nets",
+      "sportId": "BASK",
+      "leagueId": "441",
+      "leagueName": "NBA",
+      "regionName": "USA",
+      "startTime": 1792884600000,
+      "url": "/odds/cleveland-cavaliers-brooklyn-nets/75100002/",
+      "participants": [
+       {
+        "name": "Cleveland Cavaliers"
+       },
+       {
+        "name": "Brooklyn Nets"
+       }
+      ],
+      "markets": [
+       {
+        "id": "910000029",
+        "name": "Winner (incl. overtime)",
+        "type": "MR12",
+        "selections": [
+         {
+          "id": "910000027",
+          "name": "1",
+          "fullName": "1",
+          "price": 1.12
+         },
+         {
+          "id": "910000028",
+          "name": "2",
+          "fullName": "2",
+          "price": 6.5
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

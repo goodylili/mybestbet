@@ -1,0 +1,537 @@
+{
+ "timestamp": "2026-10-24T04:49:20Z",
+ "status": "success",
+ "athletes": [
+  {
+   "position": "offense",
+   "items": [
+    {
+     "id": "4576075",
+     "uid": "s:20~l:28~a:4576075",
+     "guid": "b8d4e4a0-a9e4-b966-a681-7f2e4994e2c9",
+     "firstName": "Corey",
+     "lastName": "Bullock",
+     "fullName": "Corey Bullock",
+     "displayName": "Corey Bullock",
+     "shortName": "C. Bullock",
+     "weight": 320.0,
+     "displayWeight": "320 lbs",
+     "height": 75.0,
+     "displayHeight": "6' 3\"",
+     "age": 24,
+     "dateOfBirth": "2001-12-09T08:00Z",
+     "slug": "corey-bullock",
+     "jersey": "67",
+     "position": {
+      "id": "4",
+      "name": "Center",
+      "displayName": "Center",
+      "abbreviation": "C",
+      "leaf": true,
+      "parent": {
+       "id": "70",
+       "name": "Offense",
+       "displayName": "Offense",
+       "abbreviation": "OFF",
+       "leaf": false
+      }
+     },
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/seasons/2026/teams/29?lang=en&region=us"
+      }
+     ],
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    },
+    {
+     "id": "4695883",
+     "uid": "s:20~l:28~a:4695883",
+     "guid": "1461459b-e133-3455-af3e-896df9dbca39",
+     "firstName": "Jalen",
+     "lastName": "Coker",
+     "fullName": "Jalen Coker",
+     "displayName": "Jalen Coker",
+     "shortName": "J. Coker",
+     "weight": 215.0,
+     "displayWeight": "215 lbs",
+     "height": 75.0,
+     "displayHeight": "6' 3\"",
+     "age": 24,
+     "dateOfBirth": "2001-10-30T08:00Z",
+     "slug": "jalen-coker",
+     "jersey": "18",
+     "position": {
+      "id": "1",
+      "name": "Wide Receiver",
+      "displayName": "Wide Receiver",
+      "abbreviation": "WR",
+      "leaf": true,
+      "parent": {
+       "id": "70",
+       "name": "Offense",
+       "displayName": "Offense",
+       "abbreviation": "OFF",
+       "leaf": false
+      }
+     },
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/seasons/2026/teams/29?lang=en&region=us"
+      }
+     ],
+     "contract": {
+      "optionType": 0,
+      "salary": 9100000,
+      "bonus": 0,
+      "salaryRemaining": 25900000,
+      "yearsRemaining": 3,
+      "signedThrough": 2029,
+      "active": true
+     },
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    }
+   ]
+  },
+  {
+   "position": "defense",
+   "items": [
+    {
+     "id": "4035495",
+     "uid": "s:20~l:28~a:4035495",
+     "guid": "98f03c33-73b9-11c9-326d-44d028b6ff7d",
+     "firstName": "Derrick",
+     "lastName": "Brown",
+     "fullName": "Derrick Brown",
+     "displayName": "Derrick Brown",
+     "shortName": "D. Brown",
+     "weight": 320.0,
+     "displayWeight": "320 lbs",
+     "height": 77.0,
+     "displayHeight": "6' 5\"",
+     "age": 28,
+     "dateOfBirth": "1998-04-15T07:00Z",
+     "debutYear": 2020,
+     "slug": "derrick-brown",
+     "jersey": "95",
+     "position": {
+      "id": "32",
+      "name": "Defensive Tackle",
+      "displayName": "Defensive Tackle",
+      "abbreviation": "DT",
+      "leaf": true,
+      "parent": {
+       "id": "71",
+       "name": "Defense",
+       "displayName": "Defense",
+       "abbreviation": "DEF",
+       "leaf": false
+      }
+     },
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/seasons/2026/teams/29?lang=en&region=us"
+      }
+     ],
+     "contract": {
+      "optionType": 0,
+      "salary": 19500000,
+      "bonus": 0,
+      "salaryRemaining": 47000000,
+      "yearsRemaining": 3,
+      "signedThrough": 2029,
+      "active": true
+     },
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    },
+    {
+     "id": "4372518",
+     "uid": "s:20~l:28~a:4372518",
+     "guid": "73a54cf0-30fc-78b5-68f9-003ab8dc01c0",
+     "firstName": "Bobby",
+     "lastName": "Brown III",
+     "fullName": "Bobby Brown III",
+     "displayName": "Bobby Brown III",
+     "shortName": "B. Brown III",
+     "weight": 332.0,
+     "displayWeight": "332 lbs",
+     "height": 76.0,
+     "displayHeight": "6' 4\"",
+     "age": 26,
+     "dateOfBirth": "2000-08-07T07:00Z",
+     "slug": "bobby-brown-iii",
+     "jersey": "97",
+     "position": {
+      "id": "32",
+      "name": "Defensive Tackle",
+      "displayName": "Defensive Tackle",
+      "abbreviation": "DT",
+      "leaf": true,
+      "parent": {
+       "id": "71",
+       "name": "Defense",
+       "displayName": "Defense",
+       "abbreviation": "DEF",
+       "leaf": false
+      }
+     },
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/seasons/2026/teams/29?lang=en&region=us"
+      }
+     ],
+     "contract": {
+      "optionType": 0,
+      "salary": 6200000,
+      "bonus": 0,
+      "salaryRemaining": 8000000,
+      "yearsRemaining": 1,
+      "signedThrough": 2027,
+      "active": true
+     },
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    }
+   ]
+  },
+  {
+   "position": "specialTeam",
+   "items": [
+    {
+     "id": "4568263",
+     "uid": "s:20~l:28~a:4568263",
+     "guid": "38264da3-595c-49cf-b985-4e82a40596b7",
+     "firstName": "Ryan",
+     "lastName": "Fitzgerald",
+     "fullName": "Ryan Fitzgerald",
+     "displayName": "Ryan Fitzgerald",
+     "shortName": "R. Fitzgerald",
+     "weight": 193.0,
+     "displayWeight": "193 lbs",
+     "height": 71.0,
+     "displayHeight": "5' 11\"",
+     "age": 26,
+     "dateOfBirth": "2000-08-13T07:00Z",
+     "slug": "ryan-fitzgerald",
+     "jersey": "10",
+     "position": {
+      "id": "22",
+      "name": "Place kicker",
+      "displayName": "Place Kicker",
+      "abbreviation": "PK",
+      "leaf": true,
+      "parent": {
+       "id": "72",
+       "name": "Special Teams",
+       "displayName": "Special Teams",
+       "abbreviation": "ST",
+       "leaf": false
+      }
+     },
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/seasons/2026/teams/29?lang=en&region=us"
+      }
+     ],
+     "contract": {
+      "optionType": 0,
+      "salary": 1005000,
+      "bonus": 0,
+      "salaryRemaining": 1120000,
+      "yearsRemaining": 1,
+      "signedThrough": 2027,
+      "active": true
+     },
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    },
+    {
+     "id": "11759",
+     "uid": "s:20~l:28~a:11759",
+     "guid": "2f803e1c-e09b-3f13-da8b-2ca47ee0c0be",
+     "firstName": "JJ",
+     "lastName": "Jansen",
+     "fullName": "JJ Jansen",
+     "displayName": "JJ Jansen",
+     "shortName": "J. Jansen",
+     "weight": 235.0,
+     "displayWeight": "235 lbs",
+     "height": 74.0,
+     "displayHeight": "6' 2\"",
+     "age": 40,
+     "dateOfBirth": "1986-01-20T08:00Z",
+     "debutYear": 2008,
+     "slug": "jj-jansen",
+     "jersey": "44",
+     "position": {
+      "id": "78",
+      "name": "Long Snapper",
+      "displayName": "Long Snapper",
+      "abbreviation": "LS",
+      "leaf": true,
+      "parent": {
+       "id": "72",
+       "name": "Special Teams",
+       "displayName": "Special Teams",
+       "abbreviation": "ST",
+       "leaf": false
+      }
+     },
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/seasons/2026/teams/29?lang=en&region=us"
+      }
+     ],
+     "contract": {
+      "optionType": 0,
+      "salary": 1487500,
+      "bonus": 0,
+      "yearsRemaining": 0,
+      "signedThrough": 2026,
+      "active": true
+     },
+     "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+     }
+    }
+   ]
+  },
+  {
+   "position": "injuredReserveOrOut",
+   "items": [
+    {
+     "id": "5091739",
+     "uid": "s:20~l:28~a:5091739",
+     "guid": "498dc792-9b6d-3673-8571-16aeb85f4fb2",
+     "firstName": "Chris",
+     "lastName": "Brazzell II",
+     "fullName": "Chris Brazzell II",
+     "displayName": "Chris Brazzell II",
+     "shortName": "C. Brazzell II",
+     "weight": 198.0,
+     "displayWeight": "198 lbs",
+     "height": 76.0,
+     "displayHeight": "6' 4\"",
+     "age": 23,
+     "dateOfBirth": "2003-10-23T07:00Z",
+     "slug": "chris-brazzell-ii",
+     "jersey": "19",
+     "position": {
+      "id": "1",
+      "name": "Wide Receiver",
+      "displayName": "Wide Receiver",
+      "abbreviation": "WR",
+      "leaf": true,
+      "parent": {
+       "id": "70",
+       "name": "Offense",
+       "displayName": "Offense",
+       "abbreviation": "OFF",
+       "leaf": false
+      }
+     },
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/seasons/2026/teams/29?lang=en&region=us"
+      }
+     ],
+     "contract": {
+      "optionType": 0,
+      "salary": 2028092,
+      "bonus": 0,
+      "salaryRemaining": 4548768,
+      "yearsRemaining": 3,
+      "signedThrough": 2029,
+      "active": true
+     },
+     "status": {
+      "id": "13",
+      "name": "Day-To-Day",
+      "type": "day-to-day",
+      "abbreviation": "Day-To-Day"
+     }
+    },
+    {
+     "id": "4678008",
+     "uid": "s:20~l:28~a:4678008",
+     "guid": "c349695b-9c76-39bf-878f-699e76ba2131",
+     "firstName": "Jonathon",
+     "lastName": "Brooks",
+     "fullName": "Jonathon Brooks",
+     "displayName": "Jonathon Brooks",
+     "shortName": "J. Brooks",
+     "weight": 207.0,
+     "displayWeight": "207 lbs",
+     "height": 72.0,
+     "displayHeight": "6' 0\"",
+     "age": 23,
+     "dateOfBirth": "2003-07-21T07:00Z",
+     "slug": "jonathon-brooks",
+     "jersey": "25",
+     "position": {
+      "id": "9",
+      "name": "Running Back",
+      "displayName": "Running Back",
+      "abbreviation": "RB",
+      "leaf": true,
+      "parent": {
+       "id": "70",
+       "name": "Offense",
+       "displayName": "Offense",
+       "abbreviation": "OFF",
+       "leaf": false
+      }
+     },
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/seasons/2026/teams/29?lang=en&region=us"
+      }
+     ],
+     "contract": {
+      "optionType": 0,
+      "salary": 1560190,
+      "bonus": 0,
+      "salaryRemaining": 1942785,
+      "yearsRemaining": 1,
+      "signedThrough": 2027,
+      "active": true
+     },
+     "status": {
+      "id": "13",
+      "name": "Day-To-Day",
+      "type": "day-to-day",
+      "abbreviation": "Day-To-Day"
+     }
+    }
+   ]
+  },
+  {
+   "position": "suspended",
+   "items": []
+  },
+  {
+   "position": "practiceSquad",
+   "items": [
+    {
+     "id": "4242230",
+     "uid": "s:20~l:28~a:4242230",
+     "guid": "672411ec-e94c-5ba8-b372-ae6ee58168ce",
+     "firstName": "Saahdiq",
+     "lastName": "Charles",
+     "fullName": "Saahdiq Charles",
+     "displayName": "Saahdiq Charles",
+     "shortName": "S. Charles",
+     "weight": 321.0,
+     "displayWeight": "321 lbs",
+     "height": 76.0,
+     "displayHeight": "6' 4\"",
+     "age": 27,
+     "dateOfBirth": "1999-07-26T07:00Z",
+     "debutYear": 2020,
+     "slug": "saahdiq-charles",
+     "jersey": "78",
+     "position": {
+      "id": "73",
+      "name": "Guard",
+      "displayName": "Guard",
+      "abbreviation": "G",
+      "leaf": false
+     },
+     "teams": [
+      {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/football/leagues/nfl/seasons/2026/teams/29?lang=en&region=us"
+      }
+     ],
+     "contract": {
+      "optionType": 0,
+      "salary": 1215000,
+      "bonus": 0,
+      "yearsRemaining": 0,
+      "signedThrough": 2026,
+      "active": true
+     },
+     "status": {
+      "id": "29",
+      "name": "Practice Squad",
+      "type": "practice-squad",
+      "abbreviation": "Practice Squad"
+     }
+    },
+    {
+     "id": "4685841",
+     "uid": "s:20~l:28~a:4685841",
+     "guid": "6f29b5e8-cc5a-387c-a34e-8880e32ca780",
+     "firstName": "Zion",
+     "lastName": "Childress",
+     "fullName": "Zion Childress",
+     "displayName": "Zion Childress",
+     "shortName": "Z. Childress",
+     "weight": 203.0,
+     "displayWeight": "203 lbs",
+     "height": 71.0,
+     "displayHeight": "5' 11\"",
+     "age": 24,
+     "dateOfBirth": "2002-01-21T08:00Z",
+     "slug": "zion-childress",
+     "position": {
+      "id": "29",
+      "name": "Cornerback",
+      "displayName": "Cornerback",
+      "abbreviation": "CB",
+      "leaf": true,
+      "parent": {
+       "id": "35",
+       "name": "Defensive Back",
+       "displayName": "Defensive Back",
+       "abbreviation": "DB",
+       "leaf": true
+      }
+     },
+     "status": {
+      "id": "29",
+      "name": "Practice Squad",
+      "type": "practice-squad",
+      "abbreviation": "Practice Squad"
+     }
+    }
+   ]
+  }
+ ],
+ "team": {
+  "id": "29",
+  "abbreviation": "CAR",
+  "location": "Carolina",
+  "name": "Panthers",
+  "displayName": "Carolina Panthers",
+  "clubhouse": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+  "color": "0085ca",
+  "recordSummary": "3-2",
+  "seasonSummary": "2026",
+  "standingSummary": "1st in NFC South"
+ }
+}

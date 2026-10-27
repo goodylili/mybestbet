@@ -1,0 +1,4059 @@
+{
+  "source": "bayse",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "bm-game-20261012-cov-new",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "Lewis Hall",
+        "name": "Lewis Hall",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 22,
+            "form": "naira",
+            "prob": 0.22,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-71dc0244"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 83,
+            "form": "naira",
+            "prob": 0.83,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-71dc0244"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "0038a783-a8eb-4a8a-a287-be9304436ba5"
+    },
+    {
+      "eventSourceId": "bm-game-20261012-cov-new",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "Joe Willock",
+        "name": "Joe Willock",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 27,
+            "form": "naira",
+            "prob": 0.27,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-06533ef4"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 78,
+            "form": "naira",
+            "prob": 0.78,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-06533ef4"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "40a46368-4d64-4912-b2dc-755b9a6e1fa4"
+    },
+    {
+      "eventSourceId": "bm-game-20261012-cov-new",
+      "code": "P_SHOTS",
+      "line": 3.5,
+      "player": {
+        "sourceId": "Yoane Wissa",
+        "name": "Yoane Wissa",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 18,
+            "form": "naira",
+            "prob": 0.18,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-3a5653ca"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 87,
+            "form": "naira",
+            "prob": 0.87,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-3a5653ca"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "42edc9b0-c56f-4142-ac3b-cd561fa84c13"
+    },
+    {
+      "eventSourceId": "bm-game-20261012-cov-new",
+      "code": "P_GOALS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "Yoane Wissa",
+        "name": "Yoane Wissa",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 12,
+            "form": "naira",
+            "prob": 0.12,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-d671aaaf"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 92,
+            "form": "naira",
+            "prob": 0.92,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-d671aaaf"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "86cb37e7-f537-47e5-8a7d-3d9608911a2f"
+    },
+    {
+      "eventSourceId": "bm-game-20261012-cov-new",
+      "code": "P_SHOTS",
+      "line": 0.5,
+      "player": {
+        "sourceId": "Jay Dasilva",
+        "name": "Jay Dasilva",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 41,
+            "form": "naira",
+            "prob": 0.41,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-726f35bc"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 64,
+            "form": "naira",
+            "prob": 0.64,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-726f35bc"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "9f7388d3-110d-4c60-bbc4-0698dacf7060"
+    },
+    {
+      "eventSourceId": "bm-game-20261012-cov-new",
+      "code": "P_AST",
+      "line": 0.5,
+      "player": {
+        "sourceId": "Yoane Wissa",
+        "name": "Yoane Wissa",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 31,
+            "form": "naira",
+            "prob": 0.31,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-b843c2a6"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 74,
+            "form": "naira",
+            "prob": 0.74,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-b843c2a6"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "ab517e46-f58d-4488-acf7-24186adb11c2"
+    },
+    {
+      "eventSourceId": "bm-game-20261012-cov-new",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "Bobby Thomas",
+        "name": "Bobby Thomas",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 44,
+            "form": "naira",
+            "prob": 0.44,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-96d4e46d"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 61,
+            "form": "naira",
+            "prob": 0.61,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-96d4e46d"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "d3b8f9ab-83ef-4869-b0c2-44e1c5e2af79"
+    },
+    {
+      "eventSourceId": "bm-game-20261012-cov-new",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "Joe Willock",
+        "name": "Joe Willock",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 36,
+            "form": "naira",
+            "prob": 0.36,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-34c0b11f"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 69,
+            "form": "naira",
+            "prob": 0.69,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-cov-new-2026-10-12-player-props-34c0b11f"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "ecdda440-c489-43ee-846e-0d587a581605"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 3.5,
+      "team": "Nottingham Forest FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 7.5,
+            "form": "naira",
+            "prob": 0.075,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 92.5,
+            "form": "naira",
+            "prob": 0.925,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "02f151bd-57ad-4d9e-8c71-86f7ca5dc50f"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Ipswich Town FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 38,
+            "form": "naira",
+            "prob": 0.38,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 62,
+            "form": "naira",
+            "prob": 0.62,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "125cb7b6-ee30-4462-a6fd-d36b382db8a5"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Ipswich Town FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 74,
+            "form": "naira",
+            "prob": 0.74,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 26,
+            "form": "naira",
+            "prob": 0.26,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "210bb1c7-952e-4f90-8dbf-573949b63fb6"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_SAVES",
+      "line": 3,
+      "player": {
+        "sourceId": "Christian Walton",
+        "name": "Christian Walton",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/christian-walton-3-saves-vs-nfo-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/christian-walton-3-saves-vs-nfo-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "223367ac-31a8-439d-9b11-d3cff0e7aa17"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Nottingham Forest FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 47,
+            "form": "naira",
+            "prob": 0.47,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 53,
+            "form": "naira",
+            "prob": 0.53,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "34ea987b-90f6-4b41-83b8-efae6181016f"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_SHOTS",
+      "line": 1.5,
+      "player": {
+        "sourceId": "James McAtee",
+        "name": "James McAtee",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/james-mcatee-1-5-shots-vs-ips-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/james-mcatee-1-5-shots-vs-ips-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "39c360df-d9af-4484-8093-c3cf35a80711"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Nottingham Forest FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 80,
+            "form": "naira",
+            "prob": 0.8,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 20,
+            "form": "naira",
+            "prob": 0.2,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "41aecb6f-f425-4caf-9c44-f9710a81dfc8"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_PASSES",
+      "line": 38.5,
+      "player": {
+        "sourceId": "Morgan Gibbs-White",
+        "name": "Morgan Gibbs-White",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/morgan-gibbs-white-38-5-passes-vs-ips-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/morgan-gibbs-white-38-5-passes-vs-ips-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "4cf4a623-7c12-4e50-8111-ed75e92790be"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_TACKLES",
+      "line": 3.5,
+      "player": {
+        "sourceId": "Xaver Schlager",
+        "name": "Xaver Schlager",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/xaver-schlager-3-5-tackles-vs-ips-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/xaver-schlager-3-5-tackles-vs-ips-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "4dc703c2-5e61-495e-9fd3-30f405ba6102"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_PASSES",
+      "team": "Ipswich",
+      "selections": [
+        {
+          "label": "436-555",
+          "price": {
+            "raw": 55.34,
+            "form": "naira",
+            "prob": 0.5534,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/how-many-passes-will-ipswich-get-vs-forest"
+        },
+        {
+          "label": "\u003c436",
+          "price": {
+            "raw": 27.96,
+            "form": "naira",
+            "prob": 0.2796,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/how-many-passes-will-ipswich-get-vs-forest"
+        },
+        {
+          "label": "556+",
+          "price": {
+            "raw": 16.7,
+            "form": "naira",
+            "prob": 0.16699999999999998,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/how-many-passes-will-ipswich-get-vs-forest"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "6741f17d-0c13-4515-a254-e6cb24e14036"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_PASSES",
+      "line": 22.5,
+      "player": {
+        "sourceId": "Julio Enciso",
+        "name": "Julio Enciso",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/julio-enciso-22-5-passes-vs-nfo-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/julio-enciso-22-5-passes-vs-nfo-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "6fa8acbb-54de-47f9-8f46-a67f909a9385"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_SHOTS",
+      "line": 3,
+      "player": {
+        "sourceId": "Liam Delap",
+        "name": "Liam Delap",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/liam-delap-3-shots-vs-ips-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/liam-delap-3-shots-vs-ips-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "7e9520a4-2156-41a4-a55d-bbc314fa5681"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Nottingham Forest FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 20.5,
+            "form": "naira",
+            "prob": 0.205,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 79.5,
+            "form": "naira",
+            "prob": 0.795,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "80b3cfa2-4111-48f5-a54c-9968322ae541"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_RATING",
+      "line": 6.9,
+      "player": {
+        "sourceId": "Delap",
+        "name": "Delap",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 51,
+            "form": "naira",
+            "prob": 0.51,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/delap-7-4-sofascore-rating-vs-ipswich"
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 49,
+            "form": "naira",
+            "prob": 0.49,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/delap-7-4-sofascore-rating-vs-ipswich"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "sofascore"
+      },
+      "sourceMarketId": "8f771fd1-362a-41dd-a82e-13de850d73a4"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 5.5,
+      "team": "Nottingham Forest FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.15,
+            "form": "naira",
+            "prob": 0.0115,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 98.85,
+            "form": "naira",
+            "prob": 0.9884999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "97b60f40-c69d-41de-a47b-f8d53c9b4d4f"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_PASSES",
+      "line": 34.5,
+      "player": {
+        "sourceId": "Christian Walton",
+        "name": "Christian Walton",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/christian-walton-34-5-passes-vs-nfo-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/christian-walton-34-5-passes-vs-nfo-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "98a08fc2-2f51-4495-bcd4-505ac56f8b98"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 4.5,
+      "team": "Ipswich Town FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.9,
+            "form": "naira",
+            "prob": 0.009000000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99.1,
+            "form": "naira",
+            "prob": 0.991,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "9cf9396a-0b64-4494-9b0c-74846d8977e9"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_SAVES",
+      "line": 3,
+      "player": {
+        "sourceId": "Matz Sels",
+        "name": "Matz Sels",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/matz-sels-3-saves-vs-ips-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/matz-sels-3-saves-vs-ips-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "9db218d3-8d1d-4b57-9247-9321efb5d951"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 4.5,
+      "team": "Nottingham Forest FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.7,
+            "form": "naira",
+            "prob": 0.017,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 98.3,
+            "form": "naira",
+            "prob": 0.983,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-0e5b36a6"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "a00c98d6-ca39-486d-9645-c56dba5db5d1"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_RATING",
+      "line": 7.1,
+      "player": {
+        "sourceId": "Gibbs-White",
+        "name": "Gibbs-White",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 50.48,
+            "form": "naira",
+            "prob": 0.5047999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/gibbs-white-7-4-sofascore-rating-vs-ipswich"
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 49.52,
+            "form": "naira",
+            "prob": 0.49520000000000003,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/gibbs-white-7-4-sofascore-rating-vs-ipswich"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "sofascore"
+      },
+      "sourceMarketId": "a75d8dee-10f9-47e4-b253-0b6c80862672"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_SHOTS",
+      "line": 3,
+      "player": {
+        "sourceId": "Julio Enciso",
+        "name": "Julio Enciso",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/julio-enciso-3-shots-vs-nfo-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/julio-enciso-3-shots-vs-nfo-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "b479a73c-1fb8-4dab-a592-9d4e1c603404"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_PASSES",
+      "line": 26.5,
+      "player": {
+        "sourceId": "Matz Sels",
+        "name": "Matz Sels",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/matz-sels-26-5-passes-vs-ips-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/matz-sels-26-5-passes-vs-ips-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "c20af5a2-ce68-48ec-98f2-4a22e77126cc"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Ipswich Town FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 14,
+            "form": "naira",
+            "prob": 0.14,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 86,
+            "form": "naira",
+            "prob": 0.86,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "d28beb5a-7aaf-41b6-a60c-374de54daed8"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 3.5,
+      "team": "Ipswich Town FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.2,
+            "form": "naira",
+            "prob": 0.042,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 95.8,
+            "form": "naira",
+            "prob": 0.958,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "d434758d-a9d3-43b0-ae85-88cc5d4b81e7"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_SHOTS",
+      "line": 3,
+      "player": {
+        "sourceId": "Morgan Gibbs-White",
+        "name": "Morgan Gibbs-White",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/morgan-gibbs-white-3-shots-vs-ips-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/morgan-gibbs-white-3-shots-vs-ips-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "d67bc7a9-1663-47c5-a615-67cbb96ba9c7"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_SHOTS",
+      "selections": [
+        {
+          "label": "25-31",
+          "price": {
+            "raw": 41.21,
+            "form": "naira",
+            "prob": 0.4121,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/ipswich-vs-forest-total-shots"
+        },
+        {
+          "label": "\u003c25",
+          "price": {
+            "raw": 29.75,
+            "form": "naira",
+            "prob": 0.2975,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/ipswich-vs-forest-total-shots"
+        },
+        {
+          "label": "32+",
+          "price": {
+            "raw": 29.03,
+            "form": "naira",
+            "prob": 0.2903,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/ipswich-vs-forest-total-shots"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "daf4fd61-2a43-4291-8898-843ff37ca717"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_PASSES",
+      "line": 60.5,
+      "player": {
+        "sourceId": "Issa Diop",
+        "name": "Issa Diop",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/issa-diop-60-5-passes-vs-nfo-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/issa-diop-60-5-passes-vs-nfo-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "edd81228-3acb-45e8-a21b-d816fa581d65"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "P_PASSES",
+      "line": 54.5,
+      "player": {
+        "sourceId": "Murillo Santiago Costa dos Santos",
+        "name": "Murillo Santiago Costa dos Santos",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/murillo-santiago-costa-dos-santos-54-5-passes-vs-ips-20261023"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/murillo-santiago-costa-dos-santos-54-5-passes-vs-ips-20261023"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "f457135c-cf52-4289-a0c2-65659a37b72d"
+    },
+    {
+      "eventSourceId": "bm-game-20261023-ips-nfo",
+      "code": "T_GOALS",
+      "line": 5.5,
+      "team": "Ipswich Town FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.9,
+            "form": "naira",
+            "prob": 0.009000000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99.1,
+            "form": "naira",
+            "prob": 0.991,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ips-not-2026-10-23-more-markets-ee96a0f2"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "f7e7eed5-a4b1-4bef-9d04-4c6e9a338e2f"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 69.52,
+            "form": "naira",
+            "prob": 0.6951999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-october-24-2026"
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 23.2,
+            "form": "naira",
+            "prob": 0.23199999999999998,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-october-24-2026"
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 11.69,
+            "form": "naira",
+            "prob": 0.11689999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "05652f33-75ac-42dc-9a79-3626462ae66f"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "CORN_OU",
+      "line": 6.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 81.78,
+            "form": "naira",
+            "prob": 0.8178,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-corners-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 18.22,
+            "form": "naira",
+            "prob": 0.1822,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-corners-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "07c0cb47-96e3-4f0c-b219-1e52674aaf97"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "OU",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 31.47,
+            "form": "naira",
+            "prob": 0.3147,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 73.41,
+            "form": "naira",
+            "prob": 0.7341,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "097d3b80-fd74-4bcc-9f4e-d133275b9858"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "P_SAVES",
+      "line": 2,
+      "player": {
+        "sourceId": "David Raya",
+        "name": "David Raya",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/david-raya-2-saves-vs-eve-20261024"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/david-raya-2-saves-vs-eve-20261024"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "1ba1ece8-038f-4c7a-ae25-74b34dc3ecba"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 3.5,
+      "team": "Arsenal FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 13,
+            "form": "naira",
+            "prob": 0.13,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 87,
+            "form": "naira",
+            "prob": 0.87,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "234abe39-6d44-4df6-93b2-9ca0eb7c2e48"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_SHOTS",
+      "selections": [
+        {
+          "label": "21-28",
+          "price": {
+            "raw": 40,
+            "form": "naira",
+            "prob": 0.4,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-shots"
+        },
+        {
+          "label": "\u003c21",
+          "price": {
+            "raw": 30,
+            "form": "naira",
+            "prob": 0.3,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-shots"
+        },
+        {
+          "label": "29+",
+          "price": {
+            "raw": 30,
+            "form": "naira",
+            "prob": 0.3,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-shots"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "25df54e9-03db-4acb-9bf1-89657dc89f9e"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "CORN_OU",
+      "line": 9.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 53,
+            "form": "naira",
+            "prob": 0.53,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-corners-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 47,
+            "form": "naira",
+            "prob": 0.47,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-corners-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2e5c10cc-df28-41c9-a5ee-1c3416e2a1c3"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Everton FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3,
+            "form": "naira",
+            "prob": 0.03,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 97,
+            "form": "naira",
+            "prob": 0.97,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3206f6de-61b4-4047-8fab-5ebfe55eb92e"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Arsenal FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 31.5,
+            "form": "naira",
+            "prob": 0.315,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 68.5,
+            "form": "naira",
+            "prob": 0.685,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3a029095-6f19-4ef5-9b5a-f35d517b1449"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "AH",
+      "line": -2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 20.52,
+            "form": "naira",
+            "prob": 0.2052,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-spread-october-24-2026"
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 79.48,
+            "form": "naira",
+            "prob": 0.7948000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-spread-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "402430a1-8998-4964-a7c1-e624a015596f"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "P_SAVES",
+      "line": 4,
+      "player": {
+        "sourceId": "Jordan Pickford",
+        "name": "Jordan Pickford",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/jordan-pickford-4-saves-vs-ars-20261024"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/jordan-pickford-4-saves-vs-ars-20261024"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "42032d58-bbfa-4acd-9d6a-7c94d2d3ffa9"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Arsenal FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 60,
+            "form": "naira",
+            "prob": 0.6,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 40,
+            "form": "naira",
+            "prob": 0.4,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "45d1228a-5793-4a96-ae15-614484586e2d"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_PASSES",
+      "team": "Arsenal",
+      "selections": [
+        {
+          "label": "524-635",
+          "price": {
+            "raw": 40.41,
+            "form": "naira",
+            "prob": 0.40409999999999996,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/how-many-passes-will-arsenal-get-vs-everton"
+        },
+        {
+          "label": "\u003c524",
+          "price": {
+            "raw": 29.8,
+            "form": "naira",
+            "prob": 0.298,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/how-many-passes-will-arsenal-get-vs-everton"
+        },
+        {
+          "label": "636+",
+          "price": {
+            "raw": 29.8,
+            "form": "naira",
+            "prob": 0.298,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/how-many-passes-will-arsenal-get-vs-everton"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "509997e0-0749-4acb-81a9-cbd6b1dd8d26"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "OU",
+      "line": 0.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 94.39,
+            "form": "naira",
+            "prob": 0.9439,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 7.46,
+            "form": "naira",
+            "prob": 0.0746,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "60c45bc6-89bb-4e46-a51f-8bf803f83772"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Arsenal FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 87.5,
+            "form": "naira",
+            "prob": 0.875,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 12.5,
+            "form": "naira",
+            "prob": 0.125,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "70cc8be4-3a64-4122-98f6-7cac8d85cfb9"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "OU",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 15.89,
+            "form": "naira",
+            "prob": 0.1589,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 87.79,
+            "form": "naira",
+            "prob": 0.8779,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "819f27fe-1585-48a7-9c80-05a80ac3b053"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "AH",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.57,
+            "form": "naira",
+            "prob": 0.015700000000000002,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-spread-october-24-2026"
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 98.43,
+            "form": "naira",
+            "prob": 0.9843000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-spread-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "85609a4a-0aed-449c-b3a0-b022f7205555"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "AH",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.53,
+            "form": "naira",
+            "prob": 0.0253,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-spread-october-24-2026"
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 97.47,
+            "form": "naira",
+            "prob": 0.9747,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-spread-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8d41f346-0119-48cb-911b-227882d84c35"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "CORN_OU",
+      "line": 7.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 77.48,
+            "form": "naira",
+            "prob": 0.7748,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-corners-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 22.52,
+            "form": "naira",
+            "prob": 0.22519999999999998,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-corners-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8efd017b-89d4-49f2-bc49-f0b7e1ec3969"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 5.5,
+      "team": "Everton FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 47.5,
+            "form": "naira",
+            "prob": 0.475,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 52.5,
+            "form": "naira",
+            "prob": 0.525,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "95c7c972-ded0-4440-aaad-09be80f51abf"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 4.5,
+      "team": "Everton FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 47.95,
+            "form": "naira",
+            "prob": 0.47950000000000004,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 52.05,
+            "form": "naira",
+            "prob": 0.5205,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "b1d6cf2d-1cad-460f-8612-4fdbfa4ed6c4"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "CORN_OU",
+      "line": 8.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 64.49,
+            "form": "naira",
+            "prob": 0.6448999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-corners-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 35.51,
+            "form": "naira",
+            "prob": 0.35509999999999997,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-corners-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "b4ebd6b4-73c2-443e-8665-bc6191e7ee68"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "OU",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 78.24,
+            "form": "naira",
+            "prob": 0.7824,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 26.31,
+            "form": "naira",
+            "prob": 0.2631,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "bf875c24-09fb-4382-b146-2a7fb7338570"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_CARDS",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 45.45,
+            "form": "naira",
+            "prob": 0.4545,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-fc-vs-everton-fc-will-there-be-4-or-more-cards-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 61.98,
+            "form": "naira",
+            "prob": 0.6198,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-fc-vs-everton-fc-will-there-be-4-or-more-cards-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "c266994f-9720-4d2d-8c5b-cf64f4d41a97"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 5.5,
+      "team": "Arsenal FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 48.15,
+            "form": "naira",
+            "prob": 0.4815,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 51.85,
+            "form": "naira",
+            "prob": 0.5185,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "c8fba81f-cc0e-48d1-9854-1f1387bd252a"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "AH",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 43.71,
+            "form": "naira",
+            "prob": 0.4371,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-spread-october-24-2026"
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 60.69,
+            "form": "naira",
+            "prob": 0.6069,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-spread-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "cf3283e3-d4ac-404b-a96d-0f6734f4b9ee"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Everton FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 16.5,
+            "form": "naira",
+            "prob": 0.165,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 83.5,
+            "form": "naira",
+            "prob": 0.835,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "d3c0c645-bdde-48e8-b177-8ec4e9c96bce"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "CORN_OU",
+      "line": 10.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 41.01,
+            "form": "naira",
+            "prob": 0.41009999999999996,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-corners-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 58.99,
+            "form": "naira",
+            "prob": 0.5899,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-corners-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "d52937c8-7530-41f9-b197-4b041a3d6518"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 53.75,
+            "form": "naira",
+            "prob": 0.5375,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 50.75,
+            "form": "naira",
+            "prob": 0.5075,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "d9ff4e26-a904-494d-a233-0b82a7ea175d"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 3.5,
+      "team": "Everton FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 46.95,
+            "form": "naira",
+            "prob": 0.46950000000000003,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 53.05,
+            "form": "naira",
+            "prob": 0.5305,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "eb272fce-4f23-41e8-9265-5b6365d858ae"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 49,
+            "form": "naira",
+            "prob": 0.49,
+            "bid": 47,
+            "ask": 49,
+            "liquidity": 98,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-btts-october-24-2026"
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 53,
+            "form": "naira",
+            "prob": 0.53,
+            "bid": 51,
+            "ask": 53,
+            "liquidity": 265,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-btts-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "ef285b37-c8b1-4db1-b76c-c5af0445469d"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "OU",
+      "line": 5.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 6.39,
+            "form": "naira",
+            "prob": 0.0639,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 95.33,
+            "form": "naira",
+            "prob": 0.9533,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/arsenal-vs-everton-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "efa2a11d-9d0a-40ed-9c63-2fd0c0a3f101"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Everton FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 52.5,
+            "form": "naira",
+            "prob": 0.525,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 47.5,
+            "form": "naira",
+            "prob": 0.475,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-9bd16f96"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "f39b7c03-304c-45c6-b393-bbde4e308cbb"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-ars-eve",
+      "code": "T_GOALS",
+      "line": 4.5,
+      "team": "Arsenal FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 25.45,
+            "form": "naira",
+            "prob": 0.2545,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 74.55,
+            "form": "naira",
+            "prob": 0.7454999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ars-eve-2026-10-24-more-markets-7fbb906a"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "fa5f5aee-20fb-4934-8218-a5cbdb83ac8d"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "P_SAVES",
+      "line": 2.5,
+      "player": {
+        "sourceId": "Gianluigi Donnarumma",
+        "name": "Gianluigi Donnarumma",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/gianluigi-donnarumma-2-5-saves-vs-avl-20261024"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/gianluigi-donnarumma-2-5-saves-vs-avl-20261024"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "0e3a05a6-4de1-46fc-8b4e-213fdfb548c9"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 5.5,
+      "team": "Manchester City FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.5,
+            "form": "naira",
+            "prob": 0.015,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 98.5,
+            "form": "naira",
+            "prob": 0.985,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "206da828-56ba-4d0d-ba7f-50dcb8f07032"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "OU",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 84.48,
+            "form": "naira",
+            "prob": 0.8448,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 15.52,
+            "form": "naira",
+            "prob": 0.1552,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "26bbed24-9e09-4c89-8261-2d22bdb2f4bb"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 3.5,
+      "team": "Aston Villa FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.75,
+            "form": "naira",
+            "prob": 0.0275,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 97.25,
+            "form": "naira",
+            "prob": 0.9725,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "277dd841-1316-48fd-95f3-76822cc2c923"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "CORN_OU",
+      "line": 10.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 43.71,
+            "form": "naira",
+            "prob": 0.4371,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-corners-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 61.68,
+            "form": "naira",
+            "prob": 0.6168,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-corners-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "2d006a4f-bbb6-4411-b275-a13e2dc9bfaf"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Aston Villa FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 69.5,
+            "form": "naira",
+            "prob": 0.695,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 30.5,
+            "form": "naira",
+            "prob": 0.305,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "37881dd2-cc4e-4115-879f-9d6bef9398d8"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "CORN_OU",
+      "line": 7.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 74.38,
+            "form": "naira",
+            "prob": 0.7437999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-corners-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 25.62,
+            "form": "naira",
+            "prob": 0.2562,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-corners-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "3e7ffc18-b3c1-4e77-b0fd-54bf5ed6d37d"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "CORN_OU",
+      "line": 9.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 52,
+            "form": "naira",
+            "prob": 0.52,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-corners-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 48,
+            "form": "naira",
+            "prob": 0.48,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-corners-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "46658fd2-fd97-4270-b8f5-6baf92c8ec08"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Manchester City FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 89,
+            "form": "naira",
+            "prob": 0.89,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 11,
+            "form": "naira",
+            "prob": 0.11,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "4c2d0e94-3a44-4b65-bdb2-c05b5dba117d"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "P_RATING",
+      "line": 7.6,
+      "player": {
+        "sourceId": "Haaland",
+        "name": "Haaland",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/enzo-7-4-sofascore-rating-vs-aston-villa"
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/enzo-7-4-sofascore-rating-vs-aston-villa"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "sofascore"
+      },
+      "sourceMarketId": "4f3f7c79-c093-424f-8387-f5aa78454f5f"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "AH",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 7.46,
+            "form": "naira",
+            "prob": 0.0746,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-spread-october-24-2026"
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 94.39,
+            "form": "naira",
+            "prob": 0.9439,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-spread-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "4f72c066-9f2c-42c8-8f66-9e5571f32ced"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 4.5,
+      "team": "Manchester City FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.7,
+            "form": "naira",
+            "prob": 0.057,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 94.3,
+            "form": "naira",
+            "prob": 0.943,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "5168c936-a769-46a9-b330-4fc859059947"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Aston Villa FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 32,
+            "form": "naira",
+            "prob": 0.32,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 68,
+            "form": "naira",
+            "prob": 0.68,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "64a1c68d-81c3-427a-a14e-5dc762ab9f50"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "P_ANYTIME",
+      "player": {
+        "sourceId": "Erling Haaland",
+        "name": "Erling Haaland",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 55.75,
+            "form": "naira",
+            "prob": 0.5575,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/erling-haaland-0-5-goals-vs-avl-20261024"
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 52.38,
+            "form": "naira",
+            "prob": 0.5238,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/erling-haaland-0-5-goals-vs-avl-20261024"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "6b9587ec-556e-4743-846b-26c0d6a165e0"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "OU",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 42.51,
+            "form": "naira",
+            "prob": 0.4251,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.49,
+            "form": "naira",
+            "prob": 0.5749,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "72aaea7e-9fe7-44f9-ab37-92a6f858b336"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_SHOTS",
+      "selections": [
+        {
+          "label": "24-30",
+          "price": {
+            "raw": 40,
+            "form": "naira",
+            "prob": 0.4,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-man-city-total-shots"
+        },
+        {
+          "label": "31+",
+          "price": {
+            "raw": 30,
+            "form": "naira",
+            "prob": 0.3,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-man-city-total-shots"
+        },
+        {
+          "label": "\u003c24",
+          "price": {
+            "raw": 30,
+            "form": "naira",
+            "prob": 0.3,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-man-city-total-shots"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "73de80ef-467a-45a7-b6e3-8566441b9ead"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 5.5,
+      "team": "Aston Villa FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.8,
+            "form": "naira",
+            "prob": 0.008,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 99.2,
+            "form": "naira",
+            "prob": 0.992,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "7ae62ce2-d8b7-4efd-9a59-ff0385d4856b"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "P_RATING",
+      "line": 7.2,
+      "player": {
+        "sourceId": "Doku",
+        "name": "Doku",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/cherki-7-4-sofascore-rating-vs-aston-villa"
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/cherki-7-4-sofascore-rating-vs-aston-villa"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "sofascore"
+      },
+      "sourceMarketId": "85bbc562-1e2a-4d48-ae9c-cce02f143793"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "AH",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 36.51,
+            "form": "naira",
+            "prob": 0.3651,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-spread-october-24-2026"
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 63.49,
+            "form": "naira",
+            "prob": 0.6349,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-spread-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "872278ad-200e-4c0e-9dcd-b3e6c3c51c11"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "OU",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 25.28,
+            "form": "naira",
+            "prob": 0.2528,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 79.2,
+            "form": "naira",
+            "prob": 0.792,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8d80b9e0-718a-46d9-acae-ce2907eb350d"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "P_RATING",
+      "line": 7.2,
+      "player": {
+        "sourceId": "Foden",
+        "name": "Foden",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/foden-7-4-sofascore-rating-vs-aston-villa"
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 50,
+            "form": "naira",
+            "prob": 0.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/foden-7-4-sofascore-rating-vs-aston-villa"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "sofascore"
+      },
+      "sourceMarketId": "8dcbd4b0-0cfb-496b-8412-0adc4134f04d"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "OU",
+      "line": 0.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 96.47,
+            "form": "naira",
+            "prob": 0.9647,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.53,
+            "form": "naira",
+            "prob": 0.0353,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "95975af0-57b7-4840-845f-1d578e1ac2b3"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 4.5,
+      "team": "Aston Villa FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.3,
+            "form": "naira",
+            "prob": 0.013000000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 98.7,
+            "form": "naira",
+            "prob": 0.987,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "a5166ac5-dc29-4436-aced-0ec08cf04d87"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 61.68,
+            "form": "naira",
+            "prob": 0.6168,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-october-24-2026"
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 22.52,
+            "form": "naira",
+            "prob": 0.22519999999999998,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-october-24-2026"
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 20.08,
+            "form": "naira",
+            "prob": 0.20079999999999998,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "a781e49b-a258-4741-b04f-fb5fbd98e2f8"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "OU",
+      "line": 5.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 11.53,
+            "form": "naira",
+            "prob": 0.1153,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 88.47,
+            "form": "naira",
+            "prob": 0.8847,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "ac2952a9-e90e-4d7d-9dd6-7980401e2ead"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "CORN_OU",
+      "line": 8.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 65.61,
+            "form": "naira",
+            "prob": 0.6561,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-corners-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 38.63,
+            "form": "naira",
+            "prob": 0.38630000000000003,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-corners-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "b097917d-122b-4f96-9dfa-bc5fb7e5c48a"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 66.59,
+            "form": "naira",
+            "prob": 0.6659,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 38.63,
+            "form": "naira",
+            "prob": 0.38630000000000003,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-goals-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "c271db6d-94cc-4fa5-b3d2-fc2a64adcfdf"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 3.5,
+      "team": "Manchester City FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 16,
+            "form": "naira",
+            "prob": 0.16,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 84,
+            "form": "naira",
+            "prob": 0.84,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "c453e017-7b7c-4f86-9249-cd8114447019"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_PASSES",
+      "team": "Man City",
+      "selections": [
+        {
+          "label": "637-747",
+          "price": {
+            "raw": 39.73,
+            "form": "naira",
+            "prob": 0.3973,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/how-many-passes-will-man-city-get-vs-aston-villa"
+        },
+        {
+          "label": "\u003c637",
+          "price": {
+            "raw": 30.47,
+            "form": "naira",
+            "prob": 0.30469999999999997,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/how-many-passes-will-man-city-get-vs-aston-villa"
+        },
+        {
+          "label": "748+",
+          "price": {
+            "raw": 29.8,
+            "form": "naira",
+            "prob": 0.298,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/how-many-passes-will-man-city-get-vs-aston-villa"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "cec78aaa-35f7-46cf-95ce-f1b8ac79d0b6"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "CORN_OU",
+      "line": 6.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 82.82,
+            "form": "naira",
+            "prob": 0.8281999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-corners-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 17.18,
+            "form": "naira",
+            "prob": 0.1718,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-total-corners-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "dd8b0c03-121b-43d2-b759-1cb047df79fd"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 64.63,
+            "form": "naira",
+            "prob": 0.6463,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-btts-october-24-2026"
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 39.65,
+            "form": "naira",
+            "prob": 0.39649999999999996,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-btts-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "de955318-5830-49b1-ae72-12f719828562"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Manchester City FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 63.5,
+            "form": "naira",
+            "prob": 0.635,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 36.5,
+            "form": "naira",
+            "prob": 0.365,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "e5204d08-d6ce-4efb-b0f0-1055451c6a22"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "P_SHOTS",
+      "line": 4,
+      "player": {
+        "sourceId": "Erling Haaland",
+        "name": "Erling Haaland",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/erling-haaland-4-shots-vs-avl-20261024"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/erling-haaland-4-shots-vs-avl-20261024"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "edb47e45-18e1-47d3-ac0e-c136333b9566"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_CARDS",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 47.62,
+            "form": "naira",
+            "prob": 0.47619999999999996,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-fc-vs-manchester-city-fc-will-there-be-5-or-more-cards-october-24-2026"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 60,
+            "form": "naira",
+            "prob": 0.6,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-fc-vs-manchester-city-fc-will-there-be-5-or-more-cards-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "f1ce2a2d-2269-441d-8323-811c9133a6d4"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Aston Villa FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 11,
+            "form": "naira",
+            "prob": 0.11,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 89,
+            "form": "naira",
+            "prob": 0.89,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-ae87ad34"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "f541019e-58dd-4649-8890-8c36e9b8ed07"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Manchester City FC",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 35,
+            "form": "naira",
+            "prob": 0.35,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 65,
+            "form": "naira",
+            "prob": 0.65,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/epl-ast-mac-2026-10-24-more-markets-be9a1ba5"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "f7b0182e-1639-4cf4-a77b-94501c0c4dc0"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "P_SHOTS",
+      "line": 2.5,
+      "player": {
+        "sourceId": "Phil Foden",
+        "name": "Phil Foden",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/phil-foden-2-5-shots-vs-avl-20261024"
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 57.81,
+            "form": "naira",
+            "prob": 0.5781000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/phil-foden-2-5-shots-vs-avl-20261024"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": true,
+        "resolver": "opta"
+      },
+      "sourceMarketId": "fc29273c-cd89-42e9-ba7b-07af83abc980"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "AH",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 20.08,
+            "form": "naira",
+            "prob": 0.20079999999999998,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-spread-october-24-2026"
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 83.03,
+            "form": "naira",
+            "prob": 0.8303,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-spread-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "fedf3b66-f020-4fbb-85c8-b2e43da9df7e"
+    },
+    {
+      "eventSourceId": "bm-game-20261024-avl-mci",
+      "code": "AH",
+      "line": -2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.53,
+            "form": "naira",
+            "prob": 0.0253,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-spread-october-24-2026"
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 97.47,
+            "form": "naira",
+            "prob": 0.9747,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          },
+          "deepLink": "https://bayse.markets/market/aston-villa-vs-manchester-city-spread-october-24-2026"
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "ffffff79-dd6a-46c3-81d2-3c0b48815042"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source": "prizepicks",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "NBA-6601",
+      "leagueHint": "NBA",
+      "home": "Boston Celtics",
+      "away": "Los Angeles Lakers",
+      "kickoff": "2026-10-27T23:30:00Z"
+    },
+    {
+      "sourceId": "NBA-6602",
+      "leagueHint": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Phoenix Suns",
+      "kickoff": "2026-10-28T01:00:00Z"
+    }
+  ],
+  "markets": null
+}

@@ -1,0 +1,296 @@
+{
+ "cursor": "",
+ "events": [
+  {
+   "category": "Sports",
+   "collateral_return_type": "MECNET",
+   "event_ticker": "KXEPL1H-26OCT24ARSEVE",
+   "exchange_index": 0,
+   "last_updated_ts": "0001-01-01T00:00:00Z",
+   "markets": [
+    {
+     "ticker": "KXEPL1H-26OCT24ARSEVE-ARS",
+     "event_ticker": "KXEPL1H-26OCT24ARSEVE",
+     "market_type": "binary",
+     "title": "Arsenal wins 1st Half",
+     "yes_sub_title": "Arsenal wins 1st Half",
+     "no_sub_title": "Arsenal wins 1st Half",
+     "status": "active",
+     "strike_type": "structured",
+     "custom_strike": {
+      "soccer_team": "246a91c5-f145-401f-bf0d-2a436e25a5f6"
+     },
+     "yes_bid_dollars": "0.4900",
+     "yes_ask_dollars": "0.5000",
+     "no_bid_dollars": "0.5000",
+     "no_ask_dollars": "0.5100",
+     "yes_bid_size_fp": "1147.00",
+     "yes_ask_size_fp": "1058.35",
+     "last_price_dollars": "0.5000",
+     "close_time": "2026-10-26T14:00:00Z",
+     "occurrence_datetime": "2026-10-24T17:00:00Z",
+     "rules_primary": "If Arsenal is the winner of the first half in the Arsenal vs Everton professional EPL soccer game originally scheduled for Oct 24, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPL1H-26OCT24ARSEVE-EVE",
+     "event_ticker": "KXEPL1H-26OCT24ARSEVE",
+     "market_type": "binary",
+     "title": "Everton wins 1st Half",
+     "yes_sub_title": "Everton wins 1st Half",
+     "no_sub_title": "Everton wins 1st Half",
+     "status": "active",
+     "strike_type": "structured",
+     "custom_strike": {
+      "soccer_team": "7abb495c-193e-4baf-b3d3-108e99eab8ed"
+     },
+     "yes_bid_dollars": "0.1200",
+     "yes_ask_dollars": "0.1300",
+     "no_bid_dollars": "0.8700",
+     "no_ask_dollars": "0.8800",
+     "yes_bid_size_fp": "117.00",
+     "yes_ask_size_fp": "11587.90",
+     "last_price_dollars": "0.0000",
+     "close_time": "2026-10-26T14:00:00Z",
+     "occurrence_datetime": "2026-10-24T17:00:00Z",
+     "rules_primary": "If Everton is the winner of the first half in the Arsenal vs Everton professional EPL soccer game originally scheduled for Oct 24, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPL1H-26OCT24ARSEVE-TIE",
+     "event_ticker": "KXEPL1H-26OCT24ARSEVE",
+     "market_type": "binary",
+     "title": "Tie 1st Half",
+     "yes_sub_title": "Tie 1st Half",
+     "no_sub_title": "Tie 1st Half",
+     "status": "active",
+     "strike_type": "structured",
+     "custom_strike": {
+      "soccer_team": "111193d4-9b1f-4bd8-ab7c-9de252737f05"
+     },
+     "yes_bid_dollars": "0.3800",
+     "yes_ask_dollars": "0.3900",
+     "no_bid_dollars": "0.6100",
+     "no_ask_dollars": "0.6200",
+     "yes_bid_size_fp": "1600.34",
+     "yes_ask_size_fp": "128.00",
+     "last_price_dollars": "0.3900",
+     "close_time": "2026-10-26T14:00:00Z",
+     "occurrence_datetime": "2026-10-24T17:00:00Z",
+     "rules_primary": "If Tie is the result of the first half in the Arsenal vs Everton professional EPL soccer game originally scheduled for Oct 24, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes."
+    }
+   ],
+   "mutually_exclusive": true,
+   "product_metadata": {
+    "competition": "EPL",
+    "competition_scope": "1st Half Winner"
+   },
+   "series_ticker": "KXEPL1H",
+   "settlement_sources": [
+    {
+     "name": "ESPN",
+     "url": "https://www.espn.com/"
+    },
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com/"
+    }
+   ],
+   "strike_period": "",
+   "sub_title": "ARS vs EVE (Oct 24)",
+   "title": "Arsenal vs Everton: First Half Winner"
+  },
+  {
+   "category": "Sports",
+   "collateral_return_type": "MECNET",
+   "event_ticker": "KXEPL1H-26OCT24CFCTOT",
+   "exchange_index": 0,
+   "last_updated_ts": "0001-01-01T00:00:00Z",
+   "markets": [
+    {
+     "ticker": "KXEPL1H-26OCT24CFCTOT-CFC",
+     "event_ticker": "KXEPL1H-26OCT24CFCTOT",
+     "market_type": "binary",
+     "title": "Chelsea wins 1st Half",
+     "yes_sub_title": "Chelsea wins 1st Half",
+     "no_sub_title": "Chelsea wins 1st Half",
+     "status": "active",
+     "strike_type": "structured",
+     "custom_strike": {
+      "soccer_team": "894cf22a-8360-49a1-812c-7556fb97cbcd"
+     },
+     "yes_bid_dollars": "0.4200",
+     "yes_ask_dollars": "0.4300",
+     "no_bid_dollars": "0.5700",
+     "no_ask_dollars": "0.5800",
+     "yes_bid_size_fp": "684.00",
+     "yes_ask_size_fp": "1230.04",
+     "last_price_dollars": "0.4300",
+     "close_time": "2026-10-26T16:30:00Z",
+     "occurrence_datetime": "2026-10-24T19:30:00Z",
+     "rules_primary": "If Chelsea is the winner of the first half in the Chelsea vs Tottenham professional EPL soccer game originally scheduled for Oct 24, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPL1H-26OCT24CFCTOT-TOT",
+     "event_ticker": "KXEPL1H-26OCT24CFCTOT",
+     "market_type": "binary",
+     "title": "Tottenham wins 1st Half",
+     "yes_sub_title": "Tottenham wins 1st Half",
+     "no_sub_title": "Tottenham wins 1st Half",
+     "status": "active",
+     "strike_type": "structured",
+     "custom_strike": {
+      "soccer_team": "95c3aaf8-3f26-4129-b67c-c99562cb3dc9"
+     },
+     "yes_bid_dollars": "0.2000",
+     "yes_ask_dollars": "0.2200",
+     "no_bid_dollars": "0.7800",
+     "no_ask_dollars": "0.8000",
+     "yes_bid_size_fp": "2163.01",
+     "yes_ask_size_fp": "1935.85",
+     "last_price_dollars": "0.0000",
+     "close_time": "2026-10-26T16:30:00Z",
+     "occurrence_datetime": "2026-10-24T19:30:00Z",
+     "rules_primary": "If Tottenham is the winner of the first half in the Chelsea vs Tottenham professional EPL soccer game originally scheduled for Oct 24, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPL1H-26OCT24CFCTOT-TIE",
+     "event_ticker": "KXEPL1H-26OCT24CFCTOT",
+     "market_type": "binary",
+     "title": "Tie 1st Half",
+     "yes_sub_title": "Tie 1st Half",
+     "no_sub_title": "Tie 1st Half",
+     "status": "active",
+     "strike_type": "structured",
+     "custom_strike": {
+      "soccer_team": "111193d4-9b1f-4bd8-ab7c-9de252737f05"
+     },
+     "yes_bid_dollars": "0.3600",
+     "yes_ask_dollars": "0.3700",
+     "no_bid_dollars": "0.6300",
+     "no_ask_dollars": "0.6400",
+     "yes_bid_size_fp": "1291.05",
+     "yes_ask_size_fp": "127.00",
+     "last_price_dollars": "0.3500",
+     "close_time": "2026-10-26T16:30:00Z",
+     "occurrence_datetime": "2026-10-24T19:30:00Z",
+     "rules_primary": "If Tie is the result of the first half in the Chelsea vs Tottenham professional EPL soccer game originally scheduled for Oct 24, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes."
+    }
+   ],
+   "mutually_exclusive": true,
+   "product_metadata": {
+    "competition": "EPL",
+    "competition_scope": "1st Half Winner"
+   },
+   "series_ticker": "KXEPL1H",
+   "settlement_sources": [
+    {
+     "name": "ESPN",
+     "url": "https://www.espn.com/"
+    },
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com/"
+    }
+   ],
+   "strike_period": "",
+   "sub_title": "CFC vs TOT (Oct 24)",
+   "title": "Chelsea vs Tottenham: First Half Winner"
+  },
+  {
+   "category": "Sports",
+   "collateral_return_type": "MECNET",
+   "event_ticker": "KXEPL1H-26OCT25LFCBRI",
+   "exchange_index": 0,
+   "last_updated_ts": "0001-01-01T00:00:00Z",
+   "markets": [
+    {
+     "ticker": "KXEPL1H-26OCT25LFCBRI-LFC",
+     "event_ticker": "KXEPL1H-26OCT25LFCBRI",
+     "market_type": "binary",
+     "title": "Liverpool wins 1st Half",
+     "yes_sub_title": "Liverpool wins 1st Half",
+     "no_sub_title": "Liverpool wins 1st Half",
+     "status": "active",
+     "strike_type": "structured",
+     "custom_strike": {
+      "soccer_team": "cfd4b999-b080-4c2b-8a5b-640c992aff6e"
+     },
+     "yes_bid_dollars": "0.3600",
+     "yes_ask_dollars": "0.3800",
+     "no_bid_dollars": "0.6200",
+     "no_ask_dollars": "0.6400",
+     "yes_bid_size_fp": "5000.00",
+     "yes_ask_size_fp": "1750.96",
+     "last_price_dollars": "0.0000",
+     "close_time": "2026-10-27T14:00:00Z",
+     "occurrence_datetime": "2026-10-25T17:00:00Z",
+     "rules_primary": "If Liverpool is the winner of the first half in the Liverpool vs Brighton professional EPL soccer game originally scheduled for Oct 25, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPL1H-26OCT25LFCBRI-BRI",
+     "event_ticker": "KXEPL1H-26OCT25LFCBRI",
+     "market_type": "binary",
+     "title": "Brighton wins 1st Half",
+     "yes_sub_title": "Brighton wins 1st Half",
+     "no_sub_title": "Brighton wins 1st Half",
+     "status": "active",
+     "strike_type": "structured",
+     "custom_strike": {
+      "soccer_team": "75575478-e8c9-4d59-ae3b-b117c1d42890"
+     },
+     "yes_bid_dollars": "0.2500",
+     "yes_ask_dollars": "0.2700",
+     "no_bid_dollars": "0.7300",
+     "no_ask_dollars": "0.7500",
+     "yes_bid_size_fp": "5247.93",
+     "yes_ask_size_fp": "119.96",
+     "last_price_dollars": "0.0000",
+     "close_time": "2026-10-27T14:00:00Z",
+     "occurrence_datetime": "2026-10-25T17:00:00Z",
+     "rules_primary": "If Brighton is the winner of the first half in the Liverpool vs Brighton professional EPL soccer game originally scheduled for Oct 25, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPL1H-26OCT25LFCBRI-TIE",
+     "event_ticker": "KXEPL1H-26OCT25LFCBRI",
+     "market_type": "binary",
+     "title": "Tie 1st Half",
+     "yes_sub_title": "Tie 1st Half",
+     "no_sub_title": "Tie 1st Half",
+     "status": "active",
+     "strike_type": "structured",
+     "custom_strike": {
+      "soccer_team": "111193d4-9b1f-4bd8-ab7c-9de252737f05"
+     },
+     "yes_bid_dollars": "0.3600",
+     "yes_ask_dollars": "0.3800",
+     "no_bid_dollars": "0.6200",
+     "no_ask_dollars": "0.6400",
+     "yes_bid_size_fp": "527.97",
+     "yes_ask_size_fp": "5824.00",
+     "last_price_dollars": "0.0000",
+     "close_time": "2026-10-27T14:00:00Z",
+     "occurrence_datetime": "2026-10-25T17:00:00Z",
+     "rules_primary": "If Tie is the result of the first half in the Liverpool vs Brighton professional EPL soccer game originally scheduled for Oct 25, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes."
+    }
+   ],
+   "mutually_exclusive": true,
+   "product_metadata": {
+    "competition": "EPL",
+    "competition_scope": "1st Half Winner"
+   },
+   "series_ticker": "KXEPL1H",
+   "settlement_sources": [
+    {
+     "name": "ESPN",
+     "url": "https://www.espn.com/"
+    },
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com/"
+    }
+   ],
+   "strike_period": "",
+   "sub_title": "LFC vs BRI (Oct 25)",
+   "title": "Liverpool vs Brighton: First Half Winner"
+  }
+ ]
+}

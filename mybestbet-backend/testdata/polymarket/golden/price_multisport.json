@@ -1,0 +1,3618 @@
+{
+  "source": "polymarket",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "atp-forti-batalla-2026-10-23",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.24,
+            "form": "share",
+            "prob": 0.24,
+            "bid": 0.23,
+            "ask": 0.24,
+            "liquidity": 87,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.77,
+            "form": "share",
+            "prob": 0.77,
+            "bid": 0.76,
+            "ask": 0.77,
+            "liquidity": 160.16,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "atp-forti-batalla-2026-10-23"
+    },
+    {
+      "eventSourceId": "atp-forti-batalla-2026-10-23",
+      "code": "TOTAL_GAMES",
+      "line": 21.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "atp-forti-batalla-2026-10-23-match-total-21pt5"
+    },
+    {
+      "eventSourceId": "atp-forti-batalla-2026-10-23",
+      "code": "TOTAL_GAMES",
+      "line": 22.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "atp-forti-batalla-2026-10-23-match-total-22pt5"
+    },
+    {
+      "eventSourceId": "atp-forti-batalla-2026-10-23",
+      "code": "TOTAL_GAMES",
+      "line": 23.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "atp-forti-batalla-2026-10-23-match-total-23pt5"
+    },
+    {
+      "eventSourceId": "atp-forti-batalla-2026-10-23",
+      "code": "SET_HCP",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "atp-forti-batalla-2026-10-23-set-handicap-away-1pt5"
+    },
+    {
+      "eventSourceId": "atp-forti-batalla-2026-10-23",
+      "code": "SET_HCP",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.012,
+            "form": "share",
+            "prob": 0.012,
+            "bid": 0.001,
+            "ask": 0.012,
+            "liquidity": 1.2,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.999,
+            "form": "share",
+            "prob": 0.999,
+            "bid": 0.988,
+            "ask": 0.999,
+            "liquidity": 55.944,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "atp-forti-batalla-2026-10-23-set-handicap-home-1pt5"
+    },
+    {
+      "eventSourceId": "cs2-mgc-big5-2026-10-27",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.48,
+            "form": "share",
+            "prob": 0.48,
+            "bid": 0.46,
+            "ask": 0.48,
+            "liquidity": 1736.7168,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.54,
+            "form": "share",
+            "prob": 0.54,
+            "bid": 0.52,
+            "ask": 0.54,
+            "liquidity": 26.157600000000002,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "cs2-mgc-big5-2026-10-27"
+    },
+    {
+      "eventSourceId": "cs2-mgc-big5-2026-10-27",
+      "code": "ML",
+      "period": "M1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.86,
+            "form": "share",
+            "prob": 0.86,
+            "bid": 0.09,
+            "ask": 0.86,
+            "liquidity": 2580,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.91,
+            "form": "share",
+            "prob": 0.91,
+            "bid": 0.14,
+            "ask": 0.91,
+            "liquidity": 2730,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "cs2-mgc-big5-2026-10-27-game1"
+    },
+    {
+      "eventSourceId": "cs2-mgc-big5-2026-10-27",
+      "code": "MAP_HCP",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.37,
+            "form": "share",
+            "prob": 0.37,
+            "bid": 0.21,
+            "ask": 0.37,
+            "liquidity": 37,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.79,
+            "form": "share",
+            "prob": 0.79,
+            "bid": 0.63,
+            "ask": 0.79,
+            "liquidity": 395,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "cs2-mgc-big5-2026-10-27-map-handicap-home-1pt5"
+    },
+    {
+      "eventSourceId": "cs2-mgc-big5-2026-10-27",
+      "code": "TOTAL_MAPS",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.45,
+            "ask": 0.5,
+            "liquidity": 5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.55,
+            "form": "share",
+            "prob": 0.55,
+            "bid": 0.5,
+            "ask": 0.55,
+            "liquidity": 2.75,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "cs2-mgc-big5-2026-10-27-total-games-2pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.61,
+            "form": "share",
+            "prob": 0.61,
+            "bid": 0.6,
+            "ask": 0.61,
+            "liquidity": 5507.324,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.4,
+            "form": "share",
+            "prob": 0.4,
+            "bid": 0.39,
+            "ask": 0.4,
+            "liquidity": 808.692,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "ML",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.98,
+            "form": "share",
+            "prob": 0.98,
+            "bid": 0.02,
+            "ask": 0.98,
+            "liquidity": 1519,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.98,
+            "form": "share",
+            "prob": 0.98,
+            "bid": 0.02,
+            "ask": 0.98,
+            "liquidity": 1519,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-1h-moneyline"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "SPREAD",
+      "line": 1.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.61,
+            "form": "share",
+            "prob": 0.61,
+            "bid": 0.4,
+            "ask": 0.61,
+            "liquidity": 305.61,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.6,
+            "form": "share",
+            "prob": 0.6,
+            "bid": 0.39,
+            "ask": 0.6,
+            "liquidity": 300.59999999999997,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-1h-spread-away-1pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "TOTAL",
+      "line": 119.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.62,
+            "form": "share",
+            "prob": 0.62,
+            "bid": 0.41,
+            "ask": 0.62,
+            "liquidity": 310.62,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.59,
+            "form": "share",
+            "prob": 0.59,
+            "bid": 0.38,
+            "ask": 0.59,
+            "liquidity": 295.59,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-1h-total-119pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "BK_AST",
+      "line": 6.5,
+      "player": {
+        "sourceId": "James Harden",
+        "name": "James Harden",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.53,
+            "form": "share",
+            "prob": 0.53,
+            "bid": 0.5,
+            "ask": 0.53,
+            "liquidity": 201.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.47,
+            "ask": 0.5,
+            "liquidity": 210,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-assists-james-harden-6pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "BK_AST",
+      "line": 6.5,
+      "player": {
+        "sourceId": "Scottie Barnes",
+        "name": "Scottie Barnes",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.53,
+            "form": "share",
+            "prob": 0.53,
+            "bid": 0.5,
+            "ask": 0.53,
+            "liquidity": 201.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.47,
+            "ask": 0.5,
+            "liquidity": 210,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-assists-scottie-barnes-6pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "BK_3PM",
+      "line": 2.5,
+      "player": {
+        "sourceId": "Devin Vassell",
+        "name": "Devin Vassell",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.53,
+            "form": "share",
+            "prob": 0.53,
+            "bid": 0.5,
+            "ask": 0.53,
+            "liquidity": 201.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.47,
+            "ask": 0.5,
+            "liquidity": 210,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-devin-vassell-3-pointers-ou-2pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "BK_PTS",
+      "line": 20.5,
+      "player": {
+        "sourceId": "Brandon Ingram",
+        "name": "Brandon Ingram",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.53,
+            "form": "share",
+            "prob": 0.53,
+            "bid": 0.5,
+            "ask": 0.53,
+            "liquidity": 201.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.47,
+            "ask": 0.5,
+            "liquidity": 210,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-points-brandon-ingram-20pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "BK_PTS",
+      "line": 26.5,
+      "player": {
+        "sourceId": "Donovan Mitchell",
+        "name": "Donovan Mitchell",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.53,
+            "form": "share",
+            "prob": 0.53,
+            "bid": 0.5,
+            "ask": 0.53,
+            "liquidity": 201.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.47,
+            "ask": 0.5,
+            "liquidity": 210,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-points-donovan-mitchell-26pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "BK_REB",
+      "line": 8.5,
+      "player": {
+        "sourceId": "Evan Mobley",
+        "name": "Evan Mobley",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.53,
+            "form": "share",
+            "prob": 0.53,
+            "bid": 0.5,
+            "ask": 0.53,
+            "liquidity": 201.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.47,
+            "ask": 0.5,
+            "liquidity": 210,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-rebounds-evan-mobley-8pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "BK_REB",
+      "line": 7.5,
+      "player": {
+        "sourceId": "Scottie Barnes",
+        "name": "Scottie Barnes",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.53,
+            "form": "share",
+            "prob": 0.53,
+            "bid": 0.5,
+            "ask": 0.53,
+            "liquidity": 201.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.47,
+            "ask": 0.5,
+            "liquidity": 210,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-rebounds-scottie-barnes-7pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "SPREAD",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.51,
+            "form": "share",
+            "prob": 0.51,
+            "bid": 0.49,
+            "ask": 0.51,
+            "liquidity": 4105.0818,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.51,
+            "form": "share",
+            "prob": 0.51,
+            "bid": 0.49,
+            "ask": 0.51,
+            "liquidity": 1538.6394,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-spread-away-3pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "SPREAD",
+      "line": -10.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.18,
+            "form": "share",
+            "prob": 0.18,
+            "bid": 0.12,
+            "ask": 0.18,
+            "liquidity": 0.8999999999999999,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.88,
+            "form": "share",
+            "prob": 0.88,
+            "bid": 0.82,
+            "ask": 0.88,
+            "liquidity": 4.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-spread-home-10pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "SPREAD",
+      "line": -24.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.08,
+            "form": "share",
+            "prob": 0.08,
+            "bid": 0.03,
+            "ask": 0.08,
+            "liquidity": 3.7768,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.97,
+            "form": "share",
+            "prob": 0.97,
+            "bid": 0.92,
+            "ask": 0.97,
+            "liquidity": 12.6391,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-spread-home-24pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "TOTAL",
+      "line": 232.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.51,
+            "form": "share",
+            "prob": 0.51,
+            "bid": 0.49,
+            "ask": 0.51,
+            "liquidity": 4191.7257,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.51,
+            "form": "share",
+            "prob": 0.51,
+            "bid": 0.49,
+            "ask": 0.51,
+            "liquidity": 2512.5252,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-total-232pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "TOTAL",
+      "line": 250.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.21,
+            "form": "share",
+            "prob": 0.21,
+            "bid": 0.13,
+            "ask": 0.21,
+            "liquidity": 135.1854,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.87,
+            "form": "share",
+            "prob": 0.87,
+            "bid": 0.79,
+            "ask": 0.87,
+            "liquidity": 222.72,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-total-250pt5"
+    },
+    {
+      "eventSourceId": "nba-mia-cha-2026-10-24",
+      "code": "TOTAL",
+      "line": 252.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.18,
+            "form": "share",
+            "prob": 0.18,
+            "bid": 0.1,
+            "ask": 0.18,
+            "liquidity": 46.08,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.9,
+            "form": "share",
+            "prob": 0.9,
+            "bid": 0.82,
+            "ask": 0.9,
+            "liquidity": 432.243,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nba-mia-cha-2026-10-24-total-252pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.62,
+            "form": "share",
+            "prob": 0.62,
+            "bid": 0.61,
+            "ask": 0.62,
+            "liquidity": 21235.1116,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.39,
+            "form": "share",
+            "prob": 0.39,
+            "bid": 0.38,
+            "ask": 0.39,
+            "liquidity": 5554.7895,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "ML",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.6,
+            "form": "share",
+            "prob": 0.6,
+            "bid": 0.57,
+            "ask": 0.6,
+            "liquidity": 3,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.43,
+            "form": "share",
+            "prob": 0.43,
+            "bid": 0.4,
+            "ask": 0.43,
+            "liquidity": 2.15,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1h-moneyline"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 1.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.53,
+            "form": "share",
+            "prob": 0.53,
+            "bid": 0.5,
+            "ask": 0.53,
+            "liquidity": 16.96,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.5,
+            "form": "share",
+            "prob": 0.5,
+            "bid": 0.47,
+            "ask": 0.5,
+            "liquidity": 16,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1h-spread-away-1pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 2.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.52,
+            "form": "share",
+            "prob": 0.52,
+            "bid": 0.49,
+            "ask": 0.52,
+            "liquidity": 239.72,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.51,
+            "form": "share",
+            "prob": 0.51,
+            "bid": 0.48,
+            "ask": 0.51,
+            "liquidity": 274.38,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1h-spread-away-2pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 3.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.45,
+            "form": "share",
+            "prob": 0.45,
+            "bid": 0.42,
+            "ask": 0.45,
+            "liquidity": 191.70000000000002,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.58,
+            "form": "share",
+            "prob": 0.58,
+            "bid": 0.55,
+            "ask": 0.58,
+            "liquidity": 113.1,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1h-spread-away-3pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 16.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.67,
+            "ask": 0.99,
+            "liquidity": 4.95,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.33,
+            "form": "share",
+            "prob": 0.33,
+            "bid": 0.01,
+            "ask": 0.33,
+            "liquidity": 1.6500000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1h-total-16pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 19.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.98,
+            "form": "share",
+            "prob": 0.98,
+            "bid": 0.63,
+            "ask": 0.98,
+            "liquidity": 31.36,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.37,
+            "form": "share",
+            "prob": 0.37,
+            "bid": 0.02,
+            "ask": 0.37,
+            "liquidity": 11.84,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1h-total-19pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 22.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.58,
+            "form": "share",
+            "prob": 0.58,
+            "bid": 0.55,
+            "ask": 0.58,
+            "liquidity": 151.902,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.45,
+            "form": "share",
+            "prob": 0.45,
+            "bid": 0.42,
+            "ask": 0.45,
+            "liquidity": 14.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1h-total-22pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "ML",
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.58,
+            "form": "share",
+            "prob": 0.58,
+            "bid": 0.52,
+            "ask": 0.58,
+            "liquidity": 2.9,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.48,
+            "form": "share",
+            "prob": 0.48,
+            "bid": 0.42,
+            "ask": 0.48,
+            "liquidity": 2.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1q-moneyline"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 2.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.47,
+            "form": "share",
+            "prob": 0.47,
+            "bid": 0.01,
+            "ask": 0.47,
+            "liquidity": 149.92999999999998,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.53,
+            "ask": 0.99,
+            "liquidity": 432.63,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1q-spread-away-2pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 3.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.37,
+            "form": "share",
+            "prob": 0.37,
+            "bid": 0.01,
+            "ask": 0.37,
+            "liquidity": 118.03,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.63,
+            "ask": 0.99,
+            "liquidity": 449.46,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1q-spread-away-3pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 4.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.3,
+            "form": "share",
+            "prob": 0.3,
+            "bid": 0.22,
+            "ask": 0.3,
+            "liquidity": 1.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.78,
+            "form": "share",
+            "prob": 0.78,
+            "bid": 0.7,
+            "ask": 0.78,
+            "liquidity": 3.9000000000000004,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1q-spread-away-4pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 5.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.9,
+            "form": "share",
+            "prob": 0.9,
+            "bid": 0.75,
+            "ask": 0.9,
+            "liquidity": 4.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.25,
+            "form": "share",
+            "prob": 0.25,
+            "bid": 0.1,
+            "ask": 0.25,
+            "liquidity": 1.25,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1q-total-5pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 6.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.75,
+            "form": "share",
+            "prob": 0.75,
+            "bid": 0.68,
+            "ask": 0.75,
+            "liquidity": 239.25,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.32,
+            "form": "share",
+            "prob": 0.32,
+            "bid": 0.25,
+            "ask": 0.32,
+            "liquidity": 102.08,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1q-total-6pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 7.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.56,
+            "form": "share",
+            "prob": 0.56,
+            "bid": 0.54,
+            "ask": 0.56,
+            "liquidity": 49.28,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.46,
+            "form": "share",
+            "prob": 0.46,
+            "bid": 0.44,
+            "ask": 0.46,
+            "liquidity": 2.3000000000000003,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-1q-total-7pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "ML",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2h-moneyline"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 1.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2h-spread-away-1pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 2.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 432.63,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 438.57,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2h-spread-away-2pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 3.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 522.72,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 432.63,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2h-spread-away-3pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 16.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.02,
+            "ask": 0.99,
+            "liquidity": 4.95,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.98,
+            "form": "share",
+            "prob": 0.98,
+            "bid": 0.01,
+            "ask": 0.98,
+            "liquidity": 4177.4264,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2h-total-16pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 19.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.02,
+            "ask": 0.99,
+            "liquidity": 4.95,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.98,
+            "form": "share",
+            "prob": 0.98,
+            "bid": 0.01,
+            "ask": 0.98,
+            "liquidity": 8354.8528,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2h-total-19pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 22.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.98,
+            "form": "share",
+            "prob": 0.98,
+            "bid": 0.02,
+            "ask": 0.98,
+            "liquidity": 4177.4264,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.98,
+            "form": "share",
+            "prob": 0.98,
+            "bid": 0.02,
+            "ask": 0.98,
+            "liquidity": 4177.4264,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2h-total-22pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "ML",
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.89,
+            "form": "share",
+            "prob": 0.89,
+            "bid": 0.19,
+            "ask": 0.89,
+            "liquidity": 4.45,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.81,
+            "form": "share",
+            "prob": 0.81,
+            "bid": 0.11,
+            "ask": 0.81,
+            "liquidity": 4.050000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2q-moneyline"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 2.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 441.54,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 281.16,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2q-spread-away-2pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 3.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 432.63,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 522.72,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2q-spread-away-3pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 4.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.67,
+            "form": "share",
+            "prob": 0.67,
+            "bid": 0.19,
+            "ask": 0.67,
+            "liquidity": 3.35,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.81,
+            "form": "share",
+            "prob": 0.81,
+            "bid": 0.33,
+            "ask": 0.81,
+            "liquidity": 4.050000000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2q-spread-away-4pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 5.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2q-total-5pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 6.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.52,
+            "ask": 0.99,
+            "liquidity": 436.59,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.48,
+            "form": "share",
+            "prob": 0.48,
+            "bid": 0.01,
+            "ask": 0.48,
+            "liquidity": 153.12,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2q-total-6pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 7.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.98,
+            "form": "share",
+            "prob": 0.98,
+            "bid": 0.53,
+            "ask": 0.98,
+            "liquidity": 428.26,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.47,
+            "form": "share",
+            "prob": 0.47,
+            "bid": 0.02,
+            "ask": 0.47,
+            "liquidity": 148.51999999999998,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-2q-total-7pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "ML",
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.77,
+            "form": "share",
+            "prob": 0.77,
+            "bid": 0.3,
+            "ask": 0.77,
+            "liquidity": 3.85,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.7,
+            "form": "share",
+            "prob": 0.7,
+            "bid": 0.23,
+            "ask": 0.7,
+            "liquidity": 3.5,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-3q-moneyline"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 2.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 436.59,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 436.59,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-3q-spread-away-2pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 3.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 436.59,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 432.63,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-3q-spread-away-3pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 4.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.66,
+            "form": "share",
+            "prob": 0.66,
+            "bid": 0.14,
+            "ask": 0.66,
+            "liquidity": 3.3000000000000003,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.86,
+            "form": "share",
+            "prob": 0.86,
+            "bid": 0.34,
+            "ask": 0.86,
+            "liquidity": 4.3,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-3q-spread-away-4pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 5.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "bid": 0.35,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.65,
+            "form": "share",
+            "prob": 0.65,
+            "ask": 0.65,
+            "liquidity": 800.6245,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-3q-total-5pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 6.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.77,
+            "form": "share",
+            "prob": 0.77,
+            "bid": 0.47,
+            "ask": 0.77,
+            "liquidity": 245.63,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.53,
+            "form": "share",
+            "prob": 0.53,
+            "bid": 0.23,
+            "ask": 0.53,
+            "liquidity": 166.95000000000002,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-3q-total-6pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 7.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.7,
+            "form": "share",
+            "prob": 0.7,
+            "bid": 0.37,
+            "ask": 0.7,
+            "liquidity": 219.79999999999998,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.63,
+            "form": "share",
+            "prob": 0.63,
+            "bid": 0.3,
+            "ask": 0.63,
+            "liquidity": 197.82,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-3q-total-7pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "ML",
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.85,
+            "form": "share",
+            "prob": 0.85,
+            "bid": 0.18,
+            "ask": 0.85,
+            "liquidity": 4.25,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.82,
+            "form": "share",
+            "prob": 0.82,
+            "bid": 0.15,
+            "ask": 0.82,
+            "liquidity": 4.1,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-4q-moneyline"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 2.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.64,
+            "form": "share",
+            "prob": 0.64,
+            "bid": 0.26,
+            "ask": 0.64,
+            "liquidity": 204.16,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.74,
+            "form": "share",
+            "prob": 0.74,
+            "bid": 0.36,
+            "ask": 0.74,
+            "liquidity": 236.06,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-4q-spread-away-2pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 3.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.69,
+            "form": "share",
+            "prob": 0.69,
+            "bid": 0.31,
+            "ask": 0.69,
+            "liquidity": 220.10999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.69,
+            "form": "share",
+            "prob": 0.69,
+            "bid": 0.31,
+            "ask": 0.69,
+            "liquidity": 220.10999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-4q-spread-away-3pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 4.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.64,
+            "form": "share",
+            "prob": 0.64,
+            "bid": 0.13,
+            "ask": 0.64,
+            "liquidity": 3.2,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.87,
+            "form": "share",
+            "prob": 0.87,
+            "bid": 0.36,
+            "ask": 0.87,
+            "liquidity": 4.35,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-4q-spread-away-4pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 5.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0,
+            "form": "share",
+            "prob": 0,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-4q-total-5pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 6.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.53,
+            "ask": 0.99,
+            "liquidity": 439.56,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.47,
+            "form": "share",
+            "prob": 0.47,
+            "bid": 0.01,
+            "ask": 0.47,
+            "liquidity": 149.92999999999998,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-4q-total-6pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 7.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.87,
+            "form": "share",
+            "prob": 0.87,
+            "bid": 0.49,
+            "ask": 0.87,
+            "liquidity": 277.53,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.51,
+            "form": "share",
+            "prob": 0.51,
+            "bid": 0.13,
+            "ask": 0.51,
+            "liquidity": 162.69,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-4q-total-7pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_ANYTIME_TD",
+      "player": {
+        "sourceId": "Ashton Jeanty",
+        "name": "Ashton Jeanty",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 0.52,
+            "form": "share",
+            "prob": 0.52,
+            "bid": 0.01,
+            "ask": 0.52,
+            "liquidity": 2.6,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.48,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-anytime-td-ashton-jeanty"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_ANYTIME_TD",
+      "player": {
+        "sourceId": "Blake Corum",
+        "name": "Blake Corum",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 0.34,
+            "form": "share",
+            "prob": 0.34,
+            "bid": 0.01,
+            "ask": 0.34,
+            "liquidity": 15.98,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.66,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-anytime-td-blake-corum"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_ANYTIME_TD",
+      "player": {
+        "sourceId": "Brock Bowers",
+        "name": "Brock Bowers",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 0.45,
+            "form": "share",
+            "prob": 0.45,
+            "bid": 0.01,
+            "ask": 0.45,
+            "liquidity": 25.2,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.55,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-anytime-td-brock-bowers"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_PASS_TD",
+      "line": 0.5,
+      "player": {
+        "sourceId": "Kirk Cousins",
+        "name": "Kirk Cousins",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03009999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-ptd-kirk-cousins-0pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_PASS_TD",
+      "line": 1.5,
+      "player": {
+        "sourceId": "Kirk Cousins",
+        "name": "Kirk Cousins",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.53,
+            "form": "share",
+            "prob": 0.53,
+            "bid": 0.01,
+            "ask": 0.53,
+            "liquidity": 272.6267,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.47,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-ptd-kirk-cousins-1pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_PASS_TD",
+      "line": 2.5,
+      "player": {
+        "sourceId": "Kirk Cousins",
+        "name": "Kirk Cousins",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03009999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-ptd-kirk-cousins-2pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_PASS_YDS",
+      "line": 124.5,
+      "player": {
+        "sourceId": "Kirk Cousins",
+        "name": "Kirk Cousins",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-pyd-kirk-cousins-124pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_PASS_YDS",
+      "line": 149.5,
+      "player": {
+        "sourceId": "Kirk Cousins",
+        "name": "Kirk Cousins",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03009999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-pyd-kirk-cousins-149pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_PASS_YDS",
+      "line": 174.5,
+      "player": {
+        "sourceId": "Kirk Cousins",
+        "name": "Kirk Cousins",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03009999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-pyd-kirk-cousins-174pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_REC",
+      "line": 2.5,
+      "player": {
+        "sourceId": "Ashton Jeanty",
+        "name": "Ashton Jeanty",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.72,
+            "form": "share",
+            "prob": 0.72,
+            "bid": 0.6,
+            "ask": 0.72,
+            "liquidity": 49.68,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.4,
+            "form": "share",
+            "prob": 0.4,
+            "bid": 0.28,
+            "ask": 0.4,
+            "liquidity": 50,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-rec-ashton-jeanty-2pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_REC",
+      "line": 3.5,
+      "player": {
+        "sourceId": "Ashton Jeanty",
+        "name": "Ashton Jeanty",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.52,
+            "form": "share",
+            "prob": 0.52,
+            "bid": 0.01,
+            "ask": 0.52,
+            "liquidity": 2.6,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.48,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-rec-ashton-jeanty-3pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_REC",
+      "line": 4.5,
+      "player": {
+        "sourceId": "Ashton Jeanty",
+        "name": "Ashton Jeanty",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.59,
+            "form": "share",
+            "prob": 0.59,
+            "bid": 0.01,
+            "ask": 0.59,
+            "liquidity": 7.192099999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.41,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-rec-ashton-jeanty-4pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_REC_YDS",
+      "line": 19.5,
+      "player": {
+        "sourceId": "Ashton Jeanty",
+        "name": "Ashton Jeanty",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03009999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-recyd-ashton-jeanty-19pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_REC_YDS",
+      "line": 29.5,
+      "player": {
+        "sourceId": "Ashton Jeanty",
+        "name": "Ashton Jeanty",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.52,
+            "form": "share",
+            "prob": 0.52,
+            "bid": 0.01,
+            "ask": 0.52,
+            "liquidity": 5.413200000000001,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.48,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-recyd-ashton-jeanty-29pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_REC_YDS",
+      "line": 9.5,
+      "player": {
+        "sourceId": "Ashton Jeanty",
+        "name": "Ashton Jeanty",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03009999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-recyd-ashton-jeanty-9pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_RUSH_YDS",
+      "line": 29.5,
+      "player": {
+        "sourceId": "Ashton Jeanty",
+        "name": "Ashton Jeanty",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03009999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-ryd-ashton-jeanty-29pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_RUSH_YDS",
+      "line": 39.5,
+      "player": {
+        "sourceId": "Ashton Jeanty",
+        "name": "Ashton Jeanty",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03009999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-ryd-ashton-jeanty-39pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "NF_RUSH_YDS",
+      "line": 49.5,
+      "player": {
+        "sourceId": "Ashton Jeanty",
+        "name": "Ashton Jeanty",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03009999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.01,
+            "ask": 0.99,
+            "liquidity": 95.03999999999999,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-ryd-ashton-jeanty-49pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.59,
+            "form": "share",
+            "prob": 0.59,
+            "bid": 0.57,
+            "ask": 0.59,
+            "liquidity": 2453.7038,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.43,
+            "form": "share",
+            "prob": 0.43,
+            "bid": 0.41,
+            "ask": 0.43,
+            "liquidity": 9297.9846,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-spread-away-1pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.56,
+            "form": "share",
+            "prob": 0.56,
+            "bid": 0.55,
+            "ask": 0.56,
+            "liquidity": 22.3888,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.45,
+            "form": "share",
+            "prob": 0.45,
+            "bid": 0.44,
+            "ask": 0.45,
+            "liquidity": 5993.977500000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-spread-away-2pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "SPREAD",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 0.47,
+            "form": "share",
+            "prob": 0.47,
+            "bid": 0.46,
+            "ask": 0.47,
+            "liquidity": 8611.184899999998,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 0.54,
+            "form": "share",
+            "prob": 0.54,
+            "bid": 0.53,
+            "ask": 0.54,
+            "liquidity": 7526.001600000001,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-spread-away-3pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 24.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.99,
+            "form": "share",
+            "prob": 0.99,
+            "bid": 0.503,
+            "ask": 0.99,
+            "liquidity": 1019.7,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.497,
+            "form": "share",
+            "prob": 0.497,
+            "bid": 0.01,
+            "ask": 0.497,
+            "liquidity": 225.141,
+            "suspended": true,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-total-24pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 26.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.979,
+            "form": "share",
+            "prob": 0.979,
+            "bid": 0.95,
+            "ask": 0.979,
+            "liquidity": 336.776,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.05,
+            "form": "share",
+            "prob": 0.05,
+            "bid": 0.021,
+            "ask": 0.05,
+            "liquidity": 4.55,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-total-26pt5"
+    },
+    {
+      "eventSourceId": "nfl-la-lv-2026-10-25",
+      "code": "TOTAL",
+      "line": 28.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 0.97,
+            "form": "share",
+            "prob": 0.97,
+            "bid": 0.91,
+            "ask": 0.97,
+            "liquidity": 970,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 0.09,
+            "form": "share",
+            "prob": 0.09,
+            "bid": 0.03,
+            "ask": 0.09,
+            "liquidity": 22.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "nfl-la-lv-2026-10-25-total-28pt5"
+    }
+  ]
+}

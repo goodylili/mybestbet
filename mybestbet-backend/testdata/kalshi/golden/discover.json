@@ -1,0 +1,63 @@
+{
+  "source": "kalshi",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "KXEPLGAME-26OCT23IPSNFO",
+      "leagueHint": "EPL",
+      "home": "Ipswich Town",
+      "away": "Nottingham Forest",
+      "kickoff": "2026-10-23T19:00:00Z"
+    },
+    {
+      "sourceId": "KXEPLGAME-26OCT24ARSEVE",
+      "leagueHint": "EPL",
+      "home": "Arsenal",
+      "away": "Everton",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "KXEPLGAME-26OCT24AVLMCI",
+      "leagueHint": "EPL",
+      "home": "Aston Villa",
+      "away": "Manchester City",
+      "kickoff": "2026-10-24T11:30:00Z"
+    },
+    {
+      "sourceId": "KXEPLGAME-26OCT24CFCTOT",
+      "leagueHint": "EPL",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "kickoff": "2026-10-24T16:30:00Z"
+    },
+    {
+      "sourceId": "KXEPLGAME-26OCT24COVFUL",
+      "leagueHint": "EPL",
+      "home": "Coventry",
+      "away": "Fulham",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "KXEPLGAME-26OCT25CRYNEW",
+      "leagueHint": "EPL",
+      "home": "Crystal Palace",
+      "away": "Newcastle",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "KXEPLGAME-26OCT25HULBRE",
+      "leagueHint": "EPL",
+      "home": "Hull City",
+      "away": "Brentford",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "KXEPLGAME-26OCT25LFCBRI",
+      "leagueHint": "EPL",
+      "home": "Liverpool",
+      "away": "Brighton",
+      "kickoff": "2026-10-25T14:00:00Z"
+    }
+  ],
+  "markets": null
+}

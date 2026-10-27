@@ -1,0 +1,51 @@
+{
+ "R": "OK",
+ "D": {
+  "GID": 170880,
+  "RGM": "1",
+  "GMK": [
+   {
+    "GMID": "185",
+    "NAME": "1X2 + Over/Under"
+   },
+   {
+    "GMID": "243",
+    "NAME": "Method of Qual."
+   },
+   {
+    "GMID": "235",
+    "NAME": "Penalty"
+   },
+   {
+    "GMID": "479",
+    "NAME": "Shots"
+   }
+  ],
+  "E": [
+   {
+    "ID": 852457626,
+    "DS": "Chelsea - Manchester Utd",
+    "STARTDATE": "2026-10-31 12:30:00",
+    "STARTDATEUTC": "2026-10-31T12:30:00Z",
+    "GID": 170880,
+    "GN": "Premier League"
+   },
+   {
+    "ID": 852457641,
+    "DS": "Hull City - Ipswich Town",
+    "STARTDATE": "2026-10-31 15:00:00",
+    "STARTDATEUTC": "2026-10-31T15:00:00Z",
+    "GID": 170880,
+    "GN": "Premier League"
+   },
+   {
+    "ID": 852457479,
+    "DS": "Manchester City - Brighton",
+    "STARTDATE": "2026-10-31 15:00:00",
+    "STARTDATEUTC": "2026-10-31T15:00:00Z",
+    "GID": 170880,
+    "GN": "Premier League"
+   }
+  ]
+ }
+}

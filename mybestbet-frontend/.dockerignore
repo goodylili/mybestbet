@@ -1,0 +1,13 @@
+.git
+.next
+node_modules
+.env*
+!.env.example
+.vercel
+.claude
+*.tsbuildinfo
+next-env.d.ts
+Dockerfile
+.dockerignore
+npm-debug.log*
+.pnpm-debug.log*

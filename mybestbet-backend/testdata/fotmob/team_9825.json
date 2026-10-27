@@ -1,0 +1,149 @@
+{
+ "squad": {
+  "squad": [
+   {
+    "title": "attackers",
+    "members": [
+     {
+      "id": 961995,
+      "name": "Bukayo Saka",
+      "ccode": "ENG",
+      "cname": "England"
+     },
+     {
+      "id": 664500,
+      "name": "Viktor Gyökeres",
+      "ccode": "SWE",
+      "cname": "Sweden"
+     }
+    ]
+   }
+  ]
+ },
+ "fixtures": {
+  "allFixtures": {
+   "fixtures": [
+    {
+     "id": 5874664,
+     "home": {
+      "id": 7732,
+      "name": "Girona",
+      "score": 1
+     },
+     "away": {
+      "id": 9825,
+      "name": "Arsenal",
+      "score": 4
+     },
+     "tournament": {
+      "name": "Club Friendlies",
+      "stage": "",
+      "leagueId": 489
+     },
+     "status": {
+      "utcTime": "2026-08-01T18:00:00.000Z",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 4",
+      "reason": {
+       "short": "FT",
+       "shortKey": "fulltime_short",
+       "long": "Full-Time",
+       "longKey": "finished"
+      }
+     }
+    },
+    {
+     "id": 5795363,
+     "home": {
+      "id": 9825,
+      "name": "Arsenal",
+      "score": 3
+     },
+     "away": {
+      "id": 8669,
+      "name": "Coventry",
+      "score": 0
+     },
+     "tournament": {
+      "name": "Premier League",
+      "stage": "",
+      "leagueId": 47
+     },
+     "status": {
+      "utcTime": "2026-08-21T19:00:00.000Z",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+       "short": "FT",
+       "shortKey": "fulltime_short",
+       "long": "Full-Time",
+       "longKey": "finished"
+      }
+     }
+    },
+    {
+     "id": 5795426,
+     "home": {
+      "id": 10252,
+      "name": "Aston Villa",
+      "score": 0
+     },
+     "away": {
+      "id": 9825,
+      "name": "Arsenal",
+      "score": 1
+     },
+     "tournament": {
+      "name": "Premier League",
+      "stage": "",
+      "leagueId": 47
+     },
+     "status": {
+      "utcTime": "2026-08-31T19:00:00.000Z",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+       "short": "FT",
+       "shortKey": "fulltime_short",
+       "long": "Full-Time",
+       "longKey": "finished"
+      }
+     }
+    },
+    {
+     "id": 6275367,
+     "home": {
+      "id": 45723,
+      "name": "Fleetwood",
+      "score": 0
+     },
+     "away": {
+      "id": 9825,
+      "name": "Arsenal",
+      "score": 0
+     },
+     "tournament": {
+      "name": "EFL Cup",
+      "stage": "",
+      "leagueId": 133
+     },
+     "status": {
+      "utcTime": "2026-10-27T20:00:00.000Z",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+     }
+    }
+   ]
+  }
+ }
+}

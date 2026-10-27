@@ -1,0 +1,26 @@
+version: "2"
+run:
+  timeout: 5m
+linters:
+  default: none
+  enable: [errcheck, govet, staticcheck, revive, gosec, exhaustive, unused, ineffassign]
+  settings:
+    exhaustive:
+      default-signifies-exhaustive: true
+    revive:
+      rules:
+        - name: exported
+          disabled: true
+        - name: package-comments
+          disabled: true
+    gosec:
+      excludes: [G104, G115, G304, G704]
+  exclusions:
+    rules:
+      - path: _test\.go
+        linters: [gosec, errcheck]
+      - path: pkg/canon/markets\.go
+        linters: [gosec]
+        text: G101
+formatters:
+  enable: [gofmt, goimports]

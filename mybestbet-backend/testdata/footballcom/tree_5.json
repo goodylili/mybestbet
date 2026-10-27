@@ -1,0 +1,531 @@
+{
+ "bizCode": 10000,
+ "message": "0#0",
+ "data": {
+  "sportList": [
+   {
+    "id": "sr:sport:5",
+    "name": "Tennis",
+    "eventSize": 166,
+    "categories": [
+     {
+      "id": "sr:category:3",
+      "name": "ATP",
+      "eventSize": 32,
+      "tournaments": [
+       {
+        "id": "sr:tournament:2567",
+        "name": "Australian Open Men Singles 2027",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:2579",
+        "name": "French Open Men Singles 2027",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:2591",
+        "name": "US Open Men Singles 2027",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:2613",
+        "name": "ATP Basel, Switzerland Men Singles",
+        "eventSize": 7,
+        "categoryName": "ATP",
+        "categoryId": "sr:category:3"
+       },
+       {
+        "id": "sr:tournament:45935",
+        "name": "ATP Brussels, Belgium Singles",
+        "eventSize": 3,
+        "categoryName": "ATP",
+        "categoryId": "sr:category:3"
+       },
+       {
+        "id": "sr:tournament:3103",
+        "name": "ATP Vienna, Austria Men Singles",
+        "eventSize": 8,
+        "categoryName": "ATP",
+        "categoryId": "sr:category:3"
+       },
+       {
+        "id": "sr:tournament:41959",
+        "name": "ATP Almaty, Kazakhstan Men Singles",
+        "eventSize": 3,
+        "categoryName": "ATP",
+        "categoryId": "sr:category:3"
+       },
+       {
+        "id": "sr:tournament:3097",
+        "name": "ATP Lyon, France Men Singles 2026",
+        "eventSize": 3,
+        "categoryName": "ATP",
+        "categoryId": "sr:category:3"
+       },
+       {
+        "id": "sr:tournament:41961",
+        "name": "ATP Almaty, Kazakhstan Men Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:45937",
+        "name": "ATP Brussels, Belgium Doubles",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:3099",
+        "name": "ATP Lyon, France Men Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:2555",
+        "name": "Wimbledon Men Singles 2027",
+        "eventSize": 1
+       }
+      ]
+     },
+     {
+      "id": "sr:category:72",
+      "name": "Challenger",
+      "eventSize": 13,
+      "tournaments": [
+       {
+        "id": "sr:tournament:26140",
+        "name": "ATP Challenger Florence, Italy Men Doubles",
+        "eventSize": 3
+       },
+       {
+        "id": "sr:tournament:53352",
+        "name": "ATP Challenger Fort Worth, USA Men Singles",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:15053",
+        "name": "ATP Challenger Lisbon, Portugal Men Singles",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:3861",
+        "name": "ATP Challenger Cali, Colombia Men Singles",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:4631",
+        "name": "ATP Challenger Guangzhou Nansha, China Men Singles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:15055",
+        "name": "ATP Challenger Lisbon, Portugal Men Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:26138",
+        "name": "ATP Challenger Florence, Italy Men Singles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:4633",
+        "name": "ATP Challenger Guangzhou Nansha, China Men Doubles",
+        "eventSize": 1
+       }
+      ]
+     },
+     {
+      "id": "sr:category:1111111900001",
+      "name": "ITF",
+      "eventSize": 57,
+      "tournaments": [
+       {
+        "id": "sr:tournament:111111121200",
+        "name": "ITF M15 Bol",
+        "eventSize": 4
+       },
+       {
+        "id": "sr:tournament:111111125043",
+        "name": "ITF M15 Ithaca",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111125007",
+        "name": "ITF M15 Maceio",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111122583",
+        "name": "ITF M15 Singapore Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111122283",
+        "name": "ITF M25 Luanda",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111122286",
+        "name": "ITF M25 Luanda Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111121886",
+        "name": "ITF M25 Sarreguemines",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111121219",
+        "name": "ITF W15 Bol",
+        "eventSize": 4
+       },
+       {
+        "id": "sr:tournament:111111125336",
+        "name": "ITF W15 Campina Grande",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111125190",
+        "name": "ITF W15 Karlovy Vary",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111119452",
+        "name": "ITF W15 Sharm ElSheikh Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111123602",
+        "name": "ITF W35 Loule Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111122175",
+        "name": "ITF W35 Monastir",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111119474",
+        "name": "ITF M15 Monastir",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111119501",
+        "name": "ITF M15 Monastir Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111119459",
+        "name": "ITF M15 Sharm ElSheikh",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111119506",
+        "name": "ITF M15 Sharm ElSheikh Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111120425",
+        "name": "ITF M25 Santa Margherita di Pula",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111123553",
+        "name": "ITF W100 Wrexham",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111122705",
+        "name": "ITF W15 Villena",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111123547",
+        "name": "ITF W35 Qian Daohu Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111123628",
+        "name": "ITF W50 Austin, TX",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111122549",
+        "name": "ITF W50 Cherbourg-en-Cotentin",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111119533",
+        "name": "ITF M15 Heraklion",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111125041",
+        "name": "ITF M15 Ithaca Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111124235",
+        "name": "ITF M25 Mumbai Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111122835",
+        "name": "ITF M25 Tamworth Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111123555",
+        "name": "ITF W100 Wrexham Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111119449",
+        "name": "ITF W15 Sharm ElSheikh",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111122580",
+        "name": "ITF W15 Singapore Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111122730",
+        "name": "ITF W35 Bakersfield, CA",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111123601",
+        "name": "ITF W35 Loule",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111122174",
+        "name": "ITF W35 Monastir Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:111111120424",
+        "name": "ITF W35 Santa Margherita di Pula",
+        "eventSize": 2
+       },
+       {
+        "id": "sr:tournament:111111121877",
+        "name": "ITF W75 Saguenay",
+        "eventSize": 2
+       }
+      ]
+     },
+     {
+      "id": "sr:category:2157",
+      "name": "Simulated Reality",
+      "eventSize": 2,
+      "tournaments": [
+       {
+        "id": "sr:tournament:53840",
+        "name": "SRL Fall Invitational Topeka, KS, Women",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:53838",
+        "name": "SRL Fall Invitational Kansas City, KS, Women",
+        "eventSize": 1
+       }
+      ]
+     },
+     {
+      "id": "sr:category:2516",
+      "name": "UTR Men",
+      "eventSize": 21,
+      "tournaments": [
+       {
+        "id": "sr:tournament:53758",
+        "name": "UTR PTT Lubbock Men 01",
+        "eventSize": 8
+       },
+       {
+        "id": "sr:tournament:49684",
+        "name": "UTR PTT Carvoeiro Men 07",
+        "eventSize": 9
+       },
+       {
+        "id": "sr:tournament:53760",
+        "name": "UTR PTT Newport Beach Men 25",
+        "eventSize": 4
+       }
+      ]
+     },
+     {
+      "id": "sr:category:2517",
+      "name": "UTR Women",
+      "eventSize": 16,
+      "tournaments": [
+       {
+        "id": "sr:tournament:49692",
+        "name": "UTR PTT Carvoeiro Women 07",
+        "eventSize": 6
+       },
+       {
+        "id": "sr:tournament:53766",
+        "name": "UTR PTT Lubbock Women 01",
+        "eventSize": 6
+       },
+       {
+        "id": "sr:tournament:53762",
+        "name": "UTR PTT Saitama Women 06",
+        "eventSize": 3
+       },
+       {
+        "id": "sr:tournament:53768",
+        "name": "UTR PTT Newport Beach Women 25",
+        "eventSize": 1
+       }
+      ]
+     },
+     {
+      "id": "sr:category:6",
+      "name": "WTA",
+      "eventSize": 25,
+      "tournaments": [
+       {
+        "id": "sr:tournament:2571",
+        "name": "Australian Open Women Singles 2027",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:2583",
+        "name": "French Open Women Singles 2027",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:2595",
+        "name": "US Open Women Singles 2027",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:40065",
+        "name": "WTA Ningbo, China Women Singles",
+        "eventSize": 3,
+        "categoryName": "WTA",
+        "categoryId": "sr:category:6"
+       },
+       {
+        "id": "sr:tournament:5943",
+        "name": "WTA Tokyo, Japan Women Singles",
+        "eventSize": 7,
+        "categoryName": "WTA",
+        "categoryId": "sr:category:6"
+       },
+       {
+        "id": "sr:tournament:3013",
+        "name": "WTA Guangzhou, China Women Singles",
+        "eventSize": 8,
+        "categoryName": "WTA",
+        "categoryId": "sr:category:6"
+       },
+       {
+        "id": "sr:tournament:3063",
+        "name": "WTA Osaka, Japan Women Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:40067",
+        "name": "WTA Ningbo, China Women Doubles",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:2559",
+        "name": "Wimbledon Women Singles 2027",
+        "eventSize": 1
+       },
+       {
+        "id": "sr:tournament:3061",
+        "name": "WTA Osaka, Japan Women Singles",
+        "eventSize": 1,
+        "categoryName": "WTA",
+        "categoryId": "sr:category:6"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "popularEvents": [
+   {
+    "id": "sr:sport:5",
+    "name": "Tennis",
+    "eventSize": 43,
+    "categories": [
+     {
+      "id": "sr:category:top",
+      "name": "Top Leagues",
+      "eventSize": 43,
+      "tournaments": [
+       {
+        "id": "sr:tournament:45935",
+        "name": "ATP Brussels, Belgium Singles",
+        "eventSize": 3,
+        "categoryName": "ATP",
+        "categoryId": "sr:category:3"
+       },
+       {
+        "id": "sr:tournament:41959",
+        "name": "ATP Almaty, Kazakhstan Men Singles",
+        "eventSize": 3,
+        "categoryName": "ATP",
+        "categoryId": "sr:category:3"
+       },
+       {
+        "id": "sr:tournament:2613",
+        "name": "ATP Basel, Switzerland Men Singles",
+        "eventSize": 7,
+        "categoryName": "ATP",
+        "categoryId": "sr:category:3"
+       },
+       {
+        "id": "sr:tournament:3097",
+        "name": "ATP Lyon, France Men Singles 2026",
+        "eventSize": 3,
+        "categoryName": "ATP",
+        "categoryId": "sr:category:3"
+       },
+       {
+        "id": "sr:tournament:3103",
+        "name": "ATP Vienna, Austria Men Singles",
+        "eventSize": 8,
+        "categoryName": "ATP",
+        "categoryId": "sr:category:3"
+       },
+       {
+        "id": "sr:tournament:40065",
+        "name": "WTA Ningbo, China Women Singles",
+        "eventSize": 3,
+        "categoryName": "WTA",
+        "categoryId": "sr:category:6"
+       },
+       {
+        "id": "sr:tournament:5943",
+        "name": "WTA Tokyo, Japan Women Singles",
+        "eventSize": 7,
+        "categoryName": "WTA",
+        "categoryId": "sr:category:6"
+       },
+       {
+        "id": "sr:tournament:3013",
+        "name": "WTA Guangzhou, China Women Singles",
+        "eventSize": 8,
+        "categoryName": "WTA",
+        "categoryId": "sr:category:6"
+       },
+       {
+        "id": "sr:tournament:3061",
+        "name": "WTA Osaka, Japan Women Singles",
+        "eventSize": 1,
+        "categoryName": "WTA",
+        "categoryId": "sr:category:6"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

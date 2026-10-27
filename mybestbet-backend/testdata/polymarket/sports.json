@@ -1,0 +1,92 @@
+[
+ {
+  "id": 3,
+  "sport": "lal",
+  "name": "LaLiga",
+  "ordering": "home",
+  "tags": "1,780,100639,100350",
+  "primaryTagId": 780,
+  "series": "10193"
+ },
+ {
+  "id": 132,
+  "sport": "euroleague",
+  "name": "EuroLeague",
+  "ordering": "home",
+  "tags": "1,100639,102669",
+  "primaryTagId": 102669,
+  "series": "10371"
+ },
+ {
+  "id": 31,
+  "sport": "efa",
+  "name": "FA Cup",
+  "ordering": "home",
+  "tags": "1,100639,100350,101807",
+  "primaryTagId": 101807,
+  "series": "10314"
+ },
+ {
+  "id": 46,
+  "sport": "wta",
+  "name": "WTA Tour",
+  "ordering": "home",
+  "tags": "1,864,100639,102123",
+  "primaryTagId": 102123,
+  "series": "10366"
+ },
+ {
+  "id": 45,
+  "sport": "atp",
+  "name": "ATP Tour",
+  "ordering": "home",
+  "tags": "1,864,100639,101232",
+  "primaryTagId": 101232,
+  "series": "10365"
+ },
+ {
+  "id": 37,
+  "sport": "cs2",
+  "name": "CS2",
+  "ordering": "home",
+  "tags": "1,64,100780,100639",
+  "primaryTagId": 100780,
+  "series": "10310"
+ },
+ {
+  "id": 34,
+  "sport": "nba",
+  "name": "NBA",
+  "ordering": "away",
+  "tags": "1,745,100639",
+  "primaryTagId": 745,
+  "series": "10345"
+ },
+ {
+  "id": 10,
+  "sport": "nfl",
+  "name": "NFL",
+  "ordering": "away",
+  "tags": "1,450,100639",
+  "primaryTagId": 450,
+  "series": "12185"
+ },
+ {
+  "id": 2,
+  "sport": "epl",
+  "name": "Premier League",
+  "ordering": "home",
+  "tags": "1,82,306,100639,100350",
+  "primaryTagId": 306,
+  "series": "10188"
+ },
+ {
+  "id": 13,
+  "sport": "ucl",
+  "name": "UEFA Champions League",
+  "ordering": "home",
+  "tags": "1,100977,100639,1234,100350",
+  "primaryTagId": 1234,
+  "series": "10204"
+ }
+]

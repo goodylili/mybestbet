@@ -1,0 +1,26 @@
+CREATE TABLE player_season_stats (
+    "playerId" uuid NOT NULL REFERENCES players (id),
+    "leagueCode" text NOT NULL REFERENCES leagues (code),
+    season text NOT NULL,
+    source text NOT NULL,
+    "sourcePlayerId" text NOT NULL,
+    team text NOT NULL DEFAULT '',
+    matches integer NOT NULL DEFAULT 0,
+    starts integer NOT NULL DEFAULT 0,
+    minutes integer NOT NULL DEFAULT 0,
+    goals integer NOT NULL DEFAULT 0,
+    assists integer NOT NULL DEFAULT 0,
+    shots integer NOT NULL DEFAULT 0,
+    "shotsOnTarget" integer NOT NULL DEFAULT 0,
+    fouls integer NOT NULL DEFAULT 0,
+    tackles integer NOT NULL DEFAULT 0,
+    yellow integer NOT NULL DEFAULT 0,
+    red integer NOT NULL DEFAULT 0,
+    "goalsPer90" double precision NOT NULL DEFAULT 0,
+    "assistsPer90" double precision NOT NULL DEFAULT 0,
+    "shotsPer90" double precision NOT NULL DEFAULT 0,
+    "shotsOnTargetPer90" double precision NOT NULL DEFAULT 0,
+    "updatedAt" timestamptz NOT NULL DEFAULT now(),
+    PRIMARY KEY ("playerId", "leagueCode", season, source)
+);
+CREATE INDEX player_season_stats_league_idx ON player_season_stats ("leagueCode");

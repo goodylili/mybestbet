@@ -1,0 +1,484 @@
+{
+ "data": [
+  {
+   "type": "projection",
+   "id": "8100019",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 8.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Aces",
+    "stat_type": "Aces",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6801"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "601"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100020",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 5.5,
+    "odds_type": "demon",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Aces",
+    "stat_type": "Aces",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6801"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "602"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100021",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 2.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Double Faults",
+    "stat_type": "Double Faults",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6801"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "602"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100022",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 22.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Total Games",
+    "stat_type": "Total Games",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6801"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "601"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100023",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 3.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Aces",
+    "stat_type": "Aces",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6802"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "603"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100024",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 4.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Aces",
+    "stat_type": "Aces",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6899"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "604"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "new_player",
+   "id": "601",
+   "attributes": {
+    "combo": false,
+    "display_name": "Jannik Sinner",
+    "image_url": null,
+    "league": "TENNIS",
+    "league_id": 5,
+    "market": "Jannik Sinner",
+    "name": "Jannik Sinner",
+    "position": "",
+    "team": "JAN",
+    "team_name": "Jannik Sinner"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "602",
+   "attributes": {
+    "combo": false,
+    "display_name": "Carlos Alcaraz",
+    "image_url": null,
+    "league": "TENNIS",
+    "league_id": 5,
+    "market": "Carlos Alcaraz",
+    "name": "Carlos Alcaraz",
+    "position": "",
+    "team": "CAR",
+    "team_name": "Carlos Alcaraz"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "603",
+   "attributes": {
+    "combo": false,
+    "display_name": "Iga Swiatek",
+    "image_url": null,
+    "league": "TENNIS",
+    "league_id": 5,
+    "market": "Iga Swiatek",
+    "name": "Iga Swiatek",
+    "position": "",
+    "team": "IGA",
+    "team_name": "Iga Swiatek"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "604",
+   "attributes": {
+    "combo": false,
+    "display_name": "Player One",
+    "image_url": null,
+    "league": "TENNIS",
+    "league_id": 5,
+    "market": "Player One",
+    "name": "Player One",
+    "position": "",
+    "team": "PLA",
+    "team_name": "Player One"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    }
+   }
+  },
+  {
+   "type": "game",
+   "id": "6801",
+   "attributes": {
+    "created_at": "2026-10-20T10:00:00-04:00",
+    "end_time": null,
+    "external_game_id": "sr:match:6801",
+    "is_live": false,
+    "metadata": {
+     "game_info": {
+      "competition": "ATP Miami",
+      "teams": {
+       "home": {
+        "abbreviation": "JAN",
+        "name": "Jannik Sinner"
+       },
+       "away": {
+        "abbreviation": "CAR",
+        "name": "Carlos Alcaraz"
+       }
+      }
+     },
+     "status": "scheduled"
+    },
+    "start_time": "2026-10-29T14:00:00-04:00",
+    "status": "scheduled"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    }
+   }
+  },
+  {
+   "type": "game",
+   "id": "6802",
+   "attributes": {
+    "created_at": "2026-10-20T10:00:00-04:00",
+    "end_time": null,
+    "external_game_id": "sr:match:6802",
+    "is_live": false,
+    "metadata": {
+     "game_info": {
+      "competition": "WTA Miami",
+      "teams": {
+       "home": {
+        "abbreviation": "IGA",
+        "name": "Iga Swiatek"
+       },
+       "away": {
+        "abbreviation": "COC",
+        "name": "Coco Gauff"
+       }
+      }
+     },
+     "status": "scheduled"
+    },
+    "start_time": "2026-10-29T12:00:00-04:00",
+    "status": "scheduled"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    }
+   }
+  },
+  {
+   "type": "game",
+   "id": "6899",
+   "attributes": {
+    "created_at": "2026-10-20T10:00:00-04:00",
+    "end_time": null,
+    "external_game_id": "sr:match:6899",
+    "is_live": false,
+    "metadata": {
+     "game_info": {
+      "competition": "ITF M25 Antalya",
+      "teams": {
+       "home": {
+        "abbreviation": "PLA",
+        "name": "Player One"
+       },
+       "away": {
+        "abbreviation": "PLA",
+        "name": "Player Two"
+       }
+      }
+     },
+     "status": "scheduled"
+    },
+    "start_time": "2026-10-29T04:00:00-04:00",
+    "status": "scheduled"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "5"
+     }
+    }
+   }
+  },
+  {
+   "type": "league",
+   "id": "5",
+   "attributes": {
+    "name": "TENNIS",
+    "active": true
+   }
+  }
+ ],
+ "links": {},
+ "meta": {}
+}

@@ -1,0 +1,39 @@
+{
+ "data": {
+  "topLeagues": [],
+  "regionGroups": [
+   {
+    "name": "All",
+    "regions": [
+     {
+      "id": "counter-strike",
+      "name": "Counter-Strike",
+      "leagues": [
+       {
+        "id": "710",
+        "name": "United21",
+        "url": "/sport/esports/counter-strike/united21/710/"
+       },
+       {
+        "id": "711",
+        "name": "CCT Europe Series",
+        "url": "/sport/esports/counter-strike/cct-europe-series/711/"
+       }
+      ]
+     },
+     {
+      "id": "league-of-legends",
+      "name": "League of Legends",
+      "leagues": [
+       {
+        "id": "720",
+        "name": "World Championship",
+        "url": "/sport/esports/league-of-legends/world-championship/720/"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

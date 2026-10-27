@@ -1,0 +1,81 @@
+/* nav.anotch: the black (light theme) or white (dark theme) tab hanging from the top bar from 761px up */
+.anotch { display: none; }
+.anotch .anQ input::-webkit-search-cancel-button { display: none; -webkit-appearance: none; }
+
+@keyframes anq { from { opacity: 0; transform: scaleX(.7); } to { opacity: 1; transform: none; } }
+
+@media (min-width: 761px) {
+  .anotch {
+    --n: #0c0c0d;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    height: 50px;
+    padding: 0 8px;
+    background: var(--n);
+    border-radius: 0 0 20px 20px;
+    z-index: 2;
+    box-shadow: none;
+  }
+  .anotch::before, .anotch::after { content: ""; position: absolute; top: 0; width: 18px; height: 18px; pointer-events: none; }
+  .anotch::before { right: 100%; background: radial-gradient(circle at 0 100%, transparent 17.5px, var(--n) 18px); }
+  .anotch::after { left: 100%; background: radial-gradient(circle at 100% 100%, transparent 17.5px, var(--n) 18px); }
+  .anotch :is(a, button) {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 34px;
+    padding: 0 10px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(255 255 255 / .7);
+  }
+  .anotch :is(a, button)[aria-current="page"] { color: #fff; background: rgb(255 255 255 / .14); }
+  .anotch .c { font-family: var(--mono); font-size: 11.5px; color: #9db4ff; }
+  .anotch .anS { width: 34px; padding: 0; justify-content: center; margin-left: 2px; border-left: 1px solid rgb(255 255 255 / .12); border-radius: 0 999px 999px 0; }
+  .anotch .anQ { display: none; align-items: center; gap: 10px; height: 40px; padding: 0 6px 0 14px; width: min(420px, 54vw); border-radius: 999px; background: rgb(255 255 255 / .1); color: rgb(255 255 255 / .6); }
+  .anotch .anQ input { flex: 1; min-width: 0; background: none; border: 0; outline: 0; color: #fff; font: inherit; font-size: 16px; }
+  .anotch .anX { width: 30px; height: 30px; padding: 0; justify-content: center; }
+  .anotch.searching > :is(a, button) { display: none; }
+  .anotch.searching .anQ { display: flex; }
+}
+
+@media (min-width: 1100px) {
+  .anotch { transition: width .35s cubic-bezier(.2, .8, .2, 1); }
+  .anotch :is(a, button) { padding: 0 13px; font-size: 13.5px; letter-spacing: -.01em; transition: color .2s, background .2s; }
+  .anotch :is(a, button):hover { color: #fff; background: rgb(255 255 255 / .1); }
+  .anotch :is(a, button)[aria-current="page"] { color: #fff; background: rgb(255 255 255 / .14); }
+  .anotch .anS { width: 34px; padding: 0; }
+  .anotch .anS svg { width: 16px; height: 16px; }
+  .anotch .anQ { width: min(480px, 46vw); }
+  .anotch .anQ svg { width: 16px; height: 16px; flex: none; }
+  .anotch .anQ input { font-size: 14px; }
+  .anotch .anQ input::placeholder { color: rgb(255 255 255 / .5); }
+  .anotch .anX { width: 30px; height: 30px; padding: 0; justify-content: center; border-radius: 999px; }
+  .anotch .anX svg { width: 14px; height: 14px; }
+  .anotch.searching .anQ { display: flex; animation: anq .3s cubic-bezier(.2, .8, .2, 1); }
+}
+
+@media (min-width: 1100px) and (max-width: 1359px) {
+  .anotch :is(a, button) { padding: 0 10px; font-size: 13px; }
+}
+
+@media (min-width: 1100px) and (max-width: 1279px) {
+  .anotch :is(a, button) { padding: 0 9px; font-size: 12.5px; }
+}
+
+/* dark theme: the notch turns light */
+:global(:root:not([data-theme="light"])) .anotch { --n: #f5f5f6 !important; }
+:global(:root:not([data-theme="light"])) .anotch :is(a, button) { color: rgb(12 12 13 / .62); }
+:global(:root:not([data-theme="light"])) .anotch :is(a, button):hover { color: #0c0c0d; background: rgb(0 0 0 / .06); }
+:global(:root:not([data-theme="light"])) .anotch :is(a, button)[aria-current="page"] { color: #0c0c0d; background: rgb(0 0 0 / .08); }
+:global(:root:not([data-theme="light"])) .anotch .c { color: #1d3fd6; }
+:global(:root:not([data-theme="light"])) .anotch .anS { border-left-color: rgb(0 0 0 / .12); }
+:global(:root:not([data-theme="light"])) .anotch .anQ { background: rgb(0 0 0 / .06); color: rgb(12 12 13 / .55); }
+:global(:root:not([data-theme="light"])) .anotch .anQ input { color: #0c0c0d; }
+:global(:root:not([data-theme="light"])) .anotch .anQ input::placeholder { color: rgb(12 12 13 / .45); }

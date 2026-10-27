@@ -1,0 +1,5228 @@
+{
+  "source": "bet9ja",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "850368109",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.75,
+            "form": "decimal",
+            "prob": 0.36363636363636365,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.46,
+            "form": "decimal",
+            "prob": 0.684931506849315,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_121"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "ML",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.45,
+            "form": "decimal",
+            "prob": 0.4081632653061224,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.54,
+            "form": "decimal",
+            "prob": 0.6493506493506493,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1HD"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": -0.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.6,
+            "form": "decimal",
+            "prob": 0.3846153846153846,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.47,
+            "form": "decimal",
+            "prob": 0.6802721088435374,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1HH@-0.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": -3.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.5,
+            "form": "decimal",
+            "prob": 0.2857142857142857,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.29,
+            "form": "decimal",
+            "prob": 0.7751937984496123,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1HH@-3.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 2.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2,
+            "form": "decimal",
+            "prob": 0.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.78,
+            "form": "decimal",
+            "prob": 0.5617977528089888,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1HH@2.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 5.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.55,
+            "form": "decimal",
+            "prob": 0.6451612903225806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1HH@5.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 8.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.29,
+            "form": "decimal",
+            "prob": 0.7751937984496123,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 3.5,
+            "form": "decimal",
+            "prob": 0.2857142857142857,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1HH@8.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 15.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.21,
+            "form": "decimal",
+            "prob": 0.8264462809917356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 4.25,
+            "form": "decimal",
+            "prob": 0.23529411764705882,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1HT@15.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 18.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.47,
+            "form": "decimal",
+            "prob": 0.6802721088435374,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.65,
+            "form": "decimal",
+            "prob": 0.37735849056603776,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1HT@18.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 21.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.88,
+            "form": "decimal",
+            "prob": 0.5319148936170213,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.89,
+            "form": "decimal",
+            "prob": 0.5291005291005292,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1HT@21.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 24.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.6,
+            "form": "decimal",
+            "prob": 0.3846153846153846,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.48,
+            "form": "decimal",
+            "prob": 0.6756756756756757,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1HT@24.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 27.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.45,
+            "form": "decimal",
+            "prob": 0.2898550724637681,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.3,
+            "form": "decimal",
+            "prob": 0.7692307692307692,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1HT@27.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "ML",
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.3,
+            "form": "decimal",
+            "prob": 0.4347826086956522,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.61,
+            "form": "decimal",
+            "prob": 0.6211180124223602,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1QD"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": -2.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.9,
+            "form": "decimal",
+            "prob": 0.3448275862068966,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.4,
+            "form": "decimal",
+            "prob": 0.7142857142857143,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1QH@-2.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 0.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.77,
+            "form": "decimal",
+            "prob": 0.5649717514124294,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2,
+            "form": "decimal",
+            "prob": 0.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1QH@0.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 3.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.5,
+            "form": "decimal",
+            "prob": 0.6666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.55,
+            "form": "decimal",
+            "prob": 0.3921568627450981,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1QH@3.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 10.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.75,
+            "form": "decimal",
+            "prob": 0.36363636363636365,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.43,
+            "form": "decimal",
+            "prob": 0.6993006993006994,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1QT@10.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 7.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.86,
+            "form": "decimal",
+            "prob": 0.5376344086021505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.91,
+            "form": "decimal",
+            "prob": 0.5235602094240838,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_1QT@7.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "ML",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.3,
+            "form": "decimal",
+            "prob": 0.4347826086956522,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.6,
+            "form": "decimal",
+            "prob": 0.625,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2HDF"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": -0.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.51,
+            "form": "decimal",
+            "prob": 0.6622516556291391,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2HH@-0.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": -3.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.2,
+            "form": "decimal",
+            "prob": 0.3125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.34,
+            "form": "decimal",
+            "prob": 0.7462686567164178,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2HH@-3.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 2.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.92,
+            "form": "decimal",
+            "prob": 0.5208333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.86,
+            "form": "decimal",
+            "prob": 0.5376344086021505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2HH@2.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 5.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.54,
+            "form": "decimal",
+            "prob": 0.6493506493506493,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.45,
+            "form": "decimal",
+            "prob": 0.4081632653061224,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2HH@5.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 8.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.3,
+            "form": "decimal",
+            "prob": 0.7692307692307692,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 3.45,
+            "form": "decimal",
+            "prob": 0.2898550724637681,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2HH@8.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 15.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.3,
+            "form": "decimal",
+            "prob": 0.7692307692307692,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.45,
+            "form": "decimal",
+            "prob": 0.2898550724637681,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2HTF@15.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 18.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.55,
+            "form": "decimal",
+            "prob": 0.6451612903225806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2HTF@18.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 21.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.95,
+            "form": "decimal",
+            "prob": 0.5128205128205129,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.83,
+            "form": "decimal",
+            "prob": 0.5464480874316939,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2HTF@21.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 24.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.55,
+            "form": "decimal",
+            "prob": 0.3921568627450981,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.49,
+            "form": "decimal",
+            "prob": 0.6711409395973155,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2HTF@24.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 27.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.25,
+            "form": "decimal",
+            "prob": 0.3076923076923077,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.33,
+            "form": "decimal",
+            "prob": 0.7518796992481203,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2HTF@27.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "ML",
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.15,
+            "form": "decimal",
+            "prob": 0.46511627906976744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.69,
+            "form": "decimal",
+            "prob": 0.591715976331361,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2QD"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": -2.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.65,
+            "form": "decimal",
+            "prob": 0.37735849056603776,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.47,
+            "form": "decimal",
+            "prob": 0.6802721088435374,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2QH@-2.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 0.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.8,
+            "form": "decimal",
+            "prob": 0.5555555555555556,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.98,
+            "form": "decimal",
+            "prob": 0.5050505050505051,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2QH@0.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 3.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.52,
+            "form": "decimal",
+            "prob": 0.6578947368421053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2QH@3.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 10.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.75,
+            "form": "decimal",
+            "prob": 0.5714285714285714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2QT@10.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 13.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.74,
+            "form": "decimal",
+            "prob": 0.5747126436781609,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2QT@13.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 7.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.33,
+            "form": "decimal",
+            "prob": 0.7518796992481203,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.25,
+            "form": "decimal",
+            "prob": 0.3076923076923077,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_2QT@7.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "ML",
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.25,
+            "form": "decimal",
+            "prob": 0.4444444444444444,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.63,
+            "form": "decimal",
+            "prob": 0.6134969325153374,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_3QD"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": -2.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.85,
+            "form": "decimal",
+            "prob": 0.3508771929824561,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.42,
+            "form": "decimal",
+            "prob": 0.7042253521126761,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_3QH@-2.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 0.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.81,
+            "form": "decimal",
+            "prob": 0.5524861878453039,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.97,
+            "form": "decimal",
+            "prob": 0.5076142131979695,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_3QH@0.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 3.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.52,
+            "form": "decimal",
+            "prob": 0.6578947368421053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_3QH@3.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 12.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.7,
+            "form": "decimal",
+            "prob": 0.37037037037037035,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.46,
+            "form": "decimal",
+            "prob": 0.684931506849315,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_3QT@12.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 6.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.35,
+            "form": "decimal",
+            "prob": 0.7407407407407407,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.15,
+            "form": "decimal",
+            "prob": 0.31746031746031744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_3QT@6.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 9.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.89,
+            "form": "decimal",
+            "prob": 0.5291005291005292,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.88,
+            "form": "decimal",
+            "prob": 0.5319148936170213,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_3QT@9.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "ML",
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.71,
+            "form": "decimal",
+            "prob": 0.5847953216374269,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_4QDR"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": -2.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.7,
+            "form": "decimal",
+            "prob": 0.37037037037037035,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.44,
+            "form": "decimal",
+            "prob": 0.6944444444444444,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_4QHR@-2.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 0.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.75,
+            "form": "decimal",
+            "prob": 0.5714285714285714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_4QHR@0.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 3.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.43,
+            "form": "decimal",
+            "prob": 0.6993006993006994,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.8,
+            "form": "decimal",
+            "prob": 0.35714285714285715,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_4QHR@3.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 10.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.91,
+            "form": "decimal",
+            "prob": 0.5235602094240838,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_4QTR@10.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 13.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.66,
+            "form": "decimal",
+            "prob": 0.6024096385542169,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_4QTR@13.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 7.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.43,
+            "form": "decimal",
+            "prob": 0.6993006993006994,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.8,
+            "form": "decimal",
+            "prob": 0.35714285714285715,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_4QTR@7.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": -0.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.75,
+            "form": "decimal",
+            "prob": 0.36363636363636365,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.46,
+            "form": "decimal",
+            "prob": 0.684931506849315,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@-0.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.85,
+            "form": "decimal",
+            "prob": 0.3508771929824561,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.43,
+            "form": "decimal",
+            "prob": 0.6993006993006994,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@-1.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": -2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3,
+            "form": "decimal",
+            "prob": 0.3333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.39,
+            "form": "decimal",
+            "prob": 0.7194244604316548,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@-2.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 0.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.75,
+            "form": "decimal",
+            "prob": 0.36363636363636365,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.46,
+            "form": "decimal",
+            "prob": 0.684931506849315,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@0.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.55,
+            "form": "decimal",
+            "prob": 0.3921568627450981,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.53,
+            "form": "decimal",
+            "prob": 0.6535947712418301,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@1.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 10.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.4,
+            "form": "decimal",
+            "prob": 0.7142857142857143,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 3,
+            "form": "decimal",
+            "prob": 0.3333333333333333,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@10.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 11.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.37,
+            "form": "decimal",
+            "prob": 0.7299270072992701,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 3.15,
+            "form": "decimal",
+            "prob": 0.31746031746031744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@11.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.57,
+            "form": "decimal",
+            "prob": 0.6369426751592356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@2.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.99,
+            "form": "decimal",
+            "prob": 0.5025125628140703,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.83,
+            "form": "decimal",
+            "prob": 0.5464480874316939,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@3.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.88,
+            "form": "decimal",
+            "prob": 0.5319148936170213,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.93,
+            "form": "decimal",
+            "prob": 0.5181347150259068,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@4.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 5.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.82,
+            "form": "decimal",
+            "prob": 0.5494505494505494,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2,
+            "form": "decimal",
+            "prob": 0.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@5.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 6.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.7,
+            "form": "decimal",
+            "prob": 0.5882352941176471,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.15,
+            "form": "decimal",
+            "prob": 0.46511627906976744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@6.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 7.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.56,
+            "form": "decimal",
+            "prob": 0.641025641025641,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.45,
+            "form": "decimal",
+            "prob": 0.4081632653061224,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@7.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 8.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.51,
+            "form": "decimal",
+            "prob": 0.6622516556291391,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.6,
+            "form": "decimal",
+            "prob": 0.3846153846153846,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@8.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "SPREAD",
+      "line": 9.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.48,
+            "form": "decimal",
+            "prob": 0.6756756756756757,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.65,
+            "form": "decimal",
+            "prob": 0.37735849056603776,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_H@9.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 39.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.53,
+            "form": "decimal",
+            "prob": 0.6535947712418301,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_T@39.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 40.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.61,
+            "form": "decimal",
+            "prob": 0.6211180124223602,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_T@40.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 41.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.7,
+            "form": "decimal",
+            "prob": 0.5882352941176471,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.15,
+            "form": "decimal",
+            "prob": 0.46511627906976744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_T@41.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 42.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.75,
+            "form": "decimal",
+            "prob": 0.5714285714285714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_T@42.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 43.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.94,
+            "form": "decimal",
+            "prob": 0.5154639175257733,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_T@43.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 44.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.99,
+            "form": "decimal",
+            "prob": 0.5025125628140703,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.83,
+            "form": "decimal",
+            "prob": 0.5464480874316939,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_T@44.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 45.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.75,
+            "form": "decimal",
+            "prob": 0.5714285714285714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_T@45.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 46.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.68,
+            "form": "decimal",
+            "prob": 0.5952380952380952,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_T@46.5"
+    },
+    {
+      "eventSourceId": "850368109",
+      "code": "TOTAL",
+      "line": 47.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.59,
+            "form": "decimal",
+            "prob": 0.6289308176100629,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "AF_T@47.5"
+    },
+    {
+      "eventSourceId": "855970462",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.9,
+            "form": "decimal",
+            "prob": 0.5263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.91,
+            "form": "decimal",
+            "prob": 0.5235602094240838,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "T_12"
+    },
+    {
+      "eventSourceId": "855970462",
+      "code": "ML",
+      "period": "S1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "T_121P"
+    },
+    {
+      "eventSourceId": "855970462",
+      "code": "TOTAL_GAMES",
+      "line": 22.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.56,
+            "form": "decimal",
+            "prob": 0.641025641025641,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "T_OUG@22.5"
+    },
+    {
+      "eventSourceId": "855970462",
+      "code": "TOTAL_GAMES",
+      "line": 23.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.82,
+            "form": "decimal",
+            "prob": 0.5494505494505494,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.93,
+            "form": "decimal",
+            "prob": 0.5181347150259068,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "T_OUG@23.5"
+    },
+    {
+      "eventSourceId": "855970462",
+      "code": "TOTAL_GAMES",
+      "line": 24.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.84,
+            "form": "decimal",
+            "prob": 0.5434782608695652,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.9,
+            "form": "decimal",
+            "prob": 0.5263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "T_OUG@24.5"
+    },
+    {
+      "eventSourceId": "855970462",
+      "code": "TOTAL_GAMES",
+      "line": 25.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.97,
+            "form": "decimal",
+            "prob": 0.5076142131979695,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.78,
+            "form": "decimal",
+            "prob": 0.5617977528089888,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "T_OUG@25.5"
+    },
+    {
+      "eventSourceId": "855970462",
+      "code": "TOTAL_GAMES",
+      "line": 26.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.25,
+            "form": "decimal",
+            "prob": 0.4444444444444444,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.59,
+            "form": "decimal",
+            "prob": 0.6289308176100629,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "T_OUG@26.5"
+    },
+    {
+      "eventSourceId": "855970462",
+      "code": "SET_HCP",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.1,
+            "form": "decimal",
+            "prob": 0.3225806451612903,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.34,
+            "form": "decimal",
+            "prob": 0.7462686567164178,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "T_SH@-1.5"
+    },
+    {
+      "eventSourceId": "855970462",
+      "code": "SET_HCP",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.33,
+            "form": "decimal",
+            "prob": 0.7518796992481203,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 3.15,
+            "form": "decimal",
+            "prob": 0.31746031746031744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "T_SH@1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.75,
+            "form": "decimal",
+            "prob": 0.5714285714285714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_12"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -0.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.83,
+            "form": "decimal",
+            "prob": 0.5464480874316939,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.91,
+            "form": "decimal",
+            "prob": 0.5235602094240838,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HH@-0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.96,
+            "form": "decimal",
+            "prob": 0.5102040816326531,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.79,
+            "form": "decimal",
+            "prob": 0.5586592178770949,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HH@-1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -2.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.68,
+            "form": "decimal",
+            "prob": 0.5952380952380952,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HH@-2.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -3.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.3,
+            "form": "decimal",
+            "prob": 0.4347826086956522,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.58,
+            "form": "decimal",
+            "prob": 0.6329113924050632,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HH@-3.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -4.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.5,
+            "form": "decimal",
+            "prob": 0.6666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HH@-4.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 0.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.71,
+            "form": "decimal",
+            "prob": 0.5847953216374269,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HH@0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 1.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.61,
+            "form": "decimal",
+            "prob": 0.6211180124223602,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HH@1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 2.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.53,
+            "form": "decimal",
+            "prob": 0.6535947712418301,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HH@2.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 3.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.45,
+            "form": "decimal",
+            "prob": 0.6896551724137931,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.6,
+            "form": "decimal",
+            "prob": 0.3846153846153846,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HH@3.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 113.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.46,
+            "form": "decimal",
+            "prob": 0.684931506849315,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.6,
+            "form": "decimal",
+            "prob": 0.3846153846153846,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HOU@113.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 114.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.53,
+            "form": "decimal",
+            "prob": 0.6535947712418301,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HOU@114.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 115.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.61,
+            "form": "decimal",
+            "prob": 0.6211180124223602,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HOU@115.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 116.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.7,
+            "form": "decimal",
+            "prob": 0.5882352941176471,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HOU@116.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 117.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.81,
+            "form": "decimal",
+            "prob": 0.5524861878453039,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.93,
+            "form": "decimal",
+            "prob": 0.5181347150259068,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HOU@117.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 118.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.93,
+            "form": "decimal",
+            "prob": 0.5181347150259068,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.82,
+            "form": "decimal",
+            "prob": 0.5494505494505494,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HOU@118.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 119.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.71,
+            "form": "decimal",
+            "prob": 0.5847953216374269,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HOU@119.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 120.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.62,
+            "form": "decimal",
+            "prob": 0.6172839506172839,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HOU@120.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 121.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.54,
+            "form": "decimal",
+            "prob": 0.6493506493506493,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HOU@121.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 122.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.55,
+            "form": "decimal",
+            "prob": 0.3921568627450981,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.47,
+            "form": "decimal",
+            "prob": 0.6802721088435374,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HOU@122.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 123.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.8,
+            "form": "decimal",
+            "prob": 0.35714285714285715,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.41,
+            "form": "decimal",
+            "prob": 0.7092198581560284,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1HOU@123.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "ML",
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.77,
+            "form": "decimal",
+            "prob": 0.5649717514124294,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.94,
+            "form": "decimal",
+            "prob": 0.5154639175257733,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1QD"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -0.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1QH@-0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.69,
+            "form": "decimal",
+            "prob": 0.591715976331361,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1QH@-1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -2.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.25,
+            "form": "decimal",
+            "prob": 0.4444444444444444,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.57,
+            "form": "decimal",
+            "prob": 0.6369426751592356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1QH@-2.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 0.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.7,
+            "form": "decimal",
+            "prob": 0.5882352941176471,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2,
+            "form": "decimal",
+            "prob": 0.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1QH@0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 1.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.57,
+            "form": "decimal",
+            "prob": 0.6369426751592356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.25,
+            "form": "decimal",
+            "prob": 0.4444444444444444,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1QH@1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 59.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.88,
+            "form": "decimal",
+            "prob": 0.5319148936170213,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.82,
+            "form": "decimal",
+            "prob": 0.5494505494505494,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_1QOU@59.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "ML",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.77,
+            "form": "decimal",
+            "prob": 0.5649717514124294,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.94,
+            "form": "decimal",
+            "prob": 0.5154639175257733,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HDNB"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -0.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.84,
+            "form": "decimal",
+            "prob": 0.5434782608695652,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HH@-0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.97,
+            "form": "decimal",
+            "prob": 0.5076142131979695,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.74,
+            "form": "decimal",
+            "prob": 0.5747126436781609,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HH@-1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -2.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.15,
+            "form": "decimal",
+            "prob": 0.46511627906976744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.63,
+            "form": "decimal",
+            "prob": 0.6134969325153374,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HH@-2.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -3.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.3,
+            "form": "decimal",
+            "prob": 0.4347826086956522,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.54,
+            "form": "decimal",
+            "prob": 0.6493506493506493,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HH@-3.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 0.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.71,
+            "form": "decimal",
+            "prob": 0.5847953216374269,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2,
+            "form": "decimal",
+            "prob": 0.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HH@0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 1.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.61,
+            "form": "decimal",
+            "prob": 0.6211180124223602,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HH@1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 2.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.52,
+            "form": "decimal",
+            "prob": 0.6578947368421053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HH@2.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 106.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.61,
+            "form": "decimal",
+            "prob": 0.6211180124223602,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HOU@106.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 107.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.69,
+            "form": "decimal",
+            "prob": 0.591715976331361,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HOU@107.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 108.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.79,
+            "form": "decimal",
+            "prob": 0.5586592178770949,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.91,
+            "form": "decimal",
+            "prob": 0.5235602094240838,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HOU@108.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 109.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.9,
+            "form": "decimal",
+            "prob": 0.5263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.8,
+            "form": "decimal",
+            "prob": 0.5555555555555556,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HOU@109.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 110.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.7,
+            "form": "decimal",
+            "prob": 0.5882352941176471,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HOU@110.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 111.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.15,
+            "form": "decimal",
+            "prob": 0.46511627906976744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.61,
+            "form": "decimal",
+            "prob": 0.6211180124223602,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HOU@111.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 112.5,
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.54,
+            "form": "decimal",
+            "prob": 0.6493506493506493,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2HOU@112.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "ML",
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.79,
+            "form": "decimal",
+            "prob": 0.5586592178770949,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.91,
+            "form": "decimal",
+            "prob": 0.5235602094240838,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2QD"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -0.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.83,
+            "form": "decimal",
+            "prob": 0.5464480874316939,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2QH@-0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.68,
+            "form": "decimal",
+            "prob": 0.5952380952380952,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2QH@-1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 0.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.72,
+            "form": "decimal",
+            "prob": 0.5813953488372093,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.99,
+            "form": "decimal",
+            "prob": 0.5025125628140703,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2QH@0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 58.5,
+      "period": "Q2",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_2QOU@58.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "ML",
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.78,
+            "form": "decimal",
+            "prob": 0.5617977528089888,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.93,
+            "form": "decimal",
+            "prob": 0.5181347150259068,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_3QD"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -0.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.85,
+            "form": "decimal",
+            "prob": 0.5405405405405405,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.84,
+            "form": "decimal",
+            "prob": 0.5434782608695652,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_3QH@-0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.69,
+            "form": "decimal",
+            "prob": 0.591715976331361,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_3QH@-1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 0.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.71,
+            "form": "decimal",
+            "prob": 0.5847953216374269,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2,
+            "form": "decimal",
+            "prob": 0.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_3QH@0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 55.5,
+      "period": "Q3",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.79,
+            "form": "decimal",
+            "prob": 0.5586592178770949,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.91,
+            "form": "decimal",
+            "prob": 0.5235602094240838,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_3QOU@55.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "ML",
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.81,
+            "form": "decimal",
+            "prob": 0.5524861878453039,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.89,
+            "form": "decimal",
+            "prob": 0.5291005291005292,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_4QD"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -0.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.9,
+            "form": "decimal",
+            "prob": 0.5263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.8,
+            "form": "decimal",
+            "prob": 0.5555555555555556,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_4QH@-0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.64,
+            "form": "decimal",
+            "prob": 0.6097560975609756,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_4QH@-1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 0.5,
+      "period": "Q4",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.73,
+            "form": "decimal",
+            "prob": 0.5780346820809249,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.98,
+            "form": "decimal",
+            "prob": 0.5050505050505051,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_4QH@0.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "ML",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.77,
+            "form": "decimal",
+            "prob": 0.5649717514124294,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.98,
+            "form": "decimal",
+            "prob": 0.5050505050505051,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_DNB1T"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.84,
+            "form": "decimal",
+            "prob": 0.5434782608695652,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.94,
+            "form": "decimal",
+            "prob": 0.5154639175257733,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@-1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.95,
+            "form": "decimal",
+            "prob": 0.5128205128205129,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.83,
+            "form": "decimal",
+            "prob": 0.5464480874316939,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@-2.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -3.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.72,
+            "form": "decimal",
+            "prob": 0.5813953488372093,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@-3.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -4.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.64,
+            "form": "decimal",
+            "prob": 0.6097560975609756,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@-4.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -5.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.57,
+            "form": "decimal",
+            "prob": 0.6369426751592356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@-5.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -6.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.55,
+            "form": "decimal",
+            "prob": 0.3921568627450981,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.49,
+            "form": "decimal",
+            "prob": 0.6711409395973155,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@-6.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -7.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.75,
+            "form": "decimal",
+            "prob": 0.36363636363636365,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.43,
+            "form": "decimal",
+            "prob": 0.6993006993006994,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@-7.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -8.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.95,
+            "form": "decimal",
+            "prob": 0.3389830508474576,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.38,
+            "form": "decimal",
+            "prob": 0.7246376811594204,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@-8.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": -9.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.25,
+            "form": "decimal",
+            "prob": 0.3076923076923077,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.33,
+            "form": "decimal",
+            "prob": 0.7518796992481203,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@-9.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.67,
+            "form": "decimal",
+            "prob": 0.5988023952095809,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.15,
+            "form": "decimal",
+            "prob": 0.46511627906976744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@1.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.59,
+            "form": "decimal",
+            "prob": 0.6289308176100629,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.3,
+            "form": "decimal",
+            "prob": 0.4347826086956522,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@2.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.52,
+            "form": "decimal",
+            "prob": 0.6578947368421053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@3.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.45,
+            "form": "decimal",
+            "prob": 0.6896551724137931,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.7,
+            "form": "decimal",
+            "prob": 0.37037037037037035,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@4.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 5.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.4,
+            "form": "decimal",
+            "prob": 0.7142857142857143,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.9,
+            "form": "decimal",
+            "prob": 0.3448275862068966,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@5.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "SPREAD",
+      "line": 6.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.35,
+            "form": "decimal",
+            "prob": 0.7407407407407407,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 3.15,
+            "form": "decimal",
+            "prob": 0.31746031746031744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_H@6.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 221.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.46,
+            "form": "decimal",
+            "prob": 0.684931506849315,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.65,
+            "form": "decimal",
+            "prob": 0.37735849056603776,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@221.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 222.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.51,
+            "form": "decimal",
+            "prob": 0.6622516556291391,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@222.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 223.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.56,
+            "form": "decimal",
+            "prob": 0.641025641025641,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@223.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 224.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.62,
+            "form": "decimal",
+            "prob": 0.6172839506172839,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.25,
+            "form": "decimal",
+            "prob": 0.4444444444444444,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@224.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 225.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.68,
+            "form": "decimal",
+            "prob": 0.5952380952380952,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.15,
+            "form": "decimal",
+            "prob": 0.46511627906976744,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@225.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 226.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.75,
+            "form": "decimal",
+            "prob": 0.5714285714285714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@226.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 227.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.82,
+            "form": "decimal",
+            "prob": 0.5494505494505494,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.96,
+            "form": "decimal",
+            "prob": 0.5102040816326531,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@227.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 228.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.9,
+            "form": "decimal",
+            "prob": 0.5263157894736842,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.88,
+            "form": "decimal",
+            "prob": 0.5319148936170213,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@228.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 229.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.98,
+            "form": "decimal",
+            "prob": 0.5050505050505051,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.8,
+            "form": "decimal",
+            "prob": 0.5555555555555556,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@229.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 230.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.73,
+            "form": "decimal",
+            "prob": 0.5780346820809249,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@230.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 231.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.66,
+            "form": "decimal",
+            "prob": 0.6024096385542169,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@231.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 232.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.3,
+            "form": "decimal",
+            "prob": 0.4347826086956522,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.61,
+            "form": "decimal",
+            "prob": 0.6211180124223602,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@232.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 233.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.55,
+            "form": "decimal",
+            "prob": 0.6451612903225806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@233.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 234.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.55,
+            "form": "decimal",
+            "prob": 0.3921568627450981,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.5,
+            "form": "decimal",
+            "prob": 0.6666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@234.5"
+    },
+    {
+      "eventSourceId": "856594391",
+      "code": "TOTAL",
+      "line": 235.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.65,
+            "form": "decimal",
+            "prob": 0.37735849056603776,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.46,
+            "form": "decimal",
+            "prob": 0.684931506849315,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "B_OUN@235.5"
+    }
+  ]
+}

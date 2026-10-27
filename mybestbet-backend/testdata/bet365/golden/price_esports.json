@@ -1,0 +1,198 @@
+{
+  "source": "bet365",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "B151-191000001",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.667,
+            "form": "decimal",
+            "prob": 0.5998800239952009,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1700"
+    },
+    {
+      "eventSourceId": "B151-191000001",
+      "code": "MAP_HCP",
+      "line": -1.5,
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.75,
+            "form": "decimal",
+            "prob": 0.36363636363636365,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.4,
+            "form": "decimal",
+            "prob": 0.7142857142857143,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1701@-1.5"
+    },
+    {
+      "eventSourceId": "B151-191000001",
+      "code": "TOTAL_MAPS",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.615,
+            "form": "decimal",
+            "prob": 0.6191950464396285,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1702@2.5"
+    },
+    {
+      "eventSourceId": "B151-191000001",
+      "code": "ML",
+      "period": "M1",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.727,
+            "form": "decimal",
+            "prob": 0.5790387955993052,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2,
+            "form": "decimal",
+            "prob": 0.5,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1703"
+    },
+    {
+      "eventSourceId": "B151-191000001",
+      "code": "ES_KILLS",
+      "line": 13.5,
+      "player": {
+        "sourceId": "aleksib",
+        "name": "Aleksib",
+        "team": ""
+      },
+      "period": "M1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.833,
+            "form": "decimal",
+            "prob": 0.5455537370430987,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1704@aleksib@13.5"
+    },
+    {
+      "eventSourceId": "B151-191000001",
+      "code": "ES_KILLS",
+      "line": 18.5,
+      "player": {
+        "sourceId": "zywoo",
+        "name": "ZywOo",
+        "team": ""
+      },
+      "period": "M1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1704@zywoo@18.5"
+    }
+  ]
+}

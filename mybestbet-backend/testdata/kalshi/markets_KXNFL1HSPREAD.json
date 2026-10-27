@@ -1,0 +1,104 @@
+{
+ "cursor": "",
+ "events": [
+  {
+   "category": "Sports",
+   "collateral_return_type": "",
+   "event_ticker": "KXNFL1HSPREAD-26OCT25PITNO",
+   "exchange_index": 0,
+   "last_updated_ts": "2026-10-20T14:18:34.246871Z",
+   "markets": [
+    {
+     "close_time": "2026-10-27T13:30:00Z",
+     "custom_strike": {
+      "football_team": "6aa76797-7833-45e1-85e3-96e0122801e1"
+     },
+     "event_ticker": "KXNFL1HSPREAD-26OCT25PITNO",
+     "expected_expiration_time": "2026-10-25T16:30:00Z",
+     "floor_strike": 13.5,
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.8900",
+     "no_bid_dollars": "0.8600",
+     "no_sub_title": "Pittsburgh wins by over 13.5 points",
+     "occurrence_datetime": "2026-10-25T16:30:00Z",
+     "open_interest_fp": "0.00",
+     "rules_primary": "If Pittsburgh wins by more than 13.5 points in the 1st half of the Pittsburgh vs New Orleans Pro Football game originally scheduled for Oct 25, 2026, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "greater",
+     "ticker": "KXNFL1HSPREAD-26OCT25PITNO-PIT14",
+     "title": "Pittsburgh wins 1H by over 13.5 points?",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.1400",
+     "yes_ask_size_fp": "617.00",
+     "yes_bid_dollars": "0.1100",
+     "yes_bid_size_fp": "500.00",
+     "yes_sub_title": "Pittsburgh wins by over 13.5 points"
+    },
+    {
+     "close_time": "2026-10-27T13:30:00Z",
+     "custom_strike": {
+      "football_team": "6aa76797-7833-45e1-85e3-96e0122801e1"
+     },
+     "event_ticker": "KXNFL1HSPREAD-26OCT25PITNO",
+     "expected_expiration_time": "2026-10-25T16:30:00Z",
+     "floor_strike": 10.5,
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.8300",
+     "no_bid_dollars": "0.8100",
+     "no_sub_title": "Pittsburgh wins by over 10.5 points",
+     "occurrence_datetime": "2026-10-25T16:30:00Z",
+     "open_interest_fp": "0.00",
+     "rules_primary": "If Pittsburgh wins by more than 10.5 points in the 1st half of the Pittsburgh vs New Orleans Pro Football game originally scheduled for Oct 25, 2026, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "greater",
+     "ticker": "KXNFL1HSPREAD-26OCT25PITNO-PIT11",
+     "title": "Pittsburgh wins 1H by over 10.5 points?",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.1900",
+     "yes_ask_size_fp": "292.00",
+     "yes_bid_dollars": "0.1700",
+     "yes_bid_size_fp": "3650.00",
+     "yes_sub_title": "Pittsburgh wins by over 10.5 points"
+    },
+    {
+     "close_time": "2026-10-27T13:30:00Z",
+     "custom_strike": {
+      "football_team": "6aa76797-7833-45e1-85e3-96e0122801e1"
+     },
+     "event_ticker": "KXNFL1HSPREAD-26OCT25PITNO",
+     "expected_expiration_time": "2026-10-25T16:30:00Z",
+     "floor_strike": 9.5,
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.7800",
+     "no_bid_dollars": "0.7600",
+     "no_sub_title": "Pittsburgh wins by over 9.5 points",
+     "occurrence_datetime": "2026-10-25T16:30:00Z",
+     "open_interest_fp": "0.00",
+     "rules_primary": "If Pittsburgh wins by more than 9.5 points in the 1st half of the Pittsburgh vs New Orleans Pro Football game originally scheduled for Oct 25, 2026, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "greater",
+     "ticker": "KXNFL1HSPREAD-26OCT25PITNO-PIT10",
+     "title": "Pittsburgh wins 1H by over 9.5 points?",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.2400",
+     "yes_ask_size_fp": "630.00",
+     "yes_bid_dollars": "0.2200",
+     "yes_bid_size_fp": "3750.00",
+     "yes_sub_title": "Pittsburgh wins by over 9.5 points"
+    }
+   ],
+   "mutually_exclusive": false,
+   "product_metadata": {
+    "competition": "Pro Football",
+    "competition_scope": "1st Half Spread"
+   },
+   "series_ticker": "KXNFL1HSPREAD",
+   "strike_period": "",
+   "sub_title": "PIT vs NO (Oct 25)",
+   "title": "Pittsburgh vs New Orleans: 1st Half Spread"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "R": "OK",
+ "D": {
+  "GID": 170881,
+  "RGM": "1",
+  "GMK": [
+   {
+    "GMID": "185",
+    "NAME": "1X2 + Over/Under"
+   },
+   {
+    "GMID": "243",
+    "NAME": "Method of Qual."
+   },
+   {
+    "GMID": "235",
+    "NAME": "Penalty"
+   },
+   {
+    "GMID": "479",
+    "NAME": "Shots"
+   }
+  ],
+  "E": [
+   {
+    "ID": 855695391,
+    "DS": "Sheffield Utd - Wrexham",
+    "STARTDATE": "2026-10-30 20:00:00",
+    "STARTDATEUTC": "2026-10-30T20:00:00Z",
+    "GID": 170881,
+    "GN": "Championship"
+   },
+   {
+    "ID": 855919985,
+    "DS": "Stoke City - Preston",
+    "STARTDATE": "2026-10-31 12:30:00",
+    "STARTDATEUTC": "2026-10-31T12:30:00Z",
+    "GID": 170881,
+    "GN": "Championship"
+   },
+   {
+    "ID": 855985258,
+    "DS": "Bolton - Bristol City",
+    "STARTDATE": "2026-10-31 15:00:00",
+    "STARTDATEUTC": "2026-10-31T15:00:00Z",
+    "GID": 170881,
+    "GN": "Championship"
+   }
+  ]
+ }
+}

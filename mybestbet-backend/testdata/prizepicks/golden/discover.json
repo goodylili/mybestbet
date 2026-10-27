@@ -1,0 +1,28 @@
+{
+  "source": "prizepicks",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "5501",
+      "leagueHint": "EPL",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "kickoff": "2026-10-25T15:30:00Z"
+    },
+    {
+      "sourceId": "5502",
+      "leagueHint": "LALIGA",
+      "home": "Real Madrid",
+      "away": "Barcelona",
+      "kickoff": "2026-10-26T20:00:00Z"
+    },
+    {
+      "sourceId": "5503",
+      "leagueHint": "MLS",
+      "home": "Inter Miami",
+      "away": "New York City FC",
+      "kickoff": "2026-10-25T23:30:00Z"
+    }
+  ],
+  "markets": null
+}

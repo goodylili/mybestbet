@@ -1,0 +1,39 @@
+{
+ "data": {
+  "topLeagues": [],
+  "regionGroups": [
+   {
+    "name": "All",
+    "regions": [
+     {
+      "id": "usa",
+      "name": "USA",
+      "leagues": [
+       {
+        "id": "441",
+        "name": "NBA",
+        "url": "/sport/basketball/usa/nba/441/"
+       },
+       {
+        "id": "442",
+        "name": "WNBA",
+        "url": "/sport/basketball/usa/wnba/442/"
+       }
+      ]
+     },
+     {
+      "id": "europe",
+      "name": "Europe",
+      "leagues": [
+       {
+        "id": "443",
+        "name": "Euroleague",
+        "url": "/sport/basketball/europe/euroleague/443/"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

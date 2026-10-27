@@ -1,0 +1,98 @@
+{
+  "source": "betking",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "1004366820",
+      "leagueHint": "NFL",
+      "home": "New Orleans Saints",
+      "away": "Pittsburgh Steelers",
+      "kickoff": "2026-10-25T13:30:00Z"
+    },
+    {
+      "sourceId": "1005499155",
+      "leagueHint": "EFLCUP",
+      "home": "Fleetwood",
+      "away": "Arsenal",
+      "kickoff": "2026-10-27T20:00:00Z"
+    },
+    {
+      "sourceId": "1005499161",
+      "leagueHint": "EFLCUP",
+      "home": "Bradford",
+      "away": "Peterborough",
+      "kickoff": "2026-10-27T19:45:00Z"
+    },
+    {
+      "sourceId": "1005505510",
+      "leagueHint": "EFLCUP",
+      "home": "Man City",
+      "away": "Brighton",
+      "kickoff": "2026-10-28T19:30:00Z"
+    },
+    {
+      "sourceId": "1005543054",
+      "leagueHint": "NBL",
+      "home": "Illawarra Hawks",
+      "away": "Brisbane Bullets",
+      "kickoff": "2026-10-24T06:30:00Z"
+    },
+    {
+      "sourceId": "1005543055",
+      "leagueHint": "NBL",
+      "home": "SE Melbourne Phoenix",
+      "away": "Adelaide 36Ers",
+      "kickoff": "2026-10-24T08:30:00Z"
+    },
+    {
+      "sourceId": "1005557630",
+      "leagueHint": "NFL",
+      "home": "Carolina Panthers",
+      "away": "Tampa Bay Buccaneers",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "1005557634",
+      "leagueHint": "NFL",
+      "home": "Atlanta Falcons",
+      "away": "San Francisco 49ers",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "1005557636",
+      "leagueHint": "NFL",
+      "home": "Baltimore Ravens",
+      "away": "Cincinnati Bengals",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "1005738805",
+      "leagueHint": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Miami Heat",
+      "kickoff": "2026-10-24T22:00:00Z"
+    },
+    {
+      "sourceId": "1005738807",
+      "leagueHint": "NBA",
+      "home": "Chicago Bulls",
+      "away": "Washington Wizards",
+      "kickoff": "2026-10-25T01:00:00Z"
+    },
+    {
+      "sourceId": "1005738821",
+      "leagueHint": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "Milwaukee Bucks",
+      "kickoff": "2026-10-24T23:30:00Z"
+    },
+    {
+      "sourceId": "1005738823",
+      "leagueHint": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Brooklyn Nets",
+      "kickoff": "2026-10-24T23:30:00Z"
+    }
+  ],
+  "markets": null
+}

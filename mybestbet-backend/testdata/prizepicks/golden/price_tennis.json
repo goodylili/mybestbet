@@ -1,0 +1,115 @@
+{
+  "source": "prizepicks",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "TENNIS-6801",
+      "code": "TN_ACES",
+      "line": 8.5,
+      "player": {
+        "sourceId": "601",
+        "name": "Jannik Sinner",
+        "team": "Jannik Sinner"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 8.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100019"
+    },
+    {
+      "eventSourceId": "TENNIS-6801",
+      "code": "TN_ACES",
+      "line": 5.5,
+      "player": {
+        "sourceId": "602",
+        "name": "Carlos Alcaraz",
+        "team": "Carlos Alcaraz"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "demon",
+          "price": {
+            "raw": 5.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100020"
+    },
+    {
+      "eventSourceId": "TENNIS-6801",
+      "code": "TN_DF",
+      "line": 2.5,
+      "player": {
+        "sourceId": "602",
+        "name": "Carlos Alcaraz",
+        "team": "Carlos Alcaraz"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 2.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100021"
+    },
+    {
+      "eventSourceId": "TENNIS-6802",
+      "code": "TN_ACES",
+      "line": 3.5,
+      "player": {
+        "sourceId": "603",
+        "name": "Iga Swiatek",
+        "team": "Iga Swiatek"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 3.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100023"
+    }
+  ]
+}

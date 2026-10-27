@@ -1,0 +1,125 @@
+{
+ "Id": 0,
+ "Success": true,
+ "Error": "",
+ "ErrorCode": 0,
+ "Guid": "",
+ "Value": [
+  {
+   "SI": 4,
+   "SN": "Tennis",
+   "SR": "Теннис",
+   "L": "ATP. Almaty",
+   "LR": "ATP. Алматы",
+   "LI": 3109522,
+   "CI": 82,
+   "T": 300,
+   "GC": 2
+  },
+  {
+   "SI": 4,
+   "SN": "Tennis",
+   "SR": "Теннис",
+   "L": "ATP. Almaty. 2026. Winner",
+   "LR": "ATP. Алматы. 2026. Победитель",
+   "LI": 3109521,
+   "CI": 82,
+   "GC": 2
+  },
+  {
+   "SI": 4,
+   "SN": "Tennis",
+   "SR": "Теннис",
+   "L": "ATP. Almaty. Doubles",
+   "LR": "ATP. Алматы. Пары",
+   "LI": 3109523,
+   "CI": 82,
+   "T": 30,
+   "GC": 1
+  },
+  {
+   "SI": 4,
+   "SN": "Tennis",
+   "SR": "Теннис",
+   "L": "ATP. Basel. Qualification",
+   "LR": "ATP. Базель. Квалификация",
+   "LI": 118243,
+   "CI": 206,
+   "GC": 7
+  },
+  {
+   "SI": 4,
+   "SN": "Tennis",
+   "SR": "Теннис",
+   "L": "ATP. Brussels",
+   "LR": "ATP. Брюссель",
+   "LI": 2915556,
+   "CI": 24,
+   "T": 100,
+   "GC": 2
+  },
+  {
+   "SI": 4,
+   "SN": "Tennis",
+   "SR": "Теннис",
+   "L": "ATP. Brussels. 2026. Winner",
+   "LR": "ATP. Брюссель. 2026. Победитель",
+   "LI": 3108215,
+   "CI": 24,
+   "GC": 1
+  },
+  {
+   "SI": 4,
+   "SN": "Tennis",
+   "SR": "Теннис",
+   "L": "ATP. Brussels. Doubles",
+   "LR": "ATP. Брюссель. Пары",
+   "LI": 2915569,
+   "CI": 24,
+   "T": 30,
+   "GC": 2
+  },
+  {
+   "SI": 4,
+   "SN": "Tennis",
+   "SR": "Теннис",
+   "L": "WTA. Osaka",
+   "LR": "WTA. Осака",
+   "LI": 5657,
+   "CI": 218,
+   "T": 100,
+   "GC": 1
+  },
+  {
+   "SI": 4,
+   "SN": "Tennis",
+   "SR": "Теннис",
+   "L": "WTA. Osaka. 2026. Winner",
+   "LR": "WTA. Осака. 2026. Победитель",
+   "LI": 3108310,
+   "CI": 218,
+   "GC": 1
+  },
+  {
+   "SI": 4,
+   "SN": "Tennis",
+   "SR": "Теннис",
+   "L": "WTA. Osaka. Doubles",
+   "LR": "WTA. Осака. Пары",
+   "LI": 259979,
+   "CI": 218,
+   "T": 50,
+   "GC": 1
+  },
+  {
+   "SI": 4,
+   "SN": "Tennis",
+   "SR": "Теннис",
+   "L": "Challenger. Cali",
+   "LR": "Челленджер. Кали",
+   "LI": 103297,
+   "CI": 91,
+   "GC": 2
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+ "timestamp": "2026-10-24T04:00:05Z",
+ "status": "success",
+ "athletes": [
+  {
+   "id": "3135045",
+   "uid": "s:40~l:46~a:3135045",
+   "guid": "fedd8adf-a9cc-d643-0130-ff502fc58389",
+   "firstName": "Grayson",
+   "lastName": "Allen",
+   "fullName": "Grayson Allen",
+   "displayName": "Grayson Allen",
+   "shortName": "G. Allen",
+   "weight": 198.0,
+   "displayWeight": "198 lbs",
+   "height": 75.0,
+   "displayHeight": "6' 3\"",
+   "age": 31,
+   "dateOfBirth": "1995-10-08T07:00Z",
+   "debutYear": 2018,
+   "slug": "grayson-allen",
+   "jersey": "8",
+   "position": {
+    "id": "3",
+    "name": "Guard",
+    "displayName": "Guard",
+    "abbreviation": "G",
+    "leaf": false
+   },
+   "teams": [
+    {
+     "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/30?lang=en&region=us"
+    }
+   ],
+   "contract": {
+    "birdStatus": 0,
+    "baseYearCompensation": {
+     "active": false
+    },
+    "poisonPillProvision": {
+     "active": false
+    },
+    "incomingTradeValue": 18125000,
+    "outgoingTradeValue": 18125000,
+    "minimumSalaryException": false,
+    "optionType": 0,
+    "salary": 18125000,
+    "salaryRemaining": 0,
+    "yearsRemaining": 2,
+    "tradeKicker": {
+     "active": false,
+     "percentage": 0.0,
+     "value": 0,
+     "tradeValue": 0
+    },
+    "tradeRestriction": false,
+    "unsignedForeignPick": false,
+    "active": true
+   },
+   "status": {
+    "id": "1",
+    "name": "Active",
+    "type": "active",
+    "abbreviation": "Active"
+   }
+  },
+  {
+   "id": "5060701",
+   "uid": "s:40~l:46~a:5060701",
+   "guid": "8411f044-6871-37ea-b920-26ad1c409d22",
+   "firstName": "Christian",
+   "lastName": "Anderson",
+   "fullName": "Christian Anderson",
+   "displayName": "Christian Anderson",
+   "shortName": "C. Anderson",
+   "weight": 180.0,
+   "displayWeight": "180 lbs",
+   "height": 73.0,
+   "displayHeight": "6' 1\"",
+   "age": 20,
+   "dateOfBirth": "2006-04-02T08:00Z",
+   "slug": "christian-anderson",
+   "jersey": "5",
+   "position": {
+    "id": "3",
+    "name": "Guard",
+    "displayName": "Guard",
+    "abbreviation": "G",
+    "leaf": false
+   },
+   "teams": [
+    {
+     "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/30?lang=en&region=us"
+    }
+   ],
+   "status": {
+    "id": "1",
+    "name": "Active",
+    "type": "active",
+    "abbreviation": "Active"
+   }
+  },
+  {
+   "id": "4684269",
+   "uid": "s:40~l:46~a:4684269",
+   "guid": "f14bb50c-ba08-3255-b7e5-148b4030dbb6",
+   "firstName": "Kylan",
+   "lastName": "Boswell",
+   "fullName": "Kylan Boswell",
+   "displayName": "Kylan Boswell",
+   "shortName": "K. Boswell",
+   "weight": 226.0,
+   "displayWeight": "226 lbs",
+   "height": 73.0,
+   "displayHeight": "6' 1\"",
+   "age": 21,
+   "dateOfBirth": "2005-04-18T07:00Z",
+   "slug": "kylan-boswell",
+   "jersey": "18",
+   "position": {
+    "id": "3",
+    "name": "Guard",
+    "displayName": "Guard",
+    "abbreviation": "G",
+    "leaf": false
+   },
+   "status": {
+    "id": "1",
+    "name": "Active",
+    "type": "active",
+    "abbreviation": "Active"
+   }
+  },
+  {
+   "id": "4433249",
+   "uid": "s:40~l:46~a:4433249",
+   "guid": "9005f423-8ebb-3459-acf9-31eb0eaaf801",
+   "firstName": "Moussa",
+   "lastName": "Diabate",
+   "fullName": "Moussa Diabate",
+   "displayName": "Moussa Diabate",
+   "shortName": "M. Diabate",
+   "weight": 210.0,
+   "displayWeight": "210 lbs",
+   "height": 82.0,
+   "displayHeight": "6' 10\"",
+   "age": 24,
+   "dateOfBirth": "2002-01-21T08:00Z",
+   "slug": "moussa-diabate",
+   "jersey": "14",
+   "position": {
+    "id": "7",
+    "name": "Forward",
+    "displayName": "Forward",
+    "abbreviation": "F",
+    "leaf": false
+   },
+   "teams": [
+    {
+     "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/30?lang=en&region=us"
+    }
+   ],
+   "contract": {
+    "birdStatus": 0,
+    "baseYearCompensation": {
+     "active": false
+    },
+    "poisonPillProvision": {
+     "active": false
+    },
+    "incomingTradeValue": 2461462,
+    "outgoingTradeValue": 2461462,
+    "minimumSalaryException": false,
+    "optionType": 0,
+    "salary": 2461462,
+    "salaryRemaining": 0,
+    "yearsRemaining": 1,
+    "tradeKicker": {
+     "active": false,
+     "percentage": 0.0,
+     "value": 0,
+     "tradeValue": 0
+    },
+    "tradeRestriction": false,
+    "unsignedForeignPick": false,
+    "active": true
+   },
+   "status": {
+    "id": "1",
+    "name": "Active",
+    "type": "active",
+    "abbreviation": "Active"
+   }
+  },
+  {
+   "id": "4701225",
+   "uid": "s:40~l:46~a:4701225",
+   "guid": "ebb6cade-9c91-362b-8392-6d7e6cac41fd",
+   "firstName": "PJ",
+   "lastName": "Hall",
+   "fullName": "PJ Hall",
+   "displayName": "PJ Hall",
+   "shortName": "P. Hall",
+   "weight": 245.0,
+   "displayWeight": "245 lbs",
+   "height": 80.0,
+   "displayHeight": "6' 8\"",
+   "age": 24,
+   "dateOfBirth": "2002-02-21T08:00Z",
+   "slug": "pj-hall",
+   "jersey": "16",
+   "position": {
+    "id": "9",
+    "name": "Center",
+    "displayName": "Center",
+    "abbreviation": "C",
+    "leaf": false
+   },
+   "contract": {
+    "birdStatus": 0,
+    "baseYearCompensation": {
+     "active": true
+    },
+    "poisonPillProvision": {
+     "active": false
+    },
+    "incomingTradeValue": 0,
+    "outgoingTradeValue": 0,
+    "minimumSalaryException": false,
+    "optionType": 0,
+    "salary": 0,
+    "salaryRemaining": 0,
+    "yearsRemaining": 1,
+    "tradeKicker": {
+     "active": false,
+     "percentage": 0.0,
+     "value": 0,
+     "tradeValue": 0
+    },
+    "tradeRestriction": false,
+    "unsignedForeignPick": false,
+    "active": true
+   },
+   "status": {
+    "id": "1",
+    "name": "Active",
+    "type": "active",
+    "abbreviation": "Active"
+   }
+  },
+  {
+   "id": "4602025",
+   "uid": "s:40~l:46~a:4602025",
+   "guid": "821c0004-5c3a-33b9-852e-85c535028a86",
+   "firstName": "Sion",
+   "lastName": "James",
+   "fullName": "Sion James",
+   "displayName": "Sion James",
+   "shortName": "S. James",
+   "weight": 220.0,
+   "displayWeight": "220 lbs",
+   "height": 77.0,
+   "displayHeight": "6' 5\"",
+   "age": 23,
+   "dateOfBirth": "2002-12-04T08:00Z",
+   "slug": "sion-james",
+   "jersey": "4",
+   "position": {
+    "id": "3",
+    "name": "Guard",
+    "displayName": "Guard",
+    "abbreviation": "G",
+    "leaf": false
+   },
+   "teams": [
+    {
+     "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/teams/30?lang=en&region=us"
+    }
+   ],
+   "contract": {
+    "birdStatus": 0,
+    "baseYearCompensation": {
+     "active": false
+    },
+    "poisonPillProvision": {
+     "active": false
+    },
+    "incomingTradeValue": 2411090,
+    "outgoingTradeValue": 2411090,
+    "minimumSalaryException": false,
+    "optionType": 0,
+    "salary": 2411090,
+    "salaryRemaining": 0,
+    "yearsRemaining": 3,
+    "tradeKicker": {
+     "active": false,
+     "percentage": 0.0,
+     "value": 0,
+     "tradeValue": 0
+    },
+    "tradeRestriction": false,
+    "unsignedForeignPick": false,
+    "active": true
+   },
+   "status": {
+    "id": "1",
+    "name": "Active",
+    "type": "active",
+    "abbreviation": "Active"
+   }
+  }
+ ],
+ "team": {
+  "id": "30",
+  "abbreviation": "CHA",
+  "location": "Charlotte",
+  "name": "Hornets",
+  "displayName": "Charlotte Hornets",
+  "clubhouse": "https://www.espn.com/nba/team/_/name/cha/charlotte-hornets",
+  "color": "008ca8",
+  "recordSummary": "1-1",
+  "seasonSummary": "2026-27",
+  "standingSummary": "2nd in Southeast Division"
+ }
+}

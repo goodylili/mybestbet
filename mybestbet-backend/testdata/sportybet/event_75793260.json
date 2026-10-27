@@ -1,0 +1,85 @@
+{
+ "bizCode": 10000,
+ "message": "0#0",
+ "data": {
+  "eventId": "sr:match:75793260",
+  "gameId": "45818",
+  "productStatus": "0#0",
+  "estimateStartTime": 1792825200000,
+  "status": 0,
+  "matchStatus": "Not start",
+  "homeTeamId": "sr:competitor:242362",
+  "homeTeamName": "The Mongolz",
+  "awayTeamName": "Aurora Gaming",
+  "awayTeamId": "sr:competitor:933633",
+  "sport": {
+   "id": "sr:sport:109",
+   "name": "ESport Counter-Strike",
+   "category": {
+    "id": "sr:category:1437",
+    "name": "PGL",
+    "tournament": {
+     "id": "sr:tournament:49212",
+     "name": "PGL Masters Bucharest"
+    }
+   }
+  },
+  "markets": [
+   {
+    "id": "186",
+    "product": 3,
+    "desc": "Winner",
+    "status": 0,
+    "group": "Main",
+    "groupId": "200326062250MGI92936060",
+    "marketGuide": "Who will win the match.",
+    "title": "1,2",
+    "name": "Winner",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "4",
+      "odds": "3.02",
+      "probability": "0.2844000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Home"
+     },
+     {
+      "id": "5",
+      "odds": "1.32",
+      "probability": "0.7156000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Away"
+     }
+    ],
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792808698000,
+    "banned": false
+   }
+  ],
+  "bookingStatus": "Booked",
+  "topTeam": false,
+  "fixtureVenue": {},
+  "giftGrabActivityResultVO": {
+   "activityEnabled": false,
+   "enabled": false
+  },
+  "ai": false,
+  "bgEvent": false,
+  "matchTrackerNotAllowed": false,
+  "eventSource": {
+   "preMatchSource": {
+    "sourceType": "BET_RADAR",
+    "sourceId": "75793260"
+   },
+   "liveSource": {
+    "sourceType": "BET_RADAR",
+    "sourceId": "75793260"
+   }
+  },
+  "containsPcbb": false,
+  "banned": false
+ }
+}

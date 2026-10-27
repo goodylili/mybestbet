@@ -1,0 +1,1159 @@
+{
+ "bizCode": 10000,
+ "message": "0#0",
+ "data": {
+  "eventId": "sr:match:71488628",
+  "gameId": "30555",
+  "productStatus": "0#0",
+  "estimateStartTime": 1792935000000,
+  "status": 0,
+  "matchStatus": "Not start",
+  "homeTeamId": "sr:competitor:4425",
+  "homeTeamName": "New Orleans Saints",
+  "awayTeamName": "Pittsburgh Steelers",
+  "awayTeamId": "sr:competitor:4345",
+  "sport": {
+   "id": "sr:sport:16",
+   "name": "American Football",
+   "category": {
+    "id": "sr:category:43",
+    "name": "USA",
+    "tournament": {
+     "id": "sr:tournament:31",
+     "name": "NFL"
+    }
+   }
+  },
+  "markets": [
+   {
+    "id": "219",
+    "product": 3,
+    "desc": "Winner (incl. overtime)",
+    "status": 0,
+    "group": "Main",
+    "groupId": "200819092817MGI78156578",
+    "marketGuide": "Which team will win the match. Overtime included.",
+    "title": "",
+    "name": "Winner (incl. overtime)",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "4",
+      "odds": "2.35",
+      "probability": "0.3912820000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Home"
+     },
+     {
+      "id": "5",
+      "odds": "1.55",
+      "probability": "0.6087150000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Away"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792784322000,
+    "banned": false
+   },
+   {
+    "id": "225",
+    "specifier": "total=43.5",
+    "product": 3,
+    "desc": "Over/Under (incl. overtime) 43.5",
+    "status": 0,
+    "group": "Main",
+    "groupId": "200819092817MGI78156578",
+    "marketGuide": "Predict whether the total number of points scored in the match is over/under a given line. Overtime included.",
+    "title": "",
+    "name": "Over/Under (incl. overtime)",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.76",
+      "probability": "0.5388830000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 43.5"
+     },
+     {
+      "id": "13",
+      "odds": "2.05",
+      "probability": "0.4611170000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 43.5"
+     }
+    ],
+    "farNearOdds": -1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792784321951,
+    "banned": false
+   },
+   {
+    "id": "225",
+    "specifier": "total=44.5",
+    "product": 3,
+    "desc": "Over/Under (incl. overtime) 44.5",
+    "status": 0,
+    "group": "Main",
+    "groupId": "200819092817MGI78156578",
+    "marketGuide": "Predict whether the total number of points scored in the match is over/under a given line. Overtime included.",
+    "title": "",
+    "name": "Over/Under (incl. overtime)",
+    "favourite": 1,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.86",
+      "probability": "0.5066340000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 44.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.91",
+      "probability": "0.4933660000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 44.5"
+     }
+    ],
+    "farNearOdds": 1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792784321951,
+    "banned": false
+   },
+   {
+    "id": "225",
+    "specifier": "total=45.5",
+    "product": 3,
+    "desc": "Over/Under (incl. overtime) 45.5",
+    "status": 0,
+    "group": "Main",
+    "groupId": "200819092817MGI78156578",
+    "marketGuide": "Predict whether the total number of points scored in the match is over/under a given line. Overtime included.",
+    "title": "",
+    "name": "Over/Under (incl. overtime)",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.95",
+      "probability": "0.4820607298",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 45.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.83",
+      "probability": "0.5179392703",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 45.5"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792784321951,
+    "banned": false
+   },
+   {
+    "id": "68",
+    "specifier": "total=22.5",
+    "product": 3,
+    "desc": "1st Half - Over/Under",
+    "status": 0,
+    "group": "Half",
+    "groupId": "200819092841MGI78162678",
+    "marketGuide": "Predict whether the total number of points scored in the 1st Half is over/under a given line.",
+    "title": "",
+    "name": "1st half - total",
+    "favourite": 1,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.87",
+      "probability": "0.4990180000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 22.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.87",
+      "probability": "0.5009820000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 22.5"
+     }
+    ],
+    "farNearOdds": 1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792810436615,
+    "banned": false
+   },
+   {
+    "id": "223",
+    "specifier": "hcp=2.5",
+    "product": 3,
+    "desc": "Handicap (incl. overtime) 2.5",
+    "status": 0,
+    "group": "Main",
+    "groupId": "200819092817MGI78156578",
+    "marketGuide": "Predict the winner taking into consideration the handicap in brackets. Overtime included.",
+    "title": "",
+    "name": "Handicap (incl. overtime)",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "1714",
+      "odds": "2.15",
+      "probability": "0.4374100000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Home (+2.5)"
+     },
+     {
+      "id": "1715",
+      "odds": "1.68",
+      "probability": "0.5625900000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Away (-2.5)"
+     }
+    ],
+    "farNearOdds": -1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792784321951,
+    "banned": false
+   },
+   {
+    "id": "223",
+    "specifier": "hcp=3.5",
+    "product": 3,
+    "desc": "Handicap (incl. overtime) 3.5",
+    "status": 0,
+    "group": "Main",
+    "groupId": "200819092817MGI78156578",
+    "marketGuide": "Predict the winner taking into consideration the handicap in brackets. Overtime included.",
+    "title": "",
+    "name": "Handicap (incl. overtime)",
+    "favourite": 1,
+    "outcomes": [
+     {
+      "id": "1714",
+      "odds": "1.81",
+      "probability": "0.5240610000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Home (+3.5)"
+     },
+     {
+      "id": "1715",
+      "odds": "1.97",
+      "probability": "0.4759390000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Away (-3.5)"
+     }
+    ],
+    "farNearOdds": 1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792784321951,
+    "banned": false
+   },
+   {
+    "id": "223",
+    "specifier": "hcp=4.5",
+    "product": 3,
+    "desc": "Handicap (incl. overtime) 4.5",
+    "status": 0,
+    "group": "Main",
+    "groupId": "200819092817MGI78156578",
+    "marketGuide": "Predict the winner taking into consideration the handicap in brackets. Overtime included.",
+    "title": "",
+    "name": "Handicap (incl. overtime)",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "1714",
+      "odds": "1.72",
+      "probability": "0.5520360000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Home (+4.5)"
+     },
+     {
+      "id": "1715",
+      "odds": "2.10",
+      "probability": "0.4479640000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Away (-4.5)"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792784321951,
+    "banned": false
+   },
+   {
+    "id": "64",
+    "product": 3,
+    "desc": "1st Half - Draw No Bet",
+    "status": 0,
+    "group": "Half",
+    "groupId": "200819092841MGI78162678",
+    "marketGuide": "Predict the winner of the 1st Half. If the teams draw, the selection will be voided.",
+    "title": "",
+    "name": "1st half - draw no bet",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "4",
+      "odds": "2.20",
+      "probability": "0.4142135627",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Home"
+     },
+     {
+      "id": "5",
+      "odds": "1.61",
+      "probability": "0.5857864379",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Away"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792784321951,
+    "banned": false
+   },
+   {
+    "id": "66",
+    "specifier": "hcp=2.5",
+    "product": 3,
+    "desc": "1st Half - Asian Handicap",
+    "status": 0,
+    "group": "Half",
+    "groupId": "200819092841MGI78162678",
+    "marketGuide": "Predict the winner in the 1st Half taking into consideration the handicap in brackets. ",
+    "title": "",
+    "name": "1st half - handicap (2 way)",
+    "favourite": 1,
+    "outcomes": [
+     {
+      "id": "1714",
+      "odds": "1.87",
+      "probability": "0.4997230000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Home (+2.5)"
+     },
+     {
+      "id": "1715",
+      "odds": "1.87",
+      "probability": "0.5002770000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Away (-2.5)"
+     }
+    ],
+    "farNearOdds": 1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792810436615,
+    "banned": false
+   },
+   {
+    "id": "914",
+    "specifier": "total=230.5|player=sr:player:831375",
+    "product": 3,
+    "desc": "Rodgers, Aaron total passing yards (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many passing yards will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total passing yards",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.81",
+      "probability": "0.5136000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 230.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.90",
+      "probability": "0.4870000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 230.5"
+     }
+    ],
+    "farNearOdds": -1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792808701000,
+    "banned": false
+   },
+   {
+    "id": "914",
+    "specifier": "total=227.5|player=sr:player:1473050",
+    "product": 3,
+    "desc": "Shough, Tyler total passing yards (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many passing yards will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total passing yards",
+    "favourite": 1,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 227.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 227.5"
+     }
+    ],
+    "farNearOdds": 1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792808701000,
+    "banned": false
+   },
+   {
+    "id": "915",
+    "specifier": "total=22.5|player=sr:player:831375",
+    "product": 3,
+    "desc": "Rodgers, Aaron total pass completions (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many passes will a player complete in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total pass completions",
+    "favourite": 1,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.91",
+      "probability": "0.4845000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 22.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.80",
+      "probability": "0.5164000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 22.5"
+     }
+    ],
+    "farNearOdds": 1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792811952000,
+    "banned": false
+   },
+   {
+    "id": "915",
+    "specifier": "total=23.5|player=sr:player:1473050",
+    "product": 3,
+    "desc": "Shough, Tyler total pass completions (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many passes will a player complete in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total pass completions",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.94",
+      "probability": "0.4747000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 23.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.77",
+      "probability": "0.5251000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 23.5"
+     }
+    ],
+    "farNearOdds": -1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792811952000,
+    "banned": false
+   },
+   {
+    "id": "916",
+    "specifier": "total=1.5|player=sr:player:831375",
+    "product": 3,
+    "desc": "Rodgers, Aaron total passing touchdowns (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many passing touchdowns will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total passing touchdowns",
+    "favourite": 1,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.86",
+      "probability": "0.4973000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 1.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.84",
+      "probability": "0.5026000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 1.5"
+     }
+    ],
+    "farNearOdds": 1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792811952000,
+    "banned": false
+   },
+   {
+    "id": "916",
+    "specifier": "total=1.5|player=sr:player:1473050",
+    "product": 3,
+    "desc": "Shough, Tyler total passing touchdowns (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many passing touchdowns will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total passing touchdowns",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "2.30",
+      "probability": "0.3932000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 1.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.55",
+      "probability": "0.6064000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 1.5"
+     }
+    ],
+    "farNearOdds": -1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792811952000,
+    "banned": false
+   },
+   {
+    "id": "918",
+    "specifier": "total=10.5|player=sr:player:2302155",
+    "product": 3,
+    "desc": "Donaldson, De'Carlo total rushing yards (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many rushing yards will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total rushing yards",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 10.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 10.5"
+     }
+    ],
+    "farNearOdds": 1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792811952000,
+    "banned": false
+   },
+   {
+    "id": "918",
+    "specifier": "total=14.5|player=sr:player:1473050",
+    "product": 3,
+    "desc": "Shough, Tyler total rushing yards (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many rushing yards will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total rushing yards",
+    "favourite": 1,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 14.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 14.5"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792811952000,
+    "banned": false
+   },
+   {
+    "id": "918",
+    "specifier": "total=16.5|player=sr:player:1129725",
+    "product": 3,
+    "desc": "Kamara, Alvin total rushing yards (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many rushing yards will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total rushing yards",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 16.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 16.5"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792811952000,
+    "banned": false
+   },
+   {
+    "id": "919",
+    "specifier": "total=3.5|player=sr:player:2071633",
+    "product": 3,
+    "desc": "Miller, Kendre total receiving yards (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many receiving yards will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total receiving yards",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.84",
+      "probability": "0.5026000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 3.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.86",
+      "probability": "0.4973000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 3.5"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792813488000,
+    "banned": false
+   },
+   {
+    "id": "919",
+    "specifier": "total=7.5|player=sr:player:1216648",
+    "product": 3,
+    "desc": "Dowdle, Rico total receiving yards (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many receiving yards will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total receiving yards",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 7.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 7.5"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792813488000,
+    "banned": false
+   },
+   {
+    "id": "919",
+    "specifier": "total=11.5|player=sr:player:1225766",
+    "product": 3,
+    "desc": "Fant, Noah total receiving yards (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many receiving yards will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total receiving yards",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 11.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 11.5"
+     }
+    ],
+    "farNearOdds": 1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792813488000,
+    "banned": false
+   },
+   {
+    "id": "920",
+    "specifier": "total=0.5|player=sr:player:2071633",
+    "product": 3,
+    "desc": "Miller, Kendre total receptions (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many receptions will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total receptions",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.57",
+      "probability": "0.5986000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 0.5"
+     },
+     {
+      "id": "13",
+      "odds": "2.25",
+      "probability": "0.3999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 0.5"
+     }
+    ],
+    "farNearOdds": -1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792813488000,
+    "banned": false
+   },
+   {
+    "id": "920",
+    "specifier": "total=1.5|player=sr:player:1216648",
+    "product": 3,
+    "desc": "Dowdle, Rico total receptions (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many receptions will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total receptions",
+    "favourite": 1,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 1.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.85",
+      "probability": "0.4999000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 1.5"
+     }
+    ],
+    "farNearOdds": 1,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792813488000,
+    "banned": false
+   },
+   {
+    "id": "920",
+    "specifier": "total=1.5|player=sr:player:1225766",
+    "product": 3,
+    "desc": "Fant, Noah total receptions (incl. overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict how many receptions will a player attempt in the match. Overtime included. Check our How to play section for full details.",
+    "title": "",
+    "name": "Player total receptions",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "12",
+      "odds": "1.81",
+      "probability": "0.5136000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Over 1.5"
+     },
+     {
+      "id": "13",
+      "odds": "1.90",
+      "probability": "0.4870000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Under 1.5"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792813488000,
+    "banned": false
+   },
+   {
+    "id": "1234",
+    "specifier": "variant=pre:playerprops:71488628:831375",
+    "product": 3,
+    "desc": "Player To Score 1st Touchdown (incl. Overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict which player will score the 1st Touchdown in the game",
+    "title": "",
+    "name": "Player - 1st Touchd (incl. OT)",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "pre:playerprops:71488628:831375:1",
+      "odds": "40.00",
+      "probability": "0.0132000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Rodgers, Aaron 1+",
+      "playerName": "Rodgers, Aaron",
+      "playerScore": "1+"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792774143000,
+    "banned": false
+   },
+   {
+    "id": "1234",
+    "specifier": "variant=pre:playerprops:71488628:1129725",
+    "product": 3,
+    "desc": "Player To Score 1st Touchdown (incl. Overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict which player will score the 1st Touchdown in the game",
+    "title": "",
+    "name": "Player - 1st Touchd (incl. OT)",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "pre:playerprops:71488628:1129725:1",
+      "odds": "13.50",
+      "probability": "0.0397000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Kamara, Alvin 1+",
+      "playerName": "Kamara, Alvin",
+      "playerScore": "1+"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792774143000,
+    "banned": false
+   },
+   {
+    "id": "1234",
+    "specifier": "variant=pre:playerprops:71488628:1134065",
+    "product": 3,
+    "desc": "Player To Score 1st Touchdown (incl. Overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict which player will score the 1st Touchdown in the game",
+    "title": "",
+    "name": "Player - 1st Touchd (incl. OT)",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "pre:playerprops:71488628:1134065:1",
+      "odds": "32.00",
+      "probability": "0.0165000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Tonyan, Robert 1+",
+      "playerName": "Tonyan, Robert",
+      "playerScore": "1+"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792774143000,
+    "banned": false
+   },
+   {
+    "id": "1235",
+    "specifier": "variant=pre:playerprops:71488628:831375",
+    "product": 3,
+    "desc": "Player Touchdowns (incl. Overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict the total number of Touchdowns scored by a player. If the player listed is a QB, only rushing Touchdowns are added to the final count.",
+    "title": "",
+    "name": "Player TDs (incl. OT)",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "pre:playerprops:71488628:831375:1",
+      "odds": "9.10",
+      "probability": "0.0747000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Rodgers, Aaron 1+",
+      "playerName": "Rodgers, Aaron",
+      "playerScore": "1+"
+     },
+     {
+      "id": "pre:playerprops:71488628:831375:2",
+      "odds": "100.00",
+      "probability": "0.0044000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Rodgers, Aaron 2+",
+      "playerName": "Rodgers, Aaron",
+      "playerScore": "2+"
+     },
+     {
+      "id": "pre:playerprops:71488628:831375:3",
+      "odds": "100.00",
+      "probability": "0.0018000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Rodgers, Aaron 3+",
+      "playerName": "Rodgers, Aaron",
+      "playerScore": "3+"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792811809000,
+    "banned": false
+   },
+   {
+    "id": "1235",
+    "specifier": "variant=pre:playerprops:71488628:1129725",
+    "product": 3,
+    "desc": "Player Touchdowns (incl. Overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict the total number of Touchdowns scored by a player. If the player listed is a QB, only rushing Touchdowns are added to the final count.",
+    "title": "",
+    "name": "Player TDs (incl. OT)",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "pre:playerprops:71488628:1129725:1",
+      "odds": "3.70",
+      "probability": "0.2076000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Kamara, Alvin 1+",
+      "playerName": "Kamara, Alvin",
+      "playerScore": "1+"
+     },
+     {
+      "id": "pre:playerprops:71488628:1129725:2",
+      "odds": "28.00",
+      "probability": "0.0222000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Kamara, Alvin 2+",
+      "playerName": "Kamara, Alvin",
+      "playerScore": "2+"
+     },
+     {
+      "id": "pre:playerprops:71488628:1129725:3",
+      "odds": "100.00",
+      "probability": "0.0048000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Kamara, Alvin 3+",
+      "playerName": "Kamara, Alvin",
+      "playerScore": "3+"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792811809000,
+    "banned": false
+   },
+   {
+    "id": "1235",
+    "specifier": "variant=pre:playerprops:71488628:1134065",
+    "product": 3,
+    "desc": "Player Touchdowns (incl. Overtime)",
+    "status": 0,
+    "group": "Players",
+    "groupId": "200819092858MGI78166477",
+    "marketGuide": "Predict the total number of Touchdowns scored by a player. If the player listed is a QB, only rushing Touchdowns are added to the final count.",
+    "title": "",
+    "name": "Player TDs (incl. OT)",
+    "favourite": 0,
+    "outcomes": [
+     {
+      "id": "pre:playerprops:71488628:1134065:1",
+      "odds": "11.00",
+      "probability": "0.0610000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Tonyan, Robert 1+",
+      "playerName": "Tonyan, Robert",
+      "playerScore": "1+"
+     },
+     {
+      "id": "pre:playerprops:71488628:1134065:2",
+      "odds": "100.00",
+      "probability": "0.0038000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Tonyan, Robert 2+",
+      "playerName": "Tonyan, Robert",
+      "playerScore": "2+"
+     },
+     {
+      "id": "pre:playerprops:71488628:1134065:3",
+      "odds": "100.00",
+      "probability": "0.0013000000",
+      "voidProbability": "0E-10",
+      "isActive": 1,
+      "desc": "Tonyan, Robert 3+",
+      "playerName": "Tonyan, Robert",
+      "playerScore": "3+"
+     }
+    ],
+    "farNearOdds": 0,
+    "sourceType": "BET_RADAR",
+    "lastOddsChangeTime": 1792811809000,
+    "banned": false
+   }
+  ],
+  "bookingStatus": "Booked",
+  "topTeam": false,
+  "homeTeamIcon": "https://s.sporty.net/ng/main/res/e8b03f7606489c5199532f4d23c96842.png",
+  "awayTeamIcon": "https://s.sporty.net/ng/main/res/cca94509c1f639a1e03d175474c1e7a1.png",
+  "fixtureVenue": {
+   "name": "Stade de France"
+  },
+  "giftGrabActivityResultVO": {
+   "activityEnabled": false,
+   "enabled": false
+  },
+  "ai": false,
+  "bgEvent": false,
+  "matchTrackerNotAllowed": false,
+  "eventSource": {
+   "preMatchSource": {
+    "sourceType": "BET_RADAR",
+    "sourceId": "71488628"
+   }
+  },
+  "containsPcbb": false,
+  "banned": false
+ }
+}

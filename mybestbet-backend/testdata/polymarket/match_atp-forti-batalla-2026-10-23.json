@@ -1,0 +1,198 @@
+[
+ {
+  "id": "1234687",
+  "slug": "atp-forti-batalla-2026-10-23",
+  "title": "Florence: Francesco Forti vs Oriol Roca Batalla",
+  "startTime": "2026-10-24T09:00:00Z",
+  "endDate": "2026-10-30T08:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "atp",
+  "eventMetadata": {
+   "league": "Florence"
+  },
+  "teams": [
+   {
+    "name": "Francesco Forti",
+    "abbreviation": "forti",
+    "alias": "F. Forti",
+    "ordering": "home"
+   },
+   {
+    "name": "Oriol Roca Batalla",
+    "abbreviation": "batalla",
+    "alias": "O. Batalla",
+    "ordering": "away"
+   }
+  ],
+  "markets": [
+   {
+    "slug": "atp-forti-batalla-2026-10-23",
+    "question": "Florence: Francesco Forti vs Oriol Roca Batalla",
+    "outcomes": "[\"Francesco Forti\", \"Oriol Roca Batalla\"]",
+    "clobTokenIds": "[\"15368211788446104637834274555950426922891013768283891600891754555028493231475\", \"7623075789345546213029167498043091445621503311010871017484953966701111245647\"]",
+    "sportsMarketType": "moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-completed-match",
+    "question": "Florence: Completed Match: Francesco Forti vs Oriol Roca Batalla",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"81131238120673986593993781647218009647784719032817274207075707157943166081300\", \"15496437833861631748862487125005668888751316569285354215492009170806749955998\"]",
+    "sportsMarketType": "tennis_completed_match",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-first-set-winner-Forti-vs-Batalla",
+    "question": "Set 1 Winner: Francesco Forti vs Oriol Roca Batalla",
+    "outcomes": "[\"Francesco Forti\", \"Oriol Roca Batalla\"]",
+    "clobTokenIds": "[\"69216535897770427356346122106092034434994749466451800606082267584106142712749\", \"33831864066157225070042973107939656065244995996668674866894820680793446073283\"]",
+    "sportsMarketType": "tennis_first_set_winner",
+    "active": true,
+    "closed": true
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-set-2-winner-Forti-vs-Batalla",
+    "question": "Set 2 Winner: Francesco Forti vs Oriol Roca Batalla",
+    "outcomes": "[\"Francesco Forti\", \"Oriol Roca Batalla\"]",
+    "clobTokenIds": "[\"74405029034156292401144369933217247957480981147542298671186646221049667082840\", \"107235146504830276046876268130863773530940552977105319968779081105278909225703\"]",
+    "sportsMarketType": "tennis_set_winner",
+    "line": 2,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-set-totals-2pt5",
+    "question": "Francesco Forti vs. Oriol Roca Batalla: Total Sets O/U 2.5",
+    "outcomes": "[\"Over 2.5\", \"Under 2.5\"]",
+    "clobTokenIds": "[\"101853599827277624650629143257859767975754601482128083974142032383730359566486\", \"2092781714930855295818912314945461508704084650953966586125348173373740396474\"]",
+    "sportsMarketType": "tennis_set_totals",
+    "line": 2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-first-set-total-8pt5",
+    "question": "Forti vs. Batalla: Set 1 Games O/U 8.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"107625436034643301062755182069066768648849306652621342830122368344686031745918\", \"57455248020686903000237451702625787236659074726176237381852843300825523847317\"]",
+    "sportsMarketType": "tennis_first_set_totals",
+    "line": 8.5,
+    "active": true,
+    "closed": true
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-first-set-total-9pt5",
+    "question": "Forti vs. Batalla: Set 1 Games O/U 9.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"97210397279228421081293716449206764974934022846068817009103639745325399598627\", \"34290891563386456540631930503061954629639011899737454079457747301915880990447\"]",
+    "sportsMarketType": "tennis_first_set_totals",
+    "line": 9.5,
+    "active": true,
+    "closed": true
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-first-set-total-10pt5",
+    "question": "Forti vs. Batalla: Set 1 Games O/U 10.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"101739779318501163560952233500485578499645330502576554633091260142014301767047\", \"27934648715519824579889127034255912912121547564447072997977375480909380806730\"]",
+    "sportsMarketType": "tennis_first_set_totals",
+    "line": 10.5,
+    "active": true,
+    "closed": true
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-set-2-total-8pt5",
+    "question": "Forti vs. Batalla: Set 2 Games O/U 8.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"89486389083478704256988401058496148761213421434012534430430112729745090958746\", \"49075234899647204590873542372737577936957073631068398364907470424404298782480\"]",
+    "sportsMarketType": "tennis_set_games_totals",
+    "line": 8.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-set-2-total-9pt5",
+    "question": "Forti vs. Batalla: Set 2 Games O/U 9.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"9794186689417316358045293040821004298496427176513697631408365537101750994728\", \"105664787876624309557239383881861887811164734771208703019063065348564410776641\"]",
+    "sportsMarketType": "tennis_set_games_totals",
+    "line": 9.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-set-2-total-10pt5",
+    "question": "Forti vs. Batalla: Set 2 Games O/U 10.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"100278400648866140963910291718216321379220520847351317218607243300902776679381\", \"12096918757216179554530975535978310654160508518803459784761752979656287175731\"]",
+    "sportsMarketType": "tennis_set_games_totals",
+    "line": 10.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-match-total-21pt5",
+    "question": "Forti vs. Batalla: Match O/U 21.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"43078532815176070499933245010014531532478757002468083813159772615752469457823\", \"8040184054850954990359426974743541783782216225929114011081404803661414394007\"]",
+    "sportsMarketType": "tennis_match_totals",
+    "line": 21.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-match-total-22pt5",
+    "question": "Forti vs. Batalla: Match O/U 22.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"28680420459602585457337558401730322070934654842513357565897041547010622019940\", \"48102785287507600882087971342945149035784188436280738045603952761929815845663\"]",
+    "sportsMarketType": "tennis_match_totals",
+    "line": 22.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-match-total-23pt5",
+    "question": "Forti vs. Batalla: Match O/U 23.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"51740954967533816954782845633115240175964005397331929724219517679848330260660\", \"15817880846848078430388635912631968836832156773847897026488110148588639595652\"]",
+    "sportsMarketType": "tennis_match_totals",
+    "line": 23.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-set-handicap-home-1pt5",
+    "question": "Set Handicap: Francesco Forti (-1.5) vs Oriol Roca Batalla (+1.5)",
+    "outcomes": "[\"Francesco Forti\", \"Oriol Roca Batalla\"]",
+    "clobTokenIds": "[\"45827701686768302763530591687033756259008837164164818977677669396755041292392\", \"115499900926679335341948778664694488949480028142307944450555059539409519893618\"]",
+    "sportsMarketType": "tennis_set_handicap",
+    "line": -1.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-set-handicap-away-1pt5",
+    "question": "Set Handicap: Oriol Roca Batalla (-1.5) vs Francesco Forti (+1.5)",
+    "outcomes": "[\"Oriol Roca Batalla\", \"Francesco Forti\"]",
+    "clobTokenIds": "[\"4728996886915303045613427971634088821098689219635916505168305629564055172274\", \"27496923672845566676773955751290397577857473478939291014233434767080778147336\"]",
+    "sportsMarketType": "tennis_set_handicap",
+    "line": -1.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "atp-forti-batalla-2026-10-23-game-handicap-home-0pt5",
+    "question": "Game Spread: Francesco Forti (-0.5) vs Oriol Roca Batalla (+0.5)",
+    "outcomes": "[\"Francesco Forti\", \"Oriol Roca Batalla\"]",
+    "clobTokenIds": "[\"101999374919755365528412167973329182881858839380273942959883508207106160131107\", \"104806751264447659293677205427571268698595685597060210302249635999220752181439\"]",
+    "sportsMarketType": "tennis_game_handicap",
+    "line": -0.5,
+    "active": true,
+    "closed": false
+   }
+  ]
+ }
+]

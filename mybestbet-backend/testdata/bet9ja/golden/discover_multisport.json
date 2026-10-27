@@ -1,0 +1,70 @@
+{
+  "source": "bet9ja",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "832842400",
+      "leagueHint": "DFBPOKAL",
+      "home": "SG Sonnenhof Grossaspach",
+      "away": "Augsburg",
+      "kickoff": "2026-10-27T17:00:00Z"
+    },
+    {
+      "sourceId": "832843044",
+      "leagueHint": "DFBPOKAL",
+      "home": "Bochum",
+      "away": "Mainz",
+      "kickoff": "2026-10-27T17:00:00Z"
+    },
+    {
+      "sourceId": "832843045",
+      "leagueHint": "DFBPOKAL",
+      "home": "Rot-Weiss Essen",
+      "away": "Leipzig",
+      "kickoff": "2026-10-27T17:00:00Z"
+    },
+    {
+      "sourceId": "850368109",
+      "leagueHint": "NFL",
+      "home": "Philadelphia Eagles",
+      "away": "Dallas Cowboys",
+      "kickoff": "2026-10-27T00:15:00Z"
+    },
+    {
+      "sourceId": "853978439",
+      "leagueHint": "NFL",
+      "home": "Green Bay Packers",
+      "away": "Carolina Panthers",
+      "kickoff": "2026-10-30T00:15:00Z"
+    },
+    {
+      "sourceId": "853978670",
+      "leagueHint": "NFL",
+      "home": "Pittsburgh Steelers",
+      "away": "Cleveland Browns",
+      "kickoff": "2026-11-01T18:00:00Z"
+    },
+    {
+      "sourceId": "856594391",
+      "leagueHint": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Washington Wizards",
+      "kickoff": "2026-10-26T23:00:00Z"
+    },
+    {
+      "sourceId": "856612426",
+      "leagueHint": "NBA",
+      "home": "Miami Heat",
+      "away": "Dallas Mavericks",
+      "kickoff": "2026-10-26T23:30:00Z"
+    },
+    {
+      "sourceId": "856818252",
+      "leagueHint": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Minnesota Timberwolves",
+      "kickoff": "2026-10-26T23:00:00Z"
+    }
+  ],
+  "markets": null
+}

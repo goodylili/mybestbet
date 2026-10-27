@@ -1,0 +1,49 @@
+{
+ "Id": 0,
+ "Success": true,
+ "Error": "",
+ "ErrorCode": 0,
+ "Guid": "",
+ "Value": [
+  {
+   "SI": 13,
+   "SN": "American Football",
+   "SR": "Американский футбол",
+   "L": "USA. NFL",
+   "LR": "NFL",
+   "LI": 68315,
+   "CI": 153,
+   "T": 300,
+   "GC": 27
+  },
+  {
+   "SI": 13,
+   "SN": "American Football",
+   "SR": "Американский футбол",
+   "L": "CFL",
+   "LR": "КФЛ",
+   "LI": 2311131,
+   "CI": 85,
+   "GC": 2
+  },
+  {
+   "SI": 13,
+   "SN": "American Football",
+   "SR": "Американский футбол",
+   "L": "NFL. Enhanced Specials",
+   "LR": "NFL. Специальные ставки игрового дня",
+   "LI": 1805527,
+   "CI": 153,
+   "GC": 10
+  },
+  {
+   "SI": 13,
+   "SN": "American Football",
+   "SR": "Американский футбол",
+   "L": "NCAA",
+   "LI": 93369,
+   "CI": 153,
+   "GC": 108
+  }
+ ]
+}

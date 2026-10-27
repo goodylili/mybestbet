@@ -1,0 +1,1250 @@
+{
+ "events": [
+  {
+   "id": "509997e0-0749-4acb-81a9-cbd6b1dd8d26",
+   "slug": "how-many-passes-will-arsenal-get-vs-everton",
+   "title": "How Many Passes Will Arsenal Get vs Everton?",
+   "category": "SPORTS",
+   "type": "COMBINED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "",
+   "resolutionDate": "2026-10-24T22:59:00Z",
+   "resolutionSource": "https://www.sofascore.com/",
+   "hashtags": [
+    "EPL"
+   ],
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 5,
+   "markets": [
+    {
+     "id": "25c9f8f2-f74b-491f-a608-3befcb1195bc",
+     "title": "524 - 635",
+     "status": "open",
+     "outcome1Id": "0597b01a-c938-4891-ab8f-8f170af21549",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4041,
+     "outcome2Id": "c0274b9c-8168-4bc9-9716-22a24bb42bfb",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5959,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Arsenal records between 524 and 635 total passes (inclusive) during the match."
+    },
+    {
+     "id": "b5431a5b-843c-4624-a9b3-fe709a22a36b",
+     "title": "Less than 524",
+     "status": "open",
+     "outcome1Id": "ed1c141b-d8d0-440d-80a9-0a5e4a596611",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.298,
+     "outcome2Id": "bf60bcba-12b4-4d04-bd33-5ca470de7e6b",
+     "outcome2Label": "No",
+     "outcome2Price": 0.702,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Arsenal records fewer than 524 total passes during the match.\r\n\r\n"
+    },
+    {
+     "id": "c6f9a8c1-90cb-4b5e-98d4-dc7c1270a5dc",
+     "title": " 636 or more",
+     "status": "open",
+     "outcome1Id": "9170cd84-1c9f-4498-972e-06509258508b",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.298,
+     "outcome2Id": "42f78daa-f28c-4448-a728-4cb7180ab195",
+     "outcome2Label": "No",
+     "outcome2Price": 0.702,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Arsenal records 636 or more total passes during the match.\r\n\r\n"
+    }
+   ]
+  },
+  {
+   "id": "25df54e9-03db-4acb-9bf1-89657dc89f9e",
+   "slug": "arsenal-vs-everton-total-shots",
+   "title": "Arsenal vs Everton: Total Shots?",
+   "category": "SPORTS",
+   "type": "COMBINED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "",
+   "resolutionDate": "2026-10-24T22:59:00Z",
+   "resolutionSource": "https://www.sofascore.com/",
+   "hashtags": [
+    "EPL"
+   ],
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "db460b1d-2849-4fcd-b1c7-fa8bfbfd50fa",
+     "title": "21 - 28",
+     "status": "open",
+     "outcome1Id": "2ade4641-5712-46b4-a650-63bdd3d12ae3",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4,
+     "outcome2Id": "7027e79b-7635-4995-9a54-bc7c1a23df2f",
+     "outcome2Label": "No",
+     "outcome2Price": 0.6,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if the total shots recorded in the match are between 21 and 28 (inclusive)."
+    },
+    {
+     "id": "fca04013-c566-45eb-9996-3b40f043b94c",
+     "title": "Less than 21",
+     "status": "open",
+     "outcome1Id": "8445836f-1d9d-4a6d-b02c-613179b52455",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.3,
+     "outcome2Id": "ac3726ce-f9b3-4d36-9ae8-6aa7e5588e31",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if the total shots recorded in the match are fewer than 21\r\n"
+    },
+    {
+     "id": "5cd31f79-6dc5-42c8-9253-88e48fde63f6",
+     "title": "29 or more",
+     "status": "open",
+     "outcome1Id": "66c3c0ff-b231-488a-98b3-f5af5437cac2",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.3,
+     "outcome2Id": "98abffa9-6262-4ea5-aac9-3eefd7aa470e",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if the total shots recorded in the match are 29 or more."
+    }
+   ]
+  },
+  {
+   "id": "05652f33-75ac-42dc-9a79-3626462ae66f",
+   "slug": "arsenal-vs-everton-october-24-2026",
+   "title": "ARS vs EVE: Who Will Win?",
+   "category": "SPORTS",
+   "type": "COMBINED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T17:00:00Z",
+   "resolutionDate": "2026-10-24T18:00:00Z",
+   "resolutionSource": "https://www.espn.com",
+   "hashtags": [
+    "Games",
+    "EPL"
+   ],
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "TEAM_H2H_3WAY",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1511741.64,
+   "totalOrders": 51,
+   "markets": [
+    {
+     "id": "b2b25c69-223d-4622-af15-675c51c4b499",
+     "title": "ARS",
+     "status": "open",
+     "outcome1Id": "f7e35079-ecbc-4d6f-8cc4-512c6d3532aa",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.6952,
+     "outcome2Id": "d92db19a-9018-4d65-b1dd-a83fea0a95eb",
+     "outcome2Label": "No",
+     "outcome2Price": 0.3455,
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Arsenal wins the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\n\nT"
+    },
+    {
+     "id": "bccde52a-6462-4689-a0d4-34487d896fd7",
+     "title": "Draw",
+     "status": "open",
+     "outcome1Id": "c91dc78b-529d-49d1-954b-9c3fc8c751d7",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.232,
+     "outcome2Id": "93013904-321b-4750-81d6-3c5b040482a2",
+     "outcome2Label": "No",
+     "outcome2Price": 0.8016,
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Tie is the result of the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to"
+    },
+    {
+     "id": "d5f761c8-eee3-4197-9661-04786e77bf6f",
+     "title": "EVE",
+     "status": "open",
+     "outcome1Id": "fbe7db12-1dc9-46ce-a475-2899347a7d03",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.1169,
+     "outcome2Id": "cbbce4ce-51de-498e-85b4-a80c4935c925",
+     "outcome2Label": "No",
+     "outcome2Price": 0.9063,
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Everton wins the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.\n\nT"
+    }
+   ]
+  },
+  {
+   "id": "adf69193-7d6a-4fd4-8e9d-b909bb652c5a",
+   "slug": "epl-ars-eve-2026-10-24-more-markets-9bd16f96",
+   "title": "Everton FC: Total Goals",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T13:59:59.999Z",
+   "resolutionDate": "2026-10-24T14:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "TOTAL_GOALS_AWAY",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1795707.62,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "f39b7c03-304c-45c6-b393-bbde4e308cbb",
+     "title": "O/U 0.5",
+     "status": "open",
+     "outcome1Id": "d7a793a9-5d5d-4849-961f-4646af7609d3",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.525,
+     "outcome2Id": "172dd1f8-4e24-4003-bc9c-fa01e104ab31",
+     "outcome2Label": "No",
+     "outcome2Price": 0.475,
+     "propLine": 0.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Everton FC score 1 or more goals within the first 90 minutes of regular play plus st"
+    },
+    {
+     "id": "d3c0c645-bdde-48e8-b177-8ec4e9c96bce",
+     "title": "O/U 1.5",
+     "status": "open",
+     "outcome1Id": "b4e99e52-2e23-4fea-a970-d36b27fd8d12",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.165,
+     "outcome2Id": "84a22aff-db26-496a-9184-6a64fd203655",
+     "outcome2Label": "No",
+     "outcome2Price": 0.835,
+     "propLine": 1.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Everton FC score 2 or more goals within the first 90 minutes of regular play plus st"
+    },
+    {
+     "id": "3206f6de-61b4-4047-8fab-5ebfe55eb92e",
+     "title": "O/U 2.5",
+     "status": "open",
+     "outcome1Id": "c411f79c-f6c6-4046-ac6d-a0200f48f258",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.03,
+     "outcome2Id": "47852f40-468a-4a31-a0cb-e0d8d806e4a6",
+     "outcome2Label": "No",
+     "outcome2Price": 0.97,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Everton FC score 3 or more goals within the first 90 minutes of regular play plus st"
+    },
+    {
+     "id": "eb272fce-4f23-41e8-9265-5b6365d858ae",
+     "title": "O/U 3.5",
+     "status": "open",
+     "outcome1Id": "cd141311-9071-49e8-a65b-10f56a3aa100",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4695,
+     "outcome2Id": "a2b4d790-a7fc-40dd-b54a-cadaf77043bd",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5305,
+     "propLine": 3.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Everton FC score 4 or more goals within the first 90 minutes of regular play plus st"
+    },
+    {
+     "id": "95c7c972-ded0-4440-aaad-09be80f51abf",
+     "title": "O/U 5.5",
+     "status": "open",
+     "outcome1Id": "c025e3bb-25d5-4a02-abe6-466c90f12e03",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.475,
+     "outcome2Id": "b8d842f9-e8d9-47f0-a283-0de1331723df",
+     "outcome2Label": "No",
+     "outcome2Price": 0.525,
+     "propLine": 5.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Everton FC score 6 or more goals within the first 90 minutes of regular play plus st"
+    },
+    {
+     "id": "b1d6cf2d-1cad-460f-8612-4fdbfa4ed6c4",
+     "title": "O/U 4.5",
+     "status": "open",
+     "outcome1Id": "acb902d8-0324-496d-8627-ab0871157e87",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4795,
+     "outcome2Id": "4a1493e8-ae9f-4f37-a695-68042ac01f67",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5205,
+     "propLine": 4.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Everton FC score 5 or more goals within the first 90 minutes of regular play plus st"
+    }
+   ]
+  },
+  {
+   "id": "ff23fc81-906c-4d6b-b467-c80411e851da",
+   "slug": "epl-ars-eve-2026-10-24-more-markets-7fbb906a",
+   "title": "Arsenal FC: Total Goals",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T13:59:59.999Z",
+   "resolutionDate": "2026-10-24T14:00:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "TOTAL_GOALS_HOME",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1460984.43,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "3a029095-6f19-4ef5-9b5a-f35d517b1449",
+     "title": "O/U 2.5",
+     "status": "open",
+     "outcome1Id": "2b788a67-5a67-4237-9bb4-f272688efbba",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.315,
+     "outcome2Id": "6fbd30a0-0548-4ca5-9c26-0ca337a5f5cb",
+     "outcome2Label": "No",
+     "outcome2Price": 0.685,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Arsenal FC score 3 or more goals within the first 90 minutes of regular play plus st"
+    },
+    {
+     "id": "fa5f5aee-20fb-4934-8218-a5cbdb83ac8d",
+     "title": "O/U 4.5",
+     "status": "open",
+     "outcome1Id": "dbb2b01a-4379-44de-8745-512ecce0dc4e",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.2545,
+     "outcome2Id": "fe432743-6e71-4c7a-8e2a-a05ffef2c4fb",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7455,
+     "propLine": 4.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Arsenal FC score 5 or more goals within the first 90 minutes of regular play plus st"
+    },
+    {
+     "id": "45d1228a-5793-4a96-ae15-614484586e2d",
+     "title": "O/U 1.5",
+     "status": "open",
+     "outcome1Id": "692f5db9-9003-45e2-83a5-b2e7cfcd5dae",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.6,
+     "outcome2Id": "8d12ccf4-bef6-49a1-accd-f2e929350965",
+     "outcome2Label": "No",
+     "outcome2Price": 0.4,
+     "propLine": 1.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Arsenal FC score 2 or more goals within the first 90 minutes of regular play plus st"
+    },
+    {
+     "id": "70cc8be4-3a64-4122-98f6-7cac8d85cfb9",
+     "title": "O/U 0.5",
+     "status": "open",
+     "outcome1Id": "30f67fcd-b607-42b3-90c6-ca209126ee52",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.875,
+     "outcome2Id": "18c1cda6-b4b0-4020-bf21-36b21017a8a3",
+     "outcome2Label": "No",
+     "outcome2Price": 0.125,
+     "propLine": 0.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Arsenal FC score 1 or more goals within the first 90 minutes of regular play plus st"
+    },
+    {
+     "id": "234abe39-6d44-4df6-93b2-9ca0eb7c2e48",
+     "title": "O/U 3.5",
+     "status": "open",
+     "outcome1Id": "ab3e79cb-4dbd-4807-849b-87caa0ecb612",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.13,
+     "outcome2Id": "4c05093a-4992-4348-b182-2fb218c08255",
+     "outcome2Label": "No",
+     "outcome2Price": 0.87,
+     "propLine": 3.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Arsenal FC score 4 or more goals within the first 90 minutes of regular play plus st"
+    },
+    {
+     "id": "c8fba81f-cc0e-48d1-9854-1f1387bd252a",
+     "title": "O/U 5.5",
+     "status": "open",
+     "outcome1Id": "521d9309-6a73-4239-9060-65c2c0e921e3",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4815,
+     "outcome2Id": "1f0ef6d7-ae93-453a-be2e-2a5129f96fe2",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5185,
+     "propLine": 5.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Arsenal FC and Everton FC, scheduled for October 24, 2026 at 2:00 PM UTC: This market will resolve to \"Over\" if Arsenal FC score 6 or more goals within the first 90 minutes of regular play plus st"
+    }
+   ]
+  },
+  {
+   "id": "acce9b2f-3118-41b6-87ec-5f19172ce231",
+   "slug": "jordan-pickford-4-saves-vs-ars-20261024",
+   "title": "Jordan Pickford: 4 Saves vs Arsenal FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T14:00:00Z",
+   "resolutionDate": "2026-10-24T18:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Saves"
+   ],
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "PLAYER_SAVES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "42032d58-bbfa-4acd-9d6a-7c94d2d3ffa9",
+     "title": "O/U 4",
+     "status": "open",
+     "outcome1Id": "b330a0fd-b5fa-4bf3-8b84-aaca795a9bd6",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "90ad9dc3-d6e7-4972-be4e-1d30a993c53b",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 4,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Jordan Pickford records more than 4 saves during the match against Arsenal FC. It will resolve as **Under** if Jordan Pickford records fewer than 4 saves during the match against Arsenal FC. If Jordan"
+    }
+   ]
+  },
+  {
+   "id": "aca6dc04-e8f9-42c2-8dab-09fc0d9d76e9",
+   "slug": "david-raya-2-saves-vs-eve-20261024",
+   "title": "David Raya: 2 Saves vs Everton FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T14:00:00Z",
+   "resolutionDate": "2026-10-24T18:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Saves"
+   ],
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "PLAYER_SAVES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "1ba1ece8-038f-4c7a-ae25-74b34dc3ecba",
+     "title": "O/U 2",
+     "status": "open",
+     "outcome1Id": "03f40ada-e9df-4aa3-83dc-b62a42773be4",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "ce890091-ea66-4226-a5eb-0b52e7d25c24",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 2,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if David Raya records more than 2 saves during the match against Everton FC. It will resolve as **Under** if David Raya records fewer than 2 saves during the match against Everton FC. If David Raya's rec"
+    }
+   ]
+  },
+  {
+   "id": "ef0312f3-3a1f-4e91-856e-c33d741e3d38",
+   "slug": "ars-vs-eve-arsenal-fc-to-win-both-halves-october-24-2026",
+   "title": "ARS vs EVE: Arsenal FC to win both halves?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T14:00:00Z",
+   "resolutionDate": "2026-10-24T18:00:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "TEAM_WIN_BOTH_HALVES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "1d51d4af-f823-4f2c-b405-f6accbcc92c0",
+     "title": "Arsenal FC to win both halves",
+     "status": "open",
+     "outcome1Id": "ce6297da-9e1a-4a28-8af3-319224d4c37b",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.2857,
+     "outcome2Id": "4491e32e-c386-43b7-8925-3e3e7677805a",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7261,
+     "propTeam": {
+      "id": "48b8ed1a-974f-4ca9-82df-1ad855b00585",
+      "name": "Arsenal FC",
+      "slug": "bm-epl-arsenal-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Arsenal FC scores more goals than Everton FC in the first half and also in the second half, and as **No** otherwise. A team wins a half by scoring more goals than its opponent in that half; a drawn hal"
+    }
+   ]
+  },
+  {
+   "id": "2e75dd66-af1a-4911-b251-e461e945a813",
+   "slug": "ars-vs-eve-everton-fc-to-win-either-half-october-24-2026",
+   "title": "ARS vs EVE: Everton FC to win either half?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T14:00:00Z",
+   "resolutionDate": "2026-10-24T18:00:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "TEAM_WIN_EITHER_HALF",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "b361b0ad-0d74-430c-ad16-f7ec49fab17b",
+     "title": "Everton FC to win either half",
+     "status": "open",
+     "outcome1Id": "6f2020cc-d545-44dc-b78d-0660cf90c7a0",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.2857,
+     "outcome2Id": "fa27883c-14e4-4877-8854-93ad4c10846d",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7261,
+     "propTeam": {
+      "id": "ba9ca668-c159-4738-bd62-06209dc43bf2",
+      "name": "Everton FC",
+      "slug": "bm-epl-everton-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Everton FC scores more goals than Arsenal FC in the first half, in the second half, or in both, and as **No** otherwise. A team wins a half by scoring more goals than its opponent in that half; a drawn"
+    }
+   ]
+  },
+  {
+   "id": "2715c0b6-078e-42b2-9592-de8e27a6eee1",
+   "slug": "ars-vs-eve-arsenal-fc-to-win-either-half-october-24-2026",
+   "title": "ARS vs EVE: Arsenal FC to win either half?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T14:00:00Z",
+   "resolutionDate": "2026-10-24T18:00:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "TEAM_WIN_EITHER_HALF",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "2e55d8df-2c01-4c1a-9682-4eac5df41240",
+     "title": "Arsenal FC to win either half",
+     "status": "open",
+     "outcome1Id": "cf5e5422-04d8-496f-8dc3-e09d0b0a8706",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.8,
+     "outcome2Id": "afb5327f-6f5c-4bd7-9356-7fa646dd782f",
+     "outcome2Label": "No",
+     "outcome2Price": 0.233,
+     "propTeam": {
+      "id": "48b8ed1a-974f-4ca9-82df-1ad855b00585",
+      "name": "Arsenal FC",
+      "slug": "bm-epl-arsenal-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Arsenal FC scores more goals than Everton FC in the first half, in the second half, or in both, and as **No** otherwise. A team wins a half by scoring more goals than its opponent in that half; a drawn"
+    }
+   ]
+  },
+  {
+   "id": "05cf0412-3b8a-46a7-84df-bca38eb07980",
+   "slug": "arsenal-fc-vs-everton-fc-will-there-be-4-or-more-cards-october-24-2026",
+   "title": "Arsenal FC vs Everton FC: Will there be 4 or more cards?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T14:00:00Z",
+   "resolutionDate": "2026-10-24T18:00:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "TOTAL_CARDS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "c266994f-9720-4d2d-8c5b-cf64f4d41a97",
+     "title": "4+ cards",
+     "status": "open",
+     "outcome1Id": "fb9e0594-4fcf-43fd-ba5f-81d349655e32",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4545,
+     "outcome2Id": "e36ee5ad-6ef6-488b-88b6-e2d834ec8ccc",
+     "outcome2Label": "No",
+     "outcome2Price": 0.6198,
+     "propLine": 3.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if 4 or more cards are shown to the players of both teams combined, and as **No** if fewer are. Every yellow and every red card counts as one card, so a second yellow followed by a red counts as two.\n\nOnl"
+    }
+   ]
+  },
+  {
+   "id": "1e47fec5-819d-4855-aab0-9050dc73eac1",
+   "slug": "arsenal-fc-vs-everton-fc-will-there-be-10-or-more-corners-october-24-2026",
+   "title": "Arsenal FC vs Everton FC: Will there be 10 or more corners?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T14:00:00Z",
+   "resolutionDate": "2026-10-24T18:00:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "TOTAL_CORNERS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "167aaef1-3be8-4795-8062-654b2f2f70ed",
+     "title": "10+ corners",
+     "status": "open",
+     "outcome1Id": "9e81016a-aada-4f20-aa7b-ff8412f26906",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.5495,
+     "outcome2Id": "1f4cd600-c197-482f-b1ba-d47807e9765f",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5074,
+     "propLine": 9.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if 10 or more corners are awarded to both teams combined, and as **No** if fewer are.\n\nOnly the first 90 minutes of regular play plus stoppage time count. Extra time and penalty shoot-outs do not.\n\nResolu"
+    }
+   ]
+  },
+  {
+   "id": "b561fff8-1d1d-4b2d-b41b-18d28f43131c",
+   "slug": "arsenal-fc-vs-everton-fc-will-the-total-goals-be-odd-or-even-october-24-2026",
+   "title": "Arsenal FC vs Everton FC: Will the total goals be odd or even?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T14:00:00Z",
+   "resolutionDate": "2026-10-24T18:00:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "ODD_EVEN_GOALS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "eb800ef3-b63c-4a8a-aebb-20405bc23da5",
+     "title": "Odd or even total goals",
+     "status": "open",
+     "outcome1Id": "b2feebfc-af89-4512-b8df-76a8f29218f9",
+     "outcome1Label": "Odd",
+     "outcome1Price": 0.5215,
+     "outcome2Id": "86be48fb-3888-4c0e-9489-d6a388b500f4",
+     "outcome2Label": "Even",
+     "outcome2Price": 0.5215,
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Odd** if the total number of goals scored by both teams is odd, and as **Even** if it is even. A goalless match counts as even.\n\nOnly the first 90 minutes of regular play plus stoppage time count. Extra time an"
+    }
+   ]
+  },
+  {
+   "id": "6d2d28a0-5f70-4bab-93c2-7ec45a6b1329",
+   "slug": "arsenal-vs-everton-team-corners-october-24-2026",
+   "title": "Arsenal FC vs Everton FC: Team Corners",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T17:00:00Z",
+   "resolutionDate": "2026-10-24T18:00:00Z",
+   "resolutionSource": "https://www.espn.com",
+   "hashtags": null,
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "TEAM_CORNERS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 2,
+   "markets": [
+    {
+     "id": "45adced6-cc26-453a-bdc7-4eb4ec8dffae",
+     "title": "ARS 7+ Corners",
+     "status": "open",
+     "outcome1Id": "a77136f6-7973-4806-bba5-912375ea6a49",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4701,
+     "outcome2Id": "1ca75a58-6350-436f-8375-e17c6499ca8e",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5299,
+     "propLine": 6.5,
+     "propDirection": "OVER",
+     "propTeam": {
+      "id": "48b8ed1a-974f-4ca9-82df-1ad855b00585",
+      "name": "Arsenal FC",
+      "slug": "bm-epl-arsenal-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Arsenal records at least 7+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC, then the "
+    },
+    {
+     "id": "b905b04e-379d-4349-8e33-b0fa4df2b53f",
+     "title": "EVE 4+ Corners",
+     "status": "open",
+     "outcome1Id": "a2be5527-9360-422e-af0c-37374c1a3c79",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4152,
+     "outcome2Id": "c4823750-7aa9-4497-be80-2cff12a02c4f",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5848,
+     "propLine": 3.5,
+     "propDirection": "OVER",
+     "propTeam": {
+      "id": "ba9ca668-c159-4738-bd62-06209dc43bf2",
+      "name": "Everton FC",
+      "slug": "bm-epl-everton-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Everton records at least 4+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC, then the "
+    }
+   ]
+  },
+  {
+   "id": "4ced5e0b-4716-43fa-9ec2-67ab50862d98",
+   "slug": "arsenal-vs-everton-total-corners-october-24-2026",
+   "title": "Arsenal FC vs Everton FC: Total Corners",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T17:00:00Z",
+   "resolutionDate": "2026-10-24T18:00:00Z",
+   "resolutionSource": "https://www.espn.com",
+   "hashtags": null,
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "TOTAL_CORNERS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 2,
+   "markets": [
+    {
+     "id": "d52937c8-7530-41f9-b197-4b041a3d6518",
+     "title": "11+ Total Corners",
+     "status": "open",
+     "outcome1Id": "7394b48e-98f5-4e56-a89d-e56203a01f4f",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4101,
+     "outcome2Id": "f494176c-a723-4e08-9d9c-c2657a4dcd1b",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5899,
+     "propLine": 10.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Arsenal and Everton combined record at least 11+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2"
+    },
+    {
+     "id": "2e5c10cc-df28-41c9-a5ee-1c3416e2a1c3",
+     "title": "10+ Total Corners",
+     "status": "open",
+     "outcome1Id": "c9040d0a-1e97-4bbe-b33c-fa3d71bcf4e5",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.53,
+     "outcome2Id": "5906ea91-b39d-4c75-88bf-3e66f1530585",
+     "outcome2Label": "No",
+     "outcome2Price": 0.47,
+     "propLine": 9.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Arsenal and Everton combined record at least 10+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2"
+    },
+    {
+     "id": "b4ebd6b4-73c2-443e-8665-bc6191e7ee68",
+     "title": "9+ Total Corners",
+     "status": "open",
+     "outcome1Id": "66925870-36b9-4be0-8f3b-e9f90726c5a7",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.6449,
+     "outcome2Id": "2708fa98-b3fb-4b63-8892-0a4690700f1e",
+     "outcome2Label": "No",
+     "outcome2Price": 0.3551,
+     "propLine": 8.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Arsenal and Everton combined record at least 9+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:"
+    },
+    {
+     "id": "8efd017b-89d4-49f2-bc49-f0b7e1ec3969",
+     "title": "8+ Total Corners",
+     "status": "open",
+     "outcome1Id": "1b19326e-d9c5-45f9-a768-d4aae23d766f",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.7748,
+     "outcome2Id": "a70a2e27-43a0-4600-90e8-ea2f5741246c",
+     "outcome2Label": "No",
+     "outcome2Price": 0.2252,
+     "propLine": 7.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Arsenal and Everton combined record at least 8+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:"
+    },
+    {
+     "id": "07c0cb47-96e3-4f0c-b219-1e52674aaf97",
+     "title": "7+ Total Corners",
+     "status": "open",
+     "outcome1Id": "8b8eec16-ca7a-4008-b219-6a06b75eb83d",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.8178,
+     "outcome2Id": "e46d0174-f6fd-45cd-a9bb-24f5f62bc52b",
+     "outcome2Label": "No",
+     "outcome2Price": 0.1822,
+     "propLine": 6.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Arsenal and Everton combined record at least 7+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:"
+    }
+   ]
+  },
+  {
+   "id": "5a10f09c-53be-4380-8eff-7b3d42409a6f",
+   "slug": "arsenal-vs-everton-btts-october-24-2026",
+   "title": "Arsenal FC vs Everton FC: Both Teams to Score",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "CLOB",
+   "status": "open",
+   "closingDate": "2026-10-24T18:00:00Z",
+   "resolutionDate": "2026-10-24T19:00:00Z",
+   "resolutionSource": "https://www.espn.com",
+   "hashtags": null,
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "BOTH_TEAMS_TO_SCORE",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1498023.47,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "ef285b37-c8b1-4db1-b76c-c5af0445469d",
+     "title": "Both Teams To Score",
+     "status": "open",
+     "outcome1Id": "acc01757-b005-4d8b-807f-fc1e5b174b05",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4874,
+     "outcome2Id": "aa8a9a57-39cf-4cd5-8dea-caf1583de9e6",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5574,
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Arsenal and Everton both score a goal in the Arsenal vs Everton EPL match originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves t"
+    }
+   ]
+  },
+  {
+   "id": "26d9a695-985a-4ebc-8ad3-291fb0fe0d2f",
+   "slug": "arsenal-vs-everton-total-goals-october-24-2026",
+   "title": "Arsenal FC vs Everton FC: Total Goals",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T18:00:00Z",
+   "resolutionDate": "2026-10-24T19:00:00Z",
+   "resolutionSource": "https://www.espn.com",
+   "hashtags": null,
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "TOTAL_GOALS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1991877.37,
+   "totalOrders": 6,
+   "markets": [
+    {
+     "id": "097d3b80-fd74-4bcc-9f4e-d133275b9858",
+     "title": "Over 3.5 Goals",
+     "status": "open",
+     "outcome1Id": "38e32d0a-d026-4f54-917c-9c251b4aae34",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.3147,
+     "outcome2Id": "5a3e597f-d6df-40c2-b883-9ed4b3314a28",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7341,
+     "propLine": 3.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If over 3.5 goals are scored in the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the market res"
+    },
+    {
+     "id": "d9ff4e26-a904-494d-a233-0b82a7ea175d",
+     "title": "Over 2.5 Goals",
+     "status": "open",
+     "outcome1Id": "446c3a61-c30b-4539-982b-bd583697ac07",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.5375,
+     "outcome2Id": "8e5dcae9-50ca-4183-8898-8f930b18f2a0",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5075,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If over 2.5 goals are scored in the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the market res"
+    },
+    {
+     "id": "bf875c24-09fb-4382-b146-2a7fb7338570",
+     "title": "Over 1.5 Goals",
+     "status": "open",
+     "outcome1Id": "b0541032-4580-4e49-90d1-81951a7cea76",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.7824,
+     "outcome2Id": "f6868e90-72c5-490d-9119-a7093a733d51",
+     "outcome2Label": "No",
+     "outcome2Price": 0.2631,
+     "propLine": 1.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If over 1.5 goals are scored in the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the market res"
+    },
+    {
+     "id": "819f27fe-1585-48a7-9c80-05a80ac3b053",
+     "title": "Over 4.5 Goals",
+     "status": "open",
+     "outcome1Id": "c30957f1-01f7-425a-a8ce-a96c0f5687e9",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.1589,
+     "outcome2Id": "7bebb652-e458-4d11-96f8-08aacf163af9",
+     "outcome2Label": "No",
+     "outcome2Price": 0.8779,
+     "propLine": 4.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If over 4.5 goals are scored in the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the market res"
+    },
+    {
+     "id": "efa2a11d-9d0a-40ed-9c63-2fd0c0a3f101",
+     "title": "Over 5.5 Goals",
+     "status": "open",
+     "outcome1Id": "84c22ae7-62c3-4733-a8e1-c371231503a8",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.0639,
+     "outcome2Id": "8eab33fe-4098-451b-bf50-301e45a9e120",
+     "outcome2Label": "No",
+     "outcome2Price": 0.9533,
+     "propLine": 5.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If over 5.5 goals are scored in the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the market res"
+    },
+    {
+     "id": "60c45bc6-89bb-4e46-a51f-8bf803f83772",
+     "title": "Over 0.5 Goals",
+     "status": "open",
+     "outcome1Id": "898157e4-63d1-4b57-b464-60d4991957af",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.9439,
+     "outcome2Id": "7d50b945-9856-44e9-b834-9fa9b4ecb21a",
+     "outcome2Label": "No",
+     "outcome2Price": 0.0746,
+     "propLine": 0.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If over 0.5 goals are scored in the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the market res"
+    }
+   ]
+  },
+  {
+   "id": "6b759c81-09a7-44a4-8017-4df5a5ebf2fa",
+   "slug": "arsenal-vs-everton-spread-october-24-2026",
+   "title": "Arsenal FC vs Everton FC: Winning Margin",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T18:00:00Z",
+   "resolutionDate": "2026-10-24T19:00:00Z",
+   "resolutionSource": "https://www.espn.com",
+   "hashtags": null,
+   "sportGameId": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "sportGameSlug": "bm-game-20261024-ars-eve",
+   "sportMarketType": "GOAL_SPREAD",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1536434.33,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "cf3283e3-d4ac-404b-a96d-0f6734f4b9ee",
+     "title": "ARS by 2+ Goals",
+     "status": "open",
+     "outcome1Id": "22476cb1-62c7-4967-8a36-434d86cd9cbd",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4371,
+     "outcome2Id": "c1fa58e1-bba3-4b6d-af6b-f597d3790173",
+     "outcome2Label": "No",
+     "outcome2Price": 0.6069,
+     "propLine": 1.5,
+     "propDirection": "OVER",
+     "propTeam": {
+      "id": "48b8ed1a-974f-4ca9-82df-1ad855b00585",
+      "name": "Arsenal FC",
+      "slug": "bm-epl-arsenal-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Arsenal wins by more than 1.5 goals in the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the "
+    },
+    {
+     "id": "402430a1-8998-4964-a7c1-e624a015596f",
+     "title": "ARS by 3+ Goals",
+     "status": "open",
+     "outcome1Id": "70419350-5366-4994-b194-239a059b01df",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.2052,
+     "outcome2Id": "d7b89b0d-9ad4-4c98-9c5a-874a0acb7109",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7948,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "propTeam": {
+      "id": "48b8ed1a-974f-4ca9-82df-1ad855b00585",
+      "name": "Arsenal FC",
+      "slug": "bm-epl-arsenal-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Arsenal wins by more than 2.5 goals in the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the "
+    },
+    {
+     "id": "8d41f346-0119-48cb-911b-227882d84c35",
+     "title": "EVE by 2+ Goals",
+     "status": "open",
+     "outcome1Id": "7b479977-d627-4b55-9400-b9861946ad30",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.0253,
+     "outcome2Id": "6f5c19e1-8081-42b9-b853-1dfebd904540",
+     "outcome2Label": "No",
+     "outcome2Price": 0.9747,
+     "propLine": 1.5,
+     "propDirection": "OVER",
+     "propTeam": {
+      "id": "ba9ca668-c159-4738-bd62-06209dc43bf2",
+      "name": "Everton FC",
+      "slug": "bm-epl-everton-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Everton wins by more than 1.5 goals in the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the "
+    },
+    {
+     "id": "85609a4a-0aed-449c-b3a0-b022f7205555",
+     "title": "EVE by 3+ Goals",
+     "status": "open",
+     "outcome1Id": "31165c60-3b3d-4f78-886d-54de2c479098",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.0157,
+     "outcome2Id": "02df3427-4dd7-4086-8e00-2ae9f0ee8cd0",
+     "outcome2Label": "No",
+     "outcome2Price": 0.9843,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "propTeam": {
+      "id": "ba9ca668-c159-4738-bd62-06209dc43bf2",
+      "name": "Everton FC",
+      "slug": "bm-epl-everton-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Everton wins by more than 2.5 goals in the Arsenal vs Everton professional EPL soccer game originally scheduled for October 24, 2026 at 2:00 PM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the "
+    }
+   ]
+  }
+ ],
+ "pagination": {
+  "lastPage": 1,
+  "page": 1,
+  "size": 20,
+  "totalCount": 18
+ }
+}

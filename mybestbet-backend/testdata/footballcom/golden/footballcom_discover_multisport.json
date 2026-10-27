@@ -1,0 +1,357 @@
+{
+  "source": "footballcom",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "sr:match:71515950",
+      "leagueHint": "NFL",
+      "home": "Philadelphia Eagles",
+      "away": "Dallas Cowboys",
+      "kickoff": "2026-10-27T00:15:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515952",
+      "leagueHint": "NFL",
+      "home": "Green Bay Packers",
+      "away": "Carolina Panthers",
+      "kickoff": "2026-10-30T00:15:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515954",
+      "leagueHint": "NFL",
+      "home": "Buffalo Bills",
+      "away": "Baltimore Ravens",
+      "kickoff": "2026-11-01T18:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515956",
+      "leagueHint": "NFL",
+      "home": "Cincinnati Bengals",
+      "away": "Tennessee Titans",
+      "kickoff": "2026-11-01T18:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515958",
+      "leagueHint": "NFL",
+      "home": "Dallas Cowboys",
+      "away": "Arizona Cardinals",
+      "kickoff": "2026-11-01T18:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515960",
+      "leagueHint": "NFL",
+      "home": "Detroit Lions",
+      "away": "Minnesota Vikings",
+      "kickoff": "2026-11-01T18:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515962",
+      "leagueHint": "NFL",
+      "home": "Jacksonville Jaguars",
+      "away": "Indianapolis Colts",
+      "kickoff": "2026-11-01T18:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515964",
+      "leagueHint": "NFL",
+      "home": "New York Jets",
+      "away": "Las Vegas Raiders",
+      "kickoff": "2026-11-01T18:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515966",
+      "leagueHint": "NFL",
+      "home": "Pittsburgh Steelers",
+      "away": "Cleveland Browns",
+      "kickoff": "2026-11-01T18:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515968",
+      "leagueHint": "NFL",
+      "home": "Tampa Bay Buccaneers",
+      "away": "Atlanta Falcons",
+      "kickoff": "2026-11-01T18:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515970",
+      "leagueHint": "NFL",
+      "home": "Los Angeles Rams",
+      "away": "Los Angeles Chargers",
+      "kickoff": "2026-11-01T21:05:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515972",
+      "leagueHint": "NFL",
+      "home": "Denver Broncos",
+      "away": "Kansas City Chiefs",
+      "kickoff": "2026-11-01T21:25:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515974",
+      "leagueHint": "NFL",
+      "home": "Miami Dolphins",
+      "away": "New England Patriots",
+      "kickoff": "2026-11-01T21:25:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515976",
+      "leagueHint": "NFL",
+      "home": "Washington Commanders",
+      "away": "Philadelphia Eagles",
+      "kickoff": "2026-11-02T01:20:00Z"
+    },
+    {
+      "sourceId": "sr:match:71515978",
+      "leagueHint": "NFL",
+      "home": "Seattle Seahawks",
+      "away": "Chicago Bears",
+      "kickoff": "2026-11-03T01:15:00Z"
+    },
+    {
+      "sourceId": "sr:match:73682600",
+      "leagueHint": "NBA",
+      "home": "New York Knicks",
+      "away": "San Antonio Spurs",
+      "kickoff": "2026-12-25T17:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73682658",
+      "leagueHint": "NBA",
+      "home": "Boston Celtics",
+      "away": "Miami Heat",
+      "kickoff": "2026-12-25T19:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:73682660",
+      "leagueHint": "NBA",
+      "home": "Los Angeles Lakers",
+      "away": "Philadelphia 76ers",
+      "kickoff": "2026-12-25T22:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73682664",
+      "leagueHint": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Oklahoma City Thunder",
+      "kickoff": "2026-12-26T01:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73682668",
+      "leagueHint": "NBA",
+      "home": "Golden State Warriors",
+      "away": "Denver Nuggets",
+      "kickoff": "2026-12-26T03:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:73697012",
+      "leagueHint": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Houston Rockets",
+      "kickoff": "2026-11-21T03:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73697018",
+      "leagueHint": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Dallas Mavericks",
+      "kickoff": "2026-11-25T03:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73697036",
+      "leagueHint": "NBA",
+      "home": "Portland Trail Blazers",
+      "away": "San Antonio Spurs",
+      "kickoff": "2026-11-26T03:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73697040",
+      "leagueHint": "NBA",
+      "home": "New York Knicks",
+      "away": "Miami Heat",
+      "kickoff": "2026-11-28T00:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73719402",
+      "leagueHint": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Washington Wizards",
+      "kickoff": "2026-10-26T23:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73719404",
+      "leagueHint": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Minnesota Timberwolves",
+      "kickoff": "2026-10-26T23:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73719406",
+      "leagueHint": "NBA",
+      "home": "Boston Celtics",
+      "away": "Chicago Bulls",
+      "kickoff": "2026-10-26T23:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:73719408",
+      "leagueHint": "NBA",
+      "home": "Miami Heat",
+      "away": "Dallas Mavericks",
+      "kickoff": "2026-10-26T23:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:73719410",
+      "leagueHint": "NBA",
+      "home": "Milwaukee Bucks",
+      "away": "Indiana Pacers",
+      "kickoff": "2026-10-27T00:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73719412",
+      "leagueHint": "NBA",
+      "home": "Oklahoma City Thunder",
+      "away": "Phoenix Suns",
+      "kickoff": "2026-10-27T00:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73719414",
+      "leagueHint": "NBA",
+      "home": "Houston Rockets",
+      "away": "Atlanta Hawks",
+      "kickoff": "2026-10-27T00:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:73719416",
+      "leagueHint": "NBA",
+      "home": "Utah Jazz",
+      "away": "Memphis Grizzlies",
+      "kickoff": "2026-10-27T01:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73719418",
+      "leagueHint": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Golden State Warriors",
+      "kickoff": "2026-10-27T02:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:73719434",
+      "leagueHint": "NBA",
+      "home": "Indiana Pacers",
+      "away": "Philadelphia 76ers",
+      "kickoff": "2026-10-28T23:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:75720568",
+      "leagueHint": "DOTA2",
+      "home": "Team Spirit",
+      "away": "Parivision",
+      "kickoff": "2026-10-26T15:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:75720570",
+      "leagueHint": "DOTA2",
+      "home": "BetBoom Team",
+      "away": "Legion",
+      "kickoff": "2026-10-26T18:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:75991564",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Alex Michelsen",
+      "away": "Botic Van de Zandschulp",
+      "kickoff": "2026-10-27T13:20:00Z"
+    },
+    {
+      "sourceId": "sr:match:75991568",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Alejandro Tabilo",
+      "away": "Rafael Jodar",
+      "kickoff": "2026-10-27T13:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:75991572",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Holger Rune",
+      "away": "Quentin Halys",
+      "kickoff": "2026-10-26T15:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:75991578",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Novak Djokovic",
+      "away": "Ugo Humbert",
+      "kickoff": "2026-10-28T11:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:75991580",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Stan Wawrinka",
+      "away": "Jiri Lehecka",
+      "kickoff": "2026-10-27T18:10:00Z"
+    },
+    {
+      "sourceId": "sr:match:75991582",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Jerome Kym",
+      "away": "Arthur Rinderknech",
+      "kickoff": "2026-10-27T12:10:00Z"
+    },
+    {
+      "sourceId": "sr:match:75992890",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Dominic Stricker",
+      "away": "Casper Ruud",
+      "kickoff": "2026-10-26T19:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:76002814",
+      "leagueHint": "LOL",
+      "home": "Ctbc Flying Oyster",
+      "away": "T1",
+      "kickoff": "2026-10-26T17:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:76029754",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Hubert Hurkacz",
+      "away": "Zizou Bergs",
+      "kickoff": "2026-10-27T11:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:76034534",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Giovanni Mpetshi Perricard",
+      "away": "Arthur Fils",
+      "kickoff": "2026-10-27T14:10:00Z"
+    },
+    {
+      "sourceId": "sr:match:76034536",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Remy Bertola",
+      "away": "Denis Shapovalov",
+      "kickoff": "2026-10-28T11:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:76034538",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Taylor Fritz",
+      "away": "Rinky Hijikata",
+      "kickoff": "2026-10-28T11:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:76034542",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Yannick Hanfmann",
+      "away": "Jan-Lennard Struff",
+      "kickoff": "2026-10-28T11:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:76034546",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Ben Shelton",
+      "away": "Aleksandar Kovacevic",
+      "kickoff": "2026-10-27T17:00:00Z"
+    }
+  ],
+  "markets": null
+}

@@ -1,0 +1,368 @@
+{
+  "cursor": null,
+  "data": [
+    {
+      "createdAt": "2026-10-12T04:44:23.120Z",
+      "description": "Total corners markets for the Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET.",
+      "endsAt": "2026-10-25T16:00:00.000Z",
+      "id": 598296,
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": false,
+      "isVisible": true,
+      "isYieldBearing": true,
+      "marketVariant": "SPORTS_TOTAL_CORNERS",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-total-corners",
+          "conditionId": "0x106501ff996abd2b9775ed63ce7b43c39b77b77a3e68e9a37a5f55c71150fb9c",
+          "createdAt": "2026-10-12T04:44:23.120Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET: This market will resolve to \"Over\" if there are 9 or more total corners taken in this game (combining corners for both teams). If the total number of corners is fewer than 9, this market will resolve to \"Under\". Markets on number of corners refers to number of corners taken and not corners awarded. If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50. This market refers only to corners taken within the first 90 minutes of regular play plus stoppage time. Corners awarded but not taken will not count. Corners awarded during extra time or penalty shootouts do not count. The primary resolution source for this market is the official statistics published by the governing body or event organizers. If the governing body or event organizers have not published final statistics within 2 hours of the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used. Revisions to officially published final statistics made after market resolution will not be considered in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3226721,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTAL_CORNERS",
+          "marketVariant": "SPORTS_TOTAL_CORNERS",
+          "oracleQuestionId": "0xfb40542236166f4a137648e577b0c9466162bbb5761b0230aa64bf0841c4e8db",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.7,
+                "size": 543.799
+              },
+              "bestBid": {
+                "price": 0.69,
+                "size": 72.46
+              },
+              "indexSet": 1,
+              "name": "Over 8.5",
+              "onChainId": "92579582257416042947360026497879118620532667478754053353856561081752189303184",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.31,
+                "size": 72.46
+              },
+              "bestBid": {
+                "price": 0.3,
+                "size": 543.799
+              },
+              "indexSet": 2,
+              "name": "Under 8.5",
+              "onChainId": "38589476178687713403341887892705880518731703548052103594304894183447050405777",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x6c101dcfa85355e8ab8cfba509946e792e7bb9c06b50a39abbce62adbe2ea442"
+          ],
+          "question": "Liverpool FC vs. Brighton & Hove Albion FC: O/U 8.5 Total Corners",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Total Corners: O/U 8.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 8.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-total-corners",
+          "conditionId": "0x7a3f03d9732e9f9ad0baea9f9b25ce1803eae40f8780e51557febb51e6185c6e",
+          "createdAt": "2026-10-12T04:44:23.120Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET: This market will resolve to \"Over\" if there are 10 or more total corners taken in this game (combining corners for both teams). If the total number of corners is fewer than 10, this market will resolve to \"Under\". Markets on number of corners refers to number of corners taken and not corners awarded. If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50. This market refers only to corners taken within the first 90 minutes of regular play plus stoppage time. Corners awarded but not taken will not count. Corners awarded during extra time or penalty shootouts do not count. The primary resolution source for this market is the official statistics published by the governing body or event organizers. If the governing body or event organizers have not published final statistics within 2 hours of the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used. Revisions to officially published final statistics made after market resolution will not be considered in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3226724,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTAL_CORNERS",
+          "marketVariant": "SPORTS_TOTAL_CORNERS",
+          "oracleQuestionId": "0x3ea8d2790facedc56380d1940537b737755495ba0ca3d152ca13e3955c033da7",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.58,
+                "size": 1002.2325000000001
+              },
+              "bestBid": {
+                "price": 0.56,
+                "size": 1917.83325
+              },
+              "indexSet": 1,
+              "name": "Over 9.5",
+              "onChainId": "28028845700228165122389848060441782000755926543862576333928033816777320500613",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.44,
+                "size": 1917.83325
+              },
+              "bestBid": {
+                "price": 0.42,
+                "size": 1002.2325000000001
+              },
+              "indexSet": 2,
+              "name": "Under 9.5",
+              "onChainId": "79774420331703206187040968762847097851474658754455303322705271176946643570672",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x52967b3ba82ba91a99c32ca890f23fd32b743d653b0fc3e8f822f6094681a52f"
+          ],
+          "question": "Liverpool FC vs. Brighton & Hove Albion FC: O/U 9.5 Total Corners",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Total Corners: O/U 9.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 9.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-total-corners",
+          "conditionId": "0x6a4b111c8dd88c9ba2e6c866b5cb14777608c9fe04f14e9df5447edbaad47876",
+          "createdAt": "2026-10-12T04:44:23.120Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET: This market will resolve to \"Over\" if there are 11 or more total corners taken in this game (combining corners for both teams). If the total number of corners is fewer than 11, this market will resolve to \"Under\". Markets on number of corners refers to number of corners taken and not corners awarded. If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50. This market refers only to corners taken within the first 90 minutes of regular play plus stoppage time. Corners awarded but not taken will not count. Corners awarded during extra time or penalty shootouts do not count. The primary resolution source for this market is the official statistics published by the governing body or event organizers. If the governing body or event organizers have not published final statistics within 2 hours of the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used. Revisions to officially published final statistics made after market resolution will not be considered in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3226727,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTAL_CORNERS",
+          "marketVariant": "SPORTS_TOTAL_CORNERS",
+          "oracleQuestionId": "0x3891021b0f606280f6322d8c52bda576de0590e5a76faf54afacb56fbac75863",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.47,
+                "size": 1495
+              },
+              "bestBid": {
+                "price": 0.45,
+                "size": 1227.843
+              },
+              "indexSet": 1,
+              "name": "Over 10.5",
+              "onChainId": "92714678967731602345168786451043423645651926857391705484994614917021826283110",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.55,
+                "size": 1227.843
+              },
+              "bestBid": {
+                "price": 0.53,
+                "size": 1495
+              },
+              "indexSet": 2,
+              "name": "Under 10.5",
+              "onChainId": "110308906526446395314889353363147015203225197333923804573111649158373363341241",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xcfed648e76a9b514fd2caae863620e09eb19ae149a70ea0af3457187b0aebf09"
+          ],
+          "question": "Liverpool FC vs. Brighton & Hove Albion FC: O/U 10.5 Total Corners",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Total Corners: O/U 10.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 10.5
+            }
+          }
+        }
+      ],
+      "negRiskOnChainId": null,
+      "parentSlug": "epl-liv-bri-2026-10-25",
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-18T14:00:41.498Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "epl-liv-bri-2026-10-25-total-corners",
+      "startsAt": "2026-10-25T14:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "14",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "546",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "EPL",
+          "parentId": "14"
+        }
+      ],
+      "teams": null,
+      "title": "Liverpool FC vs. Brighton & Hove Albion FC - Total Corners",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1175192",
+          "teams": [
+            {
+              "abbreviation": "liv",
+              "color": "#cf2029",
+              "id": 136,
+              "isHome": true,
+              "name": "Liverpool FC",
+              "providerTeamId": "100017",
+              "record": {
+                "draws": 3,
+                "losses": 1,
+                "wins": 3
+              }
+            },
+            {
+              "abbreviation": "bri",
+              "color": "#155a93",
+              "id": 4261,
+              "isHome": false,
+              "name": "Brighton & Hove Albion FC",
+              "providerTeamId": "100015",
+              "record": {
+                "draws": 1,
+                "losses": 1,
+                "wins": 5
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

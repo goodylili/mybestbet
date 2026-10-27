@@ -1,0 +1,1560 @@
+{
+  "source": "sportybet",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.36,
+            "form": "decimal",
+            "prob": 0.2976190476190476,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 3.75,
+            "form": "decimal",
+            "prob": 0.26666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.19,
+            "form": "decimal",
+            "prob": 0.4566210045662101,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Sassuolo",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.31,
+            "form": "decimal",
+            "prob": 0.7633587786259541,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.5,
+            "form": "decimal",
+            "prob": 0.2857142857142857,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "19@total=0.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Sassuolo",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.4,
+            "form": "decimal",
+            "prob": 0.4166666666666667,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.57,
+            "form": "decimal",
+            "prob": 0.6369426751592356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "19@total=1.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Sassuolo",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.6,
+            "form": "decimal",
+            "prob": 0.17857142857142858,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.15,
+            "form": "decimal",
+            "prob": 0.8695652173913044,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "19@total=2.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 3.5,
+      "team": "Sassuolo",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 13,
+            "form": "decimal",
+            "prob": 0.07692307692307693,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.03,
+            "form": "decimal",
+            "prob": 0.970873786407767,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "19@total=3.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Lazio",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.19,
+            "form": "decimal",
+            "prob": 0.8403361344537815,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 4.8,
+            "form": "decimal",
+            "prob": 0.20833333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "20@total=0.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Lazio",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.94,
+            "form": "decimal",
+            "prob": 0.5154639175257733,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "20@total=1.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Lazio",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.7,
+            "form": "decimal",
+            "prob": 0.27027027027027023,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.28,
+            "form": "decimal",
+            "prob": 0.78125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "20@total=2.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 3.5,
+      "team": "Lazio",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 8.2,
+            "form": "decimal",
+            "prob": 0.12195121951219513,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.08,
+            "form": "decimal",
+            "prob": 0.9259259259259258,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "20@total=3.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 4.5,
+      "team": "Lazio",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 15.5,
+            "form": "decimal",
+            "prob": 0.06451612903225806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.01,
+            "form": "decimal",
+            "prob": 0.9900990099009901,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "20@total=4.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Sassuolo",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.7,
+            "form": "decimal",
+            "prob": 0.5882352941176471,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "69@total=0.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Sassuolo",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 6.25,
+            "form": "decimal",
+            "prob": 0.16,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.1,
+            "form": "decimal",
+            "prob": 0.9090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "69@total=1.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Lazio",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.76,
+            "form": "decimal",
+            "prob": 0.5681818181818182,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.99,
+            "form": "decimal",
+            "prob": 0.5025125628140703,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "70@total=0.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Lazio",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.6,
+            "form": "decimal",
+            "prob": 0.2173913043478261,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.17,
+            "form": "decimal",
+            "prob": 0.8547008547008548,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "70@total=1.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Lazio",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 11,
+            "form": "decimal",
+            "prob": 0.09090909090909091,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.02,
+            "form": "decimal",
+            "prob": 0.9803921568627451,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "70@total=2.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 32.5,
+      "player": {
+        "sourceId": "sr:player:253367",
+        "name": "Domenico Berardi",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.42,
+            "form": "decimal",
+            "prob": 0.7042253521126761,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:253367#pre:playerprops:71945360:253367:33"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 36.5,
+      "player": {
+        "sourceId": "sr:player:253367",
+        "name": "Domenico Berardi",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.68,
+            "form": "decimal",
+            "prob": 0.5952380952380952,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:253367#pre:playerprops:71945360:253367:37"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 40.5,
+      "player": {
+        "sourceId": "sr:player:253367",
+        "name": "Domenico Berardi",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:253367#pre:playerprops:71945360:253367:41"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 44.5,
+      "player": {
+        "sourceId": "sr:player:253367",
+        "name": "Domenico Berardi",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.55,
+            "form": "decimal",
+            "prob": 0.3921568627450981,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:253367#pre:playerprops:71945360:253367:45"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 48.5,
+      "player": {
+        "sourceId": "sr:player:253367",
+        "name": "Domenico Berardi",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.25,
+            "form": "decimal",
+            "prob": 0.3076923076923077,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:253367#pre:playerprops:71945360:253367:49"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 52.5,
+      "player": {
+        "sourceId": "sr:player:253367",
+        "name": "Domenico Berardi",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.25,
+            "form": "decimal",
+            "prob": 0.23529411764705882,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:253367#pre:playerprops:71945360:253367:53"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 57.5,
+      "player": {
+        "sourceId": "sr:player:257091",
+        "name": "Duje Caleta-Car",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.49,
+            "form": "decimal",
+            "prob": 0.6711409395973155,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:257091#pre:playerprops:71945360:257091:58"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 61.5,
+      "player": {
+        "sourceId": "sr:player:257091",
+        "name": "Duje Caleta-Car",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.72,
+            "form": "decimal",
+            "prob": 0.5813953488372093,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:257091#pre:playerprops:71945360:257091:62"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 65.5,
+      "player": {
+        "sourceId": "sr:player:257091",
+        "name": "Duje Caleta-Car",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.97,
+            "form": "decimal",
+            "prob": 0.5076142131979695,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:257091#pre:playerprops:71945360:257091:66"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 69.5,
+      "player": {
+        "sourceId": "sr:player:257091",
+        "name": "Duje Caleta-Car",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.3,
+            "form": "decimal",
+            "prob": 0.4347826086956522,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:257091#pre:playerprops:71945360:257091:70"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 73.5,
+      "player": {
+        "sourceId": "sr:player:257091",
+        "name": "Duje Caleta-Car",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.7,
+            "form": "decimal",
+            "prob": 0.37037037037037035,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:257091#pre:playerprops:71945360:257091:74"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 77.5,
+      "player": {
+        "sourceId": "sr:player:257091",
+        "name": "Duje Caleta-Car",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.25,
+            "form": "decimal",
+            "prob": 0.3076923076923077,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:257091#pre:playerprops:71945360:257091:78"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 64.5,
+      "player": {
+        "sourceId": "sr:player:44241",
+        "name": "Nemanja Matic",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.46,
+            "form": "decimal",
+            "prob": 0.684931506849315,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:44241#pre:playerprops:71945360:44241:65"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 68.5,
+      "player": {
+        "sourceId": "sr:player:44241",
+        "name": "Nemanja Matic",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.69,
+            "form": "decimal",
+            "prob": 0.591715976331361,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:44241#pre:playerprops:71945360:44241:69"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 72.5,
+      "player": {
+        "sourceId": "sr:player:44241",
+        "name": "Nemanja Matic",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.92,
+            "form": "decimal",
+            "prob": 0.5208333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:44241#pre:playerprops:71945360:44241:73"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 76.5,
+      "player": {
+        "sourceId": "sr:player:44241",
+        "name": "Nemanja Matic",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:44241#pre:playerprops:71945360:44241:77"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 80.5,
+      "player": {
+        "sourceId": "sr:player:44241",
+        "name": "Nemanja Matic",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.6,
+            "form": "decimal",
+            "prob": 0.3846153846153846,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:44241#pre:playerprops:71945360:44241:81"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_PASSES",
+      "line": 84.5,
+      "player": {
+        "sourceId": "sr:player:44241",
+        "name": "Nemanja Matic",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.1,
+            "form": "decimal",
+            "prob": 0.3225806451612903,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "778@variant=pre:playerprops:71945360:44241#pre:playerprops:71945360:44241:85"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 2.5,
+      "player": {
+        "sourceId": "sr:player:1047063",
+        "name": "Arijanet Muric",
+        "team": "Sassuolo"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.38,
+            "form": "decimal",
+            "prob": 0.7246376811594204,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1047063#pre:playerprops:71945360:1047063:3:1"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 3.5,
+      "player": {
+        "sourceId": "sr:player:1047063",
+        "name": "Arijanet Muric",
+        "team": "Sassuolo"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.92,
+            "form": "decimal",
+            "prob": 0.5208333333333334,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1047063#pre:playerprops:71945360:1047063:4:1"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 4.5,
+      "player": {
+        "sourceId": "sr:player:1047063",
+        "name": "Arijanet Muric",
+        "team": "Sassuolo"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.06,
+            "form": "decimal",
+            "prob": 0.32679738562091504,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1047063#pre:playerprops:71945360:1047063:5:1"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 5.5,
+      "player": {
+        "sourceId": "sr:player:1047063",
+        "name": "Arijanet Muric",
+        "team": "Sassuolo"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.45,
+            "form": "decimal",
+            "prob": 0.18348623853211007,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1047063#pre:playerprops:71945360:1047063:6:1"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 2.5,
+      "player": {
+        "sourceId": "sr:player:1272498",
+        "name": "Stefano Turati",
+        "team": "Sassuolo"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.41,
+            "form": "decimal",
+            "prob": 0.7092198581560284,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1272498#pre:playerprops:71945360:1272498:3:1"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 3.5,
+      "player": {
+        "sourceId": "sr:player:1272498",
+        "name": "Stefano Turati",
+        "team": "Sassuolo"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.99,
+            "form": "decimal",
+            "prob": 0.5025125628140703,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1272498#pre:playerprops:71945360:1272498:4:1"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 4.5,
+      "player": {
+        "sourceId": "sr:player:1272498",
+        "name": "Stefano Turati",
+        "team": "Sassuolo"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.21,
+            "form": "decimal",
+            "prob": 0.3115264797507788,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1272498#pre:playerprops:71945360:1272498:5:1"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 5.5,
+      "player": {
+        "sourceId": "sr:player:1272498",
+        "name": "Stefano Turati",
+        "team": "Sassuolo"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.79,
+            "form": "decimal",
+            "prob": 0.17271157167530224,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1272498#pre:playerprops:71945360:1272498:6:1"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 2.5,
+      "player": {
+        "sourceId": "sr:player:1363554",
+        "name": "Christos Mandas",
+        "team": "Lazio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.42,
+            "form": "decimal",
+            "prob": 0.7042253521126761,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1363554#pre:playerprops:71945360:1363554:3:2"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 3.5,
+      "player": {
+        "sourceId": "sr:player:1363554",
+        "name": "Christos Mandas",
+        "team": "Lazio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.02,
+            "form": "decimal",
+            "prob": 0.49504950495049505,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1363554#pre:playerprops:71945360:1363554:4:2"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 4.5,
+      "player": {
+        "sourceId": "sr:player:1363554",
+        "name": "Christos Mandas",
+        "team": "Lazio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.28,
+            "form": "decimal",
+            "prob": 0.3048780487804878,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1363554#pre:playerprops:71945360:1363554:5:2"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 5.5,
+      "player": {
+        "sourceId": "sr:player:1363554",
+        "name": "Christos Mandas",
+        "team": "Lazio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.97,
+            "form": "decimal",
+            "prob": 0.16750418760469013,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:1363554#pre:playerprops:71945360:1363554:6:2"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 2.5,
+      "player": {
+        "sourceId": "sr:player:2662595",
+        "name": "Edoardo Motta",
+        "team": "Lazio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.43,
+            "form": "decimal",
+            "prob": 0.6993006993006994,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:2662595#pre:playerprops:71945360:2662595:3:2"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 3.5,
+      "player": {
+        "sourceId": "sr:player:2662595",
+        "name": "Edoardo Motta",
+        "team": "Lazio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.05,
+            "form": "decimal",
+            "prob": 0.48780487804878053,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:2662595#pre:playerprops:71945360:2662595:4:2"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 4.5,
+      "player": {
+        "sourceId": "sr:player:2662595",
+        "name": "Edoardo Motta",
+        "team": "Lazio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.35,
+            "form": "decimal",
+            "prob": 0.29850746268656714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:2662595#pre:playerprops:71945360:2662595:5:2"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "P_SAVES",
+      "line": 5.5,
+      "player": {
+        "sourceId": "sr:player:2662595",
+        "name": "Edoardo Motta",
+        "team": "Lazio"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 6.13,
+            "form": "decimal",
+            "prob": 0.1631321370309951,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "800297@variant=pre:playerprops:71945360:2662595#pre:playerprops:71945360:2662595:6:2"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Sassuolo",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.78,
+            "form": "decimal",
+            "prob": 0.5617977528089888,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.97,
+            "form": "decimal",
+            "prob": 0.5076142131979695,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "91@total=0.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Sassuolo",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.7,
+            "form": "decimal",
+            "prob": 0.2127659574468085,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.17,
+            "form": "decimal",
+            "prob": 0.8547008547008548,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "91@total=1.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Sassuolo",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 11.5,
+            "form": "decimal",
+            "prob": 0.08695652173913043,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.02,
+            "form": "decimal",
+            "prob": 0.9803921568627451,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "91@total=2.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Lazio",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.56,
+            "form": "decimal",
+            "prob": 0.641025641025641,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.35,
+            "form": "decimal",
+            "prob": 0.425531914893617,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "92@total=0.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Lazio",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.6,
+            "form": "decimal",
+            "prob": 0.2777777777777778,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.27,
+            "form": "decimal",
+            "prob": 0.7874015748031495,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "92@total=1.5"
+    },
+    {
+      "eventSourceId": "sr:match:71945360",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Lazio",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 8.75,
+            "form": "decimal",
+            "prob": 0.11428571428571428,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.05,
+            "form": "decimal",
+            "prob": 0.9523809523809523,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "92@total=2.5"
+    }
+  ]
+}

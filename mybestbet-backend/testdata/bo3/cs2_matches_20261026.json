@@ -1,0 +1,148 @@
+{
+ "total": {
+  "count": 6,
+  "pages": 1,
+  "offset": 0,
+  "limit": 100
+ },
+ "results": [
+  {
+   "id": 132601,
+   "slug": "nexvoid-vs-alter-ego-26-10-2026",
+   "status": "defwin",
+   "tier": "b",
+   "start_date": "2026-10-26T03:00:00.000+00:00",
+   "team1_score": 0,
+   "team2_score": 1,
+   "team1": {
+    "id": 22560,
+    "slug": "nexvoid",
+    "name": "NEXVOID",
+    "image_url": "https://files.bo3.gg/uploads/team/22560/image/webp-e6821360ffd8faf77705c364454533ee.webp"
+   },
+   "team2": {
+    "id": 4170,
+    "slug": "alter-ego",
+    "name": "Alter Ego",
+    "image_url": "https://files.bo3.gg/uploads/team/4170/image/webp-5286adf6a88fa070ea8c355e5adbe22e.webp"
+   },
+   "bo_type": 1,
+   "discipline_id": 1
+  },
+  {
+   "id": 132602,
+   "slug": "ground-zero-vs-off-chops-26-10-2026",
+   "status": "finished",
+   "tier": "b",
+   "start_date": "2026-10-26T03:15:00.000+00:00",
+   "team1_score": 0,
+   "team2_score": 2,
+   "team1": {
+    "id": 584,
+    "slug": "ground-zero",
+    "name": "Ground Zero",
+    "image_url": "https://files.bo3.gg/uploads/team/584/image/webp-94aa405c2731643317c4e44ddbb37415.webp"
+   },
+   "team2": {
+    "id": 25492,
+    "slug": "off-chops",
+    "name": "Off Chops",
+    "image_url": "https://files.bo3.gg/uploads/team/25492/image/webp-c5461729ab039b78028a73b414477e9d.webp"
+   },
+   "bo_type": 3,
+   "discipline_id": 1
+  },
+  {
+   "id": 132603,
+   "slug": "off-chops-vs-alter-ego-26-10-2026",
+   "status": "finished",
+   "tier": "b",
+   "start_date": "2026-10-26T06:15:00.000+00:00",
+   "team1_score": 0,
+   "team2_score": 2,
+   "team1": {
+    "id": 25492,
+    "slug": "off-chops",
+    "name": "Off Chops",
+    "image_url": "https://files.bo3.gg/uploads/team/25492/image/webp-c5461729ab039b78028a73b414477e9d.webp"
+   },
+   "team2": {
+    "id": 4170,
+    "slug": "alter-ego",
+    "name": "Alter Ego",
+    "image_url": "https://files.bo3.gg/uploads/team/4170/image/webp-5286adf6a88fa070ea8c355e5adbe22e.webp"
+   },
+   "bo_type": 3,
+   "discipline_id": 1
+  },
+  {
+   "id": 132604,
+   "slug": "nexvoid-vs-ground-zero-26-10-2026",
+   "status": "current",
+   "tier": "b",
+   "start_date": "2026-10-26T08:00:00.000+00:00",
+   "team1_score": 0,
+   "team2_score": 0,
+   "team1": {
+    "id": 22560,
+    "slug": "nexvoid",
+    "name": "NEXVOID",
+    "image_url": "https://files.bo3.gg/uploads/team/22560/image/webp-e6821360ffd8faf77705c364454533ee.webp"
+   },
+   "team2": {
+    "id": 584,
+    "slug": "ground-zero",
+    "name": "Ground Zero",
+    "image_url": "https://files.bo3.gg/uploads/team/584/image/webp-94aa405c2731643317c4e44ddbb37415.webp"
+   },
+   "bo_type": 3,
+   "discipline_id": 1
+  },
+  {
+   "id": 132232,
+   "slug": "the-mongolz-vs-mouz-cs2-26-10-2026",
+   "status": "current",
+   "tier": "s",
+   "start_date": "2026-10-26T08:00:00.000+00:00",
+   "team1_score": 0,
+   "team2_score": 0,
+   "team1": {
+    "id": 736,
+    "slug": "the-mongolz",
+    "name": "The MongolZ",
+    "image_url": "https://files.bo3.gg/uploads/team/736/image/webp-499cad826b4cd83ce22f8bd2b13261d6.webp"
+   },
+   "team2": {
+    "id": 765,
+    "slug": "mouz-cs2",
+    "name": "MOUZ",
+    "image_url": "https://files.bo3.gg/uploads/team/765/image/bcbdcf50fb2c79b6ab45b0014300b9e0.png"
+   },
+   "bo_type": 3,
+   "discipline_id": 1
+  },
+  {
+   "id": 132231,
+   "slug": "nemiga-vs-aurora-gaming-26-10-2026",
+   "status": "current",
+   "tier": "s",
+   "start_date": "2026-10-26T08:00:00.000+00:00",
+   "team1_score": 0,
+   "team2_score": 0,
+   "team1": {
+    "id": 655,
+    "slug": "nemiga",
+    "name": "Nemiga",
+    "image_url": "https://files.bo3.gg/uploads/team/655/image/webp-998a59d1bbae3fd5e32b1e46a3f6204e.webp"
+   },
+   "team2": {
+    "id": 3598,
+    "slug": "aurora-gaming",
+    "name": "Aurora",
+    "image_url": "https://files.bo3.gg/uploads/team/3598/image/webp-49b8df76b0d121cc89c760c1ec16ebea.webp"
+   },
+   "bo_type": 3,
+   "discipline_id": 1
+  }
+ ]
+}

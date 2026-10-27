@@ -1,0 +1,198 @@
+{
+  "success": true,
+  "cursor": null,
+  "data": [
+    {
+      "id": 335473,
+      "slug": "fifwc-esp-arg-2026-07-19",
+      "title": "Spain vs. Argentina",
+      "shortTitle": null,
+      "isNegRisk": true,
+      "marketVariant": "SPORTS_FIFA_WORLD_CUP",
+      "variantDetails": {
+        "sports": {
+          "provider": "PREDICT_SPORTS",
+          "providerEventId": "87010",
+          "teams": [
+            {
+              "abbreviation": "ESP",
+              "id": 26,
+              "isHome": true,
+              "name": "Spain",
+              "providerTeamId": "958"
+            },
+            {
+              "abbreviation": "ARG",
+              "id": 38,
+              "isHome": false,
+              "name": "Argentina",
+              "providerTeamId": "859"
+            }
+          ]
+        }
+      },
+      "startsAt": "2026-07-19T19:00:00.000Z",
+      "endsAt": null,
+      "status": "OPEN",
+      "isVisible": true,
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "12",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "50",
+          "level": null,
+          "makerRebateBps": 0,
+          "name": "World Cup",
+          "parentId": null
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Football",
+          "parentId": "4"
+        }
+      ],
+      "teams": null,
+      "parentSlug": null,
+      "createdAt": "2026-07-16T15:17:42.967Z",
+      "publishedAt": "2026-08-03T14:19:02.647Z",
+      "markets": [
+        {
+          "id": 787677,
+          "title": "ESP",
+          "question": "Will Spain win on 2026-07-19?",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": true,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "31107641805547956432315450826805735603058617679472674069032945853448695722720",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "57855569453783677993797959017227418954042558275890496770664707637919868558353",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_MONEYLINE",
+          "variantDetails": {
+            "sports": {
+              "provider": "PREDICT_SPORTS",
+              "team": {
+                "abbreviation": "ESP",
+                "id": 26,
+                "name": "Spain",
+                "providerTeamId": "958"
+              }
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_FIFA_WORLD_CUP",
+          "team": null,
+          "conditionId": "0x416cc3e8626b886654766b7c852c99c5fd75392c4ab14a99d5b1a8a4698c85d6"
+        },
+        {
+          "id": 787678,
+          "title": "Draw",
+          "question": "Will Spain vs. Argentina end in a draw?",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": true,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "15317247884116618084947023859613184739672401063000590507635347442814462668942",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "11858920571821556181504087228866408088560181553738918187192998612291739253457",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_MONEYLINE",
+          "variantDetails": null,
+          "categorySlug": "fifwc-esp-arg-2026-07-19",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_FIFA_WORLD_CUP",
+          "team": null,
+          "conditionId": "0x0430e9f6ef0cb41c201ecfb4004b92c313534ef24e8e893d627c1d8aadac2847"
+        },
+        {
+          "id": 787679,
+          "title": "ARG",
+          "question": "Will Argentina win on 2026-07-19?",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": true,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "109963992885904414655442664760454414172786489072390436775448789418440909513279",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "17495684825349934499336739299415780107547921518630334869206599753652934209289",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_MONEYLINE",
+          "variantDetails": {
+            "sports": {
+              "provider": "PREDICT_SPORTS",
+              "team": {
+                "abbreviation": "ARG",
+                "id": 38,
+                "name": "Argentina",
+                "providerTeamId": "859"
+              }
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_FIFA_WORLD_CUP",
+          "team": null,
+          "conditionId": "0xe603f322c45e60264d2c65bd0e943a6c9a58c2edba948870022ef89585cdf47c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "source": "bet365",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "151234001",
+      "leagueHint": "EPL",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "kickoff": "2026-10-25T15:30:00Z"
+    },
+    {
+      "sourceId": "151234002",
+      "leagueHint": "EPL",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "kickoff": "2026-10-26T16:30:00Z"
+    },
+    {
+      "sourceId": "151234003",
+      "leagueHint": "LALIGA",
+      "home": "Real Madrid",
+      "away": "Barcelona",
+      "kickoff": "2026-10-26T20:00:00Z"
+    },
+    {
+      "sourceId": "151234004",
+      "leagueHint": "EPL",
+      "home": "Brentford",
+      "away": "Fulham",
+      "kickoff": "2026-10-25T14:00:00Z"
+    }
+  ],
+  "markets": null
+}

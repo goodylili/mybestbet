@@ -1,0 +1,136 @@
+[
+ {
+  "id": "1195426",
+  "slug": "cs2-mgc-big5-2026-10-27",
+  "title": "Counter-Strike: magic vs BIG (BO3) - Stake Ranked Episode 5 Playoffs",
+  "startTime": "2026-10-27T11:00:00Z",
+  "endDate": "2026-10-27T17:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "counter-strike",
+  "eventMetadata": {
+   "league": "Stake Ranked"
+  },
+  "teams": [
+   {
+    "name": "magic",
+    "abbreviation": "mgc",
+    "ordering": "home"
+   },
+   {
+    "name": "BIG",
+    "abbreviation": "big5",
+    "ordering": "away"
+   }
+  ],
+  "markets": [
+   {
+    "slug": "cs2-mgc-big5-2026-10-27-game1",
+    "question": "Counter-Strike: magic vs BIG - Map 1 Winner",
+    "outcomes": "[\"magic\", \"BIG\"]",
+    "clobTokenIds": "[\"88650929524954513566672575978331139075374137711556978205223727199412762754707\", \"114281459304182088568994313568351536636002638419691176814363884898297947332296\"]",
+    "sportsMarketType": "child_moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "cs2-mgc-big5-2026-10-27-game2",
+    "question": "Counter-Strike: magic vs BIG - Map 2 Winner",
+    "outcomes": "[\"magic\", \"BIG\"]",
+    "clobTokenIds": "[\"6036975757390108024346506446468664587982542376125247731072161859714195168270\", \"5718387785966799018460454490225031101264309093051968889787510088038681268776\"]",
+    "sportsMarketType": "child_moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "cs2-mgc-big5-2026-10-27",
+    "question": "Counter-Strike: magic vs BIG (BO3) - Stake Ranked Episode 5 Playoffs",
+    "outcomes": "[\"magic\", \"BIG\"]",
+    "clobTokenIds": "[\"77359793296918465864437875363551404131594637258633158962408020680313447523087\", \"9303861673372551667266791999528128614531338164227906705663785572935013966363\"]",
+    "sportsMarketType": "moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "cs2-mgc-big5-2026-10-27-total-games-2pt5",
+    "question": "Games Total: O/U 2.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"56576483520139265644857029268039774095333995091188488423079231236648652921834\", \"86483084690180855242614162370761793961815605751878282200147914926681657906754\"]",
+    "sportsMarketType": "totals",
+    "line": 2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "cs2-mgc-big5-2026-10-27-map-handicap-home-1pt5",
+    "question": "Map Handicap: BIG (-1.5) vs magic (+1.5)",
+    "outcomes": "[\"BIG\", \"magic\"]",
+    "clobTokenIds": "[\"13243044399360556116794167111532222832554479371216971628112006188025548355910\", \"21799310063049716593121045120643228686092351768040294302533187924452146311758\"]",
+    "sportsMarketType": "map_handicap",
+    "line": -1.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "cs2-mgc-big5-2026-10-27-game1-round-handicap-mgc-3pt5",
+    "question": "Map 1 Rounds Handicap: magic (-3.5) vs BIG (+3.5)",
+    "outcomes": "[\"magic\", \"BIG\"]",
+    "clobTokenIds": "[\"36918467532484329263035265366918900294618698872527954876770515684040091499778\", \"57799420009505394930717264914381170788722169602005781731774852512949255342794\"]",
+    "sportsMarketType": "round_handicap_game_1",
+    "line": -3.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "cs2-mgc-big5-2026-10-27-game1-round-total-21pt5",
+    "question": "Map 1 Total Rounds: Over/Under 21.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"87439911940043337227497544767335318973396682078029358089802883789139090926581\", \"66758900528891244147194797324116742336290003548797060196847595695212010257820\"]",
+    "sportsMarketType": "round_over_under_game_1",
+    "line": 21.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "cs2-mgc-big5-2026-10-27-game2-round-total-21pt5",
+    "question": "Map 2 Total Rounds: Over/Under 21.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"16611461780992513635104556214655351000731125619331576896418015824220470226328\", \"99227523496518262870290894337662912470918757842033967475778475686550986518173\"]",
+    "sportsMarketType": "round_over_under_game_2",
+    "line": 21.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "cs2-mgc-big5-2026-10-27-game2-round-handicap-big5-3pt5",
+    "question": "Map 2 Rounds Handicap: BIG (-3.5) vs magic (+3.5)",
+    "outcomes": "[\"BIG\", \"magic\"]",
+    "clobTokenIds": "[\"22394163431916424901105441462729330885612213829820125610098178093211803147953\", \"3515617311460433807771308483002082679657434874534926021601669324006121955326\"]",
+    "sportsMarketType": "round_handicap_game_2",
+    "line": -3.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "cs2-mgc-big5-2026-10-27-game3-round-total-21pt5",
+    "question": "Map 3 Total Rounds: Over/Under 21.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"87807981889039247298424206953478806157514047671189006112875635987634117920467\", \"62124667312128107419235551978937833882424183610429352007519357924374461606672\"]",
+    "sportsMarketType": "round_over_under_game_3",
+    "line": 21.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "cs2-mgc-big5-2026-10-27-game3-round-handicap-big5-3pt5",
+    "question": "Map 3 Rounds Handicap: BIG (-3.5) vs magic (+3.5)",
+    "outcomes": "[\"BIG\", \"magic\"]",
+    "clobTokenIds": "[\"46638196392062906425773434228086687906044407563167672051683388541873067835171\", \"29286125317818043989763321201034015803184527052240322817663913062543912802699\"]",
+    "sportsMarketType": "round_handicap_game_3",
+    "line": -3.5,
+    "active": true,
+    "closed": false
+   }
+  ]
+ }
+]

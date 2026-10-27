@@ -1,0 +1,611 @@
+{
+  "cursor": null,
+  "data": [
+    {
+      "createdAt": "2026-10-12T04:11:23.093Z",
+      "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET: This market will resolve based on the final score of the Liverpool FC vs. Brighton & Hove Albion FC match originally scheduled for October 25, 2026 at 10:00 AM ET, considering only the result at the end of 90 minutes of regulation plus stoppage time; extra time and penalty shoot-outs are excluded. If the actual score is not one of the explicitly listed outcomes, the market resolves to \"Any Other Score.\" If the match is postponed, the market will remain open until it is completed; if it is canceled with no make-up game, the market resolves to \"0-0.\" The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+      "endsAt": "2026-10-25T16:00:00.000Z",
+      "id": 598180,
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "isVisible": true,
+      "isYieldBearing": true,
+      "marketVariant": "SPORTS_EXACT_SCORE",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-exact-score",
+          "conditionId": "0xc591f8583fc6c5be9e350a005311a80b8491c1b6b25bef0d01a8866815013751",
+          "createdAt": "2026-10-12T04:11:23.093Z",
+          "decimalPrecision": 3,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET: This market will resolve based on the final score of the Liverpool FC vs. Brighton & Hove Albion FC match originally scheduled for October 25, 2026 at 10:00 AM ET, considering only the result at the end of 90 minutes of regulation plus stoppage time; extra time and penalty shoot-outs are excluded. If the actual score is not one of the explicitly listed outcomes, the market resolves to \"Any Other Score.\" If the match is postponed, the market will remain open until it is completed; if it is canceled with no make-up game, the market resolves to \"0-0.\" The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225626,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_EXACT_SCORE",
+          "marketVariant": "SPORTS_EXACT_SCORE",
+          "oracleQuestionId": "0x78cf9cc9a44350685280ecf951ca2d4a3216e1634da3800c9416d81d576997d0",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.05,
+                "size": 150
+              },
+              "bestBid": {
+                "price": 0.037,
+                "size": 1501.6
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "60348575109104677683062422543953133664458161389895518798128606720107612346391",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.963,
+                "size": 1501.6
+              },
+              "bestBid": {
+                "price": 0.95,
+                "size": 150
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "52919184055711921181380989246151715182212039649305376622717931221007578892352",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x72c71336b49d2be910f3e9fb2ade996d810f85f011029106dc6522f2dfe6132e"
+          ],
+          "question": "Exact Score: Liverpool FC 0 - 0 Brighton & Hove Albion FC?",
+          "questionIndex": 0,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.04,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "LIV 0 - 0 BRI",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-exact-score",
+          "conditionId": "0xcafec94507a682ad377010d8927662169337a09656f396ccff99f827f3626b74",
+          "createdAt": "2026-10-12T04:11:23.093Z",
+          "decimalPrecision": 3,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET: This market will resolve based on the final score of the Liverpool FC vs. Brighton & Hove Albion FC match originally scheduled for October 25, 2026 at 10:00 AM ET, considering only the result at the end of 90 minutes of regulation plus stoppage time; extra time and penalty shoot-outs are excluded. If the actual score is not one of the explicitly listed outcomes, the market resolves to \"Any Other Score.\" If the match is postponed, the market will remain open until it is completed; if it is canceled with no make-up game, the market resolves to \"0-0.\" The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225630,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_EXACT_SCORE",
+          "marketVariant": "SPORTS_EXACT_SCORE",
+          "oracleQuestionId": "0x59692391ea3980d8df63fc5d1d4acab217d2ddce01d04dfb58b371b6477e2a4a",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.06,
+                "size": 300
+              },
+              "bestBid": {
+                "price": 0.05,
+                "size": 166.2412
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "114709768216426439925759721495653310510597421826776731056817631456335477967549",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.95,
+                "size": 166.2412
+              },
+              "bestBid": {
+                "price": 0.94,
+                "size": 300
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "23200052959236437984006277333891429177817055499534217383137332490145530956144",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x65f02f9eb82dd6bc57000f78f223a39e5f794174f78c0aa47df97c5dd08eb47e"
+          ],
+          "question": "Exact Score: Liverpool FC 0 - 1 Brighton & Hove Albion FC?",
+          "questionIndex": 6,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.04,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "LIV 0 - 1 BRI",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-exact-score",
+          "conditionId": "0x1fa5ac208f30400c763377ac0974b3926c9335cc01e7720476bfd606bb150952",
+          "createdAt": "2026-10-12T04:11:23.093Z",
+          "decimalPrecision": 3,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET: This market will resolve based on the final score of the Liverpool FC vs. Brighton & Hove Albion FC match originally scheduled for October 25, 2026 at 10:00 AM ET, considering only the result at the end of 90 minutes of regulation plus stoppage time; extra time and penalty shoot-outs are excluded. If the actual score is not one of the explicitly listed outcomes, the market resolves to \"Any Other Score.\" If the match is postponed, the market will remain open until it is completed; if it is canceled with no make-up game, the market resolves to \"0-0.\" The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225633,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_EXACT_SCORE",
+          "marketVariant": "SPORTS_EXACT_SCORE",
+          "oracleQuestionId": "0x449f3c1193a03d9708c77f7026d553380e944fcef9eb1e100a7513c4369c9a87",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.076,
+                "size": 1000
+              },
+              "bestBid": {
+                "price": 0.065,
+                "size": 5128.2
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "14655441854901480715724639942805744055632584879693187176771884251217830434943",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.935,
+                "size": 5128.2
+              },
+              "bestBid": {
+                "price": 0.924,
+                "size": 1000
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "115203033183722740149197736739295422624317469873757417842550839877198598133392",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x38b5683b04deaa75ca12228f945bf498d1264c75f6276407db6a1631fbe191ef"
+          ],
+          "question": "Exact Score: Liverpool FC 1 - 0 Brighton & Hove Albion FC?",
+          "questionIndex": 4,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.04,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "LIV 1 - 0 BRI",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-exact-score",
+          "conditionId": "0x0391365d1d1f01c7e77f0d4f8c8159d88fba9c8af253d95a6f80b0ace35bcf19",
+          "createdAt": "2026-10-12T04:11:23.093Z",
+          "decimalPrecision": 3,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET: This market will resolve based on the final score of the Liverpool FC vs. Brighton & Hove Albion FC match originally scheduled for October 25, 2026 at 10:00 AM ET, considering only the result at the end of 90 minutes of regulation plus stoppage time; extra time and penalty shoot-outs are excluded. If the actual score is not one of the explicitly listed outcomes, the market resolves to \"Any Other Score.\" If the match is postponed, the market will remain open until it is completed; if it is canceled with no make-up game, the market resolves to \"0-0.\" The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225641,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_EXACT_SCORE",
+          "marketVariant": "SPORTS_EXACT_SCORE",
+          "oracleQuestionId": "0x66ce9874f91b547cf28858b3faab5d935789230041da8bd0b703e77941ce5950",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.12,
+                "size": 150
+              },
+              "bestBid": {
+                "price": 0.105,
+                "size": 150
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "26316949726497551121006233332805686274555457975708186388731029355479660490489",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.895,
+                "size": 150
+              },
+              "bestBid": {
+                "price": 0.88,
+                "size": 150
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "71130857025655473155841999043935949125061660923641954517492845574512664529821",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x4b1a4f79ba1c9868b979aeeb958f50dd0393c7bff304989c20803558e487e185"
+          ],
+          "question": "Exact Score: Liverpool FC 1 - 1 Brighton & Hove Albion FC?",
+          "questionIndex": 7,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.04,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "LIV 1 - 1 BRI",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-exact-score",
+          "conditionId": "0x689109025563a45f634c28c758fa82659e01df05a8d5b0915c56c217ac52237a",
+          "createdAt": "2026-10-12T04:11:23.093Z",
+          "decimalPrecision": 3,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET: This market will resolve based on the final score of the Liverpool FC vs. Brighton & Hove Albion FC match originally scheduled for October 25, 2026 at 10:00 AM ET, considering only the result at the end of 90 minutes of regulation plus stoppage time; extra time and penalty shoot-outs are excluded. If the actual score is not one of the explicitly listed outcomes, the market resolves to \"Any Other Score.\" If the match is postponed, the market will remain open until it is completed; if it is canceled with no make-up game, the market resolves to \"0-0.\" The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225656,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_EXACT_SCORE",
+          "marketVariant": "SPORTS_EXACT_SCORE",
+          "oracleQuestionId": "0xf19a45948606eeba0df2e94facaacab268f0000b27424372b35c2d0a80c20d6d",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.098,
+                "size": 979.5918367346939
+              },
+              "bestBid": {
+                "price": 0.091,
+                "size": 4415
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "61947769826647679348912312902554848640348142346963480619579768973869799936015",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.909,
+                "size": 4415
+              },
+              "bestBid": {
+                "price": 0.902,
+                "size": 979.5918367346939
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "63308334018448098694513710129388933227785335953736096174620712048741857843460",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x96460e65d2074182746dcb75822ed2a9a712ef60a9a88e56153e5d2ef64b9bf1"
+          ],
+          "question": "Exact Score: Liverpool FC 2 - 1 Brighton & Hove Albion FC?",
+          "questionIndex": 8,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.04,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "LIV 2 - 1 BRI",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-exact-score",
+          "conditionId": "0xdbe37226cbf8ff490949c2794bd0349b2d6d615f17f2dbc95282dee7d48289a1",
+          "createdAt": "2026-10-12T04:11:23.093Z",
+          "decimalPrecision": 3,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25, 2026 at 10:00 AM ET: This market will resolve based on the final score of the Liverpool FC vs. Brighton & Hove Albion FC match originally scheduled for October 25, 2026 at 10:00 AM ET, considering only the result at the end of 90 minutes of regulation plus stoppage time; extra time and penalty shoot-outs are excluded. If the actual score is not one of the explicitly listed outcomes, the market resolves to \"Any Other Score.\" If the match is postponed, the market will remain open until it is completed; if it is canceled with no make-up game, the market resolves to \"0-0.\" The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225769,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_EXACT_SCORE",
+          "marketVariant": "SPORTS_EXACT_SCORE",
+          "oracleQuestionId": "0x0cc7a3fe2ea36c67ad61b3615fdb50d0ff0e51bfde0eedf8062cf836f5f4a2cc",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.199,
+                "size": 121.51
+              },
+              "bestBid": null,
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "29719910115602097436673436118597459278987969564693408880771149892611212946819",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": null,
+              "bestBid": {
+                "price": 0.801,
+                "size": 121.51
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "6914375901967146744952535677872193018947199818214951824341486325614179879279",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xfa72be82757026c5937e7313a27308d1b0bf965b6af16e30bb014399aa9d9603"
+          ],
+          "question": "Exact Score: Any Other Score?",
+          "questionIndex": 33,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.04,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Any Other Score",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        }
+      ],
+      "negRiskOnChainId": "0x24543563b7e931dd49974ddae191d5d6d956991e4f9e0124cf176f9bfbe04000",
+      "parentSlug": "epl-liv-bri-2026-10-25",
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-18T14:00:41.498Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "epl-liv-bri-2026-10-25-exact-score",
+      "startsAt": "2026-10-25T14:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "14",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "546",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "EPL",
+          "parentId": "14"
+        }
+      ],
+      "teams": null,
+      "title": "Liverpool FC vs. Brighton & Hove Albion FC - Exact Score",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1175006",
+          "teams": [
+            {
+              "abbreviation": "liv",
+              "color": "#cf2029",
+              "id": 136,
+              "isHome": true,
+              "name": "Liverpool FC",
+              "providerTeamId": "100017",
+              "record": {
+                "draws": 3,
+                "losses": 1,
+                "wins": 3
+              }
+            },
+            {
+              "abbreviation": "bri",
+              "color": "#155a93",
+              "id": 4261,
+              "isHome": false,
+              "name": "Brighton & Hove Albion FC",
+              "providerTeamId": "100015",
+              "record": {
+                "draws": 1,
+                "losses": 1,
+                "wins": 5
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

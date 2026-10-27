@@ -1,0 +1,413 @@
+{
+  "source": "footballcom",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "sr:match:71945346",
+      "leagueHint": "SERIEA",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "kickoff": "2026-10-29T19:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945348",
+      "leagueHint": "SERIEA",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "kickoff": "2026-10-29T17:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945350",
+      "leagueHint": "SERIEA",
+      "home": "Genoa",
+      "away": "Juventus",
+      "kickoff": "2026-10-28T19:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945352",
+      "leagueHint": "SERIEA",
+      "home": "AC Milan",
+      "away": "Bologna",
+      "kickoff": "2026-10-28T17:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945354",
+      "leagueHint": "SERIEA",
+      "home": "Monza",
+      "away": "Napoli",
+      "kickoff": "2026-10-28T19:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945356",
+      "leagueHint": "SERIEA",
+      "home": "Parma Calcio",
+      "away": "Udinese",
+      "kickoff": "2026-10-28T17:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945358",
+      "leagueHint": "SERIEA",
+      "home": "Roma",
+      "away": "Cagliari",
+      "kickoff": "2026-10-27T19:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945360",
+      "leagueHint": "SERIEA",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "kickoff": "2026-10-27T17:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945362",
+      "leagueHint": "SERIEA",
+      "home": "Torino",
+      "away": "Como 1907",
+      "kickoff": "2026-10-27T19:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945364",
+      "leagueHint": "SERIEA",
+      "home": "Venezia FC",
+      "away": "Inter",
+      "kickoff": "2026-10-28T17:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945366",
+      "leagueHint": "SERIEA",
+      "home": "Atalanta",
+      "away": "Parma Calcio",
+      "kickoff": "2026-11-02T19:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945368",
+      "leagueHint": "SERIEA",
+      "home": "Bologna",
+      "away": "Monza",
+      "kickoff": "2026-10-31T14:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945370",
+      "leagueHint": "SERIEA",
+      "home": "Como 1907",
+      "away": "Venezia FC",
+      "kickoff": "2026-11-01T11:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945372",
+      "leagueHint": "SERIEA",
+      "home": "Frosinone",
+      "away": "Torino",
+      "kickoff": "2026-11-01T14:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945374",
+      "leagueHint": "SERIEA",
+      "home": "Juventus",
+      "away": "Napoli",
+      "kickoff": "2026-11-01T19:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945376",
+      "leagueHint": "SERIEA",
+      "home": "Lazio",
+      "away": "Cagliari",
+      "kickoff": "2026-11-01T14:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945378",
+      "leagueHint": "SERIEA",
+      "home": "Lecce",
+      "away": "Genoa",
+      "kickoff": "2026-11-01T17:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945380",
+      "leagueHint": "SERIEA",
+      "home": "AC Milan",
+      "away": "Inter",
+      "kickoff": "2026-10-31T19:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945382",
+      "leagueHint": "SERIEA",
+      "home": "Sassuolo",
+      "away": "Fiorentina",
+      "kickoff": "2026-11-02T17:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:71945384",
+      "leagueHint": "SERIEA",
+      "home": "Udinese",
+      "away": "Roma",
+      "kickoff": "2026-10-31T17:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041212",
+      "leagueHint": "ERED",
+      "home": "Feyenoord",
+      "away": "Fortuna Sittard",
+      "kickoff": "2026-10-31T15:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041214",
+      "leagueHint": "ERED",
+      "home": "PSV Eindhoven",
+      "away": "Willem II Tilburg",
+      "kickoff": "2026-10-31T17:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041216",
+      "leagueHint": "ERED",
+      "home": "SC Heerenveen",
+      "away": "NEC Nijmegen",
+      "kickoff": "2026-10-31T17:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041218",
+      "leagueHint": "ERED",
+      "home": "Ajax",
+      "away": "Alkmaar",
+      "kickoff": "2026-10-31T20:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041220",
+      "leagueHint": "ERED",
+      "home": "SC Cambuur",
+      "away": "Go Ahead Eagles",
+      "kickoff": "2026-10-31T20:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041222",
+      "leagueHint": "ERED",
+      "home": "PEC Zwolle",
+      "away": "ADO Den Haag",
+      "kickoff": "2026-11-01T11:15:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041224",
+      "leagueHint": "ERED",
+      "home": "Excelsior Rotterdam",
+      "away": "FC Twente Enschede",
+      "kickoff": "2026-11-01T13:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041226",
+      "leagueHint": "ERED",
+      "home": "SC Telstar",
+      "away": "FC Utrecht",
+      "kickoff": "2026-11-01T13:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041228",
+      "leagueHint": "ERED",
+      "home": "FC Groningen",
+      "away": "Sparta Rotterdam",
+      "kickoff": "2026-11-01T15:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041230",
+      "leagueHint": "ERED",
+      "home": "Willem II Tilburg",
+      "away": "PEC Zwolle",
+      "kickoff": "2026-11-06T19:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041232",
+      "leagueHint": "ERED",
+      "home": "Fortuna Sittard",
+      "away": "SC Telstar",
+      "kickoff": "2026-11-07T15:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041234",
+      "leagueHint": "ERED",
+      "home": "Excelsior Rotterdam",
+      "away": "Go Ahead Eagles",
+      "kickoff": "2026-11-07T20:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041236",
+      "leagueHint": "ERED",
+      "home": "SC Cambuur",
+      "away": "PSV Eindhoven",
+      "kickoff": "2026-11-08T15:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041238",
+      "leagueHint": "ERED",
+      "home": "ADO Den Haag",
+      "away": "Sparta Rotterdam",
+      "kickoff": "2026-11-07T17:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041240",
+      "leagueHint": "ERED",
+      "home": "SC Heerenveen",
+      "away": "Feyenoord",
+      "kickoff": "2026-11-08T11:15:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041242",
+      "leagueHint": "ERED",
+      "home": "FC Twente Enschede",
+      "away": "Ajax",
+      "kickoff": "2026-11-08T13:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041244",
+      "leagueHint": "ERED",
+      "home": "FC Utrecht",
+      "away": "NEC Nijmegen",
+      "kickoff": "2026-11-08T19:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72041246",
+      "leagueHint": "ERED",
+      "home": "Alkmaar",
+      "away": "FC Groningen",
+      "kickoff": "2026-11-08T15:45:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221352",
+      "leagueHint": "EPL",
+      "home": "Aston Villa",
+      "away": "Fulham",
+      "kickoff": "2026-10-31T20:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221354",
+      "leagueHint": "EPL",
+      "home": "Bournemouth",
+      "away": "Leeds United",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221356",
+      "leagueHint": "EPL",
+      "home": "Brentford",
+      "away": "Nottingham Forest",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221358",
+      "leagueHint": "EPL",
+      "home": "Chelsea",
+      "away": "Man Utd",
+      "kickoff": "2026-10-31T12:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221360",
+      "leagueHint": "EPL",
+      "home": "Coventry City",
+      "away": "Sunderland AFC",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221362",
+      "leagueHint": "EPL",
+      "home": "Hull City",
+      "away": "Ipswich Town",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221364",
+      "leagueHint": "EPL",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "kickoff": "2026-11-01T16:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221366",
+      "leagueHint": "EPL",
+      "home": "Man City",
+      "away": "Brighton",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221368",
+      "leagueHint": "EPL",
+      "home": "Newcastle",
+      "away": "Everton",
+      "kickoff": "2026-11-02T20:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221370",
+      "leagueHint": "EPL",
+      "home": "Tottenham",
+      "away": "Crystal Palace",
+      "kickoff": "2026-10-31T17:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221372",
+      "leagueHint": "EPL",
+      "home": "Arsenal",
+      "away": "Hull City",
+      "kickoff": "2026-11-07T15:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221374",
+      "leagueHint": "EPL",
+      "home": "Brighton",
+      "away": "Brentford",
+      "kickoff": "2026-11-08T14:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221376",
+      "leagueHint": "EPL",
+      "home": "Crystal Palace",
+      "away": "Liverpool",
+      "kickoff": "2026-11-08T14:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221378",
+      "leagueHint": "EPL",
+      "home": "Everton",
+      "away": "Coventry City",
+      "kickoff": "2026-11-06T20:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221380",
+      "leagueHint": "EPL",
+      "home": "Fulham",
+      "away": "Newcastle",
+      "kickoff": "2026-11-07T15:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221382",
+      "leagueHint": "EPL",
+      "home": "Ipswich Town",
+      "away": "Bournemouth",
+      "kickoff": "2026-11-08T14:00:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221384",
+      "leagueHint": "EPL",
+      "home": "Leeds United",
+      "away": "Tottenham",
+      "kickoff": "2026-11-07T12:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221386",
+      "leagueHint": "EPL",
+      "home": "Man Utd",
+      "away": "Aston Villa",
+      "kickoff": "2026-11-08T16:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221388",
+      "leagueHint": "EPL",
+      "home": "Nottingham Forest",
+      "away": "Man City",
+      "kickoff": "2026-11-07T17:30:00Z"
+    },
+    {
+      "sourceId": "sr:match:72221390",
+      "leagueHint": "EPL",
+      "home": "Sunderland AFC",
+      "away": "Chelsea",
+      "kickoff": "2026-11-08T14:00:00Z"
+    }
+  ],
+  "markets": null
+}

@@ -1,0 +1,51 @@
+{
+ "squad": {
+  "squad": [
+   {
+    "title": "coach",
+    "members": [
+     {
+      "id": 179347,
+      "name": "Thomas Tuchel",
+      "ccode": "GER",
+      "cname": "Germany"
+     }
+    ]
+   },
+   {
+    "title": "keepers",
+    "members": [
+     {
+      "id": 303919,
+      "name": "Jordan Pickford",
+      "ccode": "8668",
+      "cname": "Everton"
+     },
+     {
+      "id": 1187213,
+      "name": "James Trafford",
+      "ccode": "8463",
+      "cname": "Leeds United"
+     }
+    ]
+   },
+   {
+    "title": "attackers",
+    "members": [
+     {
+      "id": 961995,
+      "name": "Bukayo Saka",
+      "ccode": "9825",
+      "cname": "Arsenal"
+     },
+     {
+      "id": 194165,
+      "name": "Harry Kane",
+      "ccode": "9823",
+      "cname": "Bayern München"
+     }
+    ]
+   }
+  ]
+ }
+}

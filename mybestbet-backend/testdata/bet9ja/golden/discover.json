@@ -1,0 +1,49 @@
+{
+  "source": "bet9ja",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "852457479",
+      "leagueHint": "EPL",
+      "home": "Manchester City",
+      "away": "Brighton",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "852457626",
+      "leagueHint": "EPL",
+      "home": "Chelsea",
+      "away": "Manchester Utd",
+      "kickoff": "2026-10-31T12:30:00Z"
+    },
+    {
+      "sourceId": "852457641",
+      "leagueHint": "EPL",
+      "home": "Hull City",
+      "away": "Ipswich Town",
+      "kickoff": "2026-10-31T15:00:00Z"
+    },
+    {
+      "sourceId": "853145775",
+      "leagueHint": "SERIEA",
+      "home": "Roma",
+      "away": "Cagliari",
+      "kickoff": "2026-10-27T19:45:00Z"
+    },
+    {
+      "sourceId": "853145916",
+      "leagueHint": "SERIEA",
+      "home": "Torino",
+      "away": "Como",
+      "kickoff": "2026-10-27T19:45:00Z"
+    },
+    {
+      "sourceId": "853145917",
+      "leagueHint": "SERIEA",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "kickoff": "2026-10-27T17:30:00Z"
+    }
+  ],
+  "markets": null
+}

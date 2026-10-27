@@ -1,0 +1,15 @@
+.pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 4px 2px; min-width: 0; }
+.count { font-family: var(--mono); font-size: 12.5px; color: var(--fg-2); white-space: nowrap; }
+.count span { color: var(--fg-3); }
+.numbers { display: flex; align-items: center; gap: 2px; margin-left: auto; }
+.button { min-width: 30px; height: 30px; padding: 0 6px; display: inline-flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 13px; color: var(--fg-3); border-radius: var(--r-sm); transition: color .15s; }
+.button:hover:not(:disabled) { color: var(--fg); }
+.button[aria-current="page"] { color: var(--blue); font-weight: 600; }
+.button:disabled { opacity: .3; cursor: default; }
+.arrow { color: var(--fg-2); }
+.ellipsis { min-width: 18px; text-align: center; color: var(--fg-3); font-size: 13px; }
+
+@media (max-width: 600px) {
+  .button { min-width: 28px; padding: 0 4px; }
+  .pager { gap: 8px; }
+}

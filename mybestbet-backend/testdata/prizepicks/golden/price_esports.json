@@ -1,0 +1,91 @@
+{
+  "source": "prizepicks",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "CS2-6901",
+      "code": "ES_KILLS",
+      "line": 18.5,
+      "player": {
+        "sourceId": "701",
+        "name": "ZywOo",
+        "team": "Team Vitality"
+      },
+      "period": "M1",
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 18.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100025"
+    },
+    {
+      "eventSourceId": "CS2-6901",
+      "code": "ES_KILLS",
+      "line": 37.5,
+      "player": {
+        "sourceId": "701",
+        "name": "ZywOo",
+        "team": "Team Vitality"
+      },
+      "period": "M1-2",
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 37.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100026"
+    },
+    {
+      "eventSourceId": "CS2-6901",
+      "code": "ES_KILLS",
+      "line": 13.5,
+      "player": {
+        "sourceId": "702",
+        "name": "Aleksib",
+        "team": "Natus Vincere"
+      },
+      "period": "M1",
+      "selections": [
+        {
+          "side": "over",
+          "label": "goblin",
+          "price": {
+            "raw": 13.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100027"
+    }
+  ]
+}

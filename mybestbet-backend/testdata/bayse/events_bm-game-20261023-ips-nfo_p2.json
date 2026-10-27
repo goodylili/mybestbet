@@ -1,0 +1,262 @@
+{
+ "events": [
+  {
+   "id": "6efe6c63-9883-4466-9488-87b019f23e00",
+   "slug": "morgan-gibbs-white-3-shots-vs-ips-20261023",
+   "title": "Morgan Gibbs-White: 3 Shots vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Shots"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_SHOTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 20577.25,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "d67bc7a9-1663-47c5-a615-67cbb96ba9c7",
+     "title": "O/U 3",
+     "status": "open",
+     "outcome1Id": "9a291945-db70-4458-bcc7-f01fb1259881",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5,
+     "outcome2Id": "7af1a745-1c46-49d7-8de5-3dd2a5e359d8",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5,
+     "propLine": 3,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Morgan Gibbs-White records more than 3 shots during the match against Ipswich Town FC. It will resolve as **Under** if Morgan Gibbs-White records fewer than 3 shots during the match against Ipswich To"
+    }
+   ]
+  },
+  {
+   "id": "b141994a-effb-4a16-ab75-3443b7142f8d",
+   "slug": "james-mcatee-1-5-shots-vs-ips-20261023",
+   "title": "James McAtee: 1.5 Shots vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Shots"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_SHOTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "39c360df-d9af-4484-8093-c3cf35a80711",
+     "title": "O/U 1.5",
+     "status": "open",
+     "outcome1Id": "fc87ba43-b54d-4730-b682-d60190b1034f",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "7ce5c728-a21e-4943-a85c-6f963faef7c3",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 1.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if James McAtee records more than 1.5 shots during the match against Ipswich Town FC. It will resolve as **Under** if James McAtee records fewer than 1.5 shots during the match against Ipswich Town FC. I"
+    }
+   ]
+  },
+  {
+   "id": "7ee5d600-19ad-4e68-80d4-434ad8869655",
+   "slug": "dara-o-shea-5-5-clearances-vs-nfo-20261023",
+   "title": "Dara O'Shea: 5.5 Clearances vs Nottingham Forest FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Clearances"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_CLEARANCES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "26caf397-ecd8-4347-8e11-988e13f10d76",
+     "title": "O/U 5.5",
+     "status": "open",
+     "outcome1Id": "417ccad2-8ccd-4300-b619-14dd792da4cb",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "53571c37-e512-412a-9d12-1f8632adb938",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 5.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Dara O'Shea records more than 5.5 clearances during the match against Nottingham Forest FC. It will resolve as **Under** if Dara O'Shea records fewer than 5.5 clearances during the match against Notti"
+    }
+   ]
+  },
+  {
+   "id": "ae4c0821-984e-4a9e-b318-74456383fe59",
+   "slug": "julio-enciso-3-shots-vs-nfo-20261023",
+   "title": "Julio Enciso: 3 Shots vs Nottingham Forest FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Shots"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_SHOTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 20577.25,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "b479a73c-1fb8-4dab-a592-9d4e1c603404",
+     "title": "O/U 3",
+     "status": "open",
+     "outcome1Id": "0fe24fdf-29eb-43ce-8722-5659c0c28621",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5,
+     "outcome2Id": "23dffa84-06c4-4f91-ae69-27fda82867b9",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5,
+     "propLine": 3,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Julio Enciso records more than 3 shots during the match against Nottingham Forest FC. It will resolve as **Under** if Julio Enciso records fewer than 3 shots during the match against Nottingham Forest"
+    }
+   ]
+  },
+  {
+   "id": "d94525c2-00fe-4787-9315-110bdae708be",
+   "slug": "christian-walton-3-saves-vs-nfo-20261023",
+   "title": "Christian Walton: 3 Saves vs Nottingham Forest FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Saves"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_SAVES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "223367ac-31a8-439d-9b11-d3cff0e7aa17",
+     "title": "O/U 3",
+     "status": "open",
+     "outcome1Id": "3dfdc0cf-b879-464f-b3cd-dee8990801f7",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "0d05d9c4-b396-4a8e-847b-8c71e4472b2a",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 3,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Christian Walton records more than 3 saves during the match against Nottingham Forest FC. It will resolve as **Under** if Christian Walton records fewer than 3 saves during the match against Nottingha"
+    }
+   ]
+  },
+  {
+   "id": "afc6825c-8e7f-408b-843e-bd26d96e4647",
+   "slug": "matz-sels-3-saves-vs-ips-20261023",
+   "title": "Matz Sels: 3 Saves vs Ipswich Town FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-23T19:00:00Z",
+   "resolutionDate": "2026-10-23T23:00:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Saves"
+   ],
+   "sportGameId": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "sportGameSlug": "bm-game-20261023-ips-nfo",
+   "sportMarketType": "PLAYER_SAVES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "9db218d3-8d1d-4b57-9247-9321efb5d951",
+     "title": "O/U 3",
+     "status": "open",
+     "outcome1Id": "d42f9498-31a1-48c5-a031-cec03de93bc8",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "4e182dbd-3d3a-4d62-9da4-b97aac4b9e23",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 3,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Matz Sels records more than 3 saves during the match against Ipswich Town FC. It will resolve as **Under** if Matz Sels records fewer than 3 saves during the match against Ipswich Town FC. If Matz Sel"
+    }
+   ]
+  }
+ ],
+ "pagination": {
+  "lastPage": 2,
+  "page": 2,
+  "size": 20,
+  "totalCount": 26
+ }
+}

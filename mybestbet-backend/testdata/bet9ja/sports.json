@@ -1,0 +1,284 @@
+{
+ "R": "OK",
+ "D": {
+  "PAL": {
+   "1": {
+    "S_DESC": "Soccer",
+    "SG": {
+     "11058": {
+      "SG_DESC": "England",
+      "G": {
+       "1698457": {
+        "G_DESC": "EFL Trophy",
+        "D": "2026-10-27 19:00:00"
+       },
+       "2567634": {
+        "G_DESC": "Professional Development League",
+        "D": "2026-10-27 19:00:00"
+       },
+       "1660691": {
+        "G_DESC": "Northern Premier League, Premier Division",
+        "D": "2026-10-27 19:45:00"
+       },
+       "1057831": {
+        "G_DESC": "National League",
+        "D": "2026-10-27 19:45:00"
+       },
+       "1660731": {
+        "G_DESC": "National League North",
+        "D": "2026-10-27 19:45:00"
+       },
+       "990749": {
+        "G_DESC": "EFL Cup",
+        "D": "2026-10-27 19:45:00"
+       },
+       "1660641": {
+        "G_DESC": "Southern League, Premier Division South",
+        "D": "2026-10-27 19:45:00"
+       },
+       "1042148": {
+        "G_DESC": "FA Trophy",
+        "D": "2026-10-27 19:45:00"
+       },
+       "1660692": {
+        "G_DESC": "Isthmian League, Premier Division",
+        "D": "2026-10-27 19:45:00"
+       },
+       "990587": {
+        "G_DESC": "FA Womens Super League",
+        "D": "2026-10-31 12:45:00"
+       },
+       "170881": {
+        "G_DESC": "Championship",
+        "D": "2026-10-31 12:30:00"
+       },
+       "1026353": {
+        "G_DESC": "Premier League 2",
+        "D": "2026-10-26 19:00:00"
+       },
+       "1660637": {
+        "G_DESC": "National League South",
+        "D": "2026-10-27 19:45:00"
+       },
+       "170880": {
+        "G_DESC": "Premier League",
+        "D": "2026-10-31 15:00:00"
+       },
+       "995354": {
+        "G_DESC": "League One",
+        "D": "2026-10-27 19:45:00"
+       },
+       "1660513": {
+        "G_DESC": "Southern League, Premier Division Central",
+        "D": "2026-10-27 19:45:00"
+       },
+       "995355": {
+        "G_DESC": "League Two",
+        "D": "2026-10-26 20:00:00"
+       }
+      }
+     },
+     "10924": {
+      "SG_DESC": "Italy",
+      "G": {
+       "1674887": {
+        "G_DESC": "Coppa Italia Serie C",
+        "D": "2026-10-28 19:30:00"
+       },
+       "907202": {
+        "G_DESC": "Serie B",
+        "D": "2026-10-28 19:00:00"
+       },
+       "1044107": {
+        "G_DESC": "Serie C",
+        "D": "2026-10-27 13:30:00"
+       },
+       "167856": {
+        "G_DESC": "Serie A",
+        "D": "2026-10-28 17:30:00"
+       },
+       "1248226": {
+        "G_DESC": "Primavera Cup",
+        "D": "2026-10-27 10:00:00"
+       }
+      }
+     },
+     "10943": {
+      "SG_DESC": "Germany",
+      "G": {
+       "184976": {
+        "G_DESC": "DFB Pokal",
+        "D": "2026-10-27 19:45:00"
+       },
+       "168228": {
+        "G_DESC": "3. Liga",
+        "D": "2026-10-31 13:00:00"
+       },
+       "180923": {
+        "G_DESC": "Bundesliga",
+        "D": "2026-11-07 14:30:00"
+       },
+       "180924": {
+        "G_DESC": "2. Bundesliga",
+        "D": "2026-10-31 12:00:00"
+       }
+      }
+     }
+    }
+   },
+   "2": {
+    "S_DESC": "Basketball",
+    "SG": {
+     "43460": {
+      "SG_DESC": "USA",
+      "G": {
+       "4212492": {
+        "G_DESC": "NBA",
+        "D": "2026-10-26 23:00:00"
+       },
+       "4759871": {
+        "G_DESC": "WNBA",
+        "D": "2026-10-27 00:00:00"
+       }
+      }
+     },
+     "43353": {
+      "SG_DESC": "International",
+      "G": {
+       "4212483": {
+        "G_DESC": "Eurocup, Women",
+        "D": "2026-10-26 17:00:00"
+       },
+       "4212495": {
+        "G_DESC": "Eurocup",
+        "D": "2026-10-27 19:00:00"
+       },
+       "4231803": {
+        "G_DESC": "European North Basketball League",
+        "D": "2026-10-27 18:00:00"
+       },
+       "4212497": {
+        "G_DESC": "Champions League",
+        "D": "2026-10-27 18:00:00"
+       },
+       "4212502": {
+        "G_DESC": "Estonian-Latvian League",
+        "D": "2026-10-27 17:30:00"
+       },
+       "4212490": {
+        "G_DESC": "Euroleague",
+        "D": "2026-10-27 19:30:00"
+       },
+       "4136897": {
+        "G_DESC": "United League",
+        "D": "2026-10-26 16:30:00"
+       }
+      }
+     }
+    }
+   },
+   "70": {
+    "S_DESC": "American Football",
+    "SG": {
+     "45438": {
+      "SG_DESC": "USA",
+      "G": {
+       "5615708": {
+        "G_DESC": "NCAA, Regular Season",
+        "D": "2026-10-31 19:30:00"
+       },
+       "5614206": {
+        "G_DESC": "NFL",
+        "D": "2026-11-01 21:25:00"
+       }
+      }
+     }
+    }
+   },
+   "5": {
+    "S_DESC": "Tennis",
+    "SG": {
+     "43762": {
+      "SG_DESC": "ATP",
+      "G": {
+       "5771063": {
+        "G_DESC": "ATP Basel, Switzerland Men Singles",
+        "D": "2026-10-26 14:50:00"
+       },
+       "5771140": {
+        "G_DESC": "ATP Vienna, Austria Men Singles",
+        "D": "2026-10-26 16:30:00"
+       },
+       "5775145": {
+        "G_DESC": "ATP Vienna, Austria Men Doubles",
+        "D": "2026-10-27 12:30:00"
+       },
+       "5774794": {
+        "G_DESC": "ATP Basel, Switzerland Men Doubles",
+        "D": "2026-10-27 15:40:00"
+       }
+      }
+     }
+    }
+   },
+   "301": {
+    "S_DESC": "Players Soccer",
+    "SG": {
+     "10492": {
+      "SG_DESC": "England Championship",
+      "G": {
+       "10378774": {
+        "G_DESC": "Bolton - Bristol City",
+        "D": "2026-10-31 15:00:00"
+       },
+       "10378796": {
+        "G_DESC": "Burnley - Portsmouth",
+        "D": "2026-10-31 15:00:00"
+       },
+       "10378817": {
+        "G_DESC": "Norwich - Watford",
+        "D": "2026-10-31 12:30:00"
+       },
+       "10378819": {
+        "G_DESC": "Southampton - QPR",
+        "D": "2026-10-31 15:00:00"
+       },
+       "10378818": {
+        "G_DESC": "Sheffield Utd - Wrexham",
+        "D": "2026-10-30 20:00:00"
+       },
+       "10384121": {
+        "G_DESC": "Middlesbrough - Charlton",
+        "D": "2026-10-31 15:00:00"
+       },
+       "10378820": {
+        "G_DESC": "Stoke City - Preston",
+        "D": "2026-10-31 12:30:00"
+       },
+       "10378798": {
+        "G_DESC": "Millwall - Derby County",
+        "D": "2026-10-31 15:00:00"
+       },
+       "10378842": {
+        "G_DESC": "Wolves - Cardiff City",
+        "D": "2026-10-31 15:00:00"
+       },
+       "10378841": {
+        "G_DESC": "West Ham - West Brom",
+        "D": "2026-10-31 15:00:00"
+       },
+       "10378797": {
+        "G_DESC": "Lincoln City - Birmingham City",
+        "D": "2026-10-31 12:30:00"
+       },
+       "10378821": {
+        "G_DESC": "Swansea - Blackburn Rovers",
+        "D": "2026-10-31 15:00:00"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

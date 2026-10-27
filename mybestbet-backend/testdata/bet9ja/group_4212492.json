@@ -1,0 +1,51 @@
+{
+ "R": "OK",
+ "D": {
+  "GID": 4212492,
+  "RGM": "12",
+  "GMK": [
+   {
+    "GMID": "360",
+    "NAME": "Main HT"
+   },
+   {
+    "GMID": "366",
+    "NAME": "Team Totals"
+   },
+   {
+    "GMID": "383",
+    "NAME": "Race to 5"
+   },
+   {
+    "GMID": "447",
+    "NAME": "Home/Away Total HT"
+   }
+  ],
+  "E": [
+   {
+    "ID": 856594391,
+    "DS": "Charlotte Hornets - Washington Wizards",
+    "STARTDATE": "2026-10-26 23:00:00",
+    "STARTDATEUTC": "2026-10-26T23:00:00Z",
+    "GID": 4212492,
+    "GN": "NBA"
+   },
+   {
+    "ID": 856818252,
+    "DS": "Cleveland Cavaliers - Minnesota Timberwolves",
+    "STARTDATE": "2026-10-26 23:00:00",
+    "STARTDATEUTC": "2026-10-26T23:00:00Z",
+    "GID": 4212492,
+    "GN": "NBA"
+   },
+   {
+    "ID": 856612426,
+    "DS": "Miami Heat - Dallas Mavericks",
+    "STARTDATE": "2026-10-26 23:30:00",
+    "STARTDATEUTC": "2026-10-26T23:30:00Z",
+    "GID": 4212492,
+    "GN": "NBA"
+   }
+  ]
+ }
+}

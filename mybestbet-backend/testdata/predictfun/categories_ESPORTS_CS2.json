@@ -1,0 +1,1368 @@
+{
+  "success": true,
+  "cursor": "MjIyNjYx",
+  "data": [
+    {
+      "createdAt": "2026-10-24T20:13:07.852Z",
+      "description": "This market refers to the Counter-Strike Round 2 match between Vitality and TheMongolz in the PGL Masters Bucharest Group Stage, initially scheduled for October 25, 2026 at 7:00 AM ET.\n\nThis market will resolve to \"Vitality\" if Vitality win the match against TheMongolz.\n\nThis market will resolve to \"TheMongolz\" if TheMongolz win the match against Vitality.\n\nIf the match is canceled (not played at all) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 7:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf the match begins but is not completed, and one team wins due to the opponent's forfeiture, disqualification, or walkover, this market will resolve to the team who wins. \n\nIf the match ends in a forfeit, disqualification, or walkover (team withdraws before the start and the other wins automatically), this market will resolve to 50-50. \n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n\nIn cases where a team’s listed name includes minor discrepancies from the resolution source, this market will resolve based on the underlying real-world match rather than exact name matching. Recognizable abbreviations, alternate or erroneous spellings, sponsor tags, affiliate or academy designations, regional identifiers, and minor formatting differences will be treated as referring to the same team, provided the intended team can be clearly and uniquely identified within the relevant competition. If a listed team name has no reasonable connection to any participating team, or if it matches or could reasonably refer to another team in the same competition such that the intended team cannot be unambiguously determined, this market will resolve 50-50.",
+      "endsAt": "2026-10-25T14:00:00.000Z",
+      "id": 663581,
+      "imageUrl": "https://static.predict.fun/cs2",
+      "isNegRisk": false,
+      "isVisible": true,
+      "isYieldBearing": false,
+      "marketVariant": "ESPORTS_CS2",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "cs2-vit-mglz-2026-10-25",
+          "conditionId": "0x49e07c500bd3624e8eb1d87165cf2f9eb8d205578cfe9b80e6ebc6721daf3346",
+          "createdAt": "2026-10-24T20:13:07.852Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Counter-Strike Round 2 match between Vitality and TheMongolz in the PGL Masters Bucharest Group Stage, initially scheduled for October 25, 2026 at 7:00 AM ET.\n\nThis market will resolve to \"Vitality\" if Vitality win the match against TheMongolz.\n\nThis market will resolve to \"TheMongolz\" if TheMongolz win the match against Vitality.\n\nIf the match is canceled (not played at all) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 7:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf the match begins but is not completed, and one team wins due to the opponent's forfeiture, disqualification, or walkover, this market will resolve to the team who wins. \n\nIf the match ends in a forfeit, disqualification, or walkover (team withdraws before the start and the other wins automatically), this market will resolve to 50-50. \n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n\nIn cases where a team’s listed name includes minor discrepancies from the resolution source, this market will resolve based on the underlying real-world match rather than exact name matching. Recognizable abbreviations, alternate or erroneous spellings, sponsor tags, affiliate or academy designations, regional identifiers, and minor formatting differences will be treated as referring to the same team, provided the intended team can be clearly and uniquely identified within the relevant competition. If a listed team name has no reasonable connection to any participating team, or if it matches or could reasonably refer to another team in the same competition such that the intended team cannot be unambiguously determined, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3775636,
+          "imageUrl": "https://static.predict.fun/cs2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "ESPORTS_CS2",
+          "oracleQuestionId": "0x7de3bd804ddc5d77655830e0d7f48bf3264f7c104d6f87d8fce004e78a1b354c",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.82,
+                "size": 813.903
+              },
+              "bestBid": {
+                "price": 0.81,
+                "size": 670
+              },
+              "indexSet": 1,
+              "name": "VIT",
+              "onChainId": "91792404948320675570068549615980525900579397774421856979173249726966989250920",
+              "status": null,
+              "team": {
+                "abbreviation": "vit",
+                "alias": null,
+                "id": 105123269,
+                "league": "csgo",
+                "name": "Vitality"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "vit",
+                    "id": 105123269,
+                    "name": "Vitality",
+                    "providerTeamId": "177309"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.19,
+                "size": 670
+              },
+              "bestBid": {
+                "price": 0.18,
+                "size": 813.903
+              },
+              "indexSet": 2,
+              "name": "MGLZ",
+              "onChainId": "20823626130181963172181587851866937492349511419784195865291972029608488274411",
+              "status": null,
+              "team": {
+                "abbreviation": "mglz",
+                "alias": null,
+                "id": 105123839,
+                "league": "csgo",
+                "name": "TheMongolz"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "mglz",
+                    "id": 105123839,
+                    "name": "TheMongolz",
+                    "providerTeamId": "177459"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x8ed2af44ad6eac3494475002d5f780e89d8ec5b3ee4a124fe259d36e709b1c3f"
+          ],
+          "question": "Counter-Strike: Vitality vs TheMongolz (BO3) - PGL Masters Bucharest Group Stage",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T11:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T11:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T11:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T11:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 1000,
+                "startsAt": "2026-10-25T11:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Match Winner",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "cs2-vit-mglz-2026-10-25",
+          "conditionId": "0x6db521db25124f75ddd108d838b89da1fddb814bf418caadcdff2f52e68df077",
+          "createdAt": "2026-10-24T20:13:07.852Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Counter-Strike Round 2 match between Vitality and TheMongolz in the PGL Masters Bucharest Group Stage, initially scheduled for October 25, 2026 at 7:00 AM ET.\n\nThis market will resolve to \"Vitality\" if Vitality win Map 1 against TheMongolz.\n\nThis market will resolve to \"TheMongolz\" if TheMongolz win Map 1 against Vitality.\n\nIf the match begins but is not completed, and Map 1 is concluded with a winner determined, this market will resolve based on the completed Map 1. \n\nIf Map 1 is not completed for any reason, this market will resolve 50-50. \n\nIf the match is canceled (not played at all), this market will resolve 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 7:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3775637,
+          "imageUrl": "https://static.predict.fun/cs2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_CHILD_MONEYLINE",
+          "marketVariant": "ESPORTS_CS2",
+          "oracleQuestionId": "0xc4ec9323f9abfdabf27749d20428f7bd5b0a5a53f281b307963515bfe5e1cf51",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.73,
+                "size": 566.9
+              },
+              "bestBid": {
+                "price": 0.72,
+                "size": 5990.000000000001
+              },
+              "indexSet": 1,
+              "name": "VIT",
+              "onChainId": "34813299336452371641156981895684863279388084755988771133014368155279933364593",
+              "status": null,
+              "team": {
+                "abbreviation": "vit",
+                "alias": null,
+                "id": 105123269,
+                "league": "csgo",
+                "name": "Vitality"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "vit",
+                    "id": 105123269,
+                    "name": "Vitality",
+                    "providerTeamId": "177309"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.28,
+                "size": 5990.000000000001
+              },
+              "bestBid": {
+                "price": 0.27,
+                "size": 566.9
+              },
+              "indexSet": 2,
+              "name": "MGLZ",
+              "onChainId": "63923898612862644141915187009590733949500217938132288233040121515149255694535",
+              "status": null,
+              "team": {
+                "abbreviation": "mglz",
+                "alias": null,
+                "id": 105123839,
+                "league": "csgo",
+                "name": "TheMongolz"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "mglz",
+                    "id": 105123839,
+                    "name": "TheMongolz",
+                    "providerTeamId": "177459"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x62de3ccfc48532937a58b3f2d0a048dd80126490c87d59b5812b73dc2bb3d993"
+          ],
+          "question": "Counter-Strike: Vitality vs TheMongolz - Map 1 Winner",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T11:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T11:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T11:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T11:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T12:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T11:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Map 1 Winner",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 1
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "cs2-vit-mglz-2026-10-25",
+          "conditionId": "0x808192c8d521ccb1fb04cd71164d156686397bd73dd323a550e2935c195b628f",
+          "createdAt": "2026-10-24T20:30:08.488Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Counter-Strike match between Vitality and TheMongolz in the PGL Masters Bucharest Group Stage, initially scheduled for October 25, 2026 at 7:00 AM ET. This market is decided solely by the total number of rounds played within Map 1 of this match (the combined round score of both teams on that single map), and is independent of which team wins Map 1 or the overall match.\n\nThis market will resolve to \"Over\" if the combined number of rounds played by both teams on Map 1, including any overtime, is greater than 21.5. This market will resolve to \"Under\" if the combined number of rounds played is less than 21.5. If the combined number of rounds played is exactly 21.5, this market will resolve 50-50.\n\nMap 1 must be played to completion, with a final round score determined by rounds actually played, for this market to resolve to \"Over\" or \"Under\". If Map 1 is completed in this way, the market resolves on that round total regardless of how the remainder of the match concludes (including any later forfeit, disqualification, walkover, or default). If Map 1 is not played at all, is not played to completion, or is decided by forfeit, disqualification, walkover, or default rather than by rounds played to a conclusion, this market will resolve 50-50. If the match is canceled, this market will resolve 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 7:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead, including video evidence.\n\nThis market may resolve only when the listed period of play has concluded and the result can be definitively determined by the listed resolution source(s).",
+          "feeRateBps": 200,
+          "id": 3777050,
+          "imageUrl": "https://static.predict.fun/cs2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_ROUND_TOTALS",
+          "marketVariant": "ESPORTS_CS2",
+          "oracleQuestionId": "0xe977b03d7a34809128a7c7e7266e83f31b257efc330574433f5fd0f40cdd0ec2",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.46,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.43,
+                "size": 200
+              },
+              "indexSet": 1,
+              "name": "Over 21.5",
+              "onChainId": "103784303913232830626903962861412482568552852737852186502939881062642556476099",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.57,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.54,
+                "size": 200
+              },
+              "indexSet": 2,
+              "name": "Under 21.5",
+              "onChainId": "71553754200513218712054659773419499640778737613157385915880153227576727820526",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x669066d6a4f6be50a7780224c3a2128f48dc3af9e3d36f2e02a33253571cf310"
+          ],
+          "question": "Map 1 Total Rounds: Over/Under 21.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T11:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T11:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T11:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T11:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T12:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T11:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Map 1 Total Rounds: Over/Under 21.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 1,
+              "line": 21.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "cs2-vit-mglz-2026-10-25",
+          "conditionId": "0x851768fa01023102d77231aeb188aa1f3d9d3068f0ef027a9b3bd49dc774d935",
+          "createdAt": "2026-10-24T20:30:08.488Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Counter-Strike match between Vitality and TheMongolz in the PGL Masters Bucharest Group Stage, initially scheduled for October 25, 2026 at 7:00 AM ET. This market is decided solely by the round score of Map 1 of this match, and is independent of which team wins Map 1 or the overall match.\n\nThis market will resolve to \"Vitality\" if Vitality wins Map 1 by 4 or more rounds, including any overtime (i.e. Vitality's round total on Map 1 exceeds TheMongolz's by 4 or more). Otherwise, this market will resolve to \"TheMongolz\".\n\nMap 1 must be played to completion, with a final round score determined by rounds actually played, for this market to resolve to a team. If Map 1 is completed in this way, the market resolves on that round score regardless of how the remainder of the match concludes (including any later forfeit, disqualification, walkover, or default). If Map 1 is not played at all, is not played to completion, or is decided by forfeit, disqualification, walkover, or default rather than by rounds played to a conclusion, this market will resolve 50-50. If the match is canceled, this market will resolve 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 7:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead, including video evidence.\n\nThis market may resolve only when the listed period of play has concluded and the result can be definitively determined by the listed resolution source(s).",
+          "feeRateBps": 200,
+          "id": 3777051,
+          "imageUrl": "https://static.predict.fun/cs2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_ROUND_HANDICAP",
+          "marketVariant": "ESPORTS_CS2",
+          "oracleQuestionId": "0x867992d59c4a15e95716235f9fcb84bcae41a071836d3bbc8039f4308a968d39",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.54,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.5,
+                "size": 200
+              },
+              "indexSet": 1,
+              "name": "VIT",
+              "onChainId": "626566508655415247882163092513269258323786042640345432004006102345853205092",
+              "status": null,
+              "team": {
+                "abbreviation": "vit",
+                "alias": null,
+                "id": 105123269,
+                "league": "csgo",
+                "name": "Vitality"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "vit",
+                    "id": 105123269,
+                    "name": "Vitality",
+                    "providerTeamId": "177309"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.5,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.46,
+                "size": 200
+              },
+              "indexSet": 2,
+              "name": "MGLZ",
+              "onChainId": "51623720888019942363869573473991497206822594355473764546448162105779891732070",
+              "status": null,
+              "team": {
+                "abbreviation": "mglz",
+                "alias": null,
+                "id": 105123839,
+                "league": "csgo",
+                "name": "TheMongolz"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "mglz",
+                    "id": 105123839,
+                    "name": "TheMongolz",
+                    "providerTeamId": "177459"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x81e349b5ea9608accb6ab2b6d27e783e1193e6686f68466f8a1e38693ca3e918"
+          ],
+          "question": "Map 1 Rounds Handicap: Vitality (-3.5) vs TheMongolz (+3.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T11:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T11:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T11:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T11:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T12:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T11:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Map 1 Rounds Handicap: Vitality (-3.5) vs TheMongolz (+3.5)",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 1,
+              "line": -3.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "cs2-vit-mglz-2026-10-25",
+          "conditionId": "0x16f4cf95ddec6e1121c7f006460fcae9853b1186095c98432cd96b76e182d82d",
+          "createdAt": "2026-10-24T20:13:07.852Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Counter-Strike Round 2 match between Vitality and TheMongolz in the PGL Masters Bucharest Group Stage, initially scheduled for October 25, 2026 at 7:00 AM ET.\n\nThis market will resolve to \"Vitality\" if Vitality win Map 2 against TheMongolz.\n\nThis market will resolve to \"TheMongolz\" if TheMongolz win Map 2 against Vitality.\n\nIf the match begins but is not completed, and Map 2 is concluded with a winner determined, this market will resolve based on the completed Map 2. \n\nIf Map 2 is not completed for any reason, this market will resolve 50-50. \n\nIf the match is canceled (not played at all), this market will resolve 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 7:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3775638,
+          "imageUrl": "https://static.predict.fun/cs2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_CHILD_MONEYLINE",
+          "marketVariant": "ESPORTS_CS2",
+          "oracleQuestionId": "0x1a857746a02ba6c36b2ba0ab3afbd6ea1aa148c700d9cdd52d593c92f97f947b",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.79,
+                "size": 726.05
+              },
+              "bestBid": {
+                "price": 0.77,
+                "size": 4500
+              },
+              "indexSet": 1,
+              "name": "VIT",
+              "onChainId": "78575362330536975161305900871697857609598541598491788056431497698892152581397",
+              "status": null,
+              "team": {
+                "abbreviation": "vit",
+                "alias": null,
+                "id": 105123269,
+                "league": "csgo",
+                "name": "Vitality"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "vit",
+                    "id": 105123269,
+                    "name": "Vitality",
+                    "providerTeamId": "177309"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.23,
+                "size": 4500
+              },
+              "bestBid": {
+                "price": 0.21,
+                "size": 726.05
+              },
+              "indexSet": 2,
+              "name": "MGLZ",
+              "onChainId": "85338133930605095014386983204577633697633829009771563484874953926848371357944",
+              "status": null,
+              "team": {
+                "abbreviation": "mglz",
+                "alias": null,
+                "id": 105123839,
+                "league": "csgo",
+                "name": "TheMongolz"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "mglz",
+                    "id": 105123839,
+                    "name": "TheMongolz",
+                    "providerTeamId": "177459"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x83f6683fa441cb22a0c874d5834f870f1246873421d2362149fb8450bef29995"
+          ],
+          "question": "Counter-Strike: Vitality vs TheMongolz - Map 2 Winner",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T12:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T11:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T12:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T11:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T13:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T12:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Map 2 Winner",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 2
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "cs2-vit-mglz-2026-10-25",
+          "conditionId": "0x0f3409bf69dda074839224cbc7320d93281167d08e10349c465b0e96f68cc299",
+          "createdAt": "2026-10-24T20:30:08.488Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Counter-Strike match between Vitality and TheMongolz in the PGL Masters Bucharest Group Stage, initially scheduled for October 25, 2026 at 7:00 AM ET. This market is decided solely by the total number of rounds played within Map 2 of this match (the combined round score of both teams on that single map), and is independent of which team wins Map 2 or the overall match.\n\nThis market will resolve to \"Over\" if the combined number of rounds played by both teams on Map 2, including any overtime, is greater than 21.5. This market will resolve to \"Under\" if the combined number of rounds played is less than 21.5. If the combined number of rounds played is exactly 21.5, this market will resolve 50-50.\n\nMap 2 must be played to completion, with a final round score determined by rounds actually played, for this market to resolve to \"Over\" or \"Under\". If Map 2 is completed in this way, the market resolves on that round total regardless of how the remainder of the match concludes (including any later forfeit, disqualification, walkover, or default). If Map 2 is not played at all, is not played to completion, or is decided by forfeit, disqualification, walkover, or default rather than by rounds played to a conclusion, this market will resolve 50-50. If the match is canceled, this market will resolve 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 7:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead, including video evidence.\n\nThis market may resolve only when the listed period of play has concluded and the result can be definitively determined by the listed resolution source(s).",
+          "feeRateBps": 200,
+          "id": 3777052,
+          "imageUrl": "https://static.predict.fun/cs2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_ROUND_TOTALS",
+          "marketVariant": "ESPORTS_CS2",
+          "oracleQuestionId": "0x44649a228ad697b80c4dc301e6dc7146151614d3f89e093c27afe98d33b40788",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.42,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.39,
+                "size": 200
+              },
+              "indexSet": 1,
+              "name": "Over 21.5",
+              "onChainId": "54054088266056802852445120718620200578834763684407845718686991783838307654613",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.61,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.58,
+                "size": 200
+              },
+              "indexSet": 2,
+              "name": "Under 21.5",
+              "onChainId": "49212908749004663782816890878847100843365468138279807843254348527298679968674",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xf450ef7e3d9f8562cc0d2acbb9161c43917a45a0908cfb1a8723828c206e4cae"
+          ],
+          "question": "Map 2 Total Rounds: Over/Under 21.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T12:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T11:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T12:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T11:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T13:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T12:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Map 2 Total Rounds: Over/Under 21.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 2,
+              "line": 21.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "cs2-vit-mglz-2026-10-25",
+          "conditionId": "0xca450f2f3ada8907d5c86752506a35b651dabe7b43286ef0e7a4e7c68e45be64",
+          "createdAt": "2026-10-24T20:30:08.488Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Counter-Strike match between Vitality and TheMongolz in the PGL Masters Bucharest Group Stage, initially scheduled for October 25, 2026 at 7:00 AM ET. This market is decided solely by the round score of Map 2 of this match, and is independent of which team wins Map 2 or the overall match.\n\nThis market will resolve to \"Vitality\" if Vitality wins Map 2 by 4 or more rounds, including any overtime (i.e. Vitality's round total on Map 2 exceeds TheMongolz's by 4 or more). Otherwise, this market will resolve to \"TheMongolz\".\n\nMap 2 must be played to completion, with a final round score determined by rounds actually played, for this market to resolve to a team. If Map 2 is completed in this way, the market resolves on that round score regardless of how the remainder of the match concludes (including any later forfeit, disqualification, walkover, or default). If Map 2 is not played at all, is not played to completion, or is decided by forfeit, disqualification, walkover, or default rather than by rounds played to a conclusion, this market will resolve 50-50. If the match is canceled, this market will resolve 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 7:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead, including video evidence.\n\nThis market may resolve only when the listed period of play has concluded and the result can be definitively determined by the listed resolution source(s).",
+          "feeRateBps": 200,
+          "id": 3777053,
+          "imageUrl": "https://static.predict.fun/cs2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_ROUND_HANDICAP",
+          "marketVariant": "ESPORTS_CS2",
+          "oracleQuestionId": "0xf4fd4cfc62cb71110d3017da8b3c4bde8f240e8eb1c2101c3774e4d814552a2b",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.6,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.57,
+                "size": 200
+              },
+              "indexSet": 1,
+              "name": "VIT",
+              "onChainId": "56526277171182165056111403880340433607402247132366084373990904891021526101039",
+              "status": null,
+              "team": {
+                "abbreviation": "vit",
+                "alias": null,
+                "id": 105123269,
+                "league": "csgo",
+                "name": "Vitality"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "vit",
+                    "id": 105123269,
+                    "name": "Vitality",
+                    "providerTeamId": "177309"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.43,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.4,
+                "size": 200
+              },
+              "indexSet": 2,
+              "name": "MGLZ",
+              "onChainId": "79843553130567454097880571797085408247908439733058488416859767176642417450813",
+              "status": null,
+              "team": {
+                "abbreviation": "mglz",
+                "alias": null,
+                "id": 105123839,
+                "league": "csgo",
+                "name": "TheMongolz"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "mglz",
+                    "id": 105123839,
+                    "name": "TheMongolz",
+                    "providerTeamId": "177459"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xf0e0ca7e2d2b48e86e14d933fda1533db3d909f2fc83d63465f7546134286f32"
+          ],
+          "question": "Map 2 Rounds Handicap: Vitality (-3.5) vs TheMongolz (+3.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T12:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T11:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T12:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T11:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T13:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T12:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Map 2 Rounds Handicap: Vitality (-3.5) vs TheMongolz (+3.5)",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "gameNumber": 2,
+              "line": -3.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "cs2-vit-mglz-2026-10-25",
+          "conditionId": "0x56b47664ee72b6746de7df05e8e67f40f2ef1e4db2b7de3a038e2931375ecfac",
+          "createdAt": "2026-10-24T20:13:07.852Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Counter-Strike Round 2 match between Vitality and TheMongolz in the PGL Masters Bucharest Group Stage, initially scheduled for October 25, 2026 at 7:00 AM ET.\n\nThis market will resolve to \"Over\" if Vitality and TheMongolz play 3 or more maps in this series.\n\nIf fewer than 3 maps are played, this market will resolve to \"Under\".\n\nMaps won by forfeit, disqualification, walkover, or default are counted towards the total, provided that the match is completed.\n\nIf the match is canceled (not played at all for any reason) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 7:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe match is considered to have begun once live play begins in its first map or game. Warmup rounds and knife rounds do not count as the start of the match. A round forced live because a team did not ready up or resume play within the allotted time does not count as the start of the match if that team forfeits before the next round begins.\n\nIf the match begins and one team wins due to the opponent's match forfeiture, disqualification, or walkover, the match will count as completed.\n\nIn that case, any remaining maps required to decide the match, including a map in progress or not yet started, will be counted as won by the winning team.\n\nIf the match ends due to the clinching map being forfeited this will count as a completed match.\n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3775639,
+          "imageUrl": "https://static.predict.fun/cs2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "ESPORTS_CS2",
+          "oracleQuestionId": "0x60d900b650f5b52d2d322af534db02d135ce8aa49133591b29c8f0a38c18e8f3",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.37,
+                "size": 133.772
+              },
+              "bestBid": {
+                "price": 0.36,
+                "size": 223
+              },
+              "indexSet": 1,
+              "name": "Over 2.5",
+              "onChainId": "61711165266462608423823611563177510431532464282578418036571768149113305584732",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.64,
+                "size": 223
+              },
+              "bestBid": {
+                "price": 0.63,
+                "size": 133.772
+              },
+              "indexSet": 2,
+              "name": "Under 2.5",
+              "onChainId": "9406855897845938167324804778111187411301450016028689655865015353394043310443",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x01c4c94b1c0099c8efa157f4d340868d40fcb708de7ad219866988603f63efb6"
+          ],
+          "question": "Games Total: O/U 2.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T11:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T11:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T11:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T11:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T11:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 2.5 Games",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 2.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "cs2-vit-mglz-2026-10-25",
+          "conditionId": "0x484bad703e3adf4cf8055582af6660244c3c0cb831855e50581c3a487150754d",
+          "createdAt": "2026-10-24T20:30:08.488Z",
+          "decimalPrecision": 2,
+          "description": "This market refers to the Counter-Strike Round 2 match between Vitality and TheMongolz in the PGL Masters Bucharest Group Stage, initially scheduled for October 25, 2026 at 7:00 AM ET.\n\nThis market will resolve to \"Vitality\" if Vitality wins 2 or more maps than TheMongolz in this match.\n\nOtherwise, this market will resolve to \"TheMongolz\". \n\nMaps won by forfeit, disqualification, walkover, or default are counted towards the handicap, provided that the match is completed.\n\nIf the match is canceled (not played at all for any reason) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 7:00 AM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nThe match is considered to have begun once live play begins in its first map or game. Warmup rounds and knife rounds do not count as the start of the match. A round forced live because a team did not ready up or resume play within the allotted time does not count as the start of the match if that team forfeits before the next round begins.\n\nIf the match begins and one team wins due to the opponent's match forfeiture, disqualification, or walkover, the match will count as completed.\n\nIn that case, any remaining maps required to decide the match, including a map in progress or not yet started, will be counted as won by the winning team.\n\nIf the match ends due to the clinching map being forfeited this will count as a completed match.\n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.",
+          "feeRateBps": 200,
+          "id": 3777056,
+          "imageUrl": "https://static.predict.fun/cs2",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MAP_HANDICAP",
+          "marketVariant": "ESPORTS_CS2",
+          "oracleQuestionId": "0x38819117c9ed20a20e702f512a41463dbc94bec7bfa1e0a7dd93d2e8eddf6b60",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.55,
+                "size": 419.44444444444446
+              },
+              "bestBid": {
+                "price": 0.54,
+                "size": 375
+              },
+              "indexSet": 1,
+              "name": "VIT",
+              "onChainId": "85018966720067775019780689321832030383716868572769355679240818544866632211194",
+              "status": null,
+              "team": {
+                "abbreviation": "vit",
+                "alias": null,
+                "id": 105123269,
+                "league": "csgo",
+                "name": "Vitality"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "vit",
+                    "id": 105123269,
+                    "name": "Vitality",
+                    "providerTeamId": "177309"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.46,
+                "size": 375
+              },
+              "bestBid": {
+                "price": 0.45,
+                "size": 419.44444444444446
+              },
+              "indexSet": 2,
+              "name": "MGLZ",
+              "onChainId": "52091222661712757695679302233210605933207416065688410387557102363644271251825",
+              "status": null,
+              "team": {
+                "abbreviation": "mglz",
+                "alias": null,
+                "id": 105123839,
+                "league": "csgo",
+                "name": "TheMongolz"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "mglz",
+                    "id": 105123839,
+                    "name": "TheMongolz",
+                    "providerTeamId": "177459"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xf6c9c9d35fe41193a03e2d3238cea42a1f07607f562b0d2e39a6df1232721936"
+          ],
+          "question": "Map Handicap: VIT (-1.5) vs TheMongolz (+1.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T11:00:00.000Z",
+              "hourlyRate": 20,
+              "startsAt": "2026-10-24T11:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T11:00:00.000Z",
+                "hourlyRate": 20,
+                "startsAt": "2026-10-24T11:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 100,
+                "startsAt": "2026-10-25T11:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Map Handicap: VIT (-1.5) vs TheMongolz (+1.5)",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          }
+        }
+      ],
+      "negRiskOnChainId": null,
+      "parentSlug": null,
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-24T20:14:03.496Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "cs2-vit-mglz-2026-10-25",
+      "startsAt": "2026-10-25T11:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "83",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Esports",
+          "parentId": null
+        },
+        {
+          "id": "93",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "CS2",
+          "parentId": "83"
+        },
+        {
+          "id": "1814",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "PGL Masters",
+          "parentId": "93"
+        }
+      ],
+      "teams": null,
+      "title": "Counter-Strike: Vitality vs TheMongolz (BO3) - PGL Masters Bucharest Group Stage",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1248305",
+          "teams": [
+            {
+              "abbreviation": "vit",
+              "color": "#FF7145",
+              "id": 105123269,
+              "isHome": true,
+              "name": "Vitality",
+              "providerTeamId": "177309",
+              "record": {
+                "losses": 0,
+                "wins": 0
+              }
+            },
+            {
+              "abbreviation": "mglz",
+              "color": "#E0C060",
+              "id": 105123839,
+              "isHome": false,
+              "name": "TheMongolz",
+              "providerTeamId": "177459",
+              "record": {
+                "losses": 0,
+                "wins": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 664938,
+      "slug": "cs2-tdkg-yaw-2026-10-25",
+      "title": "Counter-Strike: Tropa do KinGui vs Yawara Esports (BO3) - CCT South America Series 7 Playoffs",
+      "shortTitle": null,
+      "description": "This market refers to the Counter-Strike Semifinal 1 match between Tropa do KinGui and Yawara Esports in the CCT South America Series 7 Playoffs, initially scheduled for October 25, 2026 at 3:00 PM ET.\n\nThis market will resolve to \"Tropa do KinGui\" if Tropa do KinGui win the match against Yawara Esports.\n\nThis market will resolve to \"Yawara Esports\" if Yawara Esports win the match against Tropa do KinGui.\n\nIf the match is canceled (not played at all) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf the match begins but is not completed, and one team wins due to the opponent's forfeiture, disqualification, or walkover, this market will resolve to the team who wins. \n\nIf the match ends in a forfeit, disqualification, or walkover (team withdraws before the start and the other wins automatically), this market will resolve to 50-50. \n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n\nIn cases where a team’s listed name includes minor discrepancies from the resolution source, this market will resolve based on the underlying real-world match rather than exact name matching. Recognizable abbreviations, alternate or erroneous spellings, sponsor tags, affiliate or academy designations, regional identifiers, and minor formatting differences will be treated as referring to the same team, provided the intended team can be clearly and uniquely identified within the relevant competition. If a listed team name has no reasonable connection to any participating team, or if it matches or could reasonably refer to another team in the same competition such that the intended team cannot be unambiguously determined, this market will resolve 50-50.",
+      "imageUrl": "https://static.predict.fun/cs2",
+      "isNegRisk": false,
+      "protocol": "LEGACY",
+      "isYieldBearing": false,
+      "negRiskOnChainId": null,
+      "marketVariant": "ESPORTS_CS2",
+      "variantData": {
+        "type": "ESPORTS_CS2",
+        "provider": "GRID",
+        "providerEventId": "3009780",
+        "teams": [
+          {
+            "id": 15025,
+            "name": "Tropa do KinGui",
+            "abbreviation": null,
+            "providerTeamId": "54653"
+          },
+          {
+            "id": 15026,
+            "name": "Yawara Esports",
+            "abbreviation": "Yawara",
+            "providerTeamId": "51295"
+          }
+        ]
+      },
+      "variantDetails": {
+        "sports": {
+          "provider": "GRID",
+          "providerEventId": "3009780",
+          "teams": [
+            {
+              "id": 15025,
+              "name": "Tropa do KinGui",
+              "abbreviation": null,
+              "providerTeamId": "54653"
+            },
+            {
+              "id": 15026,
+              "name": "Yawara Esports",
+              "abbreviation": "Yawara",
+              "providerTeamId": "51295"
+            }
+          ],
+          "scoreboard": {
+            "source": "GRID",
+            "bestOf": 3,
+            "score": [],
+            "games": []
+          }
+        }
+      },
+      "createdAt": "2026-10-25T01:57:09.250Z",
+      "publishedAt": "2026-10-25T01:58:03.328Z",
+      "markets": [
+        {
+          "id": 3790213,
+          "imageUrl": "https://static.predict.fun/cs2",
+          "title": "Match Winner",
+          "question": "Counter-Strike: Tropa do KinGui vs Yawara Esports (BO3) - CCT South America Series 7 Playoffs",
+          "description": "This market refers to the Counter-Strike Semifinal 1 match between Tropa do KinGui and Yawara Esports in the CCT South America Series 7 Playoffs, initially scheduled for October 25, 2026 at 3:00 PM ET.\n\nThis market will resolve to \"Tropa do KinGui\" if Tropa do KinGui win the match against Yawara Esports.\n\nThis market will resolve to \"Yawara Esports\" if Yawara Esports win the match against Tropa do KinGui.\n\nIf the match is canceled (not played at all) or ends in a tie, this market will resolve to 50-50.\n\nIf the match is postponed, it must be rescheduled to a start time on or before November 8, 2026 at 11:59 PM ET (14 calendar days after the originally scheduled start of October 25, 2026 at 3:00 PM ET). If, by that deadline, the most recently announced rescheduled start time is on or before the deadline, this market resolves based on the result of the match as played. Otherwise, this market resolves 50-50, regardless of whether the match is subsequently played.\n\nIf the match begins but is not completed, and one team wins due to the opponent's forfeiture, disqualification, or walkover, this market will resolve to the team who wins. \n\nIf the match ends in a forfeit, disqualification, or walkover (team withdraws before the start and the other wins automatically), this market will resolve to 50-50. \n\nThe resolution source for this market will be official information from https://hltv.org. However, if https://hltv.org has not published final results within 2 hours after the event’s conclusion, a consensus of credible reporting may be used instead including video evidence.\n\nIn cases where a team’s listed name includes minor discrepancies from the resolution source, this market will resolve based on the underlying real-world match rather than exact name matching. Recognizable abbreviations, alternate or erroneous spellings, sponsor tags, affiliate or academy designations, regional identifiers, and minor formatting differences will be treated as referring to the same team, provided the intended team can be clearly and uniquely identified within the relevant competition. If a listed team name has no reasonable connection to any participating team, or if it matches or could reasonably refer to another team in the same competition such that the intended team cannot be unambiguously determined, this market will resolve 50-50.",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isVisible": true,
+          "isNegRisk": false,
+          "isYieldBearing": false,
+          "feeRateBps": 200,
+          "makerFeeBps": 0,
+          "resolution": null,
+          "oracleQuestionId": "0x76df1cab36e0d06400e153ae2e3a6c2b1a1a7448e363350a4509bf6782dfbfc5",
+          "conditionId": "0x07cd6fa763fc4f0f7cddc6e6fd42a038d09cf1734028d98b39551539d1c105ed",
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "outcomes": [
+            {
+              "name": "TDKG",
+              "indexSet": 1,
+              "onChainId": "61255607383463243164640570520677353189645204197551824469648835512032665957572",
+              "status": null,
+              "bestBid": {
+                "price": 0.33,
+                "size": 6.06
+              },
+              "bestAsk": {
+                "price": 0.99,
+                "size": 300
+              },
+              "team": null,
+              "variantData": {
+                "type": "ESPORTS_CS2",
+                "provider": "GRID",
+                "team": {
+                  "id": 15025,
+                  "name": "Tropa do KinGui",
+                  "abbreviation": null,
+                  "providerTeamId": "54653"
+                }
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "GRID",
+                  "team": {
+                    "id": 15025,
+                    "name": "Tropa do KinGui",
+                    "abbreviation": null,
+                    "providerTeamId": "54653"
+                  }
+                }
+              }
+            },
+            {
+              "name": "Yawara",
+              "indexSet": 2,
+              "onChainId": "60937959574942554504200908099570401054724575598461814925296537765265561824326",
+              "status": null,
+              "bestBid": {
+                "price": 0.01,
+                "size": 300
+              },
+              "bestAsk": {
+                "price": 0.67,
+                "size": 6.06
+              },
+              "team": null,
+              "variantData": {
+                "type": "ESPORTS_CS2",
+                "provider": "GRID",
+                "team": {
+                  "id": 15026,
+                  "name": "Yawara Esports",
+                  "abbreviation": "Yawara",
+                  "providerTeamId": "51295"
+                }
+              },
+              "variantDetails": {
+                "sports": {
+                  "provider": "GRID",
+                  "team": {
+                    "id": 15026,
+                    "name": "Yawara Esports",
+                    "abbreviation": "Yawara",
+                    "providerTeamId": "51295"
+                  }
+                }
+              }
+            }
+          ],
+          "questionIndex": null,
+          "spreadThreshold": 0.06,
+          "shareThreshold": 100,
+          "isBoosted": false,
+          "boostStartsAt": null,
+          "boostEndsAt": null,
+          "polymarketConditionIds": [
+            "0x876a15c7aa0d46f6d070a512b461be3b1d791e65de2b3706daac34bedb561475"
+          ],
+          "kalshiMarketTicker": null,
+          "categorySlug": "cs2-tdkg-yaw-2026-10-25",
+          "createdAt": "2026-10-25T01:57:09.250Z",
+          "decimalPrecision": 2,
+          "marketVariant": "ESPORTS_CS2",
+          "variantData": {
+            "type": "ESPORTS_CS2",
+            "provider": "GRID",
+            "providerEventId": "3009780",
+            "teams": [
+              {
+                "id": 15025,
+                "name": "Tropa do KinGui",
+                "abbreviation": null,
+                "providerTeamId": "54653"
+              },
+              {
+                "id": 15026,
+                "name": "Yawara Esports",
+                "abbreviation": "Yawara",
+                "providerTeamId": "51295"
+              }
+            ]
+          },
+          "team": null,
+          "marketType": "SPORTS_MONEYLINE",
+          "rewards": {
+            "current": {
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T18:00:00.000Z",
+              "endsAt": "2026-10-25T18:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T18:00:00.000Z",
+                "endsAt": "2026-10-25T18:00:00.000Z"
+              },
+              {
+                "hourlyRate": 200,
+                "startsAt": "2026-10-25T18:00:00.000Z",
+                "endsAt": "2026-10-25T21:00:00.000Z"
+              }
+            ]
+          }
+        }
+      ],
+      "startsAt": "2026-10-25T18:00:00.000Z",
+      "endsAt": "2026-10-25T21:00:00.000Z",
+      "tradingSession": null,
+      "status": "OPEN",
+      "isVisible": true,
+      "resolutionProvider": "THREE_PO",
+      "tags": [
+        {
+          "id": "83",
+          "name": "Esports",
+          "level": 1,
+          "parentId": null,
+          "makerRebateBps": 0
+        },
+        {
+          "id": "93",
+          "name": "CS2",
+          "level": 2,
+          "parentId": "83",
+          "makerRebateBps": 0
+        },
+        {
+          "id": "814",
+          "name": "CCT South America",
+          "level": 3,
+          "parentId": "93",
+          "makerRebateBps": null
+        }
+      ],
+      "teams": null,
+      "parentSlug": null,
+      "stats": null
+    }
+  ]
+}

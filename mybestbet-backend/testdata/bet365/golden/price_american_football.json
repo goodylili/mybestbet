@@ -1,0 +1,448 @@
+{
+  "source": "bet365",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.727,
+            "form": "decimal",
+            "prob": 0.5790387955993052,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1500:ML"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "SPREAD",
+      "line": -2.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1500:SPREAD@-2.5"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "TOTAL",
+      "line": 47.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.833,
+            "form": "decimal",
+            "prob": 0.5455537370430987,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1500:TOTAL@47.5"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "ML",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.8,
+            "form": "decimal",
+            "prob": 0.5555555555555556,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1501:ML"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1501:SPREAD@-1.5"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "TOTAL",
+      "line": 24,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.833,
+            "form": "decimal",
+            "prob": 0.5455537370430987,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1501:TOTAL@24"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "NF_PASS_YDS",
+      "line": 248.5,
+      "player": {
+        "sourceId": "josh-allen",
+        "name": "Josh Allen",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.833,
+            "form": "decimal",
+            "prob": 0.5455537370430987,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "30001@josh-allen@248.5"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "NF_PASS_YDS",
+      "line": 262.5,
+      "player": {
+        "sourceId": "patrick-mahomes",
+        "name": "Patrick Mahomes",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "30001@patrick-mahomes@262.5"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "NF_RUSH_YDS",
+      "line": 71.5,
+      "player": {
+        "sourceId": "james-cook",
+        "name": "James Cook",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "30002@james-cook@71.5"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "NF_REC_YDS",
+      "line": 58.5,
+      "player": {
+        "sourceId": "travis-kelce",
+        "name": "Travis Kelce",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "30003@travis-kelce@58.5"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "NF_REC",
+      "line": 5.5,
+      "player": {
+        "sourceId": "travis-kelce",
+        "name": "Travis Kelce",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.833,
+            "form": "decimal",
+            "prob": 0.5455537370430987,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "30004@travis-kelce@5.5"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "NF_PASS_TD",
+      "line": 1.5,
+      "player": {
+        "sourceId": "josh-allen",
+        "name": "Josh Allen",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.615,
+            "form": "decimal",
+            "prob": 0.6191950464396285,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.25,
+            "form": "decimal",
+            "prob": 0.4444444444444444,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "30005@josh-allen@1.5"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "NF_ANYTIME_TD",
+      "player": {
+        "sourceId": "james-cook",
+        "name": "James Cook",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 1.8,
+            "form": "decimal",
+            "prob": 0.5555555555555556,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "30006:james-cook"
+    },
+    {
+      "eventSourceId": "B12-171000001",
+      "code": "NF_ANYTIME_TD",
+      "player": {
+        "sourceId": "travis-kelce",
+        "name": "Travis Kelce",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 2.2,
+            "form": "decimal",
+            "prob": 0.45454545454545453,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "30006:travis-kelce"
+    }
+  ]
+}

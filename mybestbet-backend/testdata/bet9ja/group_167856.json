@@ -1,0 +1,51 @@
+{
+ "R": "OK",
+ "D": {
+  "GID": 167856,
+  "RGM": "1",
+  "GMK": [
+   {
+    "GMID": "185",
+    "NAME": "1X2 + Over/Under"
+   },
+   {
+    "GMID": "243",
+    "NAME": "Method of Qual."
+   },
+   {
+    "GMID": "235",
+    "NAME": "Penalty"
+   },
+   {
+    "GMID": "479",
+    "NAME": "Shots"
+   }
+  ],
+  "E": [
+   {
+    "ID": 853145917,
+    "DS": "Sassuolo - Lazio",
+    "STARTDATE": "2026-10-27 17:30:00",
+    "STARTDATEUTC": "2026-10-27T17:30:00Z",
+    "GID": 167856,
+    "GN": "Serie A"
+   },
+   {
+    "ID": 853145916,
+    "DS": "Torino - Como",
+    "STARTDATE": "2026-10-27 19:45:00",
+    "STARTDATEUTC": "2026-10-27T19:45:00Z",
+    "GID": 167856,
+    "GN": "Serie A"
+   },
+   {
+    "ID": 853145775,
+    "DS": "Roma - Cagliari",
+    "STARTDATE": "2026-10-27 19:45:00",
+    "STARTDATEUTC": "2026-10-27T19:45:00Z",
+    "GID": 167856,
+    "GN": "Serie A"
+   }
+  ]
+ }
+}

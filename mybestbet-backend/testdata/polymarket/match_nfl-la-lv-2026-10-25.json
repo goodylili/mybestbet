@@ -1,0 +1,1081 @@
+[
+ {
+  "id": "1022449",
+  "slug": "nfl-la-lv-2026-10-25",
+  "title": "Rams vs. Raiders",
+  "startTime": "2026-10-25T20:25:00Z",
+  "endDate": "2026-10-25T20:25:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nfl-2026",
+  "eventMetadata": {},
+  "teams": [
+   {
+    "name": "Los Angeles Rams",
+    "abbreviation": "la",
+    "alias": "Rams",
+    "ordering": "away"
+   },
+   {
+    "name": "Las Vegas Raiders",
+    "abbreviation": "lv",
+    "alias": "Raiders",
+    "ordering": "home"
+   }
+  ],
+  "markets": [
+   {
+    "slug": "nfl-la-lv-2026-10-25",
+    "question": "Rams vs. Raiders",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"90635844554975619499513160555849439300671871096029809929867973058225825552081\", \"81135491566707051946124515494658509304719639404206193887190428425663141745663\"]",
+    "sportsMarketType": "moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-spread-away-1pt5",
+    "question": "Spread: Rams (-1.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"51194581711967510436295287722194963803379724039837656959852428853504488209216\", \"96927243488047965939081150240859743909225711281988420340175262007068908612683\"]",
+    "sportsMarketType": "spreads",
+    "line": -1.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-spread-away-2pt5",
+    "question": "Spread: Rams (-2.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"18693179156596142904871843439681549119164561945957226687286400654045278448855\", \"89183668322753491783040558661267932257393001379453266013732037639189391873136\"]",
+    "sportsMarketType": "spreads",
+    "line": -2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-spread-away-3pt5",
+    "question": "Spread: Rams (-3.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"3086699852183018244349378586877247195412030274996768216952572094491384234783\", \"33339920694047812674954502774885839255643292707236075930127169322460077153336\"]",
+    "sportsMarketType": "spreads",
+    "line": -3.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1h-spread-away-1pt5",
+    "question": "1H Spread: Rams (-1.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"72369362706645227491123359130423229847494718827416204793986284119165477790052\", \"55326600961106688371565111063762216190894653802065372289988698711367012645396\"]",
+    "sportsMarketType": "first_half_spreads",
+    "line": -1.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1h-spread-away-2pt5",
+    "question": "1H Spread: Rams (-2.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"109006125482592840346975553585814191580093186462934071511169936774517212747846\", \"96456455831145984657304652511069065801828664516914881160986756871667970764951\"]",
+    "sportsMarketType": "first_half_spreads",
+    "line": -2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1h-spread-away-3pt5",
+    "question": "1H Spread: Rams (-3.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"5677649190760002248971816501152016511424292206345593088658971878752534179453\", \"39825938202100055647971744579646528299135413559591054089491697657435955402159\"]",
+    "sportsMarketType": "first_half_spreads",
+    "line": -3.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2h-spread-away-1pt5",
+    "question": "2H Spread: Rams (-1.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"42099371619011106676646475015005741873412465379977637593859042366400641896506\", \"13546234460256685938359307164830977369250362429158341563396256213614138514200\"]",
+    "sportsMarketType": "second_half_spreads",
+    "line": -1.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2h-spread-away-2pt5",
+    "question": "2H Spread: Rams (-2.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"26031522074287747144172238156935116736729484957515517269134107242282535798350\", \"50971458326211471570166656625291503074302477278435273810751764212921766500565\"]",
+    "sportsMarketType": "second_half_spreads",
+    "line": -2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2h-spread-away-3pt5",
+    "question": "2H Spread: Rams (-3.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"42246433166317062600066222766440096369935974396960242843926291413504566338523\", \"34866237558293068553475571593973859222694049323974879639933455736372537433730\"]",
+    "sportsMarketType": "second_half_spreads",
+    "line": -3.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1q-spread-away-2pt5",
+    "question": "1Q Spread: Rams (-2.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"76207694777032098374615837513734386901223619595567802054147104517886984006281\", \"60316859403470546307976480888844945767289488047483093114862734546253167043192\"]",
+    "sportsMarketType": "q1_spreads",
+    "line": -2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1q-spread-away-3pt5",
+    "question": "1Q Spread: Rams (-3.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"21496916997611800304841407911836396895965625195158394655276407696021060677147\", \"86119347560965981132320327497606084546452025977635531151724319912669854307498\"]",
+    "sportsMarketType": "q1_spreads",
+    "line": -3.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1q-spread-away-4pt5",
+    "question": "1Q Spread: Rams (-4.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"96045342184408029057777012574334860486966473097703694079435917556936286390543\", \"6110484537035558939796574111731901865795023120204910149084663043603474035278\"]",
+    "sportsMarketType": "q1_spreads",
+    "line": -4.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2q-spread-away-2pt5",
+    "question": "2Q Spread: Rams (-2.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"32194402496324968728771510203915162486083294807482435097880689383187257613479\", \"7442993502991387893028921475949050433137867670020400057764012752289271809902\"]",
+    "sportsMarketType": "q2_spreads",
+    "line": -2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2q-spread-away-3pt5",
+    "question": "2Q Spread: Rams (-3.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"3972948255107490924941927388352262648784881910065824353674914854536381784657\", \"49766684304376578925256127278923541661536033280865342526648812268768118914188\"]",
+    "sportsMarketType": "q2_spreads",
+    "line": -3.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2q-spread-away-4pt5",
+    "question": "2Q Spread: Rams (-4.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"111861137159237273738335643636644642023829375915353753170433925372081350042857\", \"87415869087508981761250319207985061955702165291932706676284513537452840426832\"]",
+    "sportsMarketType": "q2_spreads",
+    "line": -4.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-3q-spread-away-2pt5",
+    "question": "3Q Spread: Rams (-2.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"37214174186833411657322085706364892127205484767833674537915602388544964073162\", \"109083269351669641034663049448552722513337296978046160314332503968440737173111\"]",
+    "sportsMarketType": "q3_spreads",
+    "line": -2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-3q-spread-away-3pt5",
+    "question": "3Q Spread: Rams (-3.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"58294746300329420678099357935613126803995546540628603566510397088909563009106\", \"9923266622737398943705818734221106193060341905120770236728922775967140882762\"]",
+    "sportsMarketType": "q3_spreads",
+    "line": -3.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-3q-spread-away-4pt5",
+    "question": "3Q Spread: Rams (-4.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"37120821774809583104030911230153260947203314263222847605837331257992656377526\", \"87043566312269815157625099220642694260535644792534539765232824150915708585748\"]",
+    "sportsMarketType": "q3_spreads",
+    "line": -4.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-4q-spread-away-2pt5",
+    "question": "4Q Spread: Rams (-2.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"62804401769808743977422095620350350120223070416681328404292233650403539747965\", \"89655806652327086193236450146115154726211207932614242988417892005755135090157\"]",
+    "sportsMarketType": "q4_spreads",
+    "line": -2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-4q-spread-away-3pt5",
+    "question": "4Q Spread: Rams (-3.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"111465900914249612638067423137679389229356678414572760098733482774101154410855\", \"106869164083976694102207975407139228604058642484725607489714865484165836669633\"]",
+    "sportsMarketType": "q4_spreads",
+    "line": -3.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-4q-spread-away-4pt5",
+    "question": "4Q Spread: Rams (-4.5)",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"50830036234930881973379949461653343150335253818443063448753475633199676182908\", \"64199052501849774294242521174843148909096426683655059167576096160263314157557\"]",
+    "sportsMarketType": "q4_spreads",
+    "line": -4.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-total-24pt5",
+    "question": "Rams vs. Raiders: O/U 24.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"100024044181205945705054711164963551787080769171600550081196593494903021869801\", \"12805808958763008292845147790396450851037266951588640827169866125630693118103\"]",
+    "sportsMarketType": "totals",
+    "line": 24.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-total-26pt5",
+    "question": "Rams vs. Raiders: O/U 26.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"92677660497474690105527724859718737515777907297407868596367783675348859010843\", \"75226004220725392633594500487928656910516521298029384009218130833866465455267\"]",
+    "sportsMarketType": "totals",
+    "line": 26.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-total-28pt5",
+    "question": "Rams vs. Raiders: O/U 28.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"87196057159325092937220759176940303757100817449853781942043792654964318397413\", \"96024006501431660453498622507032136739975628811956830939168401973214977233019\"]",
+    "sportsMarketType": "totals",
+    "line": 28.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1h-total-16pt5",
+    "question": "Rams vs. Raiders: 1H O/U 16.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"21350852640256633824234313272613930757776944612808557043706864086886601826253\", \"113092553438586128509744435158008051115254524043839036804715590979996819013312\"]",
+    "sportsMarketType": "first_half_totals",
+    "line": 16.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1h-total-19pt5",
+    "question": "Rams vs. Raiders: 1H O/U 19.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"85656197482048737084635908403209183664200034385020862353439565776902770798628\", \"94380339909763469571953389842048108921015378839911221451545209337634690780823\"]",
+    "sportsMarketType": "first_half_totals",
+    "line": 19.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1h-total-22pt5",
+    "question": "Rams vs. Raiders: 1H O/U 22.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"13260772771681742568988697609529329202426131016829134973085250428475107680968\", \"25047977698265577507248858351011853946300838647631713719751038117864902163229\"]",
+    "sportsMarketType": "first_half_totals",
+    "line": 22.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2h-total-16pt5",
+    "question": "Rams vs. Raiders: 2H O/U 16.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"71057462909874473206546533872130900625331654472677466130659547843577702973931\", \"97200108358160238797185488249565906364805294974196902270548786385932358358937\"]",
+    "sportsMarketType": "second_half_totals",
+    "line": 16.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2h-total-19pt5",
+    "question": "Rams vs. Raiders: 2H O/U 19.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"40002686833010691480592654717623049737227062282187762599280687553194366417088\", \"16835089840763127013772293828765717690474849432011377876484400832659631108032\"]",
+    "sportsMarketType": "second_half_totals",
+    "line": 19.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2h-total-22pt5",
+    "question": "Rams vs. Raiders: 2H O/U 22.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"11308721138294919920048480524175550734272003457146415840576620498194856235907\", \"61630923432191060509595714256900915518013518121419306725890273735511815098017\"]",
+    "sportsMarketType": "second_half_totals",
+    "line": 22.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1q-total-5pt5",
+    "question": "Rams vs. Raiders: 1Q O/U 5.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"70622774666550125969529905931562451817336910103624523919276668213573418184086\", \"85955447552622133989533041709590661803682912862594634458076778966240023137478\"]",
+    "sportsMarketType": "q1_totals",
+    "line": 5.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1q-total-6pt5",
+    "question": "Rams vs. Raiders: 1Q O/U 6.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"104102101741994643190195897733365351971096262064766497138517079437981211384591\", \"82469715266692433359873701051496582224827802326601943361411295716063347614153\"]",
+    "sportsMarketType": "q1_totals",
+    "line": 6.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1q-total-7pt5",
+    "question": "Rams vs. Raiders: 1Q O/U 7.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"51781215692896048601646423525489268156282240729759957841972179319406673613124\", \"100958485053510740582577970970747147110008104966704810005380651342902059215960\"]",
+    "sportsMarketType": "q1_totals",
+    "line": 7.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2q-total-5pt5",
+    "question": "Rams vs. Raiders: 2Q O/U 5.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"39751962928255702011702604228109779835368449345958284273154406900719067137852\", \"94201634088470363602642305449767380384868053003111173225346207941443994850961\"]",
+    "sportsMarketType": "q2_totals",
+    "line": 5.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2q-total-6pt5",
+    "question": "Rams vs. Raiders: 2Q O/U 6.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"111016443218020892363727173170833057699708245698727441070513176964913730164967\", \"69387416990828773524514924162402039626075482951816487802989183115732542556782\"]",
+    "sportsMarketType": "q2_totals",
+    "line": 6.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2q-total-7pt5",
+    "question": "Rams vs. Raiders: 2Q O/U 7.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"4354135177834306107608023459811891947721912713110818086495556668156198625082\", \"9436079901195062042216237454853072903333621501788011510051704622529664255788\"]",
+    "sportsMarketType": "q2_totals",
+    "line": 7.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-3q-total-5pt5",
+    "question": "Rams vs. Raiders: 3Q O/U 5.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"114949050912959784825498830781634561462725280781359385840152038951025468776169\", \"109826603436705469125624845122167055539260660077078388122587770342611741965973\"]",
+    "sportsMarketType": "q3_totals",
+    "line": 5.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-3q-total-6pt5",
+    "question": "Rams vs. Raiders: 3Q O/U 6.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"3102057037897941237566094003210887722989669808451858831653936942969003903148\", \"54736812307161438381584701002391323072396979206494360690546919922084917085667\"]",
+    "sportsMarketType": "q3_totals",
+    "line": 6.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-3q-total-7pt5",
+    "question": "Rams vs. Raiders: 3Q O/U 7.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"2266351372915345471229767456413391295787426010952011719705845037430256110917\", \"2657887917024616282227401851128292259646094551549157579706850383715351921773\"]",
+    "sportsMarketType": "q3_totals",
+    "line": 7.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-4q-total-5pt5",
+    "question": "Rams vs. Raiders: 4Q O/U 5.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"9557870653692452914184268803774521411927982009197926639532063986683673102480\", \"8591281746587048746691511053163756495119231439804390110208518766162556843086\"]",
+    "sportsMarketType": "q4_totals",
+    "line": 5.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-4q-total-6pt5",
+    "question": "Rams vs. Raiders: 4Q O/U 6.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"44249710999172555483915225014103964692132450047723567864389131560918890439558\", \"48099725139474967511575131671407866994740306011844504636653365736256334465914\"]",
+    "sportsMarketType": "q4_totals",
+    "line": 6.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-4q-total-7pt5",
+    "question": "Rams vs. Raiders: 4Q O/U 7.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"19882254748534305761157202774344836159225410448950568131505272654999739167848\", \"85441076570448888826819834144071981810687868139076835858766822867460925312120\"]",
+    "sportsMarketType": "q4_totals",
+    "line": 7.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-team-total-la-10pt5",
+    "question": "Rams Team Total: O/U 10.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"89822166678353262645376521836779515201314914208436396695428938419028576746072\", \"3194661195504447863153021881712966296098589538838483588023111635858951103274\"]",
+    "sportsMarketType": "team_totals",
+    "line": 10.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-team-total-la-12pt5",
+    "question": "Rams Team Total: O/U 12.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"34593859826496611534867091133659992821839531703994941849506143879535431246792\", \"56424701573951994037026785998034678706707006988119163185933816296213105583386\"]",
+    "sportsMarketType": "team_totals",
+    "line": 12.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-team-total-la-13pt5",
+    "question": "Rams Team Total: O/U 13.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"70714221627406235514005441166099358060249830706811346206788982898971984514354\", \"6297128647939404013197104742769533390120598101021188258414232669330964404559\"]",
+    "sportsMarketType": "team_totals",
+    "line": 13.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1h-team-total-la-6pt5",
+    "question": "Rams 1H Team Total: O/U 6.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"68176000011096919834490966774990375716339224522854633571461309695533891224402\", \"104107888848751966253705327510897050679855580180912372502862704379384406117112\"]",
+    "sportsMarketType": "first_half_team_totals",
+    "line": 6.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1h-team-total-la-10pt5",
+    "question": "Rams 1H Team Total: O/U 10.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"3229096959477099498637381858742107352848954441135846307618957050491926723711\", \"91075318189250171075693260067404682968035758006437374662884174450065180041015\"]",
+    "sportsMarketType": "first_half_team_totals",
+    "line": 10.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1h-team-total-la-12pt5",
+    "question": "Rams 1H Team Total: O/U 12.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"44029709806110724522399729494906959546305246085425173285190522494707976134216\", \"67841719443348700049644236197288329821965669006443195286285618192436597576627\"]",
+    "sportsMarketType": "first_half_team_totals",
+    "line": 12.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2h-team-total-la-6pt5",
+    "question": "Rams 2H Team Total: O/U 6.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"55561496309685666199361256728189611868272696129788498899411799431904009590993\", \"1651798684860806969828949707298078501911181164563181418218830962233494336858\"]",
+    "sportsMarketType": "second_half_team_totals",
+    "line": 6.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2h-team-total-la-10pt5",
+    "question": "Rams 2H Team Total: O/U 10.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"29369309152323562818138994170951901199216449025619067131089607122287175504275\", \"41161642864200825267913592386763594742732085711538594578922957951959034588852\"]",
+    "sportsMarketType": "second_half_team_totals",
+    "line": 10.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2h-team-total-la-12pt5",
+    "question": "Rams 2H Team Total: O/U 12.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"28567228813318887126042875719495870803650681476851361063691028868113370865874\", \"99964251692444926476940424466107777990007961206847663038132654709775652952829\"]",
+    "sportsMarketType": "second_half_team_totals",
+    "line": 12.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2h-moneyline",
+    "question": "Rams vs. Raiders: 2H Moneyline",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"48895275900637600216730081071565583399533440464365941608514804490529638864420\", \"49678074418253176154786679903999226116032068708711482740931100179326721360359\"]",
+    "sportsMarketType": "second_half_moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-exact-margin-long-25-plus",
+    "question": "Exact Margin: Rams by 25+",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"57549090168511027925697399203683811274257150942044754926843601683767793328620\", \"100704459894367556879110928260650258918606056136990944957492363933378349610273\"]",
+    "sportsMarketType": "exact_margin",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-exact-margin-long-19-24",
+    "question": "Exact Margin: Rams by 19-24",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"50260327004682240835525771693718982779028659582065192222787947603563690847797\", \"105901773689147734701242788121434836360963513748039681928468520451025328088780\"]",
+    "sportsMarketType": "exact_margin",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-exact-margin-long-13-18",
+    "question": "Exact Margin: Rams by 13-18",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"29757965214381517189766973639659405236584357090229249089003094517906965852855\", \"31668679773175055840160948535463481979011744733770802735993014150592375281105\"]",
+    "sportsMarketType": "exact_margin",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-safety",
+    "question": "Rams vs. Raiders: Safety?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"48701819264786137704123637310910339179564037031510903118867387670290960496194\", \"78460904469368118324899409207770715804657167662280226452111869905065584008109\"]",
+    "sportsMarketType": "safety",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1q-btts-points",
+    "question": "Rams vs. Raiders: Both Teams to Score Points - 1Q",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"108800292143513528452752276112367927914960151792398814242521668374902296740355\", \"71775726600707543572053709855077101321798845727048753264629714522636954111025\"]",
+    "sportsMarketType": "q1_both_teams_to_score_points",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2q-btts-points",
+    "question": "Rams vs. Raiders: Both Teams to Score Points - 2Q",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"19169396094328685127163027074525825103570054264184896809023185935968270091273\", \"62148185756903191493091448189223040509184108450291109998595539455535861460639\"]",
+    "sportsMarketType": "q2_both_teams_to_score_points",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-3q-btts-points",
+    "question": "Rams vs. Raiders: Both Teams to Score Points - 3Q",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"31037374513440161067414249509531629677866380975664196989711952465920474300388\", \"37780057653115636698558422064729054373042084343639160769599607849083834761565\"]",
+    "sportsMarketType": "q3_both_teams_to_score_points",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-4q-btts-points",
+    "question": "Rams vs. Raiders: Both Teams to Score Points - 4Q",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"72294203530378689730770801063056390655037484234701479898408917731273839847247\", \"72392834280924784228221174055607992952728577058052132399591173172876564407817\"]",
+    "sportsMarketType": "q4_both_teams_to_score_points",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-team-off-yards-la-350pt5",
+    "question": "Rams Total Offensive Yards: O/U 350.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"96045404459766944397022595863135012480470408304502982753755343836351409068492\", \"85049278188691428131382282837690135959124851331984863040113132186693453845030\"]",
+    "sportsMarketType": "team_offensive_yards",
+    "line": 350.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-team-off-yards-lv-350pt5",
+    "question": "Raiders Total Offensive Yards: O/U 350.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"201705265564761476751016308998632348622279576466819430894963362281035422753\", \"53850182369079647333026905062994411212692408484279193272948517251411654424447\"]",
+    "sportsMarketType": "team_offensive_yards",
+    "line": 350.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-two-pt-conversions-0pt5",
+    "question": "Rams vs. Raiders: Total Two-Point Conversions O/U 0.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"43926981945093038952641731902846763589342903798106770553154653396387946436237\", \"2361986706552654420804860353907715408892054864231608015512297086949324353716\"]",
+    "sportsMarketType": "two_point_conversions",
+    "line": 0.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1q-moneyline",
+    "question": "Rams vs. Raiders: 1Q Moneyline",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"81345441479555209799610949544988576465496548567330155281308886164401614975160\", \"83681521544322236133771348359478138362422563206370923639040793042029113331133\"]",
+    "sportsMarketType": "q1_moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-1h-moneyline",
+    "question": "Rams vs. Raiders: 1H Moneyline",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"23516037605233266215091810406450421141696350642798220732765103808261005406732\", \"39655076264707787827860547513198098694186378866570827413134553413354966503062\"]",
+    "sportsMarketType": "first_half_moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2q-moneyline",
+    "question": "Rams vs. Raiders: 2Q Moneyline",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"5666923068508085895794826034150034697744785109600853735781886526176646324210\", \"83625459046036698833496134634297931232531275308235422433260479569995369437331\"]",
+    "sportsMarketType": "q2_moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-3q-moneyline",
+    "question": "Rams vs. Raiders: 3Q Moneyline",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"74067522180712147549350820606705791850196615206483152771339905685369331445732\", \"19076331061550950644216054668269547962184941576139946167752321615726403919754\"]",
+    "sportsMarketType": "q3_moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-4q-moneyline",
+    "question": "Rams vs. Raiders: 4Q Moneyline",
+    "outcomes": "[\"Rams\", \"Raiders\"]",
+    "clobTokenIds": "[\"21960524454100292066876910914347441893665075960633487904686122191627436489626\", \"87926849907420100276761686637125154705562538230356667090931331583842593644321\"]",
+    "sportsMarketType": "q4_moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-team-tds-la-2pt5",
+    "question": "Rams Total Touchdowns: O/U 2.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"92705713971883542246694765856587138129415249594082965696108313423860475372002\", \"47842676283529774696798496842375902308364387161749450292829943268450667152876\"]",
+    "sportsMarketType": "team_touchdowns",
+    "line": 2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-team-tds-lv-2pt5",
+    "question": "Raiders Total Touchdowns: O/U 2.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"101292937654337150313894152657680430128261850715142997352599309443280971051184\", \"105636136303935660956732152413403732424535782084309684814349023456151640660312\"]",
+    "sportsMarketType": "team_touchdowns",
+    "line": 2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-team-tds-la-3pt5",
+    "question": "Rams Total Touchdowns: O/U 3.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"74468954766726767736569560056814194530522534782167897240565423260195492778195\", \"67863638332610788499655637125347842487195686264049866849819164431405759893682\"]",
+    "sportsMarketType": "team_touchdowns",
+    "line": 3.5,
+    "active": true,
+    "closed": false
+   }
+  ]
+ },
+ {
+  "id": "1226383",
+  "slug": "nfl-la-lv-2026-10-25-player-props",
+  "title": "Rams vs. Raiders - Player Props",
+  "startTime": "2026-10-25T20:25:00Z",
+  "endDate": "2026-10-25T20:25:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nfl-2026",
+  "teams": [
+   {
+    "name": "Los Angeles Rams",
+    "abbreviation": "la",
+    "alias": "Rams",
+    "ordering": "away"
+   },
+   {
+    "name": "Las Vegas Raiders",
+    "abbreviation": "lv",
+    "alias": "Raiders",
+    "ordering": "home"
+   }
+  ],
+  "markets": [
+   {
+    "slug": "nfl-la-lv-2026-10-25-ptd-kirk-cousins-0pt5",
+    "question": "Kirk Cousins: Passing Touchdowns O/U 0.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"93685580321449944180662194691740959969181624162583990726586218598401649896184\", \"84370003803766720972421751007571541628884753982332481303698715925304002744464\"]",
+    "sportsMarketType": "passing_touchdowns",
+    "line": 0.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-ptd-kirk-cousins-1pt5",
+    "question": "Kirk Cousins: Passing Touchdowns O/U 1.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"69805618761029076858637294671867125146114306410700990766087817010474067088830\", \"4674482112173269709069864836364849762499875881962281814722482483746557547975\"]",
+    "sportsMarketType": "passing_touchdowns",
+    "line": 1.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-ptd-kirk-cousins-2pt5",
+    "question": "Kirk Cousins: Passing Touchdowns O/U 2.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"99648053359730617083434443317571316534446529691087867854931346091014014977562\", \"56990832204959619681250738429950514386135610070852470119763766138424281045008\"]",
+    "sportsMarketType": "passing_touchdowns",
+    "line": 2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-anytime-td-ashton-jeanty",
+    "question": "Ashton Jeanty: Anytime Touchdown",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"2592584734667547322384765694285042839980680691728658637273098509374772391413\", \"10566388597002232369932616490034156904529978871382060932756737063005629965541\"]",
+    "sportsMarketType": "anytime_touchdowns",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2plus-td-ashton-jeanty",
+    "question": "Ashton Jeanty: 2+ Touchdowns",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"17589337696673238853671969009763087774437121856786000901905707176197215990206\", \"42495003626525750632550025619623294479717136022053816441576210290116080612292\"]",
+    "sportsMarketType": "two_plus_touchdowns",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-anytime-td-blake-corum",
+    "question": "Blake Corum: Anytime Touchdown",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"5423254665341397904758003714721555113043323440482870595562316693985431632586\", \"63776519892163798045758699676750108560442502649073451282343147133773137777368\"]",
+    "sportsMarketType": "anytime_touchdowns",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2plus-td-blake-corum",
+    "question": "Blake Corum: 2+ Touchdowns",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"56248492099786209323125089527157244633337145541821683907715961980667577135989\", \"67934365035320180830684433420431044572657501211094273011374302324093246239090\"]",
+    "sportsMarketType": "two_plus_touchdowns",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-anytime-td-brock-bowers",
+    "question": "Brock Bowers: Anytime Touchdown",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"95559745921540129067961216876133252815350110350866733138987683675814327558855\", \"1205802023025860618161327073518453256102810598895109895111906084465936198472\"]",
+    "sportsMarketType": "anytime_touchdowns",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-2plus-td-brock-bowers",
+    "question": "Brock Bowers: 2+ Touchdowns",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"108565066577287944366776947382113244861286595021463457136653662244959938867301\", \"104550379835387178705213686373262801237388058455955722665489484985913517098293\"]",
+    "sportsMarketType": "two_plus_touchdowns",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-lrec-brock-bowers-19pt5",
+    "question": "Brock Bowers: Longest Reception O/U 19.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"113378711212434014653689096517005421007313232754395544968271220055802099880685\", \"78813554480477203122405106493562686564448413536046669306402046303418776009740\"]",
+    "sportsMarketType": "longest_reception",
+    "line": 19.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-lrec-puka-nacua-19pt5",
+    "question": "Puka Nacua: Longest Reception O/U 19.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"77496656407377791578462222564202845213841999743634537066666220503153954953409\", \"87766554828825960339001145475769787930669732775270634573093564388427578393651\"]",
+    "sportsMarketType": "longest_reception",
+    "line": 19.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-lrec-tre-tucker-19pt5",
+    "question": "Tre Tucker: Longest Reception O/U 19.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"98992302524333345304966381170520292818674964817993371504211406417792184239684\", \"44900336262568499471465151690493173597764211624071997202419046827753474777730\"]",
+    "sportsMarketType": "longest_reception",
+    "line": 19.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-patt-kirk-cousins-31pt5",
+    "question": "Kirk Cousins: Passing Attempts O/U 31.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"44812515094196396163317427871595167083652291003653362957703551546272511073256\", \"77493180668429326424048551892102149525433944337523012001849572805026957539250\"]",
+    "sportsMarketType": "passing_attempts",
+    "line": 31.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-patt-kirk-cousins-35pt5",
+    "question": "Kirk Cousins: Passing Attempts O/U 35.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"1849680835886809430169897473480998291126105049200019734643158245187653204917\", \"45584446202135651979338297204204418565510696180558153929083089473872697565101\"]",
+    "sportsMarketType": "passing_attempts",
+    "line": 35.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-patt-kirk-cousins-39pt5",
+    "question": "Kirk Cousins: Passing Attempts O/U 39.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"12004563630110633040434213938413132508411626373144152130450033661862943717043\", \"55300721242149821023672678960084680288945345547902762301069174272318950071224\"]",
+    "sportsMarketType": "passing_attempts",
+    "line": 39.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-pcomp-kirk-cousins-19pt5",
+    "question": "Kirk Cousins: Passing Completions O/U 19.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"55775170868928464366507218101966853082759755678177892201234893116180603906605\", \"29218597918729285864872342838520454758992961995800661656329726710017422364967\"]",
+    "sportsMarketType": "passing_completions",
+    "line": 19.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-pcomp-kirk-cousins-21pt5",
+    "question": "Kirk Cousins: Passing Completions O/U 21.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"42516587149682073946638500734235854027760757681274281808448879687332520234686\", \"99254739822678781272509057506327166177810069415917583469537423597870896523712\"]",
+    "sportsMarketType": "passing_completions",
+    "line": 21.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-pcomp-kirk-cousins-23pt5",
+    "question": "Kirk Cousins: Passing Completions O/U 23.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"20573579494190777574275818479996400337658593022386766329505364849554035572049\", \"58170869290677642590643318429212187377753706789454055391000665473452562775748\"]",
+    "sportsMarketType": "passing_completions",
+    "line": 23.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-team-first-td-66-ashton-jeanty",
+    "question": "Ashton Jeanty: Team First TD (Las Vegas Raiders)",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"79074949322748745069279528486302263250409948760233805810288680545385703530980\", \"26446338838367845497735472299598899806029322581863960286144927506202814291546\"]",
+    "sportsMarketType": "team_first_touchdowns",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-team-first-td-64-blake-corum",
+    "question": "Blake Corum: Team First TD (Los Angeles Rams)",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"12381502122369314307292673395717558704807974510693068688901178654514124600396\", \"84031604844370960089340603891663988027875384265295370729659104464321697608376\"]",
+    "sportsMarketType": "team_first_touchdowns",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-team-first-td-66-brock-bowers",
+    "question": "Brock Bowers: Team First TD (Las Vegas Raiders)",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"94033184364082087605843921874358726818732278930432174052682380401255030578763\", \"75045443301209483440954576019991939112863850702615823030190583009428293183256\"]",
+    "sportsMarketType": "team_first_touchdowns",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-pyd-kirk-cousins-124pt5",
+    "question": "Kirk Cousins: Passing Yards O/U 124.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"17452080318550061827770047199761014793483542147065874576993885885089775471958\", \"93474876560971594796149785415494338092948592578671016567157379645365043693617\"]",
+    "sportsMarketType": "passing_yards",
+    "line": 124.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-pyd-kirk-cousins-149pt5",
+    "question": "Kirk Cousins: Passing Yards O/U 149.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"77211998743653058474850313421016291798433203849931320056216823696064303376131\", \"23889924030631146939207186813685658239275496959099786729407430007727055105772\"]",
+    "sportsMarketType": "passing_yards",
+    "line": 149.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-pyd-kirk-cousins-174pt5",
+    "question": "Kirk Cousins: Passing Yards O/U 174.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"84553534115395909447380468571346466246800288593926537509749464478730216488031\", \"75468753680714557559324817128360153404027516733132095487300465116933483161065\"]",
+    "sportsMarketType": "passing_yards",
+    "line": 174.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-ryd-ashton-jeanty-29pt5",
+    "question": "Ashton Jeanty: Rushing Yards O/U 29.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"90040090023963274979799609547770190948360925131867299357008351490593515343379\", \"48965109762531768039669765146575504256903880771970362184548622024458048062068\"]",
+    "sportsMarketType": "rushing_yards",
+    "line": 29.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-ryd-ashton-jeanty-39pt5",
+    "question": "Ashton Jeanty: Rushing Yards O/U 39.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"36309855146139596983048513384734440744225073971474106583454847268701334223896\", \"65437898074677485740849017843996384134787336233166967415405832040483880840855\"]",
+    "sportsMarketType": "rushing_yards",
+    "line": 39.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-ryd-ashton-jeanty-49pt5",
+    "question": "Ashton Jeanty: Rushing Yards O/U 49.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"96896806954732784083367945325270556643439688822815035557772525710074401119725\", \"100367716727984027607869497473024496278746965515284903016276486891718997269940\"]",
+    "sportsMarketType": "rushing_yards",
+    "line": 49.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-recyd-ashton-jeanty-9pt5",
+    "question": "Ashton Jeanty: Receiving Yards O/U 9.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"50186486375733368177148377575927903730933352857629190741248503791860207882337\", \"66978941305950886670073658880879623323647273803805485609674034356549934022498\"]",
+    "sportsMarketType": "receiving_yards",
+    "line": 9.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-recyd-ashton-jeanty-19pt5",
+    "question": "Ashton Jeanty: Receiving Yards O/U 19.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"70468873975627956593982448106314162059555338240267331635281611378657644560650\", \"112067433697018933285869606724478817624939230857243766078164156213484757950931\"]",
+    "sportsMarketType": "receiving_yards",
+    "line": 19.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-recyd-ashton-jeanty-29pt5",
+    "question": "Ashton Jeanty: Receiving Yards O/U 29.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"62525217640830933312022902092841062764973850278188227483114496359275539345773\", \"96650614533918470632051725787560288389811990771438816540619566156006440782570\"]",
+    "sportsMarketType": "receiving_yards",
+    "line": 29.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-rec-ashton-jeanty-2pt5",
+    "question": "Ashton Jeanty: Receptions O/U 2.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"2247175830904583302890623621353089857454912043909820859536847238741953510938\", \"66045793494282663246820818458972703960873482106499648936966998076310711884451\"]",
+    "sportsMarketType": "receptions",
+    "line": 2.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-rec-ashton-jeanty-3pt5",
+    "question": "Ashton Jeanty: Receptions O/U 3.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"61203338853668079593427480975312329089340507664166558021944702542668142694524\", \"95083664474183002461026836476783065000651069676446011308935127626818190751245\"]",
+    "sportsMarketType": "receptions",
+    "line": 3.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nfl-la-lv-2026-10-25-rec-ashton-jeanty-4pt5",
+    "question": "Ashton Jeanty: Receptions O/U 4.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"65301132654416589888044125679905632785684714437253163015465552593432716037615\", \"7086661148024336811940276052107910275170750535889002709939012732483602013231\"]",
+    "sportsMarketType": "receptions",
+    "line": 4.5,
+    "active": true,
+    "closed": false
+   }
+  ]
+ }
+]

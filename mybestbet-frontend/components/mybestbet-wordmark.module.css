@@ -1,0 +1,15 @@
+:where(.wm) {
+  display: inline-block;
+  color: var(--fg);
+  font-family: var(--font-mona), "Mona Sans", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: -.045em;
+}
+
+.wm::before { content: "mybestbet"; }
+
+@media (max-width: 760px) {
+  :where(.wm) { font-size: 20px; }
+}

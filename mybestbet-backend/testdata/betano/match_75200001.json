@@ -1,0 +1,106 @@
+{
+ "data": {
+  "event": {
+   "id": "75200001",
+   "name": "Atlanta Falcons - San Francisco 49ers",
+   "shortName": "Atlanta Falcons - San Francisco 49ers",
+   "sportId": "AMFO",
+   "leagueId": "520",
+   "leagueName": "NFL",
+   "regionName": "USA",
+   "startTime": 1792947600000,
+   "url": "/odds/atlanta-falcons-san-francisco-49ers/75200001/",
+   "participants": [
+    {
+     "name": "Atlanta Falcons"
+    },
+    {
+     "name": "San Francisco 49ers"
+    }
+   ],
+   "markets": [
+    {
+     "id": "910000032",
+     "name": "Winner (incl. overtime)",
+     "type": "MR12",
+     "selections": [
+      {
+       "id": "910000030",
+       "name": "1",
+       "fullName": "1",
+       "price": 2.33
+      },
+      {
+       "id": "910000031",
+       "name": "2",
+       "fullName": "2",
+       "price": 1.61
+      }
+     ]
+    },
+    {
+     "id": "910000037",
+     "name": "Handicap (incl. overtime)",
+     "type": "HCOT",
+     "selections": [
+      {
+       "id": "910000033",
+       "name": "1 (+1.5)",
+       "fullName": "1 (+1.5)",
+       "price": 2.15,
+       "handicap": 1.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000034",
+       "name": "2 (-1.5)",
+       "fullName": "2 (-1.5)",
+       "price": 1.71,
+       "handicap": -1.5,
+       "columnIndex": 1
+      },
+      {
+       "id": "910000035",
+       "name": "1 (+2.5)",
+       "fullName": "1 (+2.5)",
+       "price": 2.02,
+       "handicap": 2.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000036",
+       "name": "2 (-2.5)",
+       "fullName": "2 (-2.5)",
+       "price": 1.8,
+       "handicap": -2.5,
+       "columnIndex": 1
+      }
+     ]
+    },
+    {
+     "id": "910000040",
+     "name": "Total Points (incl. overtime)",
+     "type": "OUOT",
+     "selections": [
+      {
+       "id": "910000038",
+       "name": "Over 48.5",
+       "fullName": "Over 48.5",
+       "price": 1.81,
+       "handicap": 48.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000039",
+       "name": "Under 48.5",
+       "fullName": "Under 48.5",
+       "price": 2.0,
+       "handicap": 48.5,
+       "columnIndex": 1
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

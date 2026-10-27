@@ -1,0 +1,42 @@
+{
+  "source": "betano",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "74498810",
+      "leagueHint": "LALIGA",
+      "home": "Deportivo Alaves",
+      "away": "Malaga",
+      "kickoff": "2026-10-23T19:00:00Z"
+    },
+    {
+      "sourceId": "74498815",
+      "leagueHint": "LALIGA",
+      "home": "Rayo Vallecano",
+      "away": "Elche",
+      "kickoff": "2026-10-24T12:00:00Z"
+    },
+    {
+      "sourceId": "74510233",
+      "leagueHint": "EPL",
+      "home": "Ipswich Town",
+      "away": "Nottingham Forest",
+      "kickoff": "2026-10-23T19:00:00Z"
+    },
+    {
+      "sourceId": "74510237",
+      "leagueHint": "EPL",
+      "home": "Arsenal",
+      "away": "Everton",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "74510241",
+      "leagueHint": "EPL",
+      "home": "Aston Villa",
+      "away": "Manchester City",
+      "kickoff": "2026-10-24T11:30:00Z"
+    }
+  ],
+  "markets": null
+}

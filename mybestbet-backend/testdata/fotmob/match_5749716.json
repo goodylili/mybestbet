@@ -1,0 +1,150 @@
+{
+ "general": {
+  "matchId": "5749716",
+  "homeTeam": {
+   "name": "Lecce",
+   "id": 9888
+  },
+  "awayTeam": {
+   "name": "Juventus",
+   "id": 9885
+  },
+  "finished": true
+ },
+ "content": {
+  "playerStats": {
+   "362200": {
+    "id": 362200,
+    "name": "Wladimiro Falcone",
+    "teamId": 9888,
+    "stats": [
+     {
+      "key": "top_stats",
+      "stats": {
+       "FotMob rating": {
+        "key": "rating_title",
+        "stat": {
+         "value": 5.24
+        }
+       },
+       "Minutes played": {
+        "key": "minutes_played",
+        "stat": {
+         "value": 90
+        }
+       },
+       "Fouls committed": {
+        "key": "fouls",
+        "stat": {
+         "value": 0
+        }
+       },
+       "Tackles": {
+        "key": "matchstats.headers.tackles",
+        "stat": {
+         "value": 0
+        }
+       }
+      }
+     }
+    ]
+   },
+   "1206806": {
+    "id": 1206806,
+    "name": "Kialonda Gaspar",
+    "teamId": 9888,
+    "stats": [
+     {
+      "key": "top_stats",
+      "stats": {
+       "FotMob rating": {
+        "key": "rating_title",
+        "stat": {
+         "value": 6.33
+        }
+       },
+       "Minutes played": {
+        "key": "minutes_played",
+        "stat": {
+         "value": 90
+        }
+       },
+       "Goals": {
+        "key": "goals",
+        "stat": {
+         "value": 0
+        }
+       },
+       "Assists": {
+        "key": "assists",
+        "stat": {
+         "value": 0
+        }
+       },
+       "Total shots": {
+        "key": "total_shots",
+        "stat": {
+         "value": 2
+        }
+       },
+       "Shots on target": {
+        "key": "ShotsOnTarget",
+        "stat": {
+         "value": 1
+        }
+       }
+      }
+     },
+     {
+      "key": "defense",
+      "stats": {
+       "Tackles": {
+        "key": "matchstats.headers.tackles",
+        "stat": {
+         "value": 2
+        }
+       }
+      }
+     },
+     {
+      "key": "duels",
+      "stats": {
+       "Fouls committed": {
+        "key": "fouls",
+        "stat": {
+         "value": 3
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "matchFacts": {
+   "events": {
+    "events": [
+     {
+      "type": "Card",
+      "card": "Yellow",
+      "player": {
+       "id": 1206806,
+       "name": "Kialonda Gaspar",
+       "profileUrl": "/players/1206806/kialonda-gaspar"
+      },
+      "time": 76
+     },
+     {
+      "type": "Card",
+      "card": "YellowRed",
+      "player": {
+       "id": 1206806,
+       "name": "Kialonda Gaspar",
+       "profileUrl": "/players/1206806/kialonda-gaspar"
+      },
+      "time": 90
+     }
+    ]
+   }
+  }
+ }
+}

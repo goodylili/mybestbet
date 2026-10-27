@@ -1,0 +1,223 @@
+{
+  "source": "prizepicks",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "NBA-6601",
+      "code": "BK_PTS",
+      "line": 27.5,
+      "player": {
+        "sourceId": "401",
+        "name": "LeBron James",
+        "team": "Los Angeles Lakers"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 27.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100001"
+    },
+    {
+      "eventSourceId": "NBA-6601",
+      "code": "BK_PTS",
+      "line": 25.5,
+      "player": {
+        "sourceId": "401",
+        "name": "LeBron James",
+        "team": "Los Angeles Lakers"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "goblin",
+          "price": {
+            "raw": 25.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100002"
+    },
+    {
+      "eventSourceId": "NBA-6601",
+      "code": "BK_PTS",
+      "line": 30.5,
+      "player": {
+        "sourceId": "401",
+        "name": "LeBron James",
+        "team": "Los Angeles Lakers"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "demon",
+          "price": {
+            "raw": 30.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100003"
+    },
+    {
+      "eventSourceId": "NBA-6601",
+      "code": "BK_REB",
+      "line": 11.5,
+      "player": {
+        "sourceId": "402",
+        "name": "Anthony Davis",
+        "team": "Los Angeles Lakers"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 11.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100004"
+    },
+    {
+      "eventSourceId": "NBA-6601",
+      "code": "BK_AST",
+      "line": 7.5,
+      "player": {
+        "sourceId": "401",
+        "name": "LeBron James",
+        "team": "Los Angeles Lakers"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 7.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100005"
+    },
+    {
+      "eventSourceId": "NBA-6601",
+      "code": "BK_3PM",
+      "line": 3.5,
+      "player": {
+        "sourceId": "403",
+        "name": "Jayson Tatum",
+        "team": "Boston Celtics"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 3.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100006"
+    },
+    {
+      "eventSourceId": "NBA-6601",
+      "code": "BK_PRA",
+      "line": 39.5,
+      "player": {
+        "sourceId": "401",
+        "name": "LeBron James",
+        "team": "Los Angeles Lakers"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 39.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100007"
+    },
+    {
+      "eventSourceId": "NBA-6602",
+      "code": "BK_PTS",
+      "line": 31.5,
+      "player": {
+        "sourceId": "404",
+        "name": "Nikola Jokic",
+        "team": "Denver Nuggets"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 31.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100011"
+    }
+  ]
+}

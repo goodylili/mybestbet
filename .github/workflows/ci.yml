@@ -1,0 +1,49 @@
+name: ci
+on:
+  push: {branches: [dev, main]}
+  pull_request: {branches: [main]}
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults: {run: {working-directory: mybestbet-backend}}
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env: {POSTGRES_USER: mybestbet, POSTGRES_PASSWORD: mybestbet, POSTGRES_DB: mybestbet}
+        ports: ["5433:5432"]
+        options: --health-cmd "pg_isready -U mybestbet" --health-interval 5s --health-retries 10
+      redis:
+        image: redis:7-alpine
+        ports: ["6379:6379"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with: {go-version-file: mybestbet-backend/go.mod, cache-dependency-path: mybestbet-backend/go.sum}
+      - uses: golangci/golangci-lint-action@v8
+        with: {version: latest, args: --timeout=5m, working-directory: mybestbet-backend}
+      - run: make fmt-check comments-check build vet test
+      - name: pipeline load test
+        env:
+          DATABASE_URL: postgres://mybestbet:mybestbet@localhost:5433/mybestbet_test?sslmode=disable
+          REDIS_URL: redis://localhost:6379/14
+          METRICS_ADDR: ":9204"
+          APP_ENV: ci
+        run: |
+          bin/engine > engine.log 2>&1 &
+          timeout 60 sh -c 'until curl -sf localhost:9204/healthz > /dev/null; do sleep 1; done'
+          make loadtest LOADTEST_REDIS_URL="$REDIS_URL" LOADTEST_ARGS=-duration=30s
+          ! grep -E 'flush prices|dropping prices the spool' engine.log
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: app
+        run: test -f mybestbet-frontend/package.json && echo present=true >> "$GITHUB_OUTPUT" || echo present=false >> "$GITHUB_OUTPUT"
+      - if: steps.app.outputs.present == 'true' && hashFiles('mybestbet-frontend/pnpm-lock.yaml') != ''
+        uses: pnpm/action-setup@v4
+        with: {version: 9}
+      - if: steps.app.outputs.present == 'true'
+        uses: actions/setup-node@v4
+        with: {node-version: 22}
+      - if: steps.app.outputs.present == 'true'
+        run: make frontend-ci

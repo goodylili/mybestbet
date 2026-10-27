@@ -1,0 +1,125 @@
+{
+ "data": {
+  "event": {
+   "id": "75400001",
+   "name": "9INE Academy - Bread Eaters",
+   "shortName": "9INE Academy - Bread Eaters",
+   "sportId": "ESPO",
+   "leagueId": "710",
+   "leagueName": "United21",
+   "regionName": "Counter-Strike",
+   "startTime": 1792836000000,
+   "url": "/odds/9ine-academy-bread-eaters/75400001/",
+   "participants": [
+    {
+     "name": "9INE Academy"
+    },
+    {
+     "name": "Bread Eaters"
+    }
+   ],
+   "markets": [
+    {
+     "id": "910000057",
+     "name": "Match Winner",
+     "type": "MR12",
+     "selections": [
+      {
+       "id": "910000055",
+       "name": "1",
+       "fullName": "1",
+       "price": 1.62
+      },
+      {
+       "id": "910000056",
+       "name": "2",
+       "fullName": "2",
+       "price": 2.2
+      }
+     ]
+    },
+    {
+     "id": "910000060",
+     "name": "Map 1 Winner",
+     "type": "M1RS",
+     "selections": [
+      {
+       "id": "910000058",
+       "name": "1",
+       "fullName": "1",
+       "price": 1.65
+      },
+      {
+       "id": "910000059",
+       "name": "2",
+       "fullName": "2",
+       "price": 2.15
+      }
+     ]
+    },
+    {
+     "id": "910000065",
+     "name": "Map Handicap",
+     "type": "MAPH",
+     "selections": [
+      {
+       "id": "910000061",
+       "name": "1 (-1.5)",
+       "fullName": "1 (-1.5)",
+       "price": 2.65,
+       "handicap": -1.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000062",
+       "name": "2 (+1.5)",
+       "fullName": "2 (+1.5)",
+       "price": 1.42,
+       "handicap": 1.5,
+       "columnIndex": 1
+      },
+      {
+       "id": "910000063",
+       "name": "1 (+1.5)",
+       "fullName": "1 (+1.5)",
+       "price": 1.2,
+       "handicap": 1.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000064",
+       "name": "2 (-1.5)",
+       "fullName": "2 (-1.5)",
+       "price": 3.9,
+       "handicap": -1.5,
+       "columnIndex": 1
+      }
+     ]
+    },
+    {
+     "id": "910000068",
+     "name": "Total Maps",
+     "type": "MAPT",
+     "selections": [
+      {
+       "id": "910000066",
+       "name": "Over 2.5",
+       "fullName": "Over 2.5",
+       "price": 2.1,
+       "handicap": 2.5,
+       "columnIndex": 0
+      },
+      {
+       "id": "910000067",
+       "name": "Under 2.5",
+       "fullName": "Under 2.5",
+       "price": 1.66,
+       "handicap": 2.5,
+       "columnIndex": 1
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,98 @@
+{
+  "source": "polymarket",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "atp-forti-batalla-2026-10-23",
+      "leagueHint": "ATP_CH_ZADAR",
+      "home": "Francesco Forti",
+      "away": "Oriol Roca Batalla",
+      "kickoff": "2026-10-24T09:00:00Z"
+    },
+    {
+      "sourceId": "cs2-aimers-bg1-2026-10-08",
+      "leagueHint": "CS2",
+      "home": "aimers",
+      "away": "Banger Gang",
+      "kickoff": "2026-10-27T17:00:00Z"
+    },
+    {
+      "sourceId": "cs2-ast10-fnc-2026-10-27",
+      "leagueHint": "CS2",
+      "home": "Astralis",
+      "away": "fnatic",
+      "kickoff": "2026-10-27T16:00:00Z"
+    },
+    {
+      "sourceId": "cs2-ice-nem-2026-10-27",
+      "leagueHint": "CS2",
+      "home": "Inner Circle Esports",
+      "away": "Team Nemesis",
+      "kickoff": "2026-10-27T13:30:00Z"
+    },
+    {
+      "sourceId": "cs2-mgc-big5-2026-10-27",
+      "leagueHint": "CS2",
+      "home": "magic",
+      "away": "BIG",
+      "kickoff": "2026-10-27T11:00:00Z"
+    },
+    {
+      "sourceId": "nba-bkn-cle-2026-10-24",
+      "leagueHint": "NBA",
+      "home": "Cavaliers",
+      "away": "Nets",
+      "kickoff": "2026-10-24T23:30:00Z"
+    },
+    {
+      "sourceId": "nba-hou-atl-2026-10-24",
+      "leagueHint": "NBA",
+      "home": "Hawks",
+      "away": "Rockets",
+      "kickoff": "2026-10-25T00:30:00Z"
+    },
+    {
+      "sourceId": "nba-mia-cha-2026-10-24",
+      "leagueHint": "NBA",
+      "home": "Hornets",
+      "away": "Heat",
+      "kickoff": "2026-10-24T22:00:00Z"
+    },
+    {
+      "sourceId": "nba-mil-phi-2026-10-24",
+      "leagueHint": "NBA",
+      "home": "76ers",
+      "away": "Bucks",
+      "kickoff": "2026-10-24T23:30:00Z"
+    },
+    {
+      "sourceId": "nfl-cin-bal-2026-10-25",
+      "leagueHint": "NFL",
+      "home": "Baltimore Ravens",
+      "away": "Cincinnati Bengals",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "nfl-la-lv-2026-10-25",
+      "leagueHint": "NFL",
+      "home": "Las Vegas Raiders",
+      "away": "Los Angeles Rams",
+      "kickoff": "2026-10-25T20:25:00Z"
+    },
+    {
+      "sourceId": "nfl-pit-no-2026-10-25",
+      "leagueHint": "NFL",
+      "home": "New Orleans Saints",
+      "away": "Pittsburgh Steelers",
+      "kickoff": "2026-10-25T13:30:00Z"
+    },
+    {
+      "sourceId": "nfl-sf-atl-2026-10-25",
+      "leagueHint": "NFL",
+      "home": "Atlanta Falcons",
+      "away": "San Francisco 49ers",
+      "kickoff": "2026-10-25T17:00:00Z"
+    }
+  ],
+  "markets": null
+}

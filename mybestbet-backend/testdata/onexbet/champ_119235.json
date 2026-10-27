@@ -1,0 +1,476 @@
+{
+ "Id": 0,
+ "Success": true,
+ "Error": "",
+ "ErrorCode": 0,
+ "Guid": "",
+ "Value": {
+  "G": [
+   {
+    "B": 305483,
+    "SG": [
+     {
+      "GVE": 1,
+      "I": 757862481,
+      "N": 269610,
+      "CI": 375562676,
+      "T": 300,
+      "EC": 233,
+      "TG": "",
+      "P": 1,
+      "PN": "1st half",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757862480
+     },
+     {
+      "GVE": 1,
+      "I": 757862482,
+      "N": 269611,
+      "CI": 375562660,
+      "T": 300,
+      "EC": 239,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd half",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757862480
+     },
+     {
+      "GVE": 1,
+      "I": 763690068,
+      "N": 217626,
+      "CI": 382196852,
+      "T": 300,
+      "EC": 100,
+      "TG": "Corners",
+      "PN": "",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757862480,
+      "TI": 2
+     },
+     {
+      "GVE": 1,
+      "I": 763719504,
+      "N": 265005,
+      "CI": 382231764,
+      "T": 300,
+      "EC": 14,
+      "TG": "Corners",
+      "P": 1,
+      "PN": "1st half",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757862480,
+      "TI": 2
+     },
+     {
+      "GVE": 1,
+      "I": 759570599,
+      "N": 186734,
+      "CI": 377527130,
+      "T": 300,
+      "EC": 14,
+      "TG": "First To Happen",
+      "PN": "",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757862480,
+      "TI": 67
+     },
+     {
+      "GVE": 1,
+      "I": 764035696,
+      "N": 196634,
+      "CI": 382597144,
+      "T": 300,
+      "EC": 235,
+      "TG": "Player stats (including extra time)",
+      "PN": "",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757862480,
+      "TI": 159
+     }
+    ],
+    "GVE": 1,
+    "HL": true,
+    "I": 757862480,
+    "N": 269609,
+    "CI": 368545042,
+    "T": 300,
+    "TG": "",
+    "PN": "",
+    "TN": "Half",
+    "SS": 2,
+    "SST": 1,
+    "HSI": true,
+    "STI": "6a2c5fa15e99bd05c63a9840",
+    "S": 1793120400,
+    "O1": "Hamburger",
+    "O2": "Eintracht Frankfurt",
+    "O1I": 2866,
+    "O2I": 10979,
+    "O1IS": [
+     2866
+    ],
+    "O2IS": [
+     10979
+    ],
+    "O1C": 53,
+    "O1CT": "Hamburg",
+    "O2C": 53,
+    "O2CT": "Frankfurt am Main",
+    "O1IMG": [
+     "9e735adb160c388c2bb6d1069e26af07.png"
+    ],
+    "O2IMG": [
+     "a8f3678a5abe5ed64bdd316c59408890.png"
+    ],
+    "O1R": "Гамбург",
+    "O2R": "Айнтрахт Франкфурт",
+    "O1E": "Hamburger",
+    "O2E": "Eintracht Frankfurt",
+    "MIS": [
+     {
+      "K": 1,
+      "V": "Round 2"
+     },
+     {
+      "K": 2,
+      "V": "Volksparkstadion (Hamburg)"
+     }
+    ],
+    "MIO": {
+     "TSt": "Round 2",
+     "Loc": "Volksparkstadion (Hamburg)"
+    },
+    "SI": 1,
+    "SE": "Football",
+    "LE": "Germany DFB Pokal",
+    "LI": 119235,
+    "COI": 53,
+    "MS": [
+     0
+    ],
+    "SGI": "6aa30b637762417de85185d3",
+    "KI": 3,
+    "SIMG": "/genfiles/cms/1-1/desktop/sport/08f3a4e689f1009e21e44adec26d0676.png",
+    "HHTHS": true,
+    "TNS": "Halves",
+    "SUBA": true
+   },
+   {
+    "B": 305483,
+    "SG": [
+     {
+      "GVE": 1,
+      "I": 757862478,
+      "N": 234636,
+      "CI": 375562670,
+      "T": 300,
+      "EC": 227,
+      "TG": "",
+      "P": 1,
+      "PN": "1st half",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757862477
+     },
+     {
+      "GVE": 1,
+      "I": 757862479,
+      "N": 234637,
+      "CI": 375562656,
+      "T": 300,
+      "EC": 238,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd half",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757862477
+     },
+     {
+      "GVE": 1,
+      "I": 763690069,
+      "N": 217493,
+      "CI": 382196850,
+      "T": 300,
+      "EC": 37,
+      "TG": "Corners",
+      "PN": "",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757862477,
+      "TI": 2
+     },
+     {
+      "GVE": 1,
+      "I": 763759871,
+      "N": 290512,
+      "CI": 382270598,
+      "T": 300,
+      "EC": 12,
+      "TG": "Corners",
+      "P": 1,
+      "PN": "1st half",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757862477,
+      "TI": 2
+     },
+     {
+      "GVE": 1,
+      "I": 759570600,
+      "N": 186753,
+      "CI": 377527142,
+      "T": 300,
+      "EC": 14,
+      "TG": "First To Happen",
+      "PN": "",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757862477,
+      "TI": 67
+     }
+    ],
+    "GVE": 1,
+    "HL": true,
+    "I": 757862477,
+    "N": 234635,
+    "CI": 367547104,
+    "T": 300,
+    "TG": "",
+    "PN": "",
+    "TN": "Half",
+    "SS": 2,
+    "SST": 1,
+    "HSI": true,
+    "STI": "6a2c5fa15e99bd05c63a9840",
+    "S": 1793120400,
+    "O1": "Rot-Weiss Essen",
+    "O2": "RasenBallsport Leipzig",
+    "O1I": 24443,
+    "O2I": 11921,
+    "O1IS": [
+     24443
+    ],
+    "O2IS": [
+     11921
+    ],
+    "O1C": 53,
+    "O1CT": "Essen",
+    "O2C": 53,
+    "O2CT": "Leipzig",
+    "O1IMG": [
+     "6b17ccbe6e54960b8759a0aa04af8ec1.png"
+    ],
+    "O2IMG": [
+     "17baaf76137b0b97b6ed89734c3a99a7.PNG"
+    ],
+    "O1R": "Рот-Вайсс Эссен",
+    "O2R": "РБ Лейпциг",
+    "O1E": "Rot-Weiss Essen",
+    "O2E": "RasenBallsport Leipzig",
+    "MIS": [
+     {
+      "K": 1,
+      "V": "Round 2"
+     },
+     {
+      "K": 2,
+      "V": "Stadion an der Hafenstraße (Essen)"
+     }
+    ],
+    "MIO": {
+     "TSt": "Round 2",
+     "Loc": "Stadion an der Hafenstraße (Essen)"
+    },
+    "SI": 1,
+    "SE": "Football",
+    "LE": "Germany DFB Pokal",
+    "LI": 119235,
+    "COI": 53,
+    "MS": [
+     0
+    ],
+    "SGI": "6a9f03627762417de84f6381",
+    "KI": 3,
+    "SIMG": "/genfiles/cms/1-1/desktop/sport/08f3a4e689f1009e21e44adec26d0676.png",
+    "HHTHS": true,
+    "TNS": "Halves",
+    "SUBA": true
+   },
+   {
+    "B": 305483,
+    "SG": [
+     {
+      "GVE": 1,
+      "I": 757861293,
+      "N": 233343,
+      "CI": 375562668,
+      "T": 300,
+      "EC": 233,
+      "TG": "",
+      "P": 1,
+      "PN": "1st half",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757861292
+     },
+     {
+      "GVE": 1,
+      "I": 757861294,
+      "N": 233344,
+      "CI": 375562630,
+      "T": 300,
+      "EC": 233,
+      "TG": "",
+      "P": 2,
+      "PN": "2nd half",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757861292
+     },
+     {
+      "GVE": 1,
+      "I": 763698985,
+      "N": 257691,
+      "CI": 382205074,
+      "T": 300,
+      "EC": 43,
+      "TG": "Corners",
+      "PN": "",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757861292,
+      "TI": 2
+     },
+     {
+      "GVE": 1,
+      "I": 763773926,
+      "N": 176547,
+      "CI": 382278162,
+      "T": 300,
+      "EC": 14,
+      "TG": "Corners",
+      "P": 1,
+      "PN": "1st half",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757861292,
+      "TI": 2
+     },
+     {
+      "GVE": 1,
+      "I": 759570814,
+      "N": 186728,
+      "CI": 377527128,
+      "T": 300,
+      "EC": 14,
+      "TG": "First To Happen",
+      "PN": "",
+      "DI": "",
+      "SS": 2,
+      "SI": 1,
+      "MG": 757861292,
+      "TI": 67
+     }
+    ],
+    "GVE": 1,
+    "HL": true,
+    "I": 757861292,
+    "N": 233342,
+    "CI": 367547094,
+    "T": 300,
+    "TG": "",
+    "PN": "",
+    "TN": "Half",
+    "SS": 2,
+    "SST": 1,
+    "HSI": true,
+    "STI": "6a2c5fa15e99bd05c63a9840",
+    "S": 1793120400,
+    "O1": "Sonnenhof",
+    "O2": "Augsburg",
+    "O1I": 11295,
+    "O2I": 18607,
+    "O1IS": [
+     11295
+    ],
+    "O2IS": [
+     18607
+    ],
+    "O1C": 53,
+    "O2C": 53,
+    "O2CT": "Augsburg",
+    "O1IMG": [
+     "e67e9414c3d2d7a608abc8a8d42845ad.png"
+    ],
+    "O2IMG": [
+     "c476607e89862aac7d9f180f33537eff.png"
+    ],
+    "O1R": "Сонненхоф",
+    "O2R": "Аугсбург",
+    "O1E": "Sonnenhof",
+    "O2E": "Augsburg",
+    "MIS": [
+     {
+      "K": 1,
+      "V": "Round 2"
+     },
+     {
+      "K": 2,
+      "V": "WIRmachenDRUCK Arena (Aspach)"
+     }
+    ],
+    "MIO": {
+     "TSt": "Round 2",
+     "Loc": "WIRmachenDRUCK Arena (Aspach)"
+    },
+    "SI": 1,
+    "SE": "Football",
+    "LE": "Germany DFB Pokal",
+    "LI": 119235,
+    "COI": 53,
+    "MS": [
+     0
+    ],
+    "SGI": "6a9f039b7762417de84f63a5",
+    "KI": 3,
+    "SIMG": "/genfiles/cms/1-1/desktop/sport/08f3a4e689f1009e21e44adec26d0676.png",
+    "HHTHS": true,
+    "TNS": "Halves",
+    "SUBA": true
+   }
+  ],
+  "SI": 1,
+  "SN": "Football",
+  "SR": "Футбол",
+  "L": "Germany DFB Pokal",
+  "LR": "Кубок Германии",
+  "LI": 119235,
+  "CI": 53,
+  "T": 300,
+  "GC": 19,
+  "COIMG": "d4567348989cea3937d84a953323b252.png"
+ }
+}

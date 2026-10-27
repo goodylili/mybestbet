@@ -1,0 +1,208 @@
+teamNames:
+  estrela da amadora: estrela amadora
+  cs maritimo: maritimo
+  estoril praia: estoril
+  vitoria sc: vitoria guimaraes
+  vitoria de guimaraes: vitoria guimaraes
+  red bull new york: new york red bulls
+  man utd: manchester united
+  man united: manchester united
+  manchester utd: manchester united
+  man city: manchester city
+  spurs: tottenham hotspur
+  wolves: wolverhampton wanderers
+  nottm forest: nottingham forest
+  nott m forest: nottingham forest
+  forest: nottingham forest
+  newcastle utd: newcastle united
+  west ham utd: west ham united
+  sheff utd: sheffield united
+  sheff wed: sheffield wednesday
+  qpr: queens park rangers
+  wba: west bromwich albion
+  west brom: west bromwich albion
+  inter: internazionale
+  inter milan: internazionale
+  internazionale milano: internazionale
+  psg: paris saint germain
+  paris sg: paris saint germain
+  om: olympique marseille
+  marseille: olympique marseille
+  ol: olympique lyonnais
+  lyon: olympique lyonnais
+  bayern: bayern munchen
+  bayern munich: bayern munchen
+  bvb: borussia dortmund
+  gladbach: borussia monchengladbach
+  m gladbach: borussia monchengladbach
+  b monchengladbach: borussia monchengladbach
+  leverkusen: bayer leverkusen
+  bayer 04 leverkusen: bayer leverkusen
+  cologne: koln
+  atletico: atletico madrid
+  atl madrid: atletico madrid
+  atletico de madrid: atletico madrid
+  athletic bilbao: athletic
+  barca: barcelona
+  betis: real betis
+  sociedad: real sociedad
+  celta: celta vigo
+  celta de vigo: celta vigo
+  juve: juventus
+  sporting lisbon: sporting cp
+  sporting: sporting cp
+  sporting clube de portugal: sporting cp
+  braga: sporting braga
+  sc braga: sporting braga
+  psv: psv eindhoven
+  az: az alkmaar
+  ajax amsterdam: ajax
+  feyenoord rotterdam: feyenoord
+  al hilal saudi: al hilal
+  al nassr riyadh: al nassr
+  al ittihad jeddah: al ittihad
+  ittihad: al ittihad
+  hilal: al hilal
+  nassr: al nassr
+  ahli: al ahli
+  al ahli jeddah: al ahli
+  la galaxy: los angeles galaxy
+  lafc: los angeles
+  los angeles fc: los angeles
+  nycfc: new york city
+  ny red bulls: new york red bulls
+  inter miami cf: inter miami
+  atlanta utd: atlanta united
+  bilbao: athletic
+  espanyol barcelona: espanyol
+  inter milano: internazionale
+  r sociedad: real sociedad
+  n e c: nec nijmegen
+  sp rotterdam: sparta rotterdam
+  al hilal riyadh: al hilal
+  al ittifaq: al ettifaq
+  al diraiyah saudi: diriyah
+  association jeunesse auxerroise: auxerre
+  navi: natus vincere
+  na vi: natus vincere
+  vp: virtus pro
+  c9: cloud9
+  cloud 9: cloud9
+  mousesports: mouz
+  nip: ninjas in pyjamas
+  fnc: fnatic
+  tl: liquid
+  eg: evil geniuses
+  hle: hanwha life
+  geng: gen g
+  blg: bilibili
+  tes: top
+  jdg: jd
+  edg: edward
+  wbg: weibo
+  dk: dplus kia
+  dplus: dplus kia
+  kt: kt rolster
+  prx: paper rex
+  sen: sentinels
+  100t: thieves
+  fly: flyquest
+  kc: karmine corp
+  kcorp: karmine corp
+  th: heretics
+  bb: betboom
+  gg: gaimin gladiators
+  xg: xtreme
+  pv: parivision
+  lev: leviatan
+  unc: north carolina
+  north carolina state: nc state
+  l a lakers: los angeles lakers
+  l a clippers: los angeles clippers
+  kc chiefs: kansas city chiefs
+  sf 49ers: san francisco 49ers
+  usa: united states
+  united states of america: united states
+  korea republic: south korea
+  republic of korea: south korea
+  cote d ivoire: ivory coast
+  czech republic: czechia
+  holland: netherlands
+  ireland: republic of ireland
+  turkey: turkiye
+  louisiana state: lsu
+  southern california: usc
+  brigham young: byu
+  southern methodist: smu
+  texas christian: tcu
+  central florida: ucf
+  connecticut: uconn
+  mississippi: ole miss
+  miami fl: miami hurricanes
+  miami florida: miami hurricanes
+  miami ohio: miami oh
+  pitt: pittsburgh
+  la lakers: los angeles lakers
+  la clippers: los angeles clippers
+  la sparks: los angeles sparks
+  la chargers: los angeles chargers
+  la rams: los angeles rams
+  ny knicks: new york knicks
+  ny liberty: new york liberty
+  ny giants: new york giants
+  ny jets: new york jets
+  gs warriors: golden state warriors
+  okc thunder: oklahoma city thunder
+  sixers: philadelphia 76ers
+  cavs: cleveland cavaliers
+  mavs: dallas mavericks
+  niners: san francisco 49ers
+  pats: new england patriots
+  bucs: tampa bay buccaneers
+  jags: jacksonville jaguars
+  red star: crvena zvezda
+  red star belgrade: crvena zvezda
+  ea7 emporio armani milan: olimpia milan
+  armani milan: olimpia milan
+  efes: anadolu efes
+  copenhagen: kobenhavn
+  odense boldklub: ob
+  odense: ob
+  hamkam: hamarkameratene
+  hearts: heart of midlothian
+  oud heverlee leuven: oh leuven
+  rot weiss essen: rw essen
+  sint truidense: sint truiden
+  st truidense vv: sint truiden
+  st truiden: sint truiden
+teamTokens:
+  utd: united
+  st: saint
+  munich: munchen
+  hotspurs: hotspur
+  milano: milan
+  w: women
+  womens: women
+  ladies: women
+  fem: women
+  feminino: women
+  femenino: women
+  feminine: women
+  frauen: women
+  femeni: women
+  feminin: women
+  wfc: women
+lastTeamTokens:
+  st: state
+squadQualifiers: [women, academy, juniors, youth, ii, b, reserves, u19, u20, u21, u23, castilla, jong]
+dropTeamTokens: [fc, cf, afc, sc, club, cd, ac, as, ss, ssc, sv, vfl, vfb, tsg, fk, sk, ud, rc, rcd, ogc, us, aj, cfc, if, bk, de, the, team, esports, gaming, clan, basketball, basket, kk]
+playerTokens:
+  jr: junior
+  jnr: junior
+  snr: senior
+  mohammed: mohamed
+  muhammad: mohamed
+  mohammad: mohamed
+  muhammed: mohamed
+personSuffixes: [junior, senior, ii, iii, iv]
+mergeParticles: [al, el]

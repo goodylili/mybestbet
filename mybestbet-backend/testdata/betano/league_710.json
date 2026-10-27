@@ -1,0 +1,52 @@
+{
+ "data": {
+  "blocks": [
+   {
+    "id": "league",
+    "name": "United21",
+    "events": [
+     {
+      "id": "75400001",
+      "name": "9INE Academy - Bread Eaters",
+      "shortName": "9INE Academy - Bread Eaters",
+      "sportId": "ESPO",
+      "leagueId": "710",
+      "leagueName": "United21",
+      "regionName": "Counter-Strike",
+      "startTime": 1792836000000,
+      "url": "/odds/9ine-academy-bread-eaters/75400001/",
+      "participants": [
+       {
+        "name": "9INE Academy"
+       },
+       {
+        "name": "Bread Eaters"
+       }
+      ],
+      "markets": [
+       {
+        "id": "910000057",
+        "name": "Match Winner",
+        "type": "MR12",
+        "selections": [
+         {
+          "id": "910000055",
+          "name": "1",
+          "fullName": "1",
+          "price": 1.62
+         },
+         {
+          "id": "910000056",
+          "name": "2",
+          "fullName": "2",
+          "price": 2.2
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

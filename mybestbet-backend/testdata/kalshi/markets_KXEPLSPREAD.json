@@ -1,0 +1,377 @@
+{
+ "cursor": "",
+ "events": [
+  {
+   "category": "Sports",
+   "collateral_return_type": "",
+   "event_ticker": "KXEPLSPREAD-26OCT24ARSEVE",
+   "exchange_index": 0,
+   "last_updated_ts": "0001-01-01T00:00:00Z",
+   "markets": [
+    {
+     "ticker": "KXEPLSPREAD-26OCT24ARSEVE-ARS3",
+     "event_ticker": "KXEPLSPREAD-26OCT24ARSEVE",
+     "market_type": "binary",
+     "title": "Arsenal wins by more than 2.5 goals?",
+     "yes_sub_title": "Arsenal wins by more than 2.5 goals",
+     "no_sub_title": "Arsenal wins by more than 2.5 goals",
+     "status": "active",
+     "floor_strike": 2.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "246a91c5-f145-401f-bf0d-2a436e25a5f6"
+     },
+     "yes_bid_dollars": "0.2000",
+     "yes_ask_dollars": "0.2100",
+     "no_bid_dollars": "0.7900",
+     "no_ask_dollars": "0.8000",
+     "yes_bid_size_fp": "4870.00",
+     "yes_ask_size_fp": "5403.72",
+     "last_price_dollars": "0.2200",
+     "close_time": "2026-10-26T14:00:00Z",
+     "occurrence_datetime": "2026-10-24T18:00:00Z",
+     "rules_primary": "If Arsenal wins by more than 2.5 goals in the Arsenal vs Everton professional EPL soccer game originally scheduled for Oct 24, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPLSPREAD-26OCT24ARSEVE-ARS2",
+     "event_ticker": "KXEPLSPREAD-26OCT24ARSEVE",
+     "market_type": "binary",
+     "title": "Arsenal wins by more than 1.5 goals?",
+     "yes_sub_title": "Arsenal wins by more than 1.5 goals",
+     "no_sub_title": "Arsenal wins by more than 1.5 goals",
+     "status": "active",
+     "floor_strike": 1.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "246a91c5-f145-401f-bf0d-2a436e25a5f6"
+     },
+     "yes_bid_dollars": "0.4100",
+     "yes_ask_dollars": "0.4200",
+     "no_bid_dollars": "0.5800",
+     "no_ask_dollars": "0.5900",
+     "yes_bid_size_fp": "5363.36",
+     "yes_ask_size_fp": "83624.49",
+     "last_price_dollars": "0.4100",
+     "close_time": "2026-10-26T14:00:00Z",
+     "occurrence_datetime": "2026-10-24T18:00:00Z",
+     "rules_primary": "If Arsenal wins by more than 1.5 goals in the Arsenal vs Everton professional EPL soccer game originally scheduled for Oct 24, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPLSPREAD-26OCT24ARSEVE-EVE2",
+     "event_ticker": "KXEPLSPREAD-26OCT24ARSEVE",
+     "market_type": "binary",
+     "title": "Everton wins by more than 1.5 goals?",
+     "yes_sub_title": "Everton wins by more than 1.5 goals",
+     "no_sub_title": "Everton wins by more than 1.5 goals",
+     "status": "active",
+     "floor_strike": 1.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "7abb495c-193e-4baf-b3d3-108e99eab8ed"
+     },
+     "yes_bid_dollars": "0.0200",
+     "yes_ask_dollars": "0.0300",
+     "no_bid_dollars": "0.9700",
+     "no_ask_dollars": "0.9800",
+     "yes_bid_size_fp": "37642.90",
+     "yes_ask_size_fp": "6755.00",
+     "last_price_dollars": "0.0000",
+     "close_time": "2026-10-26T14:00:00Z",
+     "occurrence_datetime": "2026-10-24T18:00:00Z",
+     "rules_primary": "If Everton wins by more than 1.5 goals in the Arsenal vs Everton professional EPL soccer game originally scheduled for Oct 24, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPLSPREAD-26OCT24ARSEVE-EVE3",
+     "event_ticker": "KXEPLSPREAD-26OCT24ARSEVE",
+     "market_type": "binary",
+     "title": "Everton wins by more than 2.5 goals?",
+     "yes_sub_title": "Everton wins by more than 2.5 goals",
+     "no_sub_title": "Everton wins by more than 2.5 goals",
+     "status": "active",
+     "floor_strike": 2.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "7abb495c-193e-4baf-b3d3-108e99eab8ed"
+     },
+     "yes_bid_dollars": "0.0000",
+     "yes_ask_dollars": "0.0200",
+     "no_bid_dollars": "0.9800",
+     "no_ask_dollars": "1.0000",
+     "yes_bid_size_fp": "0.00",
+     "yes_ask_size_fp": "4174.60",
+     "last_price_dollars": "0.0100",
+     "close_time": "2026-10-26T14:00:00Z",
+     "occurrence_datetime": "2026-10-24T18:00:00Z",
+     "rules_primary": "If Everton wins by more than 2.5 goals in the Arsenal vs Everton professional EPL soccer game originally scheduled for Oct 24, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    }
+   ],
+   "mutually_exclusive": false,
+   "product_metadata": {
+    "competition": "EPL",
+    "competition_scope": "Spread"
+   },
+   "series_ticker": "KXEPLSPREAD",
+   "settlement_sources": [
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com"
+    },
+    {
+     "name": "ESPN",
+     "url": "https://espn.com"
+    }
+   ],
+   "strike_period": "",
+   "sub_title": "ARS vs EVE (Oct 24)",
+   "title": "Arsenal vs Everton: Spread"
+  },
+  {
+   "category": "Sports",
+   "collateral_return_type": "",
+   "event_ticker": "KXEPLSPREAD-26OCT24CFCTOT",
+   "exchange_index": 0,
+   "last_updated_ts": "0001-01-01T00:00:00Z",
+   "markets": [
+    {
+     "ticker": "KXEPLSPREAD-26OCT24CFCTOT-CFC3",
+     "event_ticker": "KXEPLSPREAD-26OCT24CFCTOT",
+     "market_type": "binary",
+     "title": "Chelsea wins by more than 2.5 goals?",
+     "yes_sub_title": "Chelsea wins by more than 2.5 goals",
+     "no_sub_title": "Chelsea wins by more than 2.5 goals",
+     "status": "active",
+     "floor_strike": 2.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "894cf22a-8360-49a1-812c-7556fb97cbcd"
+     },
+     "yes_bid_dollars": "0.1500",
+     "yes_ask_dollars": "0.1600",
+     "no_bid_dollars": "0.8400",
+     "no_ask_dollars": "0.8500",
+     "yes_bid_size_fp": "9043.81",
+     "yes_ask_size_fp": "987.00",
+     "last_price_dollars": "0.1700",
+     "close_time": "2026-10-26T16:30:00Z",
+     "occurrence_datetime": "2026-10-24T20:30:00Z",
+     "rules_primary": "If Chelsea wins by more than 2.5 goals in the Chelsea vs Tottenham professional EPL soccer game originally scheduled for Oct 24, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPLSPREAD-26OCT24CFCTOT-CFC2",
+     "event_ticker": "KXEPLSPREAD-26OCT24CFCTOT",
+     "market_type": "binary",
+     "title": "Chelsea wins by more than 1.5 goals?",
+     "yes_sub_title": "Chelsea wins by more than 1.5 goals",
+     "no_sub_title": "Chelsea wins by more than 1.5 goals",
+     "status": "active",
+     "floor_strike": 1.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "894cf22a-8360-49a1-812c-7556fb97cbcd"
+     },
+     "yes_bid_dollars": "0.3200",
+     "yes_ask_dollars": "0.3300",
+     "no_bid_dollars": "0.6700",
+     "no_ask_dollars": "0.6800",
+     "yes_bid_size_fp": "22481.68",
+     "yes_ask_size_fp": "12224.52",
+     "last_price_dollars": "0.3300",
+     "close_time": "2026-10-26T16:30:00Z",
+     "occurrence_datetime": "2026-10-24T20:30:00Z",
+     "rules_primary": "If Chelsea wins by more than 1.5 goals in the Chelsea vs Tottenham professional EPL soccer game originally scheduled for Oct 24, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPLSPREAD-26OCT24CFCTOT-TOT2",
+     "event_ticker": "KXEPLSPREAD-26OCT24CFCTOT",
+     "market_type": "binary",
+     "title": "Tottenham wins by more than 1.5 goals?",
+     "yes_sub_title": "Tottenham wins by more than 1.5 goals",
+     "no_sub_title": "Tottenham wins by more than 1.5 goals",
+     "status": "active",
+     "floor_strike": 1.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "95c3aaf8-3f26-4129-b67c-c99562cb3dc9"
+     },
+     "yes_bid_dollars": "0.0700",
+     "yes_ask_dollars": "0.0900",
+     "no_bid_dollars": "0.9100",
+     "no_ask_dollars": "0.9300",
+     "yes_bid_size_fp": "43426.47",
+     "yes_ask_size_fp": "8389.49",
+     "last_price_dollars": "0.0800",
+     "close_time": "2026-10-26T16:30:00Z",
+     "occurrence_datetime": "2026-10-24T20:30:00Z",
+     "rules_primary": "If Tottenham wins by more than 1.5 goals in the Chelsea vs Tottenham professional EPL soccer game originally scheduled for Oct 24, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPLSPREAD-26OCT24CFCTOT-TOT3",
+     "event_ticker": "KXEPLSPREAD-26OCT24CFCTOT",
+     "market_type": "binary",
+     "title": "Tottenham wins by more than 2.5 goals?",
+     "yes_sub_title": "Tottenham wins by more than 2.5 goals",
+     "no_sub_title": "Tottenham wins by more than 2.5 goals",
+     "status": "active",
+     "floor_strike": 2.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "95c3aaf8-3f26-4129-b67c-c99562cb3dc9"
+     },
+     "yes_bid_dollars": "0.0200",
+     "yes_ask_dollars": "0.0300",
+     "no_bid_dollars": "0.9700",
+     "no_ask_dollars": "0.9800",
+     "yes_bid_size_fp": "8972.70",
+     "yes_ask_size_fp": "4795.00",
+     "last_price_dollars": "0.0200",
+     "close_time": "2026-10-26T16:30:00Z",
+     "occurrence_datetime": "2026-10-24T20:30:00Z",
+     "rules_primary": "If Tottenham wins by more than 2.5 goals in the Chelsea vs Tottenham professional EPL soccer game originally scheduled for Oct 24, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    }
+   ],
+   "mutually_exclusive": false,
+   "product_metadata": {
+    "competition": "EPL",
+    "competition_scope": "Spread"
+   },
+   "series_ticker": "KXEPLSPREAD",
+   "settlement_sources": [
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com"
+    },
+    {
+     "name": "ESPN",
+     "url": "https://espn.com"
+    }
+   ],
+   "strike_period": "",
+   "sub_title": "CFC vs TOT (Oct 24)",
+   "title": "Chelsea vs Tottenham: Spread"
+  },
+  {
+   "category": "Sports",
+   "collateral_return_type": "",
+   "event_ticker": "KXEPLSPREAD-26OCT25LFCBRI",
+   "exchange_index": 0,
+   "last_updated_ts": "0001-01-01T00:00:00Z",
+   "markets": [
+    {
+     "ticker": "KXEPLSPREAD-26OCT25LFCBRI-LFC3",
+     "event_ticker": "KXEPLSPREAD-26OCT25LFCBRI",
+     "market_type": "binary",
+     "title": "Liverpool wins by more than 2.5 goals?",
+     "yes_sub_title": "Liverpool wins by more than 2.5 goals",
+     "no_sub_title": "Liverpool wins by more than 2.5 goals",
+     "status": "active",
+     "floor_strike": 2.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "cfd4b999-b080-4c2b-8a5b-640c992aff6e"
+     },
+     "yes_bid_dollars": "0.1000",
+     "yes_ask_dollars": "0.1100",
+     "no_bid_dollars": "0.8900",
+     "no_ask_dollars": "0.9000",
+     "yes_bid_size_fp": "4156.00",
+     "yes_ask_size_fp": "2293.00",
+     "last_price_dollars": "0.1100",
+     "close_time": "2026-10-27T14:00:00Z",
+     "occurrence_datetime": "2026-10-25T18:00:00Z",
+     "rules_primary": "If Liverpool wins by more than 2.5 goals in the Liverpool vs Brighton professional EPL soccer game originally scheduled for Oct 25, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPLSPREAD-26OCT25LFCBRI-LFC2",
+     "event_ticker": "KXEPLSPREAD-26OCT25LFCBRI",
+     "market_type": "binary",
+     "title": "Liverpool wins by more than 1.5 goals?",
+     "yes_sub_title": "Liverpool wins by more than 1.5 goals",
+     "no_sub_title": "Liverpool wins by more than 1.5 goals",
+     "status": "active",
+     "floor_strike": 1.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "cfd4b999-b080-4c2b-8a5b-640c992aff6e"
+     },
+     "yes_bid_dollars": "0.2400",
+     "yes_ask_dollars": "0.2500",
+     "no_bid_dollars": "0.7500",
+     "no_ask_dollars": "0.7600",
+     "yes_bid_size_fp": "1261.00",
+     "yes_ask_size_fp": "1718.00",
+     "last_price_dollars": "0.2500",
+     "close_time": "2026-10-27T14:00:00Z",
+     "occurrence_datetime": "2026-10-25T18:00:00Z",
+     "rules_primary": "If Liverpool wins by more than 1.5 goals in the Liverpool vs Brighton professional EPL soccer game originally scheduled for Oct 25, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPLSPREAD-26OCT25LFCBRI-BRI2",
+     "event_ticker": "KXEPLSPREAD-26OCT25LFCBRI",
+     "market_type": "binary",
+     "title": "Brighton wins by more than 1.5 goals?",
+     "yes_sub_title": "Brighton wins by more than 1.5 goals",
+     "no_sub_title": "Brighton wins by more than 1.5 goals",
+     "status": "active",
+     "floor_strike": 1.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "75575478-e8c9-4d59-ae3b-b117c1d42890"
+     },
+     "yes_bid_dollars": "0.1300",
+     "yes_ask_dollars": "0.1400",
+     "no_bid_dollars": "0.8600",
+     "no_ask_dollars": "0.8700",
+     "yes_bid_size_fp": "576.00",
+     "yes_ask_size_fp": "3062.96",
+     "last_price_dollars": "0.1400",
+     "close_time": "2026-10-27T14:00:00Z",
+     "occurrence_datetime": "2026-10-25T18:00:00Z",
+     "rules_primary": "If Brighton wins by more than 1.5 goals in the Liverpool vs Brighton professional EPL soccer game originally scheduled for Oct 25, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    },
+    {
+     "ticker": "KXEPLSPREAD-26OCT25LFCBRI-BRI3",
+     "event_ticker": "KXEPLSPREAD-26OCT25LFCBRI",
+     "market_type": "binary",
+     "title": "Brighton wins by more than 2.5 goals?",
+     "yes_sub_title": "Brighton wins by more than 2.5 goals",
+     "no_sub_title": "Brighton wins by more than 2.5 goals",
+     "status": "active",
+     "floor_strike": 2.5,
+     "strike_type": "greater",
+     "custom_strike": {
+      "soccer_team": "75575478-e8c9-4d59-ae3b-b117c1d42890"
+     },
+     "yes_bid_dollars": "0.0500",
+     "yes_ask_dollars": "0.0600",
+     "no_bid_dollars": "0.9400",
+     "no_ask_dollars": "0.9500",
+     "yes_bid_size_fp": "452.00",
+     "yes_ask_size_fp": "2441.00",
+     "last_price_dollars": "0.0600",
+     "close_time": "2026-10-27T14:00:00Z",
+     "occurrence_datetime": "2026-10-25T18:00:00Z",
+     "rules_primary": "If Brighton wins by more than 2.5 goals in the Liverpool vs Brighton professional EPL soccer game originally scheduled for Oct 25, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes."
+    }
+   ],
+   "mutually_exclusive": false,
+   "product_metadata": {
+    "competition": "EPL",
+    "competition_scope": "Spread"
+   },
+   "series_ticker": "KXEPLSPREAD",
+   "settlement_sources": [
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com"
+    },
+    {
+     "name": "ESPN",
+     "url": "https://espn.com"
+    }
+   ],
+   "strike_period": "",
+   "sub_title": "LFC vs BRI (Oct 25)",
+   "title": "Liverpool vs Brighton: Spread"
+  }
+ ]
+}

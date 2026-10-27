@@ -1,0 +1,4 @@
+.ib { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; margin: -2px 0; padding: 0; border-radius: 50%; color: var(--fg-3); flex: none; vertical-align: middle; cursor: help; -webkit-tap-highlight-color: transparent; }
+.ib:hover, .ib[aria-expanded="true"] { color: var(--fg); }
+.ib:focus-visible { outline: 2px solid var(--blue-line); outline-offset: 1px; }
+.tip { position: fixed; z-index: 70; padding: 12px 14px; border: 1px solid var(--line-2); border-radius: 10px; background: var(--raise); box-shadow: var(--shadow); color: var(--fg); font-size: 13.5px; font-weight: 400; line-height: 1.45; letter-spacing: normal; text-transform: none; text-align: left; white-space: normal; pointer-events: none; }

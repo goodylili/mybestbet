@@ -1,0 +1,733 @@
+{
+  "source": "betking",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Sassuolo",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.27,
+            "form": "decimal",
+            "prob": 0.7874015748031495,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 3.55,
+            "form": "decimal",
+            "prob": 0.28169014084507044,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10283@0.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Sassuolo",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.38,
+            "form": "decimal",
+            "prob": 0.42016806722689076,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.55,
+            "form": "decimal",
+            "prob": 0.6451612903225806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10283@1.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Sassuolo",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.7,
+            "form": "decimal",
+            "prob": 0.17543859649122806,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.12,
+            "form": "decimal",
+            "prob": 0.8928571428571428,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10283@2.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Lazio",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.15,
+            "form": "decimal",
+            "prob": 0.8695652173913044,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 5,
+            "form": "decimal",
+            "prob": 0.2,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10284@0.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Lazio",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.83,
+            "form": "decimal",
+            "prob": 0.5464480874316939,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.93,
+            "form": "decimal",
+            "prob": 0.5181347150259068,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10284@1.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 2.5,
+      "team": "Lazio",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.7,
+            "form": "decimal",
+            "prob": 0.27027027027027023,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.26,
+            "form": "decimal",
+            "prob": 0.7936507936507936,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10284@2.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Sassuolo",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.07,
+            "form": "decimal",
+            "prob": 0.48309178743961356,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.69,
+            "form": "decimal",
+            "prob": 0.591715976331361,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10290@0.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Sassuolo",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 7.3,
+            "form": "decimal",
+            "prob": 0.136986301369863,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.07,
+            "form": "decimal",
+            "prob": 0.9345794392523364,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10290@1.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Lazio",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.75,
+            "form": "decimal",
+            "prob": 0.5714285714285714,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.98,
+            "form": "decimal",
+            "prob": 0.5050505050505051,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10291@0.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Lazio",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 5.1,
+            "form": "decimal",
+            "prob": 0.19607843137254904,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.14,
+            "form": "decimal",
+            "prob": 0.8771929824561404,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10291@1.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Sassuolo",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.73,
+            "form": "decimal",
+            "prob": 0.5780346820809249,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.95,
+            "form": "decimal",
+            "prob": 0.5128205128205129,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10302@0.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Sassuolo",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.9,
+            "form": "decimal",
+            "prob": 0.2040816326530612,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.13,
+            "form": "decimal",
+            "prob": 0.8849557522123894,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10302@1.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 0.5,
+      "team": "Lazio",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.49,
+            "form": "decimal",
+            "prob": 0.6711409395973155,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.38,
+            "form": "decimal",
+            "prob": 0.42016806722689076,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10303@0.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "T_GOALS",
+      "line": 1.5,
+      "team": "Lazio",
+      "period": "2H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 3.55,
+            "form": "decimal",
+            "prob": 0.28169014084507044,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.24,
+            "form": "decimal",
+            "prob": 0.8064516129032259,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "10303@1.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "1X2",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 3.3,
+            "form": "decimal",
+            "prob": 0.30303030303030304,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "draw",
+          "price": {
+            "raw": 3.6,
+            "form": "decimal",
+            "prob": 0.2777777777777778,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.13,
+            "form": "decimal",
+            "prob": 0.4694835680751174,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "110"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "DC",
+      "selections": [
+        {
+          "label": "1X",
+          "price": {
+            "raw": 1.74,
+            "form": "decimal",
+            "prob": 0.5747126436781609,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "12",
+          "price": {
+            "raw": 1.29,
+            "form": "decimal",
+            "prob": 0.7751937984496123,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "label": "X2",
+          "price": {
+            "raw": 1.34,
+            "form": "decimal",
+            "prob": 0.7462686567164178,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "146"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "DNB",
+      "selections": [
+        {
+          "side": "home",
+          "price": {
+            "raw": 2.38,
+            "form": "decimal",
+            "prob": 0.42016806722689076,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.56,
+            "form": "decimal",
+            "prob": 0.641025641025641,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "147"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "OU",
+      "line": 1.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.19,
+            "form": "decimal",
+            "prob": 0.8403361344537815,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 4.55,
+            "form": "decimal",
+            "prob": 0.21978021978021978,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "160@1.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "OU",
+      "line": 2.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.62,
+            "form": "decimal",
+            "prob": 0.6172839506172839,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 2.28,
+            "form": "decimal",
+            "prob": 0.4385964912280702,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "160@2.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "OU",
+      "line": 3.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.47,
+            "form": "decimal",
+            "prob": 0.4048582995951417,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.5,
+            "form": "decimal",
+            "prob": 0.6666666666666666,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "160@3.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "OU",
+      "line": 4.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 4.35,
+            "form": "decimal",
+            "prob": 0.2298850574712644,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.19,
+            "form": "decimal",
+            "prob": 0.8403361344537815,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "160@4.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "OU",
+      "line": 5.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 8.2,
+            "form": "decimal",
+            "prob": 0.12195121951219513,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.04,
+            "form": "decimal",
+            "prob": 0.9615384615384615,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "160@5.5"
+    },
+    {
+      "eventSourceId": "1005574367",
+      "code": "BTTS",
+      "selections": [
+        {
+          "side": "yes",
+          "price": {
+            "raw": 1.53,
+            "form": "decimal",
+            "prob": 0.6535947712418301,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "no",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": true,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "302"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+ "data": {
+  "id": "74498810",
+  "markets": [
+   {
+    "id": "500000026",
+    "name": "Match Result",
+    "type": "MRES",
+    "selections": [
+     {
+      "id": "900000099",
+      "name": "1",
+      "fullName": "1",
+      "price": 2.1
+     },
+     {
+      "id": "900000100",
+      "name": "X",
+      "fullName": "X",
+      "price": 3.1
+     },
+     {
+      "id": "900000101",
+      "name": "2",
+      "fullName": "2",
+      "price": 3.7
+     }
+    ]
+   },
+   {
+    "id": "500000027",
+    "name": "Draw No Bet",
+    "type": "DNOB",
+    "selections": [
+     {
+      "id": "900000102",
+      "name": "1",
+      "fullName": "1",
+      "price": 1.5
+     },
+     {
+      "id": "900000103",
+      "name": "2",
+      "fullName": "2",
+      "price": 2.55
+     }
+    ]
+   },
+   {
+    "id": "500000028",
+    "name": "Total Goals Over/Under",
+    "type": "HCTG",
+    "selections": [
+     {
+      "id": "900000104",
+      "name": "Over 2.5",
+      "fullName": "Over 2.5",
+      "price": 2.2,
+      "handicap": 2.5,
+      "columnIndex": 0
+     },
+     {
+      "id": "900000105",
+      "name": "Under 2.5",
+      "fullName": "Under 2.5",
+      "price": 1.66,
+      "handicap": 2.5,
+      "columnIndex": 1
+     }
+    ],
+    "handicap": 2.5
+   },
+   {
+    "id": "500000029",
+    "name": "Correct Score",
+    "type": "CSFT",
+    "selections": [
+     {
+      "id": "900000106",
+      "name": "1-0",
+      "fullName": "1-0",
+      "price": 6.75
+     },
+     {
+      "id": "900000107",
+      "name": "0-0",
+      "fullName": "0-0",
+      "price": 7.5
+     },
+     {
+      "id": "900000108",
+      "name": "Any Other Score",
+      "fullName": "Any Other Score",
+      "price": 18.0
+     }
+    ]
+   },
+   {
+    "id": "500000030",
+    "name": "1st Half Result",
+    "type": "H1RS",
+    "selections": [
+     {
+      "id": "900000109",
+      "name": "1",
+      "fullName": "1",
+      "price": 2.8
+     },
+     {
+      "id": "900000110",
+      "name": "X",
+      "fullName": "X",
+      "price": 2.0
+     },
+     {
+      "id": "900000111",
+      "name": "2",
+      "fullName": "2",
+      "price": 4.4
+     }
+    ]
+   }
+  ]
+ }
+}

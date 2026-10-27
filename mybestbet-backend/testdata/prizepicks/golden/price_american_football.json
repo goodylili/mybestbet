@@ -1,0 +1,169 @@
+{
+  "source": "prizepicks",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "NFL-6701",
+      "code": "NF_PASS_YDS",
+      "line": 262.5,
+      "player": {
+        "sourceId": "501",
+        "name": "Patrick Mahomes",
+        "team": "Kansas City Chiefs"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 262.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100012"
+    },
+    {
+      "eventSourceId": "NFL-6701",
+      "code": "NF_PASS_YDS",
+      "line": 224.5,
+      "player": {
+        "sourceId": "501",
+        "name": "Patrick Mahomes",
+        "team": "Kansas City Chiefs"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "goblin",
+          "price": {
+            "raw": 224.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100013"
+    },
+    {
+      "eventSourceId": "NFL-6701",
+      "code": "NF_RUSH_YDS",
+      "line": 71.5,
+      "player": {
+        "sourceId": "502",
+        "name": "James Cook",
+        "team": "Buffalo Bills"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 71.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100014"
+    },
+    {
+      "eventSourceId": "NFL-6701",
+      "code": "NF_REC_YDS",
+      "line": 58.5,
+      "player": {
+        "sourceId": "503",
+        "name": "Travis Kelce",
+        "team": "Kansas City Chiefs"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 58.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100015"
+    },
+    {
+      "eventSourceId": "NFL-6701",
+      "code": "NF_REC",
+      "line": 5.5,
+      "player": {
+        "sourceId": "503",
+        "name": "Travis Kelce",
+        "team": "Kansas City Chiefs"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 5.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100016"
+    },
+    {
+      "eventSourceId": "NFL-6701",
+      "code": "NF_PASS_TD",
+      "line": 1.5,
+      "player": {
+        "sourceId": "501",
+        "name": "Patrick Mahomes",
+        "team": "Kansas City Chiefs"
+      },
+      "selections": [
+        {
+          "side": "over",
+          "label": "standard",
+          "price": {
+            "raw": 1.5,
+            "form": "line_only",
+            "prob": 0,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "8100017"
+    }
+  ]
+}

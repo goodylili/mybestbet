@@ -1,0 +1,137 @@
+{
+ "match_id": 9058397594,
+ "start_time": 1792778615,
+ "duration": 2504,
+ "radiant_win": true,
+ "radiant_score": 31,
+ "dire_score": 16,
+ "series_id": 1158371,
+ "series_type": 1,
+ "leagueid": 19944,
+ "radiant_team_id": 10251974,
+ "dire_team_id": 10149530,
+ "radiant_team": {
+  "team_id": 10251974,
+  "name": "Inner Circle x Insanity",
+  "tag": "ICxI",
+  "logo_url": null
+ },
+ "dire_team": {
+  "team_id": 10149530,
+  "name": "HULIGANI",
+  "tag": "HU",
+  "logo_url": "https://cdn.steamusercontent.com/ugc/14844266645370842778/47230D9640A722EAF06548C2EEB813ED4296AE3F/"
+ },
+ "players": [
+  {
+   "account_id": 1153798101,
+   "player_slot": 0,
+   "isRadiant": true,
+   "name": "Ethereal",
+   "personaname": "senim",
+   "kills": 5,
+   "deaths": 5,
+   "assists": 10,
+   "hero_id": 76
+  },
+  {
+   "account_id": 234119750,
+   "player_slot": 1,
+   "isRadiant": true,
+   "name": "yowaai",
+   "personaname": "wwwwwwwww",
+   "kills": 14,
+   "deaths": 2,
+   "assists": 5,
+   "hero_id": 18
+  },
+  {
+   "account_id": 187123736,
+   "player_slot": 2,
+   "isRadiant": true,
+   "name": "Norma",
+   "personaname": "so come rain on my parade",
+   "kills": 8,
+   "deaths": 4,
+   "assists": 14,
+   "hero_id": 60
+  },
+  {
+   "account_id": 1172719712,
+   "player_slot": 3,
+   "isRadiant": true,
+   "name": "Fernans",
+   "personaname": "self sabotage",
+   "kills": 3,
+   "deaths": 3,
+   "assists": 16,
+   "hero_id": 21
+  },
+  {
+   "account_id": 343909498,
+   "player_slot": 4,
+   "isRadiant": true,
+   "name": "Hyuga",
+   "personaname": "I'M SO FUCKING BAD",
+   "kills": 1,
+   "deaths": 4,
+   "assists": 13,
+   "hero_id": 112
+  },
+  {
+   "account_id": 96183976,
+   "player_slot": 128,
+   "isRadiant": false,
+   "name": "naive-",
+   "personaname": "1nonly",
+   "kills": 2,
+   "deaths": 2,
+   "assists": 5,
+   "hero_id": 89
+  },
+  {
+   "account_id": 140251702,
+   "player_slot": 129,
+   "isRadiant": false,
+   "name": "Mirage`\u96e8",
+   "personaname": "M",
+   "kills": 6,
+   "deaths": 6,
+   "assists": 5,
+   "hero_id": 13
+  },
+  {
+   "account_id": 331711578,
+   "player_slot": 130,
+   "isRadiant": false,
+   "name": "elmo^^",
+   "personaname": "not human",
+   "kills": 3,
+   "deaths": 6,
+   "assists": 8,
+   "hero_id": 49
+  },
+  {
+   "account_id": 206097366,
+   "player_slot": 131,
+   "isRadiant": false,
+   "name": "queezy",
+   "personaname": "JIoJl",
+   "kills": 4,
+   "deaths": 8,
+   "assists": 9,
+   "hero_id": 101
+  },
+  {
+   "account_id": 122817493,
+   "player_slot": 132,
+   "isRadiant": false,
+   "name": "Rein",
+   "personaname": "Rein",
+   "kills": 1,
+   "deaths": 9,
+   "assists": 10,
+   "hero_id": 50
+  }
+ ]
+}

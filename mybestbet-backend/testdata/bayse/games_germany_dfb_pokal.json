@@ -1,0 +1,138 @@
+{
+ "games": [
+  {
+   "id": "c2b01ad0-da0a-4446-b1c5-dbe4a597345e",
+   "slug": "bm-game-20261027-gro-fca",
+   "sport": "soccer",
+   "homeTeamId": "fe59006e-b418-495b-a2a6-51548dbe28b3",
+   "awayTeamId": "126aa2fc-47e9-462c-946b-85016ce4a9a7",
+   "startDate": "2026-10-27T17:00:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "Germany - DFB Pokal",
+   "homeTeam": {
+    "id": "fe59006e-b418-495b-a2a6-51548dbe28b3",
+    "sport": "soccer",
+    "name": "SG Sonnenhof Grossaspach",
+    "slug": "bm-dfbpokal-sg-sonnenhof-grossaspach",
+    "shortCode": "GRO",
+    "league": "Germany - DFB Pokal",
+    "imageUrl": "https://cdn.opticodds.com/team-logos/soccer/10481.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "126aa2fc-47e9-462c-946b-85016ce4a9a7",
+    "sport": "soccer",
+    "name": "FC Augsburg",
+    "slug": "bm-dfbpokal-fc-augsburg",
+    "shortCode": "FCA",
+    "league": "Germany - DFB Pokal",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-fc-augsburg.png",
+    "isPopular": false
+   }
+  },
+  {
+   "id": "04b89f4e-998e-480a-a4f4-9458698e73f1",
+   "slug": "bm-game-20261027-hsv-sge",
+   "sport": "soccer",
+   "homeTeamId": "55d12bf5-35f8-442c-949f-234f4e3a54e8",
+   "awayTeamId": "5f4267d0-0dbd-45dc-aaea-9b777d1c6977",
+   "startDate": "2026-10-27T17:00:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "Germany - DFB Pokal",
+   "homeTeam": {
+    "id": "55d12bf5-35f8-442c-949f-234f4e3a54e8",
+    "sport": "soccer",
+    "name": "Hamburger SV",
+    "slug": "bm-dfbpokal-hamburger-sv",
+    "shortCode": "HSV",
+    "league": "Germany - DFB Pokal",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-hamburger-sv.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "5f4267d0-0dbd-45dc-aaea-9b777d1c6977",
+    "sport": "soccer",
+    "name": "Eintracht Frankfurt",
+    "slug": "bm-dfbpokal-eintracht-frankfurt",
+    "shortCode": "SGE",
+    "league": "Germany - DFB Pokal",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-eintracht-frankfurt.png",
+    "isPopular": false
+   }
+  },
+  {
+   "id": "f2d0b27a-d114-4e40-a5a7-70e8a6a39390",
+   "slug": "bm-game-20261027-boc-m05",
+   "sport": "soccer",
+   "homeTeamId": "0d8588ca-59d8-4329-acbe-7a87111252ba",
+   "awayTeamId": "3b8a54be-7b46-45e2-bcb3-4d97ec323e73",
+   "startDate": "2026-10-27T17:00:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "Germany - DFB Pokal",
+   "homeTeam": {
+    "id": "0d8588ca-59d8-4329-acbe-7a87111252ba",
+    "sport": "soccer",
+    "name": "VfL Bochum 1848",
+    "slug": "bm-dfbpokal-vfl-bochum-1848",
+    "shortCode": "BOC",
+    "league": "Germany - DFB Pokal",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-vfl-bochum-1848.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "3b8a54be-7b46-45e2-bcb3-4d97ec323e73",
+    "sport": "soccer",
+    "name": "1. FSV Mainz 05",
+    "slug": "bm-dfbpokal-1-fsv-mainz-05",
+    "shortCode": "M05",
+    "league": "Germany - DFB Pokal",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-1-fsv-mainz-05.png",
+    "isPopular": false
+   }
+  },
+  {
+   "id": "3971902b-be37-4f2e-a0f9-f107804aab93",
+   "slug": "bm-game-20261027-bvb-svw",
+   "sport": "soccer",
+   "homeTeamId": "785834b7-e0fc-48b9-82da-f8969466fb7f",
+   "awayTeamId": "c7cca549-8b36-4213-b303-c2590fc7617b",
+   "startDate": "2026-10-27T19:45:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "Germany - DFB Pokal",
+   "homeTeam": {
+    "id": "785834b7-e0fc-48b9-82da-f8969466fb7f",
+    "sport": "soccer",
+    "name": "BV Borussia 09 Dortmund",
+    "slug": "bm-dfbpokal-bv-borussia-09-dortmund",
+    "shortCode": "BVB",
+    "league": "Germany - DFB Pokal",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-bv-borussia-09-dortmund.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "c7cca549-8b36-4213-b303-c2590fc7617b",
+    "sport": "soccer",
+    "name": "SV Werder Bremen",
+    "slug": "bm-dfbpokal-sv-werder-bremen",
+    "shortCode": "SVW",
+    "league": "Germany - DFB Pokal",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-sv-werder-bremen.png",
+    "isPopular": false
+   }
+  }
+ ],
+ "pagination": {
+  "lastPage": 1,
+  "page": 1,
+  "size": 100,
+  "totalCount": 4
+ }
+}

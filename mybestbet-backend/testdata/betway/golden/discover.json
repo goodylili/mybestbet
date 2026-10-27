@@ -1,0 +1,63 @@
+{
+  "source": "betway",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "72221332",
+      "leagueHint": "EPL",
+      "home": "Arsenal",
+      "away": "Everton",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "72221334",
+      "leagueHint": "EPL",
+      "home": "Aston Villa",
+      "away": "Manchester City",
+      "kickoff": "2026-10-24T11:30:00Z"
+    },
+    {
+      "sourceId": "72221338",
+      "leagueHint": "EPL",
+      "home": "Coventry City",
+      "away": "Fulham",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "72221344",
+      "leagueHint": "EPL",
+      "home": "Ipswich Town",
+      "away": "Nottingham Forest",
+      "kickoff": "2026-10-23T19:00:00Z"
+    },
+    {
+      "sourceId": "72478646",
+      "leagueHint": "LALIGA",
+      "home": "Deportivo Alaves",
+      "away": "Malaga CF",
+      "kickoff": "2026-10-23T19:00:00Z"
+    },
+    {
+      "sourceId": "72478656",
+      "leagueHint": "LALIGA",
+      "home": "Racing Santander",
+      "away": "Espanyol Barcelona",
+      "kickoff": "2026-10-24T14:15:00Z"
+    },
+    {
+      "sourceId": "72478658",
+      "leagueHint": "LALIGA",
+      "home": "Rayo Vallecano",
+      "away": "Elche CF",
+      "kickoff": "2026-10-24T12:00:00Z"
+    },
+    {
+      "sourceId": "72478664",
+      "leagueHint": "LALIGA",
+      "home": "Valencia CF",
+      "away": "Villarreal CF",
+      "kickoff": "2026-10-24T16:30:00Z"
+    }
+  ],
+  "markets": null
+}

@@ -1,0 +1,59 @@
+[
+ {
+  "marketId": "ef285b37-c8b1-4db1-b76c-c5af0445469d",
+  "outcomeId": "acc01757-b005-4d8b-807f-fc1e5b174b05",
+  "timestamp": "2026-10-23T12:00:00Z",
+  "bids": [
+   {
+    "price": 0.47,
+    "quantity": 500,
+    "total": 235.0
+   },
+   {
+    "price": 0.46,
+    "quantity": 300,
+    "total": 138.0
+   }
+  ],
+  "asks": [
+   {
+    "price": 0.49,
+    "quantity": 200,
+    "total": 98.0
+   },
+   {
+    "price": 0.5,
+    "quantity": 400,
+    "total": 200.0
+   }
+  ],
+  "lastTradedPrice": 0.48,
+  "lastTradedSide": "BUY"
+ },
+ {
+  "marketId": "ef285b37-c8b1-4db1-b76c-c5af0445469d",
+  "outcomeId": "aa8a9a57-39cf-4cd5-8dea-caf1583de9e6",
+  "timestamp": "2026-10-23T12:00:00Z",
+  "bids": [
+   {
+    "price": 0.51,
+    "quantity": 200,
+    "total": 102.0
+   }
+  ],
+  "asks": [
+   {
+    "price": 0.53,
+    "quantity": 500,
+    "total": 265.0
+   },
+   {
+    "price": 0.54,
+    "quantity": 300,
+    "total": 162.0
+   }
+  ],
+  "lastTradedPrice": 0.52,
+  "lastTradedSide": "SELL"
+ }
+]

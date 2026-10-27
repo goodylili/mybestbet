@@ -1,0 +1,125 @@
+[
+ {
+  "id": "1208439",
+  "slug": "nba-mia-cha-2026-10-24",
+  "title": "Heat vs. Hornets",
+  "startTime": "2026-10-24T22:00:00Z",
+  "endDate": "2026-10-24T22:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nba-2026",
+  "eventMetadata": {},
+  "teams": [
+   {
+    "name": "Heat",
+    "abbreviation": "mia",
+    "alias": "Heat",
+    "ordering": "away"
+   },
+   {
+    "name": "Hornets",
+    "abbreviation": "cha",
+    "alias": "Hornets",
+    "ordering": "home"
+   }
+  ]
+ },
+ {
+  "id": "1208440",
+  "slug": "nba-bkn-cle-2026-10-24",
+  "title": "Nets vs. Cavaliers",
+  "startTime": "2026-10-24T23:30:00Z",
+  "endDate": "2026-10-24T23:30:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nba-2026",
+  "eventMetadata": {},
+  "teams": [
+   {
+    "name": "Nets",
+    "abbreviation": "bkn",
+    "alias": "Nets",
+    "ordering": "away"
+   },
+   {
+    "name": "Cavaliers",
+    "abbreviation": "cle",
+    "alias": "Cavaliers",
+    "ordering": "home"
+   }
+  ]
+ },
+ {
+  "id": "1208441",
+  "slug": "nba-mil-phi-2026-10-24",
+  "title": "Bucks vs. 76ers",
+  "startTime": "2026-10-24T23:30:00Z",
+  "endDate": "2026-10-24T23:30:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nba-2026",
+  "eventMetadata": {},
+  "teams": [
+   {
+    "name": "Bucks",
+    "abbreviation": "mil",
+    "alias": "Bucks",
+    "ordering": "away"
+   },
+   {
+    "name": "76ers",
+    "abbreviation": "phi",
+    "alias": "76ers",
+    "ordering": "home"
+   }
+  ]
+ },
+ {
+  "id": "1208442",
+  "slug": "nba-hou-atl-2026-10-24",
+  "title": "Rockets vs. Hawks",
+  "startTime": "2026-10-25T00:30:00Z",
+  "endDate": "2026-10-25T00:30:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nba-2026",
+  "teams": [
+   {
+    "name": "Rockets",
+    "abbreviation": "hou",
+    "alias": "Rockets",
+    "ordering": "away"
+   },
+   {
+    "name": "Hawks",
+    "abbreviation": "atl",
+    "alias": "Hawks",
+    "ordering": "home"
+   }
+  ]
+ },
+ {
+  "id": "1237632",
+  "slug": "nba-mia-cha-2026-10-24-exact-margin",
+  "title": "Heat vs. Hornets - Exact Margin",
+  "startTime": "2026-10-24T22:00:00Z",
+  "endDate": "2026-10-24T22:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nba-2026",
+  "teams": [
+   {
+    "name": "Heat",
+    "abbreviation": "mia",
+    "alias": "Heat",
+    "ordering": "away"
+   },
+   {
+    "name": "Hornets",
+    "abbreviation": "cha",
+    "alias": "Hornets",
+    "ordering": "home"
+   }
+  ]
+ }
+]

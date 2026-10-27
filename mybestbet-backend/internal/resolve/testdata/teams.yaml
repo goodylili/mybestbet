@@ -1,0 +1,611 @@
+EPL:
+  teams: [Arsenal, Aston Villa, Bournemouth, Brentford, Brighton & Hove Albion, Burnley, Chelsea, Crystal Palace, Everton, Fulham, Leeds United, Liverpool, Manchester City, Manchester United, Newcastle United, Nottingham Forest, Sunderland, Tottenham Hotspur, West Ham United, Wolverhampton]
+  variants:
+    Man Utd: Manchester United
+    Manchester Utd: Manchester United
+    Manchester United FC: Manchester United
+    Man City: Manchester City
+    Manchester City FC: Manchester City
+    Spurs: Tottenham Hotspur
+    Tottenham: Tottenham Hotspur
+    Wolves: Wolverhampton
+    Wolverhampton Wanderers: Wolverhampton
+    Nott'm Forest: Nottingham Forest
+    Nottingham: Nottingham Forest
+    Newcastle: Newcastle United
+    Newcastle Utd: Newcastle United
+    West Ham: West Ham United
+    Brighton: Brighton & Hove Albion
+    Brighton and Hove Albion: Brighton & Hove Albion
+    AFC Bournemouth: Bournemouth
+    Leeds: Leeds United
+    Crystal Palace FC: Crystal Palace
+    Sunderland AFC: Sunderland
+    Aston Villa FC: Aston Villa
+    Everton FC: Everton
+    Fulham FC: Fulham
+    Liverpool FC: Liverpool
+    Chelsea FC: Chelsea
+    Arsenal: Arsenal
+    Brentford FC: Brentford
+    Burnley FC: Burnley
+    Manchester: ""
+    Leicester City: ""
+    Ipswich Town: ""
+LALIGA:
+  teams: [Real Madrid, Barcelona, Atlético Madrid, Athletic Club, Real Sociedad, Real Betis, Villarreal, Valencia, Sevilla, Celta Vigo, Getafe, Osasuna, Rayo Vallecano, Mallorca, Girona FC, Deportivo Alavés, Espanyol, Elche, Levante UD, Real Oviedo]
+  variants:
+    Espanyol Barcelona: Espanyol
+    RCD Espanyol de Barcelona: Espanyol
+    R. Sociedad: Real Sociedad
+    Bilbao: Athletic Club
+    Atletico de Madrid: Atlético Madrid
+    Atl. Madrid: Atlético Madrid
+    Atletico: Atlético Madrid
+    Athletic Bilbao: Athletic Club
+    FC Barcelona: Barcelona
+    Barça: Barcelona
+    Real Madrid CF: Real Madrid
+    Sevilla FC: Sevilla
+    Valencia CF: Valencia
+    Villarreal CF: Villarreal
+    RCD Mallorca: Mallorca
+    RCD Espanyol: Espanyol
+    Alaves: Deportivo Alavés
+    CA Osasuna: Osasuna
+    Rayo Vallecano de Madrid: Rayo Vallecano
+    Celta de Vigo: Celta Vigo
+    Real Betis Balompié: Real Betis
+    Betis: Real Betis
+    Girona: Girona FC
+    Getafe CF: Getafe
+    Elche CF: Elche
+    Levante: Levante UD
+    Oviedo: Real Oviedo
+    Real Sociedad de Futbol: Real Sociedad
+    Real: ""
+    Real Valladolid: ""
+    Las Palmas: ""
+SERIEA:
+  teams: [Inter, Milan, Juventus, Napoli, Roma, Lazio, Atalanta, Fiorentina, Bologna, Torino, Udinese, Genoa, Cagliari, Lecce, Parma, Como, Hellas Verona, Sassuolo, Cremonese, Pisa]
+  variants:
+    Inter Milano: Inter
+    Inter Milan: Inter
+    Internazionale: Inter
+    FC Internazionale Milano: Inter
+    AC Milan: Milan
+    Juve: Juventus
+    Juventus FC: Juventus
+    SSC Napoli: Napoli
+    SS Lazio: Lazio
+    AS Roma: Roma
+    Atalanta BC: Atalanta
+    ACF Fiorentina: Fiorentina
+    Verona: Hellas Verona
+    Hellas Verona FC: Hellas Verona
+    US Sassuolo: Sassuolo
+    Torino FC: Torino
+    Bologna FC 1909: Bologna
+    Udinese Calcio: Udinese
+    Genoa CFC: Genoa
+    Cagliari Calcio: Cagliari
+    US Lecce: Lecce
+    Parma Calcio 1913: Parma
+    Como 1907: Como
+    US Cremonese: Cremonese
+    AC Pisa: Pisa
+    Monza: ""
+    Empoli: ""
+BUNDES:
+  teams: [Bayern München, Borussia Dortmund, Bayer 04 Leverkusen, RB Leipzig, Eintracht Frankfurt, VfB Stuttgart, SC Freiburg, VfL Wolfsburg, "Borussia M'gladbach", 1. FSV Mainz 05, TSG Hoffenheim, Werder Bremen, FC Augsburg, 1. FC Union Berlin, FC St. Pauli, 1. FC Heidenheim, 1. FC Köln, Hamburger SV]
+  variants:
+    Bayern Munich: Bayern München
+    FC Bayern: Bayern München
+    Bayern: Bayern München
+    Dortmund: Borussia Dortmund
+    BVB: Borussia Dortmund
+    Leverkusen: Bayer 04 Leverkusen
+    Bayer Leverkusen: Bayer 04 Leverkusen
+    Leipzig: RB Leipzig
+    Frankfurt: Eintracht Frankfurt
+    Eintracht Frankfurt: Eintracht Frankfurt
+    Stuttgart: VfB Stuttgart
+    Freiburg: SC Freiburg
+    Wolfsburg: VfL Wolfsburg
+    Gladbach: "Borussia M'gladbach"
+    Mönchengladbach: "Borussia M'gladbach"
+    Borussia Monchengladbach: "Borussia M'gladbach"
+    Mainz: 1. FSV Mainz 05
+    Mainz 05: 1. FSV Mainz 05
+    Hoffenheim: TSG Hoffenheim
+    Bremen: Werder Bremen
+    Augsburg: FC Augsburg
+    Union Berlin: 1. FC Union Berlin
+    St. Pauli: FC St. Pauli
+    Heidenheim: 1. FC Heidenheim
+    Köln: 1. FC Köln
+    FC Cologne: 1. FC Köln
+    Hamburg: Hamburger SV
+    Borussia: ""
+    Hertha Berlin: ""
+    Holstein Kiel: ""
+LIGUE1:
+  teams: [Paris Saint-Germain, Olympique de Marseille, AS Monaco, LOSC Lille, Olympique Lyonnais, OGC Nice, RC Lens, Stade Rennais, RC Strasbourg, FC Nantes, Toulouse, Stade Brestois, AJ Auxerre, Angers SCO, Le Havre AC, FC Lorient, FC Metz, Paris FC]
+  variants:
+    Association Jeunesse Auxerroise: AJ Auxerre
+    PSG: Paris Saint-Germain
+    Paris SG: Paris Saint-Germain
+    Paris Saint Germain: Paris Saint-Germain
+    Marseille: Olympique de Marseille
+    Olympique Marseille: Olympique de Marseille
+    Monaco: AS Monaco
+    Lille: LOSC Lille
+    Lyon: Olympique Lyonnais
+    Nice: OGC Nice
+    Lens: RC Lens
+    Stade Rennais FC: Stade Rennais
+    Strasbourg Alsace: RC Strasbourg
+    Nantes: FC Nantes
+    Toulouse FC: Toulouse
+    Brest: Stade Brestois
+    Auxerre: AJ Auxerre
+    Angers: Angers SCO
+    Le Havre: Le Havre AC
+    Lorient: FC Lorient
+    Metz: FC Metz
+    Paris FC: Paris FC
+    Saint-Etienne: ""
+    Reims: ""
+    Montpellier: ""
+ERED:
+  teams: [Ajax, PSV, Feyenoord, AZ, FC Twente, FC Utrecht, Go Ahead Eagles, NEC, Sparta Rotterdam, Heerenveen, FC Groningen, Fortuna Sittard, PEC Zwolle, Heracles, NAC Breda, Excelsior, Telstar, FC Volendam]
+  variants:
+    N.E.C.: NEC
+    Sp. Rotterdam: Sparta Rotterdam
+    AFC Ajax: Ajax
+    Ajax Amsterdam: Ajax
+    PSV Eindhoven: PSV
+    Feyenoord Rotterdam: Feyenoord
+    AZ Alkmaar: AZ
+    Twente: FC Twente
+    Twente Enschede: FC Twente
+    Utrecht: FC Utrecht
+    GA Eagles: Go Ahead Eagles
+    NEC Nijmegen: NEC
+    Sparta: Sparta Rotterdam
+    SC Heerenveen: Heerenveen
+    Groningen: FC Groningen
+    Sittard: Fortuna Sittard
+    Zwolle: PEC Zwolle
+    Heracles Almelo: Heracles
+    Breda: NAC Breda
+    SBV Excelsior: Excelsior
+    Volendam: FC Volendam
+    Willem II: ""
+    RKC Waalwijk: ""
+PRIMEIRA:
+  teams: [Benfica, Porto, Sporting CP, SC Braga, Vitória SC, Gil Vicente, Famalicão, Moreirense, Estoril, Casa Pia, Rio Ave, Arouca, Santa Clara, Nacional, Estrela da Amadora, Alverca, Tondela, AVS]
+  variants:
+    SL Benfica: Benfica
+    FC Porto: Porto
+    Sporting Lisbon: Sporting CP
+    Sporting: Sporting CP
+    Sporting Clube de Portugal: Sporting CP
+    Sporting Braga: SC Braga
+    Braga: SC Braga
+    Vitoria Guimaraes: Vitória SC
+    Gil Vicente FC: Gil Vicente
+    FC Famalicao: Famalicão
+    Moreirense FC: Moreirense
+    Estoril Praia: Estoril
+    Casa Pia AC: Casa Pia
+    Rio Ave FC: Rio Ave
+    FC Arouca: Arouca
+    CD Santa Clara: Santa Clara
+    CD Nacional: Nacional
+    Estrela Amadora: Estrela da Amadora
+    FC Alverca: Alverca
+    CD Tondela: Tondela
+    AVS Futebol SAD: AVS
+    Boavista: ""
+    Farense: ""
+CHAMP:
+  teams: [Leicester City, Ipswich Town, Southampton, Sheffield United, Sheffield Wednesday, West Bromwich Albion, Middlesbrough, Coventry City, Norwich City, Hull City, Bristol City, Stoke City, Swansea City, Watford, Millwall, Queens Park Rangers, Preston North End, Derby County, Blackburn Rovers, Portsmouth, Oxford United, Wrexham, Birmingham City, Charlton Athletic]
+  variants:
+    Leicester: Leicester City
+    Ipswich: Ipswich Town
+    Southampton FC: Southampton
+    Sheffield Utd: Sheffield United
+    Sheff Utd: Sheffield United
+    Sheff Wed: Sheffield Wednesday
+    West Brom: West Bromwich Albion
+    WBA: West Bromwich Albion
+    Coventry: Coventry City
+    Norwich: Norwich City
+    Hull: Hull City
+    Bristol City FC: Bristol City
+    Stoke: Stoke City
+    Swansea: Swansea City
+    Watford FC: Watford
+    Millwall FC: Millwall
+    QPR: Queens Park Rangers
+    Preston: Preston North End
+    Derby: Derby County
+    Blackburn: Blackburn Rovers
+    Portsmouth FC: Portsmouth
+    Oxford Utd: Oxford United
+    Wrexham AFC: Wrexham
+    Birmingham: Birmingham City
+    Charlton: Charlton Athletic
+    Middlesbrough FC: Middlesbrough
+    Sheffield: ""
+    Bristol Rovers: ""
+    Luton Town: ""
+    Cardiff City: ""
+SPL:
+  teams: [Al Hilal, Al Nassr, Al Ittihad, Al Ahli, Al Qadsiah, Al Ettifaq, Al Taawoun, Al Fateh, Al Shabab, Al Khaleej, Al Fayha, Al Riyadh, Al Kholood, Al Hazem, Al Okhdood, Damac, Al Najma, NEOM]
+  variants:
+    Al-Hilal Riyadh: Al Hilal
+    Al-Ittifaq FC: Al Ettifaq
+    Al-Ittifaq: Al Ettifaq
+    Al-Hilal: Al Hilal
+    Al Hilal SFC: Al Hilal
+    Al-Nassr FC: Al Nassr
+    Al Ittihad Jeddah: Al Ittihad
+    Ittihad: Al Ittihad
+    Al-Ahli Saudi: Al Ahli
+    Al Qadisiyah: Al Qadsiah
+    Al-Ettifaq: Al Ettifaq
+    Ettifaq: Al Ettifaq
+    Al Taawon: Al Taawoun
+    Al Fateh SC: Al Fateh
+    Al-Khaleej: Al Khaleej
+    Al Fayha FC: Al Fayha
+    Al Kholood Club: Al Kholood
+    Al Hazm: Al Hazem
+    Al Akhdoud: Al Okhdood
+    Damac FC: Damac
+    Al Najmah: Al Najma
+    NEOM SC: NEOM
+    Al Wehda: ""
+    Al Raed: ""
+    Al Orobah: ""
+MLS:
+  teams: [Inter Miami, LA Galaxy, Los Angeles FC, Seattle Sounders, Portland Timbers, Atlanta United, New York City FC, New York Red Bulls, Columbus Crew, FC Cincinnati, Philadelphia Union, Orlando City, Nashville SC, Austin FC, Real Salt Lake, Sporting Kansas City, Minnesota United, Vancouver Whitecaps, Toronto FC, CF Montréal, Charlotte FC, Chicago Fire, Houston Dynamo, FC Dallas, Colorado Rapids, San Jose Earthquakes, St. Louis City, New England Revolution, D.C. United, San Diego FC]
+  variants:
+    Inter Miami CF: Inter Miami
+    Miami: Inter Miami
+    Los Angeles Galaxy: LA Galaxy
+    LAFC: Los Angeles FC
+    Seattle Sounders FC: Seattle Sounders
+    Seattle: Seattle Sounders
+    Portland: Portland Timbers
+    Atlanta Utd: Atlanta United
+    NYCFC: New York City FC
+    NY Red Bulls: New York Red Bulls
+    Columbus: Columbus Crew
+    Cincinnati: FC Cincinnati
+    Philadelphia: Philadelphia Union
+    Orlando City SC: Orlando City
+    Nashville: Nashville SC
+    Austin: Austin FC
+    Salt Lake: Real Salt Lake
+    Kansas City: Sporting Kansas City
+    Minnesota Utd: Minnesota United
+    Vancouver Whitecaps FC: Vancouver Whitecaps
+    Toronto: Toronto FC
+    Montreal Impact: CF Montréal
+    Charlotte: Charlotte FC
+    Chicago Fire FC: Chicago Fire
+    Houston Dynamo FC: Houston Dynamo
+    Dallas: FC Dallas
+    Colorado: Colorado Rapids
+    San Jose: San Jose Earthquakes
+    St Louis City SC: St. Louis City
+    New England: New England Revolution
+    DC United: D.C. United
+    San Diego: San Diego FC
+    New York: ""
+    Real Monarchs: ""
+UCL:
+  teams: [Arsenal, Barcelona, Bayern München, Inter, Paris Saint-Germain, Real Madrid, Liverpool, Club Brugge, Galatasaray, Bodø/Glimt, Olympiacos, Sporting CP, PSV Eindhoven, Slavia Praha, Qarabağ, Union Saint-Gilloise]
+  variants:
+    Arsenal FC: Arsenal
+    FC Barcelona: Barcelona
+    Bayern Munich: Bayern München
+    FC Bayern München: Bayern München
+    Inter Milan: Inter
+    Internazionale: Inter
+    PSG: Paris Saint-Germain
+    Paris SG: Paris Saint-Germain
+    Liverpool FC: Liverpool
+    Club Brugge KV: Club Brugge
+    Brugge: Club Brugge
+    Galatasaray SK: Galatasaray
+    Bodo/Glimt: Bodø/Glimt
+    FK Bodo/Glimt: Bodø/Glimt
+    Olympiakos: Olympiacos
+    Sporting Lisbon: Sporting CP
+    PSV: PSV Eindhoven
+    Slavia Prague: Slavia Praha
+    SK Slavia Praha: Slavia Praha
+    Qarabag FK: Qarabağ
+    Union SG: Union Saint-Gilloise
+    Royale Union Saint-Gilloise: Union Saint-Gilloise
+    Barcelona B: ""
+    Arsenal Women: ""
+    Real Madrid Castilla: ""
+UWCL:
+  teams: [Arsenal (W), Barcelona (W), Chelsea (W), Manchester City (W), OL Lyonnes (W), Bayern München (W), Real Madrid (W), Juventus (W)]
+  variants:
+    Arsenal Women: Arsenal (W)
+    Arsenal W: Arsenal (W)
+    FC Barcelona Women: Barcelona (W)
+    Barcelona Femeni: Barcelona (W)
+    Chelsea FC Women: Chelsea (W)
+    Man City Women: Manchester City (W)
+    Bayern Munich Frauen: Bayern München (W)
+    Real Madrid Femenino: Real Madrid (W)
+    Juventus Women: Juventus (W)
+    Arsenal: Arsenal (W)
+    Chelsea: Chelsea (W)
+    Arsenal WFC: Arsenal (W)
+    Bayern Munich: Bayern München (W)
+FRIENDLY:
+  sport: football
+  teams: [France, Germany, Brazil, Argentina, England, Spain, Netherlands, Portugal, United States, South Korea, Ivory Coast, Bosnia and Herzegovina, Czechia, North Macedonia, Republic of Ireland, Northern Ireland, Türkiye]
+  variants:
+    USA: United States
+    United States of America: United States
+    Korea Republic: South Korea
+    Côte d'Ivoire: Ivory Coast
+    Cote D'Ivoire: Ivory Coast
+    Bosnia: Bosnia and Herzegovina
+    Bosnia & Herzegovina: Bosnia and Herzegovina
+    Czech Republic: Czechia
+    Macedonia: North Macedonia
+    Ireland: Republic of Ireland
+    Rep. of Ireland: Republic of Ireland
+    Northern Ireland: Northern Ireland
+    Holland: Netherlands
+    Turkey: Türkiye
+    Turkiye: Türkiye
+    Brasil: Brazil
+    France U21: ""
+    Germany Women: ""
+    Spain: Spain
+NBA:
+  sport: basketball
+  teams: [Boston Celtics, Brooklyn Nets, New York Knicks, Philadelphia 76ers, Toronto Raptors, Golden State Warriors, LA Clippers, Los Angeles Lakers, Oklahoma City Thunder, Portland Trail Blazers, Minnesota Timberwolves, Dallas Mavericks, Cleveland Cavaliers, Miami Heat, Orlando Magic, San Antonio Spurs]
+  variants:
+    Celtics: Boston Celtics
+    Boston: Boston Celtics
+    Brooklyn: Brooklyn Nets
+    NY Knicks: New York Knicks
+    Knicks: New York Knicks
+    76ers: Philadelphia 76ers
+    Sixers: Philadelphia 76ers
+    Philadelphia: Philadelphia 76ers
+    GS Warriors: Golden State Warriors
+    Golden State: Golden State Warriors
+    Los Angeles Clippers: LA Clippers
+    Clippers: LA Clippers
+    LA Lakers: Los Angeles Lakers
+    L.A. Lakers: Los Angeles Lakers
+    Lakers: Los Angeles Lakers
+    OKC Thunder: Oklahoma City Thunder
+    Oklahoma City: Oklahoma City Thunder
+    Trail Blazers: Portland Trail Blazers
+    Portland: Portland Trail Blazers
+    Timberwolves: Minnesota Timberwolves
+    Mavericks: Dallas Mavericks
+    Mavs: Dallas Mavericks
+    Cavs: Cleveland Cavaliers
+    Cleveland: Cleveland Cavaliers
+    Miami: Miami Heat
+    Orlando: Orlando Magic
+    Spurs: San Antonio Spurs
+    San Antonio: San Antonio Spurs
+    Los Angeles: ""
+    Chicago Bulls: ""
+NCAAB:
+  sport: basketball
+  teams: [Duke Blue Devils, North Carolina Tar Heels, NC State Wolfpack, Kentucky Wildcats, Kansas Jayhawks, Kansas State Wildcats, Miami Hurricanes, Miami (OH) RedHawks, Michigan State Spartans, Michigan Wolverines, St. John's Red Storm, Saint Mary's Gaels, UConn Huskies, Ole Miss Rebels, Mississippi State Bulldogs, LSU Tigers, Ohio State Buckeyes, Kansas City Roos]
+  aliases:
+    Duke Blue Devils: [Duke]
+    North Carolina Tar Heels: [North Carolina]
+    NC State Wolfpack: [NC State]
+    Kentucky Wildcats: [Kentucky]
+    Kansas Jayhawks: [Kansas]
+    Kansas State Wildcats: [Kansas St]
+    Miami Hurricanes: [Miami]
+    Miami (OH) RedHawks: [Miami (OH)]
+    Michigan State Spartans: [Michigan St]
+    Michigan Wolverines: [Michigan]
+    St. John's Red Storm: [St. John's]
+    Saint Mary's Gaels: [Saint Mary's]
+    UConn Huskies: [UConn]
+    Ole Miss Rebels: [Ole Miss]
+    Mississippi State Bulldogs: [Mississippi St]
+    LSU Tigers: [LSU]
+    Ohio State Buckeyes: [Ohio State]
+    Kansas City Roos: [Kansas City]
+  variants:
+    Duke: Duke Blue Devils
+    UNC: North Carolina Tar Heels
+    North Carolina: North Carolina Tar Heels
+    NC State: NC State Wolfpack
+    North Carolina State: NC State Wolfpack
+    Kentucky: Kentucky Wildcats
+    Kansas: Kansas Jayhawks
+    Kansas St.: Kansas State Wildcats
+    Kansas State: Kansas State Wildcats
+    Miami (FL): Miami Hurricanes
+    Miami Florida: Miami Hurricanes
+    Miami (OH): Miami (OH) RedHawks
+    Miami Ohio: Miami (OH) RedHawks
+    Michigan St.: Michigan State Spartans
+    Michigan State: Michigan State Spartans
+    Michigan: Michigan Wolverines
+    St. John's: St. John's Red Storm
+    Saint John's: St. John's Red Storm
+    St. Mary's: Saint Mary's Gaels
+    UConn: UConn Huskies
+    Connecticut: UConn Huskies
+    Ole Miss: Ole Miss Rebels
+    Mississippi: Ole Miss Rebels
+    Mississippi St.: Mississippi State Bulldogs
+    LSU: LSU Tigers
+    Louisiana State: LSU Tigers
+    Ohio St.: Ohio State Buckeyes
+    Duke Blue Devils: Duke Blue Devils
+    Wildcats: ""
+    Kansas City: Kansas City Roos
+    UMKC: ""
+NFL:
+  sport: american-football
+  teams: [Kansas City Chiefs, Buffalo Bills, San Francisco 49ers, New York Giants, New York Jets, Los Angeles Rams, Los Angeles Chargers, Tampa Bay Buccaneers, New England Patriots, Washington Commanders, Green Bay Packers]
+  variants:
+    KC Chiefs: Kansas City Chiefs
+    Chiefs: Kansas City Chiefs
+    Kansas City: Kansas City Chiefs
+    Buffalo: Buffalo Bills
+    49ers: San Francisco 49ers
+    SF 49ers: San Francisco 49ers
+    Niners: San Francisco 49ers
+    NY Giants: New York Giants
+    NY Jets: New York Jets
+    Giants: New York Giants
+    Jets: New York Jets
+    LA Rams: Los Angeles Rams
+    LA Chargers: Los Angeles Chargers
+    Bucs: Tampa Bay Buccaneers
+    Tampa Bay: Tampa Bay Buccaneers
+    Patriots: New England Patriots
+    New England: New England Patriots
+    Washington: Washington Commanders
+    Commanders: Washington Commanders
+    Green Bay: Green Bay Packers
+    New York: ""
+    Los Angeles: ""
+EUROLEAGUE:
+  sport: basketball
+  teams: [Real Madrid, FC Barcelona, Olympiacos Piraeus, Panathinaikos AKTOR Athens, Fenerbahce Beko Istanbul, Anadolu Efes Istanbul, FC Bayern Munich, Zalgiris Kaunas, Crvena Zvezda Meridianbet Belgrade, Partizan Mozzart Bet Belgrade, Virtus Segafredo Bologna, EA7 Emporio Armani Milan, AS Monaco, Maccabi Playtika Tel Aviv, Valencia Basket, Baskonia Vitoria-Gasteiz, Paris Basketball]
+  variants:
+    Barcelona: FC Barcelona
+    Barca: FC Barcelona
+    Olympiacos: Olympiacos Piraeus
+    Panathinaikos: Panathinaikos AKTOR Athens
+    Fenerbahce: Fenerbahce Beko Istanbul
+    Anadolu Efes: Anadolu Efes Istanbul
+    Efes: Anadolu Efes Istanbul
+    Bayern Munich: FC Bayern Munich
+    Bayern: FC Bayern Munich
+    Zalgiris: Zalgiris Kaunas
+    Crvena Zvezda: Crvena Zvezda Meridianbet Belgrade
+    Red Star Belgrade: Crvena Zvezda Meridianbet Belgrade
+    Partizan: Partizan Mozzart Bet Belgrade
+    Partizan Belgrade: Partizan Mozzart Bet Belgrade
+    Virtus Bologna: Virtus Segafredo Bologna
+    Olimpia Milano: EA7 Emporio Armani Milan
+    Monaco: AS Monaco
+    Maccabi Tel Aviv: Maccabi Playtika Tel Aviv
+    Valencia: Valencia Basket
+    Baskonia: Baskonia Vitoria-Gasteiz
+    Paris: Paris Basketball
+    Belgrade: ""
+ATP_AO:
+  sport: tennis
+  teams: [Jannik Sinner, Carlos Alcaraz, Alexander Zverev, Novak Djokovic, Taylor Fritz, Alex de Minaur, Felix Auger-Aliassime, Stefanos Tsitsipas, Alexander Bublik, Lorenzo Musetti, João Fonseca, Ben Shelton, Jack Draper, Holger Rune, Tomás Martín Etcheverry, Francisco Cerundolo, Juan Manuel Cerundolo]
+  variants:
+    Sinner J.: Jannik Sinner
+    J. Sinner: Jannik Sinner
+    Sinner, Jannik: Jannik Sinner
+    Sinner: Jannik Sinner
+    Alcaraz C.: Carlos Alcaraz
+    Carlos Alcaraz Garfia: Carlos Alcaraz
+    Zverev A.: Alexander Zverev
+    A. Zverev: Alexander Zverev
+    Djokovic N.: Novak Djokovic
+    Novak Djokovic: Novak Djokovic
+    Fritz T.: Taylor Fritz
+    De Minaur A.: Alex de Minaur
+    A. de Minaur: Alex de Minaur
+    Alex De Minaur: Alex de Minaur
+    Auger-Aliassime F.: Felix Auger-Aliassime
+    F. Auger Aliassime: Felix Auger-Aliassime
+    Tsitsipas S.: Stefanos Tsitsipas
+    Bublik A.: Alexander Bublik
+    Musetti L.: Lorenzo Musetti
+    Fonseca J.: João Fonseca
+    Joao Fonseca: João Fonseca
+    Shelton B.: Ben Shelton
+    Draper J.: Jack Draper
+    Rune H.: Holger Rune
+    Etcheverry T.: Tomás Martín Etcheverry
+    Etcheverry T. M.: Tomás Martín Etcheverry
+    Tomas Etcheverry: Tomás Martín Etcheverry
+    Cerundolo F.: Francisco Cerundolo
+    Cerundolo J.M.: Juan Manuel Cerundolo
+    Cerundolo: ""
+    Daniil Medvedev: ""
+    Zverev M.: ""
+    Sinner J. / Musetti L.: ""
+CS2:
+  sport: esports
+  teams: [Team Vitality, Team Spirit, Natus Vincere, MOUZ, FaZe Clan, G2 Esports, The MongolZ, Aurora Gaming, Team Falcons, FURIA, Heroic, Virtus.pro, Ninjas in Pyjamas, Team Liquid, 3DMAX, paiN Gaming, Eternal Fire, Astralis, BIG, Fnatic]
+  variants:
+    Vitality: Team Vitality
+    Spirit: Team Spirit
+    NAVI: Natus Vincere
+    Na'Vi: Natus Vincere
+    Natus Vincere: Natus Vincere
+    mousesports: MOUZ
+    Mouz: MOUZ
+    FaZe: FaZe Clan
+    G2: G2 Esports
+    MongolZ: The MongolZ
+    The Mongolz: The MongolZ
+    Aurora: Aurora Gaming
+    Falcons: Team Falcons
+    FURIA Esports: FURIA
+    VP: Virtus.pro
+    Virtus Pro: Virtus.pro
+    NIP: Ninjas in Pyjamas
+    Ninjas In Pyjamas: Ninjas in Pyjamas
+    Liquid: Team Liquid
+    TL: Team Liquid
+    3DMAX: 3DMAX
+    paiN: paiN Gaming
+    Eternal Fire: Eternal Fire
+    Astralis: Astralis
+    BIG: BIG
+    Fnatic: Fnatic
+    Team Spirit Academy: ""
+    NAVI Junior: ""
+    Team Heretics: ""
+LOL:
+  sport: esports
+  teams: [T1, Gen.G, Hanwha Life Esports, Dplus KIA, KT Rolster, Bilibili Gaming, Top Esports, JD Gaming, Anyone's Legend, G2 Esports, Fnatic, Karmine Corp, Team Liquid, FlyQuest, 100 Thieves]
+  variants:
+    T1: T1
+    GEN: Gen.G
+    Gen.G Esports: Gen.G
+    GenG: Gen.G
+    HLE: Hanwha Life Esports
+    Hanwha Life: Hanwha Life Esports
+    DK: Dplus KIA
+    Dplus: Dplus KIA
+    KT: KT Rolster
+    BLG: Bilibili Gaming
+    Bilibili: Bilibili Gaming
+    TES: Top Esports
+    JDG: JD Gaming
+    G2: G2 Esports
+    FNC: Fnatic
+    KC: Karmine Corp
+    KCorp: Karmine Corp
+    Liquid: Team Liquid
+    FLY: FlyQuest
+    100T: 100 Thieves
+    100 Thieves: 100 Thieves

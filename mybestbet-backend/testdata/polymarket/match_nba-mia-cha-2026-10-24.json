@@ -1,0 +1,254 @@
+[
+ {
+  "id": "1208439",
+  "slug": "nba-mia-cha-2026-10-24",
+  "title": "Heat vs. Hornets",
+  "startTime": "2026-10-24T22:00:00Z",
+  "endDate": "2026-10-24T22:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nba-2026",
+  "eventMetadata": {},
+  "teams": [
+   {
+    "name": "Heat",
+    "abbreviation": "mia",
+    "alias": "Heat",
+    "ordering": "away"
+   },
+   {
+    "name": "Hornets",
+    "abbreviation": "cha",
+    "alias": "Hornets",
+    "ordering": "home"
+   }
+  ],
+  "markets": [
+   {
+    "slug": "nba-mia-cha-2026-10-24",
+    "question": "Heat vs. Hornets",
+    "outcomes": "[\"Heat\", \"Hornets\"]",
+    "clobTokenIds": "[\"6049743270164148344786555505836642790803074598545044364312174108991153839970\", \"93533380181100357341199364944266333541971674383324642433175651282474869513332\"]",
+    "sportsMarketType": "moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-team-to-score-first",
+    "question": "Heat vs. Hornets: Team to Score First",
+    "outcomes": "[\"Heat\", \"Hornets\"]",
+    "clobTokenIds": "[\"97823205747426109216013961274780454767164537312640665072519559155739746788064\", \"90820332772924390827882401604216892477260803842508172240285771111072417991638\"]",
+    "sportsMarketType": "basketball_team_to_score_first",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-odd-even",
+    "question": "Heat vs. Hornets: Odd/Even Score",
+    "outcomes": "[\"Odd\", \"Even\"]",
+    "clobTokenIds": "[\"82504297395111043880707408575440805392944268284851848978344230154182266041861\", \"50993402138011465724514597190917799874947669085501764339100519516438713789123\"]",
+    "sportsMarketType": "basketball_odd_even",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-overtime",
+    "question": "Heat vs. Hornets: Overtime?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"57677757953555527147403489165432635067407424323160435531989592161740941282619\", \"97317218561969251685655949724810794852140945102435115867121888592227416464087\"]",
+    "sportsMarketType": "basketball_game_overtime",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-race-to-10",
+    "question": "Heat vs. Hornets: Race to 10 Points",
+    "outcomes": "[\"Heat\", \"Hornets\"]",
+    "clobTokenIds": "[\"26638276342518020530117244074416984592006296371127671495475619133889469658254\", \"40765773460304187742923562868445600788207243856452697276750494277890948399203\"]",
+    "sportsMarketType": "basketball_game_race_to_points",
+    "line": 10,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-race-to-20",
+    "question": "Heat vs. Hornets: Race to 20 Points",
+    "outcomes": "[\"Heat\", \"Hornets\"]",
+    "clobTokenIds": "[\"100268589048262879219919531013809803190527645483264331753908413124067504347051\", \"14591055800277176843538788267749355838427145897869453774653208307078688865157\"]",
+    "sportsMarketType": "basketball_game_race_to_points",
+    "line": 20,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-race-to-30",
+    "question": "Heat vs. Hornets: Race to 30 Points",
+    "outcomes": "[\"Heat\", \"Hornets\"]",
+    "clobTokenIds": "[\"71024963700706085989941788018562907824712748866759171338314036170585525619134\", \"22561740158487542380072617787123416151055474074691862002994472403397838307094\"]",
+    "sportsMarketType": "basketball_game_race_to_points",
+    "line": 30,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-spread-away-3pt5",
+    "question": "Spread: Heat (-3.5)",
+    "outcomes": "[\"Heat\", \"Hornets\"]",
+    "clobTokenIds": "[\"24954412100396523521750557016536648987967126912908865146979022325393876687172\", \"25315885853687446998791720075842781998890481918415108367569425529300678316864\"]",
+    "sportsMarketType": "spreads",
+    "line": -3.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-total-232pt5",
+    "question": "Heat vs. Hornets: O/U 232.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"49648614521242122183342866667986409664123201116708715371282393998792808774614\", \"92931898879552326291360624564456631848923889939471147160334602203067465830053\"]",
+    "sportsMarketType": "totals",
+    "line": 232.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-spread-home-24pt5",
+    "question": "Spread: Hornets (-24.5)",
+    "outcomes": "[\"Hornets\", \"Heat\"]",
+    "clobTokenIds": "[\"17633946161582356326459939062833842716183067037422919603021884056339612285866\", \"40095666985784853442359779606535531710244910849933276496867443754442915165056\"]",
+    "sportsMarketType": "spreads",
+    "line": -24.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-spread-home-10pt5",
+    "question": "Spread: Hornets (-10.5)",
+    "outcomes": "[\"Hornets\", \"Heat\"]",
+    "clobTokenIds": "[\"49186638895958799652838531996635545555330801741299941930211831569577807257356\", \"85653486841516920035824340211512285722874167713704217327551324886775614033749\"]",
+    "sportsMarketType": "spreads",
+    "line": -10.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-total-250pt5",
+    "question": "Heat vs. Hornets: O/U 250.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"22979560810882589463394584756825407395145120641989918503271195387060242048936\", \"62523429079847582903607952526026359631323432918800864328605810090519048899380\"]",
+    "sportsMarketType": "totals",
+    "line": 250.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-total-252pt5",
+    "question": "Heat vs. Hornets: O/U 252.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"98329855271715735263404509463238185131441382155606997166238828178253279939973\", \"76314275029861766206882065607009305612823776754598593700034235996929560210929\"]",
+    "sportsMarketType": "totals",
+    "line": 252.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-1h-spread-away-1pt5",
+    "question": "1H Spread: Heat (-1.5)",
+    "outcomes": "[\"Heat\", \"Hornets\"]",
+    "clobTokenIds": "[\"86719534186348349895369011897128655922720022586013979261057898939020106117448\", \"5147642662949299449339891283678610259103113177376068233512207555550808913751\"]",
+    "sportsMarketType": "first_half_spreads",
+    "line": -1.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-1h-total-119pt5",
+    "question": "Heat vs. Hornets: 1H O/U 119.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"46520158586853031469698230597290955492780116524320047563395365873856552748331\", \"87706469714520843351523668666120436168023200977237288928781465790675767955519\"]",
+    "sportsMarketType": "first_half_totals",
+    "line": 119.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-1h-moneyline",
+    "question": "Heat vs. Hornets: 1H Moneyline",
+    "outcomes": "[\"Heat\", \"Hornets\"]",
+    "clobTokenIds": "[\"41374880700785322096807206052560631417789453499484315415536772152476743004271\", \"10958318341466468977200605945187312097747898777199333068361663479264088152700\"]",
+    "sportsMarketType": "first_half_moneyline",
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-points-donovan-mitchell-26pt5",
+    "question": "Donovan Mitchell: Points O/U 26.5",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"20343847992350423164486488462241109651272346136019423991838084119760568564119\", \"94777429812576867533685800233611353953177351412757533233766221660525882784927\"]",
+    "sportsMarketType": "points",
+    "line": 26.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-points-brandon-ingram-20pt5",
+    "question": "Brandon Ingram: Points O/U 20.5",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"58556788157239965648511518766707326216820003289622194434972692091659892651502\", \"100886720516608749815705928666966014952138592993230931516339318509692047241615\"]",
+    "sportsMarketType": "points",
+    "line": 20.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-rebounds-evan-mobley-8pt5",
+    "question": "Evan Mobley: Rebounds O/U 8.5",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"35994510768251569972852286315598795491152538914751397696449802749972959649282\", \"88095755695599764661060785816272682616963471343478025892095355956645334267902\"]",
+    "sportsMarketType": "rebounds",
+    "line": 8.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-rebounds-scottie-barnes-7pt5",
+    "question": "Scottie Barnes: Rebounds O/U 7.5",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"110415291861242293741658843189148993889583836953832790856243417905741556543066\", \"54413362084323698200893365992097130465465567098657260332731581320757814290739\"]",
+    "sportsMarketType": "rebounds",
+    "line": 7.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-assists-james-harden-6pt5",
+    "question": "James Harden: Assists O/U 6.5",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"43089505194074337695646553794998818240277488885553074294545175623117757154765\", \"86879790565557080503940112329473841182257183923694678597663359354119123408587\"]",
+    "sportsMarketType": "assists",
+    "line": 6.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-assists-scottie-barnes-6pt5",
+    "question": "Scottie Barnes: Assists O/U 6.5",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "clobTokenIds": "[\"98857552783992136057599273781206195182174739697149880272626756945333112026934\", \"11233134952213759576707463531169744983208725739701525703095762205391757569542\"]",
+    "sportsMarketType": "assists",
+    "line": 6.5,
+    "active": true,
+    "closed": false
+   },
+   {
+    "slug": "nba-mia-cha-2026-10-24-devin-vassell-3-pointers-ou-2pt5",
+    "question": "Devin Vassell Total 3-Pointers (incl. OT): O/U 2.5",
+    "outcomes": "[\"Over\", \"Under\"]",
+    "clobTokenIds": "[\"27082501076262145769004625704501737530880307219811078373715005442868439096340\", \"63394454413209986985575173208575419169280194711006059730132236466107291343610\"]",
+    "sportsMarketType": "threes",
+    "line": 2.5,
+    "active": true,
+    "closed": false
+   }
+  ]
+ }
+]

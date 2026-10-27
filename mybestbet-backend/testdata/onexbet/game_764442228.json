@@ -1,0 +1,215 @@
+{
+ "Id": 0,
+ "Success": true,
+ "Error": "",
+ "ErrorCode": 0,
+ "Guid": "",
+ "Value": {
+  "B": 46263,
+  "SG": [
+   {
+    "I": 764428974,
+    "N": 189976,
+    "CI": 383050628,
+    "T": 30,
+    "EC": 18,
+    "TG": "",
+    "P": 1,
+    "PN": "1st map",
+    "DI": "",
+    "SI": 40,
+    "MEC": [
+     {
+      "MT": 2,
+      "EC": 2,
+      "N": null
+     },
+     {
+      "MT": 3,
+      "EC": 4,
+      "N": null
+     },
+     {
+      "MT": 4,
+      "EC": 2,
+      "N": null
+     },
+     {
+      "MT": 8,
+      "EC": 0,
+      "N": null
+     },
+     {
+      "MT": 17,
+      "EC": 12,
+      "N": null
+     },
+     {
+      "MT": 1,
+      "EC": 18,
+      "N": null
+     }
+    ],
+    "MG": 764442228
+   },
+   {
+    "I": 764428977,
+    "N": 189978,
+    "CI": 383050630,
+    "T": 30,
+    "EC": 45,
+    "TG": "Special bets",
+    "P": 1,
+    "PN": "1st map",
+    "DI": "",
+    "SI": 40,
+    "MEC": [
+     {
+      "MT": 2,
+      "EC": 0,
+      "N": null
+     },
+     {
+      "MT": 3,
+      "EC": 8,
+      "N": null
+     },
+     {
+      "MT": 4,
+      "EC": 0,
+      "N": null
+     },
+     {
+      "MT": 8,
+      "EC": 2,
+      "N": null
+     },
+     {
+      "MT": 17,
+      "EC": 0,
+      "N": null
+     },
+     {
+      "MT": 1,
+      "EC": 45,
+      "N": null
+     }
+    ],
+    "MG": 764442228,
+    "TI": 45
+   },
+   {
+    "I": 764428979,
+    "N": 189990,
+    "CI": 383050632,
+    "T": 30,
+    "EC": 78,
+    "TG": "Players' stats",
+    "P": 1,
+    "PN": "1st map",
+    "DI": "",
+    "SI": 40,
+    "MEC": [
+     {
+      "MT": 2,
+      "EC": 0,
+      "N": null
+     },
+     {
+      "MT": 3,
+      "EC": 0,
+      "N": null
+     },
+     {
+      "MT": 4,
+      "EC": 0,
+      "N": null
+     },
+     {
+      "MT": 8,
+      "EC": 0,
+      "N": null
+     },
+     {
+      "MT": 17,
+      "EC": 0,
+      "N": null
+     },
+     {
+      "MT": 1,
+      "EC": 78,
+      "N": null
+     }
+    ],
+    "MG": 764442228,
+    "TI": 52
+   }
+  ],
+  "HL": true,
+  "I": 764442228,
+  "N": 189968,
+  "CI": 383050626,
+  "T": 30,
+  "GE": [
+   {
+    "G": 1,
+    "E": [
+     [
+      {
+       "T": 1,
+       "C": 2.825,
+       "CV": "2.825",
+       "G": 1
+      }
+     ],
+     [
+      {
+       "T": 3,
+       "C": 1.43,
+       "CV": "1.43",
+       "G": 1
+      }
+     ]
+    ]
+   }
+  ],
+  "EC": 6,
+  "EGC": 3,
+  "TG": "",
+  "PN": "",
+  "TN": "map",
+  "HSI": true,
+  "SSI": 2,
+  "S": 1792861200,
+  "CHIMG": "sub_e_sport_league_of_legends.png",
+  "O1": "Top Esports",
+  "O2": "Anyone's Legend",
+  "O1I": 2722303,
+  "O2I": 6038387,
+  "O1C": 225,
+  "O2C": 225,
+  "O1R": "Top Esports",
+  "O2R": "Anyone's Legend",
+  "O1E": "Top Esports",
+  "O2E": "Anyone's Legend",
+  "SI": 40,
+  "SN": "Esports",
+  "SR": "КиберСпорт",
+  "SE": "Esports",
+  "L": "League of Legends. World Championship",
+  "LR": "League of Legends. World Championship",
+  "LE": "League of Legends. World Championship",
+  "LI": 1081149,
+  "CN": "World",
+  "COI": 225,
+  "KI": 3,
+  "CID": 1,
+  "CT": 0,
+  "SmI": 53141,
+  "SSN": "League of Legends",
+  "SSNE": "League of Legends",
+  "TNS": "maps",
+  "GLI": 134,
+  "SUBA": true
+ }
+}

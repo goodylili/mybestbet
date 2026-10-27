@@ -1,0 +1,330 @@
+{
+ "games": [
+  {
+   "id": "195fa8f9-8641-485e-b90e-907250e66aae",
+   "slug": "bm-game-20261023-ips-nfo",
+   "sport": "soccer",
+   "homeTeamId": "ee1d22d1-b0de-4d45-ac86-11b39474f8be",
+   "awayTeamId": "31161a65-b14b-40d1-98d6-eac3cc960cb1",
+   "startDate": "2026-10-23T19:00:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "England - Premier League",
+   "homeTeam": {
+    "id": "ee1d22d1-b0de-4d45-ac86-11b39474f8be",
+    "sport": "soccer",
+    "name": "Ipswich Town FC",
+    "slug": "bm-epl-ipswich-town-fc",
+    "shortCode": "IPS",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-ipswich-town-fc.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "31161a65-b14b-40d1-98d6-eac3cc960cb1",
+    "sport": "soccer",
+    "name": "Nottingham Forest FC",
+    "slug": "bm-epl-nottingham-forest-fc",
+    "shortCode": "NFO",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-nottingham-forest-fc.png",
+    "isPopular": false
+   }
+  },
+  {
+   "id": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "slug": "bm-game-20261024-avl-mci",
+   "sport": "soccer",
+   "homeTeamId": "ab2d8b97-07ce-4726-9ee4-71ee0518ef68",
+   "awayTeamId": "2011d2a3-4d40-426e-ba2a-dcdf7cee8bd9",
+   "startDate": "2026-10-24T11:30:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "England - Premier League",
+   "homeTeam": {
+    "id": "ab2d8b97-07ce-4726-9ee4-71ee0518ef68",
+    "sport": "soccer",
+    "name": "Aston Villa FC",
+    "slug": "bm-epl-aston-villa-fc",
+    "shortCode": "AVL",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-aston-villa-fc.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "2011d2a3-4d40-426e-ba2a-dcdf7cee8bd9",
+    "sport": "soccer",
+    "name": "Manchester City FC",
+    "slug": "bm-epl-manchester-city-fc",
+    "shortCode": "MCI",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-manchester-city-fc.png",
+    "isPopular": false
+   }
+  },
+  {
+   "id": "1bf1e365-518a-42e3-b6cc-8d9feb55d836",
+   "slug": "bm-game-20261024-ars-eve",
+   "sport": "soccer",
+   "homeTeamId": "48b8ed1a-974f-4ca9-82df-1ad855b00585",
+   "awayTeamId": "ba9ca668-c159-4738-bd62-06209dc43bf2",
+   "startDate": "2026-10-24T14:00:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "England - Premier League",
+   "homeTeam": {
+    "id": "48b8ed1a-974f-4ca9-82df-1ad855b00585",
+    "sport": "soccer",
+    "name": "Arsenal FC",
+    "slug": "bm-epl-arsenal-fc",
+    "shortCode": "ARS",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-arsenal-fc.png",
+    "isPopular": true
+   },
+   "awayTeam": {
+    "id": "ba9ca668-c159-4738-bd62-06209dc43bf2",
+    "sport": "soccer",
+    "name": "Everton FC",
+    "slug": "bm-epl-everton-fc",
+    "shortCode": "EVE",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-everton-fc.png",
+    "isPopular": true
+   }
+  },
+  {
+   "id": "a4d7abcb-dae4-494e-9885-961c0f233294",
+   "slug": "bm-game-20261024-cov-ful",
+   "sport": "soccer",
+   "homeTeamId": "8c99736e-1284-43d3-9704-6c51313f3eda",
+   "awayTeamId": "0c372e3a-d482-4a5a-9b94-0e76b3158dae",
+   "startDate": "2026-10-24T14:00:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "England - Premier League",
+   "homeTeam": {
+    "id": "8c99736e-1284-43d3-9704-6c51313f3eda",
+    "sport": "soccer",
+    "name": "Coventry City FC",
+    "slug": "bm-epl-coventry-city-fc",
+    "shortCode": "COV",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-coventry-city-fc.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "0c372e3a-d482-4a5a-9b94-0e76b3158dae",
+    "sport": "soccer",
+    "name": "Fulham FC",
+    "slug": "bm-epl-fulham-fc",
+    "shortCode": "FUL",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-fulham-fc.png",
+    "isPopular": false
+   }
+  },
+  {
+   "id": "3191ba66-6da0-4856-849d-a7e93d10a43a",
+   "slug": "bm-game-20261024-che-tot",
+   "sport": "soccer",
+   "homeTeamId": "3a4abd91-d5d8-4695-9de0-1bac27a22a7b",
+   "awayTeamId": "eb9d2b8c-6e66-40d5-8e44-26af6319025c",
+   "startDate": "2026-10-24T16:30:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "England - Premier League",
+   "homeTeam": {
+    "id": "3a4abd91-d5d8-4695-9de0-1bac27a22a7b",
+    "sport": "soccer",
+    "name": "Chelsea FC",
+    "slug": "bm-epl-chelsea-fc",
+    "shortCode": "CHE",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-chelsea-fc.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "eb9d2b8c-6e66-40d5-8e44-26af6319025c",
+    "sport": "soccer",
+    "name": "Tottenham Hotspur FC",
+    "slug": "bm-epl-tottenham-hotspur-fc",
+    "shortCode": "TOT",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-tottenham-hotspur-fc.png",
+    "isPopular": false
+   }
+  },
+  {
+   "id": "af7c4c20-72ce-41b6-9d3a-e112552e22c9",
+   "slug": "bm-game-20261025-liv-bha",
+   "sport": "soccer",
+   "homeTeamId": "28b80829-00e4-44f7-8cbc-5cae685f7e19",
+   "awayTeamId": "d17cd7b7-b9b6-4cb5-9652-709c81b77d02",
+   "startDate": "2026-10-25T14:00:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "England - Premier League",
+   "homeTeam": {
+    "id": "28b80829-00e4-44f7-8cbc-5cae685f7e19",
+    "sport": "soccer",
+    "name": "Liverpool FC",
+    "slug": "bm-epl-liverpool-fc",
+    "shortCode": "LIV",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-liverpool-fc.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "d17cd7b7-b9b6-4cb5-9652-709c81b77d02",
+    "sport": "soccer",
+    "name": "Brighton & Hove Albion FC",
+    "slug": "bm-epl-brighton-hove-albion-fc",
+    "shortCode": "BHA",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-brighton-hove-albion-fc.png",
+    "isPopular": false
+   }
+  },
+  {
+   "id": "3baf83da-a16a-4b9e-952c-bd6b99968fc4",
+   "slug": "bm-game-20261025-mun-bou",
+   "sport": "soccer",
+   "homeTeamId": "b64238d3-8c99-46e1-904e-b509f81fad9b",
+   "awayTeamId": "53afcbb4-4367-4b12-aa6c-121f9e0fa90a",
+   "startDate": "2026-10-25T14:00:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "England - Premier League",
+   "homeTeam": {
+    "id": "b64238d3-8c99-46e1-904e-b509f81fad9b",
+    "sport": "soccer",
+    "name": "Manchester United FC",
+    "slug": "bm-epl-manchester-united-fc",
+    "shortCode": "MUN",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-manchester-united-fc.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "53afcbb4-4367-4b12-aa6c-121f9e0fa90a",
+    "sport": "soccer",
+    "name": "AFC Bournemouth",
+    "slug": "bm-epl-afc-bournemouth",
+    "shortCode": "BOU",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-afc-bournemouth.png",
+    "isPopular": false
+   }
+  },
+  {
+   "id": "68793b9c-85cb-4090-8ee2-5de870511666",
+   "slug": "bm-game-20261025-hul-bre",
+   "sport": "soccer",
+   "homeTeamId": "43d557b7-a0a2-4ce3-bcb6-d73ea7bae10a",
+   "awayTeamId": "5374ef4c-568f-49ba-9198-fde3c73e24f7",
+   "startDate": "2026-10-25T14:00:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "England - Premier League",
+   "homeTeam": {
+    "id": "43d557b7-a0a2-4ce3-bcb6-d73ea7bae10a",
+    "sport": "soccer",
+    "name": "Hull City AFC",
+    "slug": "bm-epl-hull-city-afc",
+    "shortCode": "HUL",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-hull-city-afc.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "5374ef4c-568f-49ba-9198-fde3c73e24f7",
+    "sport": "soccer",
+    "name": "Brentford FC",
+    "slug": "bm-epl-brentford-fc",
+    "shortCode": "BRE",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-brentford-fc.png",
+    "isPopular": false
+   }
+  },
+  {
+   "id": "9d01ea3d-f60f-462a-92f9-4437e761d906",
+   "slug": "bm-game-20261025-cry-new",
+   "sport": "soccer",
+   "homeTeamId": "5c68d6fd-2b2e-4557-b642-7876a560d836",
+   "awayTeamId": "7c1d8e39-14c1-4e5d-a2b2-f3e20a9b0397",
+   "startDate": "2026-10-25T14:00:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "England - Premier League",
+   "homeTeam": {
+    "id": "5c68d6fd-2b2e-4557-b642-7876a560d836",
+    "sport": "soccer",
+    "name": "Crystal Palace FC",
+    "slug": "bm-epl-crystal-palace-fc",
+    "shortCode": "CRY",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-crystal-palace-fc.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "7c1d8e39-14c1-4e5d-a2b2-f3e20a9b0397",
+    "sport": "soccer",
+    "name": "Newcastle United FC",
+    "slug": "bm-epl-newcastle-united-fc",
+    "shortCode": "NEW",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-newcastle-united-fc.png",
+    "isPopular": false
+   }
+  },
+  {
+   "id": "b3278d11-53b3-4871-a02a-fa5bdab70838",
+   "slug": "bm-game-20261025-sun-lee",
+   "sport": "soccer",
+   "homeTeamId": "7293c5c5-358d-4871-9860-9ea43168c10d",
+   "awayTeamId": "97b57e65-9704-48f3-9631-31a7af6ad827",
+   "startDate": "2026-10-25T16:30:00Z",
+   "status": "UNPLAYED",
+   "isLive": false,
+   "isPopular": false,
+   "league": "England - Premier League",
+   "homeTeam": {
+    "id": "7293c5c5-358d-4871-9860-9ea43168c10d",
+    "sport": "soccer",
+    "name": "Sunderland AFC",
+    "slug": "bm-epl-sunderland-afc",
+    "shortCode": "SUN",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-sunderland-afc.png",
+    "isPopular": false
+   },
+   "awayTeam": {
+    "id": "97b57e65-9704-48f3-9631-31a7af6ad827",
+    "sport": "soccer",
+    "name": "Leeds United FC",
+    "slug": "bm-epl-leeds-united-fc",
+    "shortCode": "LEE",
+    "league": "England - Premier League",
+    "imageUrl": "https://assets.bayse.markets/sports-teams/bm-leeds-united-fc.png",
+    "isPopular": false
+   }
+  }
+ ],
+ "pagination": {
+  "lastPage": 1,
+  "page": 1,
+  "size": 100,
+  "totalCount": 10
+ }
+}

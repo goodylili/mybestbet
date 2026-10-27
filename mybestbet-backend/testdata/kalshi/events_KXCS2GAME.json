@@ -1,0 +1,169 @@
+{
+ "cursor": "",
+ "events": [
+  {
+   "category": "Sports",
+   "collateral_return_type": "MECNET",
+   "event_ticker": "KXCS2GAME-26OCT240300MGLZAUR",
+   "exchange_index": 0,
+   "last_updated_ts": "2026-10-22T00:08:06.912073Z",
+   "markets": [
+    {
+     "close_time": "2026-10-26T07:00:00Z",
+     "custom_strike": {
+      "esports_competitor": "c2f37718-f478-41cb-85c8-3bbc53385f86"
+     },
+     "event_ticker": "KXCS2GAME-26OCT240300MGLZAUR",
+     "expected_expiration_time": "2026-10-24T11:00:00Z",
+     "last_price_dollars": "0.3000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.7100",
+     "no_bid_dollars": "0.7000",
+     "no_sub_title": "TheMongolz",
+     "occurrence_datetime": "2026-10-24T11:00:00Z",
+     "open_interest_fp": "2839.64",
+     "rules_primary": "If TheMongolz wins the PGL Masters Bucharest 2026: TheMongolz vs. Aurora Gaming CS2 match originally scheduled for Oct 24, 2026 at 3:00 AM EDT, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCS2GAME-26OCT240300MGLZAUR-MGLZ",
+     "title": "TheMongolz wins",
+     "volume_fp": "3091.87",
+     "yes_ask_dollars": "0.3000",
+     "yes_ask_size_fp": "8678.35",
+     "yes_bid_dollars": "0.2900",
+     "yes_bid_size_fp": "1242.87",
+     "yes_sub_title": "TheMongolz"
+    },
+    {
+     "close_time": "2026-10-26T07:00:00Z",
+     "custom_strike": {
+      "esports_competitor": "d2da304f-7a67-4ffb-824d-6d822935ec32"
+     },
+     "event_ticker": "KXCS2GAME-26OCT240300MGLZAUR",
+     "expected_expiration_time": "2026-10-24T11:00:00Z",
+     "last_price_dollars": "0.7200",
+     "market_type": "binary",
+     "no_ask_dollars": "0.2900",
+     "no_bid_dollars": "0.2800",
+     "no_sub_title": "Aurora Gaming",
+     "occurrence_datetime": "2026-10-24T11:00:00Z",
+     "open_interest_fp": "6270.23",
+     "rules_primary": "If Aurora Gaming wins the PGL Masters Bucharest 2026: TheMongolz vs. Aurora Gaming CS2 match originally scheduled for Oct 24, 2026 at 3:00 AM EDT, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCS2GAME-26OCT240300MGLZAUR-AUR",
+     "title": "Aurora Gaming wins",
+     "volume_fp": "6310.23",
+     "yes_ask_dollars": "0.7200",
+     "yes_ask_size_fp": "25512.21",
+     "yes_bid_dollars": "0.7100",
+     "yes_bid_size_fp": "359.00",
+     "yes_sub_title": "Aurora Gaming"
+    }
+   ],
+   "mutually_exclusive": true,
+   "product_metadata": {
+    "competition": "CS2",
+    "competition_scope": "Game"
+   },
+   "series_ticker": "KXCS2GAME",
+   "strike_period": "",
+   "sub_title": "TheMongolz vs. Aurora Gaming (Oct 24)",
+   "title": "TheMongolz vs. Aurora Gaming"
+  },
+  {
+   "category": "Sports",
+   "collateral_return_type": "MECNET",
+   "event_ticker": "KXCS2GAME-26OCT232300RACW",
+   "exchange_index": 0,
+   "last_updated_ts": "2026-10-24T04:00:41.12568Z",
+   "markets": [
+    {
+     "close_time": "2026-10-26T03:00:00Z",
+     "custom_strike": {
+      "esports_competitor": "895176c1-a2cb-4c4c-b831-4b5d14759fdd"
+     },
+     "event_ticker": "KXCS2GAME-26OCT232300RACW",
+     "expected_expiration_time": "2026-10-24T07:00:00Z",
+     "last_price_dollars": "0.4400",
+     "market_type": "binary",
+     "no_ask_dollars": "0.6100",
+     "no_bid_dollars": "0.5600",
+     "no_sub_title": "Rare Atom",
+     "occurrence_datetime": "2026-10-24T07:00:00Z",
+     "open_interest_fp": "11579.07",
+     "rules_primary": "If Rare Atom wins the VOID Autumn Cup 2026: Rare Atom vs. Chinggis Warriors CS2 match originally scheduled for Oct 23, 2026 at 11:00 PM EDT, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCS2GAME-26OCT232300RACW-RA",
+     "title": "Rare Atom wins",
+     "volume_fp": "15636.36",
+     "yes_ask_dollars": "0.4400",
+     "yes_ask_size_fp": "5.00",
+     "yes_bid_dollars": "0.3900",
+     "yes_bid_size_fp": "105.00",
+     "yes_sub_title": "Rare Atom"
+    },
+    {
+     "close_time": "2026-10-26T03:00:00Z",
+     "custom_strike": {
+      "esports_competitor": "2b2fa58b-e5ca-4e86-8f21-5609ba600633"
+     },
+     "event_ticker": "KXCS2GAME-26OCT232300RACW",
+     "expected_expiration_time": "2026-10-24T07:00:00Z",
+     "last_price_dollars": "0.5500",
+     "market_type": "binary",
+     "no_ask_dollars": "0.4500",
+     "no_bid_dollars": "0.4100",
+     "no_sub_title": "Chinggis Warriors",
+     "occurrence_datetime": "2026-10-24T07:00:00Z",
+     "open_interest_fp": "8447.34",
+     "rules_primary": "If Chinggis Warriors wins the VOID Autumn Cup 2026: Rare Atom vs. Chinggis Warriors CS2 match originally scheduled for Oct 23, 2026 at 11:00 PM EDT, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "structured",
+     "ticker": "KXCS2GAME-26OCT232300RACW-CW",
+     "title": "Chinggis Warriors wins",
+     "volume_fp": "9959.39",
+     "yes_ask_dollars": "0.5900",
+     "yes_ask_size_fp": "78.98",
+     "yes_bid_dollars": "0.5500",
+     "yes_bid_size_fp": "32.00",
+     "yes_sub_title": "Chinggis Warriors"
+    }
+   ],
+   "mutually_exclusive": true,
+   "product_metadata": {
+    "competition": "CS2",
+    "competition_scope": "Game"
+   },
+   "series_ticker": "KXCS2GAME",
+   "strike_period": "",
+   "sub_title": "Rare Atom vs. Chinggis Warriors (Oct 23)",
+   "title": "Rare Atom vs. Chinggis Warriors"
+  }
+ ],
+ "milestones": [
+  {
+   "start_date": "2026-10-24T03:10:00Z",
+   "title": "Rare Atom vs Chinggis Warriors",
+   "type": "esports_match",
+   "details": {
+    "league": "CS2",
+    "main_game_event_ticker": "KXCS2GAME-26OCT232300RACW",
+    "status": "live",
+    "tournament_name": "VOID Autumn Cup 2026"
+   }
+  },
+  {
+   "start_date": "2026-10-24T07:00:00Z",
+   "title": "TheMongolz vs Aurora Gaming",
+   "type": "esports_match",
+   "details": {
+    "league": "CS2",
+    "main_game_event_ticker": "KXCS2GAME-26OCT240300MGLZAUR",
+    "status": "unplayed",
+    "tournament_name": "PGL Masters Bucharest 2026"
+   }
+  }
+ ]
+}

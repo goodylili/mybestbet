@@ -1,0 +1,1177 @@
+{
+ "events": [
+  {
+   "id": "cec78aaa-35f7-46cf-95ce-f1b8ac79d0b6",
+   "slug": "how-many-passes-will-man-city-get-vs-aston-villa",
+   "title": "How Many Passes Will Man City Get vs Aston Villa?",
+   "category": "SPORTS",
+   "type": "COMBINED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "",
+   "resolutionDate": "2026-10-24T22:59:00Z",
+   "resolutionSource": "https://www.sofascore.com/",
+   "hashtags": [
+    "EPL"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 5,
+   "markets": [
+    {
+     "id": "d152af25-6698-4cc9-b5ba-c836eea56cc4",
+     "title": "637 - 747",
+     "status": "open",
+     "outcome1Id": "d5cf770a-94f8-464c-8234-196a54d30b2a",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.3973,
+     "outcome2Id": "33fe3690-8221-40f2-8bad-4fb9a7f40497",
+     "outcome2Label": "No",
+     "outcome2Price": 0.6027,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Man City records between 637 and 747 total passes (inclusive) during the match."
+    },
+    {
+     "id": "a63a58c7-52c1-4f89-bdc2-d79664b2ee61",
+     "title": "Less than 637",
+     "status": "open",
+     "outcome1Id": "084160e6-2f87-436a-b62f-642780bb79bb",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.3047,
+     "outcome2Id": "a6db6b71-1781-4c4b-a02b-dc510091340f",
+     "outcome2Label": "No",
+     "outcome2Price": 0.6953,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Man City records fewer than 637 total passes during the match.\r\n\r\n"
+    },
+    {
+     "id": "3d5b78f1-e999-4413-9031-90553950ae29",
+     "title": "748 or more",
+     "status": "open",
+     "outcome1Id": "915afb8c-5b78-4598-8f1c-cc0b1e6b1655",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.298,
+     "outcome2Id": "6d59874c-c78b-4995-8ef3-950c2f842674",
+     "outcome2Label": "No",
+     "outcome2Price": 0.702,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Man City records 748 or more total passes during the match.\r\n\r\n"
+    }
+   ]
+  },
+  {
+   "id": "73de80ef-467a-45a7-b6e3-8566441b9ead",
+   "slug": "aston-villa-vs-man-city-total-shots",
+   "title": "Aston Villa vs Man City: Total Shots?",
+   "category": "SPORTS",
+   "type": "COMBINED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "",
+   "resolutionDate": "2026-10-24T22:59:00Z",
+   "resolutionSource": "https://www.sofascore.com/",
+   "hashtags": [
+    "EPL"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "195ecf13-2db8-40a4-bbb3-de0ea8294343",
+     "title": "24 - 30",
+     "status": "open",
+     "outcome1Id": "b9479b37-caf9-4c18-b7e4-e6a405047d03",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4,
+     "outcome2Id": "141c813f-fc60-42f1-98fd-d306efd1f4aa",
+     "outcome2Label": "No",
+     "outcome2Price": 0.6,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if the total shots recorded in the match are between 24 and 30 (inclusive)."
+    },
+    {
+     "id": "3d07808d-c155-4f2d-869f-7c8e1d47b81f",
+     "title": "31 or more",
+     "status": "open",
+     "outcome1Id": "36256c48-bb90-4620-bcb3-def7d30bc50e",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.3,
+     "outcome2Id": "85038868-948f-4405-a5ce-8d43f86de49e",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if the total shots recorded in the match are 31 or more."
+    },
+    {
+     "id": "888fe5a6-605a-4183-b255-f0bd3810f1bd",
+     "title": "Less than 24",
+     "status": "open",
+     "outcome1Id": "7604e478-76a2-4c8c-9062-43e169997f83",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.3,
+     "outcome2Id": "95c8f141-8198-4dd2-9307-1192679a9e03",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if the total shots recorded in the match are fewer than 24.\r\n\r\n"
+    }
+   ]
+  },
+  {
+   "id": "577286a5-1338-42b7-8482-8eb2e6d094d5",
+   "slug": "enzo-7-4-sofascore-rating-vs-aston-villa",
+   "title": "Haaland 7.6+ Sofascore Rating vs Aston Villa?",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "",
+   "resolutionDate": "2026-10-24T22:59:00Z",
+   "resolutionSource": "https://www.sofascore.com/",
+   "hashtags": [
+    "Sofascore Ratings"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "4f3f7c79-c093-424f-8387-f5aa78454f5f",
+     "title": "Haaland 7.6+ Sofascore Rating vs Aston Villa?",
+     "status": "open",
+     "outcome1Id": "e71556e3-2d71-41bf-8d9e-ed153cf65f8c",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.5,
+     "outcome2Id": "c7c48ed2-95e0-4d81-b2e1-2b308221100b",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Haaland's official Sofascore rating is 7.6 or higher at full-time.\r\n\r\nIt will resolve as **No** if his rating is lower than 7.6\r\n\r\nAs long as he receives a Sofascore rating, it will count, even if he i"
+    }
+   ]
+  },
+  {
+   "id": "f92347d3-14f9-4cf4-aa97-a101bcead719",
+   "slug": "foden-7-4-sofascore-rating-vs-aston-villa",
+   "title": "Foden 7.2+ Sofascore Rating vs Aston Villa?",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "",
+   "resolutionDate": "2026-10-24T22:59:00Z",
+   "resolutionSource": "https://www.sofascore.com/",
+   "hashtags": [
+    "Sofascore Ratings"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "8dcbd4b0-0cfb-496b-8412-0adc4134f04d",
+     "title": "Foden 7.2+ Sofascore Rating vs Aston Villa?",
+     "status": "open",
+     "outcome1Id": "ea6aac6d-77d1-4fcf-bfbd-b717a50652a4",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.5,
+     "outcome2Id": "eb8903c2-45d5-4bca-8ac6-cf1cb197a837",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Foden's official Sofascore rating is 7.2 or higher at full-time.\r\n\r\nIt will resolve as **No** if his rating is lower than 7.2\r\n\r\nAs long as he receives a Sofascore rating, it will count, even if he is "
+    }
+   ]
+  },
+  {
+   "id": "a8845f3d-03be-4436-a204-4d528fddd22b",
+   "slug": "cherki-7-4-sofascore-rating-vs-aston-villa",
+   "title": "Doku 7.2+ Sofascore Rating vs Aston Villa?",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "",
+   "resolutionDate": "2026-10-24T22:59:00Z",
+   "resolutionSource": "https://www.sofascore.com/",
+   "hashtags": [
+    "Sofascore Ratings"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "85bbc562-1e2a-4d48-ae9c-cce02f143793",
+     "title": "Doku 7.2+ Sofascore Rating vs Aston Villa?",
+     "status": "open",
+     "outcome1Id": "a20543fa-f793-4585-8a42-8a11be8c12a2",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.5,
+     "outcome2Id": "e3033e09-0b1c-4cf1-a470-86796e1affbb",
+     "outcome2Label": "No",
+     "outcome2Price": 0.5,
+     "feePercentage": 10,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Doku's official Sofascore rating is 7.2 or higher at full-time.\r\n\r\nIt will resolve as **No** if his rating is lower than 7.2\r\n\r\nAs long as he receives a Sofascore rating, it will count, even if he is s"
+    }
+   ]
+  },
+  {
+   "id": "a781e49b-a258-4741-b04f-fb5fbd98e2f8",
+   "slug": "aston-villa-vs-manchester-city-october-24-2026",
+   "title": "AVL vs MCI: Who Will Win?",
+   "category": "SPORTS",
+   "type": "COMBINED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T14:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://www.espn.com",
+   "hashtags": [
+    "Games",
+    "EPL"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "TEAM_H2H_3WAY",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1201711.14,
+   "totalOrders": 59,
+   "markets": [
+    {
+     "id": "6221cafe-3327-41f4-87f5-b5301597c62e",
+     "title": "MCI",
+     "status": "open",
+     "outcome1Id": "025b6ea4-5015-4b4f-86ec-59db3b62eaa3",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.6168,
+     "outcome2Id": "5329c9fa-fb86-46ed-ac25-b0c1c7055d97",
+     "outcome2Label": "No",
+     "outcome2Price": 0.4269,
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Manchester City wins the Aston Villa vs Manchester City professional EPL soccer game originally scheduled for October 24, 2026 at 11:30 AM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the marke"
+    },
+    {
+     "id": "cbfb8613-490e-4c1a-9ec3-aac2e8162d54",
+     "title": "Draw",
+     "status": "open",
+     "outcome1Id": "2c40a1e1-61f4-4f96-be91-28e1ae816784",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.2252,
+     "outcome2Id": "5f284333-9848-40eb-9160-a262626f2da3",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7748,
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Tie is the result of the Aston Villa vs Manchester City professional EPL soccer game originally scheduled for October 24, 2026 at 11:30 AM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the marke"
+    },
+    {
+     "id": "28a4bf17-c8b7-4ce2-b44a-6c8af75d0e23",
+     "title": "AVL",
+     "status": "open",
+     "outcome1Id": "dbe0ff8c-7a69-4e7d-87e9-b83e31fde767",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.2008,
+     "outcome2Id": "213b868f-2523-4883-a015-f0026c7dbb9e",
+     "outcome2Label": "No",
+     "outcome2Price": 0.8303,
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Aston Villa wins the Aston Villa vs Manchester City professional EPL soccer game originally scheduled for October 24, 2026 at 11:30 AM UTC after 90 minutes plus stoppage time (does not include extra time or penalties), then the market re"
+    }
+   ]
+  },
+  {
+   "id": "5bc32233-a7ab-41ec-bbca-f41ca70a1de0",
+   "slug": "epl-ast-mac-2026-10-24-more-markets-be9a1ba5",
+   "title": "Manchester City FC: Total Goals",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:29:59.999Z",
+   "resolutionDate": "2026-10-24T11:30:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "TOTAL_GOALS_AWAY",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1155069.38,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "f7b0182e-1639-4cf4-a77b-94501c0c4dc0",
+     "title": "O/U 2.5",
+     "status": "open",
+     "outcome1Id": "9ae2f4ef-2f22-4e12-bda0-b48c1a7e05d9",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.35,
+     "outcome2Id": "18a581d9-d367-4ac2-b1c9-ba6b73f7b044",
+     "outcome2Label": "No",
+     "outcome2Price": 0.65,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Manchester City FC score 3 or more goals within the first 90 minutes of"
+    },
+    {
+     "id": "e5204d08-d6ce-4efb-b0f0-1055451c6a22",
+     "title": "O/U 1.5",
+     "status": "open",
+     "outcome1Id": "83aa4b93-c1c5-4dca-96fd-c31b0b99ea2f",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.635,
+     "outcome2Id": "87b0b2dd-53e9-4e0b-aa27-1b198b0dd5ff",
+     "outcome2Label": "No",
+     "outcome2Price": 0.365,
+     "propLine": 1.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Manchester City FC score 2 or more goals within the first 90 minutes of"
+    },
+    {
+     "id": "4c2d0e94-3a44-4b65-bdb2-c05b5dba117d",
+     "title": "O/U 0.5",
+     "status": "open",
+     "outcome1Id": "975896f2-7328-46c6-bd27-1a9e220741b1",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.89,
+     "outcome2Id": "7801379f-9953-4b4c-80e3-1226bf31a1ea",
+     "outcome2Label": "No",
+     "outcome2Price": 0.11,
+     "propLine": 0.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Manchester City FC score 1 or more goals within the first 90 minutes of"
+    },
+    {
+     "id": "c453e017-7b7c-4f86-9249-cd8114447019",
+     "title": "O/U 3.5",
+     "status": "open",
+     "outcome1Id": "dc12be09-0812-48dc-a2b7-131414b50f7f",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.16,
+     "outcome2Id": "5e750674-0023-49b9-ab18-77e922085579",
+     "outcome2Label": "No",
+     "outcome2Price": 0.84,
+     "propLine": 3.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Manchester City FC score 4 or more goals within the first 90 minutes of"
+    },
+    {
+     "id": "5168c936-a769-46a9-b330-4fc859059947",
+     "title": "O/U 4.5",
+     "status": "open",
+     "outcome1Id": "f1facbb7-0fe5-40d7-b6d5-5b6bc9b2a0b2",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.057,
+     "outcome2Id": "f00c748a-3419-4190-8db8-3b1f8bd4f4ef",
+     "outcome2Label": "No",
+     "outcome2Price": 0.943,
+     "propLine": 4.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Manchester City FC score 5 or more goals within the first 90 minutes of"
+    },
+    {
+     "id": "206da828-56ba-4d0d-ba7f-50dcb8f07032",
+     "title": "O/U 5.5",
+     "status": "open",
+     "outcome1Id": "a6bc52be-6b36-4ed7-9336-f9a79b49766b",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.015,
+     "outcome2Id": "de5f59c8-1682-4149-adf5-2f990a7ff223",
+     "outcome2Label": "No",
+     "outcome2Price": 0.985,
+     "propLine": 5.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Manchester City FC score 6 or more goals within the first 90 minutes of"
+    }
+   ]
+  },
+  {
+   "id": "25b4af49-bc39-422c-89c4-8b17d26295ff",
+   "slug": "epl-ast-mac-2026-10-24-more-markets-ae87ad34",
+   "title": "Aston Villa FC: Total Goals",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:29:59.999Z",
+   "resolutionDate": "2026-10-24T11:30:00Z",
+   "resolutionSource": "https://www.premierleague.com/",
+   "hashtags": null,
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "TOTAL_GOALS_HOME",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1839605.75,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "64a1c68d-81c3-427a-a14e-5dc762ab9f50",
+     "title": "O/U 1.5",
+     "status": "open",
+     "outcome1Id": "1321766d-b815-4963-a437-c1b316e4c8ca",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.32,
+     "outcome2Id": "d96ccae2-267c-4616-b536-407331da58e7",
+     "outcome2Label": "No",
+     "outcome2Price": 0.68,
+     "propLine": 1.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Aston Villa FC score 2 or more goals within the first 90 minutes of reg"
+    },
+    {
+     "id": "37881dd2-cc4e-4115-879f-9d6bef9398d8",
+     "title": "O/U 0.5",
+     "status": "open",
+     "outcome1Id": "4fc9f5e7-5e00-42a1-99a5-1c133b4dca73",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.695,
+     "outcome2Id": "f142fea3-c1e6-441a-b3ab-5597e8541c83",
+     "outcome2Label": "No",
+     "outcome2Price": 0.305,
+     "propLine": 0.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Aston Villa FC score 1 or more goals within the first 90 minutes of reg"
+    },
+    {
+     "id": "f541019e-58dd-4649-8890-8c36e9b8ed07",
+     "title": "O/U 2.5",
+     "status": "open",
+     "outcome1Id": "c2328eff-b6b7-4c3d-ad2b-cdbd1bf191d3",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.11,
+     "outcome2Id": "42506bd3-b786-4886-99f5-5ce0c3b4a754",
+     "outcome2Label": "No",
+     "outcome2Price": 0.89,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Aston Villa FC score 3 or more goals within the first 90 minutes of reg"
+    },
+    {
+     "id": "277dd841-1316-48fd-95f3-76822cc2c923",
+     "title": "O/U 3.5",
+     "status": "open",
+     "outcome1Id": "30a56627-e5af-41c8-ab6e-ce53b6961faf",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.0275,
+     "outcome2Id": "a28f4737-3047-4073-b172-5b08ad39135c",
+     "outcome2Label": "No",
+     "outcome2Price": 0.9725,
+     "propLine": 3.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Aston Villa FC score 4 or more goals within the first 90 minutes of reg"
+    },
+    {
+     "id": "a5166ac5-dc29-4436-aced-0ec08cf04d87",
+     "title": "O/U 4.5",
+     "status": "open",
+     "outcome1Id": "5c196694-aa89-4dbc-bf87-8c6ef2aa5839",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.013,
+     "outcome2Id": "34cfe985-0732-4a52-84a7-9ab48734975d",
+     "outcome2Label": "No",
+     "outcome2Price": 0.987,
+     "propLine": 4.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Aston Villa FC score 5 or more goals within the first 90 minutes of reg"
+    },
+    {
+     "id": "7ae62ce2-d8b7-4efd-9a59-ff0385d4856b",
+     "title": "O/U 5.5",
+     "status": "open",
+     "outcome1Id": "3eec9741-e747-493f-b9a7-df9e41df1574",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.008,
+     "outcome2Id": "ef9074c7-06ab-4836-b261-cb5cec0090f4",
+     "outcome2Label": "No",
+     "outcome2Price": 0.992,
+     "propLine": 5.5,
+     "propDirection": "OVER",
+     "feePercentage": 4,
+     "minimumOrderAmount": 1000,
+     "rules": "In the upcoming Premier League game between Aston Villa FC and Manchester City FC, scheduled for October 24, 2026 at 11:30 AM UTC: This market will resolve to \"Over\" if Aston Villa FC score 6 or more goals within the first 90 minutes of reg"
+    }
+   ]
+  },
+  {
+   "id": "dc945ee7-fc7f-4f9a-82e5-90f51d255b97",
+   "slug": "erling-haaland-4-shots-vs-avl-20261024",
+   "title": "Erling Haaland: 4 Shots vs Aston Villa FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Shots"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "PLAYER_SHOTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "edb47e45-18e1-47d3-ac0e-c136333b9566",
+     "title": "O/U 4",
+     "status": "open",
+     "outcome1Id": "3604aaf3-1181-4087-b9d0-9296c4a67f87",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "5f1356e9-e24e-4984-b83e-f1e85a7b661c",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 4,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Erling Haaland records more than 4 shots during the match against Aston Villa FC. It will resolve as **Under** if Erling Haaland records fewer than 4 shots during the match against Aston Villa FC. If "
+    }
+   ]
+  },
+  {
+   "id": "a630cc05-4671-4502-b3e3-3c181596a973",
+   "slug": "erling-haaland-0-5-goals-vs-avl-20261024",
+   "title": "Erling Haaland: 0.5 Goals vs Aston Villa FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Goals"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "PLAYER_GOALSCORER",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 12,
+   "markets": [
+    {
+     "id": "6b9587ec-556e-4743-846b-26c0d6a165e0",
+     "title": "O/U 0.5",
+     "status": "open",
+     "outcome1Id": "d3eeee0d-b4c4-4be3-86ba-2f53c48365f8",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5575,
+     "outcome2Id": "61a69dca-0511-4d51-a8c5-cf5d72a0baa8",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5238,
+     "propLine": 0.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Erling Haaland records more than 0.5 goals during the match against Aston Villa FC. It will resolve as **Under** if Erling Haaland records fewer than 0.5 goals during the match against Aston Villa FC."
+    }
+   ]
+  },
+  {
+   "id": "5f203f50-2d7a-4d57-87f6-08c164f2dbf0",
+   "slug": "phil-foden-2-5-shots-vs-avl-20261024",
+   "title": "Phil Foden: 2.5 Shots vs Aston Villa FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Shots"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "PLAYER_SHOTS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "fc29273c-cd89-42e9-ba7b-07af83abc980",
+     "title": "O/U 2.5",
+     "status": "open",
+     "outcome1Id": "fb11b7ff-cb87-4086-962d-e1dbe60bc774",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "5b60107e-c72b-4feb-8fa1-4d4bd149de93",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Phil Foden records more than 2.5 shots during the match against Aston Villa FC. It will resolve as **Under** if Phil Foden records fewer than 2.5 shots during the match against Aston Villa FC. If Phil"
+    }
+   ]
+  },
+  {
+   "id": "e7c378f5-1831-4f05-86c5-ec1c9bd4d1f8",
+   "slug": "gianluigi-donnarumma-2-5-saves-vs-avl-20261024",
+   "title": "Gianluigi Donnarumma: 2.5 Saves vs Aston Villa FC",
+   "category": "PLAYER STATS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://optaplayerstats.statsperform.com/en_GB/soccer",
+   "hashtags": [
+    "Saves"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "PLAYER_SAVES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "0e3a05a6-4de1-46fc-8b4e-213fdfb548c9",
+     "title": "O/U 2.5",
+     "status": "open",
+     "outcome1Id": "5cd1aa3b-4e38-4136-a254-535d475a1576",
+     "outcome1Label": "Over",
+     "outcome1Price": 0.5781,
+     "outcome2Id": "2613d38f-6416-4183-9a87-f70ca228a9cb",
+     "outcome2Label": "Under",
+     "outcome2Price": 0.5781,
+     "propLine": 2.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Over** if Gianluigi Donnarumma records more than 2.5 saves during the match against Aston Villa FC. It will resolve as **Under** if Gianluigi Donnarumma records fewer than 2.5 saves during the match against Ast"
+    }
+   ]
+  },
+  {
+   "id": "a3bf36f6-63ff-47c0-8999-14ba1b4b3f85",
+   "slug": "avl-vs-mci-manchester-city-fc-to-win-both-halves-october-24-2026",
+   "title": "AVL vs MCI: Manchester City FC to win both halves?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "TEAM_WIN_BOTH_HALVES",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 2,
+   "markets": [
+    {
+     "id": "9636c151-4735-48e5-b137-fe653c43e793",
+     "title": "Manchester City FC to win both halves",
+     "status": "open",
+     "outcome1Id": "2a699aae-c68e-4977-8f9c-e489db301d07",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.25,
+     "outcome2Id": "240099af-9da6-41ae-ba23-31d972a03279",
+     "outcome2Label": "No",
+     "outcome2Price": 0.7599,
+     "propTeam": {
+      "id": "2011d2a3-4d40-426e-ba2a-dcdf7cee8bd9",
+      "name": "Manchester City FC",
+      "slug": "bm-epl-manchester-city-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Manchester City FC scores more goals than Aston Villa FC in the first half and also in the second half, and as **No** otherwise. A team wins a half by scoring more goals than its opponent in that half;"
+    }
+   ]
+  },
+  {
+   "id": "367613ed-6213-434a-8ef3-a2c8ea61712a",
+   "slug": "avl-vs-mci-manchester-city-fc-to-win-either-half-october-24-2026",
+   "title": "AVL vs MCI: Manchester City FC to win either half?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "TEAM_WIN_EITHER_HALF",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "8b77b1aa-92de-4277-bb56-8f59271ca377",
+     "title": "Manchester City FC to win either half",
+     "status": "open",
+     "outcome1Id": "6808b7af-4a65-44d3-90e9-2420b7cb3b33",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.75,
+     "outcome2Id": "496b438a-38fc-40bb-9fa8-2bee36342fb7",
+     "outcome2Label": "No",
+     "outcome2Price": 0.2798,
+     "propTeam": {
+      "id": "2011d2a3-4d40-426e-ba2a-dcdf7cee8bd9",
+      "name": "Manchester City FC",
+      "slug": "bm-epl-manchester-city-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Manchester City FC scores more goals than Aston Villa FC in the first half, in the second half, or in both, and as **No** otherwise. A team wins a half by scoring more goals than its opponent in that h"
+    }
+   ]
+  },
+  {
+   "id": "5775290c-c0f6-4499-8e87-c4567a223f71",
+   "slug": "avl-vs-mci-aston-villa-fc-to-win-either-half-october-24-2026",
+   "title": "AVL vs MCI: Aston Villa FC to win either half?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "TEAM_WIN_EITHER_HALF",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "6f63163c-8a8a-4024-b7e2-ab4dd250360d",
+     "title": "Aston Villa FC to win either half",
+     "status": "open",
+     "outcome1Id": "014f1e3d-9967-469f-ad93-2217d001d580",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.3817,
+     "outcome2Id": "a9d4ff14-8434-4d35-972a-84448aeb8f5b",
+     "outcome2Label": "No",
+     "outcome2Price": 0.6334,
+     "propTeam": {
+      "id": "ab2d8b97-07ce-4726-9ee4-71ee0518ef68",
+      "name": "Aston Villa FC",
+      "slug": "bm-epl-aston-villa-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if Aston Villa FC scores more goals than Manchester City FC in the first half, in the second half, or in both, and as **No** otherwise. A team wins a half by scoring more goals than its opponent in that h"
+    }
+   ]
+  },
+  {
+   "id": "c1547d83-97a1-499c-ad12-5fd2421daf72",
+   "slug": "aston-villa-fc-vs-manchester-city-fc-will-there-be-5-or-more-cards-october-24-2026",
+   "title": "Aston Villa FC vs Manchester City FC: Will there be 5 or more cards?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "TOTAL_CARDS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 1,
+   "markets": [
+    {
+     "id": "f1ce2a2d-2269-441d-8323-811c9133a6d4",
+     "title": "5+ cards",
+     "status": "open",
+     "outcome1Id": "2e35fef3-4b1d-4a44-ad68-ccf400813d0b",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4762,
+     "outcome2Id": "8621638a-770d-48bd-830e-bb8e4129e5f2",
+     "outcome2Label": "No",
+     "outcome2Price": 0.6,
+     "propLine": 4.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if 5 or more cards are shown to the players of both teams combined, and as **No** if fewer are. Every yellow and every red card counts as one card, so a second yellow followed by a red counts as two.\n\nOnl"
+    }
+   ]
+  },
+  {
+   "id": "d6828c25-394a-4ef0-8212-184d9568deec",
+   "slug": "aston-villa-fc-vs-manchester-city-fc-will-there-be-10-or-more-corners-october-24-2026",
+   "title": "Aston Villa FC vs Manchester City FC: Will there be 10 or more corners?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "TOTAL_CORNERS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "0600ade2-e05b-4262-aec4-4905efcc613d",
+     "title": "10+ corners",
+     "status": "open",
+     "outcome1Id": "336c71f0-4e15-4645-8edd-905e6a611077",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.5652,
+     "outcome2Id": "dab0df4d-2940-4cec-8075-1d753185f17e",
+     "outcome2Label": "No",
+     "outcome2Price": 0.495,
+     "propLine": 9.5,
+     "propDirection": "OVER",
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Yes** if 10 or more corners are awarded to both teams combined, and as **No** if fewer are.\n\nOnly the first 90 minutes of regular play plus stoppage time count. Extra time and penalty shoot-outs do not.\n\nResolu"
+    }
+   ]
+  },
+  {
+   "id": "c3d070d3-f068-488a-9fa2-d4539142d736",
+   "slug": "aston-villa-fc-vs-manchester-city-fc-will-the-total-goals-be-odd-or-even-october-24-2026",
+   "title": "Aston Villa FC vs Manchester City FC: Will the total goals be odd or even?",
+   "category": "SPORTS",
+   "type": "SINGLE_MARKET",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T11:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://www.sofascore.com",
+   "hashtags": [
+    "Stats"
+   ],
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "ODD_EVEN_GOALS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 137181.64,
+   "totalOrders": 0,
+   "markets": [
+    {
+     "id": "c99e4626-89a1-444f-85cb-0542c95aebd2",
+     "title": "Odd or even total goals",
+     "status": "open",
+     "outcome1Id": "b0e29d07-abd3-4939-abc2-d491030e4a37",
+     "outcome1Label": "Odd",
+     "outcome1Price": 0.5,
+     "outcome2Id": "eb66a9a9-b479-46d4-91f0-c41c37af7b5e",
+     "outcome2Label": "Even",
+     "outcome2Price": 0.5413,
+     "feePercentage": 16,
+     "minimumOrderAmount": 100,
+     "rules": "This market will resolve as **Odd** if the total number of goals scored by both teams is odd, and as **Even** if it is even. A goalless match counts as even.\n\nOnly the first 90 minutes of regular play plus stoppage time count. Extra time an"
+    }
+   ]
+  },
+  {
+   "id": "4c23d542-ed73-4eab-850d-ec38fd3c19d7",
+   "slug": "aston-villa-vs-manchester-city-team-corners-october-24-2026",
+   "title": "Aston Villa FC vs Manchester City FC: Team Corners",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T14:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://www.espn.com",
+   "hashtags": null,
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "TEAM_CORNERS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 5,
+   "markets": [
+    {
+     "id": "9d2186be-613d-46a4-9b67-5d9987c5d87c",
+     "title": "AVL 4+ Corners",
+     "status": "open",
+     "outcome1Id": "c37beec1-65f3-4a96-b6bd-2a370ef46226",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.5598,
+     "outcome2Id": "9cf041db-d317-49a9-a047-98a5f84bbaf9",
+     "outcome2Label": "No",
+     "outcome2Price": 0.4402,
+     "propLine": 3.5,
+     "propDirection": "OVER",
+     "propTeam": {
+      "id": "ab2d8b97-07ce-4726-9ee4-71ee0518ef68",
+      "name": "Aston Villa FC",
+      "slug": "bm-epl-aston-villa-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Aston Villa records at least 4+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Aston Villa vs Manchester City professional EPL soccer game originally scheduled for October 24, 2026 at 11:30 "
+    },
+    {
+     "id": "d79bdfa6-a6d1-45a3-9896-f295f7af52b7",
+     "title": "MCI 6+ Corners",
+     "status": "open",
+     "outcome1Id": "3e395248-940e-4293-adfb-a7c70247462e",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.505,
+     "outcome2Id": "4370a697-37c4-4a71-8435-55aab48a4245",
+     "outcome2Label": "No",
+     "outcome2Price": 0.495,
+     "propLine": 5.5,
+     "propDirection": "OVER",
+     "propTeam": {
+      "id": "2011d2a3-4d40-426e-ba2a-dcdf7cee8bd9",
+      "name": "Manchester City FC",
+      "slug": "bm-epl-manchester-city-fc",
+      "league": "England - Premier League",
+      "sport": "soccer"
+     },
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Manchester City records at least 6+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Aston Villa vs Manchester City professional EPL soccer game originally scheduled for October 24, 2026 at 11"
+    }
+   ]
+  },
+  {
+   "id": "bff2e65e-fa70-4481-b1ec-fdc3df2afa1e",
+   "slug": "aston-villa-vs-manchester-city-total-corners-october-24-2026",
+   "title": "Aston Villa FC vs Manchester City FC: Total Corners",
+   "category": "SPORTS",
+   "type": "GROUPED_MARKETS",
+   "engine": "AMM",
+   "status": "open",
+   "closingDate": "2026-10-24T14:30:00Z",
+   "resolutionDate": "2026-10-24T15:30:00Z",
+   "resolutionSource": "https://www.espn.com",
+   "hashtags": null,
+   "sportGameId": "43118506-f510-4a30-8c45-d53b5ad06f62",
+   "sportGameSlug": "bm-game-20261024-avl-mci",
+   "sportMarketType": "TOTAL_CORNERS",
+   "supportedCurrencies": [
+    "USD",
+    "NGN"
+   ],
+   "liquidity": 1097453.09,
+   "totalOrders": 4,
+   "markets": [
+    {
+     "id": "2d006a4f-bbb6-4411-b275-a13e2dc9bfaf",
+     "title": "11+ Total Corners",
+     "status": "open",
+     "outcome1Id": "5095c2f1-1f62-4472-baf2-4d81114441ba",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.4371,
+     "outcome2Id": "37afb580-02a2-41c2-bd87-1322114a50e5",
+     "outcome2Label": "No",
+     "outcome2Price": 0.6168,
+     "propLine": 10.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Aston Villa and Manchester City combined record at least 11+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Aston Villa vs Manchester City professional EPL soccer game originally scheduled f"
+    },
+    {
+     "id": "46658fd2-fd97-4270-b8f5-6baf92c8ec08",
+     "title": "10+ Total Corners",
+     "status": "open",
+     "outcome1Id": "ad7cf34f-0c21-4640-9028-facc7cf34e0a",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.52,
+     "outcome2Id": "de772309-008a-42b8-b4bd-67adedc57a4a",
+     "outcome2Label": "No",
+     "outcome2Price": 0.48,
+     "propLine": 9.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Aston Villa and Manchester City combined record at least 10+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Aston Villa vs Manchester City professional EPL soccer game originally scheduled f"
+    },
+    {
+     "id": "b097917d-122b-4f96-9dfa-bc5fb7e5c48a",
+     "title": "9+ Total Corners",
+     "status": "open",
+     "outcome1Id": "dac9574b-529c-4c0a-aa96-485bcce77c08",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.6561,
+     "outcome2Id": "e965629f-9d21-44b2-82fc-bcf2369d3b6e",
+     "outcome2Label": "No",
+     "outcome2Price": 0.3863,
+     "propLine": 8.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Aston Villa and Manchester City combined record at least 9+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Aston Villa vs Manchester City professional EPL soccer game originally scheduled fo"
+    },
+    {
+     "id": "3e7ffc18-b3c1-4e77-b0fd-54bf5ed6d37d",
+     "title": "8+ Total Corners",
+     "status": "open",
+     "outcome1Id": "6f662a0c-e083-433a-afcd-7329d535c5ce",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.7438,
+     "outcome2Id": "82e3df3c-0acb-498f-828c-68f46c537927",
+     "outcome2Label": "No",
+     "outcome2Price": 0.2562,
+     "propLine": 7.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Aston Villa and Manchester City combined record at least 8+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Aston Villa vs Manchester City professional EPL soccer game originally scheduled fo"
+    },
+    {
+     "id": "dd8b0c03-121b-43d2-b759-1cb047df79fd",
+     "title": "7+ Total Corners",
+     "status": "open",
+     "outcome1Id": "21ef59be-6f09-40ee-853c-79d55b75367f",
+     "outcome1Label": "Yes",
+     "outcome1Price": 0.8282,
+     "outcome2Id": "2df502a3-d9e2-4f32-bb8a-76daf75b9e69",
+     "outcome2Label": "No",
+     "outcome2Price": 0.1718,
+     "propLine": 6.5,
+     "propDirection": "OVER",
+     "feePercentage": 3,
+     "minimumOrderAmount": 100,
+     "rules": "If Aston Villa and Manchester City combined record at least 7+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Aston Villa vs Manchester City professional EPL soccer game originally scheduled fo"
+    }
+   ]
+  }
+ ],
+ "pagination": {
+  "lastPage": 2,
+  "page": 1,
+  "size": 20,
+  "totalCount": 23
+ }
+}

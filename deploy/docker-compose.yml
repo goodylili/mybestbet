@@ -1,0 +1,53 @@
+name: mybestbet
+
+x-go: &go
+  image: ghcr.io/${IMAGE_OWNER:-mybestbet}/mybestbet-go:${IMAGE_TAG:-latest}
+  build: {context: ../mybestbet-backend}
+  env_file: [{path: .env, required: false}]
+  environment:
+    DATABASE_URL: postgres://mybestbet:mybestbet@postgres:5432/mybestbet?sslmode=disable
+    REDIS_URL: redis://redis:6379/0
+    BROWSERD_URL: http://browserd:9222
+    CONFIG_PATH: /app/config.yaml
+  depends_on: [postgres, redis]
+  restart: unless-stopped
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment: {POSTGRES_USER: mybestbet, POSTGRES_PASSWORD: mybestbet, POSTGRES_DB: mybestbet}
+    ports: ["127.0.0.1:5433:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck: {test: ["CMD", "pg_isready", "-U", "mybestbet"], interval: 5s}
+  redis:
+    image: redis:7-alpine
+    ports: ["127.0.0.1:6379:6379"]
+  migrate: {<<: *go, command: ["/app/bin/migrate"], restart: "no"}
+  ingestor: {<<: *go, command: ["/app/bin/ingestor"]}
+  browserd: {<<: *go, command: ["/app/bin/browserd"]}
+  resolver: {<<: *go, command: ["/app/bin/resolver"]}
+  engine: {<<: *go, command: ["/app/bin/engine"], environment: {ENGINE_SPOOL_DIR: /spool, DATABASE_URL: "postgres://mybestbet:mybestbet@postgres:5432/mybestbet?sslmode=disable", REDIS_URL: "redis://redis:6379/0", CONFIG_PATH: /app/config.yaml}, volumes: [spool:/spool]}
+  notifier: {<<: *go, command: ["/app/bin/notifier"]}
+  stats: {<<: *go, command: ["/app/bin/stats"]}
+  api: {<<: *go, command: ["/app/bin/api"], ports: ["127.0.0.1:8080:8080"]}
+  web:
+    image: ghcr.io/${IMAGE_OWNER:-mybestbet}/mybestbet-web:${IMAGE_TAG:-latest}
+    build: {context: ../mybestbet-frontend}
+    environment: {API_URL: http://api:8080}
+    depends_on: [api]
+  backup:
+    image: postgres:16-alpine
+    env_file: [{path: .env, required: false}]
+    environment: {PGPASSWORD: mybestbet}
+    volumes: [./backup.sh:/backup.sh:ro]
+    entrypoint: ["/backup.sh"]
+    depends_on: [postgres]
+    restart: unless-stopped
+    profiles: [prod]
+  caddy:
+    image: caddy:2
+    ports: ["80:80", "443:443"]
+    volumes: [./Caddyfile:/etc/caddy/Caddyfile, caddydata:/data]
+    depends_on: [web, api]
+
+volumes: {pgdata: {}, caddydata: {}, spool: {}}

@@ -1,0 +1,1608 @@
+{
+  "bizCode": 10000,
+  "message": "0#0",
+  "data": {
+    "eventId": "sr:match:71945360",
+    "gameId": "13539",
+    "productStatus": "0#0",
+    "estimateStartTime": 1793122200000,
+    "status": 0,
+    "matchStatus": "Not start",
+    "homeTeamId": "sr:competitor:2793",
+    "homeTeamName": "Sassuolo",
+    "awayTeamName": "Lazio",
+    "awayTeamId": "sr:competitor:2699",
+    "sport": {
+      "id": "sr:sport:1",
+      "name": "Football",
+      "category": {
+        "id": "sr:category:31",
+        "name": "Italy",
+        "tournament": {
+          "id": "sr:tournament:23",
+          "name": "Serie A"
+        }
+      }
+    },
+    "markets": [
+      {
+        "id": "1",
+        "product": 3,
+        "desc": "1X2",
+        "status": 0,
+        "group": "Main",
+        "groupId": "171121135724MGI11262166",
+        "marketGuide": "Which team will win the match. Overtime not included.",
+        "title": "1,X,2",
+        "name": "1X2",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "1",
+            "odds": "3.36",
+            "probability": "0.2910700000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Home"
+          },
+          {
+            "id": "2",
+            "odds": "3.75",
+            "probability": "0.2609390000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Draw"
+          },
+          {
+            "id": "3",
+            "odds": "2.19",
+            "probability": "0.4479930000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Away"
+          }
+        ],
+        "farNearOdds": 0,
+        "marketExtendVOS": [
+          {
+            "name": "2UP",
+            "rootMarketId": "1",
+            "nodeMarketId": "60100",
+            "notSupport": false
+          },
+          {
+            "name": "1UP",
+            "rootMarketId": "1",
+            "nodeMarketId": "60200",
+            "notSupport": false
+          }
+        ],
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "earlyPayoutMarkets": [
+          {
+            "name": "1UP",
+            "sourceMarketId": "1",
+            "sourceSpecifier": "",
+            "mappedMarketId": "60200",
+            "mappedSpecifier": "",
+            "supported": true
+          },
+          {
+            "name": "2UP",
+            "sourceMarketId": "1",
+            "sourceSpecifier": "",
+            "mappedMarketId": "60100",
+            "mappedSpecifier": "",
+            "supported": true
+          },
+          {
+            "name": "one_x_two_never_down",
+            "sourceMarketId": "1",
+            "sourceSpecifier": "",
+            "mappedMarketId": "60210",
+            "mappedSpecifier": "",
+            "supported": true
+          }
+        ],
+        "banned": false
+      },
+      {
+        "id": "19",
+        "specifier": "total=0.5",
+        "product": 3,
+        "desc": "Sassuolo Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+        "title": "",
+        "name": "Home O/U",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.31",
+            "probability": "0.7415790000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 0.5"
+          },
+          {
+            "id": "13",
+            "odds": "3.50",
+            "probability": "0.2584210000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 0.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "19",
+        "specifier": "total=1.5",
+        "product": 3,
+        "desc": "Sassuolo Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+        "title": "",
+        "name": "Home O/U",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "2.40",
+            "probability": "0.3892270000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 1.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.57",
+            "probability": "0.6107730000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 1.5"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "19",
+        "specifier": "total=2.5",
+        "product": 3,
+        "desc": "Sassuolo Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+        "title": "",
+        "name": "Home O/U",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "5.60",
+            "probability": "0.1522840000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 2.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.15",
+            "probability": "0.8477160000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 2.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "19",
+        "specifier": "total=3.5",
+        "product": 3,
+        "desc": "Sassuolo Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by the Home team in regular time is over/under a given line.",
+        "title": "",
+        "name": "Home O/U",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "13.00",
+            "probability": "0.0474300765",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 3.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.03",
+            "probability": "0.9525710329",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 3.5"
+          }
+        ],
+        "farNearOdds": -1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "20",
+        "specifier": "total=0.5",
+        "product": 3,
+        "desc": "Lazio Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+        "title": "",
+        "name": "Away O/U",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.19",
+            "probability": "0.8196020000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 0.5"
+          },
+          {
+            "id": "13",
+            "odds": "4.80",
+            "probability": "0.1803980000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 0.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "20",
+        "specifier": "total=1.5",
+        "product": 3,
+        "desc": "Lazio Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+        "title": "",
+        "name": "Away O/U",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.87",
+            "probability": "0.5085450000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 1.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.94",
+            "probability": "0.4914550000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 1.5"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "20",
+        "specifier": "total=2.5",
+        "product": 3,
+        "desc": "Lazio Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+        "title": "",
+        "name": "Away O/U",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "3.70",
+            "probability": "0.2439750000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 2.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.28",
+            "probability": "0.7560250000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 2.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "20",
+        "specifier": "total=3.5",
+        "product": 3,
+        "desc": "Lazio Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+        "title": "",
+        "name": "Away O/U",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "8.20",
+            "probability": "0.0945209574",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 3.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.08",
+            "probability": "0.9054816156",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 3.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "20",
+        "specifier": "total=4.5",
+        "product": 3,
+        "desc": "Lazio Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Away team in regular time is over/under a given line.",
+        "title": "",
+        "name": "Away O/U",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "15.50",
+            "probability": "0.0303711000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 4.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.01",
+            "probability": "0.9696290000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 4.5"
+          }
+        ],
+        "farNearOdds": -1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "69",
+        "specifier": "total=0.5",
+        "product": 3,
+        "desc": "1st half - Sassuolo Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Home team in the 1st Half is over/under a given line.",
+        "title": "Goals,Over,Under",
+        "name": "1st Half - Home O/U",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "2.10",
+            "probability": "0.4456250000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 0.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.70",
+            "probability": "0.5543750000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 0.5"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "69",
+        "specifier": "total=1.5",
+        "product": 3,
+        "desc": "1st half - Sassuolo Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Home team in the 1st Half is over/under a given line.",
+        "title": "Goals,Over,Under",
+        "name": "1st Half - Home O/U",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "6.25",
+            "probability": "0.1203896670",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 1.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.10",
+            "probability": "0.8796104756",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 1.5"
+          }
+        ],
+        "farNearOdds": -1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "70",
+        "specifier": "total=0.5",
+        "product": 3,
+        "desc": "1st half - Lazio Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Away team in the 1st Half is over/under a given line.",
+        "title": "Goals,Over,Under",
+        "name": "1st Half - Away O/U",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.76",
+            "probability": "0.5318280000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 0.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.99",
+            "probability": "0.4681720000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 0.5"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "70",
+        "specifier": "total=1.5",
+        "product": 3,
+        "desc": "1st half - Lazio Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Away team in the 1st Half is over/under a given line.",
+        "title": "Goals,Over,Under",
+        "name": "1st Half - Away O/U",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "4.60",
+            "probability": "0.1796060000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 1.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.17",
+            "probability": "0.8203940000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 1.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "70",
+        "specifier": "total=2.5",
+        "product": 3,
+        "desc": "1st half - Lazio Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Away team in the 1st Half is over/under a given line.",
+        "title": "Goals,Over,Under",
+        "name": "1st Half - Away O/U",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "11.00",
+            "probability": "0.0435453381",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 2.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.02",
+            "probability": "0.9564573650",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 2.5"
+          }
+        ],
+        "farNearOdds": -1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "91",
+        "specifier": "total=0.5",
+        "product": 3,
+        "desc": "2nd Half - Sassuolo Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Home team in the 2nd Half is over/under a given line.",
+        "title": "",
+        "name": "2nd Half - Home Team Total",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.78",
+            "probability": "0.5277910000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 0.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.97",
+            "probability": "0.4722090000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 0.5"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "91",
+        "specifier": "total=1.5",
+        "product": 3,
+        "desc": "2nd Half - Sassuolo Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Home team in the 2nd Half is over/under a given line.",
+        "title": "",
+        "name": "2nd Half - Home Team Total",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "4.70",
+            "probability": "0.1750330000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 1.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.17",
+            "probability": "0.8249670000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 1.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "91",
+        "specifier": "total=2.5",
+        "product": 3,
+        "desc": "2nd Half - Sassuolo Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Home team in the 2nd Half is over/under a given line.",
+        "title": "",
+        "name": "2nd Half - Home Team Total",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "11.50",
+            "probability": "0.0409702557",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 2.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.02",
+            "probability": "0.9590346072",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 2.5"
+          }
+        ],
+        "farNearOdds": -1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "92",
+        "specifier": "total=0.5",
+        "product": 3,
+        "desc": "2nd Half - Lazio Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Away team in the 2nd Half is over/under a given line.",
+        "title": "",
+        "name": "2nd Half - Away Team Total",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "1.56",
+            "probability": "0.6083710000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 0.5"
+          },
+          {
+            "id": "13",
+            "odds": "2.35",
+            "probability": "0.3916290000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 0.5"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "92",
+        "specifier": "total=1.5",
+        "product": 3,
+        "desc": "2nd Half - Lazio Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Away team in the 2nd Half is over/under a given line.",
+        "title": "",
+        "name": "2nd Half - Away Team Total",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "3.60",
+            "probability": "0.2446493962",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 1.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.27",
+            "probability": "0.7553510309",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 1.5"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "92",
+        "specifier": "total=2.5",
+        "product": 3,
+        "desc": "2nd Half - Lazio Over/Under",
+        "status": 0,
+        "group": "Goals",
+        "groupId": "171121144758MGI11271357",
+        "marketGuide": "Predict whether the total number of goals scored by Away team in the 2nd Half is over/under a given line.",
+        "title": "",
+        "name": "2nd Half - Away Team Total",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "12",
+            "odds": "8.75",
+            "probability": "0.0714605403",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Over 2.5"
+          },
+          {
+            "id": "13",
+            "odds": "1.05",
+            "probability": "0.9285394638",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Under 2.5"
+          }
+        ],
+        "farNearOdds": -1,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793076858018,
+        "banned": false
+      },
+      {
+        "id": "800297",
+        "specifier": "variant=pre:playerprops:71945360:965463",
+        "product": 3,
+        "desc": "Player Saves",
+        "status": 1,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Total number of saves made by a player (regular time only)",
+        "title": "",
+        "name": "Player Saves",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:965463:3:1",
+            "odds": "1.43",
+            "probability": "0.6143000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Giacomo Satalino (Sassuolo) 3+",
+            "playerName": "Giacomo Satalino (Sassuolo)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:71945360:965463:4:1",
+            "odds": "2.04",
+            "probability": "0.3937000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Giacomo Satalino (Sassuolo) 4+",
+            "playerName": "Giacomo Satalino (Sassuolo)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:71945360:965463:5:1",
+            "odds": "3.33",
+            "probability": "0.2205000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Giacomo Satalino (Sassuolo) 5+",
+            "playerName": "Giacomo Satalino (Sassuolo)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:71945360:965463:6:1",
+            "odds": "6.09",
+            "probability": "0.1111000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Giacomo Satalino (Sassuolo) 6+",
+            "playerName": "Giacomo Satalino (Sassuolo)",
+            "playerScore": "6+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1793077086000,
+        "banned": false
+      },
+      {
+        "id": "800297",
+        "specifier": "variant=pre:playerprops:71945360:1047063",
+        "product": 3,
+        "desc": "Player Saves",
+        "status": 0,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Total number of saves made by a player (regular time only)",
+        "title": "",
+        "name": "Player Saves",
+        "favourite": 1,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:1047063:3:1",
+            "odds": "1.38",
+            "probability": "0.6418000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Arijanet Muric (Sassuolo) 3+",
+            "playerName": "Arijanet Muric (Sassuolo)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1047063:4:1",
+            "odds": "1.92",
+            "probability": "0.4230000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Arijanet Muric (Sassuolo) 4+",
+            "playerName": "Arijanet Muric (Sassuolo)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1047063:5:1",
+            "odds": "3.06",
+            "probability": "0.2440000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Arijanet Muric (Sassuolo) 5+",
+            "playerName": "Arijanet Muric (Sassuolo)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1047063:6:1",
+            "odds": "5.45",
+            "probability": "0.1262000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Arijanet Muric (Sassuolo) 6+",
+            "playerName": "Arijanet Muric (Sassuolo)",
+            "playerScore": "6+"
+          }
+        ],
+        "farNearOdds": 1,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1793077086000,
+        "banned": false
+      },
+      {
+        "id": "800297",
+        "specifier": "variant=pre:playerprops:71945360:1272498",
+        "product": 3,
+        "desc": "Player Saves",
+        "status": 0,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Total number of saves made by a player (regular time only)",
+        "title": "",
+        "name": "Player Saves",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:1272498:3:1",
+            "odds": "1.41",
+            "probability": "0.6266000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Stefano Turati (Sassuolo) 3+",
+            "playerName": "Stefano Turati (Sassuolo)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1272498:4:1",
+            "odds": "1.99",
+            "probability": "0.4066000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Stefano Turati (Sassuolo) 4+",
+            "playerName": "Stefano Turati (Sassuolo)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1272498:5:1",
+            "odds": "3.21",
+            "probability": "0.2308000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Stefano Turati (Sassuolo) 5+",
+            "playerName": "Stefano Turati (Sassuolo)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1272498:6:1",
+            "odds": "5.79",
+            "probability": "0.1177000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Stefano Turati (Sassuolo) 6+",
+            "playerName": "Stefano Turati (Sassuolo)",
+            "playerScore": "6+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1793077086000,
+        "banned": false
+      },
+      {
+        "id": "800297",
+        "specifier": "variant=pre:playerprops:71945360:1363554",
+        "product": 3,
+        "desc": "Player Saves",
+        "status": 0,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Total number of saves made by a player (regular time only)",
+        "title": "",
+        "name": "Player Saves",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:1363554:3:2",
+            "odds": "1.42",
+            "probability": "0.6195000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Christos Mandas (Lazio) 3+",
+            "playerName": "Christos Mandas (Lazio)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1363554:4:2",
+            "odds": "2.02",
+            "probability": "0.3990000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Christos Mandas (Lazio) 4+",
+            "playerName": "Christos Mandas (Lazio)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1363554:5:2",
+            "odds": "3.28",
+            "probability": "0.2245000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Christos Mandas (Lazio) 5+",
+            "playerName": "Christos Mandas (Lazio)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1363554:6:2",
+            "odds": "5.97",
+            "probability": "0.1135000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Christos Mandas (Lazio) 6+",
+            "playerName": "Christos Mandas (Lazio)",
+            "playerScore": "6+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1793077086000,
+        "banned": false
+      },
+      {
+        "id": "800297",
+        "specifier": "variant=pre:playerprops:71945360:1742919",
+        "product": 3,
+        "desc": "Player Saves",
+        "status": 1,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Total number of saves made by a player (regular time only)",
+        "title": "",
+        "name": "Player Saves",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:1742919:3:2",
+            "odds": "1.43",
+            "probability": "0.6224000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Alessio Furlanetto (Lazio) 3+",
+            "playerName": "Alessio Furlanetto (Lazio)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1742919:4:2",
+            "odds": "2.04",
+            "probability": "0.4023000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Alessio Furlanetto (Lazio) 4+",
+            "playerName": "Alessio Furlanetto (Lazio)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1742919:5:2",
+            "odds": "3.36",
+            "probability": "0.2275000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Alessio Furlanetto (Lazio) 5+",
+            "playerName": "Alessio Furlanetto (Lazio)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:71945360:1742919:6:2",
+            "odds": "6.17",
+            "probability": "0.1163000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Alessio Furlanetto (Lazio) 6+",
+            "playerName": "Alessio Furlanetto (Lazio)",
+            "playerScore": "6+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1793077086000,
+        "banned": false
+      },
+      {
+        "id": "800297",
+        "specifier": "variant=pre:playerprops:71945360:2565223",
+        "product": 3,
+        "desc": "Player Saves",
+        "status": 1,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Total number of saves made by a player (regular time only)",
+        "title": "",
+        "name": "Player Saves",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:2565223:3:2",
+            "odds": "1.43",
+            "probability": "0.6205000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Davide Renzetti (Lazio) 3+",
+            "playerName": "Davide Renzetti (Lazio)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2565223:4:2",
+            "odds": "2.05",
+            "probability": "0.4002000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Davide Renzetti (Lazio) 4+",
+            "playerName": "Davide Renzetti (Lazio)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2565223:5:2",
+            "odds": "3.38",
+            "probability": "0.2259000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Davide Renzetti (Lazio) 5+",
+            "playerName": "Davide Renzetti (Lazio)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2565223:6:2",
+            "odds": "6.22",
+            "probability": "0.1153000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Davide Renzetti (Lazio) 6+",
+            "playerName": "Davide Renzetti (Lazio)",
+            "playerScore": "6+"
+          }
+        ],
+        "farNearOdds": -1,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1793077086000,
+        "banned": false
+      },
+      {
+        "id": "800297",
+        "specifier": "variant=pre:playerprops:71945360:2662595",
+        "product": 3,
+        "desc": "Player Saves",
+        "status": 0,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Total number of saves made by a player (regular time only)",
+        "title": "",
+        "name": "Player Saves",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:2662595:3:2",
+            "odds": "1.43",
+            "probability": "0.6134000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Edoardo Motta (Lazio) 3+",
+            "playerName": "Edoardo Motta (Lazio)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2662595:4:2",
+            "odds": "2.05",
+            "probability": "0.3924000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Edoardo Motta (Lazio) 4+",
+            "playerName": "Edoardo Motta (Lazio)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2662595:5:2",
+            "odds": "3.35",
+            "probability": "0.2192000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Edoardo Motta (Lazio) 5+",
+            "playerName": "Edoardo Motta (Lazio)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2662595:6:2",
+            "odds": "6.13",
+            "probability": "0.1101000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Edoardo Motta (Lazio) 6+",
+            "playerName": "Edoardo Motta (Lazio)",
+            "playerScore": "6+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1793077086000,
+        "banned": false
+      },
+      {
+        "id": "800297",
+        "specifier": "variant=pre:playerprops:71945360:2891349",
+        "product": 3,
+        "desc": "Player Saves",
+        "status": 1,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Total number of saves made by a player (regular time only)",
+        "title": "",
+        "name": "Player Saves",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:2891349:3:1",
+            "odds": "1.40",
+            "probability": "0.6396000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Lorenzo Nyarko (Sassuolo) 3+",
+            "playerName": "Lorenzo Nyarko (Sassuolo)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2891349:4:1",
+            "odds": "1.97",
+            "probability": "0.4206000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Lorenzo Nyarko (Sassuolo) 4+",
+            "playerName": "Lorenzo Nyarko (Sassuolo)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2891349:5:1",
+            "odds": "3.18",
+            "probability": "0.2422000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Lorenzo Nyarko (Sassuolo) 5+",
+            "playerName": "Lorenzo Nyarko (Sassuolo)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2891349:6:1",
+            "odds": "5.75",
+            "probability": "0.1258000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Lorenzo Nyarko (Sassuolo) 6+",
+            "playerName": "Lorenzo Nyarko (Sassuolo)",
+            "playerScore": "6+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1793077086000,
+        "banned": false
+      },
+      {
+        "id": "800297",
+        "specifier": "variant=pre:playerprops:71945360:2933575",
+        "product": 3,
+        "desc": "Player Saves",
+        "status": 1,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Total number of saves made by a player (regular time only)",
+        "title": "",
+        "name": "Player Saves",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:2933575:3:2",
+            "odds": "1.43",
+            "probability": "0.6205000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Nicolo Pannozzo (Lazio) 3+",
+            "playerName": "Nicolo Pannozzo (Lazio)",
+            "playerScore": "3+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2933575:4:2",
+            "odds": "2.05",
+            "probability": "0.4002000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Nicolo Pannozzo (Lazio) 4+",
+            "playerName": "Nicolo Pannozzo (Lazio)",
+            "playerScore": "4+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2933575:5:2",
+            "odds": "3.38",
+            "probability": "0.2259000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Nicolo Pannozzo (Lazio) 5+",
+            "playerName": "Nicolo Pannozzo (Lazio)",
+            "playerScore": "5+"
+          },
+          {
+            "id": "pre:playerprops:71945360:2933575:6:2",
+            "odds": "6.22",
+            "probability": "0.1153000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Nicolo Pannozzo (Lazio) 6+",
+            "playerName": "Nicolo Pannozzo (Lazio)",
+            "playerScore": "6+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "SPORTING_RISK",
+        "lastOddsChangeTime": 1793077086000,
+        "banned": false
+      },
+      {
+        "id": "778",
+        "specifier": "variant=pre:playerprops:71945360:44241",
+        "product": 3,
+        "desc": "Player passes (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Predict how many passes will a player attempt in the match. Overtime included. Bets on non-starters will be voided.",
+        "title": "",
+        "name": "Player passes",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:44241:65",
+            "odds": "1.46",
+            "probability": "0.6016000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Matic, Nemanja 65+",
+            "playerName": "Matic, Nemanja",
+            "playerScore": "65+"
+          },
+          {
+            "id": "pre:playerprops:71945360:44241:69",
+            "odds": "1.69",
+            "probability": "0.5049000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Matic, Nemanja 69+",
+            "playerName": "Matic, Nemanja",
+            "playerScore": "69+"
+          },
+          {
+            "id": "pre:playerprops:71945360:44241:73",
+            "odds": "1.92",
+            "probability": "0.4339000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Matic, Nemanja 73+",
+            "playerName": "Matic, Nemanja",
+            "playerScore": "73+"
+          },
+          {
+            "id": "pre:playerprops:71945360:44241:77",
+            "odds": "2.20",
+            "probability": "0.3639000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Matic, Nemanja 77+",
+            "playerName": "Matic, Nemanja",
+            "playerScore": "77+"
+          },
+          {
+            "id": "pre:playerprops:71945360:44241:81",
+            "odds": "2.60",
+            "probability": "0.2992000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Matic, Nemanja 81+",
+            "playerName": "Matic, Nemanja",
+            "playerScore": "81+"
+          },
+          {
+            "id": "pre:playerprops:71945360:44241:85",
+            "odds": "3.10",
+            "probability": "0.2412000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Matic, Nemanja 85+",
+            "playerName": "Matic, Nemanja",
+            "playerScore": "85+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793059692000,
+        "banned": false
+      },
+      {
+        "id": "778",
+        "specifier": "variant=pre:playerprops:71945360:253367",
+        "product": 3,
+        "desc": "Player passes (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Predict how many passes will a player attempt in the match. Overtime included. Bets on non-starters will be voided.",
+        "title": "",
+        "name": "Player passes",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:253367:33",
+            "odds": "1.42",
+            "probability": "0.6105000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Berardi, Domenico 33+",
+            "playerName": "Berardi, Domenico",
+            "playerScore": "33+"
+          },
+          {
+            "id": "pre:playerprops:71945360:253367:37",
+            "odds": "1.68",
+            "probability": "0.4896000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Berardi, Domenico 37+",
+            "playerName": "Berardi, Domenico",
+            "playerScore": "37+"
+          },
+          {
+            "id": "pre:playerprops:71945360:253367:41",
+            "odds": "2.05",
+            "probability": "0.3930000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Berardi, Domenico 41+",
+            "playerName": "Berardi, Domenico",
+            "playerScore": "41+"
+          },
+          {
+            "id": "pre:playerprops:71945360:253367:45",
+            "odds": "2.55",
+            "probability": "0.3064000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Berardi, Domenico 45+",
+            "playerName": "Berardi, Domenico",
+            "playerScore": "45+"
+          },
+          {
+            "id": "pre:playerprops:71945360:253367:49",
+            "odds": "3.25",
+            "probability": "0.2266000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Berardi, Domenico 49+",
+            "playerName": "Berardi, Domenico",
+            "playerScore": "49+"
+          },
+          {
+            "id": "pre:playerprops:71945360:253367:53",
+            "odds": "4.25",
+            "probability": "0.1654000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Berardi, Domenico 53+",
+            "playerName": "Berardi, Domenico",
+            "playerScore": "53+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793059692000,
+        "banned": false
+      },
+      {
+        "id": "778",
+        "specifier": "variant=pre:playerprops:71945360:257091",
+        "product": 3,
+        "desc": "Player passes (incl. overtime)",
+        "status": 0,
+        "group": "Players",
+        "groupId": "221127141545MGI46492952",
+        "marketGuide": "Predict how many passes will a player attempt in the match. Overtime included. Bets on non-starters will be voided.",
+        "title": "",
+        "name": "Player passes",
+        "favourite": 0,
+        "outcomes": [
+          {
+            "id": "pre:playerprops:71945360:257091:58",
+            "odds": "1.49",
+            "probability": "0.5887000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Caleta-Car, Duje 58+",
+            "playerName": "Caleta-Car, Duje",
+            "playerScore": "58+"
+          },
+          {
+            "id": "pre:playerprops:71945360:257091:62",
+            "odds": "1.72",
+            "probability": "0.4956000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Caleta-Car, Duje 62+",
+            "playerName": "Caleta-Car, Duje",
+            "playerScore": "62+"
+          },
+          {
+            "id": "pre:playerprops:71945360:257091:66",
+            "odds": "1.97",
+            "probability": "0.4224000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Caleta-Car, Duje 66+",
+            "playerName": "Caleta-Car, Duje",
+            "playerScore": "66+"
+          },
+          {
+            "id": "pre:playerprops:71945360:257091:70",
+            "odds": "2.30",
+            "probability": "0.3540000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Caleta-Car, Duje 70+",
+            "playerName": "Caleta-Car, Duje",
+            "playerScore": "70+"
+          },
+          {
+            "id": "pre:playerprops:71945360:257091:74",
+            "odds": "2.70",
+            "probability": "0.2901000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Caleta-Car, Duje 74+",
+            "playerName": "Caleta-Car, Duje",
+            "playerScore": "74+"
+          },
+          {
+            "id": "pre:playerprops:71945360:257091:78",
+            "odds": "3.25",
+            "probability": "0.2337000000",
+            "voidProbability": "0E-10",
+            "isActive": 1,
+            "desc": "Caleta-Car, Duje 78+",
+            "playerName": "Caleta-Car, Duje",
+            "playerScore": "78+"
+          }
+        ],
+        "farNearOdds": 0,
+        "sourceType": "BET_RADAR",
+        "lastOddsChangeTime": 1793059692000,
+        "banned": false
+      }
+    ],
+    "audioLiveChannel": true,
+    "bookingStatus": "Booked",
+    "topTeam": true,
+    "homeTeamIcon": "https://s.sporty.net/common/main/res/9d57e3891d715c4c6a8fbcd69f94ace5.png",
+    "awayTeamIcon": "https://s.sporty.net/common/main/res/d494406f1da6616a560e42091e2dc896.png",
+    "oddsBoost": true,
+    "fixtureVenue": {
+      "name": "Mapei Stadium - Citta del Tricolore"
+    },
+    "giftGrabActivityResultVO": {
+      "activityEnabled": false,
+      "enabled": false
+    },
+    "ai": false,
+    "bgEvent": false,
+    "matchTrackerNotAllowed": false,
+    "eventSource": {
+      "preMatchSource": {
+        "sourceType": "BET_RADAR",
+        "sourceId": "71945360"
+      },
+      "liveSource": {
+        "sourceType": "BET_GENIUS",
+        "sourceId": "111111113978122"
+      }
+    },
+    "containsPcbb": false,
+    "banned": false
+  }
+}

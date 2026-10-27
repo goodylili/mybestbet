@@ -1,0 +1,56 @@
+{
+  "source": "betano",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "75100001",
+      "leagueHint": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Miami Heat",
+      "kickoff": "2026-10-24T22:00:00Z"
+    },
+    {
+      "sourceId": "75100002",
+      "leagueHint": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Brooklyn Nets",
+      "kickoff": "2026-10-24T23:30:00Z"
+    },
+    {
+      "sourceId": "75200001",
+      "leagueHint": "NFL",
+      "home": "Atlanta Falcons",
+      "away": "San Francisco 49ers",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "75300001",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Paul, Tommy",
+      "away": "Fritz, Taylor",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "75400001",
+      "leagueHint": "CS2",
+      "home": "9INE Academy",
+      "away": "Bread Eaters",
+      "kickoff": "2026-10-24T10:00:00Z"
+    },
+    {
+      "sourceId": "75400002",
+      "leagueHint": "CS2",
+      "home": "Sashi",
+      "away": "Nexus",
+      "kickoff": "2026-10-24T12:00:00Z"
+    },
+    {
+      "sourceId": "75400003",
+      "leagueHint": "LOL",
+      "home": "T1",
+      "away": "Dplus",
+      "kickoff": "2026-10-24T11:00:00Z"
+    }
+  ],
+  "markets": null
+}

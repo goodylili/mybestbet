@@ -1,0 +1,35 @@
+{
+  "source": "bet365",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "B151-191000001",
+      "leagueHint": "CS2",
+      "home": "Team Vitality",
+      "away": "Natus Vincere",
+      "kickoff": "2026-10-30T15:00:00Z"
+    },
+    {
+      "sourceId": "B151-191000002",
+      "leagueHint": "DOTA2",
+      "home": "Team Liquid",
+      "away": "Gaimin Gladiators",
+      "kickoff": "2026-10-30T12:00:00Z"
+    },
+    {
+      "sourceId": "B151-191000003",
+      "leagueHint": "VALORANT",
+      "home": "Fnatic",
+      "away": "Sentinels",
+      "kickoff": "2026-10-30T17:00:00Z"
+    },
+    {
+      "sourceId": "B151-191000004",
+      "leagueHint": "LOL",
+      "home": "T1",
+      "away": "Gen.G",
+      "kickoff": "2026-10-30T09:00:00Z"
+    }
+  ],
+  "markets": null
+}

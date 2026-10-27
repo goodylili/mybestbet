@@ -1,0 +1,26 @@
+.crumbs { display: flex; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg-3); }
+.crumbs a { color: var(--fg-2); display: flex; align-items: center; gap: 6px; }
+.crumbs a:hover { color: var(--fg); }
+
+.board { padding: 24px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 16px; position: relative; isolation: isolate; overflow: hidden; }
+.board .t { display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; min-width: 0; }
+.board .t b { font-size: 19px; font-weight: 600; letter-spacing: -.02em; }
+.board .t span { font-family: var(--mono); font-size: 13px; color: var(--fg-2); }
+.board .mid { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; }
+.board .mid .k { font-family: var(--mono); font-size: 28px; font-weight: 500; letter-spacing: -.02em; line-height: 1.1; }
+.board .mid span { font-size: 13px; color: var(--fg-3); }
+.board .mid .soon { color: var(--amber); }
+.board.hb::before { content: ""; position: absolute; inset: -12px; z-index: -2; background: var(--bn) center / cover no-repeat; opacity: .5; filter: blur(3px); }
+.board.hb::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(var(--glass) / .5), rgb(var(--glass) / .9)); }
+:global(body.no-prob) .board .t span:last-child { display: none; }
+
+.banner { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border: 1px solid var(--line-2); background: var(--panel); border-radius: var(--r); width: 100%; text-align: left; font-size: 14px; }
+.banner:hover { background: var(--panel); border-color: var(--line-3); }
+.banner .tx { flex: 1; min-width: 0; }
+
+@media (max-width: 760px) {
+  .board { padding: 18px 12px; gap: 8px; }
+  .board .t b { font-size: 15.5px; }
+  .board .mid .k { font-size: 22px; }
+}
+.h1 { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }

@@ -1,0 +1,77 @@
+{
+ "cursor": "",
+ "events": [
+  {
+   "category": "Sports",
+   "collateral_return_type": "",
+   "event_ticker": "KXCS2SPREAD-26OCT240300MGLZAUR",
+   "exchange_index": 0,
+   "last_updated_ts": "2026-10-23T07:03:07.897685Z",
+   "markets": [
+    {
+     "close_time": "2026-10-26T07:00:00Z",
+     "custom_strike": {
+      "esports_competitor": "c2f37718-f478-41cb-85c8-3bbc53385f86"
+     },
+     "event_ticker": "KXCS2SPREAD-26OCT240300MGLZAUR",
+     "expected_expiration_time": "2026-10-24T11:00:00Z",
+     "floor_strike": 1.5,
+     "last_price_dollars": "0.0000",
+     "market_type": "binary",
+     "no_ask_dollars": "0.8900",
+     "no_bid_dollars": "0.8400",
+     "no_sub_title": "TheMongolz wins by over 1.5 maps",
+     "occurrence_datetime": "2026-10-24T11:00:00Z",
+     "open_interest_fp": "0.00",
+     "rules_primary": "If TheMongolz wins by over 1.5 maps in the PGL Masters Bucharest 2026: TheMongolz vs. Aurora Gaming CS2 match originally scheduled for Oct 24, 2026 at 3:00 AM EDT, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "greater",
+     "ticker": "KXCS2SPREAD-26OCT240300MGLZAUR-MGLZ2",
+     "title": "TheMongolz wins by over 1.5 maps",
+     "volume_fp": "0.00",
+     "yes_ask_dollars": "0.1600",
+     "yes_ask_size_fp": "404.00",
+     "yes_bid_dollars": "0.1100",
+     "yes_bid_size_fp": "375.00",
+     "yes_sub_title": "TheMongolz wins by over 1.5 maps"
+    },
+    {
+     "close_time": "2026-10-26T07:00:00Z",
+     "custom_strike": {
+      "esports_competitor": "d2da304f-7a67-4ffb-824d-6d822935ec32"
+     },
+     "event_ticker": "KXCS2SPREAD-26OCT240300MGLZAUR",
+     "expected_expiration_time": "2026-10-24T11:00:00Z",
+     "floor_strike": 1.5,
+     "last_price_dollars": "0.9500",
+     "market_type": "binary",
+     "no_ask_dollars": "0.5700",
+     "no_bid_dollars": "0.5200",
+     "no_sub_title": "Aurora Gaming wins by over 1.5 maps",
+     "occurrence_datetime": "2026-10-24T11:00:00Z",
+     "open_interest_fp": "590.10",
+     "rules_primary": "If Aurora Gaming wins by over 1.5 maps in the PGL Masters Bucharest 2026: TheMongolz vs. Aurora Gaming CS2 match originally scheduled for Oct 24, 2026 at 3:00 AM EDT, then the market resolves to Yes.",
+     "status": "active",
+     "strike_type": "greater",
+     "ticker": "KXCS2SPREAD-26OCT240300MGLZAUR-AUR2",
+     "title": "Aurora Gaming wins by over 1.5 maps",
+     "volume_fp": "590.10",
+     "yes_ask_dollars": "0.4800",
+     "yes_ask_size_fp": "375.00",
+     "yes_bid_dollars": "0.4300",
+     "yes_bid_size_fp": "33.00",
+     "yes_sub_title": "Aurora Gaming wins by over 1.5 maps"
+    }
+   ],
+   "mutually_exclusive": false,
+   "product_metadata": {
+    "competition": "CS2",
+    "competition_scope": "Spread"
+   },
+   "series_ticker": "KXCS2SPREAD",
+   "strike_period": "",
+   "sub_title": "MGLZ vs. AUR (Oct 24)",
+   "title": "TheMongolz vs. Aurora Gaming: Spread"
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "data": [
+  {
+   "type": "projection",
+   "id": "8100025",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 18.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "MAP 1 Kills",
+    "stat_type": "MAP 1 Kills",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6901"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "265"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "701"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100026",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 37.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "MAPS 1-2 Kills",
+    "stat_type": "MAPS 1-2 Kills",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6901"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "265"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "701"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100027",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 13.5,
+    "odds_type": "goblin",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "MAP 1 Kills",
+    "stat_type": "MAP 1 Kills",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6901"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "265"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "702"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "8100028",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 17.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "MAPS 1-2 Headshots",
+    "stat_type": "MAPS 1-2 Headshots",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "6901"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "265"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "702"
+     }
+    },
+    "score": {
+     "data": null
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "new_player",
+   "id": "701",
+   "attributes": {
+    "combo": false,
+    "display_name": "ZywOo",
+    "image_url": null,
+    "league": "CS2",
+    "league_id": 265,
+    "market": "Team Vitality",
+    "name": "ZywOo",
+    "position": "",
+    "team": "TEA",
+    "team_name": "Team Vitality"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "265"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "702",
+   "attributes": {
+    "combo": false,
+    "display_name": "Aleksib",
+    "image_url": null,
+    "league": "CS2",
+    "league_id": 265,
+    "market": "Natus Vincere",
+    "name": "Aleksib",
+    "position": "",
+    "team": "NAT",
+    "team_name": "Natus Vincere"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "265"
+     }
+    }
+   }
+  },
+  {
+   "type": "game",
+   "id": "6901",
+   "attributes": {
+    "created_at": "2026-10-20T10:00:00-04:00",
+    "end_time": null,
+    "external_game_id": "sr:match:6901",
+    "is_live": false,
+    "metadata": {
+     "game_info": {
+      "competition": "IEM Cologne",
+      "teams": {
+       "home": {
+        "abbreviation": "TEA",
+        "name": "Team Vitality"
+       },
+       "away": {
+        "abbreviation": "NAT",
+        "name": "Natus Vincere"
+       }
+      }
+     },
+     "status": "scheduled"
+    },
+    "start_time": "2026-10-30T11:00:00-04:00",
+    "status": "scheduled"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "265"
+     }
+    }
+   }
+  },
+  {
+   "type": "league",
+   "id": "265",
+   "attributes": {
+    "name": "CS2",
+    "active": true
+   }
+  }
+ ],
+ "links": {},
+ "meta": {}
+}

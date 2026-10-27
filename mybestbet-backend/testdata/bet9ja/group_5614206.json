@@ -1,0 +1,26 @@
+{
+ "R": "OK",
+ "D": {
+  "GID": 5614206,
+  "RGM": "29",
+  "GMK": [
+   {
+    "GMID": "29",
+    "NAME": "Main Markets"
+   },
+   {
+    "GMID": "546",
+    "NAME": "Main OT"
+   },
+   {
+    "GMID": "547",
+    "NAME": "Final Result OT"
+   },
+   {
+    "GMID": "548",
+    "NAME": "Over/Under Home/Away OT"
+   }
+  ],
+  "E": []
+ }
+}

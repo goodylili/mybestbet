@@ -1,0 +1,3338 @@
+{
+  "cursor": null,
+  "data": [
+    {
+      "createdAt": "2026-10-12T05:16:23.040Z",
+      "description": "More markets for the Ligue 1 game, scheduled for October 25 at 3:45 PM ET.",
+      "endsAt": "2026-10-25T21:45:00.000Z",
+      "id": 598454,
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": false,
+      "isVisible": true,
+      "isYieldBearing": true,
+      "marketVariant": "SPORTS_PROPS",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "fl1-psg-lyo-2026-10-25-more-markets",
+          "conditionId": "0x503ad74307387f1a379e9764c1e7173d7a70f0e575b803d7d7444486324c8911",
+          "createdAt": "2026-10-12T05:16:23.040Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Ligue 1 game, scheduled for October 25 at 3:45 PM ET:\n\nThis market will resolve to \"Paris Saint-Germain FC\" if Paris Saint-Germain FC win the game by 2 or more goals.\n\nOtherwise, this market will resolve to \"Olympique Lyonnais\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nThis market will resolve according to the official final score published on ligue1.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228132,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_SPREADS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0x22b50ea0861689376965100ac47ccbb75011c886017e8d8b0d45b533f72e0cc4",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.48,
+                "size": 100
+              },
+              "bestBid": {
+                "price": 0.46,
+                "size": 100
+              },
+              "indexSet": 1,
+              "name": "PSG",
+              "onChainId": "72449662305310621869098979474485175965790317730248900640534825689597641111763",
+              "status": null,
+              "team": {
+                "abbreviation": "psg",
+                "alias": "PSG",
+                "id": 1055,
+                "league": "fl1",
+                "name": "Paris Saint-Germain FC"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "psg",
+                    "id": 1055,
+                    "name": "Paris Saint-Germain FC",
+                    "providerTeamId": "114315"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.54,
+                "size": 100
+              },
+              "bestBid": {
+                "price": 0.52,
+                "size": 100
+              },
+              "indexSet": 2,
+              "name": "LYO",
+              "onChainId": "22141154231427781330233524345439985221804056109939498340054732983051169491516",
+              "status": null,
+              "team": {
+                "abbreviation": "lyo",
+                "alias": "Lyon",
+                "id": 84,
+                "league": "fl1",
+                "name": "Olympique Lyonnais"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "lyo",
+                    "id": 84,
+                    "name": "Olympique Lyonnais",
+                    "providerTeamId": "114309"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xf7024188f31b8f682e1755e253ace77ef2ae3d1a6546f88958473e13d64f108a"
+          ],
+          "question": "Spread: Paris Saint-Germain FC (-1.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T19:45:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T19:45:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T19:45:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T19:45:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T21:45:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T19:45:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Paris Saint-Germain FC (-1.5)",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "fl1-psg-lyo-2026-10-25-more-markets",
+          "conditionId": "0x2b52b4b4d0ebfa9a3389a1b58c8f49e748b33ee476a4dbe706c872b7f998ee05",
+          "createdAt": "2026-10-12T05:16:23.040Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Ligue 1 game, scheduled for October 25 at 3:45 PM ET:\n\nThis market will resolve to \"Olympique Lyonnais\" if Olympique Lyonnais win the game by 2 or more goals.\n\nOtherwise, this market will resolve to \"Paris Saint-Germain FC\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nThis market will resolve according to the official final score published on ligue1.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228135,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_SPREADS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0x85bb88071fc9007a9c46ce09ce720398996638446b7b5ed8985984401d93c570",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.07,
+                "size": 2054.58
+              },
+              "bestBid": {
+                "price": 0.04,
+                "size": 200
+              },
+              "indexSet": 1,
+              "name": "LYO",
+              "onChainId": "48838677825565666924610033360083622358050452203712957738811785431806133051948",
+              "status": null,
+              "team": {
+                "abbreviation": "lyo",
+                "alias": "Lyon",
+                "id": 84,
+                "league": "fl1",
+                "name": "Olympique Lyonnais"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "lyo",
+                    "id": 84,
+                    "name": "Olympique Lyonnais",
+                    "providerTeamId": "114309"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.96,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.93,
+                "size": 2054.58
+              },
+              "indexSet": 2,
+              "name": "PSG",
+              "onChainId": "26040069546273194412282346154372097028723066261441425617430033455097994997663",
+              "status": null,
+              "team": {
+                "abbreviation": "psg",
+                "alias": "PSG",
+                "id": 1055,
+                "league": "fl1",
+                "name": "Paris Saint-Germain FC"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "psg",
+                    "id": 1055,
+                    "name": "Paris Saint-Germain FC",
+                    "providerTeamId": "114315"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x0a3ddd9dd686394e7dd4629c3ee12237f0de7157f0647571204e6dac525be710"
+          ],
+          "question": "Spread: Olympique Lyonnais (-1.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T19:45:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T19:45:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T19:45:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T19:45:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T21:45:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T19:45:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Olympique Lyonnais (-1.5)",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "fl1-psg-lyo-2026-10-25-more-markets",
+          "conditionId": "0x7ab0d29c067f55209e8a28f5f5a2c1d53f675bfd3b8120c7398c4665d2aa547e",
+          "createdAt": "2026-10-12T05:16:23.040Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Ligue 1 game between Paris Saint-Germain FC and Olympique Lyonnais, scheduled for October 25 at 3:45 PM ET:\n\nThis market will resolve to \"Over\" if Paris Saint-Germain FC and Olympique Lyonnais combine to score 2 or more goals in this game.\n\nIf the combined total is less than 2, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligue1.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228176,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0xdde759134d0fd48759475f49ebfcd5e1851026313b2f308a83ff58603f1c4e84",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.89,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.87,
+                "size": 1010.82
+              },
+              "indexSet": 1,
+              "name": "Over 1.5",
+              "onChainId": "82130212714776616810992174014526116719277791477842017100600942340928618048946",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.13,
+                "size": 1010.82
+              },
+              "bestBid": {
+                "price": 0.11,
+                "size": 200
+              },
+              "indexSet": 2,
+              "name": "Under 1.5",
+              "onChainId": "113204558362064195101209863057730589268860170497320140280099107321593053523694",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x7d1efe0009a9da932d4b11e66cf1d5f6d54a78c0be19766722f117cf4cccfe96"
+          ],
+          "question": "Paris Saint-Germain FC vs. Olympique Lyonnais: O/U 1.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T19:45:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T19:45:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T19:45:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T19:45:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T21:45:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T19:45:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 1.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 1.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "fl1-psg-lyo-2026-10-25-more-markets",
+          "conditionId": "0x12c4cc65663eca4df2d23d72af129f5d2eed310d884d112f2ccd2ca13f07900a",
+          "createdAt": "2026-10-12T05:16:23.040Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Ligue 1 game between Paris Saint-Germain FC and Olympique Lyonnais, scheduled for October 25 at 3:45 PM ET:\n\nThis market will resolve to \"Over\" if Paris Saint-Germain FC and Olympique Lyonnais combine to score 3 or more goals in this game.\n\nIf the combined total is less than 3, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligue1.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228180,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0x5fb4deedc1829af8f40176f7876608b16b63a5e6430b3ed868f53e72f2f9599f",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.72,
+                "size": 1326.1
+              },
+              "bestBid": {
+                "price": 0.7,
+                "size": 157.922
+              },
+              "indexSet": 1,
+              "name": "Over 2.5",
+              "onChainId": "56130272753407369697620877002561504900009188073418523988693056603156075778309",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.3,
+                "size": 157.922
+              },
+              "bestBid": {
+                "price": 0.28,
+                "size": 1326.1
+              },
+              "indexSet": 2,
+              "name": "Under 2.5",
+              "onChainId": "19290970791670321998250932091093253692190672242580547077007897184257388667350",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x1e65349b61e1c21833d1de120188a06b4798e38f9d60377dfcd9828bc132d17c"
+          ],
+          "question": "Paris Saint-Germain FC vs. Olympique Lyonnais: O/U 2.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T19:45:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T19:45:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T19:45:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T19:45:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T21:45:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T19:45:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 2.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 2.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "fl1-psg-lyo-2026-10-25-more-markets",
+          "conditionId": "0x780cd18f770cd71d502bb0edb1e28c6844db2d9ca6c71c392e1c2f06b48fa787",
+          "createdAt": "2026-10-12T05:16:23.040Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Ligue 1 game between Paris Saint-Germain FC and Olympique Lyonnais, scheduled for October 25 at 3:45 PM ET:\n\nThis market will resolve to \"Over\" if Paris Saint-Germain FC and Olympique Lyonnais combine to score 4 or more goals in this game.\n\nIf the combined total is less than 4, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligue1.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228185,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0x6b8f8b1dcd93088886efd548dad8017d0caeb9a0002b4c965511df14367e80b6",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.5,
+                "size": 330
+              },
+              "bestBid": {
+                "price": 0.48,
+                "size": 283.282
+              },
+              "indexSet": 1,
+              "name": "Over 3.5",
+              "onChainId": "21490763452186557945184211798618739671751189941603501035806383573984487953504",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.52,
+                "size": 283.282
+              },
+              "bestBid": {
+                "price": 0.5,
+                "size": 330
+              },
+              "indexSet": 2,
+              "name": "Under 3.5",
+              "onChainId": "97856367547800770854378653806680119588526288975814338733804822039761656029239",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x0eb47c7fa5d192a5d9904a063fd37082548d3001bd644727430ab0696065e006"
+          ],
+          "question": "Paris Saint-Germain FC vs. Olympique Lyonnais: O/U 3.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T19:45:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T19:45:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T19:45:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T19:45:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T21:45:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T19:45:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 3.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 3.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "fl1-psg-lyo-2026-10-25-more-markets",
+          "conditionId": "0xabf726737c56847805d1016a9954c8f2c7e1966636dd4ac9a0468c7cec3abbd5",
+          "createdAt": "2026-10-12T05:16:23.040Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Ligue 1 game between Paris Saint-Germain FC and Olympique Lyonnais, scheduled for October 25 at 3:45 PM ET:\n\nThis market will resolve to \"Yes\" if both Paris Saint-Germain FC and Olympique Lyonnais each score at least one goal during the game.\n\nThis market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals).\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligue1.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228207,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_BOTH_TEAMS_TO_SCORE",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0xd8b1a81ecdc3e575da2a9906a797042213190705db03c356cc0e31aa55b71eb1",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.61,
+                "size": 100
+              },
+              "bestBid": {
+                "price": 0.6,
+                "size": 76.312
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "60355983322945957450067430780392177881456123238539776534985765682882593187340",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.4,
+                "size": 76.312
+              },
+              "bestBid": {
+                "price": 0.39,
+                "size": 100
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "58428604752855944581819694720661833024832341975083347290503571566518863569876",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xb5679ca5a78c74a1b689ef05f1789fb00cba614c3de4e710d42633b8501258ed"
+          ],
+          "question": "Paris Saint-Germain FC vs. Olympique Lyonnais: Both Teams to Score",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T19:45:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T19:45:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T19:45:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T19:45:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T21:45:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T19:45:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Both Teams to Score",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        }
+      ],
+      "negRiskOnChainId": null,
+      "parentSlug": "fl1-psg-lyo-2026-10-25",
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-18T19:45:41.493Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "fl1-psg-lyo-2026-10-25-more-markets",
+      "startsAt": "2026-10-25T19:45:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "14",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "544",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "Ligue 1",
+          "parentId": "14"
+        }
+      ],
+      "teams": null,
+      "title": "Paris Saint-Germain FC vs. Olympique Lyonnais - More Markets",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1175311",
+          "teams": [
+            {
+              "abbreviation": "psg",
+              "color": "#124f7d",
+              "id": 1055,
+              "isHome": true,
+              "name": "Paris Saint-Germain FC",
+              "providerTeamId": "114315",
+              "record": {
+                "draws": 2,
+                "losses": 1,
+                "wins": 4
+              }
+            },
+            {
+              "abbreviation": "lyo",
+              "color": "#1d3fc9",
+              "id": 84,
+              "isHome": false,
+              "name": "Olympique Lyonnais",
+              "providerTeamId": "114309",
+              "record": {
+                "draws": 2,
+                "losses": 1,
+                "wins": 4
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "createdAt": "2026-10-12T07:10:23.212Z",
+      "description": "More markets for the La Liga game, scheduled for October 25 at 4:00 PM ET.",
+      "endsAt": "2026-10-25T22:00:00.000Z",
+      "id": 598792,
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": false,
+      "isVisible": true,
+      "isYieldBearing": true,
+      "marketVariant": "SPORTS_PROPS",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25-more-markets",
+          "conditionId": "0x801c25ff6e4e2826d9c697d75b9560c92ac4c2f3e55aa10702ae9f2873853050",
+          "createdAt": "2026-10-12T07:10:23.212Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming La Liga game, scheduled for October 25 at 4:00 PM ET:\n\nThis market will resolve to \"FC Barcelona\" if FC Barcelona win the game by 2 or more goals.\n\nOtherwise, this market will resolve to \"Real Madrid CF\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nThis market will resolve according to the official final score published on laliga.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3231466,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_SPREADS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0x224634155ff0e836e151ba674f512a38372c14331973a788d0337e234870041e",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.39,
+                "size": 1100
+              },
+              "bestBid": {
+                "price": 0.38,
+                "size": 10324.3225
+              },
+              "indexSet": 1,
+              "name": "BAR",
+              "onChainId": "87596163180825620341992396581057412011537442904159966781164475167470338121083",
+              "status": null,
+              "team": {
+                "abbreviation": "bar",
+                "alias": "Barcelona",
+                "id": 755,
+                "league": "lal",
+                "name": "FC Barcelona"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "bar",
+                    "id": 755,
+                    "name": "FC Barcelona",
+                    "providerTeamId": "101042"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.62,
+                "size": 10324.3225
+              },
+              "bestBid": {
+                "price": 0.61,
+                "size": 1100
+              },
+              "indexSet": 2,
+              "name": "REA",
+              "onChainId": "81105015742008256235793877196493671161028735239050661609956133570391418264278",
+              "status": null,
+              "team": {
+                "abbreviation": "rea",
+                "alias": "Real Madrid",
+                "id": 38,
+                "league": "lal",
+                "name": "Real Madrid CF"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "rea",
+                    "id": 38,
+                    "name": "Real Madrid CF",
+                    "providerTeamId": "101034"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x9320fcdf0ed631da3ad2c41ae46936dd72bc1a36c986c97ff06f309f068d218d"
+          ],
+          "question": "Spread: FC Barcelona (-1.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "FC Barcelona (-1.5)",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25-more-markets",
+          "conditionId": "0x42021b42ba318d971f9a129bfe8710df4bad480b6fd8fbb8d30f6f6aaa9979c8",
+          "createdAt": "2026-10-12T07:10:23.212Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming La Liga game, scheduled for October 25 at 4:00 PM ET:\n\nThis market will resolve to \"Real Madrid CF\" if Real Madrid CF win the game by 2 or more goals.\n\nOtherwise, this market will resolve to \"FC Barcelona\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nThis market will resolve according to the official final score published on laliga.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3231468,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_SPREADS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0x8eb4140c5a7609ce29c90e9e27b4938c412efb129f1709e739425f5d7eaac06a",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.14,
+                "size": 250
+              },
+              "bestBid": {
+                "price": 0.12,
+                "size": 453.73
+              },
+              "indexSet": 1,
+              "name": "REA",
+              "onChainId": "104086827990245724368584371526201203181312384187932511050498904127992733990541",
+              "status": null,
+              "team": {
+                "abbreviation": "rea",
+                "alias": "Real Madrid",
+                "id": 38,
+                "league": "lal",
+                "name": "Real Madrid CF"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "rea",
+                    "id": 38,
+                    "name": "Real Madrid CF",
+                    "providerTeamId": "101034"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.88,
+                "size": 453.73
+              },
+              "bestBid": {
+                "price": 0.86,
+                "size": 250
+              },
+              "indexSet": 2,
+              "name": "BAR",
+              "onChainId": "5210363579713948246572477672915678857996746011528403817211906513958461523973",
+              "status": null,
+              "team": {
+                "abbreviation": "bar",
+                "alias": "Barcelona",
+                "id": 755,
+                "league": "lal",
+                "name": "FC Barcelona"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "bar",
+                    "id": 755,
+                    "name": "FC Barcelona",
+                    "providerTeamId": "101042"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x747c9ba95a3aa7172b44bc85657d9e2cffae67942f6a034f7fee0c392f51b61b"
+          ],
+          "question": "Spread: Real Madrid CF (-1.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Real Madrid CF (-1.5)",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25-more-markets",
+          "conditionId": "0x1ee7d48d71c3b2f3d6dc9eeee94e98f92379e02e9f3142d534e41978aff6822f",
+          "createdAt": "2026-10-12T07:10:23.212Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming La Liga game between FC Barcelona and Real Madrid CF, scheduled for October 25 at 4:00 PM ET:\n\nThis market will resolve to \"Over\" if FC Barcelona and Real Madrid CF combine to score 2 or more goals in this game.\n\nIf the combined total is less than 2, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on laliga.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3231478,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0xdfa2a8b73c15db1980182deba1c8951679278014012f8b9ebfbe91846076808a",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.94,
+                "size": 226.5995744680851
+              },
+              "bestBid": {
+                "price": 0.93,
+                "size": 250
+              },
+              "indexSet": 1,
+              "name": "Over 1.5",
+              "onChainId": "109298659693972913961792056567386929416213483894909790119037513113313008283155",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.07,
+                "size": 250
+              },
+              "bestBid": {
+                "price": 0.06,
+                "size": 226.5995744680851
+              },
+              "indexSet": 2,
+              "name": "Under 1.5",
+              "onChainId": "30836865004809298335524623448938206378707549769390323258324046002849546162197",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x142e7a853189f4b572f973404159a479308e5af6785103fc5c2c841133f09734"
+          ],
+          "question": "FC Barcelona vs. Real Madrid CF: O/U 1.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 1.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 1.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25-more-markets",
+          "conditionId": "0x4ae268f2c9de7bfcdfcf97987e8f0a4708cc77b56627a7febe38376600a4f5f2",
+          "createdAt": "2026-10-12T07:10:23.212Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming La Liga game between FC Barcelona and Real Madrid CF, scheduled for October 25 at 4:00 PM ET:\n\nThis market will resolve to \"Over\" if FC Barcelona and Real Madrid CF combine to score 3 or more goals in this game.\n\nIf the combined total is less than 3, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on laliga.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3231479,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0x1ae34adfbd1d240eb11f852a4c5f080385aa0ab29279be7176077320755a65c5",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.83,
+                "size": 89.75903614457832
+              },
+              "bestBid": {
+                "price": 0.81,
+                "size": 6136.551
+              },
+              "indexSet": 1,
+              "name": "Over 2.5",
+              "onChainId": "29098983179733342100170786849430860576649018922886770601626960552833120920514",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.19,
+                "size": 6136.551
+              },
+              "bestBid": {
+                "price": 0.17,
+                "size": 89.75903614457832
+              },
+              "indexSet": 2,
+              "name": "Under 2.5",
+              "onChainId": "95052801383226396024716522135612569624070780089161929926502999975637063409961",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x8ebb68f363d852036e74789f0242c77680ba7c38ca3a80435e848db845d72a58"
+          ],
+          "question": "FC Barcelona vs. Real Madrid CF: O/U 2.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 2.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 2.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25-more-markets",
+          "conditionId": "0xf84cacaf366259014bb518b15217885234b355aa73fee605f9f1ffb2b14a0982",
+          "createdAt": "2026-10-12T07:10:23.212Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming La Liga game between FC Barcelona and Real Madrid CF, scheduled for October 25 at 4:00 PM ET:\n\nThis market will resolve to \"Over\" if FC Barcelona and Real Madrid CF combine to score 4 or more goals in this game.\n\nIf the combined total is less than 4, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on laliga.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3231480,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0xe73b6243cc2091ff16ab20c6e2b8af0a5e297f26a4adbe7ce0c4ea97ea76af4e",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.66,
+                "size": 6265.860000000001
+              },
+              "bestBid": {
+                "price": 0.65,
+                "size": 1.2557214285714287
+              },
+              "indexSet": 1,
+              "name": "Over 3.5",
+              "onChainId": "13930558271886502839776745865544321659138155716801794252767180913269185630586",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.35,
+                "size": 1.2557214285714287
+              },
+              "bestBid": {
+                "price": 0.34,
+                "size": 6265.860000000001
+              },
+              "indexSet": 2,
+              "name": "Under 3.5",
+              "onChainId": "79848497296211251505194374972840193190511565761667487973139700773016226776275",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xbf28c9c08416866c674426359a24725c74058bcca4a000ba64b1ef675e1d6dce"
+          ],
+          "question": "FC Barcelona vs. Real Madrid CF: O/U 3.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 3.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 3.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25-more-markets",
+          "conditionId": "0x6fd276c0886f5e6fb8ac750b8a1647031e4e1547844704c8ede7205552cdc64f",
+          "createdAt": "2026-10-12T07:10:23.212Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming La Liga game between FC Barcelona and Real Madrid CF, scheduled for October 25 at 4:00 PM ET:\n\nThis market will resolve to \"Yes\" if both FC Barcelona and Real Madrid CF each score at least one goal during the game.\n\nThis market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals).\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on laliga.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3231486,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_BOTH_TEAMS_TO_SCORE",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0x519fbff998c3d3db322fa737da3af76a2065d882310ff73643d336a3e7a074dc",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.77,
+                "size": 133.88597402597404
+              },
+              "bestBid": {
+                "price": 0.76,
+                "size": 3263.64925
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "30440674657456794584340727041009673161975384050859158394141208888382944137408",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.24,
+                "size": 3263.64925
+              },
+              "bestBid": {
+                "price": 0.23,
+                "size": 133.88597402597404
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "21830110912845879437456074537042925404409458040365545012136029985133156145755",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xf0d1a1125db613ca6f90e3f1e09a08d3574ad4a4f5926202ad4dddee40f6e5eb"
+          ],
+          "question": "FC Barcelona vs. Real Madrid CF: Both Teams to Score",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Both Teams to Score",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        }
+      ],
+      "negRiskOnChainId": null,
+      "parentSlug": "lal-bar-rea-2026-10-25",
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-18T20:00:41.500Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "lal-bar-rea-2026-10-25-more-markets",
+      "startsAt": "2026-10-25T20:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "14",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "852",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "LaLiga",
+          "parentId": "14"
+        }
+      ],
+      "teams": null,
+      "title": "FC Barcelona vs. Real Madrid CF - More Markets",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1175738",
+          "teams": [
+            {
+              "abbreviation": "bar",
+              "color": "#144E8C",
+              "id": 755,
+              "isHome": true,
+              "name": "FC Barcelona",
+              "providerTeamId": "101042",
+              "record": {
+                "draws": 0,
+                "losses": 0,
+                "wins": 9
+              }
+            },
+            {
+              "abbreviation": "rea",
+              "color": "#c4951c",
+              "id": 38,
+              "isHome": false,
+              "name": "Real Madrid CF",
+              "providerTeamId": "101034",
+              "record": {
+                "draws": 0,
+                "losses": 2,
+                "wins": 7
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "createdAt": "2026-10-12T05:16:30.381Z",
+      "description": "More markets for the Premier League game, scheduled for October 25 at 10:00 AM ET.",
+      "endsAt": "2026-10-25T16:00:00.000Z",
+      "id": 598461,
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": false,
+      "isVisible": true,
+      "isYieldBearing": true,
+      "marketVariant": "SPORTS_PROPS",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-more-markets",
+          "conditionId": "0xa5898e61d330816ec38083c0783209787b5b6c3883098429bcd7b653d622a6ad",
+          "createdAt": "2026-10-12T05:16:30.381Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Premier League game, scheduled for October 25 at 10:00 AM ET:\n\nThis market will resolve to \"Liverpool FC\" if Liverpool FC win the game by 2 or more goals.\n\nOtherwise, this market will resolve to \"Brighton & Hove Albion FC\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nThis market will resolve according to the official final score published on premierleague.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228710,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_SPREADS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0x78db15f34ad5696c4bb3c4cca84c300aab05f44a2c9686654b4e7901ec2be7ae",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.25,
+                "size": 15384.66
+              },
+              "bestBid": {
+                "price": 0.24,
+                "size": 304.3826315789474
+              },
+              "indexSet": 1,
+              "name": "LIV",
+              "onChainId": "60897542338992754670978859082900858295066689621838265046475404472708782434919",
+              "status": null,
+              "team": {
+                "abbreviation": "liv",
+                "alias": "Liverpool",
+                "id": 136,
+                "league": "epl",
+                "name": "Liverpool FC"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "liv",
+                    "id": 136,
+                    "name": "Liverpool FC",
+                    "providerTeamId": "100017"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.76,
+                "size": 304.3826315789474
+              },
+              "bestBid": {
+                "price": 0.75,
+                "size": 15384.66
+              },
+              "indexSet": 2,
+              "name": "BRI",
+              "onChainId": "55138364020155271005917530125594930393978406149654391175025585592934012044471",
+              "status": null,
+              "team": {
+                "abbreviation": "bri",
+                "alias": "Brighton",
+                "id": 4261,
+                "league": "epl",
+                "name": "Brighton & Hove Albion FC"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "bri",
+                    "id": 4261,
+                    "name": "Brighton & Hove Albion FC",
+                    "providerTeamId": "100015"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x09a708e11a5e399bcb7a20ed6f6918c8b1c0ad2621220b2ba26e1320d28423e5"
+          ],
+          "question": "Spread: Liverpool FC (-1.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Liverpool FC (-1.5)",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-more-markets",
+          "conditionId": "0x285c8e9c7b1fb69ffddf5d27f355321743e45339cb7ed49ecc0c7a9a695cf943",
+          "createdAt": "2026-10-12T05:16:30.381Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Premier League game, scheduled for October 25 at 10:00 AM ET:\n\nThis market will resolve to \"Brighton & Hove Albion FC\" if Brighton & Hove Albion FC win the game by 2 or more goals.\n\nOtherwise, this market will resolve to \"Liverpool FC\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nThis market will resolve according to the official final score published on premierleague.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228711,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_SPREADS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0xc7fa970b001e056310ec23c3ee1d1654f80955e60da2e05c0a2f8ac5baa8bc49",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.14,
+                "size": 199.32
+              },
+              "bestBid": {
+                "price": 0.13,
+                "size": 115.38
+              },
+              "indexSet": 1,
+              "name": "BRI",
+              "onChainId": "2477794997265196278067614324009156177444437198700334671682677709297514226346",
+              "status": null,
+              "team": {
+                "abbreviation": "bri",
+                "alias": "Brighton",
+                "id": 4261,
+                "league": "epl",
+                "name": "Brighton & Hove Albion FC"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "bri",
+                    "id": 4261,
+                    "name": "Brighton & Hove Albion FC",
+                    "providerTeamId": "100015"
+                  }
+                }
+              }
+            },
+            {
+              "bestAsk": {
+                "price": 0.87,
+                "size": 115.38
+              },
+              "bestBid": {
+                "price": 0.86,
+                "size": 199.32
+              },
+              "indexSet": 2,
+              "name": "LIV",
+              "onChainId": "33860535280360384594184711177707833550763547981409632706546648612572305582616",
+              "status": null,
+              "team": {
+                "abbreviation": "liv",
+                "alias": "Liverpool",
+                "id": 136,
+                "league": "epl",
+                "name": "Liverpool FC"
+              },
+              "variantData": null,
+              "variantDetails": {
+                "sports": {
+                  "provider": "POLYMARKET",
+                  "team": {
+                    "abbreviation": "liv",
+                    "id": 136,
+                    "name": "Liverpool FC",
+                    "providerTeamId": "100017"
+                  }
+                }
+              }
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x68e1e74457cd3bd69ea9b7f96f93e498f5bdc087b8c7143aec6e056453f6b01a"
+          ],
+          "question": "Spread: Brighton & Hove Albion FC (-1.5)",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Brighton & Hove Albion FC (-1.5)",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-more-markets",
+          "conditionId": "0x3228632cd3c9e09638e09dd8fb1f34286610aa3606f9411395dcc7c114c62d36",
+          "createdAt": "2026-10-12T05:16:30.381Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25 at 10:00 AM ET:\n\nThis market will resolve to \"Over\" if Liverpool FC and Brighton & Hove Albion FC combine to score 2 or more goals in this game.\n\nIf the combined total is less than 2, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on premierleague.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228728,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0xca4a005e0fb5e55b464f4eee4496a0c4a66e77954465584a884136166e1daa30",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.84,
+                "size": 249.21
+              },
+              "bestBid": {
+                "price": 0.82,
+                "size": 6420.42
+              },
+              "indexSet": 1,
+              "name": "Over 1.5",
+              "onChainId": "72177179458247323307024690399103093155693483520265617855063830898954975655002",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.18,
+                "size": 6420.42
+              },
+              "bestBid": {
+                "price": 0.16,
+                "size": 249.21
+              },
+              "indexSet": 2,
+              "name": "Under 1.5",
+              "onChainId": "73538800194855807369193037888920329328367420673319376995582192067205652645622",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x22a472d1f43256be20a60dfbae468c5c71228eacc1bd4ec43622139167358135"
+          ],
+          "question": "Liverpool FC vs. Brighton & Hove Albion FC: O/U 1.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 1.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 1.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-more-markets",
+          "conditionId": "0x4bb3437638e891a7d2ac5062faab0338992a339eb3f8faeb61d9f63ae502f0b7",
+          "createdAt": "2026-10-12T05:16:30.381Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25 at 10:00 AM ET:\n\nThis market will resolve to \"Over\" if Liverpool FC and Brighton & Hove Albion FC combine to score 3 or more goals in this game.\n\nIf the combined total is less than 3, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on premierleague.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228730,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0x7bc72242d5caffd73e61fbea5b2e56e920868db57c8844384f749cf314b0b25f",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.62,
+                "size": 1247.9648387096775
+              },
+              "bestBid": {
+                "price": 0.61,
+                "size": 1636.115
+              },
+              "indexSet": 1,
+              "name": "Over 2.5",
+              "onChainId": "111340937499518522475742944224182658759040064253906503919144558315103411393293",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.39,
+                "size": 1636.115
+              },
+              "bestBid": {
+                "price": 0.38,
+                "size": 1247.9648387096775
+              },
+              "indexSet": 2,
+              "name": "Under 2.5",
+              "onChainId": "82400113436952676552058669731483123583758398054020253792812637309718101821472",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x6cf098f50bec24e8e7f6b21c3e0cadf6060f666787f847903eb6064239bebab9"
+          ],
+          "question": "Liverpool FC vs. Brighton & Hove Albion FC: O/U 2.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 2.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 2.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-more-markets",
+          "conditionId": "0x3b054aed602c49d6940fc0dd2b1c706420b85dbfcb94fe56b9b88a00427e49b2",
+          "createdAt": "2026-10-12T05:16:30.381Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25 at 10:00 AM ET:\n\nThis market will resolve to \"Over\" if Liverpool FC and Brighton & Hove Albion FC combine to score 4 or more goals in this game.\n\nIf the combined total is less than 4, this market will resolve to \"Under\".\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on premierleague.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228732,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_TOTALS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0xbf7d27329da78bf5bf1c37875c4eb7efb6d1a3c87dd2c3ca8e3e03041ccfefe3",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.4,
+                "size": 117.91
+              },
+              "bestBid": {
+                "price": 0.39,
+                "size": 5407.215004745763
+              },
+              "indexSet": 1,
+              "name": "Over 3.5",
+              "onChainId": "14965196161224778488053937557692274539270041073899542624765799839157616016183",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.61,
+                "size": 5407.215004745763
+              },
+              "bestBid": {
+                "price": 0.6,
+                "size": 117.91
+              },
+              "indexSet": 2,
+              "name": "Under 3.5",
+              "onChainId": "9059404552430920132617798377373574464983260901189468291761140110642743170026",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xc51f5c255c3a60ba8d49d7846a15b1d0cb3c8e79a3cdb1f339e0b005da0ad861"
+          ],
+          "question": "Liverpool FC vs. Brighton & Hove Albion FC: O/U 3.5",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "O/U 3.5",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "line": 3.5
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25-more-markets",
+          "conditionId": "0x24a8a5a34a50a5a43d3ea4f0bc8fa73801711c781c3b80c27ed5bfb394ad8d04",
+          "createdAt": "2026-10-12T05:16:30.381Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming Premier League game between Liverpool FC and Brighton & Hove Albion FC, scheduled for October 25 at 10:00 AM ET:\n\nThis market will resolve to \"Yes\" if both Liverpool FC and Brighton & Hove Albion FC each score at least one goal during the game.\n\nThis market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals).\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on premierleague.com. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3228743,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_BOTH_TEAMS_TO_SCORE",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0xd398f7d034235d1658fd7e6b53ad57498d153a1b2dfe6b09bc2a10cb592bc937",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.66,
+                "size": 46114.938818181814
+              },
+              "bestBid": {
+                "price": 0.65,
+                "size": 24.89409
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "47636152758036731255171473288306049446760777916611726662001057210522931303603",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.35,
+                "size": 24.89409
+              },
+              "bestBid": {
+                "price": 0.34,
+                "size": 46114.938818181814
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "23619803050425306307446651175854620206893019650985176221151730781844914310617",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x7f453dae73c84537e83b8db9c5df97166f870f5435b28c83d3b1df21bc0a5ace"
+          ],
+          "question": "Liverpool FC vs. Brighton & Hove Albion FC: Both Teams to Score",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x947cc06D38d3cB0a2BB5AdFB668b99B4FF53d7B4",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Both Teams to Score",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        }
+      ],
+      "negRiskOnChainId": null,
+      "parentSlug": "epl-liv-bri-2026-10-25",
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-18T14:00:41.498Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "epl-liv-bri-2026-10-25-more-markets",
+      "startsAt": "2026-10-25T14:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "14",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "546",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "EPL",
+          "parentId": "14"
+        }
+      ],
+      "teams": null,
+      "title": "Liverpool FC vs. Brighton & Hove Albion FC - More Markets",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1175326",
+          "teams": [
+            {
+              "abbreviation": "liv",
+              "color": "#cf2029",
+              "id": 136,
+              "isHome": true,
+              "name": "Liverpool FC",
+              "providerTeamId": "100017",
+              "record": {
+                "draws": 3,
+                "losses": 1,
+                "wins": 3
+              }
+            },
+            {
+              "abbreviation": "bri",
+              "color": "#155a93",
+              "id": 4261,
+              "isHome": false,
+              "name": "Brighton & Hove Albion FC",
+              "providerTeamId": "100015",
+              "record": {
+                "draws": 1,
+                "losses": 1,
+                "wins": 5
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 335613,
+      "slug": "fifwc-esp-arg-2026-07-19-more-markets",
+      "title": "Spain vs. Argentina - More Markets",
+      "shortTitle": null,
+      "isNegRisk": false,
+      "marketVariant": "SPORTS_PROPS",
+      "variantDetails": {
+        "sports": {
+          "provider": "PREDICT_SPORTS",
+          "providerEventId": "87010",
+          "teams": [
+            {
+              "abbreviation": "ESP",
+              "id": 26,
+              "isHome": true,
+              "name": "Spain",
+              "providerTeamId": "958"
+            },
+            {
+              "abbreviation": "ARG",
+              "id": 38,
+              "isHome": false,
+              "name": "Argentina",
+              "providerTeamId": "859"
+            }
+          ]
+        }
+      },
+      "startsAt": "2026-07-19T19:00:00.000Z",
+      "endsAt": null,
+      "status": "OPEN",
+      "isVisible": true,
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "12",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "50",
+          "level": null,
+          "makerRebateBps": 0,
+          "name": "World Cup",
+          "parentId": null
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Football",
+          "parentId": "4"
+        }
+      ],
+      "teams": null,
+      "parentSlug": "fifwc-esp-arg-2026-07-19",
+      "createdAt": "2026-07-16T15:19:39.958Z",
+      "publishedAt": "2026-08-03T14:19:35.504Z",
+      "markets": [
+        {
+          "id": 789348,
+          "title": "Spain (-1.5)",
+          "question": "Spread: Spain (-1.5)",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "ESP",
+              "indexSet": 1,
+              "onChainId": "98625404178750381184808247580648059114746520219415063829868249772879300313550",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "ARG",
+              "indexSet": 2,
+              "onChainId": "60621119469699557482545811783148036198859744301425993230464928167387858597441",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_SPREADS",
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-more-markets",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x1e37a91d4b240d00787876e2e085bcc00973255aa782258b1dc199a481665bf2"
+        },
+        {
+          "id": 789349,
+          "title": "Argentina (-1.5)",
+          "question": "Spread: Argentina (-1.5)",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "ARG",
+              "indexSet": 1,
+              "onChainId": "85919760450386104938006929616813711122318319295330551856814003108586824392461",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "ESP",
+              "indexSet": 2,
+              "onChainId": "32533127913620566142840443336404953155565993940870030684128880034768836020545",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_SPREADS",
+          "variantDetails": {
+            "sports": {
+              "line": -1.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-more-markets",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x09104ef7f9abae75527cf52766a63bbdf01d083d0f20041f53d56008139485c0"
+        },
+        {
+          "id": 789360,
+          "title": "O/U 2.5",
+          "question": "Spain vs. Argentina: O/U 2.5",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Over",
+              "indexSet": 1,
+              "onChainId": "72262671641454979216038454125932009892398644767692546346970978018965128741742",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "Under",
+              "indexSet": 2,
+              "onChainId": "115653449242198627640203991242819101751434582377473990183192395857234065761563",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_TOTALS",
+          "variantDetails": {
+            "sports": {
+              "line": 2.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-more-markets",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0xdd7bcd3a490da90c3b49199cdae3a664d5084cca7507f3a857cbe340bd4a97bc"
+        },
+        {
+          "id": 789361,
+          "title": "O/U 3.5",
+          "question": "Spain vs. Argentina: O/U 3.5",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Over",
+              "indexSet": 1,
+              "onChainId": "114135309382408156706030460795928257998050076417503420305609424110596415391321",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "Under",
+              "indexSet": 2,
+              "onChainId": "32051314002524767005096825610198219890935444379082223452200377649588900380430",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_TOTALS",
+          "variantDetails": {
+            "sports": {
+              "line": 3.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-more-markets",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x84c6adab9d228c494378cecc5dd8dfbd804500614e553a729ae58cc503d0dc4f"
+        },
+        {
+          "id": 789367,
+          "title": "Both Teams to Score",
+          "question": "Spain vs. Argentina: Both Teams to Score",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "43833465269591799594441745966815606785142161510767911183328813784036376928269",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "11539088989486621081988305351196498607251206769565571401483930763752336262385",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_BOTH_TEAMS_TO_SCORE",
+          "variantDetails": null,
+          "categorySlug": "fifwc-esp-arg-2026-07-19-more-markets",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0xfb5169b6c8c59321acfc6abcb3bc2cbeaa8a28ceed70b86cf04bca502c1f3774"
+        },
+        {
+          "id": 789368,
+          "title": "Spain O/U 0.5",
+          "question": "Spain vs. Argentina: Spain O/U 0.5",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Over",
+              "indexSet": 1,
+              "onChainId": "38681470851210776555227995259877035154372446919022803947162753906402076432937",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "Under",
+              "indexSet": 2,
+              "onChainId": "3187697564765316975304641801286334844176066693924926420105029600773823962147",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_TEAM_TOTALS",
+          "variantDetails": {
+            "sports": {
+              "line": 0.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-more-markets",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x340625cdf51b6f40796aad4d92c3cf0a62acd15025fcf5769e9b98d2077c3694"
+        },
+        {
+          "id": 789374,
+          "title": "Team to Advance",
+          "question": "Spain vs. Argentina: Team to Advance",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "ESP",
+              "indexSet": 1,
+              "onChainId": "110246686508327846447589484170812988314787509425602267822438514375032660006901",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "ARG",
+              "indexSet": 2,
+              "onChainId": "68633707420497698031314258208982153269990936876943989864981105630547891786358",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_TEAM_TO_ADVANCE",
+          "variantDetails": null,
+          "categorySlug": "fifwc-esp-arg-2026-07-19-more-markets",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0xd6f78d3dc8e6a7c0d2531f7bdcec718e8711add6f60bc90b1227265d0bd28b35"
+        },
+        {
+          "id": 789375,
+          "title": "Will the Match Go to Extra Time?",
+          "question": "Spain vs. Argentina: Will the Match Go to Extra Time?",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "110016463835113655396643845777525069168490030108564672483057238635162354912898",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "43449578565737786693525406357960380657358802578775239813739777542468908017354",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_EXTRA_TIME",
+          "variantDetails": null,
+          "categorySlug": "fifwc-esp-arg-2026-07-19-more-markets",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x3eb6906d4b2c17f384db43950e0013ba48417bc862d5730a478a2f1bf1cdb78e"
+        }
+      ]
+    },
+    {
+      "createdAt": "2026-10-21T00:49:06.729Z",
+      "description": "Player prop markets for the NFL game between the Chiefs and Seahawks, scheduled for October 25 at 8:20 PM ET.",
+      "endsAt": "2026-10-26T03:20:00.000Z",
+      "id": 646387,
+      "imageUrl": "https://static.predict.fun/american-football",
+      "isNegRisk": false,
+      "isVisible": true,
+      "isYieldBearing": false,
+      "marketVariant": "SPORTS_PROPS",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "nfl-kc-sea-2026-10-26-player-props",
+          "conditionId": "0x86399f106d1d4afa536215df6408c55063fdc2ad60345a4d3ce0de57ff972c73",
+          "createdAt": "2026-10-21T00:49:06.729Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming NFL football game between Chiefs and Seahawks, scheduled for October 25 at 8:20 PM ET: This market will resolve to \"Yes\" if AJ Barner scores 1 or more rushing or receiving touchdowns in this game. Otherwise, this market will resolve to \"No\". Defensive and special teams touchdowns do not count. Overtime is included if played. All statistics are based on the official NFL game book as published on NFL.com at the conclusion of the game. Stat corrections issued after the game has been completed will not count. If the player is inactive or does not play, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3627338,
+          "imageUrl": "https://static.predict.fun/american-football",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_ANYTIME_TOUCHDOWNS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0xd3537bb40dbec5ced4132b052d87ec610fcf23fc91a0dc2e119b668d42d87606",
+          "outcomes": [
+            {
+              "bestAsk": null,
+              "bestBid": null,
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "106625773899562405986588403377316526922686411590325370929279782395925371823289",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": null,
+              "bestBid": null,
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "78659503129520023553367881868604912469536615214130042196955649475193858607470",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x37559ef0915816dbed4abb35ed0688de4634ac00a64ed21bcf1bf93129eacaf2"
+          ],
+          "question": "AJ Barner: Anytime Touchdown",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-26T00:20:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-25T00:20:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T00:20:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-25T00:20:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T03:20:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-26T00:20:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "AJ Barner: Anytime Touchdown",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "nfl-kc-sea-2026-10-26-player-props",
+          "conditionId": "0x3aba49b7d9cbd841b08c50fbbb78788485cc48d4182e538fc8ad500f2f5b9178",
+          "createdAt": "2026-10-21T00:49:06.729Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming NFL football game between Chiefs and Seahawks, scheduled for October 25 at 8:20 PM ET: This market will resolve to \"Yes\" if Cooper Kupp scores 1 or more rushing or receiving touchdowns in this game. Otherwise, this market will resolve to \"No\". Defensive and special teams touchdowns do not count. Overtime is included if played. All statistics are based on the official NFL game book as published on NFL.com at the conclusion of the game. Stat corrections issued after the game has been completed will not count. If the player is inactive or does not play, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3627340,
+          "imageUrl": "https://static.predict.fun/american-football",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_ANYTIME_TOUCHDOWNS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0x4b3d320f871784421e1bf413419c8f7266642dd67459c39fb5c1d47a293114d6",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.49,
+                "size": 588.23
+              },
+              "bestBid": null,
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "94694894421509696064424171620708168478702992722336645200073371813025697082580",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": null,
+              "bestBid": {
+                "price": 0.51,
+                "size": 588.23
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "81526387483958282889102423168039559013935523520178278442191910065410772160018",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x430e4f39ca29c01e56370104f6209edfc9a8460de338ffeec29466794b44365d"
+          ],
+          "question": "Cooper Kupp: Anytime Touchdown",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-26T00:20:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-25T00:20:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T00:20:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-25T00:20:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T03:20:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-26T00:20:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Cooper Kupp: Anytime Touchdown",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "nfl-kc-sea-2026-10-26-player-props",
+          "conditionId": "0xf38ed62bf01f51c69d0295ff40f0fe88981330a5247734419fd42669e8c7bb5e",
+          "createdAt": "2026-10-21T00:49:06.729Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming NFL football game between Chiefs and Seahawks, scheduled for October 25 at 8:20 PM ET: This market will resolve to \"Yes\" if Emanuel Wilson scores 1 or more rushing or receiving touchdowns in this game. Otherwise, this market will resolve to \"No\". Defensive and special teams touchdowns do not count. Overtime is included if played. All statistics are based on the official NFL game book as published on NFL.com at the conclusion of the game. Stat corrections issued after the game has been completed will not count. If the player is inactive or does not play, this market will resolve to \"No\". If the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50-50.",
+          "feeRateBps": 200,
+          "id": 3627342,
+          "imageUrl": "https://static.predict.fun/american-football",
+          "isBoosted": false,
+          "isNegRisk": false,
+          "isVisible": true,
+          "isYieldBearing": false,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_ANYTIME_TOUCHDOWNS",
+          "marketVariant": "SPORTS_PROPS",
+          "oracleQuestionId": "0xc832c94fdc630c8c46f7d4660d6a5764c84c35c5a8c3a60f3b3775956844114f",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.44,
+                "size": 3371.7099999999996
+              },
+              "bestBid": {
+                "price": 0.38,
+                "size": 200
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "94342089117174582318869416463134143534605623734286622294566536792941379241874",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.62,
+                "size": 200
+              },
+              "bestBid": {
+                "price": 0.56,
+                "size": 3371.7099999999996
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "70237141469314095879992285634308927805164157887105176574074136333298896197399",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xc7f1b1d52cde5ee8ba0a76c08b34ef9587729c06fa3384083a5810f30610cc30"
+          ],
+          "question": "Emanuel Wilson: Anytime Touchdown",
+          "questionIndex": null,
+          "resolution": null,
+          "resolverAddress": "0x242E1Ba24f6fC524bfb410062Ca5689A9622613d",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-26T00:20:00.000Z",
+              "hourlyRate": 10,
+              "startsAt": "2026-10-25T00:20:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-26T00:20:00.000Z",
+                "hourlyRate": 10,
+                "startsAt": "2026-10-25T00:20:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-26T03:20:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-26T00:20:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Emanuel Wilson: Anytime Touchdown",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        }
+      ],
+      "negRiskOnChainId": null,
+      "parentSlug": "nfl-kc-sea-2026-10-26",
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-23T10:18:03.493Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "nfl-kc-sea-2026-10-26-player-props",
+      "startsAt": "2026-10-26T00:20:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "45",
+          "level": 3,
+          "makerRebateBps": 0,
+          "name": "NFL",
+          "parentId": "115"
+        },
+        {
+          "id": "115",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Football",
+          "parentId": "4"
+        }
+      ],
+      "teams": null,
+      "title": "Chiefs vs. Seahawks - Player Props",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1226957",
+          "teams": [
+            {
+              "abbreviation": "kc",
+              "color": "#C00000",
+              "id": 96528451,
+              "isHome": false,
+              "name": "Kansas City Chiefs",
+              "providerTeamId": "100040",
+              "record": {
+                "draws": 0,
+                "losses": 0,
+                "wins": 5
+              }
+            },
+            {
+              "abbreviation": "sea",
+              "color": "#69be28",
+              "id": 96528448,
+              "isHome": true,
+              "name": "Seattle Seahawks",
+              "providerTeamId": "100046",
+              "record": {
+                "draws": 0,
+                "losses": 3,
+                "wins": 3
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 335764,
+      "slug": "fifwc-esp-arg-2026-07-19-player-props",
+      "title": "Spain vs. Argentina - Player Props",
+      "shortTitle": null,
+      "isNegRisk": false,
+      "marketVariant": "SPORTS_PROPS",
+      "variantDetails": {
+        "sports": {
+          "provider": "PREDICT_SPORTS",
+          "providerEventId": "87010",
+          "teams": [
+            {
+              "abbreviation": "ESP",
+              "id": 26,
+              "isHome": true,
+              "name": "Spain",
+              "providerTeamId": "958"
+            },
+            {
+              "abbreviation": "ARG",
+              "id": 38,
+              "isHome": false,
+              "name": "Argentina",
+              "providerTeamId": "859"
+            }
+          ]
+        }
+      },
+      "startsAt": "2026-07-19T19:00:00.000Z",
+      "endsAt": null,
+      "status": "OPEN",
+      "isVisible": true,
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "12",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "50",
+          "level": null,
+          "makerRebateBps": 0,
+          "name": "World Cup",
+          "parentId": null
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Football",
+          "parentId": "4"
+        }
+      ],
+      "teams": null,
+      "parentSlug": "fifwc-esp-arg-2026-07-19",
+      "createdAt": "2026-07-16T15:47:48.131Z",
+      "publishedAt": "2026-08-03T14:19:51.559Z",
+      "markets": [
+        {
+          "id": 790478,
+          "title": "David Raya: 2+ saves",
+          "question": "David Raya: 2+ saves",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "50302095581435284022483987108632593971237025270143521392425228304849434949771",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "97932698283965209905734823508541320012170628856978777032499217321776703342645",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_GOALKEEPER_SAVES",
+          "variantDetails": {
+            "sports": {
+              "line": 1.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x38bd92e221efcbb95bfe1f4088389584fd7905917c2e35a9045f91d8db42c80d"
+        },
+        {
+          "id": 790479,
+          "title": "David Raya: 3+ saves",
+          "question": "David Raya: 3+ saves",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "92948595700199509948599809976993177594736348037485643324617160056298986420554",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "22936888392848652165296706616891541568267168851377566435721619627854443072243",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_GOALKEEPER_SAVES",
+          "variantDetails": {
+            "sports": {
+              "line": 2.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0xa1ede1816f7783e7b220e7c6f77e5a233f968ad034c22f3c5e7be39f2bd0a1a0"
+        },
+        {
+          "id": 790486,
+          "title": "Alex Baena Total Goals",
+          "question": "Alex Baena: 1+ goals",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Over 0.5",
+              "indexSet": 1,
+              "onChainId": "36051926202170789446668628619806569134491525585155377596758824518156860043731",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "Under 0.5",
+              "indexSet": 2,
+              "onChainId": "8554594331510450880526091094072203738319076532477078785928563753357149645685",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_GOALS",
+          "variantDetails": {
+            "sports": {
+              "line": 0.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x0deba3cd1242c629afef3e561f6b4077fb624c5534b7391edc0381cd75bed655"
+        },
+        {
+          "id": 790487,
+          "title": "Alex Baena Total Goals",
+          "question": "Alex Baena: 2+ goals",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Over 1.5",
+              "indexSet": 1,
+              "onChainId": "67764265241287024771040873817759184639687825931788429813154073738552715076742",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "Under 1.5",
+              "indexSet": 2,
+              "onChainId": "21708124523436679180231510306606870842901974678393549310595616847507578096207",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_GOALS",
+          "variantDetails": {
+            "sports": {
+              "line": 1.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x6aaf99db27137b5f9e89dd8b412a962ff68ec6f438a559385947034c805867ea"
+        },
+        {
+          "id": 790533,
+          "title": "Alex Baena: 1+ assists",
+          "question": "Alex Baena: 1+ assists",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "21640749368030144910767285902546841494602463761587798952057169340872143877490",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "6292591842141637229768818472972988536901746659466668912842819561721405616831",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_ASSISTS",
+          "variantDetails": {
+            "sports": {
+              "line": 0.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x5bed9afe76ab9080c1946eebc366e08d5f0c3413d0ef13f99023eeb497770a87"
+        },
+        {
+          "id": 790534,
+          "title": "Alex Baena: 2+ assists",
+          "question": "Alex Baena: 2+ assists",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "11726432684359866807163155882859617214897075808791035475178610367048996461302",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "61886773892137341060416357443110127889864533996400887730174033615424129838841",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_ASSISTS",
+          "variantDetails": {
+            "sports": {
+              "line": 1.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x59ca8604fa76bc37c343e58a36958a36091737a2a117017c6bd9d709152fd760"
+        },
+        {
+          "id": 790563,
+          "title": "Alex Baena: 1+ goals + assists",
+          "question": "Alex Baena: 1+ goals + assists",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "9000819488653657617735803104629756782063189707638180718673094139736525181082",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "53030963776050113682275364877895852689098278924249304746316517233348619144449",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_GOALS_PLUS_ASSISTS",
+          "variantDetails": {
+            "sports": {
+              "line": 0.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0xe9884a0797796cb07ae98269739aeeba9a70f44e04cb5937a84d5e029673ce05"
+        },
+        {
+          "id": 790564,
+          "title": "Alex Baena: 2+ goals + assists",
+          "question": "Alex Baena: 2+ goals + assists",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "16856621250819780389289274493344583230614704679092705767203742627904529083993",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "39738724309161364369742760324287137545199592350873595634119821023541617903374",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_GOALS_PLUS_ASSISTS",
+          "variantDetails": {
+            "sports": {
+              "line": 1.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x194103f451d1ac8e2efd7d383789a467627f8c224d32fad09725c66f97dcc390"
+        },
+        {
+          "id": 790623,
+          "title": "Alex Baena: 1+ shots",
+          "question": "Alex Baena: 1+ shots",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "68965912030419051609770469349462258503130046098584825139788530372895528235032",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "98160303118958979659375907610033411216317376502822107067939615256445484768499",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_SHOTS",
+          "variantDetails": {
+            "sports": {
+              "line": 0.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x71218e4e08ae2c04b278ae42889244e8ef599ea4ea59b397c0f5d62d2af9dbe4"
+        },
+        {
+          "id": 790624,
+          "title": "Alex Baena: 2+ shots",
+          "question": "Alex Baena: 2+ shots",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "80475293418632708381862623421805437225938472430285724521914502436643052445155",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "59163229264688998875823034947340646111884940644590798709049681719535134461043",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_SHOTS",
+          "variantDetails": {
+            "sports": {
+              "line": 1.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x976370072455af4a818a2c02aca90bf66c58644284e3dc2b68c1dfcc47fdba36"
+        },
+        {
+          "id": 790690,
+          "title": "Alex Baena: 1+ shots on target",
+          "question": "Alex Baena: 1+ shots on target",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "58009812367981457609882725975615400406444717498146772678200514753528857915264",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "30271506231139265453812269893855644736369303590664161359686792175122420082454",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_SHOTS_ON_TARGET",
+          "variantDetails": {
+            "sports": {
+              "line": 0.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x8785a6b68664d4991828b893128b91935bc7d6a31a9caed1c976e4e85caeecec"
+        },
+        {
+          "id": 790691,
+          "title": "Alex Baena: 2+ shots on target",
+          "question": "Alex Baena: 2+ shots on target",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isNegRisk": false,
+          "feeRateBps": 200,
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "66962213184380231069068310967493790699273958272458339555845308253246493728136",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "39417826320926410061093185041521716751542207560769752933874963443360973881492",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null
+            }
+          ],
+          "marketType": "SPORTS_PLAYER_SHOTS_ON_TARGET",
+          "variantDetails": {
+            "sports": {
+              "line": 1.5
+            }
+          },
+          "categorySlug": "fifwc-esp-arg-2026-07-19-player-props",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_PROPS",
+          "team": null,
+          "conditionId": "0x5b551a697916291120a2e9f2fe7036b3224e797eb2167e652bab35a75eb44f69"
+        }
+      ]
+    }
+  ]
+}

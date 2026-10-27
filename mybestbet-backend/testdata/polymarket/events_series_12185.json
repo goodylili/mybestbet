@@ -1,0 +1,126 @@
+[
+ {
+  "id": "1022449",
+  "slug": "nfl-la-lv-2026-10-25",
+  "title": "Rams vs. Raiders",
+  "startTime": "2026-10-25T20:25:00Z",
+  "endDate": "2026-10-25T20:25:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nfl-2026",
+  "eventMetadata": {},
+  "teams": [
+   {
+    "name": "Los Angeles Rams",
+    "abbreviation": "la",
+    "alias": "Rams",
+    "ordering": "away"
+   },
+   {
+    "name": "Las Vegas Raiders",
+    "abbreviation": "lv",
+    "alias": "Raiders",
+    "ordering": "home"
+   }
+  ]
+ },
+ {
+  "id": "1022434",
+  "slug": "nfl-pit-no-2026-10-25",
+  "title": "Steelers vs. Saints",
+  "startTime": "2026-10-25T13:30:00Z",
+  "endDate": "2026-10-25T13:30:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nfl-2026",
+  "eventMetadata": {},
+  "teams": [
+   {
+    "name": "Pittsburgh Steelers",
+    "abbreviation": "pit",
+    "alias": "Steelers",
+    "ordering": "away"
+   },
+   {
+    "name": "New Orleans Saints",
+    "abbreviation": "no",
+    "alias": "Saints",
+    "ordering": "home"
+   }
+  ]
+ },
+ {
+  "id": "1022435",
+  "slug": "nfl-sf-atl-2026-10-25",
+  "title": "49ers vs. Falcons",
+  "startTime": "2026-10-25T17:00:00Z",
+  "endDate": "2026-10-25T17:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nfl-2026",
+  "eventMetadata": {},
+  "teams": [
+   {
+    "name": "San Francisco 49ers",
+    "abbreviation": "sf",
+    "alias": "49ers",
+    "ordering": "away"
+   },
+   {
+    "name": "Atlanta Falcons",
+    "abbreviation": "atl",
+    "alias": "Falcons",
+    "ordering": "home"
+   }
+  ]
+ },
+ {
+  "id": "1022436",
+  "slug": "nfl-cin-bal-2026-10-25",
+  "title": "Bengals vs. Ravens",
+  "startTime": "2026-10-25T17:00:00Z",
+  "endDate": "2026-10-25T17:00:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nfl-2026",
+  "eventMetadata": {},
+  "teams": [
+   {
+    "name": "Cincinnati Bengals",
+    "abbreviation": "cin",
+    "alias": "Bengals",
+    "ordering": "away"
+   },
+   {
+    "name": "Baltimore Ravens",
+    "abbreviation": "bal",
+    "alias": "Ravens",
+    "ordering": "home"
+   }
+  ]
+ },
+ {
+  "id": "1211901",
+  "slug": "nfl-pit-no-2026-10-25-highest-scoring-quarter",
+  "title": "Steelers vs. Saints - Highest Scoring Quarter",
+  "startTime": "2026-10-25T13:30:00Z",
+  "endDate": "2026-10-25T13:30:00Z",
+  "active": true,
+  "closed": false,
+  "seriesSlug": "nfl-2026",
+  "teams": [
+   {
+    "name": "Pittsburgh Steelers",
+    "abbreviation": "pit",
+    "alias": "Steelers",
+    "ordering": "away"
+   },
+   {
+    "name": "New Orleans Saints",
+    "abbreviation": "no",
+    "alias": "Saints",
+    "ordering": "home"
+   }
+  ]
+ }
+]

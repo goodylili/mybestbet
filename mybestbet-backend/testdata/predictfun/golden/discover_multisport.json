@@ -1,0 +1,98 @@
+{
+  "source": "predictfun",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "atp-struff-grieksp-2026-10-25",
+      "leagueHint": "ATP_CH_ZADAR",
+      "home": "Jan-Lennard Struff",
+      "away": "Tallon Griekspoor",
+      "kickoff": "2026-10-25T15:30:00Z"
+    },
+    {
+      "sourceId": "cfb-oregst-frest-2026-10-31",
+      "leagueHint": "NCAAF",
+      "home": "Bulldogs",
+      "away": "Beavers",
+      "kickoff": "2026-11-01T03:00:00Z"
+    },
+    {
+      "sourceId": "cs2-tdkg-yaw-2026-10-25",
+      "leagueHint": "CS2",
+      "home": "Tropa do KinGui",
+      "away": "Yawara Esports",
+      "kickoff": "2026-10-25T18:00:00Z"
+    },
+    {
+      "sourceId": "cs2-vit-mglz-2026-10-25",
+      "leagueHint": "CS2",
+      "home": "Vitality",
+      "away": "TheMongolz",
+      "kickoff": "2026-10-25T11:00:00Z"
+    },
+    {
+      "sourceId": "dota2-ts8-pari-2026-10-26",
+      "leagueHint": "DOTA2",
+      "home": "Team Spirit",
+      "away": "PARIVISION",
+      "kickoff": "2026-10-26T14:00:00Z"
+    },
+    {
+      "sourceId": "fifwc-esp-arg-2026-07-19",
+      "leagueHint": "WC",
+      "home": "Spain",
+      "away": "Argentina",
+      "kickoff": "2026-07-19T19:00:00Z"
+    },
+    {
+      "sourceId": "lol-gen-ly-2026-10-25",
+      "leagueHint": "LOL",
+      "home": "Gen.G Esports",
+      "away": "LYON",
+      "kickoff": "2026-10-25T22:00:00Z"
+    },
+    {
+      "sourceId": "nba-orl-nyk-2026-10-25",
+      "leagueHint": "NBA",
+      "home": "Knicks",
+      "away": "Magic",
+      "kickoff": "2026-10-25T23:00:00Z"
+    },
+    {
+      "sourceId": "nba-orl-tor-2026-10-30",
+      "leagueHint": "NBA",
+      "home": "Raptors",
+      "away": "Magic",
+      "kickoff": "2026-10-30T23:30:00Z"
+    },
+    {
+      "sourceId": "nfl-gb-det-2026-10-25",
+      "leagueHint": "NFL",
+      "home": "Detroit Lions",
+      "away": "Green Bay Packers",
+      "kickoff": "2026-10-25T20:25:00Z"
+    },
+    {
+      "sourceId": "nfl-kc-sea-2026-10-26",
+      "leagueHint": "NFL",
+      "home": "Seattle Seahawks",
+      "away": "Kansas City Chiefs",
+      "kickoff": "2026-10-26T00:20:00Z"
+    },
+    {
+      "sourceId": "val-bbl1-ff3-2026-10-25",
+      "leagueHint": "VALORANT",
+      "home": "BBL Esports",
+      "away": "Fire Flux Esports",
+      "kickoff": "2026-10-25T11:30:00Z"
+    },
+    {
+      "sourceId": "wta-rybakin-fernand-2026-10-25",
+      "leagueHint": "WTA_AO",
+      "home": "Elena Rybakina",
+      "away": "Leylah Fernandez",
+      "kickoff": "2026-10-25T08:00:00Z"
+    }
+  ],
+  "markets": null
+}

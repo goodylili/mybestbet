@@ -1,0 +1,490 @@
+{
+  "source": "bet365",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": null,
+  "markets": [
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "ML",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 3.2,
+            "form": "decimal",
+            "prob": 0.3125,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.364,
+            "form": "decimal",
+            "prob": 0.7331378299120234,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1453:ML"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "SPREAD",
+      "line": -5.5,
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1453:SPREAD@-5.5"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "TOTAL",
+      "line": 221.5,
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.833,
+            "form": "decimal",
+            "prob": 0.5455537370430987,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1453:TOTAL@221.5"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "ML",
+      "period": "1H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.875,
+            "form": "decimal",
+            "prob": 0.34782608695652173,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.4,
+            "form": "decimal",
+            "prob": 0.7142857142857143,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1454:ML"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "SPREAD",
+      "line": -3,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1454:SPREAD@-3"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "TOTAL",
+      "line": 112,
+      "period": "1H",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.833,
+            "form": "decimal",
+            "prob": 0.5455537370430987,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1454:TOTAL@112"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "ML",
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 2.5,
+            "form": "decimal",
+            "prob": 0.4,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.533,
+            "form": "decimal",
+            "prob": 0.6523157208088716,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1455:ML"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "SPREAD",
+      "line": -1.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "away",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "home",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1455:SPREAD@-1.5"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "TOTAL",
+      "line": 55.5,
+      "period": "Q1",
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.833,
+            "form": "decimal",
+            "prob": 0.5455537370430987,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "1455:TOTAL@55.5"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "BK_PTS",
+      "line": 27.5,
+      "player": {
+        "sourceId": "jayson-tatum",
+        "name": "Jayson Tatum",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.833,
+            "form": "decimal",
+            "prob": 0.5455537370430987,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "20001@jayson-tatum@27.5"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "BK_PTS",
+      "line": 24.5,
+      "player": {
+        "sourceId": "lebron-james",
+        "name": "LeBron James",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "20001@lebron-james@24.5"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "BK_REB",
+      "line": 11.5,
+      "player": {
+        "sourceId": "anthony-davis",
+        "name": "Anthony Davis",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "20002@anthony-davis@11.5"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "BK_AST",
+      "line": 7.5,
+      "player": {
+        "sourceId": "lebron-james",
+        "name": "LeBron James",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.87,
+            "form": "decimal",
+            "prob": 0.53475935828877,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.833,
+            "form": "decimal",
+            "prob": 0.5455537370430987,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "20003@lebron-james@7.5"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "BK_3PM",
+      "line": 3.5,
+      "player": {
+        "sourceId": "jayson-tatum",
+        "name": "Jayson Tatum",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 2.1,
+            "form": "decimal",
+            "prob": 0.47619047619047616,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.727,
+            "form": "decimal",
+            "prob": 0.5790387955993052,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "20004@jayson-tatum@3.5"
+    },
+    {
+      "eventSourceId": "B18-161000001",
+      "code": "BK_PRA",
+      "line": 39.5,
+      "player": {
+        "sourceId": "lebron-james",
+        "name": "LeBron James",
+        "team": ""
+      },
+      "selections": [
+        {
+          "side": "over",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        },
+        {
+          "side": "under",
+          "price": {
+            "raw": 1.909,
+            "form": "decimal",
+            "prob": 0.5238344683080146,
+            "observedAt": "2026-10-23T12:00:00Z"
+          }
+        }
+      ],
+      "rules": {
+        "regulationOnly": false,
+        "voidIfNoStart": false
+      },
+      "sourceMarketId": "20005@lebron-james@39.5"
+    }
+  ]
+}

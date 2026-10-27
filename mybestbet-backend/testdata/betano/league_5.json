@@ -1,0 +1,110 @@
+{
+ "data": {
+  "blocks": [
+   {
+    "id": "league",
+    "name": "LaLiga",
+    "events": [
+     {
+      "id": "74498810",
+      "name": "Deportivo Alaves - Malaga",
+      "shortName": "Deportivo Alaves - Malaga",
+      "sportId": "FOOT",
+      "leagueId": "5",
+      "leagueName": "LaLiga",
+      "regionName": "Spain",
+      "betRadarId": 72478646,
+      "startTime": 1792782000000,
+      "url": "/odds/deportivo-alaves-malaga/74498810/",
+      "totalMarketsAvailable": 412,
+      "willGoLive": true,
+      "participants": [
+       {
+        "name": "Deportivo Alaves"
+       },
+       {
+        "name": "Malaga"
+       }
+      ],
+      "markets": [
+       {
+        "id": "500000004",
+        "name": "Match Result",
+        "type": "MRES",
+        "selections": [
+         {
+          "id": "900000010",
+          "name": "1",
+          "fullName": "1",
+          "price": 2.1
+         },
+         {
+          "id": "900000011",
+          "name": "X",
+          "fullName": "X",
+          "price": 3.1
+         },
+         {
+          "id": "900000012",
+          "name": "2",
+          "fullName": "2",
+          "price": 3.7
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "74498815",
+      "name": "Rayo Vallecano - Elche",
+      "shortName": "Rayo Vallecano - Elche",
+      "sportId": "FOOT",
+      "leagueId": "5",
+      "leagueName": "LaLiga",
+      "regionName": "Spain",
+      "betRadarId": 72478658,
+      "startTime": 1792843200000,
+      "url": "/odds/rayo-vallecano-elche/74498815/",
+      "totalMarketsAvailable": 412,
+      "willGoLive": true,
+      "participants": [
+       {
+        "name": "Rayo Vallecano"
+       },
+       {
+        "name": "Elche"
+       }
+      ],
+      "markets": [
+       {
+        "id": "500000005",
+        "name": "Match Result",
+        "type": "MRES",
+        "selections": [
+         {
+          "id": "900000013",
+          "name": "1",
+          "fullName": "1",
+          "price": 1.95
+         },
+         {
+          "id": "900000014",
+          "name": "X",
+          "fullName": "X",
+          "price": 3.3
+         },
+         {
+          "id": "900000015",
+          "name": "2",
+          "fullName": "2",
+          "price": 4.0
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

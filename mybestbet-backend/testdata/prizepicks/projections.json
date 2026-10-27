@@ -1,0 +1,1583 @@
+{
+ "data": [
+  {
+   "type": "projection",
+   "id": "7100001",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 2.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Shots",
+    "stat_type": "Shots",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5501"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "301"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100002",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 1.5,
+    "odds_type": "goblin",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Shots",
+    "stat_type": "Shots",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5501"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "301"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100003",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 3.5,
+    "odds_type": "demon",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Shots",
+    "stat_type": "Shots",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5501"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "301"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100004",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 0.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Shots On Target",
+    "stat_type": "Shots On Target",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5501"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "301"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100005",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 1.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Shots On Target",
+    "stat_type": "Shots On Target",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5501"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "302"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100006",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 0.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Goal + Assist",
+    "stat_type": "Goal + Assist",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5501"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "302"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100007",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 2.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Tackles",
+    "stat_type": "Tackles",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5501"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "303"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100008",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 1.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Fouls",
+    "stat_type": "Fouls",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5501"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "304"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100009",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 0.5,
+    "odds_type": "goblin",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Assists",
+    "stat_type": "Assists",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5501"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "305"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100010",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 0.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Goals",
+    "stat_type": "Goals",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5502"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "306"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100011",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 3.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Shots",
+    "stat_type": "Shots",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5502"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "306"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100012",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 2.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Shots",
+    "stat_type": "Shots",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5502"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "307"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100013",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 2.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Goalie Saves",
+    "stat_type": "Goalie Saves",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5502"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "308"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100014",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 3.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Shots",
+    "stat_type": "Shots",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5503"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "309"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100015",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 1.5,
+    "odds_type": "demon",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Shots On Target",
+    "stat_type": "Shots On Target",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5503"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "309"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100016",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 2.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Shots",
+    "stat_type": "Shots",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5504"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "310"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100017",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 45.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Passes Attempted",
+    "stat_type": "Passes Attempted",
+    "status": "pre_game",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5501"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "301"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  },
+  {
+   "type": "projection",
+   "id": "7100018",
+   "attributes": {
+    "adjusted_odds": null,
+    "board_time": "2026-10-23T09:00:00-04:00",
+    "description": "",
+    "flash_sale_line_score": null,
+    "is_promo": false,
+    "line_score": 1.5,
+    "odds_type": "standard",
+    "projection_type": "Single Stat",
+    "rank": 1,
+    "start_time": "",
+    "stat_display_name": "Fouls",
+    "stat_type": "Fouls",
+    "status": "in_progress",
+    "today": false,
+    "updated_at": "2026-10-23T08:58:12-04:00"
+   },
+   "relationships": {
+    "duration": {
+     "data": {
+      "type": "duration",
+      "id": "1"
+     }
+    },
+    "game": {
+     "data": {
+      "type": "game",
+      "id": "5502"
+     }
+    },
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "new_player": {
+     "data": {
+      "type": "new_player",
+      "id": "307"
+     }
+    },
+    "projection_type": {
+     "data": {
+      "type": "projection_type",
+      "id": "2"
+     }
+    },
+    "score": {
+     "data": null
+    },
+    "stat_type": {
+     "data": {
+      "type": "stat_type",
+      "id": "0"
+     }
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "new_player",
+   "id": "301",
+   "attributes": {
+    "combo": false,
+    "display_name": "Bukayo Saka",
+    "image_url": null,
+    "league": "SOCCER",
+    "league_id": 82,
+    "market": "Arsenal",
+    "name": "Bukayo Saka",
+    "position": "F",
+    "team": "ARS",
+    "team_name": "Arsenal"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "team_data": {
+     "data": {
+      "type": "team",
+      "id": "t301"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "302",
+   "attributes": {
+    "combo": false,
+    "display_name": "Cole Palmer",
+    "image_url": null,
+    "league": "SOCCER",
+    "league_id": 82,
+    "market": "Chelsea",
+    "name": "Cole Palmer",
+    "position": "M",
+    "team": "CHE",
+    "team_name": "Chelsea"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "team_data": {
+     "data": {
+      "type": "team",
+      "id": "t302"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "303",
+   "attributes": {
+    "combo": false,
+    "display_name": "Declan Rice",
+    "image_url": null,
+    "league": "SOCCER",
+    "league_id": 82,
+    "market": "Arsenal",
+    "name": "Declan Rice",
+    "position": "M",
+    "team": "ARS",
+    "team_name": "Arsenal"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "team_data": {
+     "data": {
+      "type": "team",
+      "id": "t303"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "304",
+   "attributes": {
+    "combo": false,
+    "display_name": "Moises Caicedo",
+    "image_url": null,
+    "league": "SOCCER",
+    "league_id": 82,
+    "market": "Chelsea",
+    "name": "Moises Caicedo",
+    "position": "M",
+    "team": "CHE",
+    "team_name": "Chelsea"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "team_data": {
+     "data": {
+      "type": "team",
+      "id": "t304"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "305",
+   "attributes": {
+    "combo": false,
+    "display_name": "Martin Odegaard",
+    "image_url": null,
+    "league": "SOCCER",
+    "league_id": 82,
+    "market": "Arsenal",
+    "name": "Martin Odegaard",
+    "position": "M",
+    "team": "ARS",
+    "team_name": "Arsenal"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "team_data": {
+     "data": {
+      "type": "team",
+      "id": "t305"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "306",
+   "attributes": {
+    "combo": false,
+    "display_name": "Vinicius Junior",
+    "image_url": null,
+    "league": "SOCCER",
+    "league_id": 82,
+    "market": "Real Madrid",
+    "name": "Vinicius Junior",
+    "position": "F",
+    "team": "RMA",
+    "team_name": "Real Madrid"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "team_data": {
+     "data": {
+      "type": "team",
+      "id": "t306"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "307",
+   "attributes": {
+    "combo": false,
+    "display_name": "Robert Lewandowski",
+    "image_url": null,
+    "league": "SOCCER",
+    "league_id": 82,
+    "market": "Barcelona",
+    "name": "Robert Lewandowski",
+    "position": "F",
+    "team": "BAR",
+    "team_name": "Barcelona"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "team_data": {
+     "data": {
+      "type": "team",
+      "id": "t307"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "308",
+   "attributes": {
+    "combo": false,
+    "display_name": "Thibaut Courtois",
+    "image_url": null,
+    "league": "SOCCER",
+    "league_id": 82,
+    "market": "Real Madrid",
+    "name": "Thibaut Courtois",
+    "position": "G",
+    "team": "RMA",
+    "team_name": "Real Madrid"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "team_data": {
+     "data": {
+      "type": "team",
+      "id": "t308"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "309",
+   "attributes": {
+    "combo": false,
+    "display_name": "Lionel Messi",
+    "image_url": null,
+    "league": "SOCCER",
+    "league_id": 82,
+    "market": "Inter Miami",
+    "name": "Lionel Messi",
+    "position": "F",
+    "team": "MIA",
+    "team_name": "Inter Miami"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "team_data": {
+     "data": {
+      "type": "team",
+      "id": "t309"
+     }
+    }
+   }
+  },
+  {
+   "type": "new_player",
+   "id": "310",
+   "attributes": {
+    "combo": false,
+    "display_name": "Henry Martin",
+    "image_url": null,
+    "league": "SOCCER",
+    "league_id": 82,
+    "market": "Club America",
+    "name": "Henry Martin",
+    "position": "F",
+    "team": "AME",
+    "team_name": "Club America"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    },
+    "team_data": {
+     "data": {
+      "type": "team",
+      "id": "t310"
+     }
+    }
+   }
+  },
+  {
+   "type": "game",
+   "id": "5501",
+   "attributes": {
+    "created_at": "2026-10-20T10:00:00-04:00",
+    "end_time": null,
+    "external_game_id": "sr:match:5501",
+    "is_live": false,
+    "metadata": {
+     "game_info": {
+      "competition": "Premier League",
+      "teams": {
+       "home": {
+        "abbreviation": "ARS",
+        "name": "Arsenal"
+       },
+       "away": {
+        "abbreviation": "CHE",
+        "name": "Chelsea"
+       }
+      }
+     },
+     "status": "scheduled"
+    },
+    "start_time": "2026-10-25T11:30:00-04:00",
+    "status": "scheduled"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    }
+   }
+  },
+  {
+   "type": "game",
+   "id": "5502",
+   "attributes": {
+    "created_at": "2026-10-20T10:00:00-04:00",
+    "end_time": null,
+    "external_game_id": "sr:match:5502",
+    "is_live": false,
+    "metadata": {
+     "game_info": {
+      "competition": "La Liga",
+      "teams": {
+       "home": {
+        "abbreviation": "RMA",
+        "name": "Real Madrid"
+       },
+       "away": {
+        "abbreviation": "BAR",
+        "name": "Barcelona"
+       }
+      }
+     },
+     "status": "scheduled"
+    },
+    "start_time": "2026-10-26T16:00:00-04:00",
+    "status": "scheduled"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    }
+   }
+  },
+  {
+   "type": "game",
+   "id": "5503",
+   "attributes": {
+    "created_at": "2026-10-20T10:00:00-04:00",
+    "end_time": null,
+    "external_game_id": "sr:match:5503",
+    "is_live": false,
+    "metadata": {
+     "game_info": {
+      "competition": "MLS",
+      "teams": {
+       "home": {
+        "abbreviation": "MIA",
+        "name": "Inter Miami"
+       },
+       "away": {
+        "abbreviation": "NYC",
+        "name": "New York City FC"
+       }
+      }
+     },
+     "status": "scheduled"
+    },
+    "start_time": "2026-10-25T19:30:00-04:00",
+    "status": "scheduled"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    }
+   }
+  },
+  {
+   "type": "game",
+   "id": "5504",
+   "attributes": {
+    "created_at": "2026-10-20T10:00:00-04:00",
+    "end_time": null,
+    "external_game_id": "sr:match:5504",
+    "is_live": false,
+    "metadata": {
+     "game_info": {
+      "competition": "Liga MX",
+      "teams": {
+       "home": {
+        "abbreviation": "AME",
+        "name": "Club America"
+       },
+       "away": {
+        "abbreviation": "CRU",
+        "name": "Cruz Azul"
+       }
+      }
+     },
+     "status": "scheduled"
+    },
+    "start_time": "2026-10-25T21:00:00-04:00",
+    "status": "scheduled"
+   },
+   "relationships": {
+    "league": {
+     "data": {
+      "type": "league",
+      "id": "82"
+     }
+    }
+   }
+  },
+  {
+   "type": "league",
+   "id": "82",
+   "attributes": {
+    "name": "SOCCER",
+    "active": true
+   }
+  },
+  {
+   "type": "stat_type",
+   "id": "0",
+   "attributes": {
+    "name": "Shots"
+   }
+  }
+ ],
+ "links": {},
+ "meta": {}
+}

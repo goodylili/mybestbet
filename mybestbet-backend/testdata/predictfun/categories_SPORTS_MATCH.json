@@ -1,0 +1,2403 @@
+{
+  "success": true,
+  "cursor": "NTk4MTA4",
+  "data": [
+    {
+      "createdAt": "2026-10-12T04:10:41.097Z",
+      "description": "This event is for the upcoming Premier League game, scheduled for Sunday, October 25, 2026 between Liverpool FC and Brighton & Hove Albion FC.",
+      "endsAt": "2026-10-25T16:00:00.000Z",
+      "id": 598116,
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "isVisible": true,
+      "isYieldBearing": true,
+      "marketVariant": "SPORTS_MATCH",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25",
+          "conditionId": "0x9317197ff058c78cdcc382c655704d80b37eb8f02a5a63ffea32b615663cbac6",
+          "createdAt": "2026-10-12T04:10:41.097Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf Liverpool FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225253,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "SPORTS_MATCH",
+          "oracleQuestionId": "0xdcf903da1c82711611d354cbe593b5788a0bd68ac971de531e3f35f993bfa5ab",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.46,
+                "size": 42240.96186956522
+              },
+              "bestBid": {
+                "price": 0.45,
+                "size": 990.1165199999999
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "101152711413416112179588730235177013224981404277677597537187001021149746268565",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.55,
+                "size": 990.1165199999999
+              },
+              "bestBid": {
+                "price": 0.54,
+                "size": 42240.96186956522
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "91089452503805066539848025799306175499139374403662082226211654621568419826939",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x39e21575b247eae3eac07d43d3f6ca5dc2f3cfdf92fc0eb231806aab61ff890c"
+          ],
+          "question": "Will Liverpool FC win on 2026-10-25?",
+          "questionIndex": 0,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": {
+            "abbreviation": "liv",
+            "alias": "Liverpool",
+            "id": 136,
+            "league": "epl",
+            "name": "Liverpool FC"
+          },
+          "title": "LIV",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "abbreviation": "liv",
+                "id": 136,
+                "name": "Liverpool FC",
+                "providerTeamId": "100017"
+              }
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25",
+          "conditionId": "0xf381cd46860dd472a4183e8cbe41443d756d1828487f60143a9080f3f2f59d72",
+          "createdAt": "2026-10-12T04:10:41.097Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225254,
+          "imageUrl": "https://static.predict.fun/soccer-draw",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "SPORTS_MATCH",
+          "oracleQuestionId": "0x0fb2c253a24bbe78e4ec00d3f9d38107bb3cad87343717317caa6c804002e01b",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.25,
+                "size": 1813.66
+              },
+              "bestBid": {
+                "price": 0.24,
+                "size": 42513.32000000001
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "94374963828989784332191592205615588792884072225772220278086790355265610020914",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.76,
+                "size": 42513.32000000001
+              },
+              "bestBid": {
+                "price": 0.75,
+                "size": 1813.66
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "31278992235175571558353951587228960600155847360579116978157024673647607302210",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x1f14169d5f9a8cf0eff01adcd844312ab3a3b805ffb61e2f297db403aa726e88"
+          ],
+          "question": "Will Liverpool FC vs. Brighton & Hove Albion FC end in a draw?",
+          "questionIndex": 1,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Draw",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "epl-liv-bri-2026-10-25",
+          "conditionId": "0xbaecf0ad854088f35c82c2d6e868171a86621f26d219be767978322207b2c702",
+          "createdAt": "2026-10-12T04:10:41.097Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf Brighton & Hove Albion FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225255,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "SPORTS_MATCH",
+          "oracleQuestionId": "0x5f36f097fc4a53221ecf4c08e1259563e283ce9802b9a2cf42320e9ed8a68297",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.31,
+                "size": 11206.856774193548
+              },
+              "bestBid": {
+                "price": 0.3,
+                "size": 5777.83462
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "24561202283153776997050547201266314948956943796070535654682055800598538504182",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.7,
+                "size": 5777.83462
+              },
+              "bestBid": {
+                "price": 0.69,
+                "size": 11206.856774193548
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "40491319718040927794276296337816225902135684964971692335550126736493449382669",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x1e9ef8017365a8a748624a5504d000236cce2b210c55cfca9d82c0c968779c3e"
+          ],
+          "question": "Will Brighton & Hove Albion FC win on 2026-10-25?",
+          "questionIndex": 2,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T14:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T14:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T14:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T16:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T14:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": {
+            "abbreviation": "bri",
+            "alias": "Brighton",
+            "id": 4261,
+            "league": "epl",
+            "name": "Brighton & Hove Albion FC"
+          },
+          "title": "BRI",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "abbreviation": "bri",
+                "id": 4261,
+                "name": "Brighton & Hove Albion FC",
+                "providerTeamId": "100015"
+              }
+            }
+          }
+        }
+      ],
+      "negRiskOnChainId": "0xae1ce63deff9b096ef1345afb552053f7600fc9f8ca7b6b0c6eb33a26c8ab500",
+      "parentSlug": null,
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-18T14:00:41.498Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "epl-liv-bri-2026-10-25",
+      "startsAt": "2026-10-25T14:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "14",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "546",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "EPL",
+          "parentId": "14"
+        }
+      ],
+      "teams": [
+        {
+          "abbreviation": "liv",
+          "alias": "Liverpool",
+          "id": 136,
+          "league": "epl",
+          "name": "Liverpool FC"
+        },
+        {
+          "abbreviation": "bri",
+          "alias": "Brighton",
+          "id": 4261,
+          "league": "epl",
+          "name": "Brighton & Hove Albion FC"
+        }
+      ],
+      "title": "Liverpool FC vs. Brighton & Hove Albion FC",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1174996",
+          "teams": [
+            {
+              "abbreviation": "liv",
+              "color": "#cf2029",
+              "id": 136,
+              "isHome": true,
+              "name": "Liverpool FC",
+              "providerTeamId": "100017",
+              "record": {
+                "draws": 3,
+                "losses": 1,
+                "wins": 3
+              }
+            },
+            {
+              "abbreviation": "bri",
+              "color": "#155a93",
+              "id": 4261,
+              "isHome": false,
+              "name": "Brighton & Hove Albion FC",
+              "providerTeamId": "100015",
+              "record": {
+                "draws": 1,
+                "losses": 1,
+                "wins": 5
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 598127,
+      "slug": "epl-mun-bou-2026-10-25",
+      "title": "Manchester United FC vs. AFC Bournemouth",
+      "shortTitle": null,
+      "description": "This event is for the upcoming Premier League game, scheduled for Sunday, October 25, 2026 between Manchester United FC and AFC Bournemouth.",
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "protocol": "LEGACY",
+      "isYieldBearing": true,
+      "negRiskOnChainId": "0x5fd5499a31c40d4a0867d1ead480fa2b606ae98488a699b3d46b2b2fc5b73800",
+      "marketVariant": "SPORTS_MATCH",
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1175015",
+          "teams": [
+            {
+              "id": 983,
+              "name": "Manchester United FC",
+              "abbreviation": "mun",
+              "providerTeamId": "100016",
+              "isHome": true,
+              "record": {
+                "wins": 1,
+                "losses": 2,
+                "draws": 4
+              },
+              "color": "#c01b21"
+            },
+            {
+              "id": 2227,
+              "name": "AFC Bournemouth",
+              "abbreviation": "bou",
+              "providerTeamId": "100010",
+              "isHome": false,
+              "record": {
+                "wins": 1,
+                "losses": 3,
+                "draws": 3
+              },
+              "color": "#991616"
+            }
+          ]
+        }
+      },
+      "createdAt": "2026-10-12T04:10:44.949Z",
+      "publishedAt": "2026-10-18T14:00:41.498Z",
+      "markets": [
+        {
+          "id": 3225286,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "title": "MUN",
+          "question": "Will Manchester United FC win on 2026-10-25?",
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf Manchester United FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isVisible": true,
+          "isNegRisk": true,
+          "isYieldBearing": true,
+          "feeRateBps": 200,
+          "makerFeeBps": 0,
+          "resolution": null,
+          "oracleQuestionId": "0x37a108ca8b2549e86f2aaed462c75337985628ef415e73ff907c51b985a70e81",
+          "conditionId": "0x648057537a80628b8802d0a0c3df099d3c7a2c99db44c15c13f0394c3776aaca",
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "13818713142608205315900926881055945729453989456944752004174112444828843985726",
+              "status": null,
+              "bestBid": {
+                "price": 0.41,
+                "size": 8506.224
+              },
+              "bestAsk": {
+                "price": 0.42,
+                "size": 36056.83523809524
+              },
+              "team": null,
+              "variantData": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "51501786374532096048984875756177015981729340698556128375133218925858367765845",
+              "status": null,
+              "bestBid": {
+                "price": 0.58,
+                "size": 36056.83523809524
+              },
+              "bestAsk": {
+                "price": 0.59,
+                "size": 8506.224
+              },
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "questionIndex": 0,
+          "spreadThreshold": 0.06,
+          "shareThreshold": 100,
+          "isBoosted": false,
+          "boostStartsAt": null,
+          "boostEndsAt": null,
+          "polymarketConditionIds": [
+            "0x85b1a99b2f2f2fbdd04383cebe5df8c6dd96a6f1ec1ef3c85d08b0878f0727cd"
+          ],
+          "kalshiMarketTicker": null,
+          "categorySlug": "epl-mun-bou-2026-10-25",
+          "createdAt": "2026-10-12T04:10:44.949Z",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_MATCH",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "id": 983,
+                "name": "Manchester United FC",
+                "abbreviation": "mun",
+                "providerTeamId": "100016"
+              }
+            }
+          },
+          "team": {
+            "id": 983,
+            "name": "Manchester United FC",
+            "abbreviation": "mun",
+            "alias": "Man Utd",
+            "league": "epl"
+          },
+          "marketType": "SPORTS_MONEYLINE",
+          "rewards": {
+            "current": {
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T14:00:00.000Z",
+              "endsAt": "2026-10-25T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T14:00:00.000Z",
+                "endsAt": "2026-10-25T14:00:00.000Z"
+              },
+              {
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T14:00:00.000Z",
+                "endsAt": "2026-10-25T16:00:00.000Z"
+              }
+            ]
+          }
+        }
+      ],
+      "startsAt": "2026-10-25T14:00:00.000Z",
+      "endsAt": "2026-10-25T16:00:00.000Z",
+      "tradingSession": null,
+      "status": "OPEN",
+      "isVisible": true,
+      "resolutionProvider": "THREE_PO",
+      "tags": [
+        {
+          "id": "4",
+          "name": "Sports",
+          "level": 1,
+          "parentId": null,
+          "makerRebateBps": 0
+        },
+        {
+          "id": "14",
+          "name": "Soccer",
+          "level": 2,
+          "parentId": "4",
+          "makerRebateBps": 0
+        },
+        {
+          "id": "546",
+          "name": "EPL",
+          "level": 3,
+          "parentId": "14",
+          "makerRebateBps": null
+        }
+      ],
+      "teams": [
+        {
+          "id": 983,
+          "name": "Manchester United FC",
+          "abbreviation": "mun",
+          "alias": "Man Utd",
+          "league": "epl"
+        },
+        {
+          "id": 2227,
+          "name": "AFC Bournemouth",
+          "abbreviation": "bou",
+          "alias": "Bournemouth",
+          "league": "epl"
+        }
+      ],
+      "parentSlug": null,
+      "stats": null
+    },
+    {
+      "createdAt": "2026-10-12T06:23:26.141Z",
+      "description": "This event is for the upcoming La Liga game, scheduled for Sunday, October 25, 2026 between FC Barcelona and Real Madrid CF.",
+      "endsAt": "2026-10-25T22:00:00.000Z",
+      "id": 598621,
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "isVisible": true,
+      "isYieldBearing": true,
+      "marketVariant": "SPORTS_MATCH",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25",
+          "conditionId": "0x37a0f6844a0d29753d92ce5a7de74a2a41e3db9ce0f6dbee77a3a7a4a65b558f",
+          "createdAt": "2026-10-12T06:23:26.141Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf FC Barcelona wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3229632,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "SPORTS_MATCH",
+          "oracleQuestionId": "0xbca15c2dfa7f83b8367187bbdb1047778a11aea746279aa39d46aee920c380dd",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.6,
+                "size": 100634.97743333333
+              },
+              "bestBid": {
+                "price": 0.59,
+                "size": 562.763
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "86542931088188361325411696000139485000187408037898336051513543019014928522244",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.41,
+                "size": 562.763
+              },
+              "bestBid": {
+                "price": 0.4,
+                "size": 100634.97743333333
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "13521914500108443467278328714285662702748911950077968657270960772550859948291",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x793815e8628516f29709620fcafb8d79da6f8b9eccdbc3a81980eba46cf608d1"
+          ],
+          "question": "Will FC Barcelona win on 2026-10-25?",
+          "questionIndex": 0,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": {
+            "abbreviation": "bar",
+            "alias": "Barcelona",
+            "id": 755,
+            "league": "lal",
+            "name": "FC Barcelona"
+          },
+          "title": "BAR",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "abbreviation": "bar",
+                "id": 755,
+                "name": "FC Barcelona",
+                "providerTeamId": "101042"
+              }
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25",
+          "conditionId": "0xcd8ebc485e8ce3b1ab02824e1c5808ae5dce500877b26a1dc43b3073d56782e9",
+          "createdAt": "2026-10-12T06:23:26.141Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3229633,
+          "imageUrl": "https://static.predict.fun/soccer-draw",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "SPORTS_MATCH",
+          "oracleQuestionId": "0x3c45c34dec81ad96b4abd55bbf98023bce59f54cc5d8a0ef480aa90a21980558",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.16,
+                "size": 27319.14
+              },
+              "bestBid": {
+                "price": 0.15,
+                "size": 33544.43
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "693013929582149421637824327144513775162512844300766391695843649025246357065",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.85,
+                "size": 33544.43
+              },
+              "bestBid": {
+                "price": 0.84,
+                "size": 27319.14
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "23560578075837046930418041279376756853204420672447947657220678849332559556887",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xf66e46bcd3f2cdb83b1a03b90cf8282a694673c9c79d79a22658de832123ede6"
+          ],
+          "question": "Will FC Barcelona vs. Real Madrid CF end in a draw?",
+          "questionIndex": 1,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Draw",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "lal-bar-rea-2026-10-25",
+          "conditionId": "0xff24d2539f6716fab5c192ea55aa3d3c542810a2a5f94a2c026042a6f9a15cef",
+          "createdAt": "2026-10-12T06:23:26.141Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf Real Madrid CF wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3229634,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "SPORTS_MATCH",
+          "oracleQuestionId": "0xf2db9879919793fa43390ebe177ef1b956d226c0b8448669927847a56ed39003",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.27,
+                "size": 25469.898003703704
+              },
+              "bestBid": {
+                "price": 0.26,
+                "size": 442.6478408108108
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "34787837272384001959564045126154908570252842293593001738055901346851941090794",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.74,
+                "size": 442.6478408108108
+              },
+              "bestBid": {
+                "price": 0.73,
+                "size": 25469.898003703704
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "63175885431983391541140268004748851225244718255710418555882981460864648759713",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x77706c139c0596bfe18973e428c1dc22a3f08bbf6a6cbe1d41a6e7aac5eb63c1"
+          ],
+          "question": "Will Real Madrid CF win on 2026-10-25?",
+          "questionIndex": 2,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T20:00:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T20:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T20:00:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T20:00:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T22:00:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T20:00:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": {
+            "abbreviation": "rea",
+            "alias": "Real Madrid",
+            "id": 38,
+            "league": "lal",
+            "name": "Real Madrid CF"
+          },
+          "title": "REA",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "abbreviation": "rea",
+                "id": 38,
+                "name": "Real Madrid CF",
+                "providerTeamId": "101034"
+              }
+            }
+          }
+        }
+      ],
+      "negRiskOnChainId": "0xaf39b32584a65e5617264de4f2dc2c1a0a5283321e0839d4542408dffc6a8900",
+      "parentSlug": null,
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-18T20:00:41.500Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "lal-bar-rea-2026-10-25",
+      "startsAt": "2026-10-25T20:00:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "14",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "852",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "LaLiga",
+          "parentId": "14"
+        }
+      ],
+      "teams": [
+        {
+          "abbreviation": "rea",
+          "alias": "Real Madrid",
+          "id": 38,
+          "league": "lal",
+          "name": "Real Madrid CF"
+        },
+        {
+          "abbreviation": "bar",
+          "alias": "Barcelona",
+          "id": 755,
+          "league": "lal",
+          "name": "FC Barcelona"
+        }
+      ],
+      "title": "FC Barcelona vs. Real Madrid CF",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1175548",
+          "teams": [
+            {
+              "abbreviation": "bar",
+              "color": "#144E8C",
+              "id": 755,
+              "isHome": true,
+              "name": "FC Barcelona",
+              "providerTeamId": "101042",
+              "record": {
+                "draws": 0,
+                "losses": 0,
+                "wins": 9
+              }
+            },
+            {
+              "abbreviation": "rea",
+              "color": "#c4951c",
+              "id": 38,
+              "isHome": false,
+              "name": "Real Madrid CF",
+              "providerTeamId": "101034",
+              "record": {
+                "draws": 0,
+                "losses": 2,
+                "wins": 7
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "createdAt": "2026-10-12T04:10:45.915Z",
+      "description": "This event is for the upcoming Ligue 1 game, scheduled for Sunday, October 25, 2026 between Paris Saint-Germain FC and Olympique Lyonnais.",
+      "endsAt": "2026-10-25T21:45:00.000Z",
+      "id": 598130,
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "isVisible": true,
+      "isYieldBearing": true,
+      "marketVariant": "SPORTS_MATCH",
+      "markets": [
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "fl1-psg-lyo-2026-10-25",
+          "conditionId": "0x958d0af85dde8f09fa40bda1f22933931a9dcdf7a46c97e484cb860247b6c178",
+          "createdAt": "2026-10-12T04:10:45.915Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf Paris Saint-Germain FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225295,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "SPORTS_MATCH",
+          "oracleQuestionId": "0x4b299a75617f22a28586c108ab7771536509fd156a11596d8c17106d4a7df718",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.7,
+                "size": 584.7485714285715
+              },
+              "bestBid": {
+                "price": 0.69,
+                "size": 1320.9373225806453
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "115002915524258776398585516738795708647424091805258029372605530610918120025171",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.31,
+                "size": 1320.9373225806453
+              },
+              "bestBid": {
+                "price": 0.3,
+                "size": 584.7485714285715
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "44497996773313214313572235466075095950002700185436645839328714594425987539322",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0xe59bef319d2d5324621eb5d225b0437e3457ddcac91e284d1d0fc7072e9660db"
+          ],
+          "question": "Will Paris Saint-Germain FC win on 2026-10-25?",
+          "questionIndex": 1,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T19:45:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T19:45:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T19:45:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T19:45:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T21:45:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T19:45:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": {
+            "abbreviation": "psg",
+            "alias": "PSG",
+            "id": 1055,
+            "league": "fl1",
+            "name": "Paris Saint-Germain FC"
+          },
+          "title": "PSG",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "abbreviation": "psg",
+                "id": 1055,
+                "name": "Paris Saint-Germain FC",
+                "providerTeamId": "114315"
+              }
+            }
+          }
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "fl1-psg-lyo-2026-10-25",
+          "conditionId": "0xd0e1669ba5a62eb1b0aebe7ff00073df855d172248f72d55b8621736fca41e9f",
+          "createdAt": "2026-10-12T04:10:45.915Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf the game ends in a draw, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve to \"Yes\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225296,
+          "imageUrl": "https://static.predict.fun/soccer-draw",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "SPORTS_MATCH",
+          "oracleQuestionId": "0xcf9d1e7b65c05c7825d935a96070353f57e12ceb905db49daccfe2afe7bdde8a",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.18,
+                "size": 1335.95
+              },
+              "bestBid": {
+                "price": 0.16,
+                "size": 12266
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "64949123526782555600527836950627865724589721105363774068373174741633779093080",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.84,
+                "size": 12266
+              },
+              "bestBid": {
+                "price": 0.82,
+                "size": 1335.95
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "66609158439208867026817215371507004091080375053751588790771263485626847520838",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x1f54b58352f8a79234c8e964adcb1c5eae32b8532b068b3868a69ce63136a139"
+          ],
+          "question": "Will Paris Saint-Germain FC vs. Olympique Lyonnais end in a draw?",
+          "questionIndex": 0,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T19:45:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T19:45:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T19:45:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T19:45:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T21:45:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T19:45:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": null,
+          "title": "Draw",
+          "tradingStatus": "OPEN",
+          "variantData": null
+        },
+        {
+          "boostEndsAt": null,
+          "boostStartsAt": null,
+          "categorySlug": "fl1-psg-lyo-2026-10-25",
+          "conditionId": "0xca93e5ff29f4743434d0a02006308e0b5ef8429ccbd2b8b5797128eb5179b9ef",
+          "createdAt": "2026-10-12T04:10:45.915Z",
+          "decimalPrecision": 2,
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf Olympique Lyonnais wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "feeRateBps": 200,
+          "id": 3225297,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "isBoosted": false,
+          "isNegRisk": true,
+          "isVisible": true,
+          "isYieldBearing": true,
+          "kalshiMarketTicker": null,
+          "makerFeeBps": 0,
+          "marketType": "SPORTS_MONEYLINE",
+          "marketVariant": "SPORTS_MATCH",
+          "oracleQuestionId": "0x1cfb87d1fb5661be59473e652460645483771257d9b6f3c0a0b544b78073f140",
+          "outcomes": [
+            {
+              "bestAsk": {
+                "price": 0.14,
+                "size": 223.95
+              },
+              "bestBid": {
+                "price": 0.13,
+                "size": 586.4270229885058
+              },
+              "indexSet": 1,
+              "name": "Yes",
+              "onChainId": "83056170762770984892030666705890359732715271487597285787103516712951251942625",
+              "status": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "bestAsk": {
+                "price": 0.87,
+                "size": 586.4270229885058
+              },
+              "bestBid": {
+                "price": 0.86,
+                "size": 223.95
+              },
+              "indexSet": 2,
+              "name": "No",
+              "onChainId": "73650786723102496653573691801135142199474022224110484431947130758939733690876",
+              "status": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "polymarketConditionIds": [
+            "0x095d8aca2f4cb2d57fd7ea1ddf7bf9228a173d23417b5d3d0e35dd5291d1f3be"
+          ],
+          "question": "Will Olympique Lyonnais win on 2026-10-25?",
+          "questionIndex": 2,
+          "resolution": null,
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "rewards": {
+            "current": {
+              "endsAt": "2026-10-25T19:45:00.000Z",
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T19:45:00.000Z"
+            },
+            "schedule": [
+              {
+                "endsAt": "2026-10-25T19:45:00.000Z",
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T19:45:00.000Z"
+              },
+              {
+                "endsAt": "2026-10-25T21:45:00.000Z",
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T19:45:00.000Z"
+              }
+            ]
+          },
+          "shareThreshold": 100,
+          "spreadThreshold": 0.06,
+          "status": "REGISTERED",
+          "team": {
+            "abbreviation": "lyo",
+            "alias": "Lyon",
+            "id": 84,
+            "league": "fl1",
+            "name": "Olympique Lyonnais"
+          },
+          "title": "LYO",
+          "tradingStatus": "OPEN",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "abbreviation": "lyo",
+                "id": 84,
+                "name": "Olympique Lyonnais",
+                "providerTeamId": "114309"
+              }
+            }
+          }
+        }
+      ],
+      "negRiskOnChainId": "0xbb69d966d0b1166799f22b05189d4181a1561a32894f1ab8334920317dcc5f00",
+      "parentSlug": null,
+      "protocol": "LEGACY",
+      "publishedAt": "2026-10-18T19:45:41.493Z",
+      "resolutionProvider": "THREE_PO",
+      "shortTitle": null,
+      "slug": "fl1-psg-lyo-2026-10-25",
+      "startsAt": "2026-10-25T19:45:00.000Z",
+      "stats": null,
+      "status": "OPEN",
+      "tags": [
+        {
+          "id": "4",
+          "level": 1,
+          "makerRebateBps": 0,
+          "name": "Sports",
+          "parentId": null
+        },
+        {
+          "id": "14",
+          "level": 2,
+          "makerRebateBps": 0,
+          "name": "Soccer",
+          "parentId": "4"
+        },
+        {
+          "id": "544",
+          "level": 3,
+          "makerRebateBps": null,
+          "name": "Ligue 1",
+          "parentId": "14"
+        }
+      ],
+      "teams": [
+        {
+          "abbreviation": "lyo",
+          "alias": "Lyon",
+          "id": 84,
+          "league": "fl1",
+          "name": "Olympique Lyonnais"
+        },
+        {
+          "abbreviation": "psg",
+          "alias": "PSG",
+          "id": 1055,
+          "league": "fl1",
+          "name": "Paris Saint-Germain FC"
+        }
+      ],
+      "title": "Paris Saint-Germain FC vs. Olympique Lyonnais",
+      "tradingSession": null,
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1175042",
+          "teams": [
+            {
+              "abbreviation": "psg",
+              "color": "#124f7d",
+              "id": 1055,
+              "isHome": true,
+              "name": "Paris Saint-Germain FC",
+              "providerTeamId": "114315",
+              "record": {
+                "draws": 2,
+                "losses": 1,
+                "wins": 4
+              }
+            },
+            {
+              "abbreviation": "lyo",
+              "color": "#1d3fc9",
+              "id": 84,
+              "isHome": false,
+              "name": "Olympique Lyonnais",
+              "providerTeamId": "114309",
+              "record": {
+                "draws": 2,
+                "losses": 1,
+                "wins": 4
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 598148,
+      "slug": "fl1-asm-lil-2026-10-25",
+      "title": "AS Monaco FC vs. Lille OSC",
+      "shortTitle": null,
+      "description": "This event is for the upcoming Ligue 1 game, scheduled for Sunday, October 25, 2026 between AS Monaco FC and Lille OSC.",
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "protocol": "LEGACY",
+      "isYieldBearing": true,
+      "negRiskOnChainId": "0x8d043669e95dae33271d65fafc440e2bc6a7df429d0bc4028471c1a6c97a4900",
+      "marketVariant": "SPORTS_MATCH",
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1174962",
+          "teams": [
+            {
+              "id": 2052,
+              "name": "AS Monaco FC",
+              "abbreviation": "asm",
+              "providerTeamId": "114312",
+              "isHome": true,
+              "record": {
+                "wins": 4,
+                "losses": 1,
+                "draws": 2
+              },
+              "color": "#df2043"
+            },
+            {
+              "id": 1899,
+              "name": "Lille OSC",
+              "abbreviation": "lil",
+              "providerTeamId": "114307",
+              "isHome": false,
+              "record": {
+                "wins": 4,
+                "losses": 1,
+                "draws": 2
+              },
+              "color": "#cd261d"
+            }
+          ]
+        }
+      },
+      "createdAt": "2026-10-12T04:10:53.628Z",
+      "publishedAt": "2026-10-18T14:00:41.498Z",
+      "markets": [
+        {
+          "id": 3225415,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "title": "ASM",
+          "question": "Will AS Monaco FC win on 2026-10-25?",
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf AS Monaco FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isVisible": true,
+          "isNegRisk": true,
+          "isYieldBearing": true,
+          "feeRateBps": 200,
+          "makerFeeBps": 0,
+          "resolution": null,
+          "oracleQuestionId": "0x1da81cb0441c061ef37de4c89b3c3871dc8df7aea8f8dab9f621036780fe977f",
+          "conditionId": "0xb1e476391d6b5acd49fb5e2108bb2b9df9249fb780f95d6e10a618c8eb3b9e6c",
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "48589198559673572671396018135779236320007918920274576184634243795854426836024",
+              "status": null,
+              "bestBid": {
+                "price": 0.48,
+                "size": 26345.5055
+              },
+              "bestAsk": {
+                "price": 0.49,
+                "size": 898.86
+              },
+              "team": null,
+              "variantData": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "19425784659303712786262015228657476714249581049213855107711447255853628752914",
+              "status": null,
+              "bestBid": {
+                "price": 0.51,
+                "size": 898.86
+              },
+              "bestAsk": {
+                "price": 0.52,
+                "size": 26345.5055
+              },
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "questionIndex": 1,
+          "spreadThreshold": 0.06,
+          "shareThreshold": 100,
+          "isBoosted": false,
+          "boostStartsAt": null,
+          "boostEndsAt": null,
+          "polymarketConditionIds": [
+            "0x9dba9cb94bc0f3111cf6bdb83d023b9e21bc86c4c12672fd7f28b9d5d1b5b2c3"
+          ],
+          "kalshiMarketTicker": null,
+          "categorySlug": "fl1-asm-lil-2026-10-25",
+          "createdAt": "2026-10-12T04:10:53.628Z",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_MATCH",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "id": 2052,
+                "name": "AS Monaco FC",
+                "abbreviation": "asm",
+                "providerTeamId": "114312"
+              }
+            }
+          },
+          "team": {
+            "id": 2052,
+            "name": "AS Monaco FC",
+            "abbreviation": "asm",
+            "alias": "Monaco",
+            "league": "fl1"
+          },
+          "marketType": "SPORTS_MONEYLINE",
+          "rewards": {
+            "current": {
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T14:00:00.000Z",
+              "endsAt": "2026-10-25T14:00:00.000Z"
+            },
+            "schedule": [
+              {
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T14:00:00.000Z",
+                "endsAt": "2026-10-25T14:00:00.000Z"
+              },
+              {
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T14:00:00.000Z",
+                "endsAt": "2026-10-25T16:00:00.000Z"
+              }
+            ]
+          }
+        }
+      ],
+      "startsAt": "2026-10-25T14:00:00.000Z",
+      "endsAt": "2026-10-25T16:00:00.000Z",
+      "tradingSession": null,
+      "status": "OPEN",
+      "isVisible": true,
+      "resolutionProvider": "THREE_PO",
+      "tags": [
+        {
+          "id": "4",
+          "name": "Sports",
+          "level": 1,
+          "parentId": null,
+          "makerRebateBps": 0
+        },
+        {
+          "id": "14",
+          "name": "Soccer",
+          "level": 2,
+          "parentId": "4",
+          "makerRebateBps": 0
+        },
+        {
+          "id": "544",
+          "name": "Ligue 1",
+          "level": 3,
+          "parentId": "14",
+          "makerRebateBps": null
+        }
+      ],
+      "teams": [
+        {
+          "id": 1899,
+          "name": "Lille OSC",
+          "abbreviation": "lil",
+          "alias": "Lille",
+          "league": "fl1"
+        },
+        {
+          "id": 2052,
+          "name": "AS Monaco FC",
+          "abbreviation": "asm",
+          "alias": "Monaco",
+          "league": "fl1"
+        }
+      ],
+      "parentSlug": null,
+      "stats": null
+    },
+    {
+      "id": 597246,
+      "slug": "sea-int-fio-2026-10-25",
+      "title": "FC Internazionale Milano vs. ACF Fiorentina",
+      "shortTitle": null,
+      "description": "This event is for the upcoming Serie A game, scheduled for Sunday, October 25, 2026 between FC Internazionale Milano and ACF Fiorentina.",
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "protocol": "LEGACY",
+      "isYieldBearing": true,
+      "negRiskOnChainId": "0xa97ae871a19c9da3c9907fa9af291e68fbaaa96647af9c020dd17d42467caf00",
+      "marketVariant": "SPORTS_MATCH",
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1173929",
+          "teams": [
+            {
+              "id": 1158,
+              "name": "FC Internazionale Milano",
+              "abbreviation": "int",
+              "providerTeamId": "101111",
+              "isHome": true,
+              "record": {
+                "wins": 6,
+                "losses": 0,
+                "draws": 1
+              },
+              "color": "#5b5b9a"
+            },
+            {
+              "id": 231,
+              "name": "ACF Fiorentina",
+              "abbreviation": "fio",
+              "providerTeamId": "101110",
+              "isHome": false,
+              "record": {
+                "wins": 1,
+                "losses": 5,
+                "draws": 1
+              },
+              "color": "#6b5b8b"
+            }
+          ]
+        }
+      },
+      "createdAt": "2026-10-11T23:02:23.080Z",
+      "publishedAt": "2026-10-18T11:30:41.362Z",
+      "markets": [
+        {
+          "id": 3221708,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "title": "INT",
+          "question": "Will FC Internazionale Milano win on 2026-10-25?",
+          "description": "In the upcoming game, scheduled for October 25, 2026\nIf FC Internazionale Milano wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isVisible": true,
+          "isNegRisk": true,
+          "isYieldBearing": true,
+          "feeRateBps": 200,
+          "makerFeeBps": 0,
+          "resolution": null,
+          "oracleQuestionId": "0x9c198c9c91be0897f41d4100751226f01ba1fa1a3e49e9ebaa59829852b20585",
+          "conditionId": "0xfac47fbf1599753186e10ccc8a566ab912ea6941436e32a08238f51b208a2369",
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "56247529601208570528283524238634930751243783949792186407975779647625869928863",
+              "status": null,
+              "bestBid": {
+                "price": 0.72,
+                "size": 2537.85847
+              },
+              "bestAsk": {
+                "price": 0.73,
+                "size": 53402.65652164384
+              },
+              "team": null,
+              "variantData": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "66733542863893881454090730826884178175602348836281936947999310475563014597842",
+              "status": null,
+              "bestBid": {
+                "price": 0.27,
+                "size": 53402.65652164384
+              },
+              "bestAsk": {
+                "price": 0.28,
+                "size": 2537.85847
+              },
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "questionIndex": 1,
+          "spreadThreshold": 0.06,
+          "shareThreshold": 100,
+          "isBoosted": false,
+          "boostStartsAt": null,
+          "boostEndsAt": null,
+          "polymarketConditionIds": [
+            "0xc2174604e9bb360ba160ac4a3d0b86f7dda56410100d31234d663220fd602753"
+          ],
+          "kalshiMarketTicker": null,
+          "categorySlug": "sea-int-fio-2026-10-25",
+          "createdAt": "2026-10-11T23:02:23.080Z",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_MATCH",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "id": 1158,
+                "name": "FC Internazionale Milano",
+                "abbreviation": "int",
+                "providerTeamId": "101111"
+              }
+            }
+          },
+          "team": {
+            "id": 1158,
+            "name": "FC Internazionale Milano",
+            "abbreviation": "int",
+            "alias": "Inter Milan",
+            "league": "sea"
+          },
+          "marketType": "SPORTS_MONEYLINE",
+          "rewards": {
+            "current": {
+              "hourlyRate": 50,
+              "startsAt": "2026-10-24T11:30:00.000Z",
+              "endsAt": "2026-10-25T11:30:00.000Z"
+            },
+            "schedule": [
+              {
+                "hourlyRate": 50,
+                "startsAt": "2026-10-24T11:30:00.000Z",
+                "endsAt": "2026-10-25T11:30:00.000Z"
+              },
+              {
+                "hourlyRate": 500,
+                "startsAt": "2026-10-25T11:30:00.000Z",
+                "endsAt": "2026-10-25T13:30:00.000Z"
+              }
+            ]
+          }
+        }
+      ],
+      "startsAt": "2026-10-25T11:30:00.000Z",
+      "endsAt": "2026-10-25T13:30:00.000Z",
+      "tradingSession": null,
+      "status": "OPEN",
+      "isVisible": true,
+      "resolutionProvider": "THREE_PO",
+      "tags": [
+        {
+          "id": "4",
+          "name": "Sports",
+          "level": 1,
+          "parentId": null,
+          "makerRebateBps": 0
+        },
+        {
+          "id": "14",
+          "name": "Soccer",
+          "level": 2,
+          "parentId": "4",
+          "makerRebateBps": 0
+        },
+        {
+          "id": "545",
+          "name": "Serie A",
+          "level": 3,
+          "parentId": "14",
+          "makerRebateBps": null
+        }
+      ],
+      "teams": [
+        {
+          "id": 231,
+          "name": "ACF Fiorentina",
+          "abbreviation": "fio",
+          "alias": "Fiorentina",
+          "league": "sea"
+        },
+        {
+          "id": 1158,
+          "name": "FC Internazionale Milano",
+          "abbreviation": "int",
+          "alias": "Inter Milan",
+          "league": "sea"
+        }
+      ],
+      "parentSlug": null,
+      "stats": null
+    },
+    {
+      "id": 613718,
+      "slug": "efl-liv-cfc-2026-10-28",
+      "title": "Liverpool FC vs. Chelsea FC",
+      "shortTitle": null,
+      "description": "This event is for the upcoming EFL Cup (Carabao Cup) game, scheduled for Wednesday, October 28, 2026 between Liverpool FC and Chelsea FC.",
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "protocol": "LEGACY",
+      "isYieldBearing": true,
+      "negRiskOnChainId": "0xd74f3458f536df781140499ca3429db9968a2a6c9ffec8f59353f44e43c3cc00",
+      "marketVariant": "SPORTS_MATCH",
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1192088",
+          "teams": [
+            {
+              "id": 122182274,
+              "name": "Liverpool FC",
+              "abbreviation": "liv",
+              "providerTeamId": "116368",
+              "isHome": true,
+              "color": "#81c1c1"
+            },
+            {
+              "id": 122178684,
+              "name": "Chelsea FC",
+              "abbreviation": "cfc",
+              "providerTeamId": "116364",
+              "isHome": false,
+              "color": "#2A2AE1"
+            }
+          ]
+        }
+      },
+      "createdAt": "2026-10-15T04:27:46.239Z",
+      "publishedAt": "2026-10-21T20:00:04.010Z",
+      "markets": [
+        {
+          "id": 3350090,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "title": "LIV",
+          "question": "Will Liverpool FC win on 2026-10-28?",
+          "description": "In the upcoming game, scheduled for October 28, 2026\nIf Liverpool FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isVisible": true,
+          "isNegRisk": true,
+          "isYieldBearing": true,
+          "feeRateBps": 200,
+          "makerFeeBps": 0,
+          "resolution": null,
+          "oracleQuestionId": "0xadffac2bb743991b8c668fb33a7fe6c55fdf2d9f617f24f48a7db3536843964d",
+          "conditionId": "0xc41126a5d46255d0ce176848eaf670ddc5341203fc77669990909ac483fa23a0",
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "57977687995951981540529734962957104548733609079640036126622285454982843042511",
+              "status": null,
+              "bestBid": {
+                "price": 0.37,
+                "size": 2101.8
+              },
+              "bestAsk": {
+                "price": 0.39,
+                "size": 147.43589743589743
+              },
+              "team": null,
+              "variantData": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "12347265042712810681226351760796584544213036257607348213471319362109268728965",
+              "status": null,
+              "bestBid": {
+                "price": 0.61,
+                "size": 147.43589743589743
+              },
+              "bestAsk": {
+                "price": 0.63,
+                "size": 2101.8
+              },
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "questionIndex": 1,
+          "spreadThreshold": 0.06,
+          "shareThreshold": 100,
+          "isBoosted": false,
+          "boostStartsAt": null,
+          "boostEndsAt": null,
+          "polymarketConditionIds": [
+            "0x22109a5c3a79bc83df0e4fd06fb104f1e1c2ea7f8b02fb30fb978c57c8d8fee3"
+          ],
+          "kalshiMarketTicker": null,
+          "categorySlug": "efl-liv-cfc-2026-10-28",
+          "createdAt": "2026-10-15T04:27:46.239Z",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_MATCH",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "id": 122182274,
+                "name": "Liverpool FC",
+                "abbreviation": "liv",
+                "providerTeamId": "116368"
+              }
+            }
+          },
+          "team": {
+            "id": 122182274,
+            "name": "Liverpool FC",
+            "abbreviation": "liv",
+            "alias": null,
+            "league": "efl"
+          },
+          "marketType": "SPORTS_MONEYLINE",
+          "rewards": {
+            "current": null,
+            "schedule": [
+              {
+                "hourlyRate": 50,
+                "startsAt": "2026-10-27T20:00:00.000Z",
+                "endsAt": "2026-10-28T20:00:00.000Z"
+              },
+              {
+                "hourlyRate": 500,
+                "startsAt": "2026-10-28T20:00:00.000Z",
+                "endsAt": "2026-10-28T22:00:00.000Z"
+              }
+            ]
+          }
+        }
+      ],
+      "startsAt": "2026-10-28T20:00:00.000Z",
+      "endsAt": "2026-10-28T22:00:00.000Z",
+      "tradingSession": null,
+      "status": "OPEN",
+      "isVisible": true,
+      "resolutionProvider": "THREE_PO",
+      "tags": [
+        {
+          "id": "4",
+          "name": "Sports",
+          "level": 1,
+          "parentId": null,
+          "makerRebateBps": 0
+        },
+        {
+          "id": "14",
+          "name": "Soccer",
+          "level": 2,
+          "parentId": "4",
+          "makerRebateBps": 0
+        },
+        {
+          "id": "1918",
+          "name": "EFL CUP",
+          "level": 3,
+          "parentId": "14",
+          "makerRebateBps": null
+        }
+      ],
+      "teams": [
+        {
+          "id": 122178684,
+          "name": "Chelsea FC",
+          "abbreviation": "cfc",
+          "alias": null,
+          "league": "efl"
+        },
+        {
+          "id": 122182274,
+          "name": "Liverpool FC",
+          "abbreviation": "liv",
+          "alias": null,
+          "league": "efl"
+        }
+      ],
+      "parentSlug": null,
+      "stats": null
+    },
+    {
+      "id": 657932,
+      "slug": "acle-nef-itj-2026-10-26",
+      "title": "FK Neftchi Fargona vs. Al-Ittihad Club",
+      "shortTitle": null,
+      "description": "This event is for the upcoming AFC Champions League Elite game, scheduled for Monday, October 26, 2026 between FK Neftchi Fargona and Al-Ittihad Club.",
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "protocol": "LEGACY",
+      "isYieldBearing": false,
+      "negRiskOnChainId": "0x845730cf7b235bc9bd493835748cac59b4c880fbea80a7940e16d27f78580e00",
+      "marketVariant": "SPORTS_MATCH",
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1241280",
+          "teams": [
+            {
+              "id": 122185798,
+              "name": "FK Neftchi Fargona",
+              "abbreviation": "nef",
+              "providerTeamId": "3291543",
+              "isHome": true,
+              "color": "#0d9d4d"
+            },
+            {
+              "id": 122178066,
+              "name": "Al-Ittihad Club",
+              "abbreviation": "itj",
+              "providerTeamId": "3284898",
+              "isHome": false,
+              "color": "#fef302"
+            }
+          ]
+        }
+      },
+      "createdAt": "2026-10-23T16:34:06.508Z",
+      "publishedAt": "2026-10-23T16:35:03.494Z",
+      "markets": [
+        {
+          "id": 3708691,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "title": "NEF",
+          "question": "Will FK Neftchi Fargona win on 2026-10-26?",
+          "description": "In the upcoming game, scheduled for October 26, 2026\nIf FK Neftchi Fargona wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "tradingStatus": "OPEN",
+          "status": "REGISTERED",
+          "isVisible": true,
+          "isNegRisk": true,
+          "isYieldBearing": false,
+          "feeRateBps": 200,
+          "makerFeeBps": 0,
+          "resolution": null,
+          "oracleQuestionId": "0xeb4740dc484e2d178fc1bdbfb617cf1ee0affcef1bfda0576386d91553bac69b",
+          "conditionId": "0x8f633061e00a0daaef775c98cc3c7b7c0deae298fa30d2c102779dda8053df7e",
+          "resolverAddress": "0xf61198a64C2e4CAD8CCAf218f3f2ECeFb017902F",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "95070263861652622932591569015503217836001005190334967566130804002027733440084",
+              "status": null,
+              "bestBid": {
+                "price": 0.15,
+                "size": 67.2
+              },
+              "bestAsk": {
+                "price": 0.25,
+                "size": 60
+              },
+              "team": null,
+              "variantData": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "82499924829072404582972580952466454373888429094045872665903013564209669665468",
+              "status": null,
+              "bestBid": {
+                "price": 0.75,
+                "size": 60
+              },
+              "bestAsk": {
+                "price": 0.85,
+                "size": 67.2
+              },
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "questionIndex": 1,
+          "spreadThreshold": 0.06,
+          "shareThreshold": 200,
+          "isBoosted": false,
+          "boostStartsAt": null,
+          "boostEndsAt": null,
+          "polymarketConditionIds": [
+            "0x30bad20a7146b7ef51c9c495ca327f2c1164d5490ab0d68685de3a5421026b72"
+          ],
+          "kalshiMarketTicker": null,
+          "categorySlug": "acle-nef-itj-2026-10-26",
+          "createdAt": "2026-10-23T16:34:06.508Z",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_MATCH",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "id": 122185798,
+                "name": "FK Neftchi Fargona",
+                "abbreviation": "nef",
+                "providerTeamId": "3291543"
+              }
+            }
+          },
+          "team": {
+            "id": 122185798,
+            "name": "FK Neftchi Fargona",
+            "abbreviation": "nef",
+            "alias": null,
+            "league": "acle"
+          },
+          "marketType": "SPORTS_MONEYLINE",
+          "rewards": {
+            "current": null,
+            "schedule": [
+              {
+                "hourlyRate": 50,
+                "startsAt": "2026-10-25T13:45:00.000Z",
+                "endsAt": "2026-10-26T13:45:00.000Z"
+              },
+              {
+                "hourlyRate": 500,
+                "startsAt": "2026-10-26T13:45:00.000Z",
+                "endsAt": "2026-10-26T15:45:00.000Z"
+              }
+            ]
+          }
+        }
+      ],
+      "startsAt": "2026-10-26T13:45:00.000Z",
+      "endsAt": "2026-10-26T15:45:00.000Z",
+      "tradingSession": null,
+      "status": "OPEN",
+      "isVisible": true,
+      "resolutionProvider": "THREE_PO",
+      "tags": [
+        {
+          "id": "4",
+          "name": "Sports",
+          "level": 1,
+          "parentId": null,
+          "makerRebateBps": 0
+        },
+        {
+          "id": "14",
+          "name": "Soccer",
+          "level": 2,
+          "parentId": "4",
+          "makerRebateBps": 0
+        },
+        {
+          "id": "2163",
+          "name": "AFC Champions League",
+          "level": 3,
+          "parentId": "14",
+          "makerRebateBps": null
+        }
+      ],
+      "teams": [
+        {
+          "id": 122178066,
+          "name": "Al-Ittihad Club",
+          "abbreviation": "itj",
+          "alias": null,
+          "league": "acle"
+        },
+        {
+          "id": 122185798,
+          "name": "FK Neftchi Fargona",
+          "abbreviation": "nef",
+          "alias": null,
+          "league": "acle"
+        }
+      ],
+      "parentSlug": null,
+      "stats": null
+    },
+    {
+      "id": 587466,
+      "slug": "fl1-sbr-ogc-2026-10-23",
+      "title": "Stade Brestois 29 vs. OGC Nice",
+      "shortTitle": null,
+      "description": "This event is for the upcoming Ligue 1 game, scheduled for Friday, October 23, 2026 between Stade Brestois 29 and OGC Nice.",
+      "imageUrl": "https://static.predict.fun/soccer",
+      "isNegRisk": true,
+      "protocol": "LEGACY",
+      "isYieldBearing": true,
+      "negRiskOnChainId": "0xb41cc3b46ed79451997ccdbc2db73c20549c2ac397cd0a44fe30a1b249c70000",
+      "marketVariant": "SPORTS_MATCH",
+      "variantData": null,
+      "variantDetails": {
+        "sports": {
+          "provider": "POLYMARKET",
+          "providerEventId": "1162665",
+          "teams": [
+            {
+              "id": 786,
+              "name": "Stade Brestois 29",
+              "abbreviation": "sbr",
+              "providerTeamId": "114304",
+              "isHome": true,
+              "record": {
+                "wins": 2,
+                "losses": 3,
+                "draws": 3
+              },
+              "color": "#e0242b"
+            },
+            {
+              "id": 1577,
+              "name": "OGC Nice",
+              "abbreviation": "ogc",
+              "providerTeamId": "114314",
+              "isHome": false,
+              "record": {
+                "wins": 3,
+                "losses": 3,
+                "draws": 2
+              },
+              "color": "#A08040"
+            }
+          ],
+          "scoreboard": {
+            "source": "POLYMARKET",
+            "isLive": false,
+            "finished": true,
+            "period": "VFT",
+            "score": [
+              {
+                "teamId": 786,
+                "score": 1
+              },
+              {
+                "teamId": 1577,
+                "score": 2
+              }
+            ],
+            "games": []
+          }
+        }
+      },
+      "createdAt": "2026-10-10T04:14:23.230Z",
+      "publishedAt": "2026-10-16T18:45:41.360Z",
+      "markets": [
+        {
+          "id": 3113186,
+          "imageUrl": "https://static.predict.fun/soccer",
+          "title": "SBR",
+          "question": "Will Stade Brestois 29 win on 2026-10-23?",
+          "description": "In the upcoming game, scheduled for October 23, 2026\nIf Stade Brestois 29 wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been completed.\nIf the game is canceled entirely, with no make-up game, this market will resolve \"No\".\nThis market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
+          "tradingStatus": "CLOSED",
+          "status": "RESOLVED",
+          "isVisible": true,
+          "isNegRisk": true,
+          "isYieldBearing": true,
+          "feeRateBps": 200,
+          "makerFeeBps": 0,
+          "resolution": {
+            "name": "No",
+            "indexSet": 2,
+            "onChainId": "101485272973621474775367045198564662260238179261269123444612546715364861862266",
+            "status": "WON",
+            "bestBid": null,
+            "bestAsk": null,
+            "team": null,
+            "variantData": null
+          },
+          "oracleQuestionId": "0x5a55f144eb5cdea3f0988e428dc1974043e7bb41c7e0de5e9a85adb72a7f7584",
+          "conditionId": "0xdf4c6357a80d105d4a1466422e1c2827c73a06c07136baed4b346e154eb86dd8",
+          "resolverAddress": "0x26B366Ab634C43BdA6D784fDCe34F24A37DF8172",
+          "outcomes": [
+            {
+              "name": "Yes",
+              "indexSet": 1,
+              "onChainId": "88006322119938949688880074167312446430255378615082741122915447212522635117746",
+              "status": "LOST",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null,
+              "variantData": null
+            },
+            {
+              "name": "No",
+              "indexSet": 2,
+              "onChainId": "101485272973621474775367045198564662260238179261269123444612546715364861862266",
+              "status": "WON",
+              "bestBid": null,
+              "bestAsk": null,
+              "team": null,
+              "variantData": null
+            }
+          ],
+          "questionIndex": 0,
+          "spreadThreshold": 0.06,
+          "shareThreshold": 100,
+          "isBoosted": false,
+          "boostStartsAt": null,
+          "boostEndsAt": null,
+          "polymarketConditionIds": [
+            "0x06be6545a08282bbc990dbe8069d452dc5b2fb47db27060452e2fd58dcaf65fd"
+          ],
+          "kalshiMarketTicker": null,
+          "categorySlug": "fl1-sbr-ogc-2026-10-23",
+          "createdAt": "2026-10-10T04:14:23.230Z",
+          "decimalPrecision": 2,
+          "marketVariant": "SPORTS_MATCH",
+          "variantData": null,
+          "variantDetails": {
+            "sports": {
+              "provider": "POLYMARKET",
+              "team": {
+                "id": 786,
+                "name": "Stade Brestois 29",
+                "abbreviation": "sbr",
+                "providerTeamId": "114304"
+              }
+            }
+          },
+          "team": {
+            "id": 786,
+            "name": "Stade Brestois 29",
+            "abbreviation": "sbr",
+            "alias": "Brest",
+            "league": "fl1"
+          },
+          "marketType": "SPORTS_MONEYLINE",
+          "rewards": {
+            "current": null,
+            "schedule": [
+              {
+                "hourlyRate": 50,
+                "startsAt": "2026-10-22T18:45:00.000Z",
+                "endsAt": "2026-10-23T18:45:00.000Z"
+              },
+              {
+                "hourlyRate": 500,
+                "startsAt": "2026-10-23T18:45:00.000Z",
+                "endsAt": "2026-10-23T20:45:00.000Z"
+              }
+            ]
+          }
+        }
+      ],
+      "startsAt": "2026-10-23T18:45:00.000Z",
+      "endsAt": "2026-10-23T20:45:00.000Z",
+      "tradingSession": null,
+      "status": "OPEN",
+      "isVisible": true,
+      "resolutionProvider": "THREE_PO",
+      "tags": [
+        {
+          "id": "4",
+          "name": "Sports",
+          "level": 1,
+          "parentId": null,
+          "makerRebateBps": 0
+        },
+        {
+          "id": "14",
+          "name": "Soccer",
+          "level": 2,
+          "parentId": "4",
+          "makerRebateBps": 0
+        },
+        {
+          "id": "544",
+          "name": "Ligue 1",
+          "level": 3,
+          "parentId": "14",
+          "makerRebateBps": null
+        }
+      ],
+      "teams": [
+        {
+          "id": 786,
+          "name": "Stade Brestois 29",
+          "abbreviation": "sbr",
+          "alias": "Brest",
+          "league": "fl1"
+        },
+        {
+          "id": 1577,
+          "name": "OGC Nice",
+          "abbreviation": "ogc",
+          "alias": "Nice",
+          "league": "fl1"
+        }
+      ],
+      "parentSlug": null,
+      "stats": null
+    }
+  ]
+}

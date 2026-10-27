@@ -1,0 +1,74 @@
+[
+ {
+  "team_id": 10182357,
+  "rating": 1238.63,
+  "wins": 34,
+  "losses": 33,
+  "last_match_time": 1792747766,
+  "delta": -13.3894,
+  "match_id": 9057681759,
+  "name": "1win",
+  "tag": "1win",
+  "logo_url": "https://cdn.steamusercontent.com/ugc/10678669599334676082/E48827F4A163D4D02F817EA3C32166D5F1D5FC98/"
+ },
+ {
+  "team_id": 10149530,
+  "rating": 1184.92,
+  "wins": 35,
+  "losses": 33,
+  "last_match_time": 1792787996,
+  "delta": 14.1379,
+  "match_id": 9058656823,
+  "name": "HULIGANI",
+  "tag": "HU",
+  "logo_url": "https://cdn.steamusercontent.com/ugc/14844266645370842778/47230D9640A722EAF06548C2EEB813ED4296AE3F/"
+ },
+ {
+  "team_id": 10212329,
+  "rating": 1146.53,
+  "wins": 36,
+  "losses": 29,
+  "last_match_time": 1792765411,
+  "delta": 14.8466,
+  "match_id": 9058050797,
+  "name": "Team Synapse",
+  "tag": "",
+  "logo_url": "https://cdn.steamusercontent.com/ugc/14176785811446421230/E9FC96999431CDA69AD21FB9FF85FC022E8338BB/"
+ },
+ {
+  "team_id": 9928636,
+  "rating": 1139.36,
+  "wins": 181,
+  "losses": 139,
+  "last_match_time": 1792773790,
+  "delta": -18.2029,
+  "match_id": 9058294483,
+  "name": "Team Lynx",
+  "tag": "LYNX",
+  "logo_url": "https://cdn.steamusercontent.com/ugc/14941196846611701531/643518619FD1EC99DB98FC12C5D8970751E16A2E/"
+ },
+ {
+  "team_id": 10251974,
+  "rating": 1116.03,
+  "wins": 15,
+  "losses": 8,
+  "last_match_time": 1792787996,
+  "delta": -14.1379,
+  "match_id": 9058656823,
+  "name": "Inner Circle x Insanity",
+  "tag": "ICxI",
+  "logo_url": null
+ },
+ {
+  "team_id": 9600141,
+  "rating": 1111.46,
+  "wins": 406,
+  "losses": 358,
+  "last_match_time": 1792696356,
+  "delta": 14.0312,
+  "match_id": 9057084643,
+  "name": "Zero Tenacity",
+  "tag": "Z10",
+  "logo_url": "https://cdn.steamusercontent.com/ugc/23174701605135839/B5A052B86AE5F123031508603154EAD51013C412/"
+ }
+]

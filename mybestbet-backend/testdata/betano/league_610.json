@@ -1,0 +1,52 @@
+{
+ "data": {
+  "blocks": [
+   {
+    "id": "league",
+    "name": "Miami",
+    "events": [
+     {
+      "id": "75300001",
+      "name": "Paul, Tommy - Fritz, Taylor",
+      "shortName": "Paul, Tommy - Fritz, Taylor",
+      "sportId": "TENN",
+      "leagueId": "610",
+      "leagueName": "Miami",
+      "regionName": "ATP",
+      "startTime": 1792850400000,
+      "url": "/odds/paul-tommy-fritz-taylor/75300001/",
+      "participants": [
+       {
+        "name": "Paul, Tommy"
+       },
+       {
+        "name": "Fritz, Taylor"
+       }
+      ],
+      "markets": [
+       {
+        "id": "910000043",
+        "name": "Match Winner",
+        "type": "MR12",
+        "selections": [
+         {
+          "id": "910000041",
+          "name": "1",
+          "fullName": "1",
+          "price": 1.7
+         },
+         {
+          "id": "910000042",
+          "name": "2",
+          "fullName": "2",
+          "price": 2.15
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

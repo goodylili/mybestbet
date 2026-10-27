@@ -1,0 +1,105 @@
+{
+ "R": "OK",
+ "D": {
+  "GID": 10378774,
+  "RGM": "283",
+  "GMK": [
+   {
+    "GMID": "283",
+    "NAME": "Main Markets"
+   },
+   {
+    "GMID": "287",
+    "NAME": "Anytime Assist"
+   },
+   {
+    "GMID": "289",
+    "NAME": "Shots"
+   },
+   {
+    "GMID": "663",
+    "NAME": "Assist Duo"
+   }
+  ],
+  "E": [
+   {
+    "ID": 856420555,
+    "DS": "(Bristol City) Yah, Gibson Osahumen ",
+    "STARTDATE": "2026-10-31 15:00:00",
+    "STARTDATEUTC": "2026-10-31T15:00:00Z",
+    "GID": 10378774,
+    "GN": "Bolton - Bristol City",
+    "O": {
+     "GS_1STSCORER_1STSCORER": "19",
+     "GS_ANYSCORER_Yes": "7.25",
+     "GS_LASTSCORER_LASTSCORER": "19"
+    }
+   },
+   {
+    "ID": 856420554,
+    "DS": "(Bristol City) Bell, Sam ",
+    "STARTDATE": "2026-10-31 15:00:00",
+    "STARTDATEUTC": "2026-10-31T15:00:00Z",
+    "GID": 10378774,
+    "GN": "Bolton - Bristol City",
+    "O": {
+     "GS_1STSCORER_1STSCORER": "8.5",
+     "GS_ANYSCORER_Yes": "3.5",
+     "GS_LASTSCORER_LASTSCORER": "8.5"
+    }
+   },
+   {
+    "ID": 856420553,
+    "DS": "(Bristol City) Randell, Adam ",
+    "STARTDATE": "2026-10-31 15:00:00",
+    "STARTDATEUTC": "2026-10-31T15:00:00Z",
+    "GID": 10378774,
+    "GN": "Bolton - Bristol City",
+    "O": {
+     "GS_1STSCORER_1STSCORER": "27",
+     "GS_ANYSCORER_Yes": "9.5",
+     "GS_LASTSCORER_LASTSCORER": "27"
+    }
+   },
+   {
+    "ID": 856420552,
+    "DS": "(Bristol City) Atkinson, Robert ",
+    "STARTDATE": "2026-10-31 15:00:00",
+    "STARTDATEUTC": "2026-10-31T15:00:00Z",
+    "GID": 10378774,
+    "GN": "Bolton - Bristol City",
+    "O": {
+     "GS_1STSCORER_1STSCORER": "29",
+     "GS_ANYSCORER_Yes": "10",
+     "GS_LASTSCORER_LASTSCORER": "29"
+    }
+   },
+   {
+    "ID": 856420559,
+    "DS": "(Bristol City) Cardines, Rio ",
+    "STARTDATE": "2026-10-31 15:00:00",
+    "STARTDATEUTC": "2026-10-31T15:00:00Z",
+    "GID": 10378774,
+    "GN": "Bolton - Bristol City",
+    "O": {
+     "GS_1STSCORER_1STSCORER": "25",
+     "GS_ANYSCORER_Yes": "9",
+     "GS_LASTSCORER_LASTSCORER": "25"
+    }
+   },
+   {
+    "ID": 856420558,
+    "DS": "(Bristol City) Ballard, Dominic ",
+    "STARTDATE": "2026-10-31 15:00:00",
+    "STARTDATEUTC": "2026-10-31T15:00:00Z",
+    "GID": 10378774,
+    "GN": "Bolton - Bristol City",
+    "O": {
+     "GS_1STSCORER_1STSCORER": "5.6",
+     "GS_ANYSCORER_Yes": "2.38",
+     "GS_LASTSCORER_LASTSCORER": "5.6"
+    }
+   }
+  ]
+ }
+}

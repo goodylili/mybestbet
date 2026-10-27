@@ -1,0 +1,91 @@
+{
+  "source": "kalshi",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "KXACBGAME-26OCT241200SPBMAN",
+      "leagueHint": "ACB",
+      "home": "Basquet Manresa",
+      "away": "CB San Pablo Burgos",
+      "kickoff": "2026-10-24T16:00:00Z"
+    },
+    {
+      "sourceId": "KXACBGAME-26OCT241330CORMUR",
+      "leagueHint": "ACB",
+      "home": "UCAM Murcia",
+      "away": "CB Coruna",
+      "kickoff": "2026-10-24T17:30:00Z"
+    },
+    {
+      "sourceId": "KXACBGAME-26OCT241500ZARFCB",
+      "leagueHint": "ACB",
+      "home": "FC Barcelona",
+      "away": "Basket Zaragoza 2002",
+      "kickoff": "2026-10-24T19:00:00Z"
+    },
+    {
+      "sourceId": "KXACBGAME-26OCT250700ANDBIL",
+      "leagueHint": "ACB",
+      "home": "Bilbao Basket",
+      "away": "BC Andorra",
+      "kickoff": "2026-10-25T11:00:00Z"
+    },
+    {
+      "sourceId": "KXATPMATCH-26OCT24MEDBUB",
+      "leagueHint": "ATP_MIAMI",
+      "home": "Daniil Medvedev",
+      "away": "Alexander Bublik",
+      "kickoff": "2026-10-24T13:00:00Z"
+    },
+    {
+      "sourceId": "KXCS2GAME-26OCT232300RACW",
+      "leagueHint": "CS2",
+      "home": "Rare Atom",
+      "away": "Chinggis Warriors",
+      "kickoff": "2026-10-24T03:10:00Z"
+    },
+    {
+      "sourceId": "KXCS2GAME-26OCT240300MGLZAUR",
+      "leagueHint": "CS2",
+      "home": "TheMongolz",
+      "away": "Aurora Gaming",
+      "kickoff": "2026-10-24T07:00:00Z"
+    },
+    {
+      "sourceId": "KXNBAGAME-26OCT23HOUSAS",
+      "leagueHint": "NBA",
+      "home": "San Antonio",
+      "away": "Houston",
+      "kickoff": "2026-10-24T01:30:00Z"
+    },
+    {
+      "sourceId": "KXNBAGAME-26OCT23NOPUTA",
+      "leagueHint": "NBA",
+      "home": "Utah",
+      "away": "New Orleans",
+      "kickoff": "2026-10-24T01:30:00Z"
+    },
+    {
+      "sourceId": "KXNBAGAME-26OCT24MIACHA",
+      "leagueHint": "NBA",
+      "home": "Charlotte",
+      "away": "Miami",
+      "kickoff": "2026-10-24T22:00:00Z"
+    },
+    {
+      "sourceId": "KXNFLGAME-26OCT25CINBAL",
+      "leagueHint": "NFL",
+      "home": "Baltimore",
+      "away": "Cincinnati",
+      "kickoff": "2026-10-25T17:00:00Z"
+    },
+    {
+      "sourceId": "KXNFLGAME-26OCT25PITNO",
+      "leagueHint": "NFL",
+      "home": "New Orleans",
+      "away": "Pittsburgh",
+      "kickoff": "2026-10-25T13:30:00Z"
+    }
+  ],
+  "markets": null
+}

@@ -1,0 +1,44 @@
+{
+ "bizCode": 10000,
+ "message": "0#0",
+ "data": {
+  "eventId": "sr:match:75793260",
+  "productStatus": "0#0",
+  "estimateStartTime": 1792825200000,
+  "status": 0,
+  "matchStatus": "Not start",
+  "homeTeamId": "sr:competitor:242362",
+  "awayTeamId": "sr:competitor:933633",
+  "homeTeamName": "The Mongolz",
+  "awayTeamName": "Aurora Gaming",
+  "sport": {
+   "id": "sr:sport:109",
+   "name": "ESport Counter-Strike",
+   "category": {
+    "id": "sr:category:1437",
+    "name": "PGL",
+    "tournament": {
+     "id": "sr:tournament:49212",
+     "name": "PGL Masters Bucharest"
+    }
+   }
+  },
+  "markets": [],
+  "bookingStatus": "Booked",
+  "topTeam": false,
+  "homeTeamIcon": "",
+  "awayTeamIcon": "",
+  "hasGiftGrab": false,
+  "bgEvent": false,
+  "ai": false,
+  "matchTrackerNotAllowed": false,
+  "matchIconUrl": "",
+  "hasBoostOutcomes": false,
+  "hasPreCannedBB": false,
+  "hasEventBookingCodes": false,
+  "hasCompetitorLevelBookingCodes": false,
+  "hasSmartPick": false,
+  "bettingRecommendations": [],
+  "banned": false
+ }
+}

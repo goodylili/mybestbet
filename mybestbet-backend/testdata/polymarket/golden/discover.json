@@ -1,0 +1,49 @@
+{
+  "source": "polymarket",
+  "fetchedAt": "2026-10-23T12:00:00Z",
+  "events": [
+    {
+      "sourceId": "epl-ars-eve-2026-10-24",
+      "leagueHint": "EPL",
+      "home": "Arsenal FC",
+      "away": "Everton FC",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "epl-ast-mac-2026-10-24",
+      "leagueHint": "EPL",
+      "home": "Aston Villa FC",
+      "away": "Manchester City FC",
+      "kickoff": "2026-10-24T11:30:00Z"
+    },
+    {
+      "sourceId": "epl-che-tot-2026-10-24",
+      "leagueHint": "EPL",
+      "home": "Chelsea FC",
+      "away": "Tottenham Hotspur FC",
+      "kickoff": "2026-10-24T16:30:00Z"
+    },
+    {
+      "sourceId": "epl-cov-ful-2026-10-24",
+      "leagueHint": "EPL",
+      "home": "Coventry City FC",
+      "away": "Fulham FC",
+      "kickoff": "2026-10-24T14:00:00Z"
+    },
+    {
+      "sourceId": "epl-cry-new-2026-10-25",
+      "leagueHint": "EPL",
+      "home": "Crystal Palace FC",
+      "away": "Newcastle United FC",
+      "kickoff": "2026-10-25T14:00:00Z"
+    },
+    {
+      "sourceId": "epl-ips-not-2026-10-23",
+      "leagueHint": "EPL",
+      "home": "Ipswich Town FC",
+      "away": "Nottingham Forest FC",
+      "kickoff": "2026-10-23T19:00:00Z"
+    }
+  ],
+  "markets": null
+}
