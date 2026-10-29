@@ -8,7 +8,7 @@ import { useStore } from "@/lib/store/emitter"
 import { fixture, leagueSport } from "@/lib/store/data"
 import { signalBySlug } from "@/lib/odds/markets"
 
-export type Section = "list" | "match" | "player" | "signals" | "sources" | "other"
+export type Section = "list" | "match" | "player" | "signals" | "sources" | "baysed" | "other"
 
 let lastSport = "football"
 let lastList = ""
@@ -55,6 +55,8 @@ export function useNav() {
     kind = signalBySlug(param) || null
   } else if (head === "sources") {
     section = "sources"
+  } else if (head === "baysed") {
+    section = "baysed"
   }
   useEffect(() => {
     lastSport = sport

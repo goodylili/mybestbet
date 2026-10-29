@@ -4,6 +4,7 @@ x-local-env: &local-env
   AUTH_SECURE_COOKIES: "false"
   AUTH_GOOGLE_REDIRECT_URL: http://localhost:4040/api/v1/auth/google/callback
   AUTH_EMAIL_FROM: mybestbet <onboarding@resend.dev>
+  SOURCES_DISABLED: bet365,betano,prizepicks,22bet,betwinner,paripesa
 
 x-go-local: &go-local
   environment: *local-env
@@ -12,18 +13,30 @@ x-go-local: &go-local
       - {action: rebuild, path: ../mybestbet-backend, ignore: [bin/, testdata/, docs/]}
 
 services:
-  redis: {ports: !reset []}
+  postgres:
+    command: [postgres, -c, synchronous_commit=off, -c, checkpoint_timeout=15min, -c, max_wal_size=2GB, -c, wal_compression=on, -c, shared_buffers=256MB]
+    cpus: 1.5
+    mem_limit: 1g
+  redis:
+    ports: !reset []
+    command: [redis-server, --save, "", --appendonly, "no"]
+    cpus: 1
+    mem_limit: 2g
   migrate: {environment: *local-env}
-  ingestor: *go-local
-  browserd: *go-local
-  resolver: *go-local
-  engine: *go-local
-  notifier: *go-local
-  stats: *go-local
+  ingestor: {<<: *go-local, cpus: 1, mem_limit: 1g}
+  browserd: {<<: *go-local, cpus: 0.5, mem_limit: 512m}
+  resolver: {<<: *go-local, cpus: 0.5, mem_limit: 512m}
+  engine: {<<: *go-local, cpus: 1.5, mem_limit: 3g}
+  notifier: {<<: *go-local, cpus: 0.25, mem_limit: 128m}
+  stats: {<<: *go-local, cpus: 0.25, mem_limit: 256m}
   api:
     <<: *go-local
     ports: !override ["127.0.0.1:8081:8080"]
+    cpus: 1
+    mem_limit: 768m
   web:
+    cpus: 1
+    mem_limit: 768m
     ports: ["127.0.0.1:4040:3000"]
     develop:
       watch:

@@ -3,6 +3,7 @@ package config
 import (
 	"fmt"
 	"os"
+	"slices"
 	"strings"
 	"time"
 
@@ -206,7 +207,11 @@ func (c *Config) applyEnv() {
 	if v := os.Getenv("BROWSERD_URL"); v != "" {
 		c.BrowserdURL = v
 	}
+	disabled := strings.Split(os.Getenv("SOURCES_DISABLED"), ",")
 	for name, sc := range c.Sources {
+		if slices.Contains(disabled, name) {
+			sc.Enabled = false
+		}
 		prefix := "SOURCE_" + strings.ToUpper(name) + "_"
 		sc.APIKey = os.Getenv(prefix + "API_KEY")
 		sc.APISecret = os.Getenv(prefix + "API_SECRET")

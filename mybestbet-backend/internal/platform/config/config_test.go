@@ -101,3 +101,11 @@ func TestQuoteMaxAgeDisabledWhenUnset(t *testing.T) {
 	assert.Zero(t, QuoteMaxAge{}.For("sportsbook", time.Hour))
 	assert.Zero(t, QuoteMaxAge{MinByType: map[string]time.Duration{"prediction": time.Minute}}.For("prediction", -time.Minute))
 }
+
+func TestSourcesDisabledByEnv(t *testing.T) {
+	t.Setenv("SOURCES_DISABLED", "bet365,prizepicks")
+	cfg := loadRepoConfig(t)
+	assert.False(t, cfg.Sources["bet365"].Enabled)
+	assert.False(t, cfg.Sources["prizepicks"].Enabled)
+	assert.True(t, cfg.Sources["bayse"].Enabled)
+}

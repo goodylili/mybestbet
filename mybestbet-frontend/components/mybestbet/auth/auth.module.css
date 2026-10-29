@@ -112,6 +112,9 @@
 .switch { margin-top: 24px; font-size: 14px; text-align: center; color: var(--fg); }
 .switch a { text-decoration: underline; text-underline-offset: 4px; }
 .switch a:hover { text-decoration-thickness: 2px; }
+.skip { margin-top: 12px; display: flex; flex-direction: column; align-items: center; gap: 2px; font-size: 13px; color: var(--fg-3); }
+.skip button { font-size: 14px; color: var(--fg-2); text-decoration: underline; text-underline-offset: 4px; }
+.skip button:hover { color: var(--fg); }
 
 .code { display: flex; align-items: center; gap: 8px; }
 .code input {

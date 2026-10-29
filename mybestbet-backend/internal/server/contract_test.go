@@ -481,6 +481,14 @@ func TestHandlersMatchOpenAPIContract(t *testing.T) {
 			assert.Equal(t, oneXTwoKey(f.eventID), asMap(asSlice(move["legs"])[1])["marketKey"])
 		}},
 		{name: "signals bad type", method: "get", template: "/v1/signals", path: "/v1/signals?type=bogus", status: 400},
+		{name: "baysed", method: "get", template: "/v1/baysed", path: "/v1/baysed?sport=football&all=true", status: 200, check: func(t *testing.T, body map[string]any) {
+			assert.NotNil(t, body["items"])
+			assert.InDelta(t, 0.05, body["gap"], 1e-9)
+		}},
+		{name: "baysed as a guest", method: "get", template: "/v1/baysed", path: "/v1/baysed", anonymous: true, status: 200},
+		{name: "sports as a guest", method: "get", template: "/v1/sports", path: "/v1/sports", anonymous: true, status: 200},
+		{name: "settings need an account", method: "get", template: "/v1/me/settings", path: "/v1/me/settings", anonymous: true, status: 401},
+		{name: "baysed bad gap", method: "get", template: "/v1/baysed", path: "/v1/baysed?gap=1.5", status: 400},
 		{name: "player stats", method: "get", template: "/v1/players/{id}/stats", path: "/v1/players/" + f.playerID + "/stats?last=5", status: 200, check: func(t *testing.T, body map[string]any) {
 			player := asMap(body["player"])
 			assert.Equal(t, "FW", player["position"])

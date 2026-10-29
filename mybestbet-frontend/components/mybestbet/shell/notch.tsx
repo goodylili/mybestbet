@@ -42,6 +42,7 @@ export function Notch({ ref, searching, setSearching }: {
       </Link>
       <Link href={routes.signals("ev")} data-tour="notch-value" aria-current={current(nav.section === "signals" && nav.kind === "ev")}>Value bets</Link>
       <Link href={routes.sources()} aria-current={current(nav.section === "sources")}>Sources</Link>
+      <Link href={routes.baysed()} aria-current={current(nav.section === "baysed")}>Baysed</Link>
       <button className={styles.anS} aria-label="Search" onClick={open}>
         <SearchIcon />
       </button>

@@ -35,6 +35,7 @@ export const BallIcon = icon('<circle cx="12" cy="12" r="9"/><path d="m12 7 4 3-
 export const ZapIcon = icon('<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>', 18)
 export const TrendIcon = icon('<path d="m3 17 6-6 4 4 8-8M15 7h6v6"/>', 18)
 export const PulseIcon = icon('<path d="M3 12h4l3 7 4-14 3 7h4"/>', 18)
+export const ScaleIcon = icon('<path d="M12 3v18M7 21h10M5 7h14"/><path d="m5 7-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/>', 18)
 export const GapIcon = icon('<path d="M4 7h16M4 17h16M9 7v10M15 7v10"/>', 18)
 export const SteamIcon = icon('<path d="M3 17l5-5 4 3 8-9"/><path d="M14 6h6v6"/>', 18)
 export const HistoryIcon = icon('<path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/>', 14)

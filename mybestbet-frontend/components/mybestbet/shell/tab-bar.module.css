@@ -48,7 +48,7 @@
 @media (max-width: 1099px) {
   .tabbar {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     position: fixed;
     z-index: 35;
     left: 50%;

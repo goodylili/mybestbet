@@ -113,6 +113,7 @@ var sharedResponseTTL = map[string]time.Duration{
 	"GET /v1/events/{id}/props": 2 * time.Second,
 	"GET /v1/signals":           time.Second,
 	"GET /v1/sources":           time.Second,
+	"GET /v1/baysed":            30 * time.Second,
 }
 
 func (s *Server) routes() map[string]http.HandlerFunc {
@@ -127,6 +128,7 @@ func (s *Server) routes() map[string]http.HandlerFunc {
 		"GET /v1/events/{id}/props":     s.getEventProps,
 		"GET /v1/markets/{key}/history": s.getMarketHistory,
 		"GET /v1/signals":               s.listSignals,
+		"GET /v1/baysed":                s.getBaysed,
 		"GET /v1/players/{id}/stats":    s.getPlayerStats,
 		"GET /v1/teams/{id}":            s.getTeam,
 		"GET /v1/sources":               s.listSources,

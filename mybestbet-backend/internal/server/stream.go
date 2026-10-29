@@ -25,6 +25,7 @@ const (
 	clientRetryMillis = 2000
 	boardStreamScope  = "board"
 	maxStreamsPerUser = 16
+	guestStreamPrefix = "guest:"
 )
 
 var (
@@ -76,13 +77,18 @@ func (p *pendingUpdate) drain(now time.Time) canon.BoardUpdate {
 }
 
 func (s *Server) stream(w http.ResponseWriter, r *http.Request) {
-	if principal, ok := auth.PrincipalFrom(r.Context()); ok {
-		release, ok := s.streams.acquire(principal.UserID)
-		if !ok {
-			s.writeFailure(w, r, &auth.RateLimitError{RetryAfter: clientRetryMillis * time.Millisecond})
-			return
-		}
-		defer release()
+	principal, signedIn := auth.PrincipalFrom(r.Context())
+	holder := guestStreamPrefix + s.client(r).IP
+	if signedIn {
+		holder = principal.UserID
+	}
+	release, ok := s.streams.acquire(holder)
+	if !ok {
+		s.writeFailure(w, r, &auth.RateLimitError{RetryAfter: clientRetryMillis * time.Millisecond})
+		return
+	}
+	defer release()
+	if signedIn {
 		ctx, cancel := context.WithDeadline(r.Context(), principal.ExpiresAt)
 		defer cancel()
 		r = r.WithContext(ctx)

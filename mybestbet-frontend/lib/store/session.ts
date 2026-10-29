@@ -1,5 +1,6 @@
 import { ApiError, SNAPSHOT, previewing, publicPost, put, send, setExpireHandler, setPreview } from "@/lib/api/client"
 import type { Meta, SettingsBody, User, UserBody } from "@/lib/api/types"
+import { isGuest } from "@/lib/auth/guest"
 import { startStore } from "./data"
 import { emit } from "./emitter"
 import { exportSettings, hydratePrefs, importSettings, onPrefsChange, setDetectedCountry } from "./prefs"
@@ -64,7 +65,7 @@ export async function startSession(landing = false) {
   if (!landing) startStore()
   let user: User | null = null
   try {
-    user = await loadMe(!landing)
+    user = await loadMe(!landing && !isGuest())
   } catch {
     if (!landing) return startStore()
   }

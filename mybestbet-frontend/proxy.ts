@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server"
 import { authHref, safeNext } from "@/lib/auth/paths"
+import { GUEST_COOKIE } from "@/lib/auth/guest"
 
 const SESSION_COOKIES = ["__Host-mbb_at", "mbb_at", "__Host-mbb_rt", "mbb_rt"]
 const GUEST_ONLY = ["/login", "/signup"]
@@ -11,7 +12,7 @@ export function proxy(request: NextRequest) {
   if (GUEST_ONLY.includes(pathname)) {
     return signedIn ? NextResponse.redirect(new URL(safeNext(searchParams.get("next")), request.url)) : NextResponse.next()
   }
-  if (signedIn || OPEN) return NextResponse.next()
+  if (signedIn || OPEN || request.cookies.get(GUEST_COOKIE)?.value === "1") return NextResponse.next()
   return NextResponse.redirect(new URL(authHref("/login", { next: pathname + search }), request.url))
 }
 
@@ -26,5 +27,6 @@ export const config = {
     "/players/:path*",
     "/signals/:path*",
     "/sources",
+    "/baysed",
   ],
 }

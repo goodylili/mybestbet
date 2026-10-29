@@ -5,7 +5,8 @@ import { useRouter } from "next/navigation"
 import { useId, useState } from "react"
 import { publicPost } from "@/lib/api/client"
 import type { CodeSent, OtpPurpose } from "@/lib/api/types"
-import { authHref } from "@/lib/auth/paths"
+import { authHref, safeNext } from "@/lib/auth/paths"
+import { startGuest } from "@/lib/auth/guest"
 import { Alert, AuthHead, CodeInput, EMPTY_CODE, Field, GoogleOption, PasswordField, ResendCode, Submit, Switch, errorText, hold, leave, rules, useAuthForm } from "./kit"
 import styles from "./auth.module.css"
 
@@ -35,6 +36,10 @@ export function LoginForm({ next, email, googleFailed }: Props) {
         <Submit busy={form.busy} label="Sign in" busyLabel="Signing in" />
       </form>
       <Switch text="Don&apos;t have an account?" href={authHref("/signup", { next })} label="Sign up" />
+      <p className={styles.skip}>
+        <button type="button" onClick={() => { startGuest(); location.assign(safeNext(next)) }}>Skip for now</button>
+        <span>Browse live odds without an account.</span>
+      </p>
     </>
   )
 }

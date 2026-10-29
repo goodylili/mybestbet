@@ -223,12 +223,17 @@ func TestPasswordResetRevokesSessions(t *testing.T) {
 func TestProtectedRouteRejectsMissingOrBadTokens(t *testing.T) {
 	h := newAuthHarness(t, auth.GoogleEndpoints{}, "")
 	b := newBrowser(t, h.server.URL)
-	for _, header := range [][]string{nil, {"Authorization", "Bearer not-a-jwt"}, {"Authorization", "Basic abc"}} {
+	for _, header := range [][]string{{"Authorization", "Bearer not-a-jwt"}, {"Authorization", "Basic abc"}} {
 		resp, body := b.do(http.MethodGet, "/v1/sports", "", header...)
 		require.Equal(t, http.StatusUnauthorized, resp.StatusCode)
 		h.conforms(t, "/v1/sports", "get", resp, body)
 	}
-	resp, _ := b.do(http.MethodGet, "/v1/meta", "")
+	resp, body := b.do(http.MethodGet, "/v1/me/settings", "")
+	require.Equal(t, http.StatusUnauthorized, resp.StatusCode)
+	h.conforms(t, "/v1/me/settings", "get", resp, body)
+	resp, _ = b.do(http.MethodGet, "/v1/sports", "")
+	assert.Equal(t, http.StatusOK, resp.StatusCode, "guests read odds without a token")
+	resp, _ = b.do(http.MethodGet, "/v1/meta", "")
 	assert.Equal(t, http.StatusOK, resp.StatusCode, "meta stays public")
 	resp, _ = b.do(http.MethodGet, "/healthz", "")
 	assert.Equal(t, http.StatusOK, resp.StatusCode)

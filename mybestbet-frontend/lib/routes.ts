@@ -12,4 +12,5 @@ export const routes = {
     `/players/${encodeURIComponent(id)}` + (eventId ? `?event=${encodeURIComponent(eventId)}` + (key ? `&key=${encodeURIComponent(key)}` : "") : ""),
   signals: (type: SignalType, open?: string) => `/signals/${SIGNALS[type].slug}` + (open ? `?open=${encodeURIComponent(open)}` : ""),
   sources: () => "/sources",
+  baysed: () => "/baysed",
 }

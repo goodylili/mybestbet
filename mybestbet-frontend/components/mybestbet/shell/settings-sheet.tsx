@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react"
 import { BookLogo } from "@/components/mybestbet/shared/logos"
 import { CloseIcon } from "@/components/mybestbet/shared/icons"
 import { replayIntro } from "@/components/mybestbet/onboarding/onboarding"
-import { countryList, countryName } from "@/lib/geo"
+import { ALL_LOCATIONS, countryList, countryName } from "@/lib/geo"
 import { S, isAvailable, type Source } from "@/lib/store/data"
 import { useStore } from "@/lib/store/emitter"
 import { prefs, setAllSources, setCountry, setFormat, setTheme, toggleDisplay, toggleLocalOnly, toggleSource, userCountry } from "@/lib/store/prefs"
@@ -50,17 +50,22 @@ function Location() {
           <span>Country</span>
           <select className={styles.sel} value={country} onChange={(e) => setCountry(e.target.value)} aria-label="Your country">
             {country ? null : <option value="">Choose a country</option>}
+            <option value={ALL_LOCATIONS}>All locations</option>
             {countryList().map((c) => <option key={c.code} value={c.code}>{c.name}</option>)}
           </select>
         </label>
       </div>
-      <button className={styles.sw} role="switch" aria-checked={prefs.geo.only} onClick={toggleLocalOnly}>
-        <span className={styles.tx}>
-          Only books available in my location
-          <span>Hide books and signals you cannot use{country ? " in " + countryName(country) : ""}</span>
-        </span>
-        <span className={styles.tog} aria-hidden="true" />
-      </button>
+      {country === ALL_LOCATIONS ? (
+        <p className={styles.note}>Every book and signal is shown, wherever it operates.</p>
+      ) : (
+        <button className={styles.sw} role="switch" aria-checked={prefs.geo.only} onClick={toggleLocalOnly}>
+          <span className={styles.tx}>
+            Only books available in my location
+            <span>Hide books and signals you cannot use{country ? " in " + countryName(country) : ""}</span>
+          </span>
+          <span className={styles.tog} aria-hidden="true" />
+        </button>
+      )}
     </div>
   )
 }

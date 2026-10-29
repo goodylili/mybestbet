@@ -28,8 +28,12 @@ func TestEveryNonPublicRouteRequiresAuth(t *testing.T) {
 	for pattern := range adminRoutes {
 		assert.Contains(t, routes, pattern, "stale admin route")
 	}
+	for pattern := range guestRoutes {
+		assert.Contains(t, routes, pattern, "stale guest route")
+		assert.True(t, strings.HasPrefix(pattern, "GET "), "guest route %s must be a read", pattern)
+	}
 	for pattern := range routes {
-		if publicRoutes[pattern] {
+		if publicRoutes[pattern] || guestRoutes[pattern] {
 			continue
 		}
 		t.Run(pattern, func(t *testing.T) {

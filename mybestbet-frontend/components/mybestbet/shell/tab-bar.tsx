@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { PulseIcon, SportIcon, TicketIcon, TrendIcon, ZapIcon } from "@/components/mybestbet/shared/icons"
+import { PulseIcon, ScaleIcon, SportIcon, TicketIcon, TrendIcon, ZapIcon } from "@/components/mybestbet/shared/icons"
 import { signalList } from "@/lib/store/data"
 import { useStore } from "@/lib/store/emitter"
 import { prefs } from "@/lib/store/prefs"
@@ -37,6 +37,10 @@ export function TabBar() {
       <Link href={routes.sources()} aria-current={current(nav.section === "sources")}>
         <PulseIcon />
         <span>Sources</span>
+      </Link>
+      <Link href={routes.baysed()} aria-current={current(nav.section === "baysed")}>
+        <ScaleIcon />
+        <span>Baysed</span>
       </Link>
       <button onClick={shell.openSlip}>
         <TicketIcon />

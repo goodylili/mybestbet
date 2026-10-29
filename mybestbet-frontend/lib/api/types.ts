@@ -207,6 +207,48 @@ export type Leg = {
 
 export type SignalType = "arb" | "ev" | "line" | "move"
 
+export type BaysedFlag = "beats_books" | "beats_harder_line" | "off_consensus"
+
+export type BaysedQuote = { source: string; raw: number; form: PriceForm; prob: number; deepLink?: string }
+
+export type BaysedSide = {
+  side: string
+  label: string
+  bayse: BaysedQuote
+  best?: BaysedQuote
+  harder?: BaysedQuote
+  harderLine?: number
+  fair?: number
+  fairModel?: "exact" | "interpolated" | "poisson"
+  gap?: number
+  flags: BaysedFlag[]
+}
+
+export type BaysedLadderLine = { line?: number; selections: { side: string; label: string; cells: Record<string, BaysedQuote> }[] }
+
+export type BaysedMarket = {
+  eventId: string
+  sport: string
+  leagueCode: string
+  home: string
+  away: string
+  kickoff: string
+  keyString: string
+  market: string
+  line?: number
+  period?: string
+  playerId?: string
+  player?: string
+  teamId?: string
+  balancedLine?: number
+  sides: BaysedSide[]
+  ladder: BaysedLadderLine[]
+  books: string[]
+  flags: BaysedFlag[]
+}
+
+export type BaysedReport = { items: BaysedMarket[]; compared: number; unmatched: number; gap: number; books: string[] }
+
 export type Signal = {
   id: string
   dedupeKey: string

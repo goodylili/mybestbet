@@ -175,6 +175,25 @@ paths:
               schema: {$ref: "#/components/schemas/SignalList"}
         "400": {$ref: "#/components/responses/Error"}
         "500": {$ref: "#/components/responses/Error"}
+  /v1/baysed:
+    get:
+      operationId: getBaysed
+      summary: Bayse lines that look mispriced against every other book
+      description: "Compares each live Bayse market, match and player alike, with every line the other sources price for the same player and stat. A side is flagged beats_books when Bayse pays more than every source at the same line, beats_harder_line when it pays more than a source does on a harder line, and off_consensus when its implied probability is at least gap away from the other sources' de-vigged fair probability."
+      parameters:
+        - {$ref: "#/components/parameters/SportFilter"}
+        - {name: hours, in: query, schema: {type: integer, minimum: 1, maximum: 336, default: 72}, description: How far ahead of now to look}
+        - {name: gap, in: query, schema: {type: number, minimum: 0, exclusiveMaximum: 1, default: 0.05}, description: Probability gap from the books' fair price that flags off_consensus}
+        - {name: all, in: query, schema: {type: boolean, default: false}, description: Include unflagged markets and markets no other source prices}
+      responses:
+        "401": {$ref: "#/components/responses/Unauthorized"}
+        "200":
+          description: Flagged Bayse selections, most flags and widest gap first
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/BaysedReport"}
+        "400": {$ref: "#/components/responses/Error"}
+        "500": {$ref: "#/components/responses/Error"}
   /v1/players/{id}/stats:
     get:
       operationId: getPlayerStats
@@ -927,6 +946,79 @@ components:
             lineupStatus: {$ref: "#/components/schemas/LineupStatus"}
             benchWarning: {type: boolean}
             ratings: {$ref: "#/components/schemas/RatingDistribution", description: Present when the player has a rating prop}
+    BaysedQuote:
+      type: object
+      required: [source, raw, form, prob]
+      properties:
+        source: {type: string}
+        raw: {type: number}
+        form: {$ref: "#/components/schemas/PriceForm"}
+        prob: {type: number}
+        deepLink: {type: string}
+    BaysedSide:
+      type: object
+      required: [side, label, bayse, flags]
+      properties:
+        side: {type: string}
+        label: {type: string}
+        bayse: {$ref: "#/components/schemas/BaysedQuote"}
+        best: {$ref: "#/components/schemas/BaysedQuote", description: The other source paying the most at Bayse's exact line}
+        harder: {$ref: "#/components/schemas/BaysedQuote", description: "A book price on a harder line (higher for over, lower for under) that Bayse still pays more than"}
+        harderLine: {type: number}
+        fair: {type: number, description: "Other sources' de-vigged probability at Bayse's line: averaged at the same line, interpolated between their neighbouring lines, or read from a Poisson fit to the line they balance closest to evens"}
+        fairModel: {type: string, enum: [exact, interpolated, poisson]}
+        gap: {type: number, description: fair minus Bayse's implied probability; positive means Bayse pays more than fair}
+        flags: {type: array, items: {$ref: "#/components/schemas/BaysedFlag"}}
+    BaysedFlag:
+      type: string
+      enum: [beats_books, beats_harder_line, off_consensus]
+    BaysedLadderSelection:
+      type: object
+      required: [side, label, cells]
+      properties:
+        side: {type: string}
+        label: {type: string}
+        cells:
+          type: object
+          additionalProperties: {$ref: "#/components/schemas/BaysedQuote"}
+          description: Keyed by source name
+    BaysedLadderLine:
+      type: object
+      required: [selections]
+      properties:
+        line: {type: number}
+        selections: {type: array, items: {$ref: "#/components/schemas/BaysedLadderSelection"}}
+    BaysedMarket:
+      type: object
+      required: [eventId, sport, leagueCode, home, away, kickoff, keyString, market, sides, ladder, books, flags]
+      properties:
+        eventId: {type: string, format: uuid}
+        sport: {$ref: "#/components/schemas/Sport"}
+        leagueCode: {type: string}
+        home: {type: string}
+        away: {type: string}
+        kickoff: {type: string, format: date-time}
+        keyString: {type: string}
+        market: {type: string}
+        line: {type: number}
+        period: {type: string}
+        playerId: {type: string, format: uuid}
+        player: {type: string}
+        teamId: {type: string}
+        balancedLine: {type: number, description: The line the other sources price closest to evens}
+        sides: {type: array, items: {$ref: "#/components/schemas/BaysedSide"}}
+        ladder: {type: array, items: {$ref: "#/components/schemas/BaysedLadderLine"}, description: "Every source's prices on every line of this market, lowest line first, for the sides Bayse offers"}
+        books: {type: array, items: {type: string}, description: Other sources pricing any line of this player and stat}
+        flags: {type: array, items: {$ref: "#/components/schemas/BaysedFlag"}}
+    BaysedReport:
+      type: object
+      required: [items, compared, unmatched, gap, books]
+      properties:
+        items: {type: array, items: {$ref: "#/components/schemas/BaysedMarket"}}
+        compared: {type: integer, description: Bayse markets where another source prices some line of the same player and stat}
+        unmatched: {type: integer, description: Bayse markets no other source prices on any line}
+        gap: {type: number}
+        books: {type: array, items: {type: string}}
     PropCell:
       type: object
       required: [raw]

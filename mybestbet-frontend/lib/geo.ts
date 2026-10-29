@@ -28,9 +28,23 @@ const NOT_COUNTRIES = new Set(["EU", "EZ", "UN", "QO", "ZZ", "XA", "XB", "AC", "
 
 export const ALPHA2 = /^[A-Z]{2}$/
 
+/** The location value that turns location filtering off, so every book is available. */
+export const ALL_LOCATIONS = "ALL"
+
+function languageCountry() {
+  for (const tag of navigator.languages || [navigator.language]) {
+    try {
+      const region = new Intl.Locale(tag).maximize().region
+      if (region && ALPHA2.test(region) && !NOT_COUNTRIES.has(region)) return region
+    } catch {}
+  }
+  return ""
+}
+
+/** Best guess at the visitor's country from the browser: the time zone first, then the language region. */
 export function zoneCountry() {
   try {
-    return ZONES[Intl.DateTimeFormat().resolvedOptions().timeZone] || ""
+    return ZONES[Intl.DateTimeFormat().resolvedOptions().timeZone] || languageCountry()
   } catch {
     return ""
   }
@@ -39,6 +53,7 @@ export function zoneCountry() {
 let names: Intl.DisplayNames | null = null
 
 export function countryName(code: string) {
+  if (code === ALL_LOCATIONS) return "all locations"
   try {
     names ??= new Intl.DisplayNames(["en"], { type: "region", fallback: "none" })
     return names.of(code) || code

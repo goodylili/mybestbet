@@ -36,6 +36,24 @@ var publicRoutes = map[string]bool{
 	"GET /v1/auth/google/callback":  true,
 }
 
+var guestRoutes = map[string]bool{
+	"GET /v1/sports":                true,
+	"GET /v1/search":                true,
+	"GET /v1/leagues":               true,
+	"GET /v1/events":                true,
+	"GET /v1/events/calendar":       true,
+	"GET /v1/events/{id}":           true,
+	"GET /v1/events/{id}/props":     true,
+	"GET /v1/markets/{key}/history": true,
+	"GET /v1/signals":               true,
+	"GET /v1/baysed":                true,
+	"GET /v1/players/{id}/stats":    true,
+	"GET /v1/teams/{id}":            true,
+	"GET /v1/sources":               true,
+	"GET /v1/logos/{kind}/{id}":     true,
+	"GET /v1/stream":                true,
+}
+
 var adminRoutes = map[string]bool{
 	"GET /v1/admin/review":  true,
 	"POST /v1/admin/review": true,
@@ -44,6 +62,8 @@ var adminRoutes = map[string]bool{
 func (s *Server) guard(pattern string, handler http.HandlerFunc) http.Handler {
 	switch {
 	case publicRoutes[pattern]:
+	case guestRoutes[pattern]:
+		handler = s.optionalUser(handler)
 	case adminRoutes[pattern]:
 		handler = s.requireAdminToken(handler)
 	default:
@@ -68,6 +88,16 @@ func (s *Server) requireUser(next http.HandlerFunc) http.HandlerFunc {
 			return
 		}
 		next(w, r.WithContext(auth.WithPrincipal(r.Context(), principal)))
+	}
+}
+
+func (s *Server) optionalUser(next http.HandlerFunc) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		if s.accessToken(r) == "" && r.Header.Get("Authorization") == "" {
+			next(w, r)
+			return
+		}
+		s.requireUser(next)(w, r)
 	}
 }
 

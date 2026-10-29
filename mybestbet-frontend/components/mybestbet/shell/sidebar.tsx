@@ -4,7 +4,7 @@ import Link from "next/link"
 import { Fragment, useState, type ReactNode } from "react"
 import type { League } from "@/lib/api/types"
 import { LeagueMark, hasLeagueMark } from "@/components/mybestbet/shared/logos"
-import { PulseIcon, SIGNAL_ICONS, SportIcon, StarIcon } from "@/components/mybestbet/shared/icons"
+import { PulseIcon, ScaleIcon, SIGNAL_ICONS, SportIcon, StarIcon } from "@/components/mybestbet/shared/icons"
 import { compMeta, compOrder } from "@/lib/catalog"
 import { S, dayFixtures, signalList, sportCount, type Fixture } from "@/lib/store/data"
 import { useStore } from "@/lib/store/emitter"
@@ -164,6 +164,13 @@ export function Sidebar() {
         icon={<PulseIcon />}
         name="Sources"
         count={S.sources.length ? healthy + "/" + S.sources.length : ""}
+      />
+      <NavItem
+        href={routes.baysed()}
+        current={nav.section === "baysed"}
+        icon={<ScaleIcon />}
+        name="Baysed"
+        count=""
       />
       <p className={"edu " + styles.edu}>Educational demo. Not affiliated with or licensed by any book, league or team shown. Names and logos belong to their owners.</p>
     </aside>

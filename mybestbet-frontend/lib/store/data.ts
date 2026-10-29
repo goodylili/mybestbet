@@ -6,6 +6,7 @@ import type {
   SourceHealth, SportSummary, Team,
 } from "@/lib/api/types"
 import { compMeta } from "@/lib/catalog"
+import { ALL_LOCATIONS } from "@/lib/geo"
 import { decOf } from "@/lib/odds/format"
 import { mainMarket, setMarketSpecs, sideName, sourceKind, SOURCE_NOTE } from "@/lib/odds/markets"
 import { DAY, NDAYS, hhmm, today0 } from "@/lib/odds/time"
@@ -111,7 +112,7 @@ export const sourceInfo = (name: string) => S.sources.find((s) => s.name === nam
 export const isDown = (name: string) => !!sourceInfo(name)?.down
 export function availableIn(name: string, country: string) {
   const h = sourceInfo(name)?.h
-  if (!h || !country) return true
+  if (!h || !country || country === ALL_LOCATIONS) return true
   return !h.blockedCountries?.includes(country) && (!h.countries?.length || h.countries.includes(country))
 }
 export const isAvailable = (name: string) => availableIn(name, userCountry())

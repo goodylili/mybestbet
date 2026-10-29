@@ -1,6 +1,6 @@
 import type { Settings } from "@/lib/api/types"
 import type { OddsFormat } from "@/lib/odds/format"
-import { ALPHA2, zoneCountry } from "@/lib/geo"
+import { ALL_LOCATIONS, ALPHA2, zoneCountry } from "@/lib/geo"
 import { emit } from "./emitter"
 
 export type Theme = "dark" | "light"
@@ -90,7 +90,7 @@ export const exportSettings = (): Settings => ({
   country: prefs.geo.country, localOnly: prefs.geo.only,
 })
 
-const isCountry = (v: unknown): v is string => typeof v === "string" && (v === "" || ALPHA2.test(v))
+const isCountry = (v: unknown): v is string => typeof v === "string" && (v === "" || v === ALL_LOCATIONS || ALPHA2.test(v))
 
 const geoValue = () => ({ country: prefs.geo.country, only: prefs.geo.only })
 

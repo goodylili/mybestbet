@@ -28,7 +28,7 @@ export function numberIn(s?: string | null) {
 }
 
 export const formatLine = (line: number | null | undefined, signed?: boolean) =>
-  line == null ? "" : signed ? (line > 0 ? "+" : line < 0 ? "−" : "") + Math.abs(line).toFixed(1) : String(line)
+  line == null ? "" : signed ? (line > 0 ? "+" : line < 0 ? "−" : "") + (Number.isInteger(line) ? Math.abs(line).toFixed(1) : String(Math.abs(line))) : String(line)
 
 /** Prediction market spread and liquidity, e.g. "48–51¢ · $12k". */
 export function depth(price?: Price | null) {
